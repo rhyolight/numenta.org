@@ -6,10 +6,11 @@ baseurl: http://numenta.org
 future: false
 
 markdown: maruku
-pygments: true
 
 name: NuPIC
 description: Numenta Platform for Intelligent Computing
 
 safe: true
 lsi: false
+pygments: true
+source: .
