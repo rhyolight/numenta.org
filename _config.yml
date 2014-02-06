@@ -10,6 +10,8 @@ markdown: maruku
 name: NuPIC
 description: Numenta Platform for Intelligent Computing
 
+exclude: /vendor
+
 safe: true
 lsi: false
 pygments: true
