@@ -1,4 +1,4 @@
-Numenta.org
+Numenta.org [![Build Status](https://travis-ci.org/numenta/numenta.org.png?branch=gh-pages)](https://travis-ci.org/numenta/numenta.org)
 ===========
 
 This is the source of http://www.numenta.org. It is written using Github Pages.
