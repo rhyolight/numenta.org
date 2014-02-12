@@ -1,3 +1,4 @@
+
 # Numenta Platform for Intelligent Computing (NuPIC)
 
 NuPIC is a Python / C++ open source project that implements the [CLA]({{ site.baseurl }}/cla.html) as described in the [CLA White Paper]({{ site.baseurl }}/cla-white-paper.html). For an introduction to the project, watch the presentation below, given at the Open Source Conference (OSCON) in 2013.
