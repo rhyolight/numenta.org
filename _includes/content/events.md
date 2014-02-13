@@ -32,7 +32,7 @@
     </dd>
     <dt>RSVP</dt>
     <dd>
-        ...on the <strong><a href="http://www.meetup.com/numenta/events/???/">NuPIC Meetup Page</a></strong>.
+        ...on the <strong><a href="http://www.meetup.com/numenta/events/166009152/">NuPIC Meetup Page</a></strong>.
     </dd>
     <dt>Parking</dt>
     <dd>TBD</dd>
