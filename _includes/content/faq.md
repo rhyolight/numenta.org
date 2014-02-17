@@ -14,7 +14,7 @@ The algorithm lends itself well to high-speed temporal data, but it could potent
 
 What's the difference between your contributor license and Apache's?
 --------------------
-Not much, really. Here's a [diff](http://www.diffchecker.com/tas54ez4).
+Not much, really. Here's a [diff](http://www.diffchecker.com/tas54ez4). We've also made a change to the contributor license that diverges from slightly from the Apache version, you can read more about it [on our blog]({{ site.baseurl }}/blog/2013/09/03/numenta-contributor-license-v1-1.html).
 
 
 What's the difference between this and your old offering?
