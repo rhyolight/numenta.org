@@ -24,7 +24,9 @@ We're working on providing virtual machines ready to run NuPIC so Windows develo
 
 ## Source Code
 
-We keep our source code on [Github](http://github.com/numenta/nupic).
+We keep our source code on Github in the following projects:
+
+- [numenta/nupic](http://github.com/numenta/nupic) (python client)
 
 <iframe src="http://ghbtns.com/github-btn.html?user=numenta&amp;repo=nupic&amp;type=watch&amp;count=true&amp;size=large"
   allowtransparency="true" frameborder="0" scrolling="0" width="170" height="30">
@@ -33,19 +35,25 @@ We keep our source code on [Github](http://github.com/numenta/nupic).
   allowtransparency="true" frameborder="0" scrolling="0" width="170" height="30">
 </iframe>
 
+- [numenta/nupic.core](http://github.com/numenta/nupic.core) (c++ core)
+
+<iframe src="http://ghbtns.com/github-btn.html?user=numenta&amp;repo=nupic.core&amp;type=watch&amp;count=true&amp;size=large"
+  allowtransparency="true" frameborder="0" scrolling="0" width="170" height="30">
+</iframe>
+<iframe src="http://ghbtns.com/github-btn.html?user=numenta&amp;repo=nupic.core&amp;type=fork&amp;count=true&amp;size=large"
+  allowtransparency="true" frameborder="0" scrolling="0" width="170" height="30">
+</iframe>
+
 <br/>
 <br/>
 
 ## Build Status
 
-We run continuous integration with [Travis-CI](https://travis-ci.org/numenta/nupic). You can see detailed status of our build pipeline at [status.numenta.org](http://status.numenta.org).
+We run continuous integration with Travis-CI for both [nupic](https://travis-ci.org/numenta/nupic) and [nupic.core](https://travis-ci.org/numenta/nupic.core). You can see detailed status of our build pipelines at [status.numenta.org](http://status.numenta.org).
 
-[![Build Status](https://travis-ci.org/numenta/nupic.png?branch=master)](https://travis-ci.org/numenta/nupic)
+- Current nupic status: [![Build Status](https://travis-ci.org/numenta/nupic.png?branch=master)](https://travis-ci.org/numenta/nupic)
+- Current nupic.core status: [![Build Status](https://travis-ci.org/numenta/nupic.core.png?branch=master)](https://travis-ci.org/numenta/nupic.core)
 
 ## Issue Tracking
 
-We use Github Issues for [issue tracking](https://github.com/numenta/nupic/issues) and [Huboard](https://huboard.com/numenta/nupic) for agile planning.
-
-## Road Map
-
-You can get an indication of our current direction by reading through our [Road Map](https://github.com/numenta/nupic/wiki/Road-Map).
+We have currently have two primary trackers for the [NuPIC python client](https://github.com/numenta/nupic/issues) and for the [C++ core](https://github.com/numenta/nupic.core/issues).
