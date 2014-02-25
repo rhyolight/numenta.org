@@ -4,6 +4,8 @@ NuPIC Media
 
 <div id="jump-menu"></div>
 
+The following videos are officially supported by Numenta. Other community-provided resources can be found on our [community content]({{ site.baseurl }}/community-content.html) page.
+
 ## <a href="http://www.youtube.com/watch?v=QBs-2_wl_JM" rel="prettyPhoto" title="CLA Deep Dive">CLA Deep Dive</a>
 
 ### [2013 Fall Hackathon]({{ site.baseurl }}/blog/2013/11/06/2013-fall-hackathon-outcome.html)
