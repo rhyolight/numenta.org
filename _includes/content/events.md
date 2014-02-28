@@ -1,6 +1,14 @@
 
 # Upcoming Events
 
+## Jeff Hawkins on CLA Sensorimotor Integration
+
+[RSVP on Meetup.com](http://www.meetup.com/numenta/events/168671932/).
+
+Jeff has spend a lot of time lately thinking about some changes to the CLA algorithms implemented in the NuPIC open source project, which will move ahead towards sensorimotor integration. In this presentation, he explains the details behind his latest thinking, and will take audience questions. 
+
+This event will be recorded and live-streamed. 
+
 ## NuPIC Spring 2014 Hackathon
 
 <div class="notice">
