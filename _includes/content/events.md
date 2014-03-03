@@ -1,11 +1,12 @@
 
 # Upcoming Events
 
-## Jeff Hawkins on CLA Sensorimotor Integration
+## Jeff Hawkins on Sensory-motor Integration in HTM Theory
 
 [RSVP on Meetup.com](http://www.meetup.com/numenta/events/168671932/).
 
-Jeff has spend a lot of time lately thinking about some changes to the CLA algorithms implemented in the NuPIC open source project, which will move ahead towards sensorimotor integration. In this presentation, he explains the details behind his latest thinking, and will take audience questions. 
+The neocortex generates most of our high level behavior and every region in the neocortex has some form of motor output.  In this talk I will describe what we know about how the cortex generates behavior and how behavior fits within the framework of Hierarchical Temporal Memory theory.  Although we don’t yet have a comprehensive theory of how the neocortex generates behavior we do understand several of the major components giving us hope that a comprehensive theory may be reachable in the near future.
+ 
 
 This event will be recorded and live-streamed. 
 
