@@ -6,6 +6,10 @@ NuPIC Media
 
 The following videos are officially supported by Numenta. Other community-provided resources can be found on our [community content]({{ site.baseurl }}/community-content.html) page.
 
+## <a href="http://www.youtube.com/watch?v=_q5W2Ov6C9E" rel="prettyPhoto" title="Random Distributed Scalar Encoder (NuPIC)">Random Distributed Scalar Encoder (NuPIC)</a>
+
+Chetan Surpur describes the Random Distributed Scalar Encoder used in NuPIC.
+
 ## <a href="http://www.youtube.com/watch?v=QBs-2_wl_JM" rel="prettyPhoto" title="CLA Deep Dive">CLA Deep Dive</a>
 
 ### [2013 Fall Hackathon]({{ site.baseurl }}/blog/2013/11/06/2013-fall-hackathon-outcome.html)
