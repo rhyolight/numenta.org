@@ -25,3 +25,9 @@ Installing Nupic on Windows, from Aseem Hegshetye.
 ## <a href="{{ site.baseurl }}/resources/community-content/IntroductiontoCLAAlgorithm.pdf">Introduction to the CLA Algorithm (PDF)</a>
 
 Detailed document from Christian Cleber Masdeval Braz with wonderful graphics describing the CLA.
+
+* * *
+
+## [Hierarchical Temporal Memory Cortical Learning Algorithm for Pattern Recognition on Multi-core Architectures](http://pdxscholar.library.pdx.edu/open_access_etds/202/)
+
+By Ryan William Price, Portland State University.
