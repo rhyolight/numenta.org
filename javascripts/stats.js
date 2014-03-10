@@ -1,7 +1,8 @@
 (function() {
-    var dataUrl = 'http://issues.numenta.org:8081/maillist.json?callback=?';
+    var dataUrl = 'http://issues.numenta.org:8081/maillist.json?callback=?',
+        $statsDiv = $('#stats');
     
-    function convertToDygraph(data) {
+    function convertMailingListDataToDygraphFormat(data) {
         var sum = 0;
         return data.messages.byMonth.map(function(monthData) {
             sum += monthData.number;
@@ -14,13 +15,23 @@
     }
 
     $.getJSON(dataUrl, function(data) {
-        new Dygraph(
-            document.getElementById('stats'),
-            convertToDygraph(data),
-            {
-                title: 'Mailing List Statistics By Month',
-                labels: ['Date', 'Month', 'Cumulative']
-            }
-        );
+        var mlStats = {};
+        data.mailingLists.forEach(function(ml) {
+            mlStats[ml.name] = convertMailingListDataToDygraphFormat(ml);
+        });
+        $statsDiv.html('');
+        Object.keys(mlStats).forEach(function(name) {
+            var divName = name.replace(' ', '-'),
+                data = mlStats[name];
+            $statsDiv.append('<div id="' + divName + '"></div>');
+            new Dygraph(
+                document.getElementById(divName),
+                data,
+                {
+                    title: name + ' Statistics By Month',
+                    labels: ['Date', 'Month', 'Cumulative']
+                }
+            );
+        });
     });
 }());
