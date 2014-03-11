@@ -163,6 +163,10 @@ div.notice {
     font-weight: bold;
 }
 
+.highlight {
+    background-color: #FFF5C0;
+}
+
 .small-loader {
     background-image: url(/images/small-ajax-loader.gif);
     background-repeat: no-repeat;
