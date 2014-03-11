@@ -11,7 +11,7 @@ For more info, see [Season of NuPIC Frequently Asked Questions](https://github.c
 
 Season of NuPIC (SoN) was originally proposed as an alternative for [Google's Summer of Code](http://www.google-melange.com/) after NuPIC was rejected as a mentoring organization for the program in 2014. The idea is to conform to a similar format as GSoC, where Numenta is the only mentoring organization, and interested parties do not have to be students in order to participate. 
 
-Season of NuPIC takes place during the summer months of the Northern Hemisphere, typically during March and September.
+Season of NuPIC takes place during the summer months of the Northern Hemisphere, typically between March and September.
 
 ## <u>Incentive</u>
 
