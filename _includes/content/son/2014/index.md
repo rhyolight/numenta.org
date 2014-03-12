@@ -1,6 +1,10 @@
 
 # Season of NuPIC 2014 Student Registration
 
+## Student Registration is *open!*
+
+### [Register now!](register.html)
+
 <h2 id="countdown-label">
 </h2>
 <div id="countdown" align="center">
