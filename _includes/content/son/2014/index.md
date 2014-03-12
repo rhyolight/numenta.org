@@ -1,5 +1,15 @@
 
-# Season of NuPIC 2014
+# Season of NuPIC 2014 Student Registration
+
+## Student Registration is *open!*
+
+### [Register now!](register.html)
+
+<h2 id="countdown-label">
+</h2>
+<div id="countdown" align="center">
+</div>
+<br/>
 
 For general information about Season of NuPIC, see our [main SoN page](../).
 
@@ -7,6 +17,7 @@ For general information about Season of NuPIC, see our [main SoN page](../).
 
 ## SoN 2014 Staff
 - [Matt Taylor](mailto:matt@numenta.org)
+- [Pradeepto Bhattacharya](mailto:pradeeptob@gmail.com)
 
 ## Phase Timing
 
