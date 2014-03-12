@@ -1,5 +1,11 @@
 
-# Season of NuPIC 2014
+# Season of NuPIC 2014 Student Registration
+
+<h2 id="countdown-label">
+</h2>
+<div id="countdown" align="center">
+</div>
+<br/>
 
 For general information about Season of NuPIC, see our [main SoN page](../).
 
