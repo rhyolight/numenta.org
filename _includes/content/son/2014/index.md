@@ -7,6 +7,7 @@ For general information about Season of NuPIC, see our [main SoN page](../).
 
 ## SoN 2014 Staff
 - [Matt Taylor](mailto:matt@numenta.org)
+- [Pradeepto Bhattacharya](mailto:pradeeptob@gmail.com)
 
 ## Phase Timing
 
