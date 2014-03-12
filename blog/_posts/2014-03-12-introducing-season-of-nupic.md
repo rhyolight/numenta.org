@@ -34,4 +34,4 @@ Student registration **ends April 1**!
 > Open Source Community Flag-Bearer <br/>
 > Numenta, Inc.
 
-[Comments on Reddit]()
+[Comments on Reddit](http://www.reddit.com/r/MachineLearning/comments/209gpg/introducing_season_of_nupic/)
