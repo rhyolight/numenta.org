@@ -1,6 +1,8 @@
 
 # Season of NuPIC 2014 Student Registration
 
+[![Season of NuPIC 2014 logo]({{ site.baseurl }}/images/son/son2014-logo.png)]({{ site.baseurl }}/son)
+
 ## Student Registration is *open!*
 
 ### [Register now!](register.html)
