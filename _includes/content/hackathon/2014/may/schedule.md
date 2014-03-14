@@ -32,5 +32,5 @@
 
 * * *
 
-## Sunday November 3
+## Sunday May 4
 - **04:00 - 06:00 PM**: Demonstrations
