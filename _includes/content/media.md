@@ -6,6 +6,15 @@ NuPIC Media
 
 The following videos are officially supported by Numenta. Other community-provided resources can be found on our [community content]({{ site.baseurl }}/community-content.html) page.
 
+## <a href="https://www.youtube.com/watch?v=ZFazR5yqesk" rel="prettyPhoto" title="Sensory-motor Integration in HTM Theory">Sensory-motor Integration in HTM Theory</a>
+
+### NuPIC Meetup, San Jose, March 14, 2014
+
+The neocortex generates most of our high level behavior and every region in the neocortex has some form of motor output.  In this talk I will describe what we know about how the cortex generates behavior and how behavior fits within the framework of Hierarchical Temporal Memory theory.  Although we don't yet have a comprehensive theory of how the neocortex generates behavior we do understand several of the major components giving us hope that a comprehensive theory may be reachable in the near future.
+
+### [Top](#nupic_media)
+
+
 ## <a href="http://www.youtube.com/watch?v=cz-3WDdqbj0" rel="prettyPhoto" title="Brains, Data, and Machine Intelligence">Brains, Data, and Machine Intelligence</a>
 
 ### Fujitsu North America Technology Forum
