@@ -14,6 +14,7 @@ NuPIC Flag-Bearer Matt Taylor instructs on how to execute programmatic swarming 
 
 ### [Top](#nupic_media)
 
+* * *
 
 ## <a href="http://www.youtube.com/watch?v=ZFazR5yqesk" rel="prettyPhoto" title="Sensory-motor Integration in HTM Theory">Sensory-motor Integration in HTM Theory</a>
 
@@ -23,6 +24,7 @@ The neocortex generates most of our high level behavior and every region in the 
 
 ### [Top](#nupic_media)
 
+* * *
 
 ## <a href="http://www.youtube.com/watch?v=cz-3WDdqbj0" rel="prettyPhoto" title="Brains, Data, and Machine Intelligence">Brains, Data, and Machine Intelligence</a>
 
@@ -32,11 +34,15 @@ Given at the Computer History Museum in January, 2014.
 
 ### [Top](#nupic_media)
 
+* * *
+
 ## <a href="http://www.youtube.com/watch?v=_q5W2Ov6C9E" rel="prettyPhoto" title="Random Distributed Scalar Encoder (NuPIC)">Random Distributed Scalar Encoder (NuPIC)</a>
 
 Chetan Surpur describes the Random Distributed Scalar Encoder used in NuPIC.
 
 ### [Top](#nupic_media)
+
+* * *
 
 ## <a href="http://www.youtube.com/watch?v=QBs-2_wl_JM" rel="prettyPhoto" title="CLA Deep Dive">CLA Deep Dive</a>
 
