@@ -6,28 +6,43 @@ NuPIC Media
 
 The following videos are officially supported by Numenta. Other community-provided resources can be found on our [community content]({{ site.baseurl }}/community-content.html) page.
 
-## <a href="https://www.youtube.com/watch?v=ZFazR5yqesk" rel="prettyPhoto" title="Sensory-motor Integration in HTM Theory">Sensory-motor Integration in HTM Theory</a>
+## <a href="http://www.youtube.com/watch?v=KuFfm3ncEwI" rel="prettyPhoto" title="Predicting Sine Waves with NuPIC ">Predicting Sine Waves with NuPIC </a>
 
-### NuPIC Meetup, San Jose, March 14, 2014
+### Screencast, March 20, 2014
+
+NuPIC Flag-Bearer Matt Taylor instructs on how to execute programmatic swarming and model creation for sine wave data.
+
+### [Top](#nupic_media)
+
+* * *
+
+## <a href="http://www.youtube.com/watch?v=ZFazR5yqesk" rel="prettyPhoto" title="Sensory-motor Integration in HTM Theory">Sensory-motor Integration in HTM Theory</a>
+
+### [NuPIC Meetup](http://www.meetup.com/numenta/events/168671932/), March 14, 2014
 
 The neocortex generates most of our high level behavior and every region in the neocortex has some form of motor output.  In this talk I will describe what we know about how the cortex generates behavior and how behavior fits within the framework of Hierarchical Temporal Memory theory.  Although we don't yet have a comprehensive theory of how the neocortex generates behavior we do understand several of the major components giving us hope that a comprehensive theory may be reachable in the near future.
 
 ### [Top](#nupic_media)
 
+* * *
 
 ## <a href="http://www.youtube.com/watch?v=cz-3WDdqbj0" rel="prettyPhoto" title="Brains, Data, and Machine Intelligence">Brains, Data, and Machine Intelligence</a>
 
 ### Fujitsu North America Technology Forum
 
-Jeff's most recent talk, given at the Computer History Museum in January, 2014.
+Given at the Computer History Museum in January, 2014.
 
 ### [Top](#nupic_media)
+
+* * *
 
 ## <a href="http://www.youtube.com/watch?v=_q5W2Ov6C9E" rel="prettyPhoto" title="Random Distributed Scalar Encoder (NuPIC)">Random Distributed Scalar Encoder (NuPIC)</a>
 
 Chetan Surpur describes the Random Distributed Scalar Encoder used in NuPIC.
 
 ### [Top](#nupic_media)
+
+* * *
 
 ## <a href="http://www.youtube.com/watch?v=QBs-2_wl_JM" rel="prettyPhoto" title="CLA Deep Dive">CLA Deep Dive</a>
 
