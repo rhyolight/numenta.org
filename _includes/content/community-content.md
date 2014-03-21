@@ -2,7 +2,17 @@
 NuPIC Community Content
 ===========
 
-The following resources have been provided by community members of the NuPIC open source project.
+The following resources have been provided by community members of the NuPIC open source project and others interested in HTM and CLA theory.
+
+## Papers on HTM by [Professor John Thornton](http://www.ict.griffith.edu.au/~johnt/index.html) (Griffith University)
+
+- [Spatial Pooling for Greyscale Images](http://www.ict.griffith.edu.au/~johnt/publications/IJMLC2012.pdf) **PDF** *(International Journal of Machine Learning and Cybernetics - 2013)*
+- [Fixed Frame Temporal Pooling](http://www.ict.griffith.edu.au/~johnt/publications/AI2012.pdf) **PDF** *(AI 2012: Advances in Artificial Intelligence, 25th Australasian Joint Conference on Artificial Intelligence, Sydney, Australia, December 4-7, 2012)*
+- [Augmented Spatial Pooling](http://www.ict.griffith.edu.au/~johnt/publications/AI2011.pdf) **PDF** *(AI 2011: Advances in Artificial Intelligence, 24th Australasian Joint Conference on Artificial Intelligence, Perth, Australia, December 5-8, 2011)*
+- [Offline Cursive Character Recognition: A state-of-the-art comparison](http://www.ict.griffith.edu.au/~johnt/publications/IGS2009.pdf) **PDF** *(Proceedings of the 14th Conference of the International Graphonomics Society IGS 2009, Dijon, France, September 13-16, 2009)*
+- [Character Recognition using Hierarchical Vector Quantization and Temporal Pooling](http://www.ict.griffith.edu.au/~johnt/publications/AI2008.pdf) **PDF** *(AI 2008: Advances in Artificial Intelligence, 21st Australasian Joint Conference on Artificial Intelligence, Auckland, New Zealand, December 3-5, 2008)*
+
+* * *
 
 ## <a href="http://www.youtube.com/watch?v=rY7GLyxINFY" rel="prettyPhoto" title="A look at NuPIC - A self-learning AI engine">A look at NuPIC - A self-learning AI engine</a>
 
