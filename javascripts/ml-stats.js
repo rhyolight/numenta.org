@@ -3,13 +3,15 @@
         $statsDiv = $('#stats');
     
     function convertMailingListDataToDygraphFormat(data) {
-        var sum = 0;
+        var sum = 0,
+            totalSubscribers = data.subscribers;
         return data.messages.byMonth.map(function(monthData) {
             sum += monthData.number;
             return [
                 new Date(monthData.year, monthData.month), 
                 monthData.number,
-                sum
+                sum,
+                totalSubscribers
             ];
         });
     }
@@ -42,23 +44,19 @@
 
     function padGraphDataStartingAt(date, graphData) {
         var dataCopy = graphData.slice(0);
-        console.log(date);
-        console.log(dataCopy);
         var earliestDate = dataCopy[0][0];
         while (earliestDate >= date) {
             // Add another month to the data with nothing in it, immediately 
             // preceding the earliest month in the data.
             earliestDate = getDateOneMonthEarlierThan(earliestDate);
-            dataCopy.unshift([earliestDate, 0, 0]);
+            dataCopy.unshift([earliestDate, 0, 0, 0]);
         }
         return dataCopy;
     }
 
     function normalizeGraphDataTimeframes(graphData) {
         var outputGraphData = {};
-        console.log(graphData);
         var earliestDate = getEarliestDate(graphData);
-        console.log('Earliest Date: ' + earliestDate);
         Object.keys(graphData).forEach(function(listName) {
             outputGraphData[listName] 
                 = padGraphDataStartingAt(earliestDate, graphData[listName]);
@@ -82,7 +80,7 @@
                 data,
                 {
                     title: name + ' Statistics By Month',
-                    labels: ['Date', 'Month', 'Cumulative']
+                    labels: ['Date', 'Month', 'Cumulative', 'Total Subscribers']
                 }
             );
         });
