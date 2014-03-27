@@ -41,3 +41,9 @@ Detailed document from Christian Cleber Masdeval Braz with wonderful graphics de
 ## [Hierarchical Temporal Memory Cortical Learning Algorithm for Pattern Recognition on Multi-core Architectures](http://pdxscholar.library.pdx.edu/open_access_etds/202/)
 
 By Ryan William Price, Portland State University.
+
+* * *
+
+## [Focus: Sparse Distributed Representations](http://inbits.com/nupic-machine-intelligence/focus-sparse-distributed-representations/)
+
+Blog post by community-member Fergal Byrne.
