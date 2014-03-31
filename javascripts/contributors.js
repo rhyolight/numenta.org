@@ -31,6 +31,9 @@
                 contributor.Commits = '';
                 return contributor;
             });
+
+        // Fill in the contributor count.
+        $('#contrib-count').html('(' + contribs.length + ')');
         
         // Fill HTML template for table structure.
         $('#contributors').html(tmpl({
