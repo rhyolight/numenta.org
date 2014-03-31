@@ -38,6 +38,6 @@ For general information about Season of NuPIC, see our [main SoN page](../).
     <dd>June 15</dd>
     <dt>Project Reports Due</dt>
     <dd>August 18</dd>
-    <dt>Post-Morten Report</dt>
+    <dt>Post-Mortem Report</dt>
     <dd>September 1</dd>
 </dl>
