@@ -3,9 +3,7 @@
 
 [![Season of NuPIC 2014 logo]({{ site.baseurl }}/images/son/son2014-logo.png)]({{ site.baseurl }}/son)
 
-## Student Registration is *open!*
-
-### [Register now!](register.html)
+## Student Registration is *closed*.
 
 <h2 id="countdown-label">
 </h2>
@@ -26,9 +24,9 @@ For general information about Season of NuPIC, see our [main SoN page](../).
 <dl>
     <dt>Ideas</dt>
     <dd>Feb 1 - March 1</dd>
-    <dt class="highlight">Student Application (<a href="register.html">Register Here</a>)</dt>
+    <dt>Student Application</dt>
     <dd>March 1 - April 1</dd>
-    <dt>Accepted Proposals Announced</dt>
+    <dt class="highlight">Accepted Proposals Announced</dt>
     <dd>April 14 (accepted proposals will be announced on the <a href="{{ site.baseurl}}/lists">nupic-discuss</a> mailing list)</dd>
     <dt>Community Bonding</dt>
     <dd>April 14 - May 1</dd>

@@ -3,7 +3,7 @@
 
 ## Current Season
 
-[Student registration](2014/register.html) is open for [Season of NuPIC 2014](2014/).
+Student registration is closed for [Season of NuPIC 2014](2014/).
 
 For more info, see [Season of NuPIC Frequently Asked Questions](https://github.com/numenta/nupic/wiki/Season-of-NuPIC-FAQ).
 
