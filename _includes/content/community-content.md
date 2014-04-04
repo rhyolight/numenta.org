@@ -47,3 +47,8 @@ By Ryan William Price, Portland State University.
 ## [Focus: Sparse Distributed Representations](http://inbits.com/nupic-machine-intelligence/focus-sparse-distributed-representations/)
 
 Blog post by community-member Fergal Byrne.
+
+## [Random Distributed Scalar Encoder](http://fergalbyrne.github.io/rdse.html)
+#### Experiments on Improving the Scalar Encoder
+
+Article by Fergal Byrne with RDSE implementation in Clojure.
