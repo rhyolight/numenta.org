@@ -4,8 +4,9 @@ NuPIC Community Content
 
 The following resources have been provided by community members of the NuPIC open source project and others interested in HTM and CLA theory.
 
-## Papers on HTM by [Professor John Thornton](http://www.ict.griffith.edu.au/~johnt/index.html) (Griffith University)
+## Papers on HTM by Associate Professor [John Thornton](http://www.ict.griffith.edu.au/~johnt/index.html) (Griffith University)
 
+- [Evaluating sparse codes on handwritten digits](http://www.ict.griffith.edu.au/~johnt/publications/AI2013.pdf) **PDF** *(Australasian Joint Conference on AI 2013)*
 - [Spatial Pooling for Greyscale Images](http://www.ict.griffith.edu.au/~johnt/publications/IJMLC2012.pdf) **PDF** *(International Journal of Machine Learning and Cybernetics - 2013)*
 - [Fixed Frame Temporal Pooling](http://www.ict.griffith.edu.au/~johnt/publications/AI2012.pdf) **PDF** *(AI 2012: Advances in Artificial Intelligence, 25th Australasian Joint Conference on Artificial Intelligence, Sydney, Australia, December 4-7, 2012)*
 - [Augmented Spatial Pooling](http://www.ict.griffith.edu.au/~johnt/publications/AI2011.pdf) **PDF** *(AI 2011: Advances in Artificial Intelligence, 24th Australasian Joint Conference on Artificial Intelligence, Perth, Australia, December 5-8, 2011)*
