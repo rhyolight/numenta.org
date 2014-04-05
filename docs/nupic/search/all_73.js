@@ -16,5 +16,6 @@ var searchData=
   ['setlearning',['setLearning',['../classnupic_1_1encoders_1_1base_1_1_encoder.html#a5e6d4987f35e918e25754cba7359f80d',1,'nupic::encoders::base::Encoder']]],
   ['setstatelock',['setStateLock',['../classnupic_1_1encoders_1_1base_1_1_encoder.html#a3654d9968d07c1a0dc5659bd7a073440',1,'nupic::encoders::base::Encoder']]],
   ['simplevectorencoder',['SimpleVectorEncoder',['../classnupic_1_1encoders_1_1vector_1_1_simple_vector_encoder.html',1,'nupic::encoders::vector']]],
-  ['slowissegmentactive',['slowIsSegmentActive',['../classnupic_1_1research_1_1_t_p10_x2_1_1_t_p10_x2.html#adf9d7bd08ce5ffdbaad887cb8821e206',1,'nupic::research::TP10X2::TP10X2']]]
+  ['slowissegmentactive',['slowIsSegmentActive',['../classnupic_1_1research_1_1_t_p10_x2_1_1_t_p10_x2.html#adf9d7bd08ce5ffdbaad887cb8821e206',1,'nupic::research::TP10X2::TP10X2']]],
+  ['swarming',['swarming',['../namespaceswarming.html',1,'']]]
 ];
