@@ -6,7 +6,34 @@ NuPIC Media
 
 The following videos are officially supported by Numenta. Other community-provided resources can be found on our [community content]({{ site.baseurl }}/community-content.html) page.
 
-## <a href="http://www.youtube.com/watch?v=KuFfm3ncEwI" rel="prettyPhoto" title="Predicting Sine Waves with NuPIC ">Predicting Sine Waves with NuPIC </a>
+## [TWiT Interview with Leo Laporte](http://twit.tv/show/triangulation/146)
+
+### Apr 7, 2014
+
+Leo Laporte talks to Jeff about Numenta, Grok, NuPIC, and the future of machine intelligence.
+
+### [Top](#nupic_media)
+
+* * *
+
+## [From Cortical Microcircuits to Machine Intelligence](http://digitalops.sandia.gov/Mediasite/Play/63eb251aef2f43978161f30d7087e6e21d)
+
+### 2nd Annual N.I.C.E. Workshop, Jan 6, 2014
+
+### [Top](#nupic_media)
+
+* * *
+
+## <a href="https://www.youtube.com/watch?v=S-0thrzOHTc" rel="prettyPhoto" title="One Hot Gym Prediction Example">One Hot Gym Prediction Example</a>
+
+### Screencast, Apr 25, 2014
+
+NuPIC Flag-Bearer Matt Taylor instructs on how to make energy consumption predictions with NuPIC.
+
+### [Top](#nupic_media)
+
+* * *
+## <a href="http://www.youtube.com/watch?v=KuFfm3ncEwI" rel="prettyPhoto" title="Predicting Sine Waves with NuPIC">Predicting Sine Waves with NuPIC</a>
 
 ### Screencast, March 20, 2014
 
@@ -68,7 +95,7 @@ Matt Taylor did some NLP work before the [2013 Fall Hackathon]({{ site.baseurl }
 
 ### OSCON, 2013
 
-In this hands-on session, we introduce NuPIC's Online Prediction Framework (OPF) and demonstrate how one creates models using an OPF client. We set up some live streaming data to pass into the client and watch as NuPIC makes online inferences, learning the changing patterns in the streaming data set. NuPIC and the OPF have been applied to many scenarios and form the foundation for Numenta's commercial product, Grok. To master NuPIC you will have to become comfortable with concepts such as sparse distributed representations and on-line learning. 
+In this hands-on session, we introduce NuPIC's Online Prediction Framework (OPF) and demonstrate how one creates models using an OPF client. We set up some live streaming data to pass into the client and watch as NuPIC makes online inferences, learning the changing patterns in the streaming data set. NuPIC and the OPF have been applied to many scenarios and form the foundation for Numenta's commercial product, Grok. To master NuPIC you will have to become comfortable with concepts such as sparse distributed representations and on-line learning.
 
 ### [Top](#nupic_media)
 
@@ -89,7 +116,7 @@ The talk will start with a description of sparse distributed representations, wh
 
 ### International Symposium on Computer Architecture, 2012
 
-Jeff Hawkins presented the opening keynote address of the 39th International Symposium on Computer Architecture on June 11, 2012 in Portland, OR. In this presentation, Jeff describes sparse distributed representations, and their impact on future computer architectures. 
+Jeff Hawkins presented the opening keynote address of the 39th International Symposium on Computer Architecture on June 11, 2012 in Portland, OR. In this presentation, Jeff describes sparse distributed representations, and their impact on future computer architectures.
 
 ### [Top](#nupic_media)
 
@@ -111,17 +138,17 @@ Sparse distributed representations appear to be the means by which brains encode
 
 ### Berkeley, 2012
 
-How the brain creates intelligence is viewed by many as the greatest scientific quest of all time. We are living at the time when rapid progress is being made and a comprehensive theory of brain function is emerging. Jeff Hawkins, an inventor, engineer, neuroscientist, author and entrepreneur, presents the big picture of what we know so far and describes recent progress in a core issue: why neurons are arranged as they are in the neocortex, how this arrangement builds models of the world, and how these models make predictions and generate actions. Series: "UC Berkeley Graduate Council Lectures" 
+How the brain creates intelligence is viewed by many as the greatest scientific quest of all time. We are living at the time when rapid progress is being made and a comprehensive theory of brain function is emerging. Jeff Hawkins, an inventor, engineer, neuroscientist, author and entrepreneur, presents the big picture of what we know so far and describes recent progress in a core issue: why neurons are arranged as they are in the neocortex, how this arrangement builds models of the world, and how these models make predictions and generate actions. Series: "UC Berkeley Graduate Council Lectures"
 
 ### [Top](#nupic_media)
 
 * * *
 
-## <a href="http://www.youtube.com/watch?v=e5xyF84dw2o" rel="prettyPhoto" title="">Conversations with History: On Intelligence</a> 
+## <a href="http://www.youtube.com/watch?v=e5xyF84dw2o" rel="prettyPhoto" title="">Conversations with History: On Intelligence</a>
 
 ### Berkeley, 2012
 
-Conversations host Harry Kreisler welcomes Jeff Hawkins, founder of both Palm Computing and Handspring and creator of the Redwood Neuroscience Institute, to promote research on memory and cognition. Hawkins traces his intellectual journey focusing on his lifelong passion to develop a theory of the brain. Hawkins explicates the brain's operating principles and explores the implications of human intelligence for engineering intelligent machines, the goal of his new company Numenta. Series: "Conversations with History" 
+Conversations host Harry Kreisler welcomes Jeff Hawkins, founder of both Palm Computing and Handspring and creator of the Redwood Neuroscience Institute, to promote research on memory and cognition. Hawkins traces his intellectual journey focusing on his lifelong passion to develop a theory of the brain. Hawkins explicates the brain's operating principles and explores the implications of human intelligence for engineering intelligent machines, the goal of his new company Numenta. Series: "Conversations with History"
 
 ### [Top](#nupic_media)
 
