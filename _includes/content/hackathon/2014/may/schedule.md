@@ -2,35 +2,44 @@
 {{ page.title }}
 ================
 
-<div class="notice">
-    This schedule is still being planned. All times are tentative until further notice. More presentations will be added as they are scheduled. All sessions are optional.
-</div>
-
 ## Saturday May 3
 
-- **10:00 - 10:30 AM**: Kickoff with Matt and Jeff Hawkins
-- **10:30 - 12:00 AM**: [Install-athon](#installathon)
-- **01:00 - 02:00 PM**: [Introductory NuPIC Talk](#introductory_nupic_talk) (Scott Purdy)
-- **02:30 - 03:30 PM**: [Intermediate NuPIC Talk](#intermediate_nupic_talk) (Subutai Ahmad)
-- **04:00 - 05:00 PM**: [Advanced NuPIC Talk](#advanced_nupic_talk) (Jeff)
+- `10:00 - 10:30 AM`: **Kickoff with Matt and Jeff Hawkins**
+- `10:30 - 12:00 AM`: **[Install-athon](#installathon)**
+- `01:00 - 02:00 PM`: **[Beginner's Guide to NuPIC](#beginners_guide_to_nupic_scott_purdy)** (Scott Purdy)
+- `02:30 - 03:30 PM`: **[Anomaly Detection Using The Cortical Learning Algorithm](#anomaly_detection_using_the_cortical_learning_algorithm_subutai_ahmad)** (Subutai Ahmad)
+- `04:00 - 05:00 PM`: **[Temporal Pooling](#temporal_pooling_jeff_hawkins)** (Jeff Hawkins)
 
 ### Install-athon
 
-> Need help getting NuPIC building and running on your computer? Attend this workshop for hands-on assistance from NuPIC engineers.
+Need help getting NuPIC building and running on your computer? Attend this workshop for hands-on assistance from NuPIC engineers.
 
-### Introductory NuPIC Talk
+### Beginner's Guide to NuPIC (Scott Purdy)
 
-> Description coming soon...
+This is a beginner talk but assumes a software development background and a working installation of NuPIC.
 
-### Intermediate NuPIC Talk
+NuPIC is a development framework but it can be difficult to get it working with your own data. This tutorial will start with an overview of the NuPIC codebase and live examples for how to use the different components. The talk will focus on the functional properties of the algorithm rather than the theory. There will be a walkthrough of the codebase layout and some advice on how to navigate it during development. Finally, I will do a coding example for taking a new dataset, selecting CLA model parameters with swarming, and using the best model parameters to get predictions and anomaly scores for new data.
 
-> Description coming soon...
+### Anomaly Detection Using The Cortical Learning Algorithm (Subutai Ahmad)
 
-### Advanced NuPIC Talk
+Anomaly detection and multistep prediction are the two core capabilities implemented today in NuPIC. This talk will discuss anomaly detection in depth. I will go over the basic algorithm for anomaly detection using CLA, and give pointers to the relevant parts of the NuPIC codebase.  I'll also discuss what we've learned about anomalies while building Grok, and show examples of Grok working on some real world datasets.
 
-> Description coming soon...
+### Temporal Pooling (Jeff Hawkins)
+
+Temporal pooling is an essential component of HTM theory.  In this short talk I will describe what it is, why it is essential, how we think it is implemented in the brain, and how we plan to implement it in NuPIC.
 
 * * *
 
 ## Sunday May 4
-- **04:00 - 06:00 PM**: Demonstrations
+- `10:00 - 11:00 AM`: **[Cortical Learning Algorithm as Implemented in NuPIC](#cortical_learning_algorithm_as_implemented_in_nupic_chetan_surpur)** (Chetan Surpur)
+- `01:00 - 01:30 PM`: **[The State of NuPIC](#the_state_of_nupic_matt_taylor)** (Matt Taylor)
+- `04:00 - 06:00 PM`: **Demonstrations**
+
+
+### Cortical Learning Algorithm as Implemented in NuPIC (Chetan Surpur)
+
+The algorithms described in the CLA whitepaper are implemented in NuPIC as the Spatial Pooler (SP) and the Temporal Pooler (TP). For those who want to understand and/or improve the algorithms, reading the whitepaper is useful, but it's also important to know the design decisions and implementation details of the code as well. This talk will show how the algorithms in NuPIC work and describe how they differ from the whitepaper description. I'll also touch on potential work to improve and extend the SP and TP.
+
+### The State of NuPIC (Matt Taylor)
+
+Matt will describe the initiative and the work that has been completed to extract the core C++ code from NuPIC, and how the resulting repositories have adjusted. Also describe the future vision, what work is left to be done, and how the community can help us realize our vision for NuPIC.
