@@ -26,9 +26,9 @@ For general information about Season of NuPIC, see our [main SoN page](../).
     <dd>Feb 1 - March 1</dd>
     <dt>Student Application</dt>
     <dd>March 1 - April 1</dd>
-    <dt class="highlight">Accepted Proposals Announced</dt>
-    <dd>April 14 (accepted proposals will be announced on the <a href="{{ site.baseurl}}/lists">nupic-discuss</a> mailing list)</dd>
-    <dt>Community Bonding</dt>
+    <dt>Accepted Proposals Announced</dt>
+    <dd><a href="https://github.com/numenta/nupic/wiki/SoN-2014-Projects">Project List</a></dd>
+    <dt class="highlight">Community Bonding</dt>
     <dd>April 14 - May 1</dd>
     <dt>Coding</dt>
     <dd>May 1 - August 11</dd>
