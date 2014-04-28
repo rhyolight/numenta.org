@@ -1,15 +1,6 @@
 
 # Upcoming Events
 
-## Jeff Hawkins on Sensory-motor Integration in HTM Theory
-
-[RSVP on Meetup.com](http://www.meetup.com/numenta/events/168671932/).
-
-The neocortex generates most of our high level behavior and every region in the neocortex has some form of motor output.  In this talk I will describe what we know about how the cortex generates behavior and how behavior fits within the framework of Hierarchical Temporal Memory theory.  Although we don’t yet have a comprehensive theory of how the neocortex generates behavior we do understand several of the major components giving us hope that a comprehensive theory may be reachable in the near future.
- 
-
-This event will be recorded and streamed live on [UStream](http://www.ustream.tv/channel/nupic-events). 
-
 ## NuPIC Spring 2014 Hackathon
 
 <div class="notice">
@@ -41,16 +32,17 @@ This event will be recorded and streamed live on [UStream](http://www.ustream.tv
     </dd>
     <dt>RSVP</dt>
     <dd>
-        ...on the <strong><a href="http://www.meetup.com/numenta/events/166009152/">NuPIC Meetup Page</a></strong>.
+        <p>...on the <strong><a href="http://www.meetup.com/numenta/events/166009152/">NuPIC Meetup Page</a></strong>.</p>
     </dd>
     <dt>Parking</dt>
-    <dd>TBD</dd>
+    <dd><p>There are quite a few public parking lots nearby. You should have no trouble finding parking.</p></dd>
     <dt id="hackathon-hotels">Hotels</dt>
     <dd>
-        TBD
+        <p>We recommend the <a href="http://www.fourpointssanjosedowntown.com/">Four Points Sheraton</a> in downtown San Jose. If you cannot (or don't want to) book this hotel, there are several other hotels within walking distance that should be fine.</p>
+       <p>If you are the adventurous type, you are welcome to stay with us at the Pinger offices overnight Saturday. We'll have sleeping mats available for you, but you might want to bring a pillow, blanket, or sleeping bag.</p>
     </dd>
     <dt>Sustenance</dt>
-    <dd>Food and drinks will be provided, but there is also a diverse selection of restaurants within walking distance.</dd>
+    <dd><p>Food and drinks will be provided, but there is also a diverse selection of restaurants within walking distance.</p></dd>
 </dl>
 
 ### Schedule
