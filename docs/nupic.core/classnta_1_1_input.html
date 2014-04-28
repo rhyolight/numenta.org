@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<title>NuPIC: nta::Input Class Reference</title>
+<title>NuPIC Core: nta::Input Class Reference</title>
 <link href="qmi.css" rel="stylesheet" type="text/css" />
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/search.js"></script>
@@ -19,9 +19,9 @@
   <td id="projectlogo"><img alt="Logo" src="numenta-logo.png"/></td>
   <!--td style="padding-left: 0.5em;"-->
   <td>
-   <div id="projectname">NuPIC
+   <div id="projectname">NuPIC Core
    </div>
-   <div id="projectbrief">Numenta Platform for Intelligent Computing</div>
+   <div id="projectbrief">Core algorithms for NuPIC(the Numenta Platform for Intelligent Computing), implemented in C++</div>
   </td>
  </tr>
  </tbody>
@@ -92,52 +92,76 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 
+<p><a class="el" href="classnta_1_1_input.html" title="Input represents a named input to a Region (e.g.">Input</a> represents a named input to a <a class="el" href="classnta_1_1_region.html" title="A Region is one or more identical nodes in a Network.">Region</a> (e.g.  
+ <a href="classnta_1_1_input.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_input_8hpp_source.html">Input.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
 <tr class="memitem:a193cc425807e1d3f6f099deaeed37ff2"><td class="memItemLeft" align="right" valign="top">typedef std::vector<br class="typebreak"/>
 &lt; std::vector&lt; size_t &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnta_1_1_input.html#a193cc425807e1d3f6f099deaeed37ff2">SplitterMap</a></td></tr>
+<tr class="memdesc:a193cc425807e1d3f6f099deaeed37ff2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get splitter map from an initialized input See documentation for Link.getSplitterMap() for description of splitter map.  <a href="#a193cc425807e1d3f6f099deaeed37ff2"></a><br/></td></tr>
 <tr class="separator:a193cc425807e1d3f6f099deaeed37ff2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:af4b3683299c83dd1ed7ed3099d781f72"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnta_1_1_input.html#af4b3683299c83dd1ed7ed3099d781f72">Input</a> (<a class="el" href="classnta_1_1_region.html">Region</a> &amp;region, <a class="el" href="types_8h.html#a421524fed763bb1c1b094f3ef3a69d3c">NTA_BasicType</a> type, bool <a class="el" href="classnta_1_1_input.html#a3e749affbbc6ba65a7384a9e5461f00d">isRegionLevel</a>)</td></tr>
+<tr class="memdesc:af4b3683299c83dd1ed7ed3099d781f72"><td class="mdescLeft">&#160;</td><td class="mdescRight">TODO: document constructor.  <a href="#af4b3683299c83dd1ed7ed3099d781f72"></a><br/></td></tr>
 <tr class="separator:af4b3683299c83dd1ed7ed3099d781f72"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a19903a8f8fe7cdb53a143e2cc42e7d76"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnta_1_1_input.html#a19903a8f8fe7cdb53a143e2cc42e7d76">setName</a> (const std::string &amp;name)</td></tr>
+<tr class="memdesc:a19903a8f8fe7cdb53a143e2cc42e7d76"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inputs need to know their own name for error messages.  <a href="#a19903a8f8fe7cdb53a143e2cc42e7d76"></a><br/></td></tr>
 <tr class="separator:a19903a8f8fe7cdb53a143e2cc42e7d76"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aece3f72500ab9c8ae465d7279aeb45f3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnta_1_1_input.html#aece3f72500ab9c8ae465d7279aeb45f3">addLink</a> (const std::string &amp;linkType, const std::string &amp;linkParams, <a class="el" href="classnta_1_1_output.html">Output</a> *srcOutput)</td></tr>
+<tr class="memdesc:aece3f72500ab9c8ae465d7279aeb45f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a new link and add it to this input Also adds the link to the list of links on the output.  <a href="#aece3f72500ab9c8ae465d7279aeb45f3"></a><br/></td></tr>
 <tr class="separator:aece3f72500ab9c8ae465d7279aeb45f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4c284cd9dbc093cd3c704736643c49dc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classnta_1_1_link.html">Link</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnta_1_1_input.html#a4c284cd9dbc093cd3c704736643c49dc">findLink</a> (const std::string &amp;srcRegionName, const std::string &amp;srcOutputName)</td></tr>
+<tr class="memdesc:a4c284cd9dbc093cd3c704736643c49dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Locate an existing link.  <a href="#a4c284cd9dbc093cd3c704736643c49dc"></a><br/></td></tr>
 <tr class="separator:a4c284cd9dbc093cd3c704736643c49dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaecfbd555acf0b4ee2e508506caf364d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnta_1_1_input.html#aaecfbd555acf0b4ee2e508506caf364d">removeLink</a> (<a class="el" href="classnta_1_1_link.html">Link</a> *&amp;link)</td></tr>
+<tr class="memdesc:aaecfbd555acf0b4ee2e508506caf364d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removing an existing link Called in four cases.  <a href="#aaecfbd555acf0b4ee2e508506caf364d"></a><br/></td></tr>
 <tr class="separator:aaecfbd555acf0b4ee2e508506caf364d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a48a10f9d1f49d16df539825436c404c6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnta_1_1_input.html#a48a10f9d1f49d16df539825436c404c6">prepare</a> ()</td></tr>
+<tr class="memdesc:a48a10f9d1f49d16df539825436c404c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Make input data available.  <a href="#a48a10f9d1f49d16df539825436c404c6"></a><br/></td></tr>
 <tr class="separator:a48a10f9d1f49d16df539825436c404c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ade988d701e630ffcd4c46c7326e1482b"><td class="memItemLeft" align="right" valign="top">const Array &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnta_1_1_input.html#ade988d701e630ffcd4c46c7326e1482b">getData</a> () const </td></tr>
+<tr class="memdesc:ade988d701e630ffcd4c46c7326e1482b"><td class="mdescLeft">&#160;</td><td class="mdescRight">TODO: document.  <a href="#ade988d701e630ffcd4c46c7326e1482b"></a><br/></td></tr>
 <tr class="separator:ade988d701e630ffcd4c46c7326e1482b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acfe2f7558181165a3b28803752c24e81"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classnta_1_1_region.html">Region</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnta_1_1_input.html#acfe2f7558181165a3b28803752c24e81">getRegion</a> ()</td></tr>
+<tr class="memdesc:acfe2f7558181165a3b28803752c24e81"><td class="mdescLeft">&#160;</td><td class="mdescRight">TODO: document.  <a href="#acfe2f7558181165a3b28803752c24e81"></a><br/></td></tr>
 <tr class="separator:acfe2f7558181165a3b28803752c24e81"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8760b9bf4311db99e8ca904a65ef1018"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; <a class="el" href="classnta_1_1_link.html">Link</a> * &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnta_1_1_input.html#a8760b9bf4311db99e8ca904a65ef1018">getLinks</a> ()</td></tr>
+<tr class="memdesc:a8760b9bf4311db99e8ca904a65ef1018"><td class="mdescLeft">&#160;</td><td class="mdescRight">TODO: document.  <a href="#a8760b9bf4311db99e8ca904a65ef1018"></a><br/></td></tr>
 <tr class="separator:a8760b9bf4311db99e8ca904a65ef1018"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3e749affbbc6ba65a7384a9e5461f00d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnta_1_1_input.html#a3e749affbbc6ba65a7384a9e5461f00d">isRegionLevel</a> ()</td></tr>
+<tr class="memdesc:a3e749affbbc6ba65a7384a9e5461f00d"><td class="mdescLeft">&#160;</td><td class="mdescRight">TODO: document.  <a href="#a3e749affbbc6ba65a7384a9e5461f00d"></a><br/></td></tr>
 <tr class="separator:a3e749affbbc6ba65a7384a9e5461f00d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adfa10bdbc20a6acdd3cf561b03a8b280"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnta_1_1_input.html#adfa10bdbc20a6acdd3cf561b03a8b280">evaluateLinks</a> ()</td></tr>
+<tr class="memdesc:adfa10bdbc20a6acdd3cf561b03a8b280"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called by Region.evaluateLinks() as part of network initialization.  <a href="#adfa10bdbc20a6acdd3cf561b03a8b280"></a><br/></td></tr>
 <tr class="separator:adfa10bdbc20a6acdd3cf561b03a8b280"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6e0456c6db9deddb23fd012009cb1bd2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnta_1_1_input.html#a6e0456c6db9deddb23fd012009cb1bd2">initialize</a> ()</td></tr>
+<tr class="memdesc:a6e0456c6db9deddb23fd012009cb1bd2"><td class="mdescLeft">&#160;</td><td class="mdescRight">After the input has all the information it needs, it is initialized by this method.  <a href="#a6e0456c6db9deddb23fd012009cb1bd2"></a><br/></td></tr>
 <tr class="separator:a6e0456c6db9deddb23fd012009cb1bd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2bf43c360842db27437990c74337ac77"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnta_1_1_input.html#a2bf43c360842db27437990c74337ac77">isInitialized</a> ()</td></tr>
+<tr class="memitem:a2bf43c360842db27437990c74337ac77"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2bf43c360842db27437990c74337ac77"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnta_1_1_input.html#a2bf43c360842db27437990c74337ac77">isInitialized</a> ()</td></tr>
+<tr class="memdesc:a2bf43c360842db27437990c74337ac77"><td class="mdescLeft">&#160;</td><td class="mdescRight">TODO: document. <br/></td></tr>
 <tr class="separator:a2bf43c360842db27437990c74337ac77"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad614bfa0cacf99e8e8c28dee646c6d5a"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classnta_1_1_input.html#a193cc425807e1d3f6f099deaeed37ff2">SplitterMap</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnta_1_1_input.html#ad614bfa0cacf99e8e8c28dee646c6d5a">getSplitterMap</a> () const </td></tr>
+<tr class="memdesc:ad614bfa0cacf99e8e8c28dee646c6d5a"><td class="mdescLeft">&#160;</td><td class="mdescRight">TODO: document.  <a href="#ad614bfa0cacf99e8e8c28dee646c6d5a"></a><br/></td></tr>
 <tr class="separator:ad614bfa0cacf99e8e8c28dee646c6d5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8b150e41d2b8bda10615d01c102403e3"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a8b150e41d2b8bda10615d01c102403e3"><td class="memTemplParams" colspan="2"><a class="anchor" id="a8b150e41d2b8bda10615d01c102403e3"></a>
+template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a8b150e41d2b8bda10615d01c102403e3"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classnta_1_1_input.html#a8b150e41d2b8bda10615d01c102403e3">getInputForNode</a> (size_t nodeIndex, std::vector&lt; T &gt; &amp;input) const </td></tr>
+<tr class="memdesc:a8b150e41d2b8bda10615d01c102403e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">explicitly instantiated for various types <br/></td></tr>
 <tr class="separator:a8b150e41d2b8bda10615d01c102403e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p><a class="el" href="classnta_1_1_input.html">Input</a> represents a named input to a <a class="el" href="classnta_1_1_region.html">Region</a> (e.g. bottomUpIn)</p>
-<p><a class="el" href="classnta_1_1_input.html">Input</a> is not available in the public API, but is visible by the RegionImpl.</p>
+<div class="textblock"><p><a class="el" href="classnta_1_1_input.html" title="Input represents a named input to a Region (e.g.">Input</a> represents a named input to a <a class="el" href="classnta_1_1_region.html" title="A Region is one or more identical nodes in a Network.">Region</a> (e.g. </p>
+<p>bottomUpIn)</p>
+<p><a class="el" href="classnta_1_1_input.html" title="Input represents a named input to a Region (e.g.">Input</a> is not available in the public API, but is visible by the RegionImpl.</p>
 <p>TBD: identify methods that may be called by RegionImpl &ndash; this is the internal "public interface" </p>
+
+<p>Definition at line <a class="el" href="_input_8hpp_source.html#l00055">55</a> of file <a class="el" href="_input_8hpp_source.html">Input.hpp</a>.</p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a class="anchor" id="a193cc425807e1d3f6f099deaeed37ff2"></a>
 <div class="memitem">
@@ -148,8 +172,11 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Get splitter map from an initialized input See documentation for Link.getSplitterMap() for description of splitter map.</p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000008">Todo:</a></b></dt><dd>There is no Link.getSplitterMap() function so the docs here are wrong. </dd></dl>
+
+<p>Get splitter map from an initialized input See documentation for Link.getSplitterMap() for description of splitter map. </p>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000013">Todo:</a></b></dt><dd>There is no Link.getSplitterMap() function so the docs here are wrong. </dd></dl>
+
+<p>Definition at line <a class="el" href="_input_8hpp_source.html#l00183">183</a> of file <a class="el" href="_input_8hpp_source.html">Input.hpp</a>.</p>
 
 </div>
 </div>
@@ -183,7 +210,8 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>TODO: document constructor </p>
+
+<p>TODO: document constructor. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">region</td><td>TODO: document </td></tr>
@@ -225,12 +253,13 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Create a new link and add it to this input Also adds the link to the list of links on the output </p>
+
+<p>Create a new link and add it to this input Also adds the link to the list of links on the output. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">name</td><td>TODO: linkType </td></tr>
-    <tr><td class="paramname">name</td><td>TODO: linkParams </td></tr>
-    <tr><td class="paramname">name</td><td>TODO: srcOutput </td></tr>
+    <tr><td class="paramname">linkType</td><td>TODO: linkType </td></tr>
+    <tr><td class="paramname">linkParams</td><td>TODO: linkParams </td></tr>
+    <tr><td class="paramname">srcOutput</td><td>TODO: srcOutput </td></tr>
   </table>
   </dd>
 </dl>
@@ -249,7 +278,8 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Called by Region.evaluateLinks() as part of network initialization.</p>
+
+<p>Called by Region.evaluateLinks() as part of network initialization. </p>
 <ol type="1">
 <li>Tries to make sure that dimensions at both ends of a link are specified by calling setSourceDimensions() if possible, and then calling getDestDimensions()</li>
 <li>Ensures that region dimensions are consistent with either by setting destination region dimensions (this is where links "induce" dimensions) or by raising an exception if they are inconsistent.</li>
@@ -281,11 +311,13 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Locate an existing link. Returns NULL if no link exists Called by <a class="el" href="classnta_1_1_network.html#a2fd9d95877c087ddc62f5619a65de5d2">Network.removeLink()</a> and internally when adding a link </p>
+
+<p>Locate an existing link. </p>
+<p>Returns NULL if no link exists Called by <a class="el" href="classnta_1_1_network.html#a2fd9d95877c087ddc62f5619a65de5d2" title="Removes a link.">Network.removeLink()</a> and internally when adding a link </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">name</td><td>TODO: srcRegionName </td></tr>
-    <tr><td class="paramname">name</td><td>TODO: srcRegionName </td></tr>
+    <tr><td class="paramname">srcRegionName</td><td>TODO: srcRegionName </td></tr>
+    <tr><td class="paramname">srcOutputName</td><td>TODO: srcOutputName </td></tr>
   </table>
   </dd>
 </dl>
@@ -305,37 +337,9 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>TODO: document </p>
-<dl class="section return"><dt>Returns</dt><dd>TODO: document </dd></dl>
 
-</div>
-</div>
-<a class="anchor" id="a8b150e41d2b8bda10615d01c102403e3"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">void nta::Input::getInputForNode </td>
-          <td>(</td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>nodeIndex</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::vector&lt; T &gt; &amp;&#160;</td>
-          <td class="paramname"><em>input</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>explicitly instantiated for various types </p>
+<p>TODO: document. </p>
+<dl class="section return"><dt>Returns</dt><dd>TODO: document </dd></dl>
 
 </div>
 </div>
@@ -351,7 +355,8 @@ template&lt;typename T &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>TODO: document </p>
+
+<p>TODO: document. </p>
 <dl class="section return"><dt>Returns</dt><dd>TODO: document </dd></dl>
 
 </div>
@@ -368,7 +373,8 @@ template&lt;typename T &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>TODO: document </p>
+
+<p>TODO: document. </p>
 <dl class="section return"><dt>Returns</dt><dd>TODO: document </dd></dl>
 
 </div>
@@ -385,7 +391,8 @@ template&lt;typename T &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>TODO: document </p>
+
+<p>TODO: document. </p>
 <dl class="section return"><dt>Returns</dt><dd>TODO: document </dd></dl>
 
 </div>
@@ -402,23 +409,9 @@ template&lt;typename T &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>After the input has all the information it needs, it is initialized by this method. Sets up volatile data structures (e.g. the input buffer) are set up </p>
 
-</div>
-</div>
-<a class="anchor" id="a2bf43c360842db27437990c74337ac77"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool nta::Input::isInitialized </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>TODO: document </p>
+<p>After the input has all the information it needs, it is initialized by this method. </p>
+<p>Sets up volatile data structures (e.g. the input buffer) are set up </p>
 
 </div>
 </div>
@@ -434,7 +427,8 @@ template&lt;typename T &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>TODO: document </p>
+
+<p>TODO: document. </p>
 <dl class="section return"><dt>Returns</dt><dd>TODO: document </dd></dl>
 
 </div>
@@ -451,7 +445,9 @@ template&lt;typename T &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Make input data available. Called by <a class="el" href="classnta_1_1_region.html#a3f853f23396f68c761388bd29503f9eb">Region.prepareInputs()</a> </p>
+
+<p>Make input data available. </p>
+<p>Called by <a class="el" href="classnta_1_1_region.html#a3f853f23396f68c761388bd29503f9eb" title="Copies data into the inputs of this region, using the links that are attached to each input...">Region.prepareInputs()</a> </p>
 
 </div>
 </div>
@@ -468,18 +464,19 @@ template&lt;typename T &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Removing an existing link Called in four cases</p>
+
+<p>Removing an existing link Called in four cases. </p>
 <ol type="1">
-<li><a class="el" href="classnta_1_1_network.html#a2fd9d95877c087ddc62f5619a65de5d2">Network.removeLink()</a></li>
-<li><a class="el" href="classnta_1_1_network.html#ad036234504a5396bc05b238324b4e6fe">Network.removeRegion()</a> when given srcRegion</li>
-<li><a class="el" href="classnta_1_1_network.html#ad036234504a5396bc05b238324b4e6fe">Network.removeRegion()</a> when given destRegion</li>
-<li><a class="el" href="classnta_1_1_network.html#af34a7623751def90a096325195543bda">Network.~Network()</a></li>
+<li><a class="el" href="classnta_1_1_network.html#a2fd9d95877c087ddc62f5619a65de5d2" title="Removes a link.">Network.removeLink()</a></li>
+<li><a class="el" href="classnta_1_1_network.html#ad036234504a5396bc05b238324b4e6fe" title="Removes a new region from the network.">Network.removeRegion()</a> when given srcRegion</li>
+<li><a class="el" href="classnta_1_1_network.html#ad036234504a5396bc05b238324b4e6fe" title="Removes a new region from the network.">Network.removeRegion()</a> when given destRegion</li>
+<li><a class="el" href="classnta_1_1_network.html#af34a7623751def90a096325195543bda" title="Destructor.">Network.~Network()</a></li>
 </ol>
 <p>It is an error to call this if our containing region is uninitialized.</p>
-<p>Sets the <a class="el" href="classnta_1_1_link.html">Link</a> pointer to NULL on return (to avoid a dangling reference)</p>
+<p>Sets the <a class="el" href="classnta_1_1_link.html" title="Links have four-phase initialization.">Link</a> pointer to NULL on return (to avoid a dangling reference)</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">link</td><td><a class="el" href="classnta_1_1_link.html">Link</a> to remove </td></tr>
+    <tr><td class="paramname">link</td><td><a class="el" href="classnta_1_1_link.html" title="Links have four-phase initialization.">Link</a> to remove </td></tr>
   </table>
   </dd>
 </dl>
@@ -499,7 +496,8 @@ template&lt;typename T &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Inputs need to know their own name for error messages </p>
+
+<p>Inputs need to know their own name for error messages. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">name</td><td>TODO: document </td></tr>
@@ -517,7 +515,7 @@ template&lt;typename T &gt; </div>
 <hr class="footer"/><small>
 <span class="qmi"><a href="http://github.com/skozlovf/doxygen-qmi-style">qmi style</a></span>
 <address class="footer">
-Generated on Fri Apr 25 2014 18:54:34 for NuPIC by <a href="http://www.doxygen.org/index.html">doxygen</a> 1.8.2
+Generated on Mon Apr 28 2014 04:57:30 for NuPIC Core by <a href="http://www.doxygen.org/index.html">doxygen</a> 1.8.2
 </small></address>
 </body>
 </html>

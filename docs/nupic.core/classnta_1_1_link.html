@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<title>NuPIC: nta::Link Class Reference</title>
+<title>NuPIC Core: nta::Link Class Reference</title>
 <link href="qmi.css" rel="stylesheet" type="text/css" />
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/search.js"></script>
@@ -19,9 +19,9 @@
   <td id="projectlogo"><img alt="Logo" src="numenta-logo.png"/></td>
   <!--td style="padding-left: 0.5em;"-->
   <td>
-   <div id="projectname">NuPIC
+   <div id="projectname">NuPIC Core
    </div>
-   <div id="projectbrief">Numenta Platform for Intelligent Computing</div>
+   <div id="projectbrief">Core algorithms for NuPIC(the Numenta Platform for Intelligent Computing), implemented in C++</div>
   </td>
  </tr>
  </tbody>
@@ -92,69 +92,99 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 
+<p>Links have four-phase initialization.  
+ <a href="classnta_1_1_link.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_link_8hpp_source.html">Link.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a9bf1cf796dc236992fe25c2d0b6a8176"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnta_1_1_link.html#a9bf1cf796dc236992fe25c2d0b6a8176">Link</a> (const std::string &amp;linkType, const std::string &amp;linkParams, const std::string &amp;srcRegionName, const std::string &amp;destRegionName, const std::string &amp;srcOutputName=&quot;&quot;, const std::string &amp;destInputName=&quot;&quot;)</td></tr>
+<tr class="memdesc:a9bf1cf796dc236992fe25c2d0b6a8176"><td class="mdescLeft">&#160;</td><td class="mdescRight">This constructor does phase 1 initialization.  <a href="#a9bf1cf796dc236992fe25c2d0b6a8176"></a><br/></td></tr>
 <tr class="separator:a9bf1cf796dc236992fe25c2d0b6a8176"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a03c30444393c9eba7fc74bb064e795fc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnta_1_1_link.html#a03c30444393c9eba7fc74bb064e795fc">connectToNetwork</a> (<a class="el" href="classnta_1_1_output.html">Output</a> *src, <a class="el" href="classnta_1_1_input.html">Input</a> *dest)</td></tr>
+<tr class="memdesc:a03c30444393c9eba7fc74bb064e795fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Does phase 2 initialization.  <a href="#a03c30444393c9eba7fc74bb064e795fc"></a><br/></td></tr>
 <tr class="separator:a03c30444393c9eba7fc74bb064e795fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a955023bbcc89bacef75daa5180b25959"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnta_1_1_link.html#a955023bbcc89bacef75daa5180b25959">~Link</a> ()</td></tr>
+<tr class="memitem:a955023bbcc89bacef75daa5180b25959"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a955023bbcc89bacef75daa5180b25959"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnta_1_1_link.html#a955023bbcc89bacef75daa5180b25959">~Link</a> ()</td></tr>
+<tr class="memdesc:a955023bbcc89bacef75daa5180b25959"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor. <br/></td></tr>
 <tr class="separator:a955023bbcc89bacef75daa5180b25959"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3f774333a23897e9b32f7361a2e1fd45"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnta_1_1_link.html#a3f774333a23897e9b32f7361a2e1fd45">setSrcDimensions</a> (<a class="el" href="classnta_1_1_dimensions.html">Dimensions</a> &amp;dims)</td></tr>
+<tr class="memdesc:a3f774333a23897e9b32f7361a2e1fd45"><td class="mdescLeft">&#160;</td><td class="mdescRight">In phase 3, <a class="el" href="classnta_1_1_nu_p_i_c.html" title="Initialization and shutdown operations for NuPIC engine.">NuPIC</a> will set and/or get source and/or destination dimensions until both are set.  <a href="#a3f774333a23897e9b32f7361a2e1fd45"></a><br/></td></tr>
 <tr class="separator:a3f774333a23897e9b32f7361a2e1fd45"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a46d607bc39668a9b6a0600904e69ff3f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnta_1_1_link.html#a46d607bc39668a9b6a0600904e69ff3f">setDestDimensions</a> (<a class="el" href="classnta_1_1_dimensions.html">Dimensions</a> &amp;dims)</td></tr>
+<tr class="memdesc:a46d607bc39668a9b6a0600904e69ff3f"><td class="mdescLeft">&#160;</td><td class="mdescRight">TODO: document.  <a href="#a46d607bc39668a9b6a0600904e69ff3f"></a><br/></td></tr>
 <tr class="separator:a46d607bc39668a9b6a0600904e69ff3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a61f3041194bd1bf4dbc79834fac907f1"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classnta_1_1_dimensions.html">Dimensions</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnta_1_1_link.html#a61f3041194bd1bf4dbc79834fac907f1">getSrcDimensions</a> () const </td></tr>
+<tr class="memdesc:a61f3041194bd1bf4dbc79834fac907f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">TODO: document.  <a href="#a61f3041194bd1bf4dbc79834fac907f1"></a><br/></td></tr>
 <tr class="separator:a61f3041194bd1bf4dbc79834fac907f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6a69c82c988ad7be523de7e12c716d8b"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classnta_1_1_dimensions.html">Dimensions</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnta_1_1_link.html#a6a69c82c988ad7be523de7e12c716d8b">getDestDimensions</a> () const </td></tr>
+<tr class="memdesc:a6a69c82c988ad7be523de7e12c716d8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">TODO: document.  <a href="#a6a69c82c988ad7be523de7e12c716d8b"></a><br/></td></tr>
 <tr class="separator:a6a69c82c988ad7be523de7e12c716d8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8baa6d02e1baf023fb889e8f9d30de4e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnta_1_1_link.html#a8baa6d02e1baf023fb889e8f9d30de4e">initialize</a> (size_t destinationOffset)</td></tr>
+<tr class="memdesc:a8baa6d02e1baf023fb889e8f9d30de4e"><td class="mdescLeft">&#160;</td><td class="mdescRight">initialize does phase 4 initialization  <a href="#a8baa6d02e1baf023fb889e8f9d30de4e"></a><br/></td></tr>
 <tr class="separator:a8baa6d02e1baf023fb889e8f9d30de4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6ff8111410fbe5505556ca2cf50b9b26"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnta_1_1_link.html#a6ff8111410fbe5505556ca2cf50b9b26">getLinkType</a> () const </td></tr>
+<tr class="memdesc:a6ff8111410fbe5505556ca2cf50b9b26"><td class="mdescLeft">&#160;</td><td class="mdescRight">TODO: document.  <a href="#a6ff8111410fbe5505556ca2cf50b9b26"></a><br/></td></tr>
 <tr class="separator:a6ff8111410fbe5505556ca2cf50b9b26"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae1d133544a044b20dcfd5172429e9083"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnta_1_1_link.html#ae1d133544a044b20dcfd5172429e9083">getLinkParams</a> () const </td></tr>
+<tr class="memdesc:ae1d133544a044b20dcfd5172429e9083"><td class="mdescLeft">&#160;</td><td class="mdescRight">TODO: document.  <a href="#ae1d133544a044b20dcfd5172429e9083"></a><br/></td></tr>
 <tr class="separator:ae1d133544a044b20dcfd5172429e9083"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a46fa1ade3003a9ef5113bc0d43199650"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnta_1_1_link.html#a46fa1ade3003a9ef5113bc0d43199650">getSrcRegionName</a> () const </td></tr>
+<tr class="memdesc:a46fa1ade3003a9ef5113bc0d43199650"><td class="mdescLeft">&#160;</td><td class="mdescRight">TODO: document.  <a href="#a46fa1ade3003a9ef5113bc0d43199650"></a><br/></td></tr>
 <tr class="separator:a46fa1ade3003a9ef5113bc0d43199650"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa631130ffbbf9e5c14384bb7adf2bbe7"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnta_1_1_link.html#aa631130ffbbf9e5c14384bb7adf2bbe7">getSrcOutputName</a> () const </td></tr>
+<tr class="memdesc:aa631130ffbbf9e5c14384bb7adf2bbe7"><td class="mdescLeft">&#160;</td><td class="mdescRight">TODO: document.  <a href="#aa631130ffbbf9e5c14384bb7adf2bbe7"></a><br/></td></tr>
 <tr class="separator:aa631130ffbbf9e5c14384bb7adf2bbe7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a153481d2682f922e2645d9d7b84212c0"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnta_1_1_link.html#a153481d2682f922e2645d9d7b84212c0">getDestRegionName</a> () const </td></tr>
+<tr class="memdesc:a153481d2682f922e2645d9d7b84212c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">TODO: document.  <a href="#a153481d2682f922e2645d9d7b84212c0"></a><br/></td></tr>
 <tr class="separator:a153481d2682f922e2645d9d7b84212c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aad65a598eb89734b09896ddfe0202b59"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnta_1_1_link.html#aad65a598eb89734b09896ddfe0202b59">getDestInputName</a> () const </td></tr>
+<tr class="memdesc:aad65a598eb89734b09896ddfe0202b59"><td class="mdescLeft">&#160;</td><td class="mdescRight">TODO: document.  <a href="#aad65a598eb89734b09896ddfe0202b59"></a><br/></td></tr>
 <tr class="separator:aad65a598eb89734b09896ddfe0202b59"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af63153ee210ab0f308386f63843f65c6"><td class="memItemLeft" align="right" valign="top">const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnta_1_1_link.html#af63153ee210ab0f308386f63843f65c6">toString</a> () const </td></tr>
+<tr class="memdesc:af63153ee210ab0f308386f63843f65c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">TODO: document.  <a href="#af63153ee210ab0f308386f63843f65c6"></a><br/></td></tr>
 <tr class="separator:af63153ee210ab0f308386f63843f65c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa3481d085a0a321c2a83b0bda9d67b99"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classnta_1_1_output.html">Output</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnta_1_1_link.html#aa3481d085a0a321c2a83b0bda9d67b99">getSrc</a> () const </td></tr>
+<tr class="memdesc:aa3481d085a0a321c2a83b0bda9d67b99"><td class="mdescLeft">&#160;</td><td class="mdescRight">TODO: document.  <a href="#aa3481d085a0a321c2a83b0bda9d67b99"></a><br/></td></tr>
 <tr class="separator:aa3481d085a0a321c2a83b0bda9d67b99"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acee4a9a994d4c054026ee270dd6032e9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classnta_1_1_input.html">Input</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnta_1_1_link.html#acee4a9a994d4c054026ee270dd6032e9">getDest</a> () const </td></tr>
+<tr class="memdesc:acee4a9a994d4c054026ee270dd6032e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">TODO: document.  <a href="#acee4a9a994d4c054026ee270dd6032e9"></a><br/></td></tr>
 <tr class="separator:acee4a9a994d4c054026ee270dd6032e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8ad1eb97253716bddcd40e2768fbbdc4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnta_1_1_link.html#a8ad1eb97253716bddcd40e2768fbbdc4">compute</a> ()</td></tr>
+<tr class="memdesc:a8ad1eb97253716bddcd40e2768fbbdc4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Nodes request input data from their input objects.  <a href="#a8ad1eb97253716bddcd40e2768fbbdc4"></a><br/></td></tr>
 <tr class="separator:a8ad1eb97253716bddcd40e2768fbbdc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8d5a6a5643f8ec53a06983a111c0d82e"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnta_1_1_link.html#a8d5a6a5643f8ec53a06983a111c0d82e">getNodeInputSize</a> (size_t nodeIndex)</td></tr>
+<tr class="memdesc:a8d5a6a5643f8ec53a06983a111c0d82e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the size of the input contributed by this link for a single node.  <a href="#a8d5a6a5643f8ec53a06983a111c0d82e"></a><br/></td></tr>
 <tr class="separator:a8d5a6a5643f8ec53a06983a111c0d82e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae7f9af098c6c9b91f8de44cefd1616eb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnta_1_1_link.html#ae7f9af098c6c9b91f8de44cefd1616eb">isInputContiguous</a> ()</td></tr>
+<tr class="memdesc:ae7f9af098c6c9b91f8de44cefd1616eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">If the input for a particular node is a contiguous subset of the src output, then the splitter map is overkill, and all we need to know is the offset/size (per node) Returns true if and only if the input for each node is a contiguous chunk of the input buffer.  <a href="#ae7f9af098c6c9b91f8de44cefd1616eb"></a><br/></td></tr>
 <tr class="separator:ae7f9af098c6c9b91f8de44cefd1616eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a067d2d010a3930f997f143004cca4eed"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnta_1_1_link.html#a067d2d010a3930f997f143004cca4eed">getInputOffset</a> (size_t nodeIndex)</td></tr>
+<tr class="memdesc:a067d2d010a3930f997f143004cca4eed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Locate the contiguous input for a node.  <a href="#a067d2d010a3930f997f143004cca4eed"></a><br/></td></tr>
 <tr class="separator:a067d2d010a3930f997f143004cca4eed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3e00031296daa873060fdbd233b77a12"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnta_1_1_link.html#a3e00031296daa873060fdbd233b77a12">buildSplitterMap</a> (<a class="el" href="classnta_1_1_input.html#a193cc425807e1d3f6f099deaeed37ff2">Input::SplitterMap</a> &amp;splitter)</td></tr>
+<tr class="memdesc:a3e00031296daa873060fdbd233b77a12"><td class="mdescLeft">&#160;</td><td class="mdescRight">A splitter map is a matrix that maps the full input of a region to the inputs of individual nodes within the region.  <a href="#a3e00031296daa873060fdbd233b77a12"></a><br/></td></tr>
 <tr class="separator:a3e00031296daa873060fdbd233b77a12"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
 Friends</h2></td></tr>
-<tr class="memitem:ac1814a458120d2ee5ba37f688f800b65"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnta_1_1_link.html#ac1814a458120d2ee5ba37f688f800b65">operator&lt;&lt;</a> (std::ostream &amp;f, const <a class="el" href="classnta_1_1_link.html">Link</a> &amp;link)</td></tr>
+<tr class="memitem:ac1814a458120d2ee5ba37f688f800b65"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac1814a458120d2ee5ba37f688f800b65"></a>
+std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnta_1_1_link.html#ac1814a458120d2ee5ba37f688f800b65">operator&lt;&lt;</a> (std::ostream &amp;f, const <a class="el" href="classnta_1_1_link.html">Link</a> &amp;link)</td></tr>
+<tr class="memdesc:ac1814a458120d2ee5ba37f688f800b65"><td class="mdescLeft">&#160;</td><td class="mdescRight">TODO: document. <br/></td></tr>
 <tr class="separator:ac1814a458120d2ee5ba37f688f800b65"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Links have four-phase initialization.</p>
+<div class="textblock"><p>Links have four-phase initialization. </p>
 <ol type="1">
 <li>construct with link type, params, names of regions and inputs/outputs</li>
 <li>wire in to network (setting src and dest Output/Input pointers)</li>
 <li>set source and destination dimensions</li>
-<li>initialize &ndash; sets the offset in the destination <a class="el" href="classnta_1_1_input.html">Input</a> (not known earlier)</li>
+<li>initialize &ndash; sets the offset in the destination <a class="el" href="classnta_1_1_input.html" title="Input represents a named input to a Region (e.g.">Input</a> (not known earlier)</li>
 </ol>
 <p>De-serializing is the same as phase 1. The linkType and linkParams parameters are given to the LinkPolicyFactory to create a link policy </p>
+
+<p>Definition at line <a class="el" href="_link_8hpp_source.html#l00054">54</a> of file <a class="el" href="_link_8hpp_source.html">Link.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a9bf1cf796dc236992fe25c2d0b6a8176"></a>
 <div class="memitem">
@@ -203,7 +233,8 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>This constructor does phase 1 initialization</p>
+
+<p>This constructor does phase 1 initialization. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">linkType</td><td>TODO: document </td></tr>
@@ -215,22 +246,6 @@ Friends</h2></td></tr>
   </table>
   </dd>
 </dl>
-
-</div>
-</div>
-<a class="anchor" id="a955023bbcc89bacef75daa5180b25959"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">nta::Link::~Link </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Destructor </p>
 
 </div>
 </div>
@@ -248,7 +263,9 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>A splitter map is a matrix that maps the full input of a region to the inputs of individual nodes within the region. A splitter map "sm" is declared as: </p>
+
+<p>A splitter map is a matrix that maps the full input of a region to the inputs of individual nodes within the region. </p>
+<p>A splitter map "sm" is declared as: </p>
 <pre class="fragment">vector&lt; vector&lt;size_t&gt; &gt; sm;
 
 sm.length() == number of nodes
@@ -263,7 +280,7 @@ for (size_t elem = 0; elem &lt; sm[i].size; elem++)
 <p>Finally, the API is designed so that each link associated with an input can contribute its portion to a full splitter map. Thus the splitter map is an input-output parameter. This method appends data to each row of the splitter map, assuming that existing data in the splitter map comes from other links.</p>
 <p>For region-level inputs, a splitter map has just a single row.</p>
 <h3>Splitter map ownership:</h3>
-<p>The splitter map is owned by the containing <a class="el" href="classnta_1_1_input.html">Input</a>. Each <a class="el" href="classnta_1_1_link.html">Link</a> in the input contributes a portion to the splitter map, through the buildSplitterMap method.</p>
+<p>The splitter map is owned by the containing <a class="el" href="classnta_1_1_input.html" title="Input represents a named input to a Region (e.g.">Input</a>. Each <a class="el" href="classnta_1_1_link.html" title="Links have four-phase initialization.">Link</a> in the input contributes a portion to the splitter map, through the buildSplitterMap method.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">splitter</td><td>TODO: document </td></tr>
@@ -285,7 +302,9 @@ for (size_t elem = 0; elem &lt; sm[i].size; elem++)
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Nodes request input data from their input objects. The input objects, in turn, request links to copy data into the inputs </p>
+
+<p>Nodes request input data from their input objects. </p>
+<p>The input objects, in turn, request links to copy data into the inputs </p>
 
 </div>
 </div>
@@ -312,7 +331,8 @@ for (size_t elem = 0; elem &lt; sm[i].size; elem++)
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Does phase 2 initialization</p>
+
+<p>Does phase 2 initialization. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">src</td><td>TODO: document </td></tr>
@@ -335,7 +355,8 @@ for (size_t elem = 0; elem &lt; sm[i].size; elem++)
         </tr>
       </table>
 </div><div class="memdoc">
-<p>TODO: document </p>
+
+<p>TODO: document. </p>
 <dl class="section return"><dt>Returns</dt><dd>TODO: document </dd></dl>
 
 </div>
@@ -352,7 +373,8 @@ for (size_t elem = 0; elem &lt; sm[i].size; elem++)
         </tr>
       </table>
 </div><div class="memdoc">
-<p>TODO: document </p>
+
+<p>TODO: document. </p>
 <dl class="section return"><dt>Returns</dt><dd>TODO: document </dd></dl>
 
 </div>
@@ -369,7 +391,8 @@ for (size_t elem = 0; elem &lt; sm[i].size; elem++)
         </tr>
       </table>
 </div><div class="memdoc">
-<p>TODO: document </p>
+
+<p>TODO: document. </p>
 <dl class="section return"><dt>Returns</dt><dd>TODO: document </dd></dl>
 
 </div>
@@ -386,7 +409,8 @@ for (size_t elem = 0; elem &lt; sm[i].size; elem++)
         </tr>
       </table>
 </div><div class="memdoc">
-<p>TODO: document </p>
+
+<p>TODO: document. </p>
 <dl class="section return"><dt>Returns</dt><dd>TODO: document </dd></dl>
 
 </div>
@@ -404,8 +428,10 @@ for (size_t elem = 0; elem &lt; sm[i].size; elem++)
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Locate the contiguous input for a node. This method is used only if the input is contiguous</p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000007">Todo:</a></b></dt><dd>not implemented; necessary?</dd></dl>
+
+<p>Locate the contiguous input for a node. </p>
+<p>This method is used only if the input is contiguous</p>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000012">Todo:</a></b></dt><dd>not implemented; necessary?</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">nodeIndex</td><td>TODO: document </td></tr>
@@ -428,7 +454,8 @@ for (size_t elem = 0; elem &lt; sm[i].size; elem++)
         </tr>
       </table>
 </div><div class="memdoc">
-<p>TODO: document </p>
+
+<p>TODO: document. </p>
 <dl class="section return"><dt>Returns</dt><dd>TODO: document </dd></dl>
 
 </div>
@@ -445,7 +472,8 @@ for (size_t elem = 0; elem &lt; sm[i].size; elem++)
         </tr>
       </table>
 </div><div class="memdoc">
-<p>TODO: document </p>
+
+<p>TODO: document. </p>
 <dl class="section return"><dt>Returns</dt><dd>TODO: document </dd></dl>
 
 </div>
@@ -463,8 +491,9 @@ for (size_t elem = 0; elem &lt; sm[i].size; elem++)
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Returns the size of the input contributed by this link for a single node.</p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000005">Todo:</a></b></dt><dd>index=-1 for region-level input?</dd></dl>
+
+<p>Returns the size of the input contributed by this link for a single node. </p>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000010">Todo:</a></b></dt><dd>index=-1 for region-level input?</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">nodeIndex</td><td>TODO: document </td></tr>
@@ -487,7 +516,8 @@ for (size_t elem = 0; elem &lt; sm[i].size; elem++)
         </tr>
       </table>
 </div><div class="memdoc">
-<p>TODO: document </p>
+
+<p>TODO: document. </p>
 <dl class="section return"><dt>Returns</dt><dd>TODO: document </dd></dl>
 
 </div>
@@ -504,7 +534,8 @@ for (size_t elem = 0; elem &lt; sm[i].size; elem++)
         </tr>
       </table>
 </div><div class="memdoc">
-<p>TODO: document </p>
+
+<p>TODO: document. </p>
 <dl class="section return"><dt>Returns</dt><dd>TODO: document </dd></dl>
 
 </div>
@@ -521,7 +552,8 @@ for (size_t elem = 0; elem &lt; sm[i].size; elem++)
         </tr>
       </table>
 </div><div class="memdoc">
-<p>TODO: document </p>
+
+<p>TODO: document. </p>
 <dl class="section return"><dt>Returns</dt><dd>TODO: document </dd></dl>
 
 </div>
@@ -538,7 +570,8 @@ for (size_t elem = 0; elem &lt; sm[i].size; elem++)
         </tr>
       </table>
 </div><div class="memdoc">
-<p>TODO: document </p>
+
+<p>TODO: document. </p>
 <dl class="section return"><dt>Returns</dt><dd>TODO: document </dd></dl>
 
 </div>
@@ -556,6 +589,7 @@ for (size_t elem = 0; elem &lt; sm[i].size; elem++)
         </tr>
       </table>
 </div><div class="memdoc">
+
 <p>initialize does phase 4 initialization </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -578,8 +612,9 @@ for (size_t elem = 0; elem &lt; sm[i].size; elem++)
         </tr>
       </table>
 </div><div class="memdoc">
-<p>If the input for a particular node is a contiguous subset of the src output, then the splitter map is overkill, and all we need to know is the offset/size (per node) Returns true if and only if the input for each node is a contiguous chunk of the input buffer.</p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000006">Todo:</a></b></dt><dd>not implemented; necessary? </dd></dl>
+
+<p>If the input for a particular node is a contiguous subset of the src output, then the splitter map is overkill, and all we need to know is the offset/size (per node) Returns true if and only if the input for each node is a contiguous chunk of the input buffer. </p>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000011">Todo:</a></b></dt><dd>not implemented; necessary? </dd></dl>
 
 </div>
 </div>
@@ -596,7 +631,8 @@ for (size_t elem = 0; elem &lt; sm[i].size; elem++)
         </tr>
       </table>
 </div><div class="memdoc">
-<p>TODO: document </p>
+
+<p>TODO: document. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">dims</td><td>TODO: document </td></tr>
@@ -619,11 +655,12 @@ for (size_t elem = 0; elem &lt; sm[i].size; elem++)
         </tr>
       </table>
 </div><div class="memdoc">
-<p>In phase 3, <a class="el" href="classnta_1_1_nu_p_i_c.html">NuPIC</a> will set and/or get source and/or destination dimensions until both are set.</p>
+
+<p>In phase 3, <a class="el" href="classnta_1_1_nu_p_i_c.html" title="Initialization and shutdown operations for NuPIC engine.">NuPIC</a> will set and/or get source and/or destination dimensions until both are set. </p>
 <p>Normally we will set the src dimensions and the dest dimensions will be induced. It is possible to go the other way, though.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">dims</td><td>source <a class="el" href="classnta_1_1_dimensions.html">Dimensions</a> </td></tr>
+    <tr><td class="paramname">dims</td><td>source <a class="el" href="classnta_1_1_dimensions.html" title="A Dimensions object represents the dimensions of a Region It is vector of ints with a few methods for...">Dimensions</a> </td></tr>
   </table>
   </dd>
 </dl>
@@ -642,44 +679,9 @@ for (size_t elem = 0; elem &lt; sm[i].size; elem++)
         </tr>
       </table>
 </div><div class="memdoc">
-<p>TODO: document </p>
-<dl class="section return"><dt>Returns</dt><dd>TODO: document </dd></dl>
 
-</div>
-</div>
-<h2 class="groupheader">Friends And Related Function Documentation</h2>
-<a class="anchor" id="ac1814a458120d2ee5ba37f688f800b65"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::ostream&amp; operator&lt;&lt; </td>
-          <td>(</td>
-          <td class="paramtype">std::ostream &amp;&#160;</td>
-          <td class="paramname"><em>f</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="classnta_1_1_link.html">Link</a> &amp;&#160;</td>
-          <td class="paramname"><em>link</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>TODO: document </p>
+<p>TODO: document. </p>
+<dl class="section return"><dt>Returns</dt><dd>TODO: document </dd></dl>
 
 </div>
 </div>
@@ -691,7 +693,7 @@ for (size_t elem = 0; elem &lt; sm[i].size; elem++)
 <hr class="footer"/><small>
 <span class="qmi"><a href="http://github.com/skozlovf/doxygen-qmi-style">qmi style</a></span>
 <address class="footer">
-Generated on Fri Apr 25 2014 18:54:34 for NuPIC by <a href="http://www.doxygen.org/index.html">doxygen</a> 1.8.2
+Generated on Mon Apr 28 2014 04:57:30 for NuPIC Core by <a href="http://www.doxygen.org/index.html">doxygen</a> 1.8.2
 </small></address>
 </body>
 </html>
