@@ -1,5 +1,6 @@
 (function() {
     var csvUrl = '../resources/contributors.csv';
+    var contribsUrl = 'http://issues.numenta.org:8081/contribStats';
     var headings = ['Name', 'Github', 'Committer', 'Reviewer', 'Commits'];
     var tmpl = Handlebars.compile($("#contributor-table").html());
 
@@ -27,6 +28,8 @@
     // Get contributor listing for initial table load.
     $.ajax(csvUrl).done(function(csv) {
         var $commitTable,
+            repoSlugs = ['numenta/nupic', 'numenta/nupic.core'],
+            contribData = [],
             contribs = csvToJson(csv).map(function(contributor) {
                 contributor.Commits = '';
                 return contributor;
@@ -34,40 +37,70 @@
 
         // Fill in the contributor count.
         $('#contrib-count').html('(' + contribs.length + ')');
-        
+
         // Fill HTML template for table structure.
         $('#contributors').html(tmpl({
-            headings: headings, 
+            headings: headings,
             contributors: contribs
         }));
 
         // Initialize the tablesorter object.
         $commitTable = $('table');
-        $commitTable.tablesorter({ 
-            sortList: [[3,0],[2,0],[0,0]] 
+        $commitTable.tablesorter({
+            sortList: [[3,0],[2,0],[0,0]]
         });
-        
-        // Get the commit stats for incremental commit data injection into table.
-        $.ajax({
-            url: 'http://issues.numenta.org:8081/contribStats',
-            dataType: 'jsonp',
-            data: { repo: 'numenta/nupic' },
-            jsonp: "callback",
-            success: function(data) {
+
+        // Get the commit stats for incremental commit data injection into
+        // table.
+
+        function whenDone() {
+            var allContributors = [];
+            if (contribData.length == repoSlugs.length) {
+                // Merge contribData into one list of sums.
+                _.each(contribData, function(repoConfigData) {
+                    _.each(repoConfigData, function(contributor) {
+                        var existing =
+                            _.findIndex(allContributors, function(loopContrib) {
+                                return contributor.login == loopContrib.login;
+                            });
+                        if (existing > -1) {
+                            allContributors[existing].commits
+                                += contributor.commits;
+                            allContributors[existing].contributions
+                                += contributor.contributions;
+                        } else {
+                            allContributors.push(contributor);
+                        }
+                    });
+                });
                 // Inject commit stats for each record for committer
-                data['numenta/nupic'].forEach(function(contributor) {
+                allContributors.forEach(function(contributor) {
                     $commitTable.find('#' + contributor.login + ' td.commits')
                         .removeClass('small-loader')
                         .html(contributor.commits);
                 });
-                // Remove loader icon and replace empty commits with zero for 
+                // Remove loader icon and replace empty commits with zero for
                 // proper sorting
                 $commitTable.find('tr td.small-loader')
                     .removeClass('small-loader')
                     .html('0');
                 // Trigger update on tablesorter for re-sort
                 $commitTable.trigger('update');
+
             }
+        }
+        // Make a call for each repo we want to get contributor counts for.
+        _.each(repoSlugs, function(repoSlug) {
+            $.ajax({
+                url: contribsUrl,
+                dataType: 'jsonp',
+                data: { repo: repoSlug },
+                jsonp: "callback",
+                success: function(data) {
+                    contribData.push(data[repoSlug]);
+                    whenDone();
+                }
+            });
         });
     });
 
