@@ -15,7 +15,7 @@
     </dd>
     <dt>Where?</dt>
     <dd>
-        <p> 
+        <p>
             Pinger Inc<br/>
             97 S 2nd St, Ste 210<br/>
             San Jose, CA
@@ -24,8 +24,9 @@
             <a href="http://www.pinger.com/"><img src="{{ site.baseurl }}/images/pinger_logo.png"/></a>
         </div>
 
-        <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=E+San+Fernando+St+and+S+Second+St,+San+Jose,+CA&amp;aq=&amp;sll=37.334866,-121.888332&amp;sspn=0.002689,0.002647&amp;ie=UTF8&amp;hq=&amp;hnear=E+San+Fernando+St+%26+S+Second+St,+San+Jose,+Santa+Clara+County,+California+95113&amp;t=m&amp;ll=37.342799,-121.885242&amp;spn=0.023883,0.036478&amp;z=14&amp;iwloc=A&amp;output=embed">
+        <iframe width="425" height="350" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=Pinger%20Inc%2C%20South%20Second%20Street%2C%20San%20Jose%2C%20CA%2C%20United%20States&amp;key=AIzaSyD-Nq_l6YdooAAtPZPFRSvNR6FWmJiARE4">
         </iframe>
+        
         <br />
         <small><a href="https://www.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=E+San+Fernando+St+and+S+Second+St,+San+Jose,+CA&amp;aq=&amp;sll=37.334866,-121.888332&amp;sspn=0.002689,0.002647&amp;ie=UTF8&amp;hq=&amp;hnear=E+San+Fernando+St+%26+S+Second+St,+San+Jose,+Santa+Clara+County,+California+95113&amp;t=m&amp;ll=37.342799,-121.885242&amp;spn=0.023883,0.036478&amp;z=14&amp;iwloc=A" style="color:#0000FF;text-align:left">View Larger Map</a></small>
 
@@ -49,7 +50,7 @@
 
 [See the complete hackathon schedule]({{ site.baseurl }}/hack/schedule).
 
-* * * 
+* * *
 
 For further preparation details, [see our wiki](https://github.com/numenta/nupic/wiki/Getting-Started).
 
