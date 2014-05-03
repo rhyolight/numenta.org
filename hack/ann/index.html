@@ -49,8 +49,8 @@ title: 2014 Spring Hackathon Announcements
         window.NTA.autoReload(60);
 
         var now = new Date();
-        var hackStart = new Date(2014, 5, 3, 10);
-        var hackEnd = new Date(2013, 5, 4, 16);
+        var hackStart = new Date(2014, 4, 3, 10);
+        var hackEnd = new Date(2014, 4, 4, 16);
         var $label = $("#countdown-label");
         var width = 800;
         var height = 100;
@@ -81,7 +81,9 @@ title: 2014 Spring Hackathon Announcements
             });
 
         }
-
+        console.log(now)
+        console.log(hackStart)
+        console.log(hackEnd)
         if (now.getTime() > hackStart.getTime()) {
             label = "Hacking time left before demos:";
             deadline = hackEnd;
