@@ -519,6 +519,6 @@ This was our most successful hackathon yet. Thanks to everyone who participating
 > Open Source Community Flag-Bearer <br/>
 > Numenta, Inc.
 
-[Comments on Reddit]()
+[Comments on Reddit](http://www.reddit.com/r/MachineLearning/comments/255npf/nupic_2014_spring_hackathon_outcome/)
 
 <small><strong>By the way!</strong> You can see all the videos and photos taken at this hackathon on our <a href="http://www.youtube.com/channel/UC8-ttzWLgXZOGuhUyrPlUuA">YouTube channel</a> and <a href="https://www.flickr.com/photos/nupic/">Flickr page</a>.</small>
