@@ -4,41 +4,70 @@ title: 2014 Spring Hackathon Outcome
 category: blog
 ---
 
-Intro
+We had a *great* hackathon event this past weekend. This was our third hackathon, and it resulted in the most hackers, the most hacks, and the most productive environment yet. Even if you could not attend, I hope the videos and photographs below help you to understand NuPIC better by example.
+
+Below, you'll find the following:
+
+- [Sessions](#sessions): Videos of informational talks given by Numenta engineers
+- [Demos](#demos): Hackathon demos presented at the end
+- [Photos](https://www.flickr.com/photos/nupic/sets/72157644535590422/): Taken at the hackathon (on Flickr)
 
 <div class="image">
-    <a href="" title=""><img src="" width="640" height="425" alt=""></a>
-    <p></p>
+    <a href="https://www.flickr.com/photos/nupic/14143853493" title="NuPIC Spring 2014 Hackathon by Numenta Platform for Intelligent Computing, on Flickr"><img src="https://farm6.staticflickr.com/5579/14143853493_043e06626a_z.jpg" width="640" height="425" alt="NuPIC Spring 2014 Hackathon"></a>
+    <p>Jeff's fireside chat with hackers.</p>
 </div>
 
-
-Thanks to Pinger
+Big thanks to [Pinger](http://pinger.com), who graciously donated their space to us for the event!
 
 <div class="image">
-    <a href="" title=""><img src="" width="640" height="425" alt=""></a>
-    <p></p>
+    <a href="https://www.flickr.com/photos/nupic/14120782712" title="NuPIC Spring 2014 Hackathon by Numenta Platform for Intelligent Computing, on Flickr"><img src="https://farm8.staticflickr.com/7383/14120782712_55d1011d19_z.jpg" width="640" height="425" alt="NuPIC Spring 2014 Hackathon"></a>
+    <p>The Pinger offices, from across 2nd street in downtown San Jose.</p>
 </div>
 
-Description of event
+The hackathon brought in attendees from all over the world. We started at 10AM on Saturday with a kickoff presentation, helped people get NuPIC installed, then held several [informational sessions](#sessions) throughout the day. Breakfast, lunch, and dinner were served. 
 
 <div class="image">
-    <a href="" title=""><img src="" width="640" height="425" alt=""></a>
-    <p></p>
+    <a href="https://www.flickr.com/photos/nupic/14128558362" title="NuPIC Spring 2014 Hackathon by Numenta Platform for Intelligent Computing, on Flickr"><img src="https://farm6.staticflickr.com/5073/14128558362_b81db5b28b_z.jpg" width="640" height="425" alt="NuPIC Spring 2014 Hackathon"></a>
+    <p>Hackers mingled while grabbing some food.</p>
+</div>
+
+<div class="image">
+    <a href="https://www.flickr.com/photos/nupic/13937168150" title="NuPIC Spring 2014 Hackathon by Numenta Platform for Intelligent Computing, on Flickr"><img src="https://farm8.staticflickr.com/7391/13937168150_b49b645856_z.jpg" width="640" height="425" alt="NuPIC Spring 2014 Hackathon"></a>
+    <p>Hackers gonna hack.</p>
 </div>
 
 ## Testimonials
 
+Everyone seemed to have a great time, and most people stuck around through the event (sans some sleep time!) to see the demos at the end. 
+
+<div class="image">
+    <a href="https://www.flickr.com/photos/nupic/14143875203" title="NuPIC Spring 2014 Hackathon by Numenta Platform for Intelligent Computing, on Flickr"><img src="https://farm3.staticflickr.com/2919/14143875203_71d00014e9_z.jpg" width="640" height="425" alt="NuPIC Spring 2014 Hackathon"></a>
+    <p>Raise your hand if you love the NuPIC community!</p>
+</div>
+
 <ul class="testimonials">
     <li>
-        <p class="quote">""</p>
-        <p class="author"></p>
+        <p class="quote">"Another outstanding event! Thanks Numenta!"</p>
+        <p class="author">Jeff Fohl</p>
+    </li>
+    <li>
+        <p class="quote">"Learned a ton, great people, great numenta staff, matt++ :)"</p>
+        <p class="author">Wade Hought</p>
+    </li>
+    <li>
+        <p class="quote">"It was great to meet the community and to exchange ideas"</p>
+        <p class="author">Francisco Webber (CEPT)</p>
+    </li>
+    <li>
+        <p class="quote">"Comparing with the Fall 2013: 1. More people with serious interest in the NuPIC/Theory, 2. More hacks worked on and presented, 3. Previous "hacks" extended (CEPT!), 4. Theory has made progress towards deeper understanding of brain. Great to see the people from Numenta, the previous event, and new people with practical interest !"</p>
+        <p class="author">Azat</p>
+    </li>
+    <li>
+        <p class="quote">"Really great, even better than in the Fall. Thanks to everyone who worked really hard to make the hackathon go so smoothly, and to all who took part. It was a real pleasure to meet so many smart people, all interested in furthering Machine Intelligence."</p>
+        <p class="author">Fergal Byrne</p>
     </li>
 </ul>
 
-<div class="image">
-    <a href="" title=""><img src="" width="640" height="425" alt=""></a>
-    <p></p>
-</div>
 
 ## [Kickoff](#kickoff)
 
@@ -482,12 +511,7 @@ We had a **lot of demos** at this hackathon! In addition to the <a href="https:/
 
 </div>
 
-
-
-
-Lastly, our CEO and Chairman of the Grok/Numenta Board, Donna Dubinsky, said <a href="http://www.youtube.com/watch?v=X4XjYXFRIAQ&amp;start=8506" rel="prettyPhoto" title="Thanks, from Donna Dubinsky">a few inspirational words</a> at the end of the hackathon. Thanks, Donna!
-
-This was a really fun event to plan, and it emphasizes what a great community we have with NuPIC. Thank you everyone, for helping make this open source project what it is today. I am looking forward to planning our next hackathon this Spring!
+This was our most successful hackathon yet. Thanks to everyone who participating in the event, helped out with the planning and execution, and even for those of you watching the videos now. I hope you'll considering attending our next hackathon!
 
 <br/>
 
@@ -495,6 +519,6 @@ This was a really fun event to plan, and it emphasizes what a great community we
 > Open Source Community Flag-Bearer <br/>
 > Numenta, Inc.
 
-[Comments on Reddit](http://www.reddit.com/r/MachineLearning/comments/1q2ef6/nupic_2013_fall_hackathon_outcome/)
+[Comments on Reddit]()
 
-<small><strong>By the way!</strong> You can see all the videos and photos taken at this hackathon on our <a href="http://www.youtube.com/channel/UC8-ttzWLgXZOGuhUyrPlUuA">YouTube channel</a> and <a href="http://www.flickr.com/photos/107852893@N04/">Flickr page</a>.</small>
+<small><strong>By the way!</strong> You can see all the videos and photos taken at this hackathon on our <a href="http://www.youtube.com/channel/UC8-ttzWLgXZOGuhUyrPlUuA">YouTube channel</a> and <a href="https://www.flickr.com/photos/nupic/">Flickr page</a>.</small>
