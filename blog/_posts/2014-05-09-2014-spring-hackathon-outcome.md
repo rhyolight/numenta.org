@@ -137,7 +137,7 @@ Just like [last hackathon]({{ site.baseurl }}/blog/2013/11/06/2013-fall-hackatho
 
     <ul>
         <li><a href="https://www.youtube.com/watch?v=nVCKjZWYavM" rel="prettyPhoto" title="Anomaly Detection in CLA">Video</a></li>
-        <li><a href="#"><strike>Slides</strike></a></li>
+        <li><a href="http://www.slideshare.net/numenta/anomaly-detection-subutai-may-2014-hackathon">Slides</a></li>
         <li><a href="https://github.com/subutai/nupic.subutai/tree/master/run_anomaly">Source Code</a></li>
     </ul>
 
