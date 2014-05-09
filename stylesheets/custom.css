@@ -195,3 +195,47 @@ section.media h3 {
 .rss {
 	vertical-align: middle;
 }
+.demo {
+    padding: 10px;
+    clear: right;
+    border: solid;
+    border-width: 1px 2px 2px 1px;
+    border-radius: 20px;
+    margin-bottom: 16px;
+}
+.demo img {
+    float: right;
+    margin-left: 20px;
+    border: solid black 1px;
+    border-radius: 16px;
+}
+#post .image {
+    margin: 16px 0 26px 0;
+    text-align: center;
+    border-bottom: solid #DDD 1px;
+}
+#post .image p {
+    margin: 0;
+    padding: 0;
+    font-size: small;
+    font-style: italic;
+}
+ul.testimonials {
+    padding: 10px;
+}
+ul.testimonials li {
+    list-style: none;
+    margin: 10px 0;
+}
+ul.testimonials li p.quote {
+    font-style: italic;
+    margin: 0 30px;
+    padding: 0;
+}
+ul.testimonials li p.author {
+    text-align: right;
+    width: 100%;
+    font-weight: bold;
+    margin-top: 0;
+    padding-top: 0;
+}
