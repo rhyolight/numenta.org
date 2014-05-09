@@ -4,53 +4,6 @@ title: 2013 Fall Hackathon Outcome
 category: blog
 ---
 
-<style>
-    .demo {
-        padding: 10px;
-        clear: right;
-        border: solid;
-        border-width: 1px 2px 2px 1px;
-        border-radius: 20px;
-        margin-bottom: 16px;
-    }
-    .demo img {
-        float: right;
-        margin-left: 20px;
-        border: solid black 1px;
-        border-radius: 16px;
-    }
-    .image {
-        margin: 16px 0 26px 0;
-        text-align: center;
-        border-bottom: solid #DDD 1px;
-    }
-    .image p {
-        margin: 0;
-        padding: 0;
-        font-size: small;
-        font-style: italic;
-    }
-    ul.testimonials {
-        padding: 10px;
-    }
-    ul.testimonials li {
-        list-style: none;
-        margin: 10px 0;
-    }
-    ul.testimonials li p.quote {
-        font-style: italic;
-        margin: 0 30px;
-        padding: 0;
-    }
-    ul.testimonials li p.author {
-        text-align: right;
-        width: 100%;
-        font-weight: bold;
-        margin-top: 0;
-        padding-top: 0;
-    }
-</style>
-
 <div class="image">
     <a href="http://www.flickr.com/photos/107852893@N04/10709312963/" title="NuPIC 2013 Fall Hackathon by numenta, on Flickr"><img src="http://farm6.staticflickr.com/5548/10709312963_a32cf4a7fb_z.jpg" width="640" height="150" alt="NuPIC 2013 Fall Hackathon"></a>
     <p>A panoramic view of the hackathon space at Tagged.</p>
