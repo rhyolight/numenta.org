@@ -167,8 +167,8 @@ Just like [last hackathon]({{ site.baseurl }}/blog/2013/11/06/2013-fall-hackatho
 
 <div class="demo">
 
-    <a href="https://www.youtube.com/watch?v=zwRKxnXAKhA" title="CLA as Implemented in NuPIC" rel="prettyPhoto" >
-        <img src="http://img.youtube.com/vi/zwRKxnXAKhA/0.jpg" alt="CLA as Implemented in NuPIC" width="300px" height="225px">
+    <a href="https://www.youtube.com/watch?v=H3lPxKhi1I0" title="CLA as Implemented in NuPIC" rel="prettyPhoto" >
+        <img src="http://img.youtube.com/vi/H3lPxKhi1I0/0.jpg" alt="CLA as Implemented in NuPIC" width="300px" height="225px">
     </a>
 
     <h3>
@@ -182,7 +182,7 @@ Just like [last hackathon]({{ site.baseurl }}/blog/2013/11/06/2013-fall-hackatho
     <p>Numenta engineer Chetan Surpur goes into great detail about the implementations of the spatial and temporal poolers in NuPIC.</p>
 
     <ul>
-        <li><a href="https://www.youtube.com/watch?v=zwRKxnXAKhA" rel="prettyPhoto" title="CLA as Implemented in NuPIC">Video</a></li>
+        <li><a href="https://www.youtube.com/watch?v=H3lPxKhi1I0" rel="prettyPhoto" title="CLA as Implemented in NuPIC">Video</a></li>
         <li><a href="http://chetansurpur.com/slides/2014/5/4/cla-in-nupic.html#1">Slides</a></li>
     </ul>
 
