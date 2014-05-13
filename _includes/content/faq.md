@@ -6,7 +6,7 @@ Frequently Asked Questions
 * [What's the difference between this and your old offering?](#whats_the_difference_between_this_and_your_old_offering)
 * [Can I add an external library to NuPIC?](#can_i_add_an_external_library_to_nupic)
 * [Does NuPIC implement hierarchy?](#does_nupic_implement_hierarchy)
-* [What is the difference between HTM and CLA?](#what-is-the-different-between-htm-and-cla)
+* [What is the difference between HTM and CLA?](#what_is_the_different_between_htm_and_cla)
 
 ## Is there a specific application for NuPIC?
 
