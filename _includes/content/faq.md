@@ -5,7 +5,7 @@ Frequently Asked Questions
 * [What's the difference between your contributor license and Apache's?](#whats_the_difference_between_your_contributor_license_and_apaches)
 * [What's the difference between this and your old offering?](#whats_the_difference_between_this_and_your_old_offering)
 * [Can I add an external library to NuPIC?](#can_i_add_an_external_library_to_nupic)
-
+* [Does NuPIC contain Hierarchal Temporal Memory?](#does_nupic_contain_hierarchal_temporal_memory)
 
 Is there a specific application for NuPIC?
 --------------------
