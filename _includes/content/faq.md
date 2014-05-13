@@ -25,3 +25,9 @@ It is important to emphasize that the old and new NuPIC algorithms are completel
 Can I add an external library to NuPIC?
 --------------------
 You can add external libraries to NuPIC. They must have a license that permits proprietary use of the library. External libraries licensed under GPL, for instance, will not be accepted.
+
+Does NuPIC contain Hierarchal Temporal Memory?
+--------------------
+Yes... and no. The architecture for HTM exists within the [Network API](https://github.com/numenta/nupic/wiki/NuPIC-Core-Network-API) of [NuPIC.Core](https://github.com/numenta/nupic.core), as well as the Python client. You can create models and link them together into a hierarchy, with lower levels passing data up into higher levels. However, as implemented in the [Online Prediction Framework](https://github.com/numenta/nupic/wiki/Online-Prediction-Framework), hierarchy does not exist. That wouldn't prevent anyone from experimenting with this themselves, however.
+
+One thing that is missing for CLA Models to effectively pass their cellular states within a hierarchal architecture is [temporal pooling](https://github.com/numenta/nupic/wiki/New-Ideas-About-Temporal-Pooling).
