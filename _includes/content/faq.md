@@ -5,7 +5,7 @@ Frequently Asked Questions
 * [What's the difference between your contributor license and Apache's?](#whats_the_difference_between_your_contributor_license_and_apaches)
 * [What's the difference between this and your old offering?](#whats_the_difference_between_this_and_your_old_offering)
 * [Can I add an external library to NuPIC?](#can_i_add_an_external_library_to_nupic)
-* [Does NuPIC contain Hierarchal Temporal Memory?](#does_nupic_contain_hierarchal_temporal_memory)
+* [Does NuPIC implement hierarchy?](#does_nupic_implement_hierarchy)
 
 Is there a specific application for NuPIC?
 --------------------
@@ -26,7 +26,7 @@ Can I add an external library to NuPIC?
 --------------------
 You can add external libraries to NuPIC. They must have a license that permits proprietary use of the library. External libraries licensed under GPL, for instance, will not be accepted.
 
-Does NuPIC contain Hierarchal Temporal Memory?
+Does NuPIC implement hierarchy?
 --------------------
 Yes... and no. The software architecture for hierarchies exists within the [Network API](https://github.com/numenta/nupic/wiki/NuPIC-Core-Network-API) of [NuPIC.Core](https://github.com/numenta/nupic.core), as well as the Python client. You can create models and link them together into a hierarchy, with lower levels passing data up into higher levels. However, hierarchy is not implemented in the easier to use [Online Prediction Framework](https://github.com/numenta/nupic/wiki/Online-Prediction-Framework). That wouldn't prevent anyone from experimenting with hierarchies themselves, however.
 
