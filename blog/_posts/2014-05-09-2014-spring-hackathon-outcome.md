@@ -483,7 +483,7 @@ We had a **lot of demos** at this hackathon! In addition to the <a href="https:/
 
     <ul>
         <li><a href="http://www.youtube.com/watch?v=4ez9_TIAcUA" rel="prettyPhoto" title="Single-Entry Multifactor Authentication">Video</a></li>
-        <!-- <li><a href="#">Source code</a></li> -->
+        <li><a href="https://github.com/slideout/sfmfa">Source code</a></li>
     </ul>
 
     <p>Wade uses NuPIC to try help with authentication not only by the password entered, but also the characteristics of the keystrokes entered.</p>
