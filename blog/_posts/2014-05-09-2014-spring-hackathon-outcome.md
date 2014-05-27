@@ -205,7 +205,7 @@ Just like [last hackathon]({{ site.baseurl }}/blog/2013/11/06/2013-fall-hackatho
     <p>Matt talks about how far we've come as an open source project in the past year, the current state of NuPIC, and plans for the future.</p>
 
     <ul>
-        <li><a href="https://www.youtube.com/watch?v=ANPWhfchvxY" rel="prettyPhoto" title="The State of NuPIC">Video</a></li>
+        <li><a href="https://www.youtube.com/watch?v=QPkA6nJifOw" rel="prettyPhoto" title="The State of NuPIC">Video</a></li>
         <li><a href="http://www.slideshare.net/numenta/state-of-nupic">Slides</a></li>
     </ul>
 
