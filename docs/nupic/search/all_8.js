@@ -8,6 +8,7 @@ var searchData=
   ['infpredictedstate',['infPredictedState',['../classnupic_1_1research_1_1_t_p_1_1_t_p.html#afd0571d0e964cf3b1d787201b1f6db99',1,'nupic::research::TP::TP']]],
   ['initialperm',['initialPerm',['../classnupic_1_1research_1_1_t_p_1_1_t_p.html#a3ba6768976c619b6d0674162930a0853',1,'nupic::research::TP::TP']]],
   ['isdelta',['isDelta',['../classnupic_1_1encoders_1_1arithmetic__encoder_1_1_arithmetic_encoder.html#aa293cf7c964397541664f6cfbaf1c119',1,'nupic.encoders.arithmetic_encoder.ArithmeticEncoder.isDelta()'],['../classnupic_1_1encoders_1_1base_1_1_encoder.html#a3256910b91fcc35ff00b372669924cce',1,'nupic.encoders.base.Encoder.isDelta()']]],
+  ['isnullaggregation',['isNullAggregation',['../classnupic_1_1data_1_1aggregator_1_1_aggregator.html#ab32ce5d28f79272d05005b6ca5d3318d',1,'nupic::data::aggregator::Aggregator']]],
   ['issegmentactive',['isSegmentActive',['../classnupic_1_1research_1_1_t_p10_x2_1_1_t_p10_x2.html#ae2e52b3c6c538044ca896758a974fc97',1,'nupic.research.TP10X2.TP10X2.isSegmentActive()'],['../classnupic_1_1research_1_1_t_p_1_1_t_p.html#ab7c420152fbb4d6c69f8341ef2afdb9d',1,'nupic.research.TP.TP.isSegmentActive()']]],
   ['iterationidx',['iterationIdx',['../classnupic_1_1research_1_1_t_p_1_1_t_p.html#a4526b35c0068ba99b5aba90acf686820',1,'nupic::research::TP::TP']]]
 ];
