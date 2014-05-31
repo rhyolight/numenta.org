@@ -14,6 +14,7 @@
   $(document).ready(function() { searchBox.OnSelectItem(0); });
 </script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="extra_stylesheet.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -64,6 +65,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
       <li><a href="files.html"><span>File&#160;List</span></a></li>
+      <li><a href="globals.html"><span>File&#160;Members</span></a></li>
     </ul>
   </div>
 <!-- window showing the filter options -->
@@ -71,7 +73,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -129,7 +131,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;  {</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;  <span class="keyword">public</span>:</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <a class="code" href="classnta_1_1_output.html#af437220f02c3a6d0a9b3c92f23cd83ce">Output</a>(<a class="code" href="classnta_1_1_region.html">Region</a>&amp; region, NTA_BasicType type, <span class="keywordtype">bool</span> <a class="code" href="classnta_1_1_output.html#a43b766124af19e3b668a5b62f3a3274a">isRegionLevel</a>);</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <a class="code" href="classnta_1_1_output.html#af437220f02c3a6d0a9b3c92f23cd83ce">Output</a>(<a class="code" href="classnta_1_1_region.html">Region</a>&amp; region, <a class="code" href="_types_8h.html#a421524fed763bb1c1b094f3ef3a69d3c">NTA_BasicType</a> type, <span class="keywordtype">bool</span> <a class="code" href="classnta_1_1_output.html#a43b766124af19e3b668a5b62f3a3274a">isRegionLevel</a>);</div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;</div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <a class="code" href="classnta_1_1_output.html#a90c549a56eeb2128772955f3400d51b2">~Output</a>();</div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;</div>
@@ -182,19 +184,20 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="ttc" id="classnta_1_1_region_html"><div class="ttname"><a href="classnta_1_1_region.html">nta::Region</a></div><div class="ttdoc">Represents a set of one or more "identical" nodes in a Network. </div><div class="ttdef"><b>Definition:</b> <a href="_region_8hpp_source.html#l00068">Region.hpp:68</a></div></div>
 <div class="ttc" id="classnta_1_1_output_html"><div class="ttname"><a href="classnta_1_1_output.html">nta::Output</a></div><div class="ttdoc">Represents a named output to a Region. </div><div class="ttdef"><b>Definition:</b> <a href="_output_8hpp_source.html#l00043">Output.hpp:43</a></div></div>
 <div class="ttc" id="classnta_1_1_output_html_aab6b9d4dadf9e79763c11efc9673b2ff"><div class="ttname"><a href="classnta_1_1_output.html#aab6b9d4dadf9e79763c11efc9673b2ff">nta::Output::getRegion</a></div><div class="ttdeci">Region &amp; getRegion() const </div><div class="ttdoc">Get the Region that the output belongs to. </div></div>
-<div class="ttc" id="classnta_1_1_output_html_a43b766124af19e3b668a5b62f3a3274a"><div class="ttname"><a href="classnta_1_1_output.html#a43b766124af19e3b668a5b62f3a3274a">nta::Output::isRegionLevel</a></div><div class="ttdeci">bool isRegionLevel() const </div><div class="ttdoc">Tells whether the output is region level, i.e. </div></div>
+<div class="ttc" id="classnta_1_1_output_html_a43b766124af19e3b668a5b62f3a3274a"><div class="ttname"><a href="classnta_1_1_output.html#a43b766124af19e3b668a5b62f3a3274a">nta::Output::isRegionLevel</a></div><div class="ttdeci">bool isRegionLevel() const </div><div class="ttdoc">Tells whether the output is region level. </div></div>
+<div class="ttc" id="_types_8h_html_a421524fed763bb1c1b094f3ef3a69d3c"><div class="ttname"><a href="_types_8h.html#a421524fed763bb1c1b094f3ef3a69d3c">NTA_BasicType</a></div><div class="ttdeci">NTA_BasicType</div><div class="ttdoc">Basic types enumeration. </div><div class="ttdef"><b>Definition:</b> <a href="_types_8h_source.html#l00041">Types.h:41</a></div></div>
 <div class="ttc" id="classnta_1_1_output_html_a6c5fbcb4da1af68ae7f87a65680f5d20"><div class="ttname"><a href="classnta_1_1_output.html#a6c5fbcb4da1af68ae7f87a65680f5d20">nta::Output::getName</a></div><div class="ttdeci">const std::string &amp; getName() const </div><div class="ttdoc">Get the name of the output. </div></div>
 <div class="ttc" id="classnta_1_1_output_html_a6fe1fd804cc964ac8136f1729323ccbd"><div class="ttname"><a href="classnta_1_1_output.html#a6fe1fd804cc964ac8136f1729323ccbd">nta::Output::getNodeOutputElementCount</a></div><div class="ttdeci">size_t getNodeOutputElementCount() const </div><div class="ttdoc">Get the count of node output element. </div></div>
 <div class="ttc" id="classnta_1_1_output_html_a6a2742e4e55432682abde36c244bb9c4"><div class="ttname"><a href="classnta_1_1_output.html#a6a2742e4e55432682abde36c244bb9c4">nta::Output::removeLink</a></div><div class="ttdeci">void removeLink(Link *link)</div><div class="ttdoc">Removing an existing link from the output. </div></div>
 <div class="ttc" id="classnta_1_1_output_html_a9bb20a86e10eb6504c1529628797ea03"><div class="ttname"><a href="classnta_1_1_output.html#a9bb20a86e10eb6504c1529628797ea03">nta::Output::addLink</a></div><div class="ttdeci">void addLink(Link *link)</div><div class="ttdoc">Add a Link to the Output . </div></div>
-<div class="ttc" id="classnta_1_1_output_html_a66357975f12852bd2c772a338369c5c9"><div class="ttname"><a href="classnta_1_1_output.html#a66357975f12852bd2c772a338369c5c9">nta::Output::hasOutgoingLinks</a></div><div class="ttdeci">bool hasOutgoingLinks()</div><div class="ttdoc">Tells whether the output has outgoing links, i.e. </div></div>
+<div class="ttc" id="classnta_1_1_output_html_a66357975f12852bd2c772a338369c5c9"><div class="ttname"><a href="classnta_1_1_output.html#a66357975f12852bd2c772a338369c5c9">nta::Output::hasOutgoingLinks</a></div><div class="ttdeci">bool hasOutgoingLinks()</div><div class="ttdoc">Tells whether the output has outgoing links. </div></div>
 <div class="ttc" id="classnta_1_1_output_html_af437220f02c3a6d0a9b3c92f23cd83ce"><div class="ttname"><a href="classnta_1_1_output.html#af437220f02c3a6d0a9b3c92f23cd83ce">nta::Output::Output</a></div><div class="ttdeci">Output(Region &amp;region, NTA_BasicType type, bool isRegionLevel)</div><div class="ttdoc">Constructor. </div></div>
 <div class="ttc" id="classnta_1_1_output_html_a90c549a56eeb2128772955f3400d51b2"><div class="ttname"><a href="classnta_1_1_output.html#a90c549a56eeb2128772955f3400d51b2">nta::Output::~Output</a></div><div class="ttdeci">~Output()</div><div class="ttdoc">Destructor. </div></div>
 <div class="ttc" id="classnta_1_1_output_html_a45a00ff22e9074ae5b7688261b23816a"><div class="ttname"><a href="classnta_1_1_output.html#a45a00ff22e9074ae5b7688261b23816a">nta::Output::setName</a></div><div class="ttdeci">void setName(const std::string &amp;name)</div><div class="ttdoc">Set the name for the output. </div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat May 31 2014 13:57:29 for NuPIC Core by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat May 31 2014 14:03:31 for NuPIC Core by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.7
 </small></address>

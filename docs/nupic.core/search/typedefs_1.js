@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['runcallbackfunction',['runCallbackFunction',['../classnta_1_1_network.html#a8168f6297d7794bf7439950a819c537d',1,'nta::Network']]]
+  ['callbackitem',['callbackItem',['../classnta_1_1_network.html#a1bb1c9cd4ebacfa7454948a52f788127',1,'nta::Network']]],
+  ['coordinate',['Coordinate',['../namespacenta.html#a102586c290f7b8dd43ab1fafef524485',1,'nta']]]
 ];

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['splittermap',['SplitterMap',['../classnta_1_1_input.html#a193cc425807e1d3f6f099deaeed37ff2',1,'nta::Input']]]
+  ['handle',['Handle',['../namespacenta.html#ad91dbf918bb30dfc6f9f08045db52e36',1,'nta']]]
 ];

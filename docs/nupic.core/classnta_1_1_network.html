@@ -14,6 +14,7 @@
   $(document).ready(function() { searchBox.OnSelectItem(0); });
 </script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="extra_stylesheet.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -65,6 +66,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
       <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="hierarchy.html"><span>Class&#160;Hierarchy</span></a></li>
       <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
     </ul>
   </div>
@@ -73,7 +75,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -144,34 +146,34 @@ Access to components</h2></td></tr>
 <tr class="memitem:afb780fdce639fd6b2db9d29a3311bdb4"><td class="memItemLeft" align="right" valign="top">const Collection&lt; <a class="el" href="classnta_1_1_region.html">Region</a> * &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnta_1_1_network.html#afb780fdce639fd6b2db9d29a3311bdb4">getRegions</a> () const </td></tr>
 <tr class="memdesc:afb780fdce639fd6b2db9d29a3311bdb4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get all regions.  <a href="#afb780fdce639fd6b2db9d29a3311bdb4">More...</a><br /></td></tr>
 <tr class="separator:afb780fdce639fd6b2db9d29a3311bdb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6f057938022e8a09be82223019308979"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnta_1_1_network.html#a6f057938022e8a09be82223019308979">setPhases</a> (const std::string &amp;name, std::set&lt; UInt32 &gt; &amp;phases)</td></tr>
+<tr class="memitem:a6f057938022e8a09be82223019308979"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnta_1_1_network.html#a6f057938022e8a09be82223019308979">setPhases</a> (const std::string &amp;name, std::set&lt; <a class="el" href="namespacenta.html#a308563b6e426dfe95be200878c94accf">UInt32</a> &gt; &amp;phases)</td></tr>
 <tr class="memdesc:a6f057938022e8a09be82223019308979"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set phases for a region.  <a href="#a6f057938022e8a09be82223019308979">More...</a><br /></td></tr>
 <tr class="separator:a6f057938022e8a09be82223019308979"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac0869d189bc79ce0f0b019a43f2c68b0"><td class="memItemLeft" align="right" valign="top">std::set&lt; UInt32 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnta_1_1_network.html#ac0869d189bc79ce0f0b019a43f2c68b0">getPhases</a> (const std::string &amp;name) const </td></tr>
+<tr class="memitem:ac0869d189bc79ce0f0b019a43f2c68b0"><td class="memItemLeft" align="right" valign="top">std::set&lt; <a class="el" href="namespacenta.html#a308563b6e426dfe95be200878c94accf">UInt32</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnta_1_1_network.html#ac0869d189bc79ce0f0b019a43f2c68b0">getPhases</a> (const std::string &amp;name) const </td></tr>
 <tr class="memdesc:ac0869d189bc79ce0f0b019a43f2c68b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get phases for a region.  <a href="#ac0869d189bc79ce0f0b019a43f2c68b0">More...</a><br /></td></tr>
 <tr class="separator:ac0869d189bc79ce0f0b019a43f2c68b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a885f53b1d984326be7a29b209415dcd8"><td class="memItemLeft" align="right" valign="top">UInt32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnta_1_1_network.html#a885f53b1d984326be7a29b209415dcd8">getMinPhase</a> () const </td></tr>
+<tr class="memitem:a885f53b1d984326be7a29b209415dcd8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacenta.html#a308563b6e426dfe95be200878c94accf">UInt32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnta_1_1_network.html#a885f53b1d984326be7a29b209415dcd8">getMinPhase</a> () const </td></tr>
 <tr class="memdesc:a885f53b1d984326be7a29b209415dcd8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get minimum phase for regions in this network.  <a href="#a885f53b1d984326be7a29b209415dcd8">More...</a><br /></td></tr>
 <tr class="separator:a885f53b1d984326be7a29b209415dcd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aab8a907cf448501044659e91926e7a58"><td class="memItemLeft" align="right" valign="top">UInt32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnta_1_1_network.html#aab8a907cf448501044659e91926e7a58">getMaxPhase</a> () const </td></tr>
+<tr class="memitem:aab8a907cf448501044659e91926e7a58"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacenta.html#a308563b6e426dfe95be200878c94accf">UInt32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnta_1_1_network.html#aab8a907cf448501044659e91926e7a58">getMaxPhase</a> () const </td></tr>
 <tr class="memdesc:aab8a907cf448501044659e91926e7a58"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get maximum phase for regions in this network.  <a href="#aab8a907cf448501044659e91926e7a58">More...</a><br /></td></tr>
 <tr class="separator:aab8a907cf448501044659e91926e7a58"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1dc78732c0e7dcbc437ba3427f4e0a59"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnta_1_1_network.html#a1dc78732c0e7dcbc437ba3427f4e0a59">setMinEnabledPhase</a> (UInt32 minPhase)</td></tr>
+<tr class="memitem:a1dc78732c0e7dcbc437ba3427f4e0a59"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnta_1_1_network.html#a1dc78732c0e7dcbc437ba3427f4e0a59">setMinEnabledPhase</a> (<a class="el" href="namespacenta.html#a308563b6e426dfe95be200878c94accf">UInt32</a> minPhase)</td></tr>
 <tr class="memdesc:a1dc78732c0e7dcbc437ba3427f4e0a59"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the minimum enabled phase for this network.  <a href="#a1dc78732c0e7dcbc437ba3427f4e0a59">More...</a><br /></td></tr>
 <tr class="separator:a1dc78732c0e7dcbc437ba3427f4e0a59"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7d13af20c83c35eeddff5892bb42f4fe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnta_1_1_network.html#a7d13af20c83c35eeddff5892bb42f4fe">setMaxEnabledPhase</a> (UInt32 minPhase)</td></tr>
+<tr class="memitem:a7d13af20c83c35eeddff5892bb42f4fe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnta_1_1_network.html#a7d13af20c83c35eeddff5892bb42f4fe">setMaxEnabledPhase</a> (<a class="el" href="namespacenta.html#a308563b6e426dfe95be200878c94accf">UInt32</a> minPhase)</td></tr>
 <tr class="memdesc:a7d13af20c83c35eeddff5892bb42f4fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the maximum enabled phase for this network.  <a href="#a7d13af20c83c35eeddff5892bb42f4fe">More...</a><br /></td></tr>
 <tr class="separator:a7d13af20c83c35eeddff5892bb42f4fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3d5c7c02b724a6121f6e13ce50efbfdc"><td class="memItemLeft" align="right" valign="top">UInt32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnta_1_1_network.html#a3d5c7c02b724a6121f6e13ce50efbfdc">getMinEnabledPhase</a> () const </td></tr>
+<tr class="memitem:a3d5c7c02b724a6121f6e13ce50efbfdc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacenta.html#a308563b6e426dfe95be200878c94accf">UInt32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnta_1_1_network.html#a3d5c7c02b724a6121f6e13ce50efbfdc">getMinEnabledPhase</a> () const </td></tr>
 <tr class="memdesc:a3d5c7c02b724a6121f6e13ce50efbfdc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the minimum enabled phase for this network.  <a href="#a3d5c7c02b724a6121f6e13ce50efbfdc">More...</a><br /></td></tr>
 <tr class="separator:a3d5c7c02b724a6121f6e13ce50efbfdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a690eca97e28659923e03a41929b4b97d"><td class="memItemLeft" align="right" valign="top">UInt32&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnta_1_1_network.html#a690eca97e28659923e03a41929b4b97d">getMaxEnabledPhase</a> () const </td></tr>
+<tr class="memitem:a690eca97e28659923e03a41929b4b97d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacenta.html#a308563b6e426dfe95be200878c94accf">UInt32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnta_1_1_network.html#a690eca97e28659923e03a41929b4b97d">getMaxEnabledPhase</a> () const </td></tr>
 <tr class="memdesc:a690eca97e28659923e03a41929b4b97d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the maximum enabled phase for this network.  <a href="#a690eca97e28659923e03a41929b4b97d">More...</a><br /></td></tr>
 <tr class="separator:a690eca97e28659923e03a41929b4b97d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
 Running</h2></td></tr>
-<tr class="memitem:a8168f6297d7794bf7439950a819c537d"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnta_1_1_network.html#a8168f6297d7794bf7439950a819c537d">runCallbackFunction</a> )(<a class="el" href="classnta_1_1_network.html">Network</a> *, UInt64 iteration, void *)</td></tr>
+<tr class="memitem:a8168f6297d7794bf7439950a819c537d"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnta_1_1_network.html#a8168f6297d7794bf7439950a819c537d">runCallbackFunction</a> )(<a class="el" href="classnta_1_1_network.html">Network</a> *, <a class="el" href="namespacenta.html#aa713df1be43bfaaa41b2736232cacbc9">UInt64</a> iteration, void *)</td></tr>
 <tr class="memdesc:a8168f6297d7794bf7439950a819c537d"><td class="mdescLeft">&#160;</td><td class="mdescRight">The type of run callback function.  <a href="#a8168f6297d7794bf7439950a819c537d">More...</a><br /></td></tr>
 <tr class="separator:a8168f6297d7794bf7439950a819c537d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1bb1c9cd4ebacfa7454948a52f788127"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1bb1c9cd4ebacfa7454948a52f788127"></a>
@@ -212,7 +214,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef void(* nta::Network::runCallbackFunction)(<a class="el" href="classnta_1_1_network.html">Network</a> *, UInt64 iteration, void *)</td>
+          <td class="memname">typedef void(* nta::Network::runCallbackFunction)(<a class="el" href="classnta_1_1_network.html">Network</a> *, <a class="el" href="namespacenta.html#aa713df1be43bfaaa41b2736232cacbc9">UInt64</a> iteration, void *)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -418,7 +420,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">UInt32 nta::Network::getMaxEnabledPhase </td>
+          <td class="memname"><a class="el" href="namespacenta.html#a308563b6e426dfe95be200878c94accf">UInt32</a> nta::Network::getMaxEnabledPhase </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -436,7 +438,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">UInt32 nta::Network::getMaxPhase </td>
+          <td class="memname"><a class="el" href="namespacenta.html#a308563b6e426dfe95be200878c94accf">UInt32</a> nta::Network::getMaxPhase </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -455,7 +457,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">UInt32 nta::Network::getMinEnabledPhase </td>
+          <td class="memname"><a class="el" href="namespacenta.html#a308563b6e426dfe95be200878c94accf">UInt32</a> nta::Network::getMinEnabledPhase </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -473,7 +475,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">UInt32 nta::Network::getMinPhase </td>
+          <td class="memname"><a class="el" href="namespacenta.html#a308563b6e426dfe95be200878c94accf">UInt32</a> nta::Network::getMinPhase </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -492,7 +494,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::set&lt;UInt32&gt; nta::Network::getPhases </td>
+          <td class="memname">std::set&lt;<a class="el" href="namespacenta.html#a308563b6e426dfe95be200878c94accf">UInt32</a>&gt; nta::Network::getPhases </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>name</em></td><td>)</td>
@@ -740,7 +742,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
         <tr>
           <td class="memname">void nta::Network::setMaxEnabledPhase </td>
           <td>(</td>
-          <td class="paramtype">UInt32&#160;</td>
+          <td class="paramtype"><a class="el" href="namespacenta.html#a308563b6e426dfe95be200878c94accf">UInt32</a>&#160;</td>
           <td class="paramname"><em>minPhase</em></td><td>)</td>
           <td></td>
         </tr>
@@ -764,7 +766,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
         <tr>
           <td class="memname">void nta::Network::setMinEnabledPhase </td>
           <td>(</td>
-          <td class="paramtype">UInt32&#160;</td>
+          <td class="paramtype"><a class="el" href="namespacenta.html#a308563b6e426dfe95be200878c94accf">UInt32</a>&#160;</td>
           <td class="paramname"><em>minPhase</em></td><td>)</td>
           <td></td>
         </tr>
@@ -794,7 +796,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::set&lt; UInt32 &gt; &amp;&#160;</td>
+          <td class="paramtype">std::set&lt; <a class="el" href="namespacenta.html#a308563b6e426dfe95be200878c94accf">UInt32</a> &gt; &amp;&#160;</td>
           <td class="paramname"><em>phases</em>&#160;</td>
         </tr>
         <tr>
@@ -822,7 +824,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat May 31 2014 13:57:29 for NuPIC Core by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat May 31 2014 14:03:31 for NuPIC Core by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.7
 </small></address>

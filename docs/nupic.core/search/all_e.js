@@ -18,5 +18,6 @@ var searchData=
   ['setphases',['setPhases',['../classnta_1_1_network.html#a6f057938022e8a09be82223019308979',1,'nta::Network']]],
   ['setsrcdimensions',['setSrcDimensions',['../classnta_1_1_link.html#a3f774333a23897e9b32f7361a2e1fd45',1,'nta::Link']]],
   ['shutdown',['shutdown',['../classnta_1_1_nu_p_i_c.html#af2108efe2cb4e6c9dc467ea1f58a1871',1,'nta::NuPIC']]],
+  ['size',['Size',['../namespacenta.html#a3071615515475954e3167f6c5dcc661a',1,'nta']]],
   ['splittermap',['SplitterMap',['../classnta_1_1_input.html#a193cc425807e1d3f6f099deaeed37ff2',1,'nta::Input']]]
 ];

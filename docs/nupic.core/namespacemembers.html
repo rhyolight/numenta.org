@@ -14,6 +14,7 @@
   $(document).ready(function() { searchBox.OnSelectItem(0); });
 </script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="extra_stylesheet.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -71,6 +72,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li class="current"><a href="namespacemembers.html"><span>All</span></a></li>
       <li><a href="namespacemembers_type.html"><span>Typedefs</span></a></li>
+      <li><a href="namespacemembers_enum.html"><span>Enumerations</span></a></li>
+      <li><a href="namespacemembers_eval.html"><span>Enumerator</span></a></li>
     </ul>
   </div>
 </div><!-- top -->
@@ -79,7 +82,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -90,14 +93,71 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 
 <div class="contents">
 <div class="textblock">Here is a list of all documented namespace members with links to the namespaces they belong to:</div><ul>
+<li>Byte
+: <a class="el" href="namespacenta.html#aa3517a4af0a262f32f1ec821d296ab8e">nta</a>
+</li>
 <li>Coordinate
 : <a class="el" href="namespacenta.html#a102586c290f7b8dd43ab1fafef524485">nta</a>
+</li>
+<li>Handle
+: <a class="el" href="namespacenta.html#ad91dbf918bb30dfc6f9f08045db52e36">nta</a>
+</li>
+<li>Int
+: <a class="el" href="namespacenta.html#a17d4a8b25826d8927b44cdbb41109e1b">nta</a>
+</li>
+<li>Int16
+: <a class="el" href="namespacenta.html#aecc9977c159d2fbceccc06d9b76959db">nta</a>
+</li>
+<li>Int32
+: <a class="el" href="namespacenta.html#ac3c3da0a1f8c13ee2d808eac0dfca5e5">nta</a>
+</li>
+<li>Int64
+: <a class="el" href="namespacenta.html#a7719a5670a0a75f8d5e304ac42596375">nta</a>
+</li>
+<li>LogLevel
+: <a class="el" href="namespacenta.html#a50ca7957941b2bd1ef0e4fb800311dd7">nta</a>
+</li>
+<li>LogLevel_Minimal
+: <a class="el" href="namespacenta.html#a50ca7957941b2bd1ef0e4fb800311dd7ac66bea258e2bae29c3583cdbe8e77498">nta</a>
+</li>
+<li>LogLevel_None
+: <a class="el" href="namespacenta.html#a50ca7957941b2bd1ef0e4fb800311dd7ae8e400cea1cef3915caf355a998c1022">nta</a>
+</li>
+<li>LogLevel_Normal
+: <a class="el" href="namespacenta.html#a50ca7957941b2bd1ef0e4fb800311dd7a8a0b10045aa8b426c13db77b319aceec">nta</a>
+</li>
+<li>LogLevel_Verbose
+: <a class="el" href="namespacenta.html#a50ca7957941b2bd1ef0e4fb800311dd7aae115e9b5439504c82ed1cefbd0d67a5">nta</a>
+</li>
+<li>Real
+: <a class="el" href="namespacenta.html#a0b438ee0b4c6d825ca71d8fbd8be4886">nta</a>
+</li>
+<li>Real32
+: <a class="el" href="namespacenta.html#a66eec6b9d16d25233c3f86c63be66773">nta</a>
+</li>
+<li>Real64
+: <a class="el" href="namespacenta.html#a27177da23cbf7140aef1234af33f0cdf">nta</a>
+</li>
+<li>Size
+: <a class="el" href="namespacenta.html#a3071615515475954e3167f6c5dcc661a">nta</a>
+</li>
+<li>UInt
+: <a class="el" href="namespacenta.html#a213121a770bfaeb2c7fd30f536d8d2e9">nta</a>
+</li>
+<li>UInt16
+: <a class="el" href="namespacenta.html#a91c8da0f22683493477e48644cfd118d">nta</a>
+</li>
+<li>UInt32
+: <a class="el" href="namespacenta.html#a308563b6e426dfe95be200878c94accf">nta</a>
+</li>
+<li>UInt64
+: <a class="el" href="namespacenta.html#aa713df1be43bfaaa41b2736232cacbc9">nta</a>
 </li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat May 31 2014 13:57:30 for NuPIC Core by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat May 31 2014 14:03:31 for NuPIC Core by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.7
 </small></address>

@@ -14,6 +14,7 @@
   $(document).ready(function() { searchBox.OnSelectItem(0); });
 </script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="extra_stylesheet.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -64,6 +65,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
       <li><a href="files.html"><span>File&#160;List</span></a></li>
+      <li><a href="globals.html"><span>File&#160;Members</span></a></li>
     </ul>
   </div>
 <!-- window showing the filter options -->
@@ -71,7 +73,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -134,7 +136,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;  {</div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;  <span class="keyword">public</span>:</div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    <a class="code" href="classnta_1_1_input.html#af4b3683299c83dd1ed7ed3099d781f72">Input</a>(<a class="code" href="classnta_1_1_region.html">Region</a>&amp; region, NTA_BasicType type, <span class="keywordtype">bool</span> <a class="code" href="classnta_1_1_input.html#a3e749affbbc6ba65a7384a9e5461f00d">isRegionLevel</a>);</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    <a class="code" href="classnta_1_1_input.html#af4b3683299c83dd1ed7ed3099d781f72">Input</a>(<a class="code" href="classnta_1_1_region.html">Region</a>&amp; region, <a class="code" href="_types_8h.html#a421524fed763bb1c1b094f3ef3a69d3c">NTA_BasicType</a> type, <span class="keywordtype">bool</span> <a class="code" href="classnta_1_1_input.html#a3e749affbbc6ba65a7384a9e5461f00d">isRegionLevel</a>);</div>
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;</div>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <a class="code" href="classnta_1_1_input.html#a17a24ce9a8ad7dfc78fdfea46d6aa97f">~Input</a>();</div>
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;</div>
@@ -240,7 +242,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="ttc" id="classnta_1_1_input_html_a6e0456c6db9deddb23fd012009cb1bd2"><div class="ttname"><a href="classnta_1_1_input.html#a6e0456c6db9deddb23fd012009cb1bd2">nta::Input::initialize</a></div><div class="ttdeci">void initialize()</div><div class="ttdoc">Initialize the Input . </div></div>
 <div class="ttc" id="classnta_1_1_input_html_aaecfbd555acf0b4ee2e508506caf364d"><div class="ttname"><a href="classnta_1_1_input.html#aaecfbd555acf0b4ee2e508506caf364d">nta::Input::removeLink</a></div><div class="ttdeci">void removeLink(Link *&amp;link)</div><div class="ttdoc">Removing an existing link from the input. </div></div>
 <div class="ttc" id="classnta_1_1_link_html"><div class="ttname"><a href="classnta_1_1_link.html">nta::Link</a></div><div class="ttdoc">Represents a link between regions in a Network. </div><div class="ttdef"><b>Definition:</b> <a href="_link_8hpp_source.html#l00049">Link.hpp:49</a></div></div>
-<div class="ttc" id="classnta_1_1_input_html_a3e749affbbc6ba65a7384a9e5461f00d"><div class="ttname"><a href="classnta_1_1_input.html#a3e749affbbc6ba65a7384a9e5461f00d">nta::Input::isRegionLevel</a></div><div class="ttdeci">bool isRegionLevel()</div><div class="ttdoc">Tells whether the input is region level, i.e. </div></div>
+<div class="ttc" id="classnta_1_1_input_html_a3e749affbbc6ba65a7384a9e5461f00d"><div class="ttname"><a href="classnta_1_1_input.html#a3e749affbbc6ba65a7384a9e5461f00d">nta::Input::isRegionLevel</a></div><div class="ttdeci">bool isRegionLevel()</div><div class="ttdoc">Tells whether the input is region level. </div></div>
 <div class="ttc" id="classnta_1_1_region_html"><div class="ttname"><a href="classnta_1_1_region.html">nta::Region</a></div><div class="ttdoc">Represents a set of one or more "identical" nodes in a Network. </div><div class="ttdef"><b>Definition:</b> <a href="_region_8hpp_source.html#l00068">Region.hpp:68</a></div></div>
 <div class="ttc" id="classnta_1_1_input_html_a8b150e41d2b8bda10615d01c102403e3"><div class="ttname"><a href="classnta_1_1_input.html#a8b150e41d2b8bda10615d01c102403e3">nta::Input::getInputForNode</a></div><div class="ttdeci">void getInputForNode(size_t nodeIndex, std::vector&lt; T &gt; &amp;input) const </div><div class="ttdoc">explicitly instantiated for various types </div></div>
 <div class="ttc" id="classnta_1_1_input_html_aece3f72500ab9c8ae465d7279aeb45f3"><div class="ttname"><a href="classnta_1_1_input.html#aece3f72500ab9c8ae465d7279aeb45f3">nta::Input::addLink</a></div><div class="ttdeci">void addLink(const std::string &amp;linkType, const std::string &amp;linkParams, Output *srcOutput)</div><div class="ttdoc">Create a new Link between this input and the srcOutput. </div></div>
@@ -251,6 +253,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="ttc" id="classnta_1_1_input_html_a193cc425807e1d3f6f099deaeed37ff2"><div class="ttname"><a href="classnta_1_1_input.html#a193cc425807e1d3f6f099deaeed37ff2">nta::Input::SplitterMap</a></div><div class="ttdeci">std::vector&lt; std::vector&lt; size_t &gt; &gt; SplitterMap</div><div class="ttdef"><b>Definition:</b> <a href="_input_8hpp_source.html#l00247">Input.hpp:247</a></div></div>
 <div class="ttc" id="classnta_1_1_input_html"><div class="ttname"><a href="classnta_1_1_input.html">nta::Input</a></div><div class="ttdoc">Represents a named input to a Region. </div><div class="ttdef"><b>Definition:</b> <a href="_input_8hpp_source.html#l00056">Input.hpp:56</a></div></div>
 <div class="ttc" id="classnta_1_1_input_html_a4c284cd9dbc093cd3c704736643c49dc"><div class="ttname"><a href="classnta_1_1_input.html#a4c284cd9dbc093cd3c704736643c49dc">nta::Input::findLink</a></div><div class="ttdeci">Link * findLink(const std::string &amp;srcRegionName, const std::string &amp;srcOutputName)</div><div class="ttdoc">Locate an existing Link to the input. </div></div>
+<div class="ttc" id="_types_8h_html_a421524fed763bb1c1b094f3ef3a69d3c"><div class="ttname"><a href="_types_8h.html#a421524fed763bb1c1b094f3ef3a69d3c">NTA_BasicType</a></div><div class="ttdeci">NTA_BasicType</div><div class="ttdoc">Basic types enumeration. </div><div class="ttdef"><b>Definition:</b> <a href="_types_8h_source.html#l00041">Types.h:41</a></div></div>
 <div class="ttc" id="classnta_1_1_input_html_a17a24ce9a8ad7dfc78fdfea46d6aa97f"><div class="ttname"><a href="classnta_1_1_input.html#a17a24ce9a8ad7dfc78fdfea46d6aa97f">nta::Input::~Input</a></div><div class="ttdeci">~Input()</div><div class="ttdoc">Destructor. </div></div>
 <div class="ttc" id="classnta_1_1_input_html_af4b3683299c83dd1ed7ed3099d781f72"><div class="ttname"><a href="classnta_1_1_input.html#af4b3683299c83dd1ed7ed3099d781f72">nta::Input::Input</a></div><div class="ttdeci">Input(Region &amp;region, NTA_BasicType type, bool isRegionLevel)</div><div class="ttdoc">Constructor. </div></div>
 <div class="ttc" id="classnta_1_1_input_html_a2bf43c360842db27437990c74337ac77"><div class="ttname"><a href="classnta_1_1_input.html#a2bf43c360842db27437990c74337ac77">nta::Input::isInitialized</a></div><div class="ttdeci">bool isInitialized()</div><div class="ttdoc">Tells whether the Input is initialized. </div></div>
@@ -262,7 +265,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat May 31 2014 13:57:29 for NuPIC Core by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat May 31 2014 14:03:31 for NuPIC Core by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.7
 </small></address>

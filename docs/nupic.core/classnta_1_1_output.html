@@ -14,6 +14,7 @@
   $(document).ready(function() { searchBox.OnSelectItem(0); });
 </script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="extra_stylesheet.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -65,6 +66,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
       <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="hierarchy.html"><span>Class&#160;Hierarchy</span></a></li>
       <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
     </ul>
   </div>
@@ -73,7 +75,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -103,7 +105,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:af437220f02c3a6d0a9b3c92f23cd83ce"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnta_1_1_output.html#af437220f02c3a6d0a9b3c92f23cd83ce">Output</a> (<a class="el" href="classnta_1_1_region.html">Region</a> &amp;region, NTA_BasicType type, bool <a class="el" href="classnta_1_1_output.html#a43b766124af19e3b668a5b62f3a3274a">isRegionLevel</a>)</td></tr>
+<tr class="memitem:af437220f02c3a6d0a9b3c92f23cd83ce"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnta_1_1_output.html#af437220f02c3a6d0a9b3c92f23cd83ce">Output</a> (<a class="el" href="classnta_1_1_region.html">Region</a> &amp;region, <a class="el" href="_types_8h.html#a421524fed763bb1c1b094f3ef3a69d3c">NTA_BasicType</a> type, bool <a class="el" href="classnta_1_1_output.html#a43b766124af19e3b668a5b62f3a3274a">isRegionLevel</a>)</td></tr>
 <tr class="memdesc:af437220f02c3a6d0a9b3c92f23cd83ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="#af437220f02c3a6d0a9b3c92f23cd83ce">More...</a><br /></td></tr>
 <tr class="separator:af437220f02c3a6d0a9b3c92f23cd83ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a90c549a56eeb2128772955f3400d51b2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a90c549a56eeb2128772955f3400d51b2"></a>
@@ -126,13 +128,13 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a6a2742e4e55432682abde36c244bb9c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removing an existing link from the output.  <a href="#a6a2742e4e55432682abde36c244bb9c4">More...</a><br /></td></tr>
 <tr class="separator:a6a2742e4e55432682abde36c244bb9c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a66357975f12852bd2c772a338369c5c9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnta_1_1_output.html#a66357975f12852bd2c772a338369c5c9">hasOutgoingLinks</a> ()</td></tr>
-<tr class="memdesc:a66357975f12852bd2c772a338369c5c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tells whether the output has outgoing links, i.e.  <a href="#a66357975f12852bd2c772a338369c5c9">More...</a><br /></td></tr>
+<tr class="memdesc:a66357975f12852bd2c772a338369c5c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tells whether the output has outgoing links.  <a href="#a66357975f12852bd2c772a338369c5c9">More...</a><br /></td></tr>
 <tr class="separator:a66357975f12852bd2c772a338369c5c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a61fdf93b811d87672588cf47093b365a"><td class="memItemLeft" align="right" valign="top">const Array &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnta_1_1_output.html#a61fdf93b811d87672588cf47093b365a">getData</a> () const </td></tr>
 <tr class="memdesc:a61fdf93b811d87672588cf47093b365a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the data of the output.  <a href="#a61fdf93b811d87672588cf47093b365a">More...</a><br /></td></tr>
 <tr class="separator:a61fdf93b811d87672588cf47093b365a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a43b766124af19e3b668a5b62f3a3274a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnta_1_1_output.html#a43b766124af19e3b668a5b62f3a3274a">isRegionLevel</a> () const </td></tr>
-<tr class="memdesc:a43b766124af19e3b668a5b62f3a3274a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tells whether the output is region level, i.e.  <a href="#a43b766124af19e3b668a5b62f3a3274a">More...</a><br /></td></tr>
+<tr class="memdesc:a43b766124af19e3b668a5b62f3a3274a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tells whether the output is region level.  <a href="#a43b766124af19e3b668a5b62f3a3274a">More...</a><br /></td></tr>
 <tr class="separator:a43b766124af19e3b668a5b62f3a3274a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aab6b9d4dadf9e79763c11efc9673b2ff"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classnta_1_1_region.html">Region</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnta_1_1_output.html#aab6b9d4dadf9e79763c11efc9673b2ff">getRegion</a> () const </td></tr>
 <tr class="memdesc:aab6b9d4dadf9e79763c11efc9673b2ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the <a class="el" href="classnta_1_1_region.html" title="Represents a set of one or more &quot;identical&quot; nodes in a Network. ">Region</a> that the output belongs to.  <a href="#aab6b9d4dadf9e79763c11efc9673b2ff">More...</a><br /></td></tr>
@@ -159,7 +161,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">NTA_BasicType&#160;</td>
+          <td class="paramtype"><a class="el" href="_types_8h.html#a421524fed763bb1c1b094f3ef3a69d3c">NTA_BasicType</a>&#160;</td>
           <td class="paramname"><em>type</em>, </td>
         </tr>
         <tr>
@@ -301,8 +303,7 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Tells whether the output has outgoing links, i.e. </p>
-<p>TODO</p>
+<p>Tells whether the output has outgoing links. </p>
 <dl class="section note"><dt>Note</dt><dd>We cannot delete a region if there are any outgoing links This allows us to check in <a class="el" href="classnta_1_1_network.html#ad036234504a5396bc05b238324b4e6fe" title="Removes an existing region from the network. ">Network.removeRegion()</a> and <a class="el" href="classnta_1_1_network.html#af34a7623751def90a096325195543bda" title="Destructor. ">Network.~Network()</a>. </dd></dl>
 <dl class="section return"><dt>Returns</dt><dd>Whether the output has outgoing links </dd></dl>
 
@@ -346,8 +347,7 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Tells whether the output is region level, i.e. </p>
-<p>TODO</p>
+<p>Tells whether the output is region level. </p>
 <dl class="section return"><dt>Returns</dt><dd>Whether the output is region level, i.e. TODO </dd></dl>
 
 </div>
@@ -408,7 +408,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Sat May 31 2014 13:57:29 for NuPIC Core by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat May 31 2014 14:03:31 for NuPIC Core by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.7
 </small></address>
