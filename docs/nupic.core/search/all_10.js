@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['uint',['UInt',['../namespacenta.html#a213121a770bfaeb2c7fd30f536d8d2e9',1,'nta']]],
-  ['uint16',['UInt16',['../namespacenta.html#a91c8da0f22683493477e48644cfd118d',1,'nta']]],
-  ['uint32',['UInt32',['../namespacenta.html#a308563b6e426dfe95be200878c94accf',1,'nta']]],
-  ['uint64',['UInt64',['../namespacenta.html#aa713df1be43bfaaa41b2736232cacbc9',1,'nta']]]
+  ['todo_20list',['Todo List',['../todo.html',1,'']]],
+  ['tostring',['toString',['../classnta_1_1_link.html#af63153ee210ab0f308386f63843f65c6',1,'nta::Link::toString()'],['../classnta_1_1_dimensions.html#a88937727f4bbfdb39cd0daed36b5c658',1,'nta::Dimensions::toString()']]],
+  ['types_2eh',['Types.h',['../_types_8h.html',1,'']]],
+  ['types_2ehpp',['Types.hpp',['../_types_8hpp.html',1,'']]]
 ];
