@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['radiusforspeed',['radiusForSpeed',['../classnupic_1_1encoders_1_1geospatial__coordinate_1_1_geospatial_coordinate_encoder.html#ae3f21303b60afa91e5ed04f90e2418cd',1,'nupic::encoders::geospatial_coordinate::GeospatialCoordinateEncoder']]],
   ['randomdistributedscalarencoder',['RandomDistributedScalarEncoder',['../classnupic_1_1encoders_1_1random__distributed__scalar_1_1_random_distributed_scalar_encoder.html',1,'nupic::encoders::random_distributed_scalar']]],
   ['remove',['remove',['../classnupic_1_1encoders_1_1arithmetic__encoder_1_1_bucket.html#a97e764861fd69598c96756461138cdf0',1,'nupic::encoders::arithmetic_encoder::Bucket']]],
   ['removesegmentupdate',['removeSegmentUpdate',['../classnupic_1_1research_1_1_t_p_1_1_t_p.html#ac2f856cdc92c1a38513c5c948cb41535',1,'nupic::research::TP::TP']]],

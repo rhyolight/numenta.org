@@ -15,5 +15,7 @@ var searchData=
   ['compute',['compute',['../classnupic_1_1research_1_1_t_p10_x2_1_1_t_p10_x2.html#aa14d770da60e675727b544c1aaf75ce7',1,'nupic.research.TP10X2.TP10X2.compute()'],['../classnupic_1_1research_1_1_t_p_1_1_t_p.html#a5ebf8c0160a598aede3c715289518e20',1,'nupic.research.TP.TP.compute()']]],
   ['computeoutput',['computeOutput',['../classnupic_1_1research_1_1_t_p_1_1_t_p.html#aad26fedcb45368f962a81f7c71398498',1,'nupic::research::TP::TP']]],
   ['connectedperm',['connectedPerm',['../classnupic_1_1research_1_1_t_p_1_1_t_p.html#ae5ceb03a63791b9bc79454c2e0be588f',1,'nupic::research::TP::TP']]],
+  ['coordinateencoder',['CoordinateEncoder',['../classnupic_1_1encoders_1_1coordinate_1_1_coordinate_encoder.html',1,'nupic::encoders::coordinate']]],
+  ['coordinateforposition',['coordinateForPosition',['../classnupic_1_1encoders_1_1geospatial__coordinate_1_1_geospatial_coordinate_encoder.html#a91f3b7ebf654d797cc4ba8521d19b737',1,'nupic::encoders::geospatial_coordinate::GeospatialCoordinateEncoder']]],
   ['currentoutput',['currentOutput',['../classnupic_1_1research_1_1_t_p_1_1_t_p.html#a59499fe5d097fa034e95b3f2dc0a7c3e',1,'nupic::research::TP::TP']]]
 ];
