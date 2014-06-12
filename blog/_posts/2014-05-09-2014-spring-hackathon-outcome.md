@@ -190,8 +190,8 @@ Just like [last hackathon]({{ site.baseurl }}/blog/2013/11/06/2013-fall-hackatho
 
 <div class="demo">
 
-    <a href="https://www.youtube.com/watch?v=ANPWhfchvxY" title="The State of NuPIC" rel="prettyPhoto" >
-        <img src="http://img.youtube.com/vi/ANPWhfchvxY/0.jpg" alt="The State of NuPIC" width="300px" height="225px">
+    <a href="https://www.youtube.com/watch?v=QPkA6nJifOw" title="The State of NuPIC" rel="prettyPhoto" >
+        <img src="http://img.youtube.com/vi/QPkA6nJifOw/0.jpg" alt="The State of NuPIC" width="300px" height="225px">
     </a>
 
     <h3>
