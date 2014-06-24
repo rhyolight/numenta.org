@@ -114,7 +114,7 @@ Just like [last hackathon]({{ site.baseurl }}/blog/2013/11/06/2013-fall-hackatho
         <li><a href="https://www.youtube.com/watch?v=BCwOgbSSDM4" rel="prettyPhoto" title="Beginner's Guide to NuPIC">Video</a></li>
         <li><a href="http://www.slideshare.net/numenta/beginners-guide-to-nupic">Slides</a></li>
         <li><a href="http://nbviewer.ipython.org/url/fer.io/~scott/nupic_overview.ipynb">Static iPython Notebook</a></li>
-        <li><a href="http://fer.io/~scott/nupic_overview.ipynb">iPython JSON</a></li>
+        <li><a href="http://fer.io/~scott/nupic_overview.ipynb">iPython Notebook File</a></li>
     </ul>
 
 </div>
@@ -190,8 +190,8 @@ Just like [last hackathon]({{ site.baseurl }}/blog/2013/11/06/2013-fall-hackatho
 
 <div class="demo">
 
-    <a href="https://www.youtube.com/watch?v=ANPWhfchvxY" title="The State of NuPIC" rel="prettyPhoto" >
-        <img src="http://img.youtube.com/vi/ANPWhfchvxY/0.jpg" alt="The State of NuPIC" width="300px" height="225px">
+    <a href="https://www.youtube.com/watch?v=QPkA6nJifOw" title="The State of NuPIC" rel="prettyPhoto" >
+        <img src="http://img.youtube.com/vi/QPkA6nJifOw/0.jpg" alt="The State of NuPIC" width="300px" height="225px">
     </a>
 
     <h3>
@@ -205,7 +205,7 @@ Just like [last hackathon]({{ site.baseurl }}/blog/2013/11/06/2013-fall-hackatho
     <p>Matt talks about how far we've come as an open source project in the past year, the current state of NuPIC, and plans for the future.</p>
 
     <ul>
-        <li><a href="https://www.youtube.com/watch?v=ANPWhfchvxY" rel="prettyPhoto" title="The State of NuPIC">Video</a></li>
+        <li><a href="https://www.youtube.com/watch?v=QPkA6nJifOw" rel="prettyPhoto" title="The State of NuPIC">Video</a></li>
         <li><a href="http://www.slideshare.net/numenta/state-of-nupic">Slides</a></li>
     </ul>
 
@@ -483,7 +483,7 @@ We had a **lot of demos** at this hackathon! In addition to the <a href="https:/
 
     <ul>
         <li><a href="http://www.youtube.com/watch?v=4ez9_TIAcUA" rel="prettyPhoto" title="Single-Entry Multifactor Authentication">Video</a></li>
-        <!-- <li><a href="#">Source code</a></li> -->
+        <li><a href="https://github.com/slideout/sfmfa">Source code</a></li>
     </ul>
 
     <p>Wade uses NuPIC to try help with authentication not only by the password entered, but also the characteristics of the keystrokes entered.</p>

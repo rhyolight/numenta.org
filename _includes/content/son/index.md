@@ -51,8 +51,13 @@ Numenta will produce a complete report of the success of the entire Season on th
 
 ## <u>Mid-Term Progress Report</u>
 
-<div class="todo">TODO</div>
-<br/>
+Mentors of SoN projects are responsible for working with their students to put together a short mid-term progress report. This report should include critical details of the project, including (if applicable):
+
+- code repository location
+- any further documentation for the project
+- current status of the project, especially related to the goals of the proposal
+- will the project be complete by the end of the season?
+- issues preventing progress
 
 ## <u>Roles in SoN</u>
 
