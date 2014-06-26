@@ -126,7 +126,7 @@ Just like [last hackathon]({{ site.baseurl }}/blog/2013/11/06/2013-fall-hackatho
     </a>
 
     <h3>
-        <a id="anomaly_detection_in_cla" href="#title">Anomaly Detection in CLA</a>
+        <a id="anomaly_detection_in_cla" href="#anomaly_detection_in_cla">Anomaly Detection in CLA</a>
     </h3>
 
     <h4>
