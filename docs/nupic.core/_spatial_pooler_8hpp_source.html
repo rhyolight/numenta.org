@@ -290,160 +290,162 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00763"></a><span class="lineno">  763</span>&#160;          <span class="keywordtype">void</span> range_(<a class="code" href="namespacenta.html#a17d4a8b25826d8927b44cdbb41109e1b">Int</a> start, <a class="code" href="namespacenta.html#a17d4a8b25826d8927b44cdbb41109e1b">Int</a> end, <a class="code" href="namespacenta.html#a213121a770bfaeb2c7fd30f536d8d2e9">UInt</a> ubound, <span class="keywordtype">bool</span> wrapAround,</div>
 <div class="line"><a name="l00764"></a><span class="lineno">  764</span>&#160;                      vector&lt;UInt&gt;&amp; rangeVector);</div>
 <div class="line"><a name="l00765"></a><span class="lineno">  765</span>&#160;</div>
-<div class="line"><a name="l00795"></a><span class="lineno">  795</span>&#160;          vector&lt;UInt&gt; mapPotential1D_(<a class="code" href="namespacenta.html#a213121a770bfaeb2c7fd30f536d8d2e9">UInt</a> column, <span class="keywordtype">bool</span> wrapAround);</div>
-<div class="line"><a name="l00796"></a><span class="lineno">  796</span>&#160;</div>
-<div class="line"><a name="l00811"></a><span class="lineno">  811</span>&#160;          <a class="code" href="namespacenta.html#a0b438ee0b4c6d825ca71d8fbd8be4886">Real</a> initPermConnected_();</div>
-<div class="line"><a name="l00819"></a><span class="lineno">  819</span>&#160;          <a class="code" href="namespacenta.html#a0b438ee0b4c6d825ca71d8fbd8be4886">Real</a> initPermNonConnected_();</div>
-<div class="line"><a name="l00820"></a><span class="lineno">  820</span>&#160;</div>
-<div class="line"><a name="l00821"></a><span class="lineno">  821</span>&#160;</div>
-<div class="line"><a name="l00836"></a><span class="lineno">  836</span>&#160;          vector&lt;Real&gt; initPermanence_(vector&lt;UInt&gt;&amp; potential,</div>
-<div class="line"><a name="l00837"></a><span class="lineno">  837</span>&#160;                                       <a class="code" href="namespacenta.html#a0b438ee0b4c6d825ca71d8fbd8be4886">Real</a> connectedPct);</div>
-<div class="line"><a name="l00838"></a><span class="lineno">  838</span>&#160;          <span class="keywordtype">void</span> clip_(vector&lt;Real&gt;&amp; perm, <span class="keywordtype">bool</span> trim);</div>
-<div class="line"><a name="l00839"></a><span class="lineno">  839</span>&#160;</div>
-<div class="line"><a name="l00869"></a><span class="lineno">  869</span>&#160;          <span class="keywordtype">void</span> updatePermanencesForColumn_(vector&lt;Real&gt;&amp; perm, <a class="code" href="namespacenta.html#a213121a770bfaeb2c7fd30f536d8d2e9">UInt</a> column,</div>
-<div class="line"><a name="l00870"></a><span class="lineno">  870</span>&#160;                                           <span class="keywordtype">bool</span> raisePerm=<span class="keyword">true</span>);</div>
-<div class="line"><a name="l00871"></a><span class="lineno">  871</span>&#160;          <a class="code" href="namespacenta.html#a213121a770bfaeb2c7fd30f536d8d2e9">UInt</a> countConnected_(vector&lt;Real&gt;&amp; perm);</div>
-<div class="line"><a name="l00872"></a><span class="lineno">  872</span>&#160;          <a class="code" href="namespacenta.html#a213121a770bfaeb2c7fd30f536d8d2e9">UInt</a> raisePermanencesToThreshold_(vector&lt;Real&gt;&amp; perm,</div>
-<div class="line"><a name="l00873"></a><span class="lineno">  873</span>&#160;                                            vector&lt;UInt&gt;&amp; potential);</div>
-<div class="line"><a name="l00874"></a><span class="lineno">  874</span>&#160;</div>
-<div class="line"><a name="l00894"></a><span class="lineno">  894</span>&#160;          <span class="keywordtype">void</span> calculateOverlap_(<a class="code" href="namespacenta.html#a213121a770bfaeb2c7fd30f536d8d2e9">UInt</a> inputVector[],</div>
-<div class="line"><a name="l00895"></a><span class="lineno">  895</span>&#160;                                 vector&lt;UInt&gt;&amp; overlap);</div>
-<div class="line"><a name="l00896"></a><span class="lineno">  896</span>&#160;          <span class="keywordtype">void</span> calculateOverlapPct_(vector&lt;UInt&gt;&amp; overlaps,</div>
-<div class="line"><a name="l00897"></a><span class="lineno">  897</span>&#160;                                    vector&lt;Real&gt;&amp; overlapPct);</div>
-<div class="line"><a name="l00898"></a><span class="lineno">  898</span>&#160;</div>
-<div class="line"><a name="l00899"></a><span class="lineno">  899</span>&#160;</div>
-<div class="line"><a name="l00900"></a><span class="lineno">  900</span>&#160;          <span class="keywordtype">bool</span> isWinner_(<a class="code" href="namespacenta.html#a0b438ee0b4c6d825ca71d8fbd8be4886">Real</a> score, vector&lt;pair&lt;UInt, Real&gt; &gt;&amp; winners,</div>
-<div class="line"><a name="l00901"></a><span class="lineno">  901</span>&#160;                         <a class="code" href="namespacenta.html#a213121a770bfaeb2c7fd30f536d8d2e9">UInt</a> numWinners);</div>
-<div class="line"><a name="l00902"></a><span class="lineno">  902</span>&#160;</div>
-<div class="line"><a name="l00903"></a><span class="lineno">  903</span>&#160;          <span class="keywordtype">void</span> addToWinners_(<a class="code" href="namespacenta.html#a213121a770bfaeb2c7fd30f536d8d2e9">UInt</a> index, <a class="code" href="namespacenta.html#a0b438ee0b4c6d825ca71d8fbd8be4886">Real</a> score,</div>
-<div class="line"><a name="l00904"></a><span class="lineno">  904</span>&#160;                             vector&lt;pair&lt;UInt, Real&gt; &gt;&amp; winners);</div>
-<div class="line"><a name="l00905"></a><span class="lineno">  905</span>&#160;</div>
-<div class="line"><a name="l00919"></a><span class="lineno">  919</span>&#160;          <span class="keywordtype">void</span> inhibitColumns_(vector&lt;Real&gt;&amp; overlaps,</div>
-<div class="line"><a name="l00920"></a><span class="lineno">  920</span>&#160;                               vector&lt;UInt&gt;&amp; activeColumns);</div>
+<div class="line"><a name="l00786"></a><span class="lineno">  786</span>&#160;          <a class="code" href="namespacenta.html#a213121a770bfaeb2c7fd30f536d8d2e9">UInt</a> mapColumn_(<a class="code" href="namespacenta.html#a213121a770bfaeb2c7fd30f536d8d2e9">UInt</a> column);</div>
+<div class="line"><a name="l00787"></a><span class="lineno">  787</span>&#160;</div>
+<div class="line"><a name="l00817"></a><span class="lineno">  817</span>&#160;          vector&lt;UInt&gt; mapPotential_(<a class="code" href="namespacenta.html#a213121a770bfaeb2c7fd30f536d8d2e9">UInt</a> column, <span class="keywordtype">bool</span> wrapAround);</div>
+<div class="line"><a name="l00818"></a><span class="lineno">  818</span>&#160;</div>
+<div class="line"><a name="l00833"></a><span class="lineno">  833</span>&#160;          <a class="code" href="namespacenta.html#a0b438ee0b4c6d825ca71d8fbd8be4886">Real</a> initPermConnected_();</div>
+<div class="line"><a name="l00841"></a><span class="lineno">  841</span>&#160;          <a class="code" href="namespacenta.html#a0b438ee0b4c6d825ca71d8fbd8be4886">Real</a> initPermNonConnected_();</div>
+<div class="line"><a name="l00842"></a><span class="lineno">  842</span>&#160;</div>
+<div class="line"><a name="l00843"></a><span class="lineno">  843</span>&#160;</div>
+<div class="line"><a name="l00858"></a><span class="lineno">  858</span>&#160;          vector&lt;Real&gt; initPermanence_(vector&lt;UInt&gt;&amp; potential,</div>
+<div class="line"><a name="l00859"></a><span class="lineno">  859</span>&#160;                                       <a class="code" href="namespacenta.html#a0b438ee0b4c6d825ca71d8fbd8be4886">Real</a> connectedPct);</div>
+<div class="line"><a name="l00860"></a><span class="lineno">  860</span>&#160;          <span class="keywordtype">void</span> clip_(vector&lt;Real&gt;&amp; perm, <span class="keywordtype">bool</span> trim);</div>
+<div class="line"><a name="l00861"></a><span class="lineno">  861</span>&#160;</div>
+<div class="line"><a name="l00891"></a><span class="lineno">  891</span>&#160;          <span class="keywordtype">void</span> updatePermanencesForColumn_(vector&lt;Real&gt;&amp; perm, <a class="code" href="namespacenta.html#a213121a770bfaeb2c7fd30f536d8d2e9">UInt</a> column,</div>
+<div class="line"><a name="l00892"></a><span class="lineno">  892</span>&#160;                                           <span class="keywordtype">bool</span> raisePerm=<span class="keyword">true</span>);</div>
+<div class="line"><a name="l00893"></a><span class="lineno">  893</span>&#160;          <a class="code" href="namespacenta.html#a213121a770bfaeb2c7fd30f536d8d2e9">UInt</a> countConnected_(vector&lt;Real&gt;&amp; perm);</div>
+<div class="line"><a name="l00894"></a><span class="lineno">  894</span>&#160;          <a class="code" href="namespacenta.html#a213121a770bfaeb2c7fd30f536d8d2e9">UInt</a> raisePermanencesToThreshold_(vector&lt;Real&gt;&amp; perm,</div>
+<div class="line"><a name="l00895"></a><span class="lineno">  895</span>&#160;                                            vector&lt;UInt&gt;&amp; potential);</div>
+<div class="line"><a name="l00896"></a><span class="lineno">  896</span>&#160;</div>
+<div class="line"><a name="l00916"></a><span class="lineno">  916</span>&#160;          <span class="keywordtype">void</span> calculateOverlap_(<a class="code" href="namespacenta.html#a213121a770bfaeb2c7fd30f536d8d2e9">UInt</a> inputVector[],</div>
+<div class="line"><a name="l00917"></a><span class="lineno">  917</span>&#160;                                 vector&lt;UInt&gt;&amp; overlap);</div>
+<div class="line"><a name="l00918"></a><span class="lineno">  918</span>&#160;          <span class="keywordtype">void</span> calculateOverlapPct_(vector&lt;UInt&gt;&amp; overlaps,</div>
+<div class="line"><a name="l00919"></a><span class="lineno">  919</span>&#160;                                    vector&lt;Real&gt;&amp; overlapPct);</div>
+<div class="line"><a name="l00920"></a><span class="lineno">  920</span>&#160;</div>
 <div class="line"><a name="l00921"></a><span class="lineno">  921</span>&#160;</div>
-<div class="line"><a name="l00939"></a><span class="lineno">  939</span>&#160;          <span class="keywordtype">void</span> inhibitColumnsGlobal_(vector&lt;Real&gt;&amp; overlaps, <a class="code" href="namespacenta.html#a0b438ee0b4c6d825ca71d8fbd8be4886">Real</a> density,</div>
-<div class="line"><a name="l00940"></a><span class="lineno">  940</span>&#160;                                     vector&lt;UInt&gt;&amp; activeColumns);</div>
-<div class="line"><a name="l00941"></a><span class="lineno">  941</span>&#160;</div>
-<div class="line"><a name="l00964"></a><span class="lineno">  964</span>&#160;          <span class="keywordtype">void</span> inhibitColumnsLocal_(vector&lt;Real&gt;&amp; overlaps, <a class="code" href="namespacenta.html#a0b438ee0b4c6d825ca71d8fbd8be4886">Real</a> density,</div>
-<div class="line"><a name="l00965"></a><span class="lineno">  965</span>&#160;                                    vector&lt;UInt&gt;&amp; activeColumns);</div>
-<div class="line"><a name="l00966"></a><span class="lineno">  966</span>&#160;</div>
-<div class="line"><a name="l00998"></a><span class="lineno">  998</span>&#160;          <span class="keywordtype">void</span> getNeighbors1D_(<a class="code" href="namespacenta.html#a213121a770bfaeb2c7fd30f536d8d2e9">UInt</a> column, vector&lt;UInt&gt;&amp; dimensions,</div>
-<div class="line"><a name="l00999"></a><span class="lineno">  999</span>&#160;                               <a class="code" href="namespacenta.html#a213121a770bfaeb2c7fd30f536d8d2e9">UInt</a> radius, <span class="keywordtype">bool</span> wrapAround,</div>
-<div class="line"><a name="l01000"></a><span class="lineno"> 1000</span>&#160;                               vector&lt;UInt&gt;&amp; neighbors);</div>
-<div class="line"><a name="l01001"></a><span class="lineno"> 1001</span>&#160;</div>
-<div class="line"><a name="l01035"></a><span class="lineno"> 1035</span>&#160;          <span class="keywordtype">void</span> getNeighbors2D_(<a class="code" href="namespacenta.html#a213121a770bfaeb2c7fd30f536d8d2e9">UInt</a> column, vector&lt;UInt&gt;&amp; dimensions,</div>
-<div class="line"><a name="l01036"></a><span class="lineno"> 1036</span>&#160;                               <a class="code" href="namespacenta.html#a213121a770bfaeb2c7fd30f536d8d2e9">UInt</a> radius, <span class="keywordtype">bool</span> wrapAround,</div>
-<div class="line"><a name="l01037"></a><span class="lineno"> 1037</span>&#160;                               vector&lt;UInt&gt;&amp; neighbors);</div>
-<div class="line"><a name="l01038"></a><span class="lineno"> 1038</span>&#160;          <span class="keywordtype">void</span> cartesianProduct_(vector&lt;vector&lt;UInt&gt; &gt;&amp; vecs,</div>
-<div class="line"><a name="l01039"></a><span class="lineno"> 1039</span>&#160;                                 vector&lt;vector&lt;UInt&gt; &gt;&amp; product);</div>
-<div class="line"><a name="l01040"></a><span class="lineno"> 1040</span>&#160;</div>
-<div class="line"><a name="l01073"></a><span class="lineno"> 1073</span>&#160;          <span class="keywordtype">void</span> getNeighborsND_(<a class="code" href="namespacenta.html#a213121a770bfaeb2c7fd30f536d8d2e9">UInt</a> column, vector&lt;UInt&gt;&amp; dimensions,</div>
-<div class="line"><a name="l01074"></a><span class="lineno"> 1074</span>&#160;                               <a class="code" href="namespacenta.html#a213121a770bfaeb2c7fd30f536d8d2e9">UInt</a> radius, <span class="keywordtype">bool</span> wrapAround,</div>
-<div class="line"><a name="l01075"></a><span class="lineno"> 1075</span>&#160;                               vector&lt;UInt&gt;&amp; neighbors);</div>
-<div class="line"><a name="l01076"></a><span class="lineno"> 1076</span>&#160;</div>
-<div class="line"><a name="l01077"></a><span class="lineno"> 1077</span>&#160;</div>
-<div class="line"><a name="l01095"></a><span class="lineno"> 1095</span>&#160;          <span class="keywordtype">void</span> adaptSynapses_(<a class="code" href="namespacenta.html#a213121a770bfaeb2c7fd30f536d8d2e9">UInt</a> inputVector[],</div>
-<div class="line"><a name="l01096"></a><span class="lineno"> 1096</span>&#160;                              vector&lt;UInt&gt;&amp; activeColumns);</div>
-<div class="line"><a name="l01097"></a><span class="lineno"> 1097</span>&#160;</div>
-<div class="line"><a name="l01104"></a><span class="lineno"> 1104</span>&#160;          <span class="keywordtype">void</span> bumpUpWeakColumns_();</div>
-<div class="line"><a name="l01105"></a><span class="lineno"> 1105</span>&#160;</div>
-<div class="line"><a name="l01116"></a><span class="lineno"> 1116</span>&#160;          <span class="keywordtype">void</span> updateInhibitionRadius_();</div>
-<div class="line"><a name="l01117"></a><span class="lineno"> 1117</span>&#160;</div>
-<div class="line"><a name="l01127"></a><span class="lineno"> 1127</span>&#160;          <a class="code" href="namespacenta.html#a0b438ee0b4c6d825ca71d8fbd8be4886">Real</a> avgColumnsPerInput_();</div>
-<div class="line"><a name="l01128"></a><span class="lineno"> 1128</span>&#160;</div>
-<div class="line"><a name="l01137"></a><span class="lineno"> 1137</span>&#160;          <a class="code" href="namespacenta.html#a0b438ee0b4c6d825ca71d8fbd8be4886">Real</a> avgConnectedSpanForColumn1D_(<a class="code" href="namespacenta.html#a213121a770bfaeb2c7fd30f536d8d2e9">UInt</a> column);</div>
-<div class="line"><a name="l01138"></a><span class="lineno"> 1138</span>&#160;</div>
-<div class="line"><a name="l01147"></a><span class="lineno"> 1147</span>&#160;          <a class="code" href="namespacenta.html#a0b438ee0b4c6d825ca71d8fbd8be4886">Real</a> avgConnectedSpanForColumn2D_(<a class="code" href="namespacenta.html#a213121a770bfaeb2c7fd30f536d8d2e9">UInt</a> column);</div>
-<div class="line"><a name="l01148"></a><span class="lineno"> 1148</span>&#160;</div>
-<div class="line"><a name="l01149"></a><span class="lineno"> 1149</span>&#160;</div>
-<div class="line"><a name="l01158"></a><span class="lineno"> 1158</span>&#160;          <a class="code" href="namespacenta.html#a0b438ee0b4c6d825ca71d8fbd8be4886">Real</a> avgConnectedSpanForColumnND_(<a class="code" href="namespacenta.html#a213121a770bfaeb2c7fd30f536d8d2e9">UInt</a> column);</div>
-<div class="line"><a name="l01159"></a><span class="lineno"> 1159</span>&#160;</div>
-<div class="line"><a name="l01164"></a><span class="lineno"> 1164</span>&#160;          <span class="keywordtype">void</span> updateMinDutyCycles_();</div>
-<div class="line"><a name="l01165"></a><span class="lineno"> 1165</span>&#160;</div>
-<div class="line"><a name="l01174"></a><span class="lineno"> 1174</span>&#160;          <span class="keywordtype">void</span> updateMinDutyCyclesGlobal_();</div>
-<div class="line"><a name="l01175"></a><span class="lineno"> 1175</span>&#160;</div>
-<div class="line"><a name="l01182"></a><span class="lineno"> 1182</span>&#160;          <span class="keywordtype">void</span> updateMinDutyCyclesLocal_();</div>
-<div class="line"><a name="l01183"></a><span class="lineno"> 1183</span>&#160;</div>
-<div class="line"><a name="l01184"></a><span class="lineno"> 1184</span>&#160;</div>
-<div class="line"><a name="l01185"></a><span class="lineno"> 1185</span>&#160;</div>
-<div class="line"><a name="l01209"></a><span class="lineno"> 1209</span>&#160;          <span class="keyword">static</span>  <span class="keywordtype">void</span> updateDutyCyclesHelper_(vector&lt;Real&gt;&amp; dutyCycles,</div>
-<div class="line"><a name="l01210"></a><span class="lineno"> 1210</span>&#160;                                               vector&lt;UInt&gt;&amp; newValues,</div>
-<div class="line"><a name="l01211"></a><span class="lineno"> 1211</span>&#160;                                               <a class="code" href="namespacenta.html#a213121a770bfaeb2c7fd30f536d8d2e9">UInt</a> period);</div>
-<div class="line"><a name="l01212"></a><span class="lineno"> 1212</span>&#160;</div>
-<div class="line"><a name="l01227"></a><span class="lineno"> 1227</span>&#160;          <span class="keywordtype">void</span> updateDutyCycles_(vector&lt;UInt&gt;&amp; overlaps,</div>
-<div class="line"><a name="l01228"></a><span class="lineno"> 1228</span>&#160;                                 <a class="code" href="namespacenta.html#a213121a770bfaeb2c7fd30f536d8d2e9">UInt</a> activeArray[]);</div>
-<div class="line"><a name="l01229"></a><span class="lineno"> 1229</span>&#160;</div>
-<div class="line"><a name="l01256"></a><span class="lineno"> 1256</span>&#160;          <span class="keywordtype">void</span> updateBoostFactors_();</div>
-<div class="line"><a name="l01257"></a><span class="lineno"> 1257</span>&#160;</div>
-<div class="line"><a name="l01267"></a><span class="lineno"> 1267</span>&#160;          <span class="keywordtype">void</span> updateBookeepingVars_(<span class="keywordtype">bool</span> learn);</div>
-<div class="line"><a name="l01268"></a><span class="lineno"> 1268</span>&#160;</div>
-<div class="line"><a name="l01273"></a><span class="lineno"> 1273</span>&#160;          <span class="keywordtype">bool</span> isUpdateRound_();</div>
-<div class="line"><a name="l01274"></a><span class="lineno"> 1274</span>&#160;</div>
-<div class="line"><a name="l01280"></a><span class="lineno"> 1280</span>&#160;          <span class="keywordtype">void</span> seed_(<a class="code" href="namespacenta.html#aa713df1be43bfaaa41b2736232cacbc9">UInt64</a> seed);</div>
-<div class="line"><a name="l01281"></a><span class="lineno"> 1281</span>&#160;</div>
-<div class="line"><a name="l01282"></a><span class="lineno"> 1282</span>&#160;          <span class="comment">//-------------------------------------------------------------------</span></div>
-<div class="line"><a name="l01283"></a><span class="lineno"> 1283</span>&#160;          <span class="comment">// Debugging helpers</span></div>
-<div class="line"><a name="l01284"></a><span class="lineno"> 1284</span>&#160;          <span class="comment">//-------------------------------------------------------------------</span></div>
-<div class="line"><a name="l01285"></a><span class="lineno"> 1285</span>&#160;</div>
-<div class="line"><a name="l01289"></a><span class="lineno"> 1289</span>&#160;          <span class="keywordtype">void</span> printState(vector&lt;UInt&gt; &amp;state);</div>
-<div class="line"><a name="l01293"></a><span class="lineno"> 1293</span>&#160;          <span class="keywordtype">void</span> printState(vector&lt;Real&gt; &amp;state);</div>
-<div class="line"><a name="l01294"></a><span class="lineno"> 1294</span>&#160;</div>
-<div class="line"><a name="l01295"></a><span class="lineno"> 1295</span>&#160;        <span class="keyword">protected</span>:</div>
-<div class="line"><a name="l01296"></a><span class="lineno"> 1296</span>&#160;          <a class="code" href="namespacenta.html#a213121a770bfaeb2c7fd30f536d8d2e9">UInt</a> numInputs_;</div>
-<div class="line"><a name="l01297"></a><span class="lineno"> 1297</span>&#160;          <a class="code" href="namespacenta.html#a213121a770bfaeb2c7fd30f536d8d2e9">UInt</a> numColumns_;</div>
-<div class="line"><a name="l01298"></a><span class="lineno"> 1298</span>&#160;          vector&lt;UInt&gt; columnDimensions_;</div>
-<div class="line"><a name="l01299"></a><span class="lineno"> 1299</span>&#160;          vector&lt;UInt&gt; inputDimensions_;</div>
-<div class="line"><a name="l01300"></a><span class="lineno"> 1300</span>&#160;          <a class="code" href="namespacenta.html#a213121a770bfaeb2c7fd30f536d8d2e9">UInt</a> potentialRadius_;</div>
-<div class="line"><a name="l01301"></a><span class="lineno"> 1301</span>&#160;          <a class="code" href="namespacenta.html#a0b438ee0b4c6d825ca71d8fbd8be4886">Real</a> potentialPct_;</div>
-<div class="line"><a name="l01302"></a><span class="lineno"> 1302</span>&#160;          <a class="code" href="namespacenta.html#a0b438ee0b4c6d825ca71d8fbd8be4886">Real</a> initConnectedPct_;</div>
-<div class="line"><a name="l01303"></a><span class="lineno"> 1303</span>&#160;          <span class="keywordtype">bool</span> globalInhibition_;</div>
-<div class="line"><a name="l01304"></a><span class="lineno"> 1304</span>&#160;          <a class="code" href="namespacenta.html#a17d4a8b25826d8927b44cdbb41109e1b">Int</a> numActiveColumnsPerInhArea_;</div>
-<div class="line"><a name="l01305"></a><span class="lineno"> 1305</span>&#160;          <a class="code" href="namespacenta.html#a0b438ee0b4c6d825ca71d8fbd8be4886">Real</a> localAreaDensity_;</div>
-<div class="line"><a name="l01306"></a><span class="lineno"> 1306</span>&#160;          <a class="code" href="namespacenta.html#a213121a770bfaeb2c7fd30f536d8d2e9">UInt</a> stimulusThreshold_;</div>
-<div class="line"><a name="l01307"></a><span class="lineno"> 1307</span>&#160;          <a class="code" href="namespacenta.html#a213121a770bfaeb2c7fd30f536d8d2e9">UInt</a> inhibitionRadius_;</div>
-<div class="line"><a name="l01308"></a><span class="lineno"> 1308</span>&#160;          <a class="code" href="namespacenta.html#a213121a770bfaeb2c7fd30f536d8d2e9">UInt</a> dutyCyclePeriod_;</div>
-<div class="line"><a name="l01309"></a><span class="lineno"> 1309</span>&#160;          <a class="code" href="namespacenta.html#a0b438ee0b4c6d825ca71d8fbd8be4886">Real</a> maxBoost_;</div>
-<div class="line"><a name="l01310"></a><span class="lineno"> 1310</span>&#160;          <a class="code" href="namespacenta.html#a213121a770bfaeb2c7fd30f536d8d2e9">UInt</a> iterationNum_;</div>
-<div class="line"><a name="l01311"></a><span class="lineno"> 1311</span>&#160;          <a class="code" href="namespacenta.html#a213121a770bfaeb2c7fd30f536d8d2e9">UInt</a> iterationLearnNum_;</div>
-<div class="line"><a name="l01312"></a><span class="lineno"> 1312</span>&#160;          <a class="code" href="namespacenta.html#a213121a770bfaeb2c7fd30f536d8d2e9">UInt</a> spVerbosity_;</div>
-<div class="line"><a name="l01313"></a><span class="lineno"> 1313</span>&#160;          <a class="code" href="namespacenta.html#a213121a770bfaeb2c7fd30f536d8d2e9">UInt</a> updatePeriod_;</div>
-<div class="line"><a name="l01314"></a><span class="lineno"> 1314</span>&#160;</div>
-<div class="line"><a name="l01315"></a><span class="lineno"> 1315</span>&#160;          <a class="code" href="namespacenta.html#a0b438ee0b4c6d825ca71d8fbd8be4886">Real</a> synPermMin_;</div>
-<div class="line"><a name="l01316"></a><span class="lineno"> 1316</span>&#160;          <a class="code" href="namespacenta.html#a0b438ee0b4c6d825ca71d8fbd8be4886">Real</a> synPermMax_;</div>
-<div class="line"><a name="l01317"></a><span class="lineno"> 1317</span>&#160;          <a class="code" href="namespacenta.html#a0b438ee0b4c6d825ca71d8fbd8be4886">Real</a> synPermTrimThreshold_;</div>
-<div class="line"><a name="l01318"></a><span class="lineno"> 1318</span>&#160;          <a class="code" href="namespacenta.html#a0b438ee0b4c6d825ca71d8fbd8be4886">Real</a> synPermInactiveDec_;</div>
-<div class="line"><a name="l01319"></a><span class="lineno"> 1319</span>&#160;          <a class="code" href="namespacenta.html#a0b438ee0b4c6d825ca71d8fbd8be4886">Real</a> synPermActiveInc_;</div>
-<div class="line"><a name="l01320"></a><span class="lineno"> 1320</span>&#160;          <a class="code" href="namespacenta.html#a0b438ee0b4c6d825ca71d8fbd8be4886">Real</a> synPermBelowStimulusInc_;</div>
-<div class="line"><a name="l01321"></a><span class="lineno"> 1321</span>&#160;          <a class="code" href="namespacenta.html#a0b438ee0b4c6d825ca71d8fbd8be4886">Real</a> synPermConnected_;</div>
-<div class="line"><a name="l01322"></a><span class="lineno"> 1322</span>&#160;</div>
-<div class="line"><a name="l01323"></a><span class="lineno"> 1323</span>&#160;          vector&lt;Real&gt; boostFactors_;</div>
-<div class="line"><a name="l01324"></a><span class="lineno"> 1324</span>&#160;          vector&lt;Real&gt; overlapDutyCycles_;</div>
-<div class="line"><a name="l01325"></a><span class="lineno"> 1325</span>&#160;          vector&lt;Real&gt; activeDutyCycles_;</div>
-<div class="line"><a name="l01326"></a><span class="lineno"> 1326</span>&#160;          vector&lt;Real&gt; minOverlapDutyCycles_;</div>
-<div class="line"><a name="l01327"></a><span class="lineno"> 1327</span>&#160;          vector&lt;Real&gt; minActiveDutyCycles_;</div>
-<div class="line"><a name="l01328"></a><span class="lineno"> 1328</span>&#160;</div>
-<div class="line"><a name="l01329"></a><span class="lineno"> 1329</span>&#160;          <a class="code" href="namespacenta.html#a0b438ee0b4c6d825ca71d8fbd8be4886">Real</a> minPctOverlapDutyCycles_;</div>
-<div class="line"><a name="l01330"></a><span class="lineno"> 1330</span>&#160;          <a class="code" href="namespacenta.html#a0b438ee0b4c6d825ca71d8fbd8be4886">Real</a> minPctActiveDutyCycles_;</div>
-<div class="line"><a name="l01331"></a><span class="lineno"> 1331</span>&#160;</div>
-<div class="line"><a name="l01332"></a><span class="lineno"> 1332</span>&#160;          SparseMatrix&lt;UInt,Real,Int,Real64&gt; permanences_;</div>
-<div class="line"><a name="l01333"></a><span class="lineno"> 1333</span>&#160;          SparseBinaryMatrix&lt;UInt,UInt&gt; potentialPools_;</div>
-<div class="line"><a name="l01334"></a><span class="lineno"> 1334</span>&#160;          SparseBinaryMatrix&lt;UInt, UInt&gt; connectedSynapses_;</div>
-<div class="line"><a name="l01335"></a><span class="lineno"> 1335</span>&#160;          vector&lt;UInt&gt; connectedCounts_;</div>
+<div class="line"><a name="l00922"></a><span class="lineno">  922</span>&#160;          <span class="keywordtype">bool</span> isWinner_(<a class="code" href="namespacenta.html#a0b438ee0b4c6d825ca71d8fbd8be4886">Real</a> score, vector&lt;pair&lt;UInt, Real&gt; &gt;&amp; winners,</div>
+<div class="line"><a name="l00923"></a><span class="lineno">  923</span>&#160;                         <a class="code" href="namespacenta.html#a213121a770bfaeb2c7fd30f536d8d2e9">UInt</a> numWinners);</div>
+<div class="line"><a name="l00924"></a><span class="lineno">  924</span>&#160;</div>
+<div class="line"><a name="l00925"></a><span class="lineno">  925</span>&#160;          <span class="keywordtype">void</span> addToWinners_(<a class="code" href="namespacenta.html#a213121a770bfaeb2c7fd30f536d8d2e9">UInt</a> index, <a class="code" href="namespacenta.html#a0b438ee0b4c6d825ca71d8fbd8be4886">Real</a> score,</div>
+<div class="line"><a name="l00926"></a><span class="lineno">  926</span>&#160;                             vector&lt;pair&lt;UInt, Real&gt; &gt;&amp; winners);</div>
+<div class="line"><a name="l00927"></a><span class="lineno">  927</span>&#160;</div>
+<div class="line"><a name="l00941"></a><span class="lineno">  941</span>&#160;          <span class="keywordtype">void</span> inhibitColumns_(vector&lt;Real&gt;&amp; overlaps,</div>
+<div class="line"><a name="l00942"></a><span class="lineno">  942</span>&#160;                               vector&lt;UInt&gt;&amp; activeColumns);</div>
+<div class="line"><a name="l00943"></a><span class="lineno">  943</span>&#160;</div>
+<div class="line"><a name="l00961"></a><span class="lineno">  961</span>&#160;          <span class="keywordtype">void</span> inhibitColumnsGlobal_(vector&lt;Real&gt;&amp; overlaps, <a class="code" href="namespacenta.html#a0b438ee0b4c6d825ca71d8fbd8be4886">Real</a> density,</div>
+<div class="line"><a name="l00962"></a><span class="lineno">  962</span>&#160;                                     vector&lt;UInt&gt;&amp; activeColumns);</div>
+<div class="line"><a name="l00963"></a><span class="lineno">  963</span>&#160;</div>
+<div class="line"><a name="l00986"></a><span class="lineno">  986</span>&#160;          <span class="keywordtype">void</span> inhibitColumnsLocal_(vector&lt;Real&gt;&amp; overlaps, <a class="code" href="namespacenta.html#a0b438ee0b4c6d825ca71d8fbd8be4886">Real</a> density,</div>
+<div class="line"><a name="l00987"></a><span class="lineno">  987</span>&#160;                                    vector&lt;UInt&gt;&amp; activeColumns);</div>
+<div class="line"><a name="l00988"></a><span class="lineno">  988</span>&#160;</div>
+<div class="line"><a name="l01020"></a><span class="lineno"> 1020</span>&#160;          <span class="keywordtype">void</span> getNeighbors1D_(<a class="code" href="namespacenta.html#a213121a770bfaeb2c7fd30f536d8d2e9">UInt</a> column, vector&lt;UInt&gt;&amp; dimensions,</div>
+<div class="line"><a name="l01021"></a><span class="lineno"> 1021</span>&#160;                               <a class="code" href="namespacenta.html#a213121a770bfaeb2c7fd30f536d8d2e9">UInt</a> radius, <span class="keywordtype">bool</span> wrapAround,</div>
+<div class="line"><a name="l01022"></a><span class="lineno"> 1022</span>&#160;                               vector&lt;UInt&gt;&amp; neighbors);</div>
+<div class="line"><a name="l01023"></a><span class="lineno"> 1023</span>&#160;</div>
+<div class="line"><a name="l01057"></a><span class="lineno"> 1057</span>&#160;          <span class="keywordtype">void</span> getNeighbors2D_(<a class="code" href="namespacenta.html#a213121a770bfaeb2c7fd30f536d8d2e9">UInt</a> column, vector&lt;UInt&gt;&amp; dimensions,</div>
+<div class="line"><a name="l01058"></a><span class="lineno"> 1058</span>&#160;                               <a class="code" href="namespacenta.html#a213121a770bfaeb2c7fd30f536d8d2e9">UInt</a> radius, <span class="keywordtype">bool</span> wrapAround,</div>
+<div class="line"><a name="l01059"></a><span class="lineno"> 1059</span>&#160;                               vector&lt;UInt&gt;&amp; neighbors);</div>
+<div class="line"><a name="l01060"></a><span class="lineno"> 1060</span>&#160;          <span class="keywordtype">void</span> cartesianProduct_(vector&lt;vector&lt;UInt&gt; &gt;&amp; vecs,</div>
+<div class="line"><a name="l01061"></a><span class="lineno"> 1061</span>&#160;                                 vector&lt;vector&lt;UInt&gt; &gt;&amp; product);</div>
+<div class="line"><a name="l01062"></a><span class="lineno"> 1062</span>&#160;</div>
+<div class="line"><a name="l01095"></a><span class="lineno"> 1095</span>&#160;          <span class="keywordtype">void</span> getNeighborsND_(<a class="code" href="namespacenta.html#a213121a770bfaeb2c7fd30f536d8d2e9">UInt</a> column, vector&lt;UInt&gt;&amp; dimensions,</div>
+<div class="line"><a name="l01096"></a><span class="lineno"> 1096</span>&#160;                               <a class="code" href="namespacenta.html#a213121a770bfaeb2c7fd30f536d8d2e9">UInt</a> radius, <span class="keywordtype">bool</span> wrapAround,</div>
+<div class="line"><a name="l01097"></a><span class="lineno"> 1097</span>&#160;                               vector&lt;UInt&gt;&amp; neighbors);</div>
+<div class="line"><a name="l01098"></a><span class="lineno"> 1098</span>&#160;</div>
+<div class="line"><a name="l01099"></a><span class="lineno"> 1099</span>&#160;</div>
+<div class="line"><a name="l01117"></a><span class="lineno"> 1117</span>&#160;          <span class="keywordtype">void</span> adaptSynapses_(<a class="code" href="namespacenta.html#a213121a770bfaeb2c7fd30f536d8d2e9">UInt</a> inputVector[],</div>
+<div class="line"><a name="l01118"></a><span class="lineno"> 1118</span>&#160;                              vector&lt;UInt&gt;&amp; activeColumns);</div>
+<div class="line"><a name="l01119"></a><span class="lineno"> 1119</span>&#160;</div>
+<div class="line"><a name="l01126"></a><span class="lineno"> 1126</span>&#160;          <span class="keywordtype">void</span> bumpUpWeakColumns_();</div>
+<div class="line"><a name="l01127"></a><span class="lineno"> 1127</span>&#160;</div>
+<div class="line"><a name="l01138"></a><span class="lineno"> 1138</span>&#160;          <span class="keywordtype">void</span> updateInhibitionRadius_();</div>
+<div class="line"><a name="l01139"></a><span class="lineno"> 1139</span>&#160;</div>
+<div class="line"><a name="l01149"></a><span class="lineno"> 1149</span>&#160;          <a class="code" href="namespacenta.html#a0b438ee0b4c6d825ca71d8fbd8be4886">Real</a> avgColumnsPerInput_();</div>
+<div class="line"><a name="l01150"></a><span class="lineno"> 1150</span>&#160;</div>
+<div class="line"><a name="l01159"></a><span class="lineno"> 1159</span>&#160;          <a class="code" href="namespacenta.html#a0b438ee0b4c6d825ca71d8fbd8be4886">Real</a> avgConnectedSpanForColumn1D_(<a class="code" href="namespacenta.html#a213121a770bfaeb2c7fd30f536d8d2e9">UInt</a> column);</div>
+<div class="line"><a name="l01160"></a><span class="lineno"> 1160</span>&#160;</div>
+<div class="line"><a name="l01169"></a><span class="lineno"> 1169</span>&#160;          <a class="code" href="namespacenta.html#a0b438ee0b4c6d825ca71d8fbd8be4886">Real</a> avgConnectedSpanForColumn2D_(<a class="code" href="namespacenta.html#a213121a770bfaeb2c7fd30f536d8d2e9">UInt</a> column);</div>
+<div class="line"><a name="l01170"></a><span class="lineno"> 1170</span>&#160;</div>
+<div class="line"><a name="l01171"></a><span class="lineno"> 1171</span>&#160;</div>
+<div class="line"><a name="l01180"></a><span class="lineno"> 1180</span>&#160;          <a class="code" href="namespacenta.html#a0b438ee0b4c6d825ca71d8fbd8be4886">Real</a> avgConnectedSpanForColumnND_(<a class="code" href="namespacenta.html#a213121a770bfaeb2c7fd30f536d8d2e9">UInt</a> column);</div>
+<div class="line"><a name="l01181"></a><span class="lineno"> 1181</span>&#160;</div>
+<div class="line"><a name="l01186"></a><span class="lineno"> 1186</span>&#160;          <span class="keywordtype">void</span> updateMinDutyCycles_();</div>
+<div class="line"><a name="l01187"></a><span class="lineno"> 1187</span>&#160;</div>
+<div class="line"><a name="l01196"></a><span class="lineno"> 1196</span>&#160;          <span class="keywordtype">void</span> updateMinDutyCyclesGlobal_();</div>
+<div class="line"><a name="l01197"></a><span class="lineno"> 1197</span>&#160;</div>
+<div class="line"><a name="l01204"></a><span class="lineno"> 1204</span>&#160;          <span class="keywordtype">void</span> updateMinDutyCyclesLocal_();</div>
+<div class="line"><a name="l01205"></a><span class="lineno"> 1205</span>&#160;</div>
+<div class="line"><a name="l01206"></a><span class="lineno"> 1206</span>&#160;</div>
+<div class="line"><a name="l01207"></a><span class="lineno"> 1207</span>&#160;</div>
+<div class="line"><a name="l01231"></a><span class="lineno"> 1231</span>&#160;          <span class="keyword">static</span>  <span class="keywordtype">void</span> updateDutyCyclesHelper_(vector&lt;Real&gt;&amp; dutyCycles,</div>
+<div class="line"><a name="l01232"></a><span class="lineno"> 1232</span>&#160;                                               vector&lt;UInt&gt;&amp; newValues,</div>
+<div class="line"><a name="l01233"></a><span class="lineno"> 1233</span>&#160;                                               <a class="code" href="namespacenta.html#a213121a770bfaeb2c7fd30f536d8d2e9">UInt</a> period);</div>
+<div class="line"><a name="l01234"></a><span class="lineno"> 1234</span>&#160;</div>
+<div class="line"><a name="l01249"></a><span class="lineno"> 1249</span>&#160;          <span class="keywordtype">void</span> updateDutyCycles_(vector&lt;UInt&gt;&amp; overlaps,</div>
+<div class="line"><a name="l01250"></a><span class="lineno"> 1250</span>&#160;                                 <a class="code" href="namespacenta.html#a213121a770bfaeb2c7fd30f536d8d2e9">UInt</a> activeArray[]);</div>
+<div class="line"><a name="l01251"></a><span class="lineno"> 1251</span>&#160;</div>
+<div class="line"><a name="l01278"></a><span class="lineno"> 1278</span>&#160;          <span class="keywordtype">void</span> updateBoostFactors_();</div>
+<div class="line"><a name="l01279"></a><span class="lineno"> 1279</span>&#160;</div>
+<div class="line"><a name="l01289"></a><span class="lineno"> 1289</span>&#160;          <span class="keywordtype">void</span> updateBookeepingVars_(<span class="keywordtype">bool</span> learn);</div>
+<div class="line"><a name="l01290"></a><span class="lineno"> 1290</span>&#160;</div>
+<div class="line"><a name="l01295"></a><span class="lineno"> 1295</span>&#160;          <span class="keywordtype">bool</span> isUpdateRound_();</div>
+<div class="line"><a name="l01296"></a><span class="lineno"> 1296</span>&#160;</div>
+<div class="line"><a name="l01302"></a><span class="lineno"> 1302</span>&#160;          <span class="keywordtype">void</span> seed_(<a class="code" href="namespacenta.html#aa713df1be43bfaaa41b2736232cacbc9">UInt64</a> seed);</div>
+<div class="line"><a name="l01303"></a><span class="lineno"> 1303</span>&#160;</div>
+<div class="line"><a name="l01304"></a><span class="lineno"> 1304</span>&#160;          <span class="comment">//-------------------------------------------------------------------</span></div>
+<div class="line"><a name="l01305"></a><span class="lineno"> 1305</span>&#160;          <span class="comment">// Debugging helpers</span></div>
+<div class="line"><a name="l01306"></a><span class="lineno"> 1306</span>&#160;          <span class="comment">//-------------------------------------------------------------------</span></div>
+<div class="line"><a name="l01307"></a><span class="lineno"> 1307</span>&#160;</div>
+<div class="line"><a name="l01311"></a><span class="lineno"> 1311</span>&#160;          <span class="keywordtype">void</span> printState(vector&lt;UInt&gt; &amp;state);</div>
+<div class="line"><a name="l01315"></a><span class="lineno"> 1315</span>&#160;          <span class="keywordtype">void</span> printState(vector&lt;Real&gt; &amp;state);</div>
+<div class="line"><a name="l01316"></a><span class="lineno"> 1316</span>&#160;</div>
+<div class="line"><a name="l01317"></a><span class="lineno"> 1317</span>&#160;        <span class="keyword">protected</span>:</div>
+<div class="line"><a name="l01318"></a><span class="lineno"> 1318</span>&#160;          <a class="code" href="namespacenta.html#a213121a770bfaeb2c7fd30f536d8d2e9">UInt</a> numInputs_;</div>
+<div class="line"><a name="l01319"></a><span class="lineno"> 1319</span>&#160;          <a class="code" href="namespacenta.html#a213121a770bfaeb2c7fd30f536d8d2e9">UInt</a> numColumns_;</div>
+<div class="line"><a name="l01320"></a><span class="lineno"> 1320</span>&#160;          vector&lt;UInt&gt; columnDimensions_;</div>
+<div class="line"><a name="l01321"></a><span class="lineno"> 1321</span>&#160;          vector&lt;UInt&gt; inputDimensions_;</div>
+<div class="line"><a name="l01322"></a><span class="lineno"> 1322</span>&#160;          <a class="code" href="namespacenta.html#a213121a770bfaeb2c7fd30f536d8d2e9">UInt</a> potentialRadius_;</div>
+<div class="line"><a name="l01323"></a><span class="lineno"> 1323</span>&#160;          <a class="code" href="namespacenta.html#a0b438ee0b4c6d825ca71d8fbd8be4886">Real</a> potentialPct_;</div>
+<div class="line"><a name="l01324"></a><span class="lineno"> 1324</span>&#160;          <a class="code" href="namespacenta.html#a0b438ee0b4c6d825ca71d8fbd8be4886">Real</a> initConnectedPct_;</div>
+<div class="line"><a name="l01325"></a><span class="lineno"> 1325</span>&#160;          <span class="keywordtype">bool</span> globalInhibition_;</div>
+<div class="line"><a name="l01326"></a><span class="lineno"> 1326</span>&#160;          <a class="code" href="namespacenta.html#a17d4a8b25826d8927b44cdbb41109e1b">Int</a> numActiveColumnsPerInhArea_;</div>
+<div class="line"><a name="l01327"></a><span class="lineno"> 1327</span>&#160;          <a class="code" href="namespacenta.html#a0b438ee0b4c6d825ca71d8fbd8be4886">Real</a> localAreaDensity_;</div>
+<div class="line"><a name="l01328"></a><span class="lineno"> 1328</span>&#160;          <a class="code" href="namespacenta.html#a213121a770bfaeb2c7fd30f536d8d2e9">UInt</a> stimulusThreshold_;</div>
+<div class="line"><a name="l01329"></a><span class="lineno"> 1329</span>&#160;          <a class="code" href="namespacenta.html#a213121a770bfaeb2c7fd30f536d8d2e9">UInt</a> inhibitionRadius_;</div>
+<div class="line"><a name="l01330"></a><span class="lineno"> 1330</span>&#160;          <a class="code" href="namespacenta.html#a213121a770bfaeb2c7fd30f536d8d2e9">UInt</a> dutyCyclePeriod_;</div>
+<div class="line"><a name="l01331"></a><span class="lineno"> 1331</span>&#160;          <a class="code" href="namespacenta.html#a0b438ee0b4c6d825ca71d8fbd8be4886">Real</a> maxBoost_;</div>
+<div class="line"><a name="l01332"></a><span class="lineno"> 1332</span>&#160;          <a class="code" href="namespacenta.html#a213121a770bfaeb2c7fd30f536d8d2e9">UInt</a> iterationNum_;</div>
+<div class="line"><a name="l01333"></a><span class="lineno"> 1333</span>&#160;          <a class="code" href="namespacenta.html#a213121a770bfaeb2c7fd30f536d8d2e9">UInt</a> iterationLearnNum_;</div>
+<div class="line"><a name="l01334"></a><span class="lineno"> 1334</span>&#160;          <a class="code" href="namespacenta.html#a213121a770bfaeb2c7fd30f536d8d2e9">UInt</a> spVerbosity_;</div>
+<div class="line"><a name="l01335"></a><span class="lineno"> 1335</span>&#160;          <a class="code" href="namespacenta.html#a213121a770bfaeb2c7fd30f536d8d2e9">UInt</a> updatePeriod_;</div>
 <div class="line"><a name="l01336"></a><span class="lineno"> 1336</span>&#160;</div>
-<div class="line"><a name="l01337"></a><span class="lineno"> 1337</span>&#160;          vector&lt;UInt&gt; overlaps_;</div>
-<div class="line"><a name="l01338"></a><span class="lineno"> 1338</span>&#160;          vector&lt;Real&gt; overlapsPct_;</div>
-<div class="line"><a name="l01339"></a><span class="lineno"> 1339</span>&#160;          vector&lt;Real&gt; boostedOverlaps_;</div>
-<div class="line"><a name="l01340"></a><span class="lineno"> 1340</span>&#160;          vector&lt;UInt&gt; activeColumns_;</div>
-<div class="line"><a name="l01341"></a><span class="lineno"> 1341</span>&#160;          vector&lt;Real&gt; tieBreaker_;</div>
-<div class="line"><a name="l01342"></a><span class="lineno"> 1342</span>&#160;</div>
-<div class="line"><a name="l01343"></a><span class="lineno"> 1343</span>&#160;          <a class="code" href="namespacenta.html#a213121a770bfaeb2c7fd30f536d8d2e9">UInt</a> version_;</div>
-<div class="line"><a name="l01344"></a><span class="lineno"> 1344</span>&#160;          Random rng_;</div>
-<div class="line"><a name="l01345"></a><span class="lineno"> 1345</span>&#160;</div>
-<div class="line"><a name="l01346"></a><span class="lineno"> 1346</span>&#160;      };</div>
-<div class="line"><a name="l01347"></a><span class="lineno"> 1347</span>&#160;    } <span class="comment">// end namespace spatial_pooler</span></div>
-<div class="line"><a name="l01348"></a><span class="lineno"> 1348</span>&#160;  } <span class="comment">// end namespace algorithms</span></div>
-<div class="line"><a name="l01349"></a><span class="lineno"> 1349</span>&#160;} <span class="comment">// end namespace nta</span></div>
-<div class="line"><a name="l01350"></a><span class="lineno"> 1350</span>&#160;<span class="preprocessor">#endif // NTA_spatial_pooler_HPP</span></div>
+<div class="line"><a name="l01337"></a><span class="lineno"> 1337</span>&#160;          <a class="code" href="namespacenta.html#a0b438ee0b4c6d825ca71d8fbd8be4886">Real</a> synPermMin_;</div>
+<div class="line"><a name="l01338"></a><span class="lineno"> 1338</span>&#160;          <a class="code" href="namespacenta.html#a0b438ee0b4c6d825ca71d8fbd8be4886">Real</a> synPermMax_;</div>
+<div class="line"><a name="l01339"></a><span class="lineno"> 1339</span>&#160;          <a class="code" href="namespacenta.html#a0b438ee0b4c6d825ca71d8fbd8be4886">Real</a> synPermTrimThreshold_;</div>
+<div class="line"><a name="l01340"></a><span class="lineno"> 1340</span>&#160;          <a class="code" href="namespacenta.html#a0b438ee0b4c6d825ca71d8fbd8be4886">Real</a> synPermInactiveDec_;</div>
+<div class="line"><a name="l01341"></a><span class="lineno"> 1341</span>&#160;          <a class="code" href="namespacenta.html#a0b438ee0b4c6d825ca71d8fbd8be4886">Real</a> synPermActiveInc_;</div>
+<div class="line"><a name="l01342"></a><span class="lineno"> 1342</span>&#160;          <a class="code" href="namespacenta.html#a0b438ee0b4c6d825ca71d8fbd8be4886">Real</a> synPermBelowStimulusInc_;</div>
+<div class="line"><a name="l01343"></a><span class="lineno"> 1343</span>&#160;          <a class="code" href="namespacenta.html#a0b438ee0b4c6d825ca71d8fbd8be4886">Real</a> synPermConnected_;</div>
+<div class="line"><a name="l01344"></a><span class="lineno"> 1344</span>&#160;</div>
+<div class="line"><a name="l01345"></a><span class="lineno"> 1345</span>&#160;          vector&lt;Real&gt; boostFactors_;</div>
+<div class="line"><a name="l01346"></a><span class="lineno"> 1346</span>&#160;          vector&lt;Real&gt; overlapDutyCycles_;</div>
+<div class="line"><a name="l01347"></a><span class="lineno"> 1347</span>&#160;          vector&lt;Real&gt; activeDutyCycles_;</div>
+<div class="line"><a name="l01348"></a><span class="lineno"> 1348</span>&#160;          vector&lt;Real&gt; minOverlapDutyCycles_;</div>
+<div class="line"><a name="l01349"></a><span class="lineno"> 1349</span>&#160;          vector&lt;Real&gt; minActiveDutyCycles_;</div>
+<div class="line"><a name="l01350"></a><span class="lineno"> 1350</span>&#160;</div>
+<div class="line"><a name="l01351"></a><span class="lineno"> 1351</span>&#160;          <a class="code" href="namespacenta.html#a0b438ee0b4c6d825ca71d8fbd8be4886">Real</a> minPctOverlapDutyCycles_;</div>
+<div class="line"><a name="l01352"></a><span class="lineno"> 1352</span>&#160;          <a class="code" href="namespacenta.html#a0b438ee0b4c6d825ca71d8fbd8be4886">Real</a> minPctActiveDutyCycles_;</div>
+<div class="line"><a name="l01353"></a><span class="lineno"> 1353</span>&#160;</div>
+<div class="line"><a name="l01354"></a><span class="lineno"> 1354</span>&#160;          SparseMatrix&lt;UInt,Real,Int,Real64&gt; permanences_;</div>
+<div class="line"><a name="l01355"></a><span class="lineno"> 1355</span>&#160;          SparseBinaryMatrix&lt;UInt,UInt&gt; potentialPools_;</div>
+<div class="line"><a name="l01356"></a><span class="lineno"> 1356</span>&#160;          SparseBinaryMatrix&lt;UInt, UInt&gt; connectedSynapses_;</div>
+<div class="line"><a name="l01357"></a><span class="lineno"> 1357</span>&#160;          vector&lt;UInt&gt; connectedCounts_;</div>
+<div class="line"><a name="l01358"></a><span class="lineno"> 1358</span>&#160;</div>
+<div class="line"><a name="l01359"></a><span class="lineno"> 1359</span>&#160;          vector&lt;UInt&gt; overlaps_;</div>
+<div class="line"><a name="l01360"></a><span class="lineno"> 1360</span>&#160;          vector&lt;Real&gt; overlapsPct_;</div>
+<div class="line"><a name="l01361"></a><span class="lineno"> 1361</span>&#160;          vector&lt;Real&gt; boostedOverlaps_;</div>
+<div class="line"><a name="l01362"></a><span class="lineno"> 1362</span>&#160;          vector&lt;UInt&gt; activeColumns_;</div>
+<div class="line"><a name="l01363"></a><span class="lineno"> 1363</span>&#160;          vector&lt;Real&gt; tieBreaker_;</div>
+<div class="line"><a name="l01364"></a><span class="lineno"> 1364</span>&#160;</div>
+<div class="line"><a name="l01365"></a><span class="lineno"> 1365</span>&#160;          <a class="code" href="namespacenta.html#a213121a770bfaeb2c7fd30f536d8d2e9">UInt</a> version_;</div>
+<div class="line"><a name="l01366"></a><span class="lineno"> 1366</span>&#160;          Random rng_;</div>
+<div class="line"><a name="l01367"></a><span class="lineno"> 1367</span>&#160;</div>
+<div class="line"><a name="l01368"></a><span class="lineno"> 1368</span>&#160;      };</div>
+<div class="line"><a name="l01369"></a><span class="lineno"> 1369</span>&#160;    } <span class="comment">// end namespace spatial_pooler</span></div>
+<div class="line"><a name="l01370"></a><span class="lineno"> 1370</span>&#160;  } <span class="comment">// end namespace algorithms</span></div>
+<div class="line"><a name="l01371"></a><span class="lineno"> 1371</span>&#160;} <span class="comment">// end namespace nta</span></div>
+<div class="line"><a name="l01372"></a><span class="lineno"> 1372</span>&#160;<span class="preprocessor">#endif // NTA_spatial_pooler_HPP</span></div>
 <div class="ttc" id="classnta_1_1algorithms_1_1spatial__pooler_1_1_spatial_pooler_html_a38e9438994e241bc75cb23e868c28c7e"><div class="ttname"><a href="classnta_1_1algorithms_1_1spatial__pooler_1_1_spatial_pooler.html#a38e9438994e241bc75cb23e868c28c7e">nta::algorithms::spatial_pooler::SpatialPooler::version</a></div><div class="ttdeci">virtual UInt version() const </div><div class="ttdoc">Get the version number of this spatial pooler. </div><div class="ttdef"><b>Definition:</b> <a href="_spatial_pooler_8hpp_source.html#l00259">SpatialPooler.hpp:259</a></div></div>
 <div class="ttc" id="namespacenta_html_a213121a770bfaeb2c7fd30f536d8d2e9"><div class="ttname"><a href="namespacenta.html#a213121a770bfaeb2c7fd30f536d8d2e9">nta::UInt</a></div><div class="ttdeci">NTA_UInt UInt</div><div class="ttdoc">Represents a unsigned integer. </div><div class="ttdef"><b>Definition:</b> <a href="_types_8hpp_source.html#l00125">Types.hpp:125</a></div></div>
 <div class="ttc" id="namespacenta_html_a0b438ee0b4c6d825ca71d8fbd8be4886"><div class="ttname"><a href="namespacenta.html#a0b438ee0b4c6d825ca71d8fbd8be4886">nta::Real</a></div><div class="ttdeci">NTA_Real Real</div><div class="ttdoc">Represents a real number(a floating-point number). </div><div class="ttdef"><b>Definition:</b> <a href="_types_8hpp_source.html#l00111">Types.hpp:111</a></div></div>
@@ -453,7 +455,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Jun 23 2014 22:14:20 for NuPIC Core by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Jun 30 2014 19:11:50 for NuPIC Core by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.7
 </small></address>
