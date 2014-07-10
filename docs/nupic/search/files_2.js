@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['tp_2epy',['TP.py',['../_t_p_8py.html',1,'']]]
+  ['permutations_5frunner_2epy',['permutations_runner.py',['../permutations__runner_8py.html',1,'']]]
 ];

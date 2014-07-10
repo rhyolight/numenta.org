@@ -7,5 +7,6 @@ var searchData=
   ['columnconfidences',['columnConfidences',['../classnupic_1_1research_1_1_t_p_1_1_t_p.html#aaff7d786f2021c7a28c9048b865d3227',1,'nupic::research::TP::TP']]],
   ['compute',['compute',['../classnupic_1_1research_1_1_t_p10_x2_1_1_t_p10_x2.html#aa14d770da60e675727b544c1aaf75ce7',1,'nupic.research.TP10X2.TP10X2.compute()'],['../classnupic_1_1research_1_1_t_p_1_1_t_p.html#a5ebf8c0160a598aede3c715289518e20',1,'nupic.research.TP.TP.compute()']]],
   ['computeoutput',['computeOutput',['../classnupic_1_1research_1_1_t_p_1_1_t_p.html#aad26fedcb45368f962a81f7c71398498',1,'nupic::research::TP::TP']]],
-  ['coordinateforposition',['coordinateForPosition',['../classnupic_1_1encoders_1_1geospatial__coordinate_1_1_geospatial_coordinate_encoder.html#a91f3b7ebf654d797cc4ba8521d19b737',1,'nupic::encoders::geospatial_coordinate::GeospatialCoordinateEncoder']]]
+  ['coordinateforposition',['coordinateForPosition',['../classnupic_1_1encoders_1_1geospatial__coordinate_1_1_geospatial_coordinate_encoder.html#a91f3b7ebf654d797cc4ba8521d19b737',1,'nupic::encoders::geospatial_coordinate::GeospatialCoordinateEncoder']]],
+  ['create',['create',['../classnupic_1_1frameworks_1_1opf_1_1modelfactory_1_1_model_factory.html#a5171240b0051227b7e01af57919166d4',1,'nupic::frameworks::opf::modelfactory::ModelFactory']]]
 ];
