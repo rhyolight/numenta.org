@@ -46,6 +46,7 @@ else.
     - slug: numenta/numenta.org
       type: support
       travis: true
+      branch: "gh-pages"
 
     - slug: numenta/nupic.documents
       type: support
