@@ -73,7 +73,7 @@ else.
     - slug: numenta/nupic.cerebro2.server
       type: app
 
-    - slug: rhyolight/nupic.critic
+    - slug: numenta/nupic.critic
       type: app
 
     # Misc repositories
