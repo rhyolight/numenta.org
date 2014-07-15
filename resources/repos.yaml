@@ -32,7 +32,7 @@ else.
       travis: true
       coverage: true
 
-    - slug: numenta/wallboard
+    - slug: numenta/nupic.wallboard
       type: tooling
 
     - slug: numenta/nupic.regression
