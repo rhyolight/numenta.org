@@ -39,6 +39,20 @@ else.
       type: tooling
       travis: true
 
+    - slug: rhyolight/sprinter.js
+      type: tooling
+      travis: true
+      coverage: true
+      deploy: "https://www.npmjs.org/package/sprinter"
+      monitor: false
+
+    - slug: "rhyolight/travis-foreman"
+      type: tooling
+      travis: true
+      coverage: true
+      deploy: "https://pypi.python.org/pypi/pycept/"
+      monitor: false
+
     # Support projects
     - slug: numenta/NAB
       type: support
@@ -83,17 +97,3 @@ else.
       travis: true
       coverage: true
       deploy: "https://pypi.python.org/pypi/pycept/"
-
-    - slug: rhyolight/sprinter.js
-      type: misc
-      travis: true
-      coverage: true
-      deploy: "https://www.npmjs.org/package/sprinter"
-      monitor: false
-
-    - slug: "rhyolight/travis-foreman"
-      type: app
-      travis: true
-      coverage: true
-      deploy: "https://pypi.python.org/pypi/pycept/"
-      monitor: false
