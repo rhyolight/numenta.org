@@ -88,9 +88,11 @@ else.
       travis: true
       coverage: true
       deploy: "https://www.npmjs.org/package/sprinter"
+      monitor: false
 
     - slug: "rhyolight/travis-foreman"
       type: app
       travis: true
       coverage: true
       deploy: "https://pypi.python.org/pypi/pycept/"
+      monitor: false
