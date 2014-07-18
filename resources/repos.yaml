@@ -62,9 +62,6 @@ else.
       travis: true
       branch: "gh-pages"
 
-    - slug: numenta/nupic.documents
-      type: support
-
     # NuPIC applications
     - slug: numenta/nupic.geospatial
       type: app
