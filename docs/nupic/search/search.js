@@ -11,7 +11,7 @@ var indexSectionsWithContent =
   1: "abcdeglmnprstv",
   2: "rs",
   3: "cmprt",
-  4: "_acdefgilmnprstu",
+  4: "_abcdefgilmnprstu",
   5: "abcdgilmnoprstv",
   6: "t"
 };

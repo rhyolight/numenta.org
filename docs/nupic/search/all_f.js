@@ -9,6 +9,7 @@ var searchData=
   ['seed',['seed',['../classnupic_1_1research_1_1_t_p_1_1_t_p.html#a0541db500a05e512d1c8da33408141ca',1,'nupic::research::TP::TP']]],
   ['segid',['segID',['../classnupic_1_1research_1_1_t_p_1_1_t_p.html#a42dbc0a0a025a23c625bcb6f27cad5d8',1,'nupic::research::TP::TP']]],
   ['segment',['Segment',['../classnupic_1_1research_1_1_t_p_1_1_segment.html',1,'nupic::research::TP']]],
+  ['segmentsforcell',['segmentsForCell',['../classnupic_1_1research_1_1temporal__memory_1_1_connections.html#aa474655ea87b2237297667a855731c5e',1,'nupic::research::temporal_memory::Connections']]],
   ['segmentupdate',['SegmentUpdate',['../classnupic_1_1research_1_1_t_p_1_1_t_p_1_1_segment_update.html',1,'nupic::research::TP::TP']]],
   ['segmentupdates',['segmentUpdates',['../classnupic_1_1research_1_1_t_p_1_1_t_p.html#a743f60a876d5ea7a97f81108eabca3bc',1,'nupic::research::TP::TP']]],
   ['segupdatevalidduration',['segUpdateValidDuration',['../classnupic_1_1research_1_1_t_p_1_1_t_p.html#a550feb48e1e94471d3748019d0c4f38d',1,'nupic::research::TP::TP']]],
@@ -17,5 +18,7 @@ var searchData=
   ['setstatelock',['setStateLock',['../classnupic_1_1encoders_1_1base_1_1_encoder.html#a3654d9968d07c1a0dc5659bd7a073440',1,'nupic::encoders::base::Encoder']]],
   ['simplevectorencoder',['SimpleVectorEncoder',['../classnupic_1_1encoders_1_1vector_1_1_simple_vector_encoder.html',1,'nupic::encoders::vector']]],
   ['slowissegmentactive',['slowIsSegmentActive',['../classnupic_1_1research_1_1_t_p10_x2_1_1_t_p10_x2.html#adf9d7bd08ce5ffdbaad887cb8821e206',1,'nupic::research::TP10X2::TP10X2']]],
-  ['swarming',['swarming',['../namespaceswarming.html',1,'']]]
+  ['swarming',['swarming',['../namespaceswarming.html',1,'']]],
+  ['synapsesforsegment',['synapsesForSegment',['../classnupic_1_1research_1_1temporal__memory_1_1_connections.html#a0256ae65ce44af4a64c030ccbd53a36a',1,'nupic::research::temporal_memory::Connections']]],
+  ['synapsesforsourcecell',['synapsesForSourceCell',['../classnupic_1_1research_1_1temporal__memory_1_1_connections.html#a74ec9be85fa0ef5b8d5fd189500433cf',1,'nupic::research::temporal_memory::Connections']]]
 ];
