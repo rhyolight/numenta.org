@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.7"/>
-<title>NuPIC: nupic.frameworks.opf.modelfactory.ModelFactory Class Reference</title>
+<title>NuPIC: ModelFactory Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -93,7 +93,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="classnupic_1_1frameworks_1_1opf_1_1modelfactory_1_1_model_factory-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">nupic.frameworks.opf.modelfactory.ModelFactory Class Reference</div>  </div>
+<div class="title">ModelFactory Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
@@ -104,18 +104,18 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a5171240b0051227b7e01af57919166d4"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnupic_1_1frameworks_1_1opf_1_1modelfactory_1_1_model_factory.html#a5171240b0051227b7e01af57919166d4">create</a></td></tr>
-<tr class="memdesc:a5171240b0051227b7e01af57919166d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a new model instance, given a description dictionary.  <a href="#a5171240b0051227b7e01af57919166d4">More...</a><br /></td></tr>
-<tr class="separator:a5171240b0051227b7e01af57919166d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0101c2e365d081973cdc057edf602048"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnupic_1_1frameworks_1_1opf_1_1modelfactory_1_1_model_factory.html#a0101c2e365d081973cdc057edf602048">loadFromCheckpoint</a></td></tr>
-<tr class="memdesc:a0101c2e365d081973cdc057edf602048"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load saved model.  <a href="#a0101c2e365d081973cdc057edf602048">More...</a><br /></td></tr>
-<tr class="separator:a0101c2e365d081973cdc057edf602048"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b7ef0221e471e99fa7f0a87a28ba1ea"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnupic_1_1frameworks_1_1opf_1_1modelfactory_1_1_model_factory.html#a5b7ef0221e471e99fa7f0a87a28ba1ea">create</a></td></tr>
+<tr class="memdesc:a5b7ef0221e471e99fa7f0a87a28ba1ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a new model instance, given a description dictionary.  <a href="#a5b7ef0221e471e99fa7f0a87a28ba1ea">More...</a><br /></td></tr>
+<tr class="separator:a5b7ef0221e471e99fa7f0a87a28ba1ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73b1a13824e1990bd42deb288a594583"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnupic_1_1frameworks_1_1opf_1_1modelfactory_1_1_model_factory.html#a73b1a13824e1990bd42deb288a594583">loadFromCheckpoint</a></td></tr>
+<tr class="memdesc:a73b1a13824e1990bd42deb288a594583"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load saved model.  <a href="#a73b1a13824e1990bd42deb288a594583">More...</a><br /></td></tr>
+<tr class="separator:a73b1a13824e1990bd42deb288a594583"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Static factory class that produces a Model based on a description dict. </p>
 <p>Eventually this will be the source for all Model creation, CLA and otherwise. We may also implement building the description dict from a database or a description.py file. For now, this is a very skeletal implementation. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a5171240b0051227b7e01af57919166d4"></a>
+<a class="anchor" id="a5b7ef0221e471e99fa7f0a87a28ba1ea"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -123,7 +123,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">def nupic.frameworks.opf.modelfactory.ModelFactory.create </td>
+          <td class="memname">def create </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>modelConfig</em>, </td>
@@ -148,12 +148,24 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Create a new model instance, given a description dictionary. </p>
-<h2>Parameters: </h2>
-<p>modelParams: A dictionary describing the current model (TODO: schema) logLevel: The level of logging output that should be generated </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">modelConfig</td><td>(dict) A dictionary describing the current model (TODO: schema) </td></tr>
+    <tr><td class="paramname">logLevel</td><td>(int) The level of logging output that should be generated </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">(Exception)</td><td>Unsupported model type </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>(<a class="el" href="classnupic_1_1frameworks_1_1opf_1_1model_1_1_model.html" title="This is the base class that all OPF Model implementations should subclass. ">nupic.frameworks.opf.model.Model</a>) A model. </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="a0101c2e365d081973cdc057edf602048"></a>
+<a class="anchor" id="a73b1a13824e1990bd42deb288a594583"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -161,7 +173,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">def nupic.frameworks.opf.modelfactory.ModelFactory.loadFromCheckpoint </td>
+          <td class="memname">def loadFromCheckpoint </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>savedModelDir</em></td><td>)</td>
@@ -176,9 +188,13 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Load saved model. </p>
-<h2>Parameters: </h2>
-<p>savedModelDir: directory of where the experiment is to be or was saved</p>
-<p>Returns: the loaded model instance </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">savedModelDir</td><td>(string) Directory of where the experiment is to be or was saved </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>(<a class="el" href="classnupic_1_1frameworks_1_1opf_1_1model_1_1_model.html" title="This is the base class that all OPF Model implementations should subclass. ">nupic.frameworks.opf.model.Model</a>) The loaded model instance. </dd></dl>
 
 </div>
 </div>
@@ -188,7 +204,7 @@ Static Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Aug 7 2014 17:29:10 for NuPIC by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Aug 18 2014 20:04:39 for NuPIC by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.7
 </small></address>
