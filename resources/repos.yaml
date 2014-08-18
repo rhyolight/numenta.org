@@ -94,3 +94,7 @@ else.
       travis: true
       coverage: true
       deploy: "https://pypi.python.org/pypi/pycept/"
+      
+    # Ports of HTM to other environments
+    - slug: numenta/copic-j
+      type: port
