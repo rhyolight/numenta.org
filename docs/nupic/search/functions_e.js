@@ -1,12 +1,14 @@
 var searchData=
 [
-  ['savetofile',['saveToFile',['../classnupic_1_1research_1_1_t_p10_x2_1_1_t_p10_x2.html#a27f8a0ba8a7ba445e45c3ef8a1bcb894',1,'nupic.research.TP10X2.TP10X2.saveToFile()'],['../classnupic_1_1research_1_1_t_p_1_1_t_p.html#aba86e0d1e02059cfaf8728f698bcd814',1,'nupic.research.TP.TP.saveToFile()']]],
-  ['scalarstostr',['scalarsToStr',['../classnupic_1_1encoders_1_1base_1_1_encoder.html#a1ef5a604861b918d0de8fc1d63ffd3f8',1,'nupic::encoders::base::Encoder']]],
-  ['segmentsforcell',['segmentsForCell',['../classnupic_1_1research_1_1temporal__memory_1_1_connections.html#aa474655ea87b2237297667a855731c5e',1,'nupic::research::temporal_memory::Connections']]],
-  ['setfieldstats',['setFieldStats',['../classnupic_1_1encoders_1_1adaptivescalar_1_1_adaptive_scalar_encoder.html#a6a979b4eb196d2b7c43cee447b2527e9',1,'nupic.encoders.adaptivescalar.AdaptiveScalarEncoder.setFieldStats()'],['../classnupic_1_1encoders_1_1base_1_1_encoder.html#a2877e8231306893e9c5d49dece27d247',1,'nupic.encoders.base.Encoder.setFieldStats()']]],
-  ['setlearning',['setLearning',['../classnupic_1_1encoders_1_1base_1_1_encoder.html#a5e6d4987f35e918e25754cba7359f80d',1,'nupic::encoders::base::Encoder']]],
-  ['setstatelock',['setStateLock',['../classnupic_1_1encoders_1_1base_1_1_encoder.html#a3654d9968d07c1a0dc5659bd7a073440',1,'nupic::encoders::base::Encoder']]],
-  ['slowissegmentactive',['slowIsSegmentActive',['../classnupic_1_1research_1_1_t_p10_x2_1_1_t_p10_x2.html#adf9d7bd08ce5ffdbaad887cb8821e206',1,'nupic::research::TP10X2::TP10X2']]],
-  ['synapsesforsegment',['synapsesForSegment',['../classnupic_1_1research_1_1temporal__memory_1_1_connections.html#a0256ae65ce44af4a64c030ccbd53a36a',1,'nupic::research::temporal_memory::Connections']]],
-  ['synapsesforsourcecell',['synapsesForSourceCell',['../classnupic_1_1research_1_1temporal__memory_1_1_connections.html#a74ec9be85fa0ef5b8d5fd189500433cf',1,'nupic::research::temporal_memory::Connections']]]
+  ['save',['save',['../classnupic_1_1frameworks_1_1opf_1_1model_1_1_model.html#aba0970ece8740693d3b82e656500a9c0',1,'nupic::frameworks::opf::model::Model']]],
+  ['savetofile',['saveToFile',['../classnupic_1_1research_1_1_t_p10_x2_1_1_t_p10_x2.html#a9e7fcd430006ce19ec90516d90565e1c',1,'nupic.research.TP10X2.TP10X2.saveToFile()'],['../classnupic_1_1research_1_1_t_p_1_1_t_p.html#a9e7fcd430006ce19ec90516d90565e1c',1,'nupic.research.TP.TP.saveToFile()']]],
+  ['scalarstostr',['scalarsToStr',['../classnupic_1_1encoders_1_1base_1_1_encoder.html#a21f8a584a6282b6be150f53a23fcc6a0',1,'nupic::encoders::base::Encoder']]],
+  ['segmentsforcell',['segmentsForCell',['../classnupic_1_1research_1_1temporal__memory_1_1_connections.html#ad6a71342b8e889dbd116fdd66fe42f74',1,'nupic::research::temporal_memory::Connections']]],
+  ['setfieldstatistics',['setFieldStatistics',['../classnupic_1_1frameworks_1_1opf_1_1model_1_1_model.html#acd3234beba19f8edabe76f6697bb532f',1,'nupic::frameworks::opf::model::Model']]],
+  ['setfieldstats',['setFieldStats',['../classnupic_1_1encoders_1_1adaptivescalar_1_1_adaptive_scalar_encoder.html#aa5c67b9a919881fec9d9d8d5a97676ac',1,'nupic.encoders.adaptivescalar.AdaptiveScalarEncoder.setFieldStats()'],['../classnupic_1_1encoders_1_1base_1_1_encoder.html#aa5c67b9a919881fec9d9d8d5a97676ac',1,'nupic.encoders.base.Encoder.setFieldStats()']]],
+  ['setlearning',['setLearning',['../classnupic_1_1encoders_1_1base_1_1_encoder.html#a5f5e68fd9b22094e51283f067cebc015',1,'nupic::encoders::base::Encoder']]],
+  ['setstatelock',['setStateLock',['../classnupic_1_1encoders_1_1base_1_1_encoder.html#aacb3c1dac43f3e7cefe5e1ad577172b0',1,'nupic::encoders::base::Encoder']]],
+  ['slowissegmentactive',['slowIsSegmentActive',['../classnupic_1_1research_1_1_t_p10_x2_1_1_t_p10_x2.html#a5c232cd8fd1716f2ad8a0a7dc17ac575',1,'nupic::research::TP10X2::TP10X2']]],
+  ['synapsesforsegment',['synapsesForSegment',['../classnupic_1_1research_1_1temporal__memory_1_1_connections.html#a3715275b547a85303c3eadaebb2bb292',1,'nupic::research::temporal_memory::Connections']]],
+  ['synapsesforsourcecell',['synapsesForSourceCell',['../classnupic_1_1research_1_1temporal__memory_1_1_connections.html#a3139334c16a2b5a141990f565c81d77e',1,'nupic::research::temporal_memory::Connections']]]
 ];
