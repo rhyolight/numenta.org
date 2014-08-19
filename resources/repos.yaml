@@ -101,3 +101,4 @@ else.
     # Ports of HTM to other environments
     - slug: numenta/copic-j
       type: port
+      travis: true
