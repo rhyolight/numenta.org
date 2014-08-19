@@ -88,7 +88,7 @@ else.
     - slug: numenta/nupic.critic
       type: app
       
-    - slug: rhyolight/nupic_nlp
+    - slug: numenta/nupic.nlp-examples
       type: app
 
     # Misc repositories
