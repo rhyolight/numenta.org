@@ -1,4 +1,13 @@
 
+## Important Notice: Mailing List Failures
+
+> We are having mailing list delivery failures on all our current mailing lists:
+> - [nupic-discuss](http://lists.numenta.org/pipermail/nupic_lists.numenta.org)
+> - [nupic-theory](http://lists.numenta.org/pipermail/nupic-theory_lists.numenta.org)
+> - [nupic-hackers](http://lists.numenta.org/pipermail/nupic-hackers_lists.numenta.org)
+> 
+> Some messages sent to these lists are not being delivered to all mailing list subscribers. However, the web archives for the lists are preserving all messages (see the links above). We are working to resolve this problem ASAP, but in the meantime, please assume your messages to NuPIC mailing lists are not being received by subscribers.
+
 ## Mission
 
 The mission of this project is to build and support a [community]({{ site.baseurl }}/community.html) interested in machine learning and machine intelligence based on modeling the neocortex and the principles upon which it works.
