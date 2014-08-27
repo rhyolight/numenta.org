@@ -46,5 +46,5 @@ var searchData=
   ['setsynpermtrimthreshold',['setSynPermTrimThreshold',['../classnta_1_1algorithms_1_1spatial__pooler_1_1_spatial_pooler.html#a8106a472483d40338be176e58c40c98f',1,'nta::algorithms::spatial_pooler::SpatialPooler']]],
   ['setupdateperiod',['setUpdatePeriod',['../classnta_1_1algorithms_1_1spatial__pooler_1_1_spatial_pooler.html#ad91eabb8c79b4f0d072153f5c4d9baec',1,'nta::algorithms::spatial_pooler::SpatialPooler']]],
   ['shutdown',['shutdown',['../classnta_1_1_nu_p_i_c.html#af2108efe2cb4e6c9dc467ea1f58a1871',1,'nta::NuPIC']]],
-  ['stripneverlearned_5f',['stripNeverLearned_',['../classnta_1_1algorithms_1_1spatial__pooler_1_1_spatial_pooler.html#adf5ef4dcf151c52a26dd4cfe336e634b',1,'nta::algorithms::spatial_pooler::SpatialPooler']]]
+  ['stripunlearnedcolumns',['stripUnlearnedColumns',['../classnta_1_1algorithms_1_1spatial__pooler_1_1_spatial_pooler.html#aacc0cbb92811f66597595db76838aef3',1,'nta::algorithms::spatial_pooler::SpatialPooler']]]
 ];

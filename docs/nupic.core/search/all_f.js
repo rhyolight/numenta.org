@@ -50,5 +50,5 @@ var searchData=
   ['spatialpooler',['SpatialPooler',['../classnta_1_1algorithms_1_1spatial__pooler_1_1_spatial_pooler.html',1,'nta::algorithms::spatial_pooler']]],
   ['spatialpooler_2ehpp',['SpatialPooler.hpp',['../_spatial_pooler_8hpp.html',1,'']]],
   ['splittermap',['SplitterMap',['../classnta_1_1_input.html#a193cc425807e1d3f6f099deaeed37ff2',1,'nta::Input']]],
-  ['stripneverlearned_5f',['stripNeverLearned_',['../classnta_1_1algorithms_1_1spatial__pooler_1_1_spatial_pooler.html#adf5ef4dcf151c52a26dd4cfe336e634b',1,'nta::algorithms::spatial_pooler::SpatialPooler']]]
+  ['stripunlearnedcolumns',['stripUnlearnedColumns',['../classnta_1_1algorithms_1_1spatial__pooler_1_1_spatial_pooler.html#aacc0cbb92811f66597595db76838aef3',1,'nta::algorithms::spatial_pooler::SpatialPooler']]]
 ];
