@@ -46,6 +46,11 @@ else.
       deploy: "https://www.npmjs.org/package/sprinter"
       monitor: false
 
+    - slug: rhyolight/sprinter-dash
+      type: tooling
+      deploy: "https://www.npmjs.org/package/sprinter-dash"
+      monitor: false
+
     - slug: "rhyolight/travis-foreman"
       type: tooling
       travis: true
