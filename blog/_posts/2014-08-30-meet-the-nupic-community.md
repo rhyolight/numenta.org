@@ -4,7 +4,7 @@ title: Meet the NuPIC Community
 category: blog
 ---
 
-You might not have heard about it, but the NuPIC mailing lists had to be [migrated to a private server recently](http://lists.numenta.org/pipermail/nupic_lists.numenta.org/2014-August/009295.html), so we had a short outage. Once the lists had been moved, I wanted to reengage our community members after a couple day of limited messages, so I asked everyone to introduce themselves, and we're getting some really fascinating responses. The NuPIC community is quite diverse and passionate! You might enjoy reading through some of the responses on each of our lists (look for the topics entitle "We're back in business, introduce yourself!".
+You might not have heard about it, but the NuPIC mailing lists had to be [migrated to a private server recently](http://lists.numenta.org/pipermail/nupic_lists.numenta.org/2014-August/009295.html), so we had a short outage. Once the lists had been moved, I wanted to reengage our community members after a couple day of limited messages, so I asked everyone to introduce themselves, and we're getting some really fascinating responses. The NuPIC community is quite diverse and passionate! You might enjoy reading through some of the responses on each of our lists (look for the topics entitled "We're back in business, introduce yourself!".
 
 - [nupic-discuss](http://lists.numenta.org/pipermail/nupic_lists.numenta.org/2014-August/thread.html#end)
 - [nupic-theory](http://lists.numenta.org/pipermail/nupic-theory_lists.numenta.org/2014-August/thread.html#end)
