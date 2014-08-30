@@ -108,4 +108,4 @@ And lastly, you gotta read this wonderful interaction between a high school stud
 > Open Source Community Flag-Bearer <br/>
 > Numenta, Inc.
 
-[Comments on Reddit]()
+[Comments on Reddit](http://www.reddit.com/r/MachineLearning/comments/2f0vn2/meet_the_nupic_community/)
