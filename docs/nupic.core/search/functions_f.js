@@ -45,6 +45,7 @@ var searchData=
   ['setsynperminactivedec',['setSynPermInactiveDec',['../classnta_1_1algorithms_1_1spatial__pooler_1_1_spatial_pooler.html#a4458331f6ee8724fc8e61c07ee1feacc',1,'nta::algorithms::spatial_pooler::SpatialPooler']]],
   ['setsynpermtrimthreshold',['setSynPermTrimThreshold',['../classnta_1_1algorithms_1_1spatial__pooler_1_1_spatial_pooler.html#a8106a472483d40338be176e58c40c98f',1,'nta::algorithms::spatial_pooler::SpatialPooler']]],
   ['setupdateperiod',['setUpdatePeriod',['../classnta_1_1algorithms_1_1spatial__pooler_1_1_spatial_pooler.html#ad91eabb8c79b4f0d072153f5c4d9baec',1,'nta::algorithms::spatial_pooler::SpatialPooler']]],
+  ['setwraparound',['setWrapAround',['../classnta_1_1algorithms_1_1spatial__pooler_1_1_spatial_pooler.html#ab746d72ed9619fe75d83be75eeca224d',1,'nta::algorithms::spatial_pooler::SpatialPooler']]],
   ['shutdown',['shutdown',['../classnta_1_1_nu_p_i_c.html#af2108efe2cb4e6c9dc467ea1f58a1871',1,'nta::NuPIC']]],
   ['stripunlearnedcolumns',['stripUnlearnedColumns',['../classnta_1_1algorithms_1_1spatial__pooler_1_1_spatial_pooler.html#aacc0cbb92811f66597595db76838aef3',1,'nta::algorithms::spatial_pooler::SpatialPooler']]]
 ];

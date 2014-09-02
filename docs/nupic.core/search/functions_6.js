@@ -86,5 +86,6 @@ var searchData=
   ['getsynperminactivedec',['getSynPermInactiveDec',['../classnta_1_1algorithms_1_1spatial__pooler_1_1_spatial_pooler.html#af94ce7edfb7d918c20ef3995739ca932',1,'nta::algorithms::spatial_pooler::SpatialPooler']]],
   ['getsynpermtrimthreshold',['getSynPermTrimThreshold',['../classnta_1_1algorithms_1_1spatial__pooler_1_1_spatial_pooler.html#ae6d28bbb4d4c79370ea53923a99265a8',1,'nta::algorithms::spatial_pooler::SpatialPooler']]],
   ['gettype',['getType',['../classnta_1_1_region.html#ae1c830f4cb8f0fecf3699e63dc845ec0',1,'nta::Region']]],
-  ['getupdateperiod',['getUpdatePeriod',['../classnta_1_1algorithms_1_1spatial__pooler_1_1_spatial_pooler.html#a1e744be6cfdb423505098a1c6c69e313',1,'nta::algorithms::spatial_pooler::SpatialPooler']]]
+  ['getupdateperiod',['getUpdatePeriod',['../classnta_1_1algorithms_1_1spatial__pooler_1_1_spatial_pooler.html#a1e744be6cfdb423505098a1c6c69e313',1,'nta::algorithms::spatial_pooler::SpatialPooler']]],
+  ['getwraparound',['getWrapAround',['../classnta_1_1algorithms_1_1spatial__pooler_1_1_spatial_pooler.html#a8dc35eb29a2b307f057151753ce9800f',1,'nta::algorithms::spatial_pooler::SpatialPooler']]]
 ];
