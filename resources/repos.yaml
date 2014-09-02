@@ -69,6 +69,12 @@ else.
     
     - slug: numenta/nupic.documents
       type: support
+      
+    - slug: numenta/nupic.research
+      type: support
+      
+    - slug: numenta/hypersearch
+      type: support
 
     # NuPIC applications
     - slug: numenta/nupic.geospatial
