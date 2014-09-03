@@ -46,6 +46,11 @@ else.
       deploy: "https://www.npmjs.org/package/sprinter"
       monitor: false
 
+    - slug: rhyolight/sprinter-dash
+      type: tooling
+      deploy: "https://www.npmjs.org/package/sprinter-dash"
+      monitor: false
+
     - slug: "rhyolight/travis-foreman"
       type: tooling
       travis: true
@@ -61,6 +66,9 @@ else.
       type: support
       travis: true
       branch: "gh-pages"
+    
+    - slug: numenta/nupic.documents
+      type: support
 
     # NuPIC applications
     - slug: numenta/nupic.geospatial
@@ -87,6 +95,9 @@ else.
 
     - slug: numenta/nupic.critic
       type: app
+      
+    - slug: numenta/nupic.nlp-examples
+      type: app
 
     # Misc repositories
     - slug: numenta/pycept
@@ -94,3 +105,8 @@ else.
       travis: true
       coverage: true
       deploy: "https://pypi.python.org/pypi/pycept/"
+      
+    # Ports of HTM to other environments
+    - slug: numenta/htm.java
+      type: port
+      travis: true

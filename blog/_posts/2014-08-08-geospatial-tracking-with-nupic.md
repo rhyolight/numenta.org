@@ -28,7 +28,7 @@ You can see a simple tutorial of how to import GPS information from standard GPX
 
 [![NuPIC Geospatial Tracking Application Tutorial](http://img.youtube.com/vi/M4dD9wCQLkA/hqdefault.jpg)](http://www.youtube.com/watch?v=M4dD9wCQLkA)
 
-Numenta has also authored a white paper entitled [Geospatial Tracking: Learning the Patterns in Movement and Detecting Anomalies](http://numenta.com/assets/pdf/whitepapers/geospatial-tracking.pdf), which provides details about our motivation, potential use-cases, and underlying technologies.
+Numenta has also authored a white paper entitled [Geospatial Tracking: Learning the Patterns in Movement and Detecting Anomalies](http://numenta.com/assets/pdf/whitepapers/Geospatial%20Tracking%20White%20Paper.pdf), which provides details about our motivation, potential use-cases, and underlying technologies.
 
 At the heart of this new capability is the `GeospatialCoordinateEncoder`, which converts geospatial coordinate information into a format that is compatible with NuPIC, exposing the characteristics of location information that allows the cortical underpinnings of NuPIC to understand it. In a way, this is analogous to providing a "new sense" of location awareness that we humans currently don't have. For details about how the Geospatial Coordinate Encoder works to encode this data for NuPIC, see the following video by Numenta engineer Chetan Surpur:
 
@@ -40,4 +40,4 @@ We hope this demonstration of NuPIC's geospatial tracking capabilities inspires 
 > Open Source Community Flag-Bearer <br/>
 > Numenta, Inc.
 
-[Comments on Reddit]()
+[Comments on Reddit](http://www.reddit.com/r/MachineLearning/comments/2dx0uc/geospatial_tracking_with_nupic/)

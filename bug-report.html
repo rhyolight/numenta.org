@@ -4,8 +4,21 @@ title: Bug Reports for NuPIC
 ---
 
 <section>
-  {% capture content %}
-  {% include content/bug-report.md %}
-  {% endcapture %}
-  {{ content | markdownify }}
+
+    <h1>How to Report Bugs</h1>
+
+    <p>
+        If you are having problems installing NuPIC, the best place to get help is on the
+        <a href="{{ site.baseurl }}/lists">nupic-discuss</a> mailing list or the
+        <a href="http://numenta.org/community.html#irc">#nupic</a> IRC channel.
+    </p>
+
+    <p>
+        To file a bug against the python <a href="https://github.com/numenta/nupic">nupic</a> project, you may create
+        a new ticket <a href="https://github.com/numenta/nupic/issues/new?body=%3E%20What%20did%20you%20do%3F%20(steps%20to%20reproduce)%0A%0A%3E%20What%20happened%3F%20(actual%20results)%0A%0A%3E%20What%20should%20have%20happened%3F%20(expected%20results)%0A%0A%3E%20Additional%20Information%20(operating%20system%2C%20python%20version%2C%20NuPIC%20commit%20SHA%2C%20etc.)">here</a>.
+        Bugs for the <a href="https://github.com/numenta/nupic.core">nupic.core</a> C++ project should be filed
+        <a href="https://github.com/numenta/nupic.core/issues/new?body=%3E%20What%20did%20you%20do%3F%20(steps%20to%20reproduce)%0A%0A%3E%20What%20happened%3F%20(actual%20results)%0A%0A%3E%20What%20should%20have%20happened%3F%20(expected%20results)%0A%0A%3E%20Additional%20Information%20(operating%20system%2C%20python%20version%2C%20NuPIC%20commit%20SHA%2C%20etc.)">here</a>.
+        Please try to be as descriptive as possible and include error messages, steps taken before the error was encountered, and any additional details you think might help.
+    </p>
+
 </section>

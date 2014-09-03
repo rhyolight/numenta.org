@@ -109,9 +109,16 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a1a78196eabf04b86282e75a6b5aabee5"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnta_1_1algorithms_1_1spatial__pooler_1_1_spatial_pooler.html#a1a78196eabf04b86282e75a6b5aabee5">initialize</a> (vector&lt; <a class="el" href="namespacenta.html#a213121a770bfaeb2c7fd30f536d8d2e9">UInt</a> &gt; inputDimensions, vector&lt; <a class="el" href="namespacenta.html#a213121a770bfaeb2c7fd30f536d8d2e9">UInt</a> &gt; columnDimensions, <a class="el" href="namespacenta.html#a213121a770bfaeb2c7fd30f536d8d2e9">UInt</a> potentialRadius=16, <a class="el" href="namespacenta.html#a0b438ee0b4c6d825ca71d8fbd8be4886">Real</a> potentialPct=0.5, bool globalInhibition=true, <a class="el" href="namespacenta.html#a0b438ee0b4c6d825ca71d8fbd8be4886">Real</a> localAreaDensity=-1.0, <a class="el" href="namespacenta.html#a213121a770bfaeb2c7fd30f536d8d2e9">UInt</a> numActiveColumnsPerInhArea=10, <a class="el" href="namespacenta.html#a213121a770bfaeb2c7fd30f536d8d2e9">UInt</a> stimulusThreshold=0, <a class="el" href="namespacenta.html#a0b438ee0b4c6d825ca71d8fbd8be4886">Real</a> synPermInactiveDec=0.01, <a class="el" href="namespacenta.html#a0b438ee0b4c6d825ca71d8fbd8be4886">Real</a> synPermActiveInc=0.1, <a class="el" href="namespacenta.html#a0b438ee0b4c6d825ca71d8fbd8be4886">Real</a> synPermConnected=0.1, <a class="el" href="namespacenta.html#a0b438ee0b4c6d825ca71d8fbd8be4886">Real</a> minPctOverlapDutyCycles=0.001, <a class="el" href="namespacenta.html#a0b438ee0b4c6d825ca71d8fbd8be4886">Real</a> minPctActiveDutyCycles=0.001, <a class="el" href="namespacenta.html#a213121a770bfaeb2c7fd30f536d8d2e9">UInt</a> dutyCyclePeriod=1000, <a class="el" href="namespacenta.html#a0b438ee0b4c6d825ca71d8fbd8be4886">Real</a> maxBoost=10.0, <a class="el" href="namespacenta.html#a17d4a8b25826d8927b44cdbb41109e1b">Int</a> seed=1, <a class="el" href="namespacenta.html#a213121a770bfaeb2c7fd30f536d8d2e9">UInt</a> spVerbosity=0)</td></tr>
 <tr class="memdesc:a1a78196eabf04b86282e75a6b5aabee5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the spatial pooler using the given parameters.  <a href="#a1a78196eabf04b86282e75a6b5aabee5">More...</a><br /></td></tr>
 <tr class="separator:a1a78196eabf04b86282e75a6b5aabee5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a570b86ba1a235976ec8e9006330654a6"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnta_1_1algorithms_1_1spatial__pooler_1_1_spatial_pooler.html#a570b86ba1a235976ec8e9006330654a6">compute</a> (<a class="el" href="namespacenta.html#a213121a770bfaeb2c7fd30f536d8d2e9">UInt</a> inputVector[], bool learn, <a class="el" href="namespacenta.html#a213121a770bfaeb2c7fd30f536d8d2e9">UInt</a> activeVector[])</td></tr>
-<tr class="memdesc:a570b86ba1a235976ec8e9006330654a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is the main workshorse method of the <a class="el" href="classnta_1_1algorithms_1_1spatial__pooler_1_1_spatial_pooler.html" title="CLA spatial pooler implementation in C++. ">SpatialPooler</a> class.  <a href="#a570b86ba1a235976ec8e9006330654a6">More...</a><br /></td></tr>
+<tr class="memitem:ae4f905c3b405015a22c8b369b78918e4"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnta_1_1algorithms_1_1spatial__pooler_1_1_spatial_pooler.html#ae4f905c3b405015a22c8b369b78918e4">compute</a> (<a class="el" href="namespacenta.html#a213121a770bfaeb2c7fd30f536d8d2e9">UInt</a> inputVector[], bool learn, <a class="el" href="namespacenta.html#a213121a770bfaeb2c7fd30f536d8d2e9">UInt</a> activeVector[], bool stripNeverLearned)</td></tr>
+<tr class="memdesc:ae4f905c3b405015a22c8b369b78918e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is the main workshorse method of the <a class="el" href="classnta_1_1algorithms_1_1spatial__pooler_1_1_spatial_pooler.html" title="CLA spatial pooler implementation in C++. ">SpatialPooler</a> class.  <a href="#ae4f905c3b405015a22c8b369b78918e4">More...</a><br /></td></tr>
+<tr class="separator:ae4f905c3b405015a22c8b369b78918e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a570b86ba1a235976ec8e9006330654a6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a570b86ba1a235976ec8e9006330654a6"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnta_1_1algorithms_1_1spatial__pooler_1_1_spatial_pooler.html#a570b86ba1a235976ec8e9006330654a6">compute</a> (<a class="el" href="namespacenta.html#a213121a770bfaeb2c7fd30f536d8d2e9">UInt</a> inputVector[], bool learn, <a class="el" href="namespacenta.html#a213121a770bfaeb2c7fd30f536d8d2e9">UInt</a> activeVector[])</td></tr>
+<tr class="memdesc:a570b86ba1a235976ec8e9006330654a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Same as above but with stripUnlearnedColumns set to true. <br /></td></tr>
 <tr class="separator:a570b86ba1a235976ec8e9006330654a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aacc0cbb92811f66597595db76838aef3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnta_1_1algorithms_1_1spatial__pooler_1_1_spatial_pooler.html#aacc0cbb92811f66597595db76838aef3">stripUnlearnedColumns</a> (<a class="el" href="namespacenta.html#a213121a770bfaeb2c7fd30f536d8d2e9">UInt</a> activeArray[])</td></tr>
+<tr class="memdesc:aacc0cbb92811f66597595db76838aef3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes the set of columns who have never been active from the set of active columns selected in the inhibition round.  <a href="#aacc0cbb92811f66597595db76838aef3">More...</a><br /></td></tr>
+<tr class="separator:aacc0cbb92811f66597595db76838aef3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a38e9438994e241bc75cb23e868c28c7e"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespacenta.html#a213121a770bfaeb2c7fd30f536d8d2e9">UInt</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnta_1_1algorithms_1_1spatial__pooler_1_1_spatial_pooler.html#a38e9438994e241bc75cb23e868c28c7e">version</a> () const </td></tr>
 <tr class="memdesc:a38e9438994e241bc75cb23e868c28c7e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the version number of this spatial pooler.  <a href="#a38e9438994e241bc75cb23e868c28c7e">More...</a><br /></td></tr>
 <tr class="separator:a38e9438994e241bc75cb23e868c28c7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -307,9 +314,6 @@ Public Member Functions</h2></td></tr>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnta_1_1algorithms_1_1spatial__pooler_1_1_spatial_pooler.html#afb72a6c2dfaad3f467a0a96bac93df8d">printParameters</a> ()</td></tr>
 <tr class="memdesc:afb72a6c2dfaad3f467a0a96bac93df8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print the main SP creation parameters to stdout. <br /></td></tr>
 <tr class="separator:afb72a6c2dfaad3f467a0a96bac93df8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adf5ef4dcf151c52a26dd4cfe336e634b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnta_1_1algorithms_1_1spatial__pooler_1_1_spatial_pooler.html#adf5ef4dcf151c52a26dd4cfe336e634b">stripNeverLearned_</a> (<a class="el" href="namespacenta.html#a213121a770bfaeb2c7fd30f536d8d2e9">UInt</a> activeArray[])</td></tr>
-<tr class="memdesc:adf5ef4dcf151c52a26dd4cfe336e634b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes the set of columns who have never been active from the set of active columns selected in the inhibition round.  <a href="#adf5ef4dcf151c52a26dd4cfe336e634b">More...</a><br /></td></tr>
-<tr class="separator:adf5ef4dcf151c52a26dd4cfe336e634b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a08fed3797d6c30b898b9a798bb70094d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacenta.html#a213121a770bfaeb2c7fd30f536d8d2e9">UInt</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnta_1_1algorithms_1_1spatial__pooler_1_1_spatial_pooler.html#a08fed3797d6c30b898b9a798bb70094d">mapColumn_</a> (<a class="el" href="namespacenta.html#a213121a770bfaeb2c7fd30f536d8d2e9">UInt</a> column)</td></tr>
 <tr class="memdesc:a08fed3797d6c30b898b9a798bb70094d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maps a column to its respective input index, keeping to the topology of the region.  <a href="#a08fed3797d6c30b898b9a798bb70094d">More...</a><br /></td></tr>
 <tr class="separator:a08fed3797d6c30b898b9a798bb70094d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -606,7 +610,7 @@ while (true) {
 
 </div>
 </div>
-<a class="anchor" id="a570b86ba1a235976ec8e9006330654a6"></a>
+<a class="anchor" id="ae4f905c3b405015a22c8b369b78918e4"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -629,7 +633,13 @@ while (true) {
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="namespacenta.html#a213121a770bfaeb2c7fd30f536d8d2e9">UInt</a>&#160;</td>
-          <td class="paramname"><em>activeVector</em>[]&#160;</td>
+          <td class="paramname"><em>activeVector</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>stripNeverLearned</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -650,7 +660,8 @@ while (true) {
   <table class="params">
     <tr><td class="paramname">inputVector</td><td>An array of integer 0's and 1's that comprises the input to the spatial pooler. The length of the array must match the total number of input bits implied by the constructor (also returned by the method getNumInputs). In cases where the input is multi-dimensional, inputVector is a flattened array of inputs.</td></tr>
     <tr><td class="paramname">learn</td><td>A boolean value indicating whether learning should be performed. Learning entails updating the permanence values of the synapses, duty cycles, etc. Learning is typically on but setting learning to 'off' is useful for analyzing the current state of the SP. For example, you might want to feed in various inputs and examine the resulting SDR's. Note that if learning is off, boosting is turned off and columns that have never won will be removed from activeVector. TODO: we may want to keep boosting on even when learning is off.</td></tr>
-    <tr><td class="paramname">activeVector</td><td>An array representing the winning columns after inhinition. The size of the array is equal to the number of columns (also returned by the method getNumColumns). This array will be populated with 1's at the indices of the active columns, and 0's everywhere else. In the case where the output is multi-dimensional, activeVector represents a flattened array of outputs. </td></tr>
+    <tr><td class="paramname">activeVector</td><td>An array representing the winning columns after inhinition. The size of the array is equal to the number of columns (also returned by the method getNumColumns). This array will be populated with 1's at the indices of the active columns, and 0's everywhere else. In the case where the output is multi-dimensional, activeVector represents a flattened array of outputs.</td></tr>
+    <tr><td class="paramname">stripNeverLearned</td><td>A boolean value indicating when to strip columns from the predictions if they have never learned. The default behavior is to strip unlearned columns but this should be disabled when using a random, unlearned spatial pooler. NOTE: if you rely on this behavior then you should additionally call the stripNeverLearned method directly on the activeVector output as we will be changing the default to false and then removing this parameter entirely in the near future. </td></tr>
   </table>
   </dd>
 </dl>
@@ -2744,12 +2755,12 @@ while (true) {
 
 </div>
 </div>
-<a class="anchor" id="adf5ef4dcf151c52a26dd4cfe336e634b"></a>
+<a class="anchor" id="aacc0cbb92811f66597595db76838aef3"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void nta::algorithms::spatial_pooler::SpatialPooler::stripNeverLearned_ </td>
+          <td class="memname">void nta::algorithms::spatial_pooler::SpatialPooler::stripUnlearnedColumns </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="namespacenta.html#a213121a770bfaeb2c7fd30f536d8d2e9">UInt</a>&#160;</td>
           <td class="paramname"><em>activeArray</em>[]</td><td>)</td>
@@ -3049,7 +3060,7 @@ maxBoost _  |
 <p>Get the version number of this spatial pooler. </p>
 <dl class="section return"><dt>Returns</dt><dd>Integer version number. </dd></dl>
 
-<p>Definition at line <a class="el" href="_spatial_pooler_8hpp_source.html#l00259">259</a> of file <a class="el" href="_spatial_pooler_8hpp_source.html">SpatialPooler.hpp</a>.</p>
+<p>Definition at line <a class="el" href="_spatial_pooler_8hpp_source.html#l00285">285</a> of file <a class="el" href="_spatial_pooler_8hpp_source.html">SpatialPooler.hpp</a>.</p>
 
 </div>
 </div>
@@ -3059,7 +3070,7 @@ maxBoost _  |
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Aug 7 2014 17:29:12 for NuPIC Core by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Aug 28 2014 22:41:59 for NuPIC Core by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.7
 </small></address>
