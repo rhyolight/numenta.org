@@ -67,9 +67,6 @@ else.
       travis: true
       branch: "gh-pages"
     
-    - slug: numenta/nupic.documents
-      type: support
-      
     - slug: numenta/nupic.research
       type: support
       
