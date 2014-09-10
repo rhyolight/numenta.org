@@ -130,7 +130,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a40a80bd65dd03b74a7574a6d4448e270"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnupic_1_1encoders_1_1base_1_1_encoder.html#a40a80bd65dd03b74a7574a6d4448e270">isDelta</a></td></tr>
 <tr class="separator:a40a80bd65dd03b74a7574a6d4448e270"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afa42f8270b57813993a952c9f9809888"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnupic_1_1encoders_1_1base_1_1_encoder.html#afa42f8270b57813993a952c9f9809888">encodeIntoArray</a></td></tr>
-<tr class="memdesc:afa42f8270b57813993a952c9f9809888"><td class="mdescLeft">&#160;</td><td class="mdescRight">Encodes inputData and puts the encoded value into the numpy output array, which is a 1-D array of length returned by <a class="el" href="classnupic_1_1encoders_1_1base_1_1_encoder.html#adc3815f30266aa8dca6e568755c30002" title="Should return the output width, in bits. ">getWidth()</a>  <a href="#afa42f8270b57813993a952c9f9809888">More...</a><br /></td></tr>
+<tr class="memdesc:afa42f8270b57813993a952c9f9809888"><td class="mdescLeft">&#160;</td><td class="mdescRight">Encodes inputData and puts the encoded value into the numpy output array, which is a 1-D array of length returned by <a class="el" href="classnupic_1_1encoders_1_1base_1_1_encoder.html#adc3815f30266aa8dca6e568755c30002" title="Should return the output width, in bits. ">getWidth()</a>.  <a href="#afa42f8270b57813993a952c9f9809888">More...</a><br /></td></tr>
 <tr class="separator:afa42f8270b57813993a952c9f9809888"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5f5e68fd9b22094e51283f067cebc015"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnupic_1_1encoders_1_1base_1_1_encoder.html#a5f5e68fd9b22094e51283f067cebc015">setLearning</a></td></tr>
 <tr class="memdesc:a5f5e68fd9b22094e51283f067cebc015"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set whether learning is enabled.  <a href="#a5f5e68fd9b22094e51283f067cebc015">More...</a><br /></td></tr>
@@ -139,7 +139,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:aa5c67b9a919881fec9d9d8d5a97676ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method is called by the model to set the statistics like min and max for the underlying encoders if this information is available.  <a href="#aa5c67b9a919881fec9d9d8d5a97676ac">More...</a><br /></td></tr>
 <tr class="separator:aa5c67b9a919881fec9d9d8d5a97676ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a079d592aa5360c10d39d8e7b98b9b0de"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnupic_1_1encoders_1_1base_1_1_encoder.html#a079d592aa5360c10d39d8e7b98b9b0de">encode</a></td></tr>
-<tr class="memdesc:a079d592aa5360c10d39d8e7b98b9b0de"><td class="mdescLeft">&#160;</td><td class="mdescRight">TODO: document.  <a href="#a079d592aa5360c10d39d8e7b98b9b0de">More...</a><br /></td></tr>
+<tr class="memdesc:a079d592aa5360c10d39d8e7b98b9b0de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convenience wrapper for encodeIntoArray.  <a href="#a079d592aa5360c10d39d8e7b98b9b0de">More...</a><br /></td></tr>
 <tr class="separator:a079d592aa5360c10d39d8e7b98b9b0de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa3d5d6beb1401f27d529defd09a86ecf"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnupic_1_1encoders_1_1base_1_1_encoder.html#aa3d5d6beb1401f27d529defd09a86ecf">getScalarNames</a></td></tr>
 <tr class="memdesc:aa3d5d6beb1401f27d529defd09a86ecf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the field names for each of the scalar values returned by getScalars.  <a href="#aa3d5d6beb1401f27d529defd09a86ecf">More...</a><br /></td></tr>
@@ -208,7 +208,7 @@ def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>An encoder takes a value and encodes it with a partial sparse representation of bits. </p>
 <p>The <a class="el" href="classnupic_1_1encoders_1_1base_1_1_encoder.html" title="An encoder takes a value and encodes it with a partial sparse representation of bits. ">Encoder</a> superclass implements:</p><ul>
-<li><a class="el" href="classnupic_1_1encoders_1_1base_1_1_encoder.html#a079d592aa5360c10d39d8e7b98b9b0de" title="TODO: document. ">encode()</a> - returns a numpy array encoding the input; syntactic sugar on top of encodeIntoArray. If pprint, prints the encoding to the terminal</li>
+<li><a class="el" href="classnupic_1_1encoders_1_1base_1_1_encoder.html#a079d592aa5360c10d39d8e7b98b9b0de" title="Convenience wrapper for encodeIntoArray. ">encode()</a> - returns a numpy array encoding the input; syntactic sugar on top of encodeIntoArray. If pprint, prints the encoding to the terminal</li>
 <li><a class="el" href="classnupic_1_1encoders_1_1base_1_1_encoder.html#a8aae9449a811745c57bb9a87ebe7215b" title="Pretty-print a header that labels the sub-fields of the encoded output. ">pprintHeader()</a> &ndash; prints a header describing the encoding to the terminal</li>
 <li><a class="el" href="classnupic_1_1encoders_1_1base_1_1_encoder.html#abb788ad94cb6bab07093b1490cecb895" title="Pretty-print the encoded output using ascii art. ">pprint()</a> &ndash; prints an encoding to the terminal</li>
 </ul>
@@ -348,14 +348,15 @@ def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
       </table>
 </div><div class="memdoc">
 
-<p>TODO: document. </p>
+<p>Convenience wrapper for encodeIntoArray. </p>
+<p>This may be less efficient because it allocates a new numpy array every call.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">inputData</td><td>TODO: document </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>TODO: document </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>a numpy array with the encoded representation of inputData </dd></dl>
 
 </div>
 </div>
@@ -432,12 +433,12 @@ def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
       </table>
 </div><div class="memdoc">
 
-<p>Encodes inputData and puts the encoded value into the numpy output array, which is a 1-D array of length returned by <a class="el" href="classnupic_1_1encoders_1_1base_1_1_encoder.html#adc3815f30266aa8dca6e568755c30002" title="Should return the output width, in bits. ">getWidth()</a> </p>
+<p>Encodes inputData and puts the encoded value into the numpy output array, which is a 1-D array of length returned by <a class="el" href="classnupic_1_1encoders_1_1base_1_1_encoder.html#adc3815f30266aa8dca6e568755c30002" title="Should return the output width, in bits. ">getWidth()</a>. </p>
 <p><b>Must be overridden by subclasses.</b></p>
 <p>Note: The numpy output array is reused, so clear it before updating it.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">inputData</td><td>data to encode </td></tr>
+    <tr><td class="paramname">inputData</td><td>Data to encode. This should be validated by the encoder. </td></tr>
     <tr><td class="paramname">output</td><td>numpy 1-D array of same length returned by <a class="el" href="classnupic_1_1encoders_1_1base_1_1_encoder.html#adc3815f30266aa8dca6e568755c30002" title="Should return the output width, in bits. ">getWidth()</a> </td></tr>
   </table>
   </dd>
@@ -578,7 +579,7 @@ def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
 <ol type="1">
 <li>value: This is the value for the sub-field in a format that is consistent with the type specified by <a class="el" href="classnupic_1_1encoders_1_1base_1_1_encoder.html#a01c1f94ffd2fe55c8d52935e7a66f068" title="Returns a sequence of field types corresponding to the elements in the decoded output field array...">getDecoderOutputFieldTypes()</a>. Note that this value is not necessarily numeric.</li>
 <li>scalar: The scalar representation of value. This number is consistent with what is returned by <a class="el" href="classnupic_1_1encoders_1_1base_1_1_encoder.html#a6da1330a12c78a3e527ace5745d28918" title="Returns a numpy array containing the sub-field scalar value(s) for each sub-field of the inputData...">getScalars()</a>. This value is always an int or float, and can be used for numeric comparisons</li>
-<li>encoding This is the encoded bit-array (numpy array) that represents 'value'. That is, if 'value' was passed to <a class="el" href="classnupic_1_1encoders_1_1base_1_1_encoder.html#a079d592aa5360c10d39d8e7b98b9b0de" title="TODO: document. ">encode()</a>, an identical bit-array should be returned </li>
+<li>encoding This is the encoded bit-array (numpy array) that represents 'value'. That is, if 'value' was passed to <a class="el" href="classnupic_1_1encoders_1_1base_1_1_encoder.html#a079d592aa5360c10d39d8e7b98b9b0de" title="Convenience wrapper for encodeIntoArray. ">encode()</a>, an identical bit-array should be returned </li>
 </ol>
 
 </div>
@@ -598,7 +599,7 @@ def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
 </div><div class="memdoc">
 
 <p>Returns a list of items, one for each bucket defined by this encoder. </p>
-<p>Each item is the value assigned to that bucket, this is the same as the EncoderResult.value that would be returned by <a class="el" href="classnupic_1_1encoders_1_1base_1_1_encoder.html#a00ebec12ede4c61315c685dbb9d0f021" title="Returns a list of EncoderResult namedtuples describing the inputs for each sub-field that correspond ...">getBucketInfo()</a> for that bucket and is in the same format as the input that would be passed to <a class="el" href="classnupic_1_1encoders_1_1base_1_1_encoder.html#a079d592aa5360c10d39d8e7b98b9b0de" title="TODO: document. ">encode()</a>.</p>
+<p>Each item is the value assigned to that bucket, this is the same as the EncoderResult.value that would be returned by <a class="el" href="classnupic_1_1encoders_1_1base_1_1_encoder.html#a00ebec12ede4c61315c685dbb9d0f021" title="Returns a list of EncoderResult namedtuples describing the inputs for each sub-field that correspond ...">getBucketInfo()</a> for that bucket and is in the same format as the input that would be passed to <a class="el" href="classnupic_1_1encoders_1_1base_1_1_encoder.html#a079d592aa5360c10d39d8e7b98b9b0de" title="Convenience wrapper for encodeIntoArray. ">encode()</a>.</p>
 <p>This call is faster than calling <a class="el" href="classnupic_1_1encoders_1_1base_1_1_encoder.html#a00ebec12ede4c61315c685dbb9d0f021" title="Returns a list of EncoderResult namedtuples describing the inputs for each sub-field that correspond ...">getBucketInfo()</a> on each bucket individually if all you need are the bucket values.</p>
 <p><b>Must be overridden by subclasses.</b></p>
 <dl class="section return"><dt>Returns</dt><dd>list of items, each item representing the bucket value for that bucket. </dd></dl>
@@ -1116,7 +1117,7 @@ def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
 <ol type="1">
 <li>value: This is the best-guess value for the sub-field in a format that is consistent with the type specified by <a class="el" href="classnupic_1_1encoders_1_1base_1_1_encoder.html#a01c1f94ffd2fe55c8d52935e7a66f068" title="Returns a sequence of field types corresponding to the elements in the decoded output field array...">getDecoderOutputFieldTypes()</a>. Note that this value is not necessarily numeric.</li>
 <li>scalar: The scalar representation of this best-guess value. This number is consistent with what is returned by <a class="el" href="classnupic_1_1encoders_1_1base_1_1_encoder.html#a6da1330a12c78a3e527ace5745d28918" title="Returns a numpy array containing the sub-field scalar value(s) for each sub-field of the inputData...">getScalars()</a>. This value is always an int or float, and can be used for numeric comparisons.</li>
-<li>encoding This is the encoded bit-array (numpy array) that represents the best-guess value. That is, if 'value' was passed to <a class="el" href="classnupic_1_1encoders_1_1base_1_1_encoder.html#a079d592aa5360c10d39d8e7b98b9b0de" title="TODO: document. ">encode()</a>, an identical bit-array should be returned. </li>
+<li>encoding This is the encoded bit-array (numpy array) that represents the best-guess value. That is, if 'value' was passed to <a class="el" href="classnupic_1_1encoders_1_1base_1_1_encoder.html#a079d592aa5360c10d39d8e7b98b9b0de" title="Convenience wrapper for encodeIntoArray. ">encode()</a>, an identical bit-array should be returned. </li>
 </ol>
 
 </div>
@@ -1127,7 +1128,7 @@ def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Sep 10 2014 05:51:44 for NuPIC by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Sep 10 2014 19:55:03 for NuPIC by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.7
 </small></address>
