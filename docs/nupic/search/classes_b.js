@@ -6,5 +6,6 @@ var searchData=
   ['sdrrandomencoder',['SDRRandomEncoder',['../classnupic_1_1encoders_1_1sdrrandom_1_1_s_d_r_random_encoder.html',1,'nupic::encoders::sdrrandom']]],
   ['segment',['Segment',['../classnupic_1_1research_1_1_t_p_1_1_segment.html',1,'nupic::research::TP']]],
   ['segmentupdate',['SegmentUpdate',['../classnupic_1_1research_1_1_t_p_1_1_t_p_1_1_segment_update.html',1,'nupic::research::TP::TP']]],
-  ['simplevectorencoder',['SimpleVectorEncoder',['../classnupic_1_1encoders_1_1vector_1_1_simple_vector_encoder.html',1,'nupic::encoders::vector']]]
+  ['simplevectorencoder',['SimpleVectorEncoder',['../classnupic_1_1encoders_1_1vector_1_1_simple_vector_encoder.html',1,'nupic::encoders::vector']]],
+  ['spatialpooler',['SpatialPooler',['../classnupic_1_1research_1_1spatial__pooler_1_1_spatial_pooler.html',1,'nupic::research::spatial_pooler']]]
 ];
