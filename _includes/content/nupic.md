@@ -58,4 +58,4 @@ We run continuous integration with Travis-CI for both [nupic](https://travis-ci.
 
 ## Issue Tracking
 
-We have currently have two primary trackers for the [NuPIC python client](https://github.com/numenta/nupic/issues) and for the [C++ core](https://github.com/numenta/nupic.core/issues).
+You can see all our GitHub Issues for all NuPIC-related repositories at <http://status.numenta.org/issues>.
