@@ -39,20 +39,28 @@ title: NuPIC Committers
                 </blockquote>
             </td>
             <td>
-                <dl>
+                <table>
+                    <tbody>
                     {{#if location}}
-                    <dt>Location:</dt>
-                    <dd>{{location}}</dd>
+                    <tr>
+                        <th>Location:</th>
+                        <td>{{location}}</td>
+                    </tr>
                     {{/if}}
                     {{#if company}}
-                    <dt>Company:</dt>
-                    <dd>{{company}}</dd>
+                    <tr>
+                        <th>Company:</th>
+                        <td>{{company}}</td>
+                    </tr>
                     {{/if}}
                     {{#if email}}
-                    <dt>Email:</dt>
-                    <dd>{{email}}</dd>
+                    <tr>
+                        <th>Email:</th>
+                        <td><a href="mailto:{{email}}">{{email}}</a></td>
+                    </tr>
                     {{/if}}
-                </dl>
+                    </tbody>
+                </table>
             </td>
         </tr>
     {{/each}}
