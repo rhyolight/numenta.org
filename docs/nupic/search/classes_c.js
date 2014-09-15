@@ -1,7 +1,11 @@
 var searchData=
 [
-  ['temporalmemory',['TemporalMemory',['../classnupic_1_1research_1_1temporal__memory_1_1_temporal_memory.html',1,'nupic::research::temporal_memory']]],
-  ['tp',['TP',['../classnupic_1_1research_1_1_t_p_1_1_t_p.html',1,'nupic::research::TP']]],
-  ['tp10x2',['TP10X2',['../classnupic_1_1research_1_1_t_p10_x2_1_1_t_p10_x2.html',1,'nupic::research::TP10X2']]],
-  ['tptrivial',['TPTrivial',['../classnupic_1_1research_1_1_t_p_trivial_1_1_t_p_trivial.html',1,'nupic::research::TPTrivial']]]
+  ['scalarencoder',['ScalarEncoder',['../classnupic_1_1encoders_1_1scalar_1_1_scalar_encoder.html',1,'nupic::encoders::scalar']]],
+  ['scalarspaceencoder',['ScalarSpaceEncoder',['../classnupic_1_1encoders_1_1scalarspace_1_1_scalar_space_encoder.html',1,'nupic::encoders::scalarspace']]],
+  ['sdrcategoryencoder',['SDRCategoryEncoder',['../classnupic_1_1encoders_1_1sdrcategory_1_1_s_d_r_category_encoder.html',1,'nupic::encoders::sdrcategory']]],
+  ['sdrrandomencoder',['SDRRandomEncoder',['../classnupic_1_1encoders_1_1sdrrandom_1_1_s_d_r_random_encoder.html',1,'nupic::encoders::sdrrandom']]],
+  ['segment',['Segment',['../classnupic_1_1research_1_1_t_p_1_1_segment.html',1,'nupic::research::TP']]],
+  ['segmentupdate',['SegmentUpdate',['../classnupic_1_1research_1_1_t_p_1_1_t_p_1_1_segment_update.html',1,'nupic::research::TP::TP']]],
+  ['simplevectorencoder',['SimpleVectorEncoder',['../classnupic_1_1encoders_1_1vector_1_1_simple_vector_encoder.html',1,'nupic::encoders::vector']]],
+  ['spatialpooler',['SpatialPooler',['../classnupic_1_1research_1_1spatial__pooler_1_1_spatial_pooler.html',1,'nupic::research::spatial_pooler']]]
 ];
