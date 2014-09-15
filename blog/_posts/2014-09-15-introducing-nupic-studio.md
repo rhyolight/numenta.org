@@ -33,4 +33,4 @@ I look forward for your feedback, it is very important!
 > NuPIC Committer <br/>
 > MSc in Software Engineering (University of Liverpool)
 
-[Comments on Reddit](http://www.reddit.com/r/MachineLearning/comments/2f0vn2/meet_the_nupic_community/)
+[Comments on Reddit]()
