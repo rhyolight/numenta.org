@@ -113,8 +113,8 @@ Just like [last hackathon]({{ site.baseurl }}/blog/2013/11/06/2013-fall-hackatho
     <ul>
         <li><a href="https://www.youtube.com/watch?v=BCwOgbSSDM4" rel="prettyPhoto" title="Beginner's Guide to NuPIC">Video</a></li>
         <li><a href="http://www.slideshare.net/numenta/beginners-guide-to-nupic">Slides</a></li>
-        <li><a href="http://nbviewer.ipython.org/url/fer.io/~scott/nupic_overview.ipynb">Static iPython Notebook</a></li>
-        <li><a href="http://fer.io/~scott/nupic_overview.ipynb">iPython Notebook File</a></li>
+        <li><a href="http://nbviewer.ipython.org/github/numenta/nupic/blob/master/examples/NuPIC%20Walkthrough.ipynb">Static iPython Notebook</a></li>
+        <li><a href="https://github.com/numenta/nupic/blob/master/examples/NuPIC%20Walkthrough.ipynb">iPython Notebook File</a></li>
     </ul>
 
 </div>
