@@ -78,6 +78,9 @@ else.
       type: app
       travis: true
       coverage: true
+      
+    - slug: DavidRagazzi/nupic.studio
+      type: support
 
     - slug: numenta/nupic.fluent
       type: app
