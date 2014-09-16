@@ -80,7 +80,7 @@ else.
       coverage: true
       
     - slug: DavidRagazzi/nupic.studio
-      type: support
+      type: app
 
     - slug: numenta/nupic.fluent
       type: app
