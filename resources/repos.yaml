@@ -82,6 +82,7 @@ else.
       
     - slug: DavidRagazzi/nupic.studio
       type: app
+      monitor: false
 
     - slug: numenta/nupic.fluent
       type: app
