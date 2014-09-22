@@ -69,6 +69,7 @@ else.
     
     - slug: numenta/nupic.research
       type: support
+      travis: true
       
     - slug: numenta/hypersearch
       type: support
