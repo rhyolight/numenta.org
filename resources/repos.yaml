@@ -80,7 +80,7 @@ else.
       travis: true
       coverage: true
       
-    - slug: DavidRagazzi/nupic.studio
+    - slug: nupic-community/nupic.studio
       type: app
       monitor: false
 
