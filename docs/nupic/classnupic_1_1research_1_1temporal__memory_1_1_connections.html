@@ -142,6 +142,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:acfc434e5d81fd83e3ace573ab8f60ad8"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnupic_1_1research_1_1temporal__memory_1_1_connections.html#acfc434e5d81fd83e3ace573ab8f60ad8">numberOfCells</a></td></tr>
 <tr class="memdesc:acfc434e5d81fd83e3ace573ab8f60ad8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of cells in this layer.  <a href="#acfc434e5d81fd83e3ace573ab8f60ad8">More...</a><br /></td></tr>
 <tr class="separator:acfc434e5d81fd83e3ace573ab8f60ad8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aecf475a387f7c535be57b18163778ee6"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnupic_1_1research_1_1temporal__memory_1_1_connections.html#aecf475a387f7c535be57b18163778ee6">mapCellsToColumns</a></td></tr>
+<tr class="memdesc:aecf475a387f7c535be57b18163778ee6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maps cells to the columns they belong to.  <a href="#aecf475a387f7c535be57b18163778ee6">More...</a><br /></td></tr>
+<tr class="separator:aecf475a387f7c535be57b18163778ee6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Class to hold data representing the connectivity of a layer of cells, that the TM operates on. </p>
@@ -410,6 +413,41 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="aecf475a387f7c535be57b18163778ee6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def mapCellsToColumns </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>cells</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Maps cells to the columns they belong to. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">cells</td><td>(set) Cells</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>(dict) Mapping from columns to their cells in <code>cells</code> </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="acfc434e5d81fd83e3ace573ab8f60ad8"></a>
 <div class="memitem">
 <div class="memproto">
@@ -600,7 +638,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Sep 26 2014 22:50:41 for NuPIC by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Sep 29 2014 17:39:30 for NuPIC by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.7
 </small></address>
