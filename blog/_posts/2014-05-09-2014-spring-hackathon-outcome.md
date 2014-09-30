@@ -441,7 +441,7 @@ We had a **lot of demos** at this hackathon! In addition to the <a href="https:/
 
     <ul>
         <li><a href="http://www.youtube.com/watch?v=U7Peu_-Aa4Q" rel="prettyPhoto" title="Say What?">Video</a></li>
-        <!-- <li><a href="#">Source code</a></li> -->
+        <li><a href="https://github.com/mattroos/nupicHackathonAudio">Source code</a></li>
     </ul>
 
     <p>Analyzing speech data (TIMIT), trying different experiments to try to use NuPIC to predict male vs female speakers. Also explored different representations of the audio signal to see what works best with NuPIC.</p>
