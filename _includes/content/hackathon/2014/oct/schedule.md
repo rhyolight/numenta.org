@@ -2,33 +2,44 @@
 {{ page.title }}
 ================
 
+* * *
+
 ## Saturday Oct 18
 
-- `10:00 - 10:30 AM`: **Kickoff with Matt and Jeff Hawkins**
+* * *
+
+- `10:00 - 10:30 AM`: **Kickoff** (Matt Taylor, Jeff Hawkins)
 - `10:30 - 12:00 AM`: **[Install-athon](#installathon)**
-- `01:00 - 02:00 PM`: **[TBA](#to_be_announced_1)**
-- `02:30 - 03:30 PM`: **[TBA](#to_be_announced_2)**
-- `04:00 - 05:00 PM`: **[TBA](#to_be_announced_3)**
+- `01:00 - 02:00 PM`: **[Common Algorithm of the Brain: Understanding the Cortical Microcircuit](#common_algorithm_of_the_brain_understanding_the_cortical_microcircuit)** (Subutai)
+- `02:30 - 03:30 PM`: **[Whiteboard Session](#whiteboard_session)** (Jeff Hawkins)
 
 ### Install-athon
 
 Need help getting NuPIC building and running on your computer? Attend this workshop for hands-on assistance from NuPIC engineers.
 
-### To Be Announced 1
+### Common Algorithm of the Brain: Understanding the Cortical Microcircuit
+#### Subutai Ahmad, Numenta VP of Research
 
-### To Be Announced 2
+- Sensorimotor Inference
+- Temporal Pooling and Learning Invariances
+- Future directions
 
-### To Be Announced 3
+### Whiteboard Session
+#### Jeff Hawkins
 
+Here's your chance to get into Jeff's head. He'll present Numenta's most current thinking on HTM theory, using a whiteboard to explain concepts. Feel free to ask hard questions and be a part of the conversation.
 
 * * *
 
 ## Sunday Oct 19
-- `10:00 - 11:00 AM`: **[TBA](#to_be_announced_4)**
-- `01:00 - 01:30 PM`: **[TBA](#to_be_announced_5)**
+
+* * *
+
+- `10:00 - 11:00 AM`: **[Cortical.IO](#corticalio)** (Francisco)
 - `04:00 - 06:00 PM`: **Demonstrations**
 
 
-### To Be Announced 4
+### Cortical.IO
+#### Francisco Webber
 
-### To Be Announced 5
+_Coming Soon_
