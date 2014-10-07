@@ -20,7 +20,7 @@
 Need help getting NuPIC building and running on your computer? Attend this workshop for hands-on assistance from NuPIC engineers.
 
 ### On the way to Language Intelligence
-#### Francisco Webber
+#### Francisco Webber [cortical.io](http://cortical.io)
 
 __**Part1**__
 
