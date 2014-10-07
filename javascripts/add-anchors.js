@@ -10,7 +10,7 @@ $(function() {
                 text = $header.html();
 
             if (id) {
-                $header.append('&nbsp;&nbsp;&nbsp;&nbsp;<a href="#' + id + '">∞</a>');
+                $header.append('<span class="anchor"><a href="#' + id + '">∞</a></span>');
             }
 
         });
