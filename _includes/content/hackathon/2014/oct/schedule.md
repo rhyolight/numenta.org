@@ -12,7 +12,7 @@
 
 - `10:00 - 10:30 AM`: **Kickoff** (Matt Taylor, Jeff Hawkins)
 - `10:30 - 12:00 AM`: **[Install-athon](#installathon)**
-- `01:00 - 02:00 AM`: **[On the way to Language Intelligence](#on_the_way_to_language_intelligence)** (Francisco)
+- `01:00 - 02:00 PM`: **[On the way to Language Intelligence](#on_the_way_to_language_intelligence)** (Francisco)
 - `02:30 - 03:30 PM`: **[Common Algorithm of the Brain: Understanding the Cortical Microcircuit](#common_algorithm_of_the_brain_understanding_the_cortical_microcircuit)** (Subutai)
 
 ### Install-athon
