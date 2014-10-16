@@ -13,7 +13,7 @@
 - `10:00 - 10:30 AM`: **Kickoff** (Matt Taylor, Jeff Hawkins)
 - `10:30 - 12:00 AM`: **[Install-athon](#installathon)**
 - `01:00 - 02:00 PM`: **[On the way to Language Intelligence](#on_the_way_to_language_intelligence)** (Francisco)
-- `02:30 - 03:30 PM`: **[Common Algorithm of the Brain: Understanding the Cortical Microcircuit](#common_algorithm_of_the_brain_understanding_the_cortical_microcircuit)** (Subutai)
+- `02:30 - 03:30 PM`: **[Applications of HTM](#applications_of_htm)** (Chetan)
 
 ### Install-athon
 
@@ -35,12 +35,12 @@ __**Part2**__
 - Semantic Expressions
 - Tying cortical.io API to Nupic
 
-### Common Algorithm of the Brain: Understanding the Cortical Microcircuit
-#### Subutai Ahmad, Numenta VP of Research
+### Applications of HTM
+#### Chetan Surpur, Software Engineer, Numenta
 
-- Sensorimotor Inference
-- Temporal Pooling and Learning Invariances
-- Future directions
+- Applications of HTM
+- Data characteristics
+- Problem characteristics
 
 * * *
 
