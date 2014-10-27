@@ -113,8 +113,8 @@ Just like [last hackathon]({{ site.baseurl }}/blog/2013/11/06/2013-fall-hackatho
     <ul>
         <li><a href="https://www.youtube.com/watch?v=BCwOgbSSDM4" rel="prettyPhoto" title="Beginner's Guide to NuPIC">Video</a></li>
         <li><a href="http://www.slideshare.net/numenta/beginners-guide-to-nupic">Slides</a></li>
-        <li><a href="http://nbviewer.ipython.org/url/fer.io/~scott/nupic_overview.ipynb">Static iPython Notebook</a></li>
-        <li><a href="http://fer.io/~scott/nupic_overview.ipynb">iPython JSON</a></li>
+        <li><a href="http://nbviewer.ipython.org/github/numenta/nupic/blob/master/examples/NuPIC%20Walkthrough.ipynb">Static iPython Notebook</a></li>
+        <li><a href="https://github.com/numenta/nupic/blob/master/examples/NuPIC%20Walkthrough.ipynb">iPython Notebook File</a></li>
     </ul>
 
 </div>
@@ -126,7 +126,7 @@ Just like [last hackathon]({{ site.baseurl }}/blog/2013/11/06/2013-fall-hackatho
     </a>
 
     <h3>
-        <a id="anomaly_detection_in_cla" href="#title">Anomaly Detection in CLA</a>
+        <a id="anomaly_detection_in_cla" href="#anomaly_detection_in_cla">Anomaly Detection in CLA</a>
     </h3>
 
     <h4>
@@ -137,7 +137,7 @@ Just like [last hackathon]({{ site.baseurl }}/blog/2013/11/06/2013-fall-hackatho
 
     <ul>
         <li><a href="https://www.youtube.com/watch?v=nVCKjZWYavM" rel="prettyPhoto" title="Anomaly Detection in CLA">Video</a></li>
-        <li><a href="#"><strike>Slides</strike></a></li>
+        <li><a href="http://www.slideshare.net/numenta/anomaly-detection-subutai-may-2014-hackathon">Slides</a></li>
         <li><a href="https://github.com/subutai/nupic.subutai/tree/master/run_anomaly">Source Code</a></li>
     </ul>
 
@@ -167,8 +167,8 @@ Just like [last hackathon]({{ site.baseurl }}/blog/2013/11/06/2013-fall-hackatho
 
 <div class="demo">
 
-    <a href="https://www.youtube.com/watch?v=zwRKxnXAKhA" title="CLA as Implemented in NuPIC" rel="prettyPhoto" >
-        <img src="http://img.youtube.com/vi/zwRKxnXAKhA/0.jpg" alt="CLA as Implemented in NuPIC" width="300px" height="225px">
+    <a href="https://www.youtube.com/watch?v=H3lPxKhi1I0" title="CLA as Implemented in NuPIC" rel="prettyPhoto" >
+        <img src="http://img.youtube.com/vi/H3lPxKhi1I0/0.jpg" alt="CLA as Implemented in NuPIC" width="300px" height="225px">
     </a>
 
     <h3>
@@ -182,7 +182,7 @@ Just like [last hackathon]({{ site.baseurl }}/blog/2013/11/06/2013-fall-hackatho
     <p>Numenta engineer Chetan Surpur goes into great detail about the implementations of the spatial and temporal poolers in NuPIC.</p>
 
     <ul>
-        <li><a href="https://www.youtube.com/watch?v=zwRKxnXAKhA" rel="prettyPhoto" title="CLA as Implemented in NuPIC">Video</a></li>
+        <li><a href="https://www.youtube.com/watch?v=H3lPxKhi1I0" rel="prettyPhoto" title="CLA as Implemented in NuPIC">Video</a></li>
         <li><a href="http://chetansurpur.com/slides/2014/5/4/cla-in-nupic.html#1">Slides</a></li>
     </ul>
 
@@ -190,8 +190,8 @@ Just like [last hackathon]({{ site.baseurl }}/blog/2013/11/06/2013-fall-hackatho
 
 <div class="demo">
 
-    <a href="https://www.youtube.com/watch?v=ANPWhfchvxY" title="The State of NuPIC" rel="prettyPhoto" >
-        <img src="http://img.youtube.com/vi/ANPWhfchvxY/0.jpg" alt="The State of NuPIC" width="300px" height="225px">
+    <a href="https://www.youtube.com/watch?v=QPkA6nJifOw" title="The State of NuPIC" rel="prettyPhoto" >
+        <img src="http://img.youtube.com/vi/QPkA6nJifOw/0.jpg" alt="The State of NuPIC" width="300px" height="225px">
     </a>
 
     <h3>
@@ -205,7 +205,7 @@ Just like [last hackathon]({{ site.baseurl }}/blog/2013/11/06/2013-fall-hackatho
     <p>Matt talks about how far we've come as an open source project in the past year, the current state of NuPIC, and plans for the future.</p>
 
     <ul>
-        <li><a href="https://www.youtube.com/watch?v=ANPWhfchvxY" rel="prettyPhoto" title="The State of NuPIC">Video</a></li>
+        <li><a href="https://www.youtube.com/watch?v=QPkA6nJifOw" rel="prettyPhoto" title="The State of NuPIC">Video</a></li>
         <li><a href="http://www.slideshare.net/numenta/state-of-nupic">Slides</a></li>
     </ul>
 
@@ -441,7 +441,7 @@ We had a **lot of demos** at this hackathon! In addition to the <a href="https:/
 
     <ul>
         <li><a href="http://www.youtube.com/watch?v=U7Peu_-Aa4Q" rel="prettyPhoto" title="Say What?">Video</a></li>
-        <!-- <li><a href="#">Source code</a></li> -->
+        <li><a href="https://github.com/mattroos/nupicHackathonAudio">Source code</a></li>
     </ul>
 
     <p>Analyzing speech data (TIMIT), trying different experiments to try to use NuPIC to predict male vs female speakers. Also explored different representations of the audio signal to see what works best with NuPIC.</p>
@@ -483,7 +483,7 @@ We had a **lot of demos** at this hackathon! In addition to the <a href="https:/
 
     <ul>
         <li><a href="http://www.youtube.com/watch?v=4ez9_TIAcUA" rel="prettyPhoto" title="Single-Entry Multifactor Authentication">Video</a></li>
-        <!-- <li><a href="#">Source code</a></li> -->
+        <li><a href="https://github.com/slideout/sfmfa">Source code</a></li>
     </ul>
 
     <p>Wade uses NuPIC to try help with authentication not only by the password entered, but also the characteristics of the keystrokes entered.</p>
@@ -519,6 +519,6 @@ This was our most successful hackathon yet. Thanks to everyone who participating
 > Open Source Community Flag-Bearer <br/>
 > Numenta, Inc.
 
-[Comments on Reddit]()
+[Comments on Reddit](http://www.reddit.com/r/MachineLearning/comments/255npf/nupic_2014_spring_hackathon_outcome/)
 
 <small><strong>By the way!</strong> You can see all the videos and photos taken at this hackathon on our <a href="http://www.youtube.com/channel/UC8-ttzWLgXZOGuhUyrPlUuA">YouTube channel</a> and <a href="https://www.flickr.com/photos/nupic/">Flickr page</a>.</small>

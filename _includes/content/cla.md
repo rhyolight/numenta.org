@@ -28,4 +28,4 @@ This diagram represents a sparse distributed representation: two thousand circle
 
 In SDRs, unlike in a dense representations, each bit has meaning. This means that if two vectors have 1s in the same position they are semantically similar in that attribute. SDRs are how brains solve the problem of knowledge representation that has plagued AI for decades.
 
-For more details about SDRs, watch <a href="http://www.youtube.com/watch?v=t6NcTdXxVeo" rel="prettyPhoto" title="">this excerpt</a> from a talk given by Jeff Hawkins.
+For more details about SDRs, watch <a href="https://www.youtube.com/watch?v=sGlnLRTXGHI" rel="prettyPhoto" title="">this excerpt</a> from a talk given by Jeff Hawkins.

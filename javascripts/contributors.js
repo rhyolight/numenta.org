@@ -95,7 +95,7 @@
                 url: contribsUrl,
                 dataType: 'jsonp',
                 data: { repo: repoSlug },
-                jsonp: "callback",
+                jsonp: 'callback',
                 success: function(data) {
                     contribData.push(data[repoSlug]);
                     whenDone();

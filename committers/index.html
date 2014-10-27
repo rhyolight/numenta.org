@@ -1,0 +1,72 @@
+---
+layout: default
+title: NuPIC Committers
+---
+
+<section>
+    <h2>{{ page.title }}</h2>
+    <div id="committers">
+        loading...
+    </div>
+</section>
+
+<style>
+    #committers img {
+        width: 100px;
+        height: 100px;
+    }
+</style>
+
+{% raw %}
+<script id="committers-tmpl" type="text/x-handler-template">
+    <table>
+    {{#each committers}}
+        <tr>
+            <td>
+                <a href="{{html_url}}" target="_blank">
+                    <img src="{{avatar_url}}"/>
+                </a>
+            </td>
+            <td>
+                {{#if name}}
+                <h2>{{name}}</h2>
+                {{else}}
+                <h2>{{login}}</h2>
+                {{/if}}
+                <p>{{bio}}</p>
+                <blockquote>
+                    <h3>Followers: {{followers}}</h3>
+                </blockquote>
+            </td>
+            <td>
+                <table>
+                    <tbody>
+                    {{#if location}}
+                    <tr>
+                        <th>Location:</th>
+                        <td>{{location}}</td>
+                    </tr>
+                    {{/if}}
+                    {{#if company}}
+                    <tr>
+                        <th>Company:</th>
+                        <td>{{company}}</td>
+                    </tr>
+                    {{/if}}
+                    {{#if email}}
+                    <tr>
+                        <th>Email:</th>
+                        <td><a href="mailto:{{email}}">{{email}}</a></td>
+                    </tr>
+                    {{/if}}
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+    {{/each}}
+    </table>
+</script>
+{% endraw %}
+
+<script src="{{ site.baseurl }}/javascripts/handlebars.js"></script>
+<script src="{{ site.baseurl }}/javascripts/committers.js"></script>
