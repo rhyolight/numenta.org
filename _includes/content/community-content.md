@@ -4,6 +4,26 @@ NuPIC Community Content
 
 The following resources have been provided by community members of the NuPIC open source project and others interested in HTM and CLA theory.
 
+* * *
+
+## <a href="{{ site.baseurl }}/resources/community-content/Masterthesis%20Nupic%20Study.pdf">Intelligent Predictions: an empirical study of the Cortical Learning Algorithm (PDF)</a>
+
+Master Thesis for the acquisition of the academic degree Master of Science (M.Sc.) by Michael Galetzka.
+
+* * *
+
+## Blog Posts by Felix Andrews on his HTM Implementation in Clojure
+
+![Example graphic from Felix's blogs](http://floybix.github.io/assets/2014-09-26/tp_example.png)
+
+- [27 May 2014 » The General Idea](http://floybix.github.io/2014/05/27/the-general-idea)
+- [11 Jul 2014 » Visualization Driven Development of the Cortical Learning Algorithm](http://floybix.github.io/2014/07/11/visualization-driven-development-of-the-cortical-learning-algorithm)
+- [26 Sep 2014 » Temporal Pooling Mechanism](http://floybix.github.io/2014/09/26/temporal-pooling-mechanism)
+- [29 Sep 2014 » Temporal Pooling of Isolated Sequences](http://floybix.github.io/2014/09/29/temporal-pooling-of-isolated-sequences)
+- [15 Oct 2014 » Learning Simple Sentences](http://floybix.github.io/2014/10/15/learning-simple-sentences)
+
+* * *
+
 ## Papers on HTM by Associate Professor [John Thornton](http://www.ict.griffith.edu.au/~johnt/index.html) (Griffith University)
 
 - [Evaluating sparse codes on handwritten digits](http://www.ict.griffith.edu.au/~johnt/publications/AI2013.pdf) **PDF** *(Australasian Joint Conference on AI 2013)*
