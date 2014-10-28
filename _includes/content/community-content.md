@@ -2,7 +2,7 @@
 NuPIC Community Content
 ===========
 
-The following resources have been provided by community members of the NuPIC open source project and others interested in HTM and CLA theory.
+The following resources have been provided by community members of the NuPIC open source project and others interested in HTM theory.
 
 * * *
 
