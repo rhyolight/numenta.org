@@ -5,7 +5,7 @@ baseurl: http://numenta.org
 
 future: false
 
-markdown: maruku
+markdown: Kramdown
 
 name: NuPIC
 description: Numenta Platform for Intelligent Computing
@@ -14,5 +14,5 @@ exclude: [vendor]
 
 safe: true
 lsi: false
-pygments: true
+highlighter: pygments
 source: .
