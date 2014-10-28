@@ -7,7 +7,7 @@ The mission of this project is to build and support a [community]({{ site.baseur
 
 ## What is NuPIC?
 
-[NuPIC]({{ site.baseurl }}/nupic.html), the *Numenta Platform for Intelligent Computing*, comprises a set of learning algorithms that were first described in a [white paper]({{ site.baseurl }}/cla-white-paper.html) published by Numenta in 2009. The learning algorithms faithfully capture how layers of neurons in the neocortex learn.  The white paper has been translated into seven languages by volunteers and has generated considerable interest among developers and research scientists.
+[NuPIC]({{ site.baseurl }}/nupic.html), the *Numenta Platform for Intelligent Computing*, comprises a set of learning algorithms that were first described in a [white paper]({{ site.baseurl }}/htm-white-paper.html) published by Numenta in 2009. The learning algorithms faithfully capture how layers of neurons in the neocortex learn.  The white paper has been translated into seven languages by volunteers and has generated considerable interest among developers and research scientists.
 
 ## Why did we create the NuPIC Open Source project?
 
@@ -15,13 +15,13 @@ We created the NuPIC open source project because people read the white paper and
 
 ### What is unique about the algorithms in NuPIC?
 
-At the heart of NuPIC is the Cortical Learning Algorithm or CLA. The CLA has a deep biological mapping which will be interesting to neuroscientists. From an algorithmic point of view there are three principle properties.
+At the heart of NuPIC is Hierarchal Temporal Memory, or HTM. HTM has a deep biological mapping which will be interesting to neuroscientists. From an algorithmic point of view there are three principle properties.
 
 * Sparse Distributed Representations
 * Temporal inference
 * On-line learning
 
-We believe the CLA is an essential component of biological intelligence and will likely prove to be a central component of machine intelligence. We anticipate that over time the CLA will be embedded in hierarchical systems with distributed sensors, behavior, and attention.
+We believe HTM is an essential component of biological intelligence and will likely prove to be a central component of machine intelligence. We anticipate that over time HTM will be embedded in hierarchical systems with distributed sensors, behavior, and attention.
 
 
 ## Where to go from here...

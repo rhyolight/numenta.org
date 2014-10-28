@@ -1,7 +1,7 @@
 
-# The Cortical Learning Algorithm (CLA)
+# Hierarchal Temporal Memory (HTM)
 
-> For a detailed explanation of the CLA and how it relates to [Hierarchical Temporal Memory](http://en.wikipedia.org/wiki/Hierarchical_temporal_memory), read the [CLA White Paper](cla-white-paper.html).
+> For a detailed explanation of [Hierarchical Temporal Memory](http://en.wikipedia.org/wiki/Hierarchical_temporal_memory), read the [HTM White Paper](htm-white-paper.html).
 
 There are many things humans find easy to do that computers are currently unable to do. Tasks such as visual pattern recognition, understanding spoken language, recognizing and manipulating objects by touch, and navigating in a complex world are easy for humans. Yet despite decades of research, we have few viable algorithms for achieving human-like performance on a computer.
 
