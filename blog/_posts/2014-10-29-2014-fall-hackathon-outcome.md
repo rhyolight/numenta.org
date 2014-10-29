@@ -62,6 +62,10 @@ More people than ever, and a more diverse community than ever. We had pro hacker
         <p class="quote">"This was inspiring!"</p>
         <p class="author"><a href="http://www.meetup.com/numenta/members/123866522/">Chirag Mirani</a></p>
     </li>
+    <li>
+        <p class="quote">"A fantastic event. It underscores Numenta’s approach of being totally open with their work and supportive of the community. It feels like we are at the cusp of a revolution, where a few more good ideas will really make this thing fly."</p>
+        <p class="author"><a href="http://floybix.github.io/2014/10/27/hackathon_demo/">Felix Andrews</a></p>
+    </li>
 </ul>
 
 ## Sessions
@@ -124,7 +128,7 @@ We only gave a few presentations from Numenta and friends for hackathon particip
     </h3>
 
     <h4>
-        Francisco Webber, <a href="http://cortical.io">cortical.io</a>
+        Francisco Webber, <a href="http://www.cortical.io/company.html#head_1">cortical.io</a>
     </h4>
 
     <p>Francisco talks about language, intelligence, and cortical.io's new REST API version 2.0 and all its capabilities.</p>
@@ -226,199 +230,193 @@ INTRODUCTION PARAGRAPH...
 
 <div class="demo">
 
-    <a href="http://www.youtube.com/watch?v=XXXXXXX" title="TITLE" rel="prettyPhoto">
-        <img src="http://img.youtube.com/vi/XXXXXXX/0.jpg" alt="TITLE" width="300px" height="225px">
+    <a href="http://www.youtube.com/watch?v=-aCYujW7QSc" title="A Whole New World" rel="prettyPhoto">
+        <img src="http://img.youtube.com/vi/-aCYujW7QSc/0.jpg" alt="A Whole New World" width="300px" height="225px">
     </a>
 
-    <h3><a id="DEMO_X" href="#DEMO_X">TITLE</a></h3>
+    <h3><a id="DEMO_4" href="#DEMO_4">A Whole New World</a></h3>
 
     <h4>
-        AUTHORS
+        <a href="twitter.com/chetan51">Chetan Surpur</a>, <a href="https://twitter.com/ywcui">Yuiwei Cui</a>
     </h4>
 
     <ul>
-        <li><a href="http://www.youtube.com/watch?v=XXXXXXX" rel="prettyPhoto" title="TITLE">Video</a></li>
-        <li><a href="URL">Slides</a></li>
-        <li><a href="URL">Source code</a></li>
+        <li><a href="http://www.youtube.com/watch?v=-aCYujW7QSc" rel="prettyPhoto" title="A Whole New World">Video</a></li>
+        <li><a href="http://www.slideshare.net/numenta/a-whole-newworld">Slides</a></li>
+        <li><a href="https://github.com/chetan51/saccadebot">Source code</a></li>
     </ul>
 
-    <p>DESCRIPTION</p>
+    <p>A demonstration of sensorimotor inference in simple robotics.</p>
 
 </div>
 
 <div class="demo">
 
-    <a href="http://www.youtube.com/watch?v=XXXXXXX" title="TITLE" rel="prettyPhoto">
-        <img src="http://img.youtube.com/vi/XXXXXXX/0.jpg" alt="TITLE" width="300px" height="225px">
+    <a href="http://www.youtube.com/watch?v=Q7Dgj_h-yeA" title="Semantic Fingerprint Sentence Generation" rel="prettyPhoto">
+        <img src="http://img.youtube.com/vi/Q7Dgj_h-yeA/0.jpg" alt="Semantic Fingerprint Sentence Generation" width="300px" height="225px">
     </a>
 
-    <h3><a id="DEMO_X" href="#DEMO_X">TITLE</a></h3>
+    <h3><a id="DEMO_5" href="#DEMO_5">Semantic Fingerprint Sentence Generation</a></h3>
 
     <h4>
-        AUTHORS
+        Daniel McDonald, Mark Whelan
     </h4>
 
     <ul>
-        <li><a href="http://www.youtube.com/watch?v=XXXXXXX" rel="prettyPhoto" title="TITLE">Video</a></li>
-        <li><a href="URL">Slides</a></li>
-        <li><a href="URL">Source code</a></li>
+        <li><a href="http://www.youtube.com/watch?v=Q7Dgj_h-yeA" rel="prettyPhoto" title="Semantic Fingerprint Sentence Generation">Video</a></li>
+        <li><a href="https://github.com/encs-humanoid/ai/tree/master/sandbox/wordnet_fp">Source code</a></li>
     </ul>
 
-    <p>DESCRIPTION</p>
+    <p>In this hack, we will attempt to generate semantic fingerprints from WordNet semantic relationships and train the HTM to recognize sequences of meaning from training texts.  The trained HTM will be used to generate English sentences by using the predicted sequence of SDRs from the HTM to select words from the training set to fill in blanks in the sentences generated according to a limited English grammar.</p>
 
 </div>
 
 <div class="demo">
 
-    <a href="http://www.youtube.com/watch?v=XXXXXXX" title="TITLE" rel="prettyPhoto">
-        <img src="http://img.youtube.com/vi/XXXXXXX/0.jpg" alt="TITLE" width="300px" height="225px">
+    <a href="http://www.youtube.com/watch?v=hE6alw_HHrk" title="HTM in Clojure" rel="prettyPhoto">
+        <img src="http://img.youtube.com/vi/hE6alw_HHrk/0.jpg" alt="HTM in Clojure" width="300px" height="225px">
     </a>
 
-    <h3><a id="DEMO_X" href="#DEMO_X">TITLE</a></h3>
+    <h3><a id="DEMO_6" href="#DEMO_6">HTM in Clojure</a></h3>
 
     <h4>
-        AUTHORS
+        <a href="https://twitter.com/floybix">Felix Andrews</a>
     </h4>
 
     <ul>
-        <li><a href="http://www.youtube.com/watch?v=XXXXXXX" rel="prettyPhoto" title="TITLE">Video</a></li>
-        <li><a href="URL">Slides</a></li>
-        <li><a href="URL">Source code</a></li>
+        <li><a href="http://www.youtube.com/watch?v=hE6alw_HHrk" rel="prettyPhoto" title="HTM in Clojure">Video</a></li>
+        <li><a href="http://floybix.github.io/2014/10/27/hackathon_demo/">Blog post</a></li>
+        <li><a href="https://github.com/nupic-community/comportex">Source code</a></li>
     </ul>
 
-    <p>DESCRIPTION</p>
+    <p>Demo of HTM implemented in Clojure, with a web-based visualization.</p>
 
 </div>
 
 <div class="demo">
 
-    <a href="http://www.youtube.com/watch?v=XXXXXXX" title="TITLE" rel="prettyPhoto">
-        <img src="http://img.youtube.com/vi/XXXXXXX/0.jpg" alt="TITLE" width="300px" height="225px">
+    <a href="http://www.youtube.com/watch?v=vpAQUHc8_4U" title="Smart Harbor" rel="prettyPhoto">
+        <img src="http://img.youtube.com/vi/vpAQUHc8_4U/0.jpg" alt="Smart Harbor" width="300px" height="225px">
     </a>
 
-    <h3><a id="DEMO_X" href="#DEMO_X">TITLE</a></h3>
+    <h3><a id="DEMO_7" href="#DEMO_7">Smart Harbor</a></h3>
 
     <h4>
-        AUTHORS
+        Daniel Ducro, <a href="https://twitter.com/egbertwietses">Egbert Wietses</a>
     </h4>
 
     <ul>
-        <li><a href="http://www.youtube.com/watch?v=XXXXXXX" rel="prettyPhoto" title="TITLE">Video</a></li>
-        <li><a href="URL">Slides</a></li>
-        <li><a href="URL">Source code</a></li>
+        <li><a href="http://www.youtube.com/watch?v=vpAQUHc8_4U" rel="prettyPhoto" title="Smart Harbor">Video</a></li>
+        <li>Source code (coming soon?)</li>
     </ul>
 
-    <p>DESCRIPTION</p>
+    <p>Tracking geolocations of cargo ships in the port of Rotterdam.</p>
 
 </div>
 
 <div class="demo">
 
-    <a href="http://www.youtube.com/watch?v=XXXXXXX" title="TITLE" rel="prettyPhoto">
-        <img src="http://img.youtube.com/vi/XXXXXXX/0.jpg" alt="TITLE" width="300px" height="225px">
+    <a href="http://www.youtube.com/watch?v=Zz5fFAEYKHc" title="Temporal Memory in Racket" rel="prettyPhoto">
+        <img src="http://img.youtube.com/vi/Zz5fFAEYKHc/0.jpg" alt="Temporal Memory in Racket" width="300px" height="225px">
     </a>
 
-    <h3><a id="DEMO_X" href="#DEMO_X">TITLE</a></h3>
+    <h3><a id="DEMO_8" href="#DEMO_8">Temporal Memory in Racket</a></h3>
 
     <h4>
-        AUTHORS
+        <a href="https://twitter.com/rianshams">Rian Shams</a>
     </h4>
 
     <ul>
-        <li><a href="http://www.youtube.com/watch?v=XXXXXXX" rel="prettyPhoto" title="TITLE">Video</a></li>
-        <li><a href="URL">Slides</a></li>
-        <li><a href="URL">Source code</a></li>
+        <li><a href="http://www.youtube.com/watch?v=Zz5fFAEYKHc" rel="prettyPhoto" title="Temporal Memory in Racket">Video</a></li>
+        <li><a href="http://www.slideshare.net/numenta/temporal-memory-in-racket">Slides</a></li>
+        <li>Source code (coming soon?)</li>
     </ul>
 
-    <p>DESCRIPTION</p>
+    <p>A Racket-based implementation of the current temporal memory algorithm. Amazingly, this was Rian's first real program. It's very impressive that he chose to implement HTM in a Lisp!</p>
 
 </div>
 
 <div class="demo">
 
-    <a href="http://www.youtube.com/watch?v=XXXXXXX" title="TITLE" rel="prettyPhoto">
-        <img src="http://img.youtube.com/vi/XXXXXXX/0.jpg" alt="TITLE" width="300px" height="225px">
+    <a href="http://www.youtube.com/watch?v=MEsOb9p3nmU" title="The Jinglinator 4000" rel="prettyPhoto">
+        <img src="http://img.youtube.com/vi/MEsOb9p3nmU/0.jpg" alt="The Jinglinator 4000" width="300px" height="225px">
     </a>
 
-    <h3><a id="DEMO_X" href="#DEMO_X">TITLE</a></h3>
+    <h3><a id="DEMO_9" href="#DEMO_9">The Jinglinator 4000</a></h3>
 
     <h4>
-        AUTHORS
+        <a href="https://twitter.com/SAlexashenko">Sergey Alexashenko</a>
     </h4>
 
     <ul>
-        <li><a href="http://www.youtube.com/watch?v=XXXXXXX" rel="prettyPhoto" title="TITLE">Video</a></li>
-        <li><a href="URL">Slides</a></li>
-        <li><a href="URL">Source code</a></li>
+        <li><a href="http://www.youtube.com/watch?v=MEsOb9p3nmU" rel="prettyPhoto" title="The Jinglinator 4000">Video</a></li>
+        <li><a href="https://github.com/salexashenko/The-Jinglinator-Returns">Source code</a></li>
     </ul>
 
-    <p>DESCRIPTION</p>
+    <p>I am training NuPIC on a dataset of 500 jingles and generating new jingles based on input vectors of a few notes.</p>
 
 </div>
 
 <div class="demo">
 
-    <a href="http://www.youtube.com/watch?v=XXXXXXX" title="TITLE" rel="prettyPhoto">
-        <img src="http://img.youtube.com/vi/XXXXXXX/0.jpg" alt="TITLE" width="300px" height="225px">
+    <a href="http://www.youtube.com/watch?v=_H9e7CD_BOc" title="Corti-Yelp" rel="prettyPhoto">
+        <img src="http://img.youtube.com/vi/_H9e7CD_BOc/0.jpg" alt="Corti-Yelp" width="300px" height="225px">
     </a>
 
-    <h3><a id="DEMO_X" href="#DEMO_X">TITLE</a></h3>
+    <h3><a id="DEMO_10" href="#DEMO_10">Corti-Yelp</a></h3>
 
     <h4>
-        AUTHORS
+        <a href="https://twitter.com/jwbwater">Jim Bridgewater</a>, Artem Avdacev
     </h4>
 
     <ul>
-        <li><a href="http://www.youtube.com/watch?v=XXXXXXX" rel="prettyPhoto" title="TITLE">Video</a></li>
-        <li><a href="URL">Slides</a></li>
-        <li><a href="URL">Source code</a></li>
+        <li><a href="http://www.youtube.com/watch?v=_H9e7CD_BOc" rel="prettyPhoto" title="Corti-Yelp">Video</a></li>
+        <li><a href="https://github.com/baroobob/CortiYelp">Source code</a></li>
     </ul>
 
-    <p>DESCRIPTION</p>
+    <p>Using <a href="http://cortical.io">cortical.io</a> to analyze Yelp's academic dataset. This might not have been the most successful hack at the hackathon, but it was one of the most entertaining.</p>
 
 </div>
 
 <div class="demo">
 
-    <a href="http://www.youtube.com/watch?v=XXXXXXX" title="TITLE" rel="prettyPhoto">
-        <img src="http://img.youtube.com/vi/XXXXXXX/0.jpg" alt="TITLE" width="300px" height="225px">
-    </a>
+    <!-- <a href="http://www.youtube.com/watch?v=XXXXXXX" title="NuPIC EEG" rel="prettyPhoto"> -->
+        <img src="http://img.youtube.com/vi/XXXXXXX/0.jpg" alt="NuPIC EEG" width="300px" height="225px">
+    <!-- </a> -->
 
-    <h3><a id="DEMO_X" href="#DEMO_X">TITLE</a></h3>
+    <h3><a id="DEMO_11" href="#DEMO_11">NuPIC EEG</a></h3>
 
     <h4>
-        AUTHORS
+        <a href="https://twitter.com/NicoThieb">Nicolas Thiebaud</a>
     </h4>
 
     <ul>
-        <li><a href="http://www.youtube.com/watch?v=XXXXXXX" rel="prettyPhoto" title="TITLE">Video</a></li>
-        <li><a href="URL">Slides</a></li>
-        <li><a href="URL">Source code</a></li>
+        <li>Video (coming soon)</li>
+        <li>Source code (coming soon)</li>
     </ul>
 
-    <p>DESCRIPTION</p>
+    <p>Nicolas used his hack to work on a <a href="https://www.kaggle.com/c/seizure-prediction">Kaggle competition</a>, and the rules of the competition prevent us from displaying his video or source code until the competition is over.</p>
 
 </div>
 
 <div class="demo">
 
-    <a href="http://www.youtube.com/watch?v=XXXXXXX" title="TITLE" rel="prettyPhoto">
-        <img src="http://img.youtube.com/vi/XXXXXXX/0.jpg" alt="TITLE" width="300px" height="225px">
+    <a href="http://www.youtube.com/watch?v=VZ83xOhUc2c" title="AutoDJ" rel="prettyPhoto">
+        <img src="http://img.youtube.com/vi/VZ83xOhUc2c/0.jpg" alt="AutoDJ" width="300px" height="225px">
     </a>
 
-    <h3><a id="DEMO_X" href="#DEMO_X">TITLE</a></h3>
+    <h3><a id="DEMO_12" href="#DEMO_12">AutoDJ</a></h3>
 
     <h4>
-        AUTHORS
+        <a href="https://twitter.com/rogueleaderr">George London</a>
     </h4>
 
     <ul>
-        <li><a href="http://www.youtube.com/watch?v=XXXXXXX" rel="prettyPhoto" title="TITLE">Video</a></li>
-        <li><a href="URL">Slides</a></li>
-        <li><a href="URL">Source code</a></li>
+        <li><a href="http://www.youtube.com/watch?v=VZ83xOhUc2c" rel="prettyPhoto" title="AutoDJ">Video</a></li>
+        <li>Source code (coming soon?)</li>
     </ul>
 
-    <p>DESCRIPTION</p>
+    <p>I'm extracting my track-by-track music listening history from Last.fm and then seeing if NUPIC can predict what artist I'm going to listen to next given a sequence of my previous listens.</p>
 
 </div>
 
