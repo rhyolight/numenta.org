@@ -61,7 +61,7 @@ I've separated this blog post into sections:
 
 <div class="image">
     <a href="https://www.flickr.com/photos/nupic/15462951227" title="NuPIC Fall 2014 Hackathon by Numenta Platform for Intelligent Computing, on Flickr"><img src="https://farm4.staticflickr.com/3954/15462951227_bd58929e4e_z.jpg" width="640" height="425" alt="NuPIC Fall 2014 Hackathon"></a>
-    <p><a href="https://twitter.com/scottmpurdy">Scott Purdy</a> sharing his knowledge.</p>
+    <p><a href="https://twitter.com/scottmpurdy">Scott Purdy</a> sharing his knowledge with Daniel McDonald and Mark Whelan.</p>
 </div>
 
 <div class="image">
@@ -177,6 +177,28 @@ We only gave a few presentations from Numenta and friends for hackathon particip
 
     <ul>
         <li><a href="https://www.youtube.com/watch?v=gKtKIR0cieI" rel="prettyPhoto" title="On the Way to Language Intelligence">Video</a></li>
+    </ul>
+
+</div>
+
+<div class="demo">
+
+    <a href="https://www.youtube.com/watch?v=900nFOfzp2E" title="Applications of Hierarchical Temporal Memory (HTM)" rel="prettyPhoto" >
+        <img src="http://img.youtube.com/vi/900nFOfzp2E/0.jpg" alt="Applications of Hierarchical Temporal Memory (HTM)" width="300px" height="225px">
+    </a>
+
+    <h3>
+        <a id="htm_applications" href="#htm_applications">Applications of Hierarchical Temporal Memory (HTM)</a>
+    </h3>
+
+    <h4>
+        Chetan Surpur, Numenta Engineer
+    </h4>
+
+    <p>This talk is from the Numenta Workshop that preceeded the hackathon, but Chetan gave the same talk at the hackathon. Since the recording at the workshop was a better quality than the hackathon presentation, I've included the first one.</p>
+
+    <ul>
+        <li><a href="https://www.youtube.com/watch?v=900nFOfzp2E" rel="prettyPhoto" title="Applications of Hierarchical Temporal Memory (HTM)">Video</a></li>
     </ul>
 
 </div>
