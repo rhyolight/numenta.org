@@ -5,7 +5,8 @@ category: blog
 ---
 
 <div class="blog image">
-    <img src="{{ site.baseurl }}/resources/blog/2014-fall-hackathon-logo.png" width="640" alt="NuPIC Fall 2014 Hackathon Logo">
+    <a href="https://www.youtube.com/watch?v=r8MSfbfg5io&index=1&list=PL3yXMgtrZmDo4uTtO8Fqialyf6O1szHaT"><img src="{{ site.baseurl }}/resources/blog/2014-fall-hackathon-logo.png" width="640" alt="NuPIC Fall 2014 Hackathon Logo"></a>
+    <p>Thanks to <a href="https://twitter.com/jeffreyfohl">Jeff Fohl</a> for the excellent logo design!</p>
 </div>
 
 On October 18-19 of 2014, we held our fourth NuPIC Hackathon in San Jose at [Pinger, Inc](http://pinger.com). It as a 36-hour event, starting at 10AM on Saturday, and ending with hack demos at 4PM Sunday afternoon. We started with a Kickoff presentation to go over hackathon protocol, then jumped right into hacking. There were some interesting themes this time. A lot more people tried using [cortical.io](http://cortical.io)'s word fingerprinting service for natural language processing hacks. We also had a lot of interest in EEG analysis with NuPIC, which seems to be a hot topic within the community. And we even had another robotics demo!
@@ -30,8 +31,49 @@ I've separated this blog post into sections:
 
 <div class="image">
     <a href="https://www.flickr.com/photos/nupic/15463149959" title="NuPIC Fall 2014 Hackathon by Numenta Platform for Intelligent Computing, on Flickr"><img src="https://farm6.staticflickr.com/5605/15463149959_a1f03f32e6_z.jpg" width="640" height="425" alt="NuPIC Fall 2014 Hackathon"></a>
-    <p>Another big thanks to <a href="http://pinger.com">Pinger</a>, who let us use their offcies to host the event once again.</p>
+    <p>Another big thanks to <a href="http://pinger.com">Pinger</a>, who let us use their offices to host the event once again.</p>
 </div>
+
+<div class="image">
+    <a href="https://www.flickr.com/photos/nupic/15463968900" title="NuPIC Fall 2014 Hackathon by Numenta Platform for Intelligent Computing, on Flickr"><img src="https://farm4.staticflickr.com/3953/15463968900_2797191b4e_z.jpg" width="640" height="425" alt="NuPIC Fall 2014 Hackathon"></a>
+    <p><a href="https://twitter.com/SAlexashenko">Sergey Alexashenko</a></p>
+</div>
+
+<div class="image">
+    <a href="https://www.flickr.com/photos/nupic/15464141130" title="NuPIC Fall 2014 Hackathon by Numenta Platform for Intelligent Computing, on Flickr"><img src="https://farm6.staticflickr.com/5601/15464141130_6e266893e8_z.jpg" width="640" height="425" alt="NuPIC Fall 2014 Hackathon"></a>
+    <p>Jeff Hawkins explains HTM concepts on a whiteboard.</p>
+</div>
+
+<div class="image">
+    <a href="https://www.flickr.com/photos/nupic/15029112933" title="NuPIC Fall 2014 Hackathon by Numenta Platform for Intelligent Computing, on Flickr"><img src="https://farm6.staticflickr.com/5599/15029112933_57a75e3ed6_z.jpg" width="640" height="425" alt="NuPIC Fall 2014 Hackathon"></a>
+    <p><a href="https://twitter.com/floybix">Felix Andrews</a> talks about HTM implemented in Clojure.</p>
+</div>
+
+<div class="image">
+    <a href="https://www.flickr.com/photos/nupic/15650512322" title="NuPIC Fall 2014 Hackathon by Numenta Platform for Intelligent Computing, on Flickr"><img src="https://farm8.staticflickr.com/7503/15650512322_1654210907_b.jpg" width="640" alt="NuPIC Fall 2014 Hackathon"></a>
+    <p><a href="https://twitter.com/chetan51">Chetan</a> and <a href="https://twitter.com/ywcui">Yuiwei</a>'s robot from the <a href="#DEMO_4">Whole New World</a> demo.</p>
+</div>
+
+<div class="image">
+    <a href="https://www.flickr.com/photos/nupic/15028519793" title="NuPIC Fall 2014 Hackathon by Numenta Platform for Intelligent Computing, on Flickr"><img src="https://farm6.staticflickr.com/5599/15028519793_1c24755cea_z.jpg" width="640" height="425" alt="NuPIC Fall 2014 Hackathon"></a>
+    <p><a href="https://twitter.com/marion_leborgne">Marion Le Borgne</a> and Artem Avdacev watching hackathon demos.</p>
+</div>
+
+<div class="image">
+    <a href="https://www.flickr.com/photos/nupic/15462951227" title="NuPIC Fall 2014 Hackathon by Numenta Platform for Intelligent Computing, on Flickr"><img src="https://farm4.staticflickr.com/3954/15462951227_bd58929e4e_z.jpg" width="640" height="425" alt="NuPIC Fall 2014 Hackathon"></a>
+    <p><a href="https://twitter.com/scottmpurdy">Scott Purdy</a> sharing his knowledge.</p>
+</div>
+
+<div class="image">
+    <a href="https://www.flickr.com/photos/nupic/15646740231" title="NuPIC Fall 2014 Hackathon by Numenta Platform for Intelligent Computing, on Flickr"><img src="https://farm8.staticflickr.com/7580/15646740231_77fd175338_z.jpg" width="640" height="425" alt="NuPIC Fall 2014 Hackathon"></a>
+    <p><a href="https://twitter.com/ywcui">Yuiwei</a> explains the representations displayed from the <a href="#DEMO_4">Whole New World</a> demo.</p>
+</div>
+
+<div class="image">
+    <a href="https://www.flickr.com/photos/nupic/15646965991" title="NuPIC Fall 2014 Hackathon by Numenta Platform for Intelligent Computing, on Flickr"><img src="https://farm4.staticflickr.com/3948/15646965991_420055752c_z.jpg" width="640" height="425" alt="NuPIC Fall 2014 Hackathon"></a>
+    <p>Jeff Hawkins and a guest on the way to the hackathon demos.</p>
+</div>
+
 
 ## Testimonials
 
