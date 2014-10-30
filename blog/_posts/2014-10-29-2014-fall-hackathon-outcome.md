@@ -422,89 +422,88 @@ INTRODUCTION PARAGRAPH...
 
 <div class="demo">
 
-    <a href="http://www.youtube.com/watch?v=XXXXXXX" title="TITLE" rel="prettyPhoto">
-        <img src="http://img.youtube.com/vi/XXXXXXX/0.jpg" alt="TITLE" width="300px" height="225px">
+    <a href="http://www.youtube.com/watch?v=J4owvvBPPS8" title="Kaggle Bike Share Demand Prediction" rel="prettyPhoto">
+        <img src="http://img.youtube.com/vi/J4owvvBPPS8/0.jpg" alt="Kaggle Bike Share Demand Prediction" width="300px" height="225px">
     </a>
 
-    <h3><a id="DEMO_X" href="#DEMO_X">TITLE</a></h3>
+    <h3><a id="DEMO_13" href="#DEMO_13">Kaggle Bike Share Demand Prediction</a></h3>
 
     <h4>
-        AUTHORS
+        <a href="https://twitter.com/leadjini">Chandan Maruthi</a>
     </h4>
 
     <ul>
-        <li><a href="http://www.youtube.com/watch?v=XXXXXXX" rel="prettyPhoto" title="TITLE">Video</a></li>
-        <li><a href="URL">Slides</a></li>
-        <li><a href="URL">Source code</a></li>
+        <li><a href="http://www.youtube.com/watch?v=J4owvvBPPS8" rel="prettyPhoto" title="Kaggle Bike Share Demand Prediction">Video</a></li>
+        <li>Source code (coming soon?)</li>
     </ul>
 
-    <p>DESCRIPTION</p>
+    <p>Chandan tried using NuPIC to solve a <a href="https://www.kaggle.com/c/bike-sharing-demand">Kaggle Bike Sharing</a> competition, where one week of demand data is missing from each month.</p>
 
 </div>
 
 <div class="demo">
 
-    <a href="http://www.youtube.com/watch?v=XXXXXXX" title="TITLE" rel="prettyPhoto">
-        <img src="http://img.youtube.com/vi/XXXXXXX/0.jpg" alt="TITLE" width="300px" height="225px">
+    <a href="http://www.youtube.com/watch?v=ikmflJLElkc" title="We'll Always Have Paris" rel="prettyPhoto">
+        <img src="http://img.youtube.com/vi/ikmflJLElkc/0.jpg" alt="We'll Always Have Paris" width="300px" height="225px">
     </a>
 
-    <h3><a id="DEMO_X" href="#DEMO_X">TITLE</a></h3>
+    <h3><a id="DEMO_14" href="#DEMO_14">We'll Always Have Paris</a></h3>
 
     <h4>
-        AUTHORS
+        Pablo Gonzalvez, Soren Madsen, Erik Graf of <a href="http://cortical.io">cortical.io</a>.
     </h4>
 
     <ul>
-        <li><a href="http://www.youtube.com/watch?v=XXXXXXX" rel="prettyPhoto" title="TITLE">Video</a></li>
-        <li><a href="URL">Slides</a></li>
-        <li><a href="URL">Source code</a></li>
+        <li><a href="http://www.youtube.com/watch?v=ikmflJLElkc" rel="prettyPhoto" title="We'll Always Have Paris">Video</a></li>
+        <li><a href="http://www.slideshare.net/numenta/well-always-have-paris">Slides</a></li>
+        <li>Source code (coming soon?)</li>
     </ul>
 
-    <p>DESCRIPTION</p>
+    <p>Feed a network of htms with articles about different topics. Get the network to extract and learn interesting facts from the input. Then query the network's knowledge.</p>
 
 </div>
 
 <div class="demo">
 
-    <a href="http://www.youtube.com/watch?v=XXXXXXX" title="TITLE" rel="prettyPhoto">
-        <img src="http://img.youtube.com/vi/XXXXXXX/0.jpg" alt="TITLE" width="300px" height="225px">
+    <a href="http://www.youtube.com/watch?v=bCJeSlxSpbo" title="Heartbeat" rel="prettyPhoto">
+        <img src="http://img.youtube.com/vi/bCJeSlxSpbo/0.jpg" alt="Heartbeat" width="300px" height="225px">
     </a>
 
-    <h3><a id="DEMO_X" href="#DEMO_X">TITLE</a></h3>
+    <h3><a id="DEMO_15" href="#DEMO_15">Heartbeat</a></h3>
 
     <h4>
-        AUTHORS
+        <a href="https://twitter.com/benmorrow">Ben Morrow</a>
     </h4>
 
     <ul>
-        <li><a href="http://www.youtube.com/watch?v=XXXXXXX" rel="prettyPhoto" title="TITLE">Video</a></li>
-        <li><a href="URL">Slides</a></li>
-        <li><a href="URL">Source code</a></li>
+        <li><a href="http://www.youtube.com/watch?v=bCJeSlxSpbo" rel="prettyPhoto" title="Heartbeat">Video</a></li>
+        <li><a href="https://www.youtube.com/watch?v=4LTvr7QaSIM">Ben's Own Video</a></li>
+        <li><a href="https://github.com/happywatch/heartbeat">Source code</a></li>
     </ul>
 
-    <p>DESCRIPTION</p>
+    <p>Apple Watch app for telling if there is an anomaly detected in your heartbeat. You can view the rhythm strip and share the information with your doctor.</p>
 
 </div>
 
 <div class="demo">
 
-    <a href="http://www.youtube.com/watch?v=XXXXXXX" title="TITLE" rel="prettyPhoto">
-        <img src="http://img.youtube.com/vi/XXXXXXX/0.jpg" alt="TITLE" width="300px" height="225px">
+    <a href="http://www.youtube.com/watch?v=UEh48KOmkIA" title="EEG Data Classification" rel="prettyPhoto">
+        <img src="http://img.youtube.com/vi/UEh48KOmkIA/0.jpg" alt="EEG Data Classification" width="300px" height="225px">
     </a>
 
-    <h3><a id="DEMO_X" href="#DEMO_X">TITLE</a></h3>
+    <h3><a id="DEMO_16" href="#DEMO_16">EEG Data Classification</a></h3>
 
     <h4>
-        AUTHORS
+        <a href="https://twitter.com/marion_leborgne">Marion Le Borgne</a>
     </h4>
 
     <ul>
-        <li><a href="http://www.youtube.com/watch?v=XXXXXXX" rel="prettyPhoto" title="TITLE">Video</a></li>
-        <li><a href="URL">Slides</a></li>
-        <li><a href="URL">Source code</a></li>
+        <li><a href="http://www.youtube.com/watch?v=UEh48KOmkIA" rel="prettyPhoto" title="EEG Data Classification">Video</a></li>
+        <li><a href="https://docs.google.com/presentation/d/1wFWSk4P3yHDkPzV19Q0sZYX9NhwvEBLJQQXKh0eyZws/edit?usp=sharing">Slides</a></li>
+        <li><a href="https://github.com/marionleborgne/nupic.eeg">Source code</a></li>
     </ul>
 
-    <p>DESCRIPTION</p>
+    <p>EEG data is classified by NuPIC based upon the thoughts of the subject. EEG data was collected by an <a href="http://openbci.com/">OpenBCI</a> board.</p>
 
 </div>
 
