@@ -9,11 +9,11 @@ category: blog
     <p>Thanks to <a href="https://twitter.com/jeffreyfohl">Jeff Fohl</a> for the excellent logo design!</p>
 </div>
 
-On October 18-19 of 2014, we held our fourth NuPIC Hackathon in San Jose at [Pinger, Inc](http://pinger.com). It as a 36-hour event, starting at 10AM on Saturday, and ending with hack demos at 4PM Sunday afternoon. We started with a Kickoff presentation to go over hackathon protocol, then jumped right into hacking. There were some interesting themes this time. A lot more people tried using [cortical.io](http://cortical.io)'s word fingerprinting service for natural language processing hacks. We also had a lot of interest in EEG analysis with NuPIC, which seems to be a hot topic within the community. And we even had another robotics demo!
+On October 18-19 of 2014, we held our fourth NuPIC Hackathon in San Jose at [Pinger, Inc](http://pinger.com). It was a 36-hour event, starting at 10AM on Saturday, and ending with hack demos at 4PM Sunday afternoon. We started with a Kickoff presentation to go over hackathon protocol, then jumped right into hacking. There were some interesting themes this time. A lot more people tried using [cortical.io](http://cortical.io)'s word fingerprinting service for natural language processing hacks. We also had a lot of interest in EEG analysis with NuPIC, which seems to be a hot topic within the community. And we even had another robotics demo!
 
 I think I say this after every NuPIC hackathon we host, but this hackathon was the best one yet! We had well over 50 participants, 16 demos, and a ton of fun and community bonding. It was really nice to see some new faces at this hackathon. I love meeting the people of our community!
 
-Once again, we had in attendees from all over the world: Amsterdam, China, Austria, Ireland, not to mention from all over the United States. I was really impressed how with each hackathon our community gets a better understanding of NuPIC and how it can be used to tackle many different kinds of problems. Even though we had a high percentage of new hackers this time, I could really see the light bulbs turning on as I talked to people about their hackathon ideas. 
+Once again, we had attendees from all over the world: Amsterdam, China, Austria, Ireland, not to mention from all over the United States. I was really impressed how with each hackathon our community gets a better understanding of NuPIC and how it can be used to tackle many different kinds of problems. Even though we had a high percentage of new hackers this time, I could really see the light bulbs turning on as I talked to people about their hackathon ideas. 
 
 I've separated this blog post into sections:
 
@@ -112,7 +112,7 @@ More people than ever, and a more diverse community than ever. We had pro hacker
 
 ## Sessions
 
-We only gave a few presentations from Numenta and friends for hackathon participants to attend in order to give more time for attendees to work on their projects. You can all the recordings we took at the hackathon [in this playlist](https://www.youtube.com/playlist?list=PL3yXMgtrZmDo4uTtO8Fqialyf6O1szHaT).
+We only gave a few presentations from Numenta and friends for hackathon participants to attend in order to give more time for attendees to work on their projects. You can watch all the recordings we took at the hackathon [in this playlist](https://www.youtube.com/playlist?list=PL3yXMgtrZmDo4uTtO8Fqialyf6O1szHaT).
 
 <div class="demo">
 
@@ -205,7 +205,9 @@ We only gave a few presentations from Numenta and friends for hackathon particip
 
 ## Demos
 
-INTRODUCTION PARAGRAPH...
+Games, physics, robotics, geology, natural language, geospatial analysis... demos at this hackathon spanned a large breadth of topics. We were really impressed with the types of things hackers attempted to perform with NuPIC. When we have hackathons, it's a chance for people interested in NuPIC and HTM to push the boundaries of HTM technology and really see what it might be capable of. I always come away inspired and excited about the future of NuPIC and HTM, and this hackathon was no exception at all.
+
+Not all hacks are success stories, but each one is a learning experience. We'll never know what can be achieved with cortically-inspired machine intelligence unless we try to solve hard problems. 
 
 <div class="demo">
 
@@ -549,9 +551,10 @@ INTRODUCTION PARAGRAPH...
 
 </div>
 
-SUMMARY PARAGRAPH...
+As the NuPIC community grows, I continue to be awed and inspired by its passion and perseverance. A sincere thank you to all who have participated on our mailing lists, our code repositories, and our hackathons. You folks are the reason we've gone open source, and the reason we continue to thrive. I see a bright future for us, and I truly believe we will lead the path forward to truly intelligent machines built on neocortical principles. 
 
-<br/>
+It's not an easy road, but you are the **pioneers** helping us pave it for the masses that will follow. I had a wonderful time interacting with all of you, and I look forward to even more ground-breaking work at the next hackathon in Spring 2015.
+
 
 > Matt Taylor <br/>
 > Open Source Community Flag-Bearer <br/>
