@@ -51,7 +51,7 @@ I've separated this blog post into sections:
 
 <div class="image">
     <a href="https://www.flickr.com/photos/nupic/15650512322" title="NuPIC Fall 2014 Hackathon by Numenta Platform for Intelligent Computing, on Flickr"><img src="https://farm8.staticflickr.com/7503/15650512322_1654210907_b.jpg" width="640" alt="NuPIC Fall 2014 Hackathon"></a>
-    <p><a href="https://twitter.com/chetan51">Chetan</a> and <a href="https://twitter.com/ywcui">Yuiwei</a>'s robot from the <a href="#DEMO_4">Whole New World</a> demo.</p>
+    <p><a href="https://twitter.com/chetan51">Chetan</a> and <a href="https://twitter.com/ywcui">Yuwei</a>'s robot from the <a href="#DEMO_4">Whole New World</a> demo.</p>
 </div>
 
 <div class="image">
@@ -66,7 +66,7 @@ I've separated this blog post into sections:
 
 <div class="image">
     <a href="https://www.flickr.com/photos/nupic/15646740231" title="NuPIC Fall 2014 Hackathon by Numenta Platform for Intelligent Computing, on Flickr"><img src="https://farm8.staticflickr.com/7580/15646740231_77fd175338_z.jpg" width="640" height="425" alt="NuPIC Fall 2014 Hackathon"></a>
-    <p><a href="https://twitter.com/ywcui">Yuiwei</a> explains the representations displayed from the <a href="#DEMO_4">Whole New World</a> demo.</p>
+    <p><a href="https://twitter.com/ywcui">Yuwei</a> explains the representations displayed from the <a href="#DEMO_4">Whole New World</a> demo.</p>
 </div>
 
 <div class="image">
@@ -281,7 +281,7 @@ Not all hacks are success stories, but each one is a learning experience. We'll 
     <h3><a id="DEMO_4" href="#DEMO_4">A Whole New World</a></h3>
 
     <h4>
-        <a href="twitter.com/chetan51">Chetan Surpur</a>, <a href="https://twitter.com/ywcui">Yuiwei Cui</a>
+        <a href="twitter.com/chetan51">Chetan Surpur</a>, <a href="https://twitter.com/ywcui">Yuwei Cui</a>
     </h4>
 
     <ul>
