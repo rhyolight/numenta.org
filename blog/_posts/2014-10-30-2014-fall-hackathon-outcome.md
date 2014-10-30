@@ -582,6 +582,6 @@ It's not an easy road, but you are the **pioneers** helping us pave it for the m
 > Open Source Community Flag-Bearer <br/>
 > Numenta, Inc.
 
-[Comments on Reddit]()
+[Comments on Reddit](http://www.reddit.com/r/MachineLearning/comments/2ktnpt/2014_fall_nupic_hackathon_outcome/)
 
 <small><strong>By the way!</strong> You can see all the videos and photos taken at every hackathon on our <a href="http://www.youtube.com/channel/UC8-ttzWLgXZOGuhUyrPlUuA">YouTube channel</a> and <a href="https://www.flickr.com/photos/nupic/">Flickr page</a>.</small>
