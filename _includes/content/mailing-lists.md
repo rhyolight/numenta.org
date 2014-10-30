@@ -14,7 +14,7 @@ This is a friendly list where newcomers can come and ask questions about how thi
 
 ## [\[nupic-theory\]](http://lists.numenta.org/mailman/listinfo/nupic-theory_lists.numenta.org)
 
-Are you interested in discussing the theory behind the CLA and HTM? Subscribe to this list!
+Are you interested in discussing the theory behind HTM? Subscribe to this list!
 
 - [Web Archive](http://lists.numenta.org/pipermail/nupic-theory_lists.numenta.org/)
 

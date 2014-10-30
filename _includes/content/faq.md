@@ -1,12 +1,12 @@
 Frequently Asked Questions
 ===========================
 
-* [Is there a specific application for NuPIC?](#is_there_a_specific_application_for_nupic)
-* [What's the difference between your contributor license and Apache's?](#whats_the_difference_between_your_contributor_license_and_apaches)
-* [What's the difference between this and your old offering?](#whats_the_difference_between_this_and_your_old_offering)
-* [Can I add an external library to NuPIC?](#can_i_add_an_external_library_to_nupic)
-* [Does NuPIC implement hierarchy?](#does_nupic_implement_hierarchy)
-* [What is the difference between HTM and CLA?](#what_is_the_difference_between_htm_and_cla)
+* [Is there a specific application for NuPIC?](#is-there-a-specific-application-for-nupic)
+* [What's the difference between your contributor license and Apache's?](#whats-the-difference-between-your-contributor-license-and-apaches)
+* [What's the difference between this and your old offering?](#whats-the-difference-between-this-and-your-old-offering)
+* [Can I add an external library to NuPIC?](#can-i-add-an-external-library-to-nupic)
+* [Does NuPIC implement hierarchy?](#does-nupic-implement-hierarchy)
+* [What is the difference between HTM and CLA?](#what-is-the-difference-between-htm-and-cla)
 
 ## Is there a specific application for NuPIC?
 
@@ -20,7 +20,7 @@ Not much, really. Here's a [diff](http://www.diffchecker.com/tas54ez4). We've al
 
 ## What's the difference between this and your old offering?
 
-It is important to emphasize that the old and new NuPIC algorithms are completely different.  This isn't an enhancement.  It might be a bit confusing that we are using the same name but we figured only a few people would be aware of the old NuPIC offering. The main differences are: a) NuPIC today includes the CLA whereas the old NuPIC had our previous algorithms, b) old NuPIC was tuned for vision whereas new NuPIC is tuned for [Grok](http://groksolutions.com/product.html), and c) old NuPIC ran on Windows.
+It is important to emphasize that the old and new NuPIC algorithms are completely different.  This isn't an enhancement.  It might be a bit confusing that we are using the same name but we figured only a few people would be aware of the old NuPIC offering. The main differences are: a) NuPIC today includes HTM whereas the old NuPIC had our previous algorithms, b) old NuPIC was tuned for vision whereas new NuPIC is tuned for [Grok](http://groksolutions.com/product.html), and c) old NuPIC ran on Windows.
 
 
 ## Can I add an external library to NuPIC?
@@ -37,8 +37,8 @@ The algorithmic mechanism for creating an effective learned spatiotemporal hiera
 
 The neocortex is the seat of intelligent thought in the mammalian brain. High level vision, hearing, touch, movement, language, and planning are all performed by the neocortex. Given such a diverse suite of cognitive functions, you might expect the neocortex to implement an equally diverse suite of specialized neural algorithms. This is not the case. The neocortex displays a remarkably uniform pattern of neural circuitry. The biological evidence suggests that the neocortex implements a common set of algorithms to perform many different intelligence functions.
 
-Hierarchical Temporal Memory (HTM) is a term coined by Jeff Hawkins to describe the overall space of systems that capture the structural and algorithmic properties of the neocortex. Many of the key properties concerning HTM algorithms were described in the book On Intelligence. These properties include continuous learning, sequence prediction, hierarchy, feedback, attention, and sensorimotor control. The HTM Cortical Learning Algorithms whitepaper introduced a new property, namely Sparse Distributed Representations (SDR).
+Hierarchical Temporal Memory (HTM) is a term coined by Jeff Hawkins to describe the overall space of systems that capture the structural and algorithmic properties of the neocortex. Many of the key properties concerning HTM algorithms were described in the book On Intelligence. These properties include continuous learning, sequence prediction, hierarchy, feedback, attention, and sensorimotor control. The [HTM whitepaper]({{ site.baseurl }}/htm-white.paper.html) introduced a new property, namely Sparse Distributed Representations (SDR).
 
-There could be many different HTM algorithms but so far no one has effectively implemented the full set of properties in a fully working system. The Cortical Learning Algorithm (CLA) is a specific algorithm that covers some of the key aspects of HTM. The CLA uses SDR's, is a continuously learning system, can learn complex sequences and make temporal predictions. There are strong relationships to what is currently known about the laminar structure in a single layer of the neocortex. The CLA does not cover all the properties of HTM but we believe it forms a strong foundation for a more complete implementation.
+There could be many different HTM algorithms but so far no one has effectively implemented the full set of properties in a fully working system. The Cortical Learning Algorithm (CLA) is a specific algorithm that covers some of the key aspects of HTM. The CLA uses SDR's, is a continuously learning system, can learn complex sequences and make temporal predictions. There are strong relationships to what is currently known about the laminar structure in a single layer of the neocortex. HTM does not cover all the properties of HTM but we believe it forms a strong foundation for a more complete implementation.
 
 Current research at Numenta is focused on temporal pooling (required for effective spatiotemporal hierarchies) and sensorimotor control. Please see some of the recent talks for more detail on these topics.
