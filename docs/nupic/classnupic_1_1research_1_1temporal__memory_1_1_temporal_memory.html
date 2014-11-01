@@ -393,7 +393,7 @@ Static Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>prevNumActiveSynapsesForSegment</em>, </td>
+          <td class="paramname"><em>prevActiveCells</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -435,7 +435,7 @@ Static Public Member Functions</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">activeColumns</td><td>(set) Indices of active columns in <code>t</code> </td></tr>
     <tr><td class="paramname">predictedColumns</td><td>(set) Indices of predicted columns in <code>t</code> </td></tr>
-    <tr><td class="paramname">prevNumActiveSynapsesForSegment</td><td>(dict) Mapping from segments to # active synapses in <code>t-1</code> (see <code>TM.computePredictiveCells</code>) </td></tr>
+    <tr><td class="paramname">prevActiveCells</td><td>(set) Indices of active cells in <code>t-1</code> </td></tr>
     <tr><td class="paramname">connections</td><td>(<a class="el" href="classnupic_1_1research_1_1temporal__memory_1_1_connections.html" title="Class to hold data representing the connectivity of a layer of cells, that the TM operates on...">Connections</a>) Connectivity of layer</td></tr>
   </table>
   </dd>
@@ -517,12 +517,6 @@ Static Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>prevNumActiveSynapsesForSegment</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
           <td class="paramname"><em>prevActiveCells</em>, </td>
         </tr>
         <tr>
@@ -558,7 +552,6 @@ Static Public Member Functions</h2></td></tr>
     <tr><td class="paramname">activeColumns</td><td>(set) Indices of active columns in <code>t</code> </td></tr>
     <tr><td class="paramname">prevPredictiveCells</td><td>(set) Indices of predictive cells in <code>t-1</code> </td></tr>
     <tr><td class="paramname">prevActiveSegments</td><td>(set) Indices of active segments in <code>t-1</code> </td></tr>
-    <tr><td class="paramname">prevNumActiveSynapsesForSegment</td><td>(dict) Mapping from segments to # active synapses in <code>t-1</code> (see <code>TM.computePredictiveCells</code>) </td></tr>
     <tr><td class="paramname">prevActiveCells</td><td>(set) Indices of active cells in <code>t-1</code> </td></tr>
     <tr><td class="paramname">prevWinnerCells</td><td>(set) Indices of winner cells in <code>t-1</code> </td></tr>
     <tr><td class="paramname">connections</td><td>(<a class="el" href="classnupic_1_1research_1_1temporal__memory_1_1_connections.html" title="Class to hold data representing the connectivity of a layer of cells, that the TM operates on...">Connections</a>) Connectivity of layer </td></tr>
@@ -566,7 +559,7 @@ Static Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>(tuple) Contains: <code>activeCells</code> (set), <code>winnerCells</code> (set), <code>activeSynapsesForSegment</code> (dict), <code>activeSegments</code> (set), <code>predictiveCells</code> (set) </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>(tuple) Contains: <code>activeCells</code> (set), <code>winnerCells</code> (set), <code>activeSegments</code> (set), <code>predictiveCells</code> (set) </dd></dl>
 
 </div>
 </div>
@@ -692,7 +685,7 @@ Static Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>numActiveSynapsesForSegment</em>, </td>
+          <td class="paramname"><em>activeCells</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -713,7 +706,7 @@ Static Public Member Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">cells</td><td>(set) Indices of cells </td></tr>
-    <tr><td class="paramname">numActiveSynapsesForSegment</td><td>(dict) Mapping from segments to # active synapses (see <code>TM.computePredictiveCells</code>) </td></tr>
+    <tr><td class="paramname">activeCells</td><td>(set) Indices of active cells </td></tr>
     <tr><td class="paramname">connections</td><td>(<a class="el" href="classnupic_1_1research_1_1temporal__memory_1_1_connections.html" title="Class to hold data representing the connectivity of a layer of cells, that the TM operates on...">Connections</a>) Connectivity of layer</td></tr>
   </table>
   </dd>
@@ -742,7 +735,7 @@ Static Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>numActiveSynapsesForSegment</em>, </td>
+          <td class="paramname"><em>activeCells</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -762,7 +755,7 @@ Static Public Member Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">cell</td><td>(int) Cell index </td></tr>
-    <tr><td class="paramname">numActiveSynapsesForSegment</td><td>(dict) Mapping from segments to # active synapses (see <code>TM.computePredictiveCells</code>) </td></tr>
+    <tr><td class="paramname">activeCells</td><td>(set) Indices of active cells </td></tr>
     <tr><td class="paramname">connections</td><td>(<a class="el" href="classnupic_1_1research_1_1temporal__memory_1_1_connections.html" title="Class to hold data representing the connectivity of a layer of cells, that the TM operates on...">Connections</a>) Connectivity of layer</td></tr>
   </table>
   </dd>
@@ -983,7 +976,7 @@ Static Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Oct 30 2014 01:13:01 for NuPIC by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Nov 1 2014 00:01:04 for NuPIC by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.7
 </small></address>
