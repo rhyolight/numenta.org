@@ -45,7 +45,6 @@ var searchData=
   ['setsynperminactivedec',['setSynPermInactiveDec',['../classnupic_1_1research_1_1spatial__pooler_1_1_spatial_pooler.html#a8858ffad02bb730b671c311efb4e360e',1,'nupic::research::spatial_pooler::SpatialPooler']]],
   ['setsynpermtrimthreshold',['setSynPermTrimThreshold',['../classnupic_1_1research_1_1spatial__pooler_1_1_spatial_pooler.html#af8d0bc53e8866063da18c6481143b0ef',1,'nupic::research::spatial_pooler::SpatialPooler']]],
   ['setupdateperiod',['setUpdatePeriod',['../classnupic_1_1research_1_1spatial__pooler_1_1_spatial_pooler.html#ae15157a0ab945e54160c0db5213fd5ca',1,'nupic::research::spatial_pooler::SpatialPooler']]],
-  ['simplevectorencoder',['SimpleVectorEncoder',['../classnupic_1_1encoders_1_1vector_1_1_simple_vector_encoder.html',1,'nupic::encoders::vector']]],
   ['slowissegmentactive',['slowIsSegmentActive',['../classnupic_1_1research_1_1_t_p10_x2_1_1_t_p10_x2.html#a5c232cd8fd1716f2ad8a0a7dc17ac575',1,'nupic::research::TP10X2::TP10X2']]],
   ['spatialpooler',['SpatialPooler',['../classnupic_1_1research_1_1spatial__pooler_1_1_spatial_pooler.html',1,'nupic::research::spatial_pooler']]],
   ['stripunlearnedcolumns',['stripUnlearnedColumns',['../classnupic_1_1research_1_1spatial__pooler_1_1_spatial_pooler.html#a548b6fbcb10399d80b6bf17048674388',1,'nupic::research::spatial_pooler::SpatialPooler']]],
