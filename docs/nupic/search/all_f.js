@@ -3,6 +3,7 @@ var searchData=
   ['save',['save',['../classnupic_1_1frameworks_1_1opf_1_1model_1_1_model.html#aba0970ece8740693d3b82e656500a9c0',1,'nupic::frameworks::opf::model::Model']]],
   ['savetofile',['saveToFile',['../classnupic_1_1research_1_1_t_p10_x2_1_1_t_p10_x2.html#a9e7fcd430006ce19ec90516d90565e1c',1,'nupic.research.TP10X2.TP10X2.saveToFile()'],['../classnupic_1_1research_1_1_t_p_1_1_t_p.html#a9e7fcd430006ce19ec90516d90565e1c',1,'nupic.research.TP.TP.saveToFile()']]],
   ['scalarencoder',['ScalarEncoder',['../classnupic_1_1encoders_1_1scalar_1_1_scalar_encoder.html',1,'nupic::encoders::scalar']]],
+  ['scalarspaceencoder',['ScalarSpaceEncoder',['../classnupic_1_1encoders_1_1scalarspace_1_1_scalar_space_encoder.html',1,'nupic::encoders::scalarspace']]],
   ['scalarstostr',['scalarsToStr',['../classnupic_1_1encoders_1_1base_1_1_encoder.html#a21f8a584a6282b6be150f53a23fcc6a0',1,'nupic::encoders::base::Encoder']]],
   ['sdrcategoryencoder',['SDRCategoryEncoder',['../classnupic_1_1encoders_1_1sdrcategory_1_1_s_d_r_category_encoder.html',1,'nupic::encoders::sdrcategory']]],
   ['sdrrandomencoder',['SDRRandomEncoder',['../classnupic_1_1encoders_1_1sdrrandom_1_1_s_d_r_random_encoder.html',1,'nupic::encoders::sdrrandom']]],
