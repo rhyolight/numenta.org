@@ -8,5 +8,6 @@ var searchData=
   ['updatemindutycycles_5f',['updateMinDutyCycles_',['../classnta_1_1algorithms_1_1spatial__pooler_1_1_spatial_pooler.html#aa95f902fd98059835d8ac43110c1cc31',1,'nta::algorithms::spatial_pooler::SpatialPooler']]],
   ['updatemindutycyclesglobal_5f',['updateMinDutyCyclesGlobal_',['../classnta_1_1algorithms_1_1spatial__pooler_1_1_spatial_pooler.html#a91ba1935b646d5395b324b0c5f6efa49',1,'nta::algorithms::spatial_pooler::SpatialPooler']]],
   ['updatemindutycycleslocal_5f',['updateMinDutyCyclesLocal_',['../classnta_1_1algorithms_1_1spatial__pooler_1_1_spatial_pooler.html#a3ff87a26bd2b583785a324a1c9237ed5',1,'nta::algorithms::spatial_pooler::SpatialPooler']]],
-  ['updatepermanencesforcolumn_5f',['updatePermanencesForColumn_',['../classnta_1_1algorithms_1_1spatial__pooler_1_1_spatial_pooler.html#a682ae196f8ca597ed4215c20e5a1078a',1,'nta::algorithms::spatial_pooler::SpatialPooler']]]
+  ['updatepermanencesforcolumn_5f',['updatePermanencesForColumn_',['../classnta_1_1algorithms_1_1spatial__pooler_1_1_spatial_pooler.html#a682ae196f8ca597ed4215c20e5a1078a',1,'nta::algorithms::spatial_pooler::SpatialPooler']]],
+  ['updatesynapsepermanence',['updateSynapsePermanence',['../classnta_1_1algorithms_1_1connections_1_1_connections.html#a34b643df260a6ecb5c1ec7c127449de7',1,'nta::algorithms::connections::Connections']]]
 ];

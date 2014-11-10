@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['spatialpooler_2ehpp',['SpatialPooler.hpp',['../_spatial_pooler_8hpp.html',1,'']]]
+  ['region_2ehpp',['Region.hpp',['../_region_8hpp.html',1,'']]]
 ];

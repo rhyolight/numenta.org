@@ -2,6 +2,7 @@ var searchData=
 [
   ['save',['save',['../classnta_1_1_network.html#a61520e69ae554d65995c2b0fb9d6b945',1,'nta::Network::save()'],['../classnta_1_1algorithms_1_1spatial__pooler_1_1_spatial_pooler.html#a83aa964fa6465e4cd5c11160c602b1df',1,'nta::algorithms::spatial_pooler::SpatialPooler::save()']]],
   ['seed_5f',['seed_',['../classnta_1_1algorithms_1_1spatial__pooler_1_1_spatial_pooler.html#a704ef274657c05b52a6d1040ad8d6bb7',1,'nta::algorithms::spatial_pooler::SpatialPooler']]],
+  ['segmentsforcell',['segmentsForCell',['../classnta_1_1algorithms_1_1connections_1_1_connections.html#a4f98fa446268b0a746c3807cfb643b56',1,'nta::algorithms::connections::Connections']]],
   ['setactivedutycycles',['setActiveDutyCycles',['../classnta_1_1algorithms_1_1spatial__pooler_1_1_spatial_pooler.html#a02e57c2e38675a8f635ed34f49afcf2b',1,'nta::algorithms::spatial_pooler::SpatialPooler']]],
   ['setboostfactors',['setBoostFactors',['../classnta_1_1algorithms_1_1spatial__pooler_1_1_spatial_pooler.html#a495a44ea6eca04fb8f7f9c3ebd02ecb1',1,'nta::algorithms::spatial_pooler::SpatialPooler']]],
   ['setdestdimensions',['setDestDimensions',['../classnta_1_1_link.html#a46d607bc39668a9b6a0600904e69ff3f',1,'nta::Link']]],
@@ -47,5 +48,6 @@ var searchData=
   ['setupdateperiod',['setUpdatePeriod',['../classnta_1_1algorithms_1_1spatial__pooler_1_1_spatial_pooler.html#ad91eabb8c79b4f0d072153f5c4d9baec',1,'nta::algorithms::spatial_pooler::SpatialPooler']]],
   ['setwraparound',['setWrapAround',['../classnta_1_1algorithms_1_1spatial__pooler_1_1_spatial_pooler.html#ab746d72ed9619fe75d83be75eeca224d',1,'nta::algorithms::spatial_pooler::SpatialPooler']]],
   ['shutdown',['shutdown',['../classnta_1_1_nu_p_i_c.html#af2108efe2cb4e6c9dc467ea1f58a1871',1,'nta::NuPIC']]],
-  ['stripunlearnedcolumns',['stripUnlearnedColumns',['../classnta_1_1algorithms_1_1spatial__pooler_1_1_spatial_pooler.html#aacc0cbb92811f66597595db76838aef3',1,'nta::algorithms::spatial_pooler::SpatialPooler']]]
+  ['stripunlearnedcolumns',['stripUnlearnedColumns',['../classnta_1_1algorithms_1_1spatial__pooler_1_1_spatial_pooler.html#aacc0cbb92811f66597595db76838aef3',1,'nta::algorithms::spatial_pooler::SpatialPooler']]],
+  ['synapsesforsegment',['synapsesForSegment',['../classnta_1_1algorithms_1_1connections_1_1_connections.html#adaedd80244f7f0185885b792240c2577',1,'nta::algorithms::connections::Connections']]]
 ];
