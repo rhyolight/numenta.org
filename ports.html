@@ -1,0 +1,13 @@
+---
+layout: default
+title: NuPIC Ports
+---
+
+<section>
+  {% capture content %}
+  {% include content/ports.md %}
+  {% endcapture %}
+  {{ content | markdownify }}
+</section>
+
+<script src="{{ site.baseurl }}/javascripts/jump-menu.js"></script>
