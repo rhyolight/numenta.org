@@ -20,6 +20,14 @@ Master Thesis for the acquisition of the academic degree Master of Science (M.Sc
 
 * * *
 
+## Fergal Byrne on HTM and NuPIC
+
+- [Real Machine Intelligence](https://leanpub.com/realsmartmachines/read) (online book, in progress)
+- [Blog](http://inbits.com/category/nupic/)
+- [Article by Fergal Byrne with RDSE implementation in Clojure](http://fergalbyrne.github.io/rdse.html)
+
+* * *
+
 ## Papers on HTM by Associate Professor [John Thornton](http://www.ict.griffith.edu.au/~johnt/index.html) (Griffith University)
 
 - [Evaluating sparse codes on handwritten digits](http://www.ict.griffith.edu.au/~johnt/publications/AI2013.pdf) **PDF** *(Australasian Joint Conference on AI 2013)*
@@ -58,14 +66,3 @@ Detailed document from Christian Cleber Masdeval Braz with wonderful graphics de
 ## [Hierarchical Temporal Memory Cortical Learning Algorithm for Pattern Recognition on Multi-core Architectures](http://pdxscholar.library.pdx.edu/open_access_etds/202/)
 
 By Ryan William Price, Portland State University.
-
-* * *
-
-## [Focus: Sparse Distributed Representations](http://inbits.com/nupic-machine-intelligence/focus-sparse-distributed-representations/)
-
-Blog post by community-member Fergal Byrne.
-
-## [Random Distributed Scalar Encoder](http://fergalbyrne.github.io/rdse.html)
-#### Experiments on Improving the Scalar Encoder
-
-Article by Fergal Byrne with RDSE implementation in Clojure.
