@@ -48,49 +48,45 @@ title: Open Source Community
         float: right;
         margin-left: 20px;
     }
+
+    /* BEGIN social icon buttons: white logos on blue circles */
+    .social {
+        margin: 3rem 0;
+    }
     .social > a {
-      background: #29aae2;
-      border-radius: 50%;
-      &:hover {
-        background: darken(#29aae2, 15%);
-      }
+        background: #29aae2;
+        border-radius: 50%;
+    }
+    .social > a:hover {
+        background: #098ac2;
     }
     .social-lg > a {
-      border: 1.5rem #29aae2 solid;
-      margin-right: 0.66rem;
-      padding: 0 0 0.3rem 0.2rem;
-      @media (max-width: 768px) {
         border: 1.25rem #29aae2 solid;
-        margin-right: 0.1rem;
-        padding: 0 0.2rem 0.2rem 0.2rem;
-      }
-      &:hover {
-        border: 1.5rem darken(#29aae2, 15%) solid;
-        @media (max-width: 768px) {
-          border: 1.25rem darken(#29aae2, 15%) solid;
-        }
-      }
-      > img {
-        height: 20px;
-        width: 20px;
-        @media (max-width: 768px) {
-          height: 17px;
-          width: 17px;
-        }
-      }
+        margin-right: 0.66rem;
+        padding: 0.9rem 0 0 0;
     }
-    .social-sm > a {
-      border: 0.25rem #29aae2 solid;
-      padding: 0 0.6rem 0.3rem 0.6rem;
-      &:hover {
-        border: 0.25rem darken(#29aae2, 15%) solid;
-      }
-      > img {
-        height: 13px;
-        width: 13px;
-      }
+    .social-lg > a:hover {
+        border: 1.25rem #098ac2 solid;
     }
-
+    .social-lg > a > img {
+        height: 30px;
+        width: 30px;
+    }
+    @media (max-width: 640px) {
+        .social-lg > a {
+            border: 0.666rem #29aae2 solid;
+            margin-right: 0.33rem;
+            padding: 0.3rem 0 0 0;
+        }
+        .social-lg > a:hover {
+            border: 0.666rem #098ac2 solid;
+        }
+        .social-lg > a > img {
+            height: 20px;
+            width: 20px;
+        }
+    }
+    /* END social icon buttons */
 </style>
 
 <div id="fb-root"></div>
@@ -184,7 +180,7 @@ title: Open Source Community
 
         <h4>Public Chat</h4>
 
-        <p/>We also have a <a href="https://gitter.im/numenta/public">public chat room on Gitter</a> that anyone with a GitHub account can join. 
+        <p/>We also have a <a href="https://gitter.im/numenta/public">public chat room on Gitter</a> that anyone with a GitHub account can join.
 
         <div class="right-image">
             <a href="irc://irc.freenode.net/nupic" target="_blank"><img src="{{ site.baseurl }}/images/irc_logo.png"/></a>
