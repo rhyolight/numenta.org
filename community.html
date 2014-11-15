@@ -48,6 +48,45 @@ title: Open Source Community
         float: right;
         margin-left: 20px;
     }
+
+    /* BEGIN social icon buttons: white logos on blue circles */
+    .social {
+        margin: 3rem 0;
+    }
+    .social > a {
+        background: #29aae2;
+        border-radius: 50%;
+    }
+    .social > a:hover {
+        background: #098ac2;
+    }
+    .social-lg > a {
+        border: 1.25rem #29aae2 solid;
+        margin-right: 0.66rem;
+        padding: 0.9rem 0 0 0;
+    }
+    .social-lg > a:hover {
+        border: 1.25rem #098ac2 solid;
+    }
+    .social-lg > a > img {
+        height: 30px;
+        width: 30px;
+    }
+    @media (max-width: 640px) {
+        .social-lg > a {
+            border: 0.666rem #29aae2 solid;
+            margin-right: 0.33rem;
+            padding: 0.3rem 0 0 0;
+        }
+        .social-lg > a:hover {
+            border: 0.666rem #098ac2 solid;
+        }
+        .social-lg > a > img {
+            height: 20px;
+            width: 20px;
+        }
+    }
+    /* END social icon buttons */
 </style>
 
 <div id="fb-root"></div>
@@ -141,7 +180,7 @@ title: Open Source Community
 
         <h4>Public Chat</h4>
 
-        <p/>We also have a <a href="https://gitter.im/numenta/public">public chat room on Gitter</a> that anyone with a GitHub account can join. 
+        <p/>We also have a <a href="https://gitter.im/numenta/public">public chat room on Gitter</a> that anyone with a GitHub account can join.
 
         <div class="right-image">
             <a href="irc://irc.freenode.net/nupic" target="_blank"><img src="{{ site.baseurl }}/images/irc_logo.png"/></a>
@@ -160,56 +199,14 @@ title: Open Source Community
 
     <section>
         <h2 id="social_media">Social Media</h2>
-
-        <h3><a href="http://twiter.com/numenta">Twitter</a></h3>
-
-        <a class="twitter-timeline" href="https://twitter.com/numenta" data-widget-id="332947348261060608">Tweets by @numenta</a>
-
-        <br/>
-        <br/>
-
-        <h3><a href="https://www.facebook.com/pages/Numenta/321559142118">Facebook</a></h3>
-
-        <div>
-            <div class="fb-follow" data-href="https://www.facebook.com/pages/Numenta/321559142118" data-show-faces="true" data-width="450"></div>
+        <div class="social social-lg">
+            <a href="https://www.facebook.com/pages/Numenta/321559142118"><img src="{{ site.baseurl }}/images/social/facebook.png" alt="Numenta on Facebook" /></a>
+            <a href="http://twitter.com/numenta"><img src="{{ site.baseurl }}/images/social/twitter.png" alt="Numenta on Twitter" /></a>
+            <a href="http://plus.google.com/+NumentaOrg"><img src="{{ site.baseurl }}/images/social/googleplus.png" alt="NuPIC on Google+" /></a>
+            <a href="http://www.meetup.com/Numenta-Platform-for-Intelligent-Computing-Events/"><img src="{{ site.baseurl }}/images/social/meetup.png" alt="NuPIC on Meetup" /></a>
+            <a href="http://stackoverflow.com/tags/nupic/info"><img src="{{ site.baseurl }}/images/social/stackoverflow.png" alt="NuPIC on Stack Overflow" /></a>
+            <a href="http://www.youtube.com/channel/UC8-ttzWLgXZOGuhUyrPlUuA"><img src="{{ site.baseurl }}/images/social/youtube.png" alt="NuPIC on YouTube" /></a>
         </div>
-
-        <br/>
-        <br/>
-
-        <h3><a href="http://www.flickr.com/photos/107852893@N04/">Flickr</a></h3>
-
-        <div id="flickr_badge_wrapper"><script type="text/javascript" src="http://www.flickr.com/badge_code_v2.gne?count=10&display=latest&size=s&layout=x&source=user&user=107852893@N04"></script></div><br/><br/>
-
-        <h3><a href="http://stackoverflow.com/tags/nupic/info">Stackoverflow</a></h3>
-
-        <p/>The latest questions about NuPIC on Stackoverflow are listed here.
-
-        <table><tbody><tr>
-            <td><img src="{{ site.baseurl }}/images/stackoverflow.png"></td>
-            <td><div id="so-feed"></div></td>
-        </tr></tbody></table>
-        
-        <br/><br/>
-
-        <table><tbody>
-            <tr>
-                <td>
-                    <h3><a href="http://www.meetup.com/Numenta-Platform-for-Intelligent-Computing-Events/">Meetup</a></h3>
-                </td>
-                <td>
-                    <h3><a href="http://plus.google.com/+NumentaOrg">Google+</a></h3>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <iframe width="225" height="430" src="http://meetu.ps/1YDGKM" frameborder="0"></iframe>
-                </td>
-                <td>
-                    <div class="g-page" data-href="//plus.google.com/100642636108337517466" data-rel="publisher"></div>
-                </td>
-            </tr>
-        </tbody></table>
     </section>
 
 </section>
