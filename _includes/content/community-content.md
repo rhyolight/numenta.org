@@ -6,9 +6,21 @@ The following resources have been provided by community members of the NuPIC ope
 
 * * *
 
-## <a href="{{ site.baseurl }}/resources/community-content/Masterthesis%20Nupic%20Study.pdf">Intelligent Predictions: an empirical study of the Cortical Learning Algorithm (PDF)</a>
+## [Toward a Universal Cortical Algorithm](https://drive.google.com/file/d/0B0RWGGOoommKM0llNUF3V2JJYTg/view?usp=sharing)
 
-Master Thesis for the acquisition of the academic degree Master of Science (M.Sc.) by Michael Galetzka.
+Toward a Universal Cortical Algorithm: Examining Hierarchical Temporal Memory in Light of Frontal Cortical Function
+
+> **Michael R. Ferrier** <br/>
+> Department of Cognitive Linguistic and Psychological Sciences  <br/>
+> Brown University
+
+
+* * *
+
+## [Intelligent Predictions: an empirical study of the Cortical Learning Algorithm]({{ site.baseurl }}/resources/community-content/Masterthesis%20Nupic%20Study.pdf) (PDF)
+
+> **Michael Galetzka** <br/>
+> Master Thesis for the acquisition of the academic degree Master of Science (M.Sc.)
 
 * * *
 
