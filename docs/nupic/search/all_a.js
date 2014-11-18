@@ -1,7 +1,7 @@
 var searchData=
 [
   ['mapbucketindextononzerobits',['mapBucketIndexToNonZeroBits',['../classnupic_1_1encoders_1_1random__distributed__scalar_1_1_random_distributed_scalar_encoder.html#aeb2fd937ab8e58547ca21b7cd2f71fb9',1,'nupic::encoders::random_distributed_scalar::RandomDistributedScalarEncoder']]],
-  ['mapcellstocolumns',['mapCellsToColumns',['../classnupic_1_1research_1_1temporal__memory_1_1_connections.html#aecf475a387f7c535be57b18163778ee6',1,'nupic::research::temporal_memory::Connections']]],
+  ['mapcellstocolumns',['mapCellsToColumns',['../classnupic_1_1research_1_1temporal__memory_1_1_temporal_memory.html#aecf475a387f7c535be57b18163778ee6',1,'nupic::research::temporal_memory::TemporalMemory']]],
   ['maxage',['maxAge',['../classnupic_1_1research_1_1_t_p_1_1_t_p.html#a9a007327773fb2a6dbf261ac5de74090',1,'nupic::research::TP::TP']]],
   ['maxinfbacktrack',['maxInfBacktrack',['../classnupic_1_1research_1_1_t_p_1_1_t_p.html#a794c1ad92a0be3a71161ced369dd6246',1,'nupic::research::TP::TP']]],
   ['maxlrnbacktrack',['maxLrnBacktrack',['../classnupic_1_1research_1_1_t_p_1_1_t_p.html#a9a2c0665c35d9e7f83570da9cb3dbd4f',1,'nupic::research::TP::TP']]],

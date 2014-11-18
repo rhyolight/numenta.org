@@ -5,6 +5,7 @@ var searchData=
   ['learnonsegments',['learnOnSegments',['../classnupic_1_1research_1_1temporal__memory_1_1_temporal_memory.html#a87917601f17ba30b22657b1ae5f3b796',1,'nupic::research::temporal_memory::TemporalMemory']]],
   ['learnphase1',['learnPhase1',['../classnupic_1_1research_1_1_t_p_1_1_t_p.html#af240c1c01980b44ff07a881d670474cd',1,'nupic::research::TP::TP']]],
   ['learnphase2',['learnPhase2',['../classnupic_1_1research_1_1_t_p_1_1_t_p.html#a9caae2299e9ed99f72d23ffc580a07a6',1,'nupic::research::TP::TP']]],
+  ['leastusedcell',['leastUsedCell',['../classnupic_1_1research_1_1temporal__memory_1_1_temporal_memory.html#a0f2390e4e34d0022669b028fe7562f40',1,'nupic::research::temporal_memory::TemporalMemory']]],
   ['load',['load',['../classnupic_1_1frameworks_1_1opf_1_1model_1_1_model.html#a34b4d3a01c4a6233a80fcbda3ba28c7f',1,'nupic::frameworks::opf::model::Model']]],
   ['loadfromcheckpoint',['loadFromCheckpoint',['../classnupic_1_1frameworks_1_1opf_1_1modelfactory_1_1_model_factory.html#a73b1a13824e1990bd42deb288a594583',1,'nupic::frameworks::opf::modelfactory::ModelFactory']]],
   ['loadfromfile',['loadFromFile',['../classnupic_1_1research_1_1_t_p10_x2_1_1_t_p10_x2.html#a14df89443d1ae6416e164e6ceba560a5',1,'nupic.research.TP10X2.TP10X2.loadFromFile()'],['../classnupic_1_1research_1_1_t_p_1_1_t_p.html#a14df89443d1ae6416e164e6ceba560a5',1,'nupic.research.TP.TP.loadFromFile()']]]

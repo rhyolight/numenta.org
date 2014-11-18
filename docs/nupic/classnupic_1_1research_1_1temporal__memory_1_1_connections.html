@@ -97,7 +97,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 
-<p>Class to hold data representing the connectivity of a layer of cells, that the TM operates on.  
+<p>Class to hold data representing the connectivity of a collection of cells.  
  <a href="classnupic_1_1research_1_1temporal__memory_1_1_connections.html#details">More...</a></p>
 
 <p>Inherits object.</p>
@@ -106,12 +106,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ac775ee34451fdfa742b318538164070e"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnupic_1_1research_1_1temporal__memory_1_1_connections.html#ac775ee34451fdfa742b318538164070e">__init__</a></td></tr>
 <tr class="separator:ac775ee34451fdfa742b318538164070e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa601f713aaef48d1961e1d90b32adf57"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnupic_1_1research_1_1temporal__memory_1_1_connections.html#aa601f713aaef48d1961e1d90b32adf57">columnForCell</a></td></tr>
-<tr class="memdesc:aa601f713aaef48d1961e1d90b32adf57"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the index of the column that a cell belongs to.  <a href="#aa601f713aaef48d1961e1d90b32adf57">More...</a><br /></td></tr>
-<tr class="separator:aa601f713aaef48d1961e1d90b32adf57"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a07288c595d31bf050cef39d09d69dc83"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnupic_1_1research_1_1temporal__memory_1_1_connections.html#a07288c595d31bf050cef39d09d69dc83">cellsForColumn</a></td></tr>
-<tr class="memdesc:a07288c595d31bf050cef39d09d69dc83"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the indices of cells that belong to a column.  <a href="#a07288c595d31bf050cef39d09d69dc83">More...</a><br /></td></tr>
-<tr class="separator:a07288c595d31bf050cef39d09d69dc83"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1bd2cac45503cb57a44db97a8d99b82b"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnupic_1_1research_1_1temporal__memory_1_1_connections.html#a1bd2cac45503cb57a44db97a8d99b82b">cellForSegment</a></td></tr>
 <tr class="memdesc:a1bd2cac45503cb57a44db97a8d99b82b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the cell that a segment belongs to.  <a href="#a1bd2cac45503cb57a44db97a8d99b82b">More...</a><br /></td></tr>
 <tr class="separator:a1bd2cac45503cb57a44db97a8d99b82b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -124,9 +118,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a3715275b547a85303c3eadaebb2bb292"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnupic_1_1research_1_1temporal__memory_1_1_connections.html#a3715275b547a85303c3eadaebb2bb292">synapsesForSegment</a></td></tr>
 <tr class="memdesc:a3715275b547a85303c3eadaebb2bb292"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the synapses on a segment.  <a href="#a3715275b547a85303c3eadaebb2bb292">More...</a><br /></td></tr>
 <tr class="separator:a3715275b547a85303c3eadaebb2bb292"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3139334c16a2b5a141990f565c81d77e"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnupic_1_1research_1_1temporal__memory_1_1_connections.html#a3139334c16a2b5a141990f565c81d77e">synapsesForSourceCell</a></td></tr>
-<tr class="memdesc:a3139334c16a2b5a141990f565c81d77e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the synapses for the source cell that they synapse on.  <a href="#a3139334c16a2b5a141990f565c81d77e">More...</a><br /></td></tr>
-<tr class="separator:a3139334c16a2b5a141990f565c81d77e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae769e1a9744756c3aebe7d015fcddfd0"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnupic_1_1research_1_1temporal__memory_1_1_connections.html#ae769e1a9744756c3aebe7d015fcddfd0">synapsesForPresynapticCell</a></td></tr>
+<tr class="memdesc:ae769e1a9744756c3aebe7d015fcddfd0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the synapses for the source cell that they synapse on.  <a href="#ae769e1a9744756c3aebe7d015fcddfd0">More...</a><br /></td></tr>
+<tr class="separator:ae769e1a9744756c3aebe7d015fcddfd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a58dfef3f2ba0d807bc2eedbfe6128ba0"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnupic_1_1research_1_1temporal__memory_1_1_connections.html#a58dfef3f2ba0d807bc2eedbfe6128ba0">createSegment</a></td></tr>
 <tr class="memdesc:a58dfef3f2ba0d807bc2eedbfe6128ba0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a new segment on a cell.  <a href="#a58dfef3f2ba0d807bc2eedbfe6128ba0">More...</a><br /></td></tr>
 <tr class="separator:a58dfef3f2ba0d807bc2eedbfe6128ba0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -136,18 +130,17 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a1a803b512de0ce6289fb996711eadea0"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnupic_1_1research_1_1temporal__memory_1_1_connections.html#a1a803b512de0ce6289fb996711eadea0">updateSynapsePermanence</a></td></tr>
 <tr class="memdesc:a1a803b512de0ce6289fb996711eadea0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the permanence for a synapse.  <a href="#a1a803b512de0ce6289fb996711eadea0">More...</a><br /></td></tr>
 <tr class="separator:a1a803b512de0ce6289fb996711eadea0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abfd210724bcb5d3412115a8001874701"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnupic_1_1research_1_1temporal__memory_1_1_connections.html#abfd210724bcb5d3412115a8001874701">numberOfColumns</a></td></tr>
-<tr class="memdesc:abfd210724bcb5d3412115a8001874701"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of columns in this layer.  <a href="#abfd210724bcb5d3412115a8001874701">More...</a><br /></td></tr>
-<tr class="separator:abfd210724bcb5d3412115a8001874701"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acfc434e5d81fd83e3ace573ab8f60ad8"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnupic_1_1research_1_1temporal__memory_1_1_connections.html#acfc434e5d81fd83e3ace573ab8f60ad8">numberOfCells</a></td></tr>
-<tr class="memdesc:acfc434e5d81fd83e3ace573ab8f60ad8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of cells in this layer.  <a href="#acfc434e5d81fd83e3ace573ab8f60ad8">More...</a><br /></td></tr>
-<tr class="separator:acfc434e5d81fd83e3ace573ab8f60ad8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aecf475a387f7c535be57b18163778ee6"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnupic_1_1research_1_1temporal__memory_1_1_connections.html#aecf475a387f7c535be57b18163778ee6">mapCellsToColumns</a></td></tr>
-<tr class="memdesc:aecf475a387f7c535be57b18163778ee6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maps cells to the columns they belong to.  <a href="#aecf475a387f7c535be57b18163778ee6">More...</a><br /></td></tr>
-<tr class="separator:aecf475a387f7c535be57b18163778ee6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abea118aa19284fa92710de16185dfde7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abea118aa19284fa92710de16185dfde7"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnupic_1_1research_1_1temporal__memory_1_1_connections.html#abea118aa19284fa92710de16185dfde7">numSegments</a></td></tr>
+<tr class="memdesc:abea118aa19284fa92710de16185dfde7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of segments. <br /></td></tr>
+<tr class="separator:abea118aa19284fa92710de16185dfde7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a847cb06534d3675312bd4233117c1efa"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a847cb06534d3675312bd4233117c1efa"></a>
+def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnupic_1_1research_1_1temporal__memory_1_1_connections.html#a847cb06534d3675312bd4233117c1efa">numSynapses</a></td></tr>
+<tr class="memdesc:a847cb06534d3675312bd4233117c1efa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of synapses. <br /></td></tr>
+<tr class="separator:a847cb06534d3675312bd4233117c1efa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Class to hold data representing the connectivity of a layer of cells, that the TM operates on. </p>
+<div class="textblock"><p>Class to hold data representing the connectivity of a collection of cells. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="ac775ee34451fdfa742b318538164070e"></a>
 <div class="memitem">
@@ -163,13 +156,7 @@ Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>columnDimensions</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>cellsPerColumn</em>&#160;</td>
+          <td class="paramname"><em>numCells</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -180,8 +167,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">columnDimensions</td><td>(list) Dimensions of the column space </td></tr>
-    <tr><td class="paramname">cellsPerColumn</td><td>(int) Number of cells per column </td></tr>
+    <tr><td class="paramname">numCells</td><td>(int) Number of cells in collection </td></tr>
   </table>
   </dd>
 </dl>
@@ -221,76 +207,6 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>(int) Cell index </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="a07288c595d31bf050cef39d09d69dc83"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">def cellsForColumn </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>self</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>column</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Returns the indices of cells that belong to a column. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">column</td><td>(int) Column index</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>(set) Cell indices </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="aa601f713aaef48d1961e1d90b32adf57"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">def columnForCell </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>self</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>cell</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Returns the index of the column that a cell belongs to. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">cell</td><td>(int) Cell index</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>(int) Column index </dd></dl>
 
 </div>
 </div>
@@ -349,7 +265,7 @@ Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>sourceCell</em>, </td>
+          <td class="paramname"><em>presynapticCell</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -369,7 +285,7 @@ Public Member Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">segment</td><td>(int) Segment index </td></tr>
-    <tr><td class="paramname">sourceCell</td><td>(int) Source cell index </td></tr>
+    <tr><td class="paramname">presynapticCell</td><td>(int) Source cell index </td></tr>
     <tr><td class="paramname">permanence</td><td>(float) Initial permanence</td></tr>
   </table>
   </dd>
@@ -409,80 +325,7 @@ Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>(tuple) Contains: <code>segment</code> (int), <code>sourceCell</code> (int), <code>permanence</code> (float) </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="aecf475a387f7c535be57b18163778ee6"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">def mapCellsToColumns </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>self</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>cells</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Maps cells to the columns they belong to. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">cells</td><td>(set) Cells</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>(dict) Mapping from columns to their cells in <code>cells</code> </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="acfc434e5d81fd83e3ace573ab8f60ad8"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">def numberOfCells </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>self</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Returns the number of cells in this layer. </p>
-<dl class="section return"><dt>Returns</dt><dd>(int) Number of cells </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="abfd210724bcb5d3412115a8001874701"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">def numberOfColumns </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>self</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Returns the number of columns in this layer. </p>
-<dl class="section return"><dt>Returns</dt><dd>(int) Number of columns </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>(SynapseData) Synapse data </dd></dl>
 
 </div>
 </div>
@@ -521,6 +364,41 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="ae769e1a9744756c3aebe7d015fcddfd0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def synapsesForPresynapticCell </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>presynapticCell</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the synapses for the source cell that they synapse on. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">presynapticCell</td><td>(int) Source cell index</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>(set) Synapse indices </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="a3715275b547a85303c3eadaebb2bb292"></a>
 <div class="memitem">
 <div class="memproto">
@@ -549,41 +427,6 @@ Public Member Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">segment</td><td>(int) Segment index</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>(set) Synapse indices </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="a3139334c16a2b5a141990f565c81d77e"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">def synapsesForSourceCell </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>self</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>sourceCell</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Returns the synapses for the source cell that they synapse on. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">sourceCell</td><td>(int) Source cell index</td></tr>
   </table>
   </dd>
 </dl>
@@ -638,7 +481,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Nov 13 2014 17:00:39 for NuPIC by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Nov 18 2014 15:17:24 for NuPIC by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.7
 </small></address>

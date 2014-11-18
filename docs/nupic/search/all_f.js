@@ -49,6 +49,6 @@ var searchData=
   ['spatialpooler',['SpatialPooler',['../classnupic_1_1research_1_1spatial__pooler_1_1_spatial_pooler.html',1,'nupic::research::spatial_pooler']]],
   ['stripunlearnedcolumns',['stripUnlearnedColumns',['../classnupic_1_1research_1_1spatial__pooler_1_1_spatial_pooler.html#a548b6fbcb10399d80b6bf17048674388',1,'nupic::research::spatial_pooler::SpatialPooler']]],
   ['swarming',['swarming',['../namespaceswarming.html',1,'']]],
-  ['synapsesforsegment',['synapsesForSegment',['../classnupic_1_1research_1_1temporal__memory_1_1_connections.html#a3715275b547a85303c3eadaebb2bb292',1,'nupic::research::temporal_memory::Connections']]],
-  ['synapsesforsourcecell',['synapsesForSourceCell',['../classnupic_1_1research_1_1temporal__memory_1_1_connections.html#a3139334c16a2b5a141990f565c81d77e',1,'nupic::research::temporal_memory::Connections']]]
+  ['synapsesforpresynapticcell',['synapsesForPresynapticCell',['../classnupic_1_1research_1_1temporal__memory_1_1_connections.html#ae769e1a9744756c3aebe7d015fcddfd0',1,'nupic::research::temporal_memory::Connections']]],
+  ['synapsesforsegment',['synapsesForSegment',['../classnupic_1_1research_1_1temporal__memory_1_1_connections.html#a3715275b547a85303c3eadaebb2bb292',1,'nupic::research::temporal_memory::Connections']]]
 ];
