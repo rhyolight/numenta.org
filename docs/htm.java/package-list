@@ -1,0 +1,6 @@
+org.numenta.nupic
+org.numenta.nupic.encoders
+org.numenta.nupic.integration
+org.numenta.nupic.model
+org.numenta.nupic.research
+org.numenta.nupic.util

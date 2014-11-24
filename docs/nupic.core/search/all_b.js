@@ -32,6 +32,8 @@ var searchData=
   ['nta_5fsize',['NTA_Size',['../_types_8h.html#acddbfc116368052db5f7843f22259d93',1,'Types.h']]],
   ['nta_5fuint',['NTA_UInt',['../_types_8h.html#aa5f79157df72371298ab8d56a83abf7b',1,'Types.h']]],
   ['nta_5fuint16',['NTA_UInt16',['../_types_8h.html#a9fe48be1ee451c60ead67faca417a126',1,'Types.h']]],
+  ['numsegments',['numSegments',['../classnta_1_1algorithms_1_1connections_1_1_connections.html#ac50c14b6590a1459f4669812c6537c0f',1,'nta::algorithms::connections::Connections']]],
+  ['numsynapses',['numSynapses',['../classnta_1_1algorithms_1_1connections_1_1_connections.html#a9ac4253645f750b6ca822c1acce27f33',1,'nta::algorithms::connections::Connections']]],
   ['nupic',['NuPIC',['../classnta_1_1_nu_p_i_c.html',1,'nta']]],
   ['nupic_2ehpp',['NuPIC.hpp',['../_nu_p_i_c_8hpp.html',1,'']]]
 ];

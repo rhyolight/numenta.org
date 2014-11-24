@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['passthruencoder',['PassThruEncoder',['../classnupic_1_1encoders_1_1passthru_1_1_pass_thru_encoder.html',1,'nupic::encoders::passthru']]]
+  ['randomdistributedscalarencoder',['RandomDistributedScalarEncoder',['../classnupic_1_1encoders_1_1random__distributed__scalar_1_1_random_distributed_scalar_encoder.html',1,'nupic::encoders::random_distributed_scalar']]]
 ];

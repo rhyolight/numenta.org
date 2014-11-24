@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['dimensions_2ehpp',['Dimensions.hpp',['../_dimensions_8hpp.html',1,'']]]
+  ['connections_2ehpp',['Connections.hpp',['../_connections_8hpp.html',1,'']]]
 ];

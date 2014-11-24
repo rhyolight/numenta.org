@@ -16,6 +16,33 @@ This is a friendly list where newcomers can come and ask questions about how thi
 
 Are you interested in discussing the theory behind HTM? Subscribe to this list!
 
+### Posting Guidelines
+
+This is a list for discussing theoretical aspects of HTM theory.  It is not a list for general discussions of AI and machine learning. There are other good groups for non-HTM discussions like comp.ai.neural-nets and comp.ai.philosophy.
+
+Here are some examples of appropriate topics and examples of topics that are best discussed elsewhere.
+
+#### Appropriate:
+- Mathematical analysis or empirical results of HTM theory
+- Theoretical extensions of HTM theory
+- Biological findings that relate to HTM theory
+
+#### Inappropriate:
+- Proposals for alternate approaches to machine intelligence
+- Extensions to HTMs that are not biologically plausible
+- AI or neural network theories that are not based on SDRs, temporal
+memory, pooling, and hierarchy
+- Detailed questions about NuPIC and HTM implementations - those should go to
+\[nupic-discuss\]
+
+For example: a discussion of using SDRs and HTM temporal memory for
+natural language processing is an appropriate topic, but a general
+discussion of language theory is not.
+
+Another example: a discussion of how to extend HTM to incorporate
+goal-oriented behavior is appropriate, but general discussions of
+robotics is not.
+
 - [Web Archive](http://lists.numenta.org/pipermail/nupic-theory_lists.numenta.org/)
 
 
