@@ -31,4 +31,4 @@ Enjoy!
 > NuPIC Committer <br/>
 > MSc in Software Engineering (University of Liverpool)
 
-[Comments on Reddit]()
+[Comments on Reddit](http://www.reddit.com/r/MachineLearning/comments/2nazbi/introducing_nupic_studio/)
