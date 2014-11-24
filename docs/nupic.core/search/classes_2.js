@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['link',['Link',['../classnta_1_1_link.html',1,'nta']]]
+  ['dimensions',['Dimensions',['../classnta_1_1_dimensions.html',1,'nta']]]
 ];

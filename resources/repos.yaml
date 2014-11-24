@@ -69,6 +69,7 @@ else.
     
     - slug: numenta/nupic.research
       type: support
+      travis: true
       
     - slug: numenta/hypersearch
       type: support
@@ -78,6 +79,10 @@ else.
       type: app
       travis: true
       coverage: true
+      
+    - slug: nupic-community/nupic.studio
+      type: app
+      monitor: false
 
     - slug: numenta/nupic.fluent
       type: app

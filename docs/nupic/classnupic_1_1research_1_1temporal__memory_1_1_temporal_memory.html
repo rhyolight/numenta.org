@@ -100,15 +100,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 
 <p>Class implementing the Temporal Memory algorithm.  
  <a href="classnupic_1_1research_1_1temporal__memory_1_1_temporal_memory.html#details">More...</a></p>
-<div class="dynheader">
-Inheritance diagram for TemporalMemory:</div>
-<div class="dyncontent">
- <div class="center">
-  <img src="classnupic_1_1research_1_1temporal__memory_1_1_temporal_memory.png" usemap="#TemporalMemory_map" alt=""/>
-  <map id="TemporalMemory_map" name="TemporalMemory_map">
-<area href="classnupic_1_1research_1_1temporal__memory_1_1_inspect_temporal_memory.html" title="Temporal Memory subclass that enables detailed inspection of history. " alt="InspectTemporalMemory" shape="rect" coords="0,56,150,80"/>
-</map>
- </div></div>
+
+<p>Inherits object.</p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -123,6 +116,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a13463c21005956b949860ac0eda9b3e3"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnupic_1_1research_1_1temporal__memory_1_1_temporal_memory.html#a13463c21005956b949860ac0eda9b3e3">reset</a></td></tr>
 <tr class="memdesc:a13463c21005956b949860ac0eda9b3e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indicates the start of a new sequence.  <a href="#a13463c21005956b949860ac0eda9b3e3">More...</a><br /></td></tr>
 <tr class="separator:a13463c21005956b949860ac0eda9b3e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e65e98c6f1b073bc62021b289a306e2"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnupic_1_1research_1_1temporal__memory_1_1_temporal_memory.html#a6e65e98c6f1b073bc62021b289a306e2">activateCorrectlyPredictiveCells</a></td></tr>
+<tr class="memdesc:a6e65e98c6f1b073bc62021b289a306e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Phase 1: Activate the correctly predictive cells.  <a href="#a6e65e98c6f1b073bc62021b289a306e2">More...</a><br /></td></tr>
+<tr class="separator:a6e65e98c6f1b073bc62021b289a306e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a08008acc5348fa14c6bb325fec6ad995"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnupic_1_1research_1_1temporal__memory_1_1_temporal_memory.html#a08008acc5348fa14c6bb325fec6ad995">burstColumns</a></td></tr>
 <tr class="memdesc:a08008acc5348fa14c6bb325fec6ad995"><td class="mdescLeft">&#160;</td><td class="mdescRight">Phase 2: Burst unpredicted columns.  <a href="#a08008acc5348fa14c6bb325fec6ad995">More...</a><br /></td></tr>
 <tr class="separator:a08008acc5348fa14c6bb325fec6ad995"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -132,33 +128,42 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a8ad8c8e40e3d5960796a43a7ba0bd82c"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnupic_1_1research_1_1temporal__memory_1_1_temporal_memory.html#a8ad8c8e40e3d5960796a43a7ba0bd82c">computePredictiveCells</a></td></tr>
 <tr class="memdesc:a8ad8c8e40e3d5960796a43a7ba0bd82c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Phase 4: Compute predictive cells due to lateral input on distal dendrites.  <a href="#a8ad8c8e40e3d5960796a43a7ba0bd82c">More...</a><br /></td></tr>
 <tr class="separator:a8ad8c8e40e3d5960796a43a7ba0bd82c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abd7251ec281a0f23739a5c6141288afd"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnupic_1_1research_1_1temporal__memory_1_1_temporal_memory.html#abd7251ec281a0f23739a5c6141288afd">getBestMatchingCell</a></td></tr>
-<tr class="memdesc:abd7251ec281a0f23739a5c6141288afd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the cell with the best matching segment (see <code>TM.getBestMatchingSegment</code>) that has the largest number of active synapses of all best matching segments.  <a href="#abd7251ec281a0f23739a5c6141288afd">More...</a><br /></td></tr>
-<tr class="separator:abd7251ec281a0f23739a5c6141288afd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a618cc112de4438a21831aa0f1a5c93c7"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnupic_1_1research_1_1temporal__memory_1_1_temporal_memory.html#a618cc112de4438a21831aa0f1a5c93c7">getBestMatchingSegment</a></td></tr>
-<tr class="memdesc:a618cc112de4438a21831aa0f1a5c93c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the segment on a cell with the largest number of activate synapses, including all synapses with non-zero permanences.  <a href="#a618cc112de4438a21831aa0f1a5c93c7">More...</a><br /></td></tr>
-<tr class="separator:a618cc112de4438a21831aa0f1a5c93c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a08166b3a594c322b9c97b7301c069aa9"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnupic_1_1research_1_1temporal__memory_1_1_temporal_memory.html#a08166b3a594c322b9c97b7301c069aa9">getLeastUsedCell</a></td></tr>
-<tr class="memdesc:a08166b3a594c322b9c97b7301c069aa9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the cell with the smallest number of segments.  <a href="#a08166b3a594c322b9c97b7301c069aa9">More...</a><br /></td></tr>
-<tr class="separator:a08166b3a594c322b9c97b7301c069aa9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a1143f4c35fc31347e2daf23d5584b7"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnupic_1_1research_1_1temporal__memory_1_1_temporal_memory.html#a9a1143f4c35fc31347e2daf23d5584b7">bestMatchingCell</a></td></tr>
+<tr class="memdesc:a9a1143f4c35fc31347e2daf23d5584b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the cell with the best matching segment (see <code>TM.bestMatchingSegment</code>) that has the largest number of active synapses of all best matching segments.  <a href="#a9a1143f4c35fc31347e2daf23d5584b7">More...</a><br /></td></tr>
+<tr class="separator:a9a1143f4c35fc31347e2daf23d5584b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b04bd2e999a43aba62fd86e6d800a28"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnupic_1_1research_1_1temporal__memory_1_1_temporal_memory.html#a5b04bd2e999a43aba62fd86e6d800a28">bestMatchingSegment</a></td></tr>
+<tr class="memdesc:a5b04bd2e999a43aba62fd86e6d800a28"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the segment on a cell with the largest number of activate synapses, including all synapses with non-zero permanences.  <a href="#a5b04bd2e999a43aba62fd86e6d800a28">More...</a><br /></td></tr>
+<tr class="separator:a5b04bd2e999a43aba62fd86e6d800a28"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f2390e4e34d0022669b028fe7562f40"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnupic_1_1research_1_1temporal__memory_1_1_temporal_memory.html#a0f2390e4e34d0022669b028fe7562f40">leastUsedCell</a></td></tr>
+<tr class="memdesc:a0f2390e4e34d0022669b028fe7562f40"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the cell with the smallest number of segments.  <a href="#a0f2390e4e34d0022669b028fe7562f40">More...</a><br /></td></tr>
+<tr class="separator:a0f2390e4e34d0022669b028fe7562f40"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a68892da693932494c9a7504546b59008"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnupic_1_1research_1_1temporal__memory_1_1_temporal_memory.html#a68892da693932494c9a7504546b59008">adaptSegment</a></td></tr>
 <tr class="memdesc:a68892da693932494c9a7504546b59008"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates synapses on segment.  <a href="#a68892da693932494c9a7504546b59008">More...</a><br /></td></tr>
 <tr class="separator:a68892da693932494c9a7504546b59008"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a41eeaef3b78d9a39e4c5b1f4e4bb1e01"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnupic_1_1research_1_1temporal__memory_1_1_temporal_memory.html#a41eeaef3b78d9a39e4c5b1f4e4bb1e01">pickCellsToLearnOn</a></td></tr>
 <tr class="memdesc:a41eeaef3b78d9a39e4c5b1f4e4bb1e01"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pick cells to form distal connections to.  <a href="#a41eeaef3b78d9a39e4c5b1f4e4bb1e01">More...</a><br /></td></tr>
 <tr class="separator:a41eeaef3b78d9a39e4c5b1f4e4bb1e01"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa601f713aaef48d1961e1d90b32adf57"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnupic_1_1research_1_1temporal__memory_1_1_temporal_memory.html#aa601f713aaef48d1961e1d90b32adf57">columnForCell</a></td></tr>
+<tr class="memdesc:aa601f713aaef48d1961e1d90b32adf57"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the index of the column that a cell belongs to.  <a href="#aa601f713aaef48d1961e1d90b32adf57">More...</a><br /></td></tr>
+<tr class="separator:aa601f713aaef48d1961e1d90b32adf57"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07288c595d31bf050cef39d09d69dc83"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnupic_1_1research_1_1temporal__memory_1_1_temporal_memory.html#a07288c595d31bf050cef39d09d69dc83">cellsForColumn</a></td></tr>
+<tr class="memdesc:a07288c595d31bf050cef39d09d69dc83"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the indices of cells that belong to a column.  <a href="#a07288c595d31bf050cef39d09d69dc83">More...</a><br /></td></tr>
+<tr class="separator:a07288c595d31bf050cef39d09d69dc83"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abfd210724bcb5d3412115a8001874701"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnupic_1_1research_1_1temporal__memory_1_1_temporal_memory.html#abfd210724bcb5d3412115a8001874701">numberOfColumns</a></td></tr>
+<tr class="memdesc:abfd210724bcb5d3412115a8001874701"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of columns in this layer.  <a href="#abfd210724bcb5d3412115a8001874701">More...</a><br /></td></tr>
+<tr class="separator:abfd210724bcb5d3412115a8001874701"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acfc434e5d81fd83e3ace573ab8f60ad8"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnupic_1_1research_1_1temporal__memory_1_1_temporal_memory.html#acfc434e5d81fd83e3ace573ab8f60ad8">numberOfCells</a></td></tr>
+<tr class="memdesc:acfc434e5d81fd83e3ace573ab8f60ad8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of cells in this layer.  <a href="#acfc434e5d81fd83e3ace573ab8f60ad8">More...</a><br /></td></tr>
+<tr class="separator:acfc434e5d81fd83e3ace573ab8f60ad8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aecf475a387f7c535be57b18163778ee6"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnupic_1_1research_1_1temporal__memory_1_1_temporal_memory.html#aecf475a387f7c535be57b18163778ee6">mapCellsToColumns</a></td></tr>
+<tr class="memdesc:aecf475a387f7c535be57b18163778ee6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maps cells to the columns they belong to.  <a href="#aecf475a387f7c535be57b18163778ee6">More...</a><br /></td></tr>
+<tr class="separator:aecf475a387f7c535be57b18163778ee6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a6e65e98c6f1b073bc62021b289a306e2"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnupic_1_1research_1_1temporal__memory_1_1_temporal_memory.html#a6e65e98c6f1b073bc62021b289a306e2">activateCorrectlyPredictiveCells</a></td></tr>
-<tr class="memdesc:a6e65e98c6f1b073bc62021b289a306e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Phase 1: Activate the correctly predictive cells.  <a href="#a6e65e98c6f1b073bc62021b289a306e2">More...</a><br /></td></tr>
-<tr class="separator:a6e65e98c6f1b073bc62021b289a306e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad46a45fc845c20f7e9571afe976da7a8"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnupic_1_1research_1_1temporal__memory_1_1_temporal_memory.html#ad46a45fc845c20f7e9571afe976da7a8">computeActiveSynapses</a></td></tr>
-<tr class="memdesc:ad46a45fc845c20f7e9571afe976da7a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Forward propagates activity from active cells to the synapses that touch them, to determine which synapses are active.  <a href="#ad46a45fc845c20f7e9571afe976da7a8">More...</a><br /></td></tr>
-<tr class="separator:ad46a45fc845c20f7e9571afe976da7a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5bca258b90554b15338f81c3f2477e59"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnupic_1_1research_1_1temporal__memory_1_1_temporal_memory.html#a5bca258b90554b15338f81c3f2477e59">getConnectedActiveSynapsesForSegment</a></td></tr>
-<tr class="memdesc:a5bca258b90554b15338f81c3f2477e59"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the synapses on a segment that are active due to lateral input from active cells.  <a href="#a5bca258b90554b15338f81c3f2477e59">More...</a><br /></td></tr>
-<tr class="separator:a5bca258b90554b15338f81c3f2477e59"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a122f1f071bbee9eb0a15265e3d855b63"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnupic_1_1research_1_1temporal__memory_1_1_temporal_memory.html#a122f1f071bbee9eb0a15265e3d855b63">activeSynapsesForSegment</a></td></tr>
+<tr class="memdesc:a122f1f071bbee9eb0a15265e3d855b63"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the synapses on a segment that are active due to lateral input from active cells.  <a href="#a122f1f071bbee9eb0a15265e3d855b63">More...</a><br /></td></tr>
+<tr class="separator:a122f1f071bbee9eb0a15265e3d855b63"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Class implementing the Temporal Memory algorithm. </p>
@@ -248,16 +253,16 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">columnDimensions</td><td>(list) Dimensions of the column space</td></tr>
-    <tr><td class="paramname">cellsPerColumn</td><td>(int) Number of cells per column</td></tr>
-    <tr><td class="paramname">activationThreshold</td><td>(int) If the number of active connected synapses on a segment is at least this threshold, the segment is said to be active.</td></tr>
-    <tr><td class="paramname">learningRadius</td><td>(int) Radius around cell from which it can sample to form distal dendrite connections.</td></tr>
-    <tr><td class="paramname">initialPermanence</td><td>(float) Initial permanence of a new synapse.</td></tr>
-    <tr><td class="paramname">connectedPermanence</td><td>(float) If the permanence value for a synapse is greater than this value, it is said to be connected.</td></tr>
-    <tr><td class="paramname">minThreshold</td><td>(int) If the number of synapses active on a segment is at least this threshold, it is selected as the best matching cell in a bursing column.</td></tr>
-    <tr><td class="paramname">maxNewSynapseCount</td><td>(int) The maximum number of synapses added to a segment during learning.</td></tr>
-    <tr><td class="paramname">permanenceIncrement</td><td>(float) Amount by which permanences of synapses are incremented during learning.</td></tr>
-    <tr><td class="paramname">permanenceDecrement</td><td>(float) Amount by which permanences of synapses are decremented during learning.</td></tr>
+    <tr><td class="paramname">columnDimensions</td><td>(list) Dimensions of the column space </td></tr>
+    <tr><td class="paramname">cellsPerColumn</td><td>(int) Number of cells per column </td></tr>
+    <tr><td class="paramname">activationThreshold</td><td>(int) If the number of active connected synapses on a segment is at least this threshold, the segment is said to be active. </td></tr>
+    <tr><td class="paramname">learningRadius</td><td>(int) Radius around cell from which it can sample to form distal dendrite connections. </td></tr>
+    <tr><td class="paramname">initialPermanence</td><td>(float) Initial permanence of a new synapse. </td></tr>
+    <tr><td class="paramname">connectedPermanence</td><td>(float) If the permanence value for a synapse is greater than this value, it is said to be connected. </td></tr>
+    <tr><td class="paramname">minThreshold</td><td>(int) If the number of synapses active on a segment is at least this threshold, it is selected as the best matching cell in a bursting column. </td></tr>
+    <tr><td class="paramname">maxNewSynapseCount</td><td>(int) The maximum number of synapses added to a segment during learning. </td></tr>
+    <tr><td class="paramname">permanenceIncrement</td><td>(float) Amount by which permanences of synapses are incremented during learning. </td></tr>
+    <tr><td class="paramname">permanenceDecrement</td><td>(float) Amount by which permanences of synapses are decremented during learning. </td></tr>
     <tr><td class="paramname">seed</td><td>(int) Seed for the random number generator. </td></tr>
   </table>
   </dd>
@@ -269,13 +274,16 @@ Static Public Member Functions</h2></td></tr>
 <a class="anchor" id="a6e65e98c6f1b073bc62021b289a306e2"></a>
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">def activateCorrectlyPredictiveCells </td>
           <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>prevPredictiveCells</em>, </td>
         </tr>
@@ -283,13 +291,7 @@ Static Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>activeColumns</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>connections</em>&#160;</td>
+          <td class="paramname"><em>activeColumns</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -297,11 +299,6 @@ Static Public Member Functions</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Phase 1: Activate the correctly predictive cells. </p>
@@ -325,6 +322,57 @@ Static Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>(tuple) Contains: <code>activeCells</code> (set), <code>winnerCells</code> (set), <code>predictedColumns</code> (set) </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a122f1f071bbee9eb0a15265e3d855b63"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">def activeSynapsesForSegment </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>segment</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>activeCells</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>connections</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the synapses on a segment that are active due to lateral input from active cells. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">segment</td><td>(int) Segment index </td></tr>
+    <tr><td class="paramname">activeCells</td><td>(set) Indices of active cells </td></tr>
+    <tr><td class="paramname">connections</td><td>(<a class="el" href="classnupic_1_1research_1_1temporal__memory_1_1_connections.html" title="Class to hold data representing the connectivity of a collection of cells. ">Connections</a>) Connectivity of layer</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>(set) Indices of active synapses on segment </dd></dl>
 
 </div>
 </div>
@@ -370,10 +418,109 @@ Static Public Member Functions</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">segment</td><td>(int) Segment index </td></tr>
     <tr><td class="paramname">activeSynapses</td><td>(set) Indices of active synapses </td></tr>
-    <tr><td class="paramname">connections</td><td>(<a class="el" href="classnupic_1_1research_1_1temporal__memory_1_1_connections.html" title="Class to hold data representing the connectivity of a layer of cells, that the TM operates on...">Connections</a>) Connectivity of layer </td></tr>
+    <tr><td class="paramname">connections</td><td>(<a class="el" href="classnupic_1_1research_1_1temporal__memory_1_1_connections.html" title="Class to hold data representing the connectivity of a collection of cells. ">Connections</a>) Connectivity of layer </td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a class="anchor" id="a9a1143f4c35fc31347e2daf23d5584b7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def bestMatchingCell </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>cells</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>activeCells</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>connections</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets the cell with the best matching segment (see <code>TM.bestMatchingSegment</code>) that has the largest number of active synapses of all best matching segments. </p>
+<p>If none were found, pick the least used cell (see <code>TM.leastUsedCell</code>).</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">cells</td><td>(set) Indices of cells </td></tr>
+    <tr><td class="paramname">activeCells</td><td>(set) Indices of active cells </td></tr>
+    <tr><td class="paramname">connections</td><td>(<a class="el" href="classnupic_1_1research_1_1temporal__memory_1_1_connections.html" title="Class to hold data representing the connectivity of a collection of cells. ">Connections</a>) Connectivity of layer</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>(tuple) Contains: <code>cell</code> (int), <code>bestSegment</code> (int) </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a5b04bd2e999a43aba62fd86e6d800a28"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def bestMatchingSegment </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>cell</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>activeCells</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>connections</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets the segment on a cell with the largest number of activate synapses, including all synapses with non-zero permanences. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">cell</td><td>(int) Cell index </td></tr>
+    <tr><td class="paramname">activeCells</td><td>(set) Indices of active cells </td></tr>
+    <tr><td class="paramname">connections</td><td>(<a class="el" href="classnupic_1_1research_1_1temporal__memory_1_1_connections.html" title="Class to hold data representing the connectivity of a collection of cells. ">Connections</a>) Connectivity of layer</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>(tuple) Contains: <code>segment</code> (int), <code>connectedActiveSynapses</code> (set) </dd></dl>
 
 </div>
 </div>
@@ -403,7 +550,13 @@ Static Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>prevActiveSynapsesForSegment</em>, </td>
+          <td class="paramname"><em>prevActiveCells</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>prevWinnerCells</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -445,12 +598,83 @@ Static Public Member Functions</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">activeColumns</td><td>(set) Indices of active columns in <code>t</code> </td></tr>
     <tr><td class="paramname">predictedColumns</td><td>(set) Indices of predicted columns in <code>t</code> </td></tr>
-    <tr><td class="paramname">prevActiveSynapsesForSegment</td><td>(dict) Mapping from segments to active synapses in <code>t-1</code>, see <code>TM.computeActiveSynapses</code> </td></tr>
-    <tr><td class="paramname">connections</td><td>(<a class="el" href="classnupic_1_1research_1_1temporal__memory_1_1_connections.html" title="Class to hold data representing the connectivity of a layer of cells, that the TM operates on...">Connections</a>) Connectivity of layer</td></tr>
+    <tr><td class="paramname">prevActiveCells</td><td>(set) Indices of active cells in <code>t-1</code> </td></tr>
+    <tr><td class="paramname">prevWinnerCells</td><td>(set) Indices of winner cells in <code>t-1</code> </td></tr>
+    <tr><td class="paramname">connections</td><td>(<a class="el" href="classnupic_1_1research_1_1temporal__memory_1_1_connections.html" title="Class to hold data representing the connectivity of a collection of cells. ">Connections</a>) Connectivity of layer</td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>(tuple) Contains: <code>activeCells</code> (set), <code>winnerCells</code> (set), <code>learningSegments</code> (set) </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a07288c595d31bf050cef39d09d69dc83"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def cellsForColumn </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>column</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the indices of cells that belong to a column. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">column</td><td>(int) Column index</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>(set) Cell indices </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="aa601f713aaef48d1961e1d90b32adf57"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def columnForCell </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>cell</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the index of the column that a cell belongs to. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">cell</td><td>(int) Cell index</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>(int) Column index </dd></dl>
 
 </div>
 </div>
@@ -495,50 +719,6 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ad46a45fc845c20f7e9571afe976da7a8"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">def computeActiveSynapses </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>activeCells</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>connections</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Forward propagates activity from active cells to the synapses that touch them, to determine which synapses are active. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">activeCells</td><td>(set) Indicies of active cells </td></tr>
-    <tr><td class="paramname">connections</td><td>(<a class="el" href="classnupic_1_1research_1_1temporal__memory_1_1_connections.html" title="Class to hold data representing the connectivity of a layer of cells, that the TM operates on...">Connections</a>) Connectivity of layer</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>(dict) Mapping from segment (int) to indices of active synapses (set) </dd></dl>
-
-</div>
-</div>
 <a class="anchor" id="a1f57ae18c9c65b994937a411c17eded0"></a>
 <div class="memitem">
 <div class="memproto">
@@ -571,7 +751,7 @@ Static Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>prevActiveSynapsesForSegment</em>, </td>
+          <td class="paramname"><em>prevActiveCells</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -606,13 +786,14 @@ Static Public Member Functions</h2></td></tr>
     <tr><td class="paramname">activeColumns</td><td>(set) Indices of active columns in <code>t</code> </td></tr>
     <tr><td class="paramname">prevPredictiveCells</td><td>(set) Indices of predictive cells in <code>t-1</code> </td></tr>
     <tr><td class="paramname">prevActiveSegments</td><td>(set) Indices of active segments in <code>t-1</code> </td></tr>
-    <tr><td class="paramname">prevActiveSynapsesForSegment</td><td>(dict) Mapping from segments to active synapses in <code>t-1</code>, see <code>TM.computeActiveSynapses</code> </td></tr>
+    <tr><td class="paramname">prevActiveCells</td><td>(set) Indices of active cells in <code>t-1</code> </td></tr>
     <tr><td class="paramname">prevWinnerCells</td><td>(set) Indices of winner cells in <code>t-1</code> </td></tr>
-    <tr><td class="paramname">connections</td><td>(<a class="el" href="classnupic_1_1research_1_1temporal__memory_1_1_connections.html" title="Class to hold data representing the connectivity of a layer of cells, that the TM operates on...">Connections</a>) Connectivity of layer</td></tr>
+    <tr><td class="paramname">connections</td><td>(<a class="el" href="classnupic_1_1research_1_1temporal__memory_1_1_connections.html" title="Class to hold data representing the connectivity of a collection of cells. ">Connections</a>) Connectivity of layer </td></tr>
+    <tr><td class="paramname">learn</td><td>(bool) Whether or not learning is enabled</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>(tuple) Contains: <code>activeCells</code> (set), <code>winnerCells</code> (set), <code>activeSynapsesForSegment</code> (dict), <code>activeSegments</code> (set), <code>predictiveCells</code> (set) </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>(tuple) Contains: <code>activeCells</code> (set), <code>winnerCells</code> (set), <code>activeSegments</code> (set), <code>predictiveCells</code> (set) </dd></dl>
 
 </div>
 </div>
@@ -630,7 +811,7 @@ Static Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>activeSynapsesForSegment</em>, </td>
+          <td class="paramname"><em>activeCells</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -655,214 +836,15 @@ Static Public Member Functions</h2></td></tr>
 </ul>
 </li>
 </ul>
+<p>Forward propagates activity from active cells to the synapses that touch them, to determine which synapses are active.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">activeSynapsesForSegment</td><td>(dict) Mapping from segments to active synapses (see <code>TM.computeActiveSynapses</code>) </td></tr>
-    <tr><td class="paramname">connections</td><td>(<a class="el" href="classnupic_1_1research_1_1temporal__memory_1_1_connections.html" title="Class to hold data representing the connectivity of a layer of cells, that the TM operates on...">Connections</a>) Connectivity of layer</td></tr>
+    <tr><td class="paramname">activeCells</td><td>(set) Indices of active cells in <code>t</code> </td></tr>
+    <tr><td class="paramname">connections</td><td>(<a class="el" href="classnupic_1_1research_1_1temporal__memory_1_1_connections.html" title="Class to hold data representing the connectivity of a collection of cells. ">Connections</a>) Connectivity of layer</td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>(tuple) Contains: <code>activeSegments</code> (set), <code>predictiveCells</code> (set) </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="abd7251ec281a0f23739a5c6141288afd"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">def getBestMatchingCell </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>self</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>cells</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>activeSynapsesForSegment</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>connections</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Gets the cell with the best matching segment (see <code>TM.getBestMatchingSegment</code>) that has the largest number of active synapses of all best matching segments. </p>
-<p>If none were found, pick the least used cell (see <code>TM.getLeastUsedCell</code>).</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">cells</td><td>(set) Indices of cells </td></tr>
-    <tr><td class="paramname">activeSynapsesForSegment</td><td>(dict) Mapping from segments to active synapses (see <code>TM.computeActiveSynapses</code>) </td></tr>
-    <tr><td class="paramname">connections</td><td>(<a class="el" href="classnupic_1_1research_1_1temporal__memory_1_1_connections.html" title="Class to hold data representing the connectivity of a layer of cells, that the TM operates on...">Connections</a>) Connectivity of layer</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>(tuple) Contains: <code>cell</code> (int), <code>bestSegment</code> (int) </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="a618cc112de4438a21831aa0f1a5c93c7"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">def getBestMatchingSegment </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>self</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>cell</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>activeSynapsesForSegment</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>connections</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Gets the segment on a cell with the largest number of activate synapses, including all synapses with non-zero permanences. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">cell</td><td>(int) Cell index </td></tr>
-    <tr><td class="paramname">activeSynapsesForSegment</td><td>(dict) Mapping from segments to active synapses (see <code>TM.computeActiveSynapses</code>) </td></tr>
-    <tr><td class="paramname">connections</td><td>(<a class="el" href="classnupic_1_1research_1_1temporal__memory_1_1_connections.html" title="Class to hold data representing the connectivity of a layer of cells, that the TM operates on...">Connections</a>) Connectivity of layer</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>(tuple) Contains: <code>segment</code> (int), <code>connectedActiveSynapses</code> (set) </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="a5bca258b90554b15338f81c3f2477e59"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">def getConnectedActiveSynapsesForSegment </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>segment</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>activeSynapsesForSegment</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>permanenceThreshold</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>connections</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Returns the synapses on a segment that are active due to lateral input from active cells. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">segment</td><td>(int) Segment index </td></tr>
-    <tr><td class="paramname">activeSynapsesForSegment</td><td>(dict) Mapping from segments to active synapses (see <code>TM.computeActiveSynapses</code>) </td></tr>
-    <tr><td class="paramname">permanenceThreshold</td><td>(float) Minimum threshold for permanence for synapse to be connected </td></tr>
-    <tr><td class="paramname">connections</td><td>(<a class="el" href="classnupic_1_1research_1_1temporal__memory_1_1_connections.html" title="Class to hold data representing the connectivity of a layer of cells, that the TM operates on...">Connections</a>) Connectivity of layer</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>(set) Indices of active synapses on segment </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="a08166b3a594c322b9c97b7301c069aa9"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">def getLeastUsedCell </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>self</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>cells</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>connections</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Gets the cell with the smallest number of segments. </p>
-<p>Break ties randomly.</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">cells</td><td>(set) Indices of cells </td></tr>
-    <tr><td class="paramname">connections</td><td>(<a class="el" href="classnupic_1_1research_1_1temporal__memory_1_1_connections.html" title="Class to hold data representing the connectivity of a layer of cells, that the TM operates on...">Connections</a>) Connectivity of layer</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>(int) Cell index </dd></dl>
 
 </div>
 </div>
@@ -892,7 +874,7 @@ Static Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>prevActiveSynapsesForSegment</em>, </td>
+          <td class="paramname"><em>prevActiveCells</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -943,13 +925,129 @@ Static Public Member Functions</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">prevActiveSegments</td><td>(set) Indices of active segments in <code>t-1</code> </td></tr>
     <tr><td class="paramname">learningSegments</td><td>(set) Indices of learning segments in <code>t</code> </td></tr>
-    <tr><td class="paramname">prevActiveSynapsesForSegment</td><td>(dict) Mapping from segments to active synapses in <code>t-1</code>, see <code>TM.computeActiveSynapses</code> </td></tr>
+    <tr><td class="paramname">prevActiveCells</td><td>(set) Indices of active cells in <code>t-1</code> </td></tr>
     <tr><td class="paramname">winnerCells</td><td>(set) Indices of winner cells in <code>t</code> </td></tr>
     <tr><td class="paramname">prevWinnerCells</td><td>(set) Indices of winner cells in <code>t-1</code> </td></tr>
-    <tr><td class="paramname">connections</td><td>(<a class="el" href="classnupic_1_1research_1_1temporal__memory_1_1_connections.html" title="Class to hold data representing the connectivity of a layer of cells, that the TM operates on...">Connections</a>) Connectivity of layer </td></tr>
+    <tr><td class="paramname">connections</td><td>(<a class="el" href="classnupic_1_1research_1_1temporal__memory_1_1_connections.html" title="Class to hold data representing the connectivity of a collection of cells. ">Connections</a>) Connectivity of layer </td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a class="anchor" id="a0f2390e4e34d0022669b028fe7562f40"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def leastUsedCell </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>cells</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>connections</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets the cell with the smallest number of segments. </p>
+<p>Break ties randomly.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">cells</td><td>(set) Indices of cells </td></tr>
+    <tr><td class="paramname">connections</td><td>(<a class="el" href="classnupic_1_1research_1_1temporal__memory_1_1_connections.html" title="Class to hold data representing the connectivity of a collection of cells. ">Connections</a>) Connectivity of layer</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>(int) Cell index </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="aecf475a387f7c535be57b18163778ee6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def mapCellsToColumns </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>cells</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Maps cells to the columns they belong to. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">cells</td><td>(set) Cells</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>(dict) Mapping from columns to their cells in <code>cells</code> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="acfc434e5d81fd83e3ace573ab8f60ad8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def numberOfCells </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the number of cells in this layer. </p>
+<dl class="section return"><dt>Returns</dt><dd>(int) Number of cells </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="abfd210724bcb5d3412115a8001874701"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def numberOfColumns </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the number of columns in this layer. </p>
+<dl class="section return"><dt>Returns</dt><dd>(int) Number of columns </dd></dl>
 
 </div>
 </div>
@@ -1002,7 +1100,7 @@ Static Public Member Functions</h2></td></tr>
     <tr><td class="paramname">n</td><td>(int) Number of cells to pick </td></tr>
     <tr><td class="paramname">segment</td><td>(int) Segment index </td></tr>
     <tr><td class="paramname">winnerCells</td><td>(set) Indices of winner cells in <code>t</code> </td></tr>
-    <tr><td class="paramname">connections</td><td>(<a class="el" href="classnupic_1_1research_1_1temporal__memory_1_1_connections.html" title="Class to hold data representing the connectivity of a layer of cells, that the TM operates on...">Connections</a>) Connectivity of layer</td></tr>
+    <tr><td class="paramname">connections</td><td>(<a class="el" href="classnupic_1_1research_1_1temporal__memory_1_1_connections.html" title="Class to hold data representing the connectivity of a collection of cells. ">Connections</a>) Connectivity of layer</td></tr>
   </table>
   </dd>
 </dl>
@@ -1035,7 +1133,7 @@ Static Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Sep 15 2014 21:11:23 for NuPIC by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sat Nov 22 2014 04:43:50 for NuPIC by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.7
 </small></address>

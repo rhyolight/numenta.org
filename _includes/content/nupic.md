@@ -1,7 +1,7 @@
 
 # Numenta Platform for Intelligent Computing (NuPIC)
 
-NuPIC is a Python / C++ open source project that implements the [CLA]({{ site.baseurl }}/cla.html) as described in the [CLA White Paper]({{ site.baseurl }}/cla-white-paper.html). For an introduction to the project, watch the presentation below, given at the Open Source Conference (OSCON) in 2013.
+NuPIC is a Python / C++ open source project that implements [HTM]({{ site.baseurl }}/htm.html) as described in the [HTM White Paper]({{ site.baseurl }}/htm-white-paper.html). For an introduction to the project, watch the presentation below, given at the Open Source Conference (OSCON) in 2013.
 
 <div align="center">
     <iframe width="640" height="415" src="//www.youtube.com/embed/5r1vZ1ymrQE" frameborder="0" allowfullscreen="allowfullscreen">
@@ -13,7 +13,7 @@ NuPIC is a Python / C++ open source project that implements the [CLA]({{ site.ba
 
 The best way to get started is to visit the [NuPIC Wiki](https://github.com/numenta/nupic/wiki).
 
-There are a few things to be aware of before diving into NuPIC. The NuPIC source code is used by Numenta as a part of a commercial product development. Because of this, it is no longer a “pure” implementation of the algorithms. We have made optimizations, added tweaks, and taken some short cuts to improve performance. For those interested in studying and characterizing a purer form of the [CLA](cla.html) you may want to back out some of these changes or at least be aware of them. If your interest is using NuPIC in a product, then you may be happy with the code as-is or you may want to make additional changes. Another thing to consider is that the CLA is based on principles that most people are not familiar with, including [sparse distributed representations](cla.html#sparse_distributed_representations), [online learning](cla.html#online_learning), and distributed memory. There is a steeper than normal learning curve.
+There are a few things to be aware of before diving into NuPIC. The NuPIC source code is used by Numenta as a part of a commercial product development. Because of this, it is no longer a “pure” implementation of the algorithms. We have made optimizations, added tweaks, and taken some short cuts to improve performance. For those interested in studying and characterizing a purer form of the [HTM](htm.html) you may want to back out some of these changes or at least be aware of them. If your interest is using NuPIC in a product, then you may be happy with the code as-is or you may want to make additional changes. Another thing to consider is that HTM is based on principles that most people are not familiar with, including [sparse distributed representations](htm.html#sparse-distributed-representations), [online learning](htm.html#online-learning), and distributed memory. There is a steeper than normal learning curve.
 
 ## Requirements
 

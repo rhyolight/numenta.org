@@ -6,7 +6,6 @@ var searchData=
   ['scalarspaceencoder',['ScalarSpaceEncoder',['../classnupic_1_1encoders_1_1scalarspace_1_1_scalar_space_encoder.html',1,'nupic::encoders::scalarspace']]],
   ['scalarstostr',['scalarsToStr',['../classnupic_1_1encoders_1_1base_1_1_encoder.html#a21f8a584a6282b6be150f53a23fcc6a0',1,'nupic::encoders::base::Encoder']]],
   ['sdrcategoryencoder',['SDRCategoryEncoder',['../classnupic_1_1encoders_1_1sdrcategory_1_1_s_d_r_category_encoder.html',1,'nupic::encoders::sdrcategory']]],
-  ['sdrrandomencoder',['SDRRandomEncoder',['../classnupic_1_1encoders_1_1sdrrandom_1_1_s_d_r_random_encoder.html',1,'nupic::encoders::sdrrandom']]],
   ['seed',['seed',['../classnupic_1_1research_1_1_t_p_1_1_t_p.html#ab31f6ed1e7e88c7cca70910409c6bbee',1,'nupic::research::TP::TP']]],
   ['segid',['segID',['../classnupic_1_1research_1_1_t_p_1_1_t_p.html#a637cce30bd78360c76cfcab38ce4e94d',1,'nupic::research::TP::TP']]],
   ['segment',['Segment',['../classnupic_1_1research_1_1_t_p_1_1_segment.html',1,'nupic::research::TP']]],
@@ -45,11 +44,11 @@ var searchData=
   ['setsynperminactivedec',['setSynPermInactiveDec',['../classnupic_1_1research_1_1spatial__pooler_1_1_spatial_pooler.html#a8858ffad02bb730b671c311efb4e360e',1,'nupic::research::spatial_pooler::SpatialPooler']]],
   ['setsynpermtrimthreshold',['setSynPermTrimThreshold',['../classnupic_1_1research_1_1spatial__pooler_1_1_spatial_pooler.html#af8d0bc53e8866063da18c6481143b0ef',1,'nupic::research::spatial_pooler::SpatialPooler']]],
   ['setupdateperiod',['setUpdatePeriod',['../classnupic_1_1research_1_1spatial__pooler_1_1_spatial_pooler.html#ae15157a0ab945e54160c0db5213fd5ca',1,'nupic::research::spatial_pooler::SpatialPooler']]],
-  ['simplevectorencoder',['SimpleVectorEncoder',['../classnupic_1_1encoders_1_1vector_1_1_simple_vector_encoder.html',1,'nupic::encoders::vector']]],
   ['slowissegmentactive',['slowIsSegmentActive',['../classnupic_1_1research_1_1_t_p10_x2_1_1_t_p10_x2.html#a5c232cd8fd1716f2ad8a0a7dc17ac575',1,'nupic::research::TP10X2::TP10X2']]],
+  ['sparsepassthroughencoder',['SparsePassThroughEncoder',['../classnupic_1_1encoders_1_1sparse__pass__through__encoder_1_1_sparse_pass_through_encoder.html',1,'nupic::encoders::sparse_pass_through_encoder']]],
   ['spatialpooler',['SpatialPooler',['../classnupic_1_1research_1_1spatial__pooler_1_1_spatial_pooler.html',1,'nupic::research::spatial_pooler']]],
   ['stripunlearnedcolumns',['stripUnlearnedColumns',['../classnupic_1_1research_1_1spatial__pooler_1_1_spatial_pooler.html#a548b6fbcb10399d80b6bf17048674388',1,'nupic::research::spatial_pooler::SpatialPooler']]],
   ['swarming',['swarming',['../namespaceswarming.html',1,'']]],
-  ['synapsesforsegment',['synapsesForSegment',['../classnupic_1_1research_1_1temporal__memory_1_1_connections.html#a3715275b547a85303c3eadaebb2bb292',1,'nupic::research::temporal_memory::Connections']]],
-  ['synapsesforsourcecell',['synapsesForSourceCell',['../classnupic_1_1research_1_1temporal__memory_1_1_connections.html#a3139334c16a2b5a141990f565c81d77e',1,'nupic::research::temporal_memory::Connections']]]
+  ['synapsesforpresynapticcell',['synapsesForPresynapticCell',['../classnupic_1_1research_1_1temporal__memory_1_1_connections.html#ae769e1a9744756c3aebe7d015fcddfd0',1,'nupic::research::temporal_memory::Connections']]],
+  ['synapsesforsegment',['synapsesForSegment',['../classnupic_1_1research_1_1temporal__memory_1_1_connections.html#a3715275b547a85303c3eadaebb2bb292',1,'nupic::research::temporal_memory::Connections']]]
 ];

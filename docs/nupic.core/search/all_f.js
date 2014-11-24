@@ -2,6 +2,9 @@ var searchData=
 [
   ['save',['save',['../classnta_1_1_network.html#a61520e69ae554d65995c2b0fb9d6b945',1,'nta::Network::save()'],['../classnta_1_1algorithms_1_1spatial__pooler_1_1_spatial_pooler.html#a83aa964fa6465e4cd5c11160c602b1df',1,'nta::algorithms::spatial_pooler::SpatialPooler::save()']]],
   ['seed_5f',['seed_',['../classnta_1_1algorithms_1_1spatial__pooler_1_1_spatial_pooler.html#a704ef274657c05b52a6d1040ad8d6bb7',1,'nta::algorithms::spatial_pooler::SpatialPooler']]],
+  ['segment',['Segment',['../structnta_1_1algorithms_1_1connections_1_1_segment.html',1,'nta::algorithms::connections']]],
+  ['segmentdata',['SegmentData',['../structnta_1_1algorithms_1_1connections_1_1_segment_data.html',1,'nta::algorithms::connections']]],
+  ['segmentsforcell',['segmentsForCell',['../classnta_1_1algorithms_1_1connections_1_1_connections.html#a4f98fa446268b0a746c3807cfb643b56',1,'nta::algorithms::connections::Connections']]],
   ['setactivedutycycles',['setActiveDutyCycles',['../classnta_1_1algorithms_1_1spatial__pooler_1_1_spatial_pooler.html#a02e57c2e38675a8f635ed34f49afcf2b',1,'nta::algorithms::spatial_pooler::SpatialPooler']]],
   ['setboostfactors',['setBoostFactors',['../classnta_1_1algorithms_1_1spatial__pooler_1_1_spatial_pooler.html#a495a44ea6eca04fb8f7f9c3ebd02ecb1',1,'nta::algorithms::spatial_pooler::SpatialPooler']]],
   ['setdestdimensions',['setDestDimensions',['../classnta_1_1_link.html#a46d607bc39668a9b6a0600904e69ff3f',1,'nta::Link']]],
@@ -51,5 +54,8 @@ var searchData=
   ['spatialpooler',['SpatialPooler',['../classnta_1_1algorithms_1_1spatial__pooler_1_1_spatial_pooler.html',1,'nta::algorithms::spatial_pooler']]],
   ['spatialpooler_2ehpp',['SpatialPooler.hpp',['../_spatial_pooler_8hpp.html',1,'']]],
   ['splittermap',['SplitterMap',['../classnta_1_1_input.html#a193cc425807e1d3f6f099deaeed37ff2',1,'nta::Input']]],
-  ['stripunlearnedcolumns',['stripUnlearnedColumns',['../classnta_1_1algorithms_1_1spatial__pooler_1_1_spatial_pooler.html#aacc0cbb92811f66597595db76838aef3',1,'nta::algorithms::spatial_pooler::SpatialPooler']]]
+  ['stripunlearnedcolumns',['stripUnlearnedColumns',['../classnta_1_1algorithms_1_1spatial__pooler_1_1_spatial_pooler.html#aacc0cbb92811f66597595db76838aef3',1,'nta::algorithms::spatial_pooler::SpatialPooler']]],
+  ['synapse',['Synapse',['../structnta_1_1algorithms_1_1connections_1_1_synapse.html',1,'nta::algorithms::connections']]],
+  ['synapsedata',['SynapseData',['../structnta_1_1algorithms_1_1connections_1_1_synapse_data.html',1,'nta::algorithms::connections']]],
+  ['synapsesforsegment',['synapsesForSegment',['../classnta_1_1algorithms_1_1connections_1_1_connections.html#adaedd80244f7f0185885b792240c2577',1,'nta::algorithms::connections::Connections']]]
 ];

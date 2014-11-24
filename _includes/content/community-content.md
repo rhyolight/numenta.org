@@ -2,7 +2,43 @@
 NuPIC Community Content
 ===========
 
-The following resources have been provided by community members of the NuPIC open source project and others interested in HTM and CLA theory.
+The following resources have been provided by community members of the NuPIC open source project and others interested in HTM theory.
+
+* * *
+
+## [Toward a Universal Cortical Algorithm](https://drive.google.com/file/d/0B0RWGGOoommKM0llNUF3V2JJYTg/view?usp=sharing)
+
+Toward a Universal Cortical Algorithm: Examining Hierarchical Temporal Memory in Light of Frontal Cortical Function
+
+> **Michael R. Ferrier** <br/>
+> Department of Cognitive Linguistic and Psychological Sciences  <br/>
+> Brown University
+
+
+* * *
+
+## [Intelligent Predictions: an empirical study of the Cortical Learning Algorithm]({{ site.baseurl }}/resources/community-content/Masterthesis%20Nupic%20Study.pdf) (PDF)
+
+> **Michael Galetzka** <br/>
+> Master Thesis for the acquisition of the academic degree Master of Science (M.Sc.)
+
+* * *
+
+## Blog Posts by Felix Andrews on his HTM Implementation in Clojure
+
+[![Example graphic from Felix's blogs](http://floybix.github.io/assets/2014-09-26/tp_example.png)](http://floybix.github.io)
+
+[Felix](github.com/floybix) has a series of blog posts about his HTM implementation, [comportex](https://github.com/nupic-community/comportex), which you can read at <http://floybix.github.io>
+
+* * *
+
+## Fergal Byrne on HTM and NuPIC
+
+- [Real Machine Intelligence](https://leanpub.com/realsmartmachines/read) (online book, in progress)
+- [Blog](http://inbits.com/category/nupic/)
+- [Article by Fergal Byrne with RDSE implementation in Clojure](http://fergalbyrne.github.io/rdse.html)
+
+* * *
 
 ## Papers on HTM by Associate Professor [John Thornton](http://www.ict.griffith.edu.au/~johnt/index.html) (Griffith University)
 
@@ -42,14 +78,3 @@ Detailed document from Christian Cleber Masdeval Braz with wonderful graphics de
 ## [Hierarchical Temporal Memory Cortical Learning Algorithm for Pattern Recognition on Multi-core Architectures](http://pdxscholar.library.pdx.edu/open_access_etds/202/)
 
 By Ryan William Price, Portland State University.
-
-* * *
-
-## [Focus: Sparse Distributed Representations](http://inbits.com/nupic-machine-intelligence/focus-sparse-distributed-representations/)
-
-Blog post by community-member Fergal Byrne.
-
-## [Random Distributed Scalar Encoder](http://fergalbyrne.github.io/rdse.html)
-#### Experiments on Improving the Scalar Encoder
-
-Article by Fergal Byrne with RDSE implementation in Clojure.

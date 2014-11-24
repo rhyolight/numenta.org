@@ -113,8 +113,8 @@ Just like [last hackathon]({{ site.baseurl }}/blog/2013/11/06/2013-fall-hackatho
     <ul>
         <li><a href="https://www.youtube.com/watch?v=BCwOgbSSDM4" rel="prettyPhoto" title="Beginner's Guide to NuPIC">Video</a></li>
         <li><a href="http://www.slideshare.net/numenta/beginners-guide-to-nupic">Slides</a></li>
-        <li><a href="http://nbviewer.ipython.org/url/fer.io/~scott/nupic_overview.ipynb">Static iPython Notebook</a></li>
-        <li><a href="http://fer.io/~scott/nupic_overview.ipynb">iPython Notebook File</a></li>
+        <li><a href="http://nbviewer.ipython.org/github/numenta/nupic/blob/master/examples/NuPIC%20Walkthrough.ipynb">Static iPython Notebook</a></li>
+        <li><a href="https://github.com/numenta/nupic/blob/master/examples/NuPIC%20Walkthrough.ipynb">iPython Notebook File</a></li>
     </ul>
 
 </div>
@@ -441,7 +441,7 @@ We had a **lot of demos** at this hackathon! In addition to the <a href="https:/
 
     <ul>
         <li><a href="http://www.youtube.com/watch?v=U7Peu_-Aa4Q" rel="prettyPhoto" title="Say What?">Video</a></li>
-        <!-- <li><a href="#">Source code</a></li> -->
+        <li><a href="https://github.com/mattroos/nupicHackathonAudio">Source code</a></li>
     </ul>
 
     <p>Analyzing speech data (TIMIT), trying different experiments to try to use NuPIC to predict male vs female speakers. Also explored different representations of the audio signal to see what works best with NuPIC.</p>
