@@ -138,4 +138,4 @@ On a personal note, I'd like to give a big thank you to David Ray. He came to us
 > Open Source Community Flag-Bearer <br/>
 > Numenta, Inc.
 
-[Comments on Reddit]()
+[Comments on Reddit](http://www.reddit.com/r/MachineLearning/comments/2o5zp3/htm_in_java/)
