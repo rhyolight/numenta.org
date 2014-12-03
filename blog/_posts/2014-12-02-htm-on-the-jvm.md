@@ -18,7 +18,7 @@ Bringing NuPIC to Java is an important milestone in NuPIC technology due to the 
 
 **[htm.java](https://github.com/numenta/htm.java)** is easy to setup and configure, and because the JVM is such a common runtime, that means instant availability on platforms like Windows and all Linux flavors without the use of a virtual machine (not to mention mobile devices!)
 
-The community is fully committed to adding all the support tools and infrastructure the Python version enjoys, and those are the next milestones to be worked on. There is already a "[HelloSP](https://github.com/numenta/htm.java/blob/master/src/main/java/org/numenta/nupic/examples/HelloSP.java)" example created by a community member. Here is the constructor:
+The community is fully committed to adding all the support tools and infrastructure the Python version enjoys, and those are the next milestones to be worked on. There is already a "[HelloSP](https://github.com/numenta/htm.java/tree/master/src/main/java/org/numenta/nupic/examples/sp)" example created by a community member. Here is the constructor:
 
 ~~~ java
 /**
