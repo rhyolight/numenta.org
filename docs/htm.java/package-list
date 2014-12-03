@@ -1,6 +1,8 @@
 org.numenta.nupic
 org.numenta.nupic.algorithms
 org.numenta.nupic.encoders
+org.numenta.nupic.examples
+org.numenta.nupic.examples.sp
 org.numenta.nupic.integration
 org.numenta.nupic.model
 org.numenta.nupic.research
