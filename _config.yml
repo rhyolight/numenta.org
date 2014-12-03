@@ -3,7 +3,7 @@ tagline: Numenta&nbsp;Platform&nbsp;for Intelligent&nbsp;Computing
 
 baseurl: http://numenta.org
 
-future: true
+future: false
 
 markdown: Kramdown
 
