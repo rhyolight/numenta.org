@@ -486,7 +486,7 @@ def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
     <tr><td class="paramname">potentialPct</td><td>The percent of the inputs, within a column's potential radius, that a column can be connected to. If set to 1, the column will be connected to every input within its potential radius. This parameter is used to give each column a unique potential pool when a large potentialRadius causes overlap between the columns. At initialization time we choose ((2*potentialRadius + 1)^(# inputDimensions) * potentialPct) input bits to comprise the column's potential pool. </td></tr>
     <tr><td class="paramname">globalInhibition</td><td>If true, then during inhibition phase the winning columns are selected as the most active columns from the region as a whole. Otherwise, the winning columns are selected with respect to their local neighborhoods. Using global inhibition boosts performance x60. </td></tr>
     <tr><td class="paramname">localAreaDensity</td><td>The desired density of active columns within a local inhibition area (the size of which is set by the internally calculated inhibitionRadius, which is in turn determined from the average size of the connected potential pools of all columns). The inhibition logic will insure that at most N columns remain ON within a local inhibition area, where N = localAreaDensity * (total number of columns in inhibition area). </td></tr>
-    <tr><td class="paramname">numActivePerInhArea</td><td>An alternate way to control the density of the active columns. If numActivePerInhArea is specified then localAreaDensity must be less than 0, and vice versa. When using numActivePerInhArea, the inhibition logic will insure that at most 'numActivePerInhArea' columns remain ON within a local inhibition area (the size of which is set by the internally calculated inhibitionRadius, which is in turn determined from the average size of the connected receptive fields of all columns). When using this method, as columns learn and grow their effective receptive fields, the inhibitionRadius will grow, and hence the net density of the active columns will <em>decrease</em>. This is in contrast to the localAreaDensity method, which keeps the density of active columns the same regardless of the size of their receptive fields. </td></tr>
+    <tr><td class="paramname">numActiveColumnsPerInhArea</td><td>An alternate way to control the density of the active columns. If numActiveColumnsPerInhArea is specified then localAreaDensity must be less than 0, and vice versa. When using numActiveColumnsPerInhArea, the inhibition logic will insure that at most 'numActiveColumnsPerInhArea' columns remain ON within a local inhibition area (the size of which is set by the internally calculated inhibitionRadius, which is in turn determined from the average size of the connected receptive fields of all columns). When using this method, as columns learn and grow their effective receptive fields, the inhibitionRadius will grow, and hence the net density of the active columns will <em>decrease</em>. This is in contrast to the localAreaDensity method, which keeps the density of active columns the same regardless of the size of their receptive fields. </td></tr>
     <tr><td class="paramname">stimulusThreshold</td><td>This is a number specifying the minimum number of synapses that must be on in order for a columns to turn ON. The purpose of this is to prevent noise input from activating columns. Specified as a percent of a fully grown synapse. </td></tr>
     <tr><td class="paramname">synPermInactiveDec</td><td>The amount by which an inactive synapse is decremented in each round. Specified as a percent of a fully grown synapse. </td></tr>
     <tr><td class="paramname">synPermActiveInc</td><td>The amount by which an active synapse is incremented in each round. Specified as a percent of a fully grown synapse. </td></tr>
@@ -953,7 +953,7 @@ def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
 </div><div class="memdoc">
 
 <p>Sets the local area density. </p>
-<p>Invalidates the 'numActivePerInhArea' parameter </p>
+<p>Invalidates the 'numActiveColumnsPerInhArea' parameter </p>
 
 </div>
 </div>
@@ -1179,7 +1179,7 @@ def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Dec 8 2014 23:45:50 for NuPIC by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Dec 9 2014 16:27:43 for NuPIC by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.7
 </small></address>
