@@ -24,7 +24,7 @@
   <td id="projectlogo"><img alt="Logo" src="numenta-logo.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">NuPIC
-   &#160;<span id="projectnumber">0.0.13-dev</span>
+   &#160;<span id="projectnumber">0.0.13</span>
    </div>
    <div id="projectbrief">Numenta Platform for Intelligent Computing</div>
   </td>
@@ -1020,4 +1020,114 @@ def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">def setLearni
+          <td class="memname">def setLearning </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>learningEnabled</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set whether learning is enabled. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">learningEnabled</td><td>whether learning should be enabled </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="aacb3c1dac43f3e7cefe5e1ad577172b0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def setStateLock </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>lock</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Setting this to true freezes the state of the encoder This is separate from the learning state which affects changing parameters. </p>
+<p>Implemented in subclasses. </p>
+
+</div>
+</div>
+<a class="anchor" id="a39c4d54611adb4ddf6b3a93662fa70f3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def topDownCompute </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>encoded</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns a list of EncoderResult namedtuples describing the top-down best guess inputs for each sub-field given the encoded output. </p>
+<p>These are the values which are most likely to generate the given encoded output. To get the associated field names for each of the values, call <a class="el" href="classnupic_1_1encoders_1_1base_1_1_encoder.html#aa3d5d6beb1401f27d529defd09a86ecf" title="Return the field names for each of the scalar values returned by getScalars. ">getScalarNames()</a>.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">encoded</td><td>The encoded output. Typically received from the topDown outputs from the spatial pooler just above us.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A list of EncoderResult namedtuples. Each EncoderResult has three attributes:</dd></dl>
+<ol type="1">
+<li>value: This is the best-guess value for the sub-field in a format that is consistent with the type specified by <a class="el" href="classnupic_1_1encoders_1_1base_1_1_encoder.html#a01c1f94ffd2fe55c8d52935e7a66f068" title="Returns a sequence of field types corresponding to the elements in the decoded output field array...">getDecoderOutputFieldTypes()</a>. Note that this value is not necessarily numeric.</li>
+<li>scalar: The scalar representation of this best-guess value. This number is consistent with what is returned by <a class="el" href="classnupic_1_1encoders_1_1base_1_1_encoder.html#a6da1330a12c78a3e527ace5745d28918" title="Returns a numpy array containing the sub-field scalar value(s) for each sub-field of the inputData...">getScalars()</a>. This value is always an int or float, and can be used for numeric comparisons.</li>
+<li>encoding This is the encoded bit-array (numpy array) that represents the best-guess value. That is, if 'value' was passed to <a class="el" href="classnupic_1_1encoders_1_1base_1_1_encoder.html#a079d592aa5360c10d39d8e7b98b9b0de" title="Convenience wrapper for encodeIntoArray. ">encode()</a>, an identical bit-array should be returned. </li>
+</ol>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li>nupic/encoders/base.py</li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generated on Tue Dec 30 2014 01:54:27 for NuPIC by &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.7
+</small></address>
+</body>
+</html>
