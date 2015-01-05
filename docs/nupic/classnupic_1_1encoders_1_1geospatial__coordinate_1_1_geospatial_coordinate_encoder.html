@@ -315,7 +315,13 @@ def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>latitude</em>&#160;</td>
+          <td class="paramname"><em>latitude</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>altitude</em> = <code>None</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -330,6 +336,7 @@ def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
   <table class="params">
     <tr><td class="paramname">longitude</td><td>(float) Longitude of position </td></tr>
     <tr><td class="paramname">latitude</td><td>(float) Latitude of position </td></tr>
+    <tr><td class="paramname">altitude</td><td>(float) Altitude of position </td></tr>
   </table>
   </dd>
 </dl>
@@ -370,7 +377,7 @@ def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
 <p>See <code><a class="el" href="classnupic_1_1encoders_1_1base_1_1_encoder.html" title="An encoder takes a value and encodes it with a partial sparse representation of bits. ">nupic.encoders.base.Encoder</a></code> for more information. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">inputData</td><td>(tuple) Contains longitude (float), latitude (float), speed (float) </td></tr>
+    <tr><td class="paramname">inputData</td><td>(tuple) Contains speed (float), longitude (float), latitude (float), altitude (float) </td></tr>
     <tr><td class="paramname">output</td><td>(numpy.array) Stores encoded SDR in this numpy array </td></tr>
   </table>
   </dd>
@@ -438,7 +445,7 @@ def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Jan 5 2015 17:38:52 for NuPIC by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Jan 5 2015 17:43:38 for NuPIC by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.7
 </small></address>
