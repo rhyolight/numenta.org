@@ -550,7 +550,15 @@ def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
 
 <p>This is the primary public method of the <a class="el" href="classnupic_1_1research_1_1spatial__pooler_1_1_spatial_pooler.html" title="This class implements the spatial pooler. ">SpatialPooler</a> class. </p>
 <p>This function takes a input vector and outputs the indices of the active columns. If 'learn' is set to True, this method also updates the permanences of the columns.</p>
-<p>:param inputVector: A numpy array of 0's and 1's that comprises the input to the spatial pooler. The array will be treated as a one dimensional array, therefore the dimensions of the array do not have to match the exact dimensions specified in the class constructor. In fact, even a list would suffice. The number of input bits in the vector must, however, match the number of bits specified by the call to the constructor. Therefore there must be a '0' or '1' in the array for every input bit. :param learn: A boolean value indicating whether learning should be performed. Learning entails updating the permanence values of the synapses, and hence modifying the 'state' of the model. Setting learning to 'off' freezes the SP and has many uses. For example, you might want to feed in various inputs and examine the resulting SDR's. :param activeArray: An array whose size is equal to the number of columns. Before the function returns this array will be populated with 1's at the indices of the active columns, and 0's everywhere else. :param stripNeverLearned: If True and learn=False, then columns that have never learned will be stripped out of the active columns. This should be set to False when using a random SP with learning disabled. NOTE: This parameter should be set explicitly as the default will likely be changed to False in the near future and if you want to retain the current behavior you should additionally pass the resulting activeArray to the stripUnlearnedColumns method manually. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">inputVector</td><td>A numpy array of 0's and 1's that comprises the input to the spatial pooler. The array will be treated as a one dimensional array, therefore the dimensions of the array do not have to match the exact dimensions specified in the class constructor. In fact, even a list would suffice. The number of input bits in the vector must, however, match the number of bits specified by the call to the constructor. Therefore there must be a '0' or '1' in the array for every input bit. </td></tr>
+    <tr><td class="paramname">learn</td><td>A boolean value indicating whether learning should be performed. Learning entails updating the permanence values of the synapses, and hence modifying the 'state' of the model. Setting learning to 'off' freezes the SP and has many uses. For example, you might want to feed in various inputs and examine the resulting SDR's. </td></tr>
+    <tr><td class="paramname">activeArray</td><td>An array whose size is equal to the number of columns. Before the function returns this array will be populated with 1's at the indices of the active columns, and 0's everywhere else. </td></tr>
+    <tr><td class="paramname">stripNeverLearned</td><td>If True and learn=False, then columns that have never learned will be stripped out of the active columns. This should be set to False when using a random SP with learning disabled. NOTE: This parameter should be set explicitly as the default will likely be changed to False in the near future and if you want to retain the current behavior you should additionally pass the resulting activeArray to the stripUnlearnedColumns method manually. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -1170,7 +1178,12 @@ def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
 
 <p>Removes the set of columns who have never been active from the set of active columns selected in the inhibition round. </p>
 <p>Such columns cannot represent learned pattern and are therefore meaningless if only inference is required. This should not be done when using a random, unlearned SP since you would end up with no active columns.</p>
-<p>:param activeColumns: An array containing the indices of the active columns </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">activeColumns</td><td>An array containing the indices of the active columns </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -1180,7 +1193,7 @@ def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Jan 20 2015 20:36:35 for NuPIC by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Wed Jan 21 2015 16:51:04 for NuPIC by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.7
 </small></address>
