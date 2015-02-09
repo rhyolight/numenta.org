@@ -15,7 +15,7 @@ The event was live-streamed on [YouTube](https://www.youtube.com/channel/UC8-ttz
 <div align="center">
     <iframe class="youtube-player" type="text/html" width="500" height="320" src="http://www.youtube.com/embed/yShNQvJEP6A?start=705" allowfullscreen="allowfullscreen" frameborder="0">
     </iframe>
-    <iframe class="youtube-player" type="text/html" width="500" height="320" src="http://numenta.org/hackathons/june2013/slides/" allowfullscreen="allowfullscreen" frameborder="0">
+    <iframe class="youtube-player" type="text/html" width="500" height="320" src="{{ site.baseurl }}/events/hackathon/2013/jun/slides/" allowfullscreen="allowfullscreen" frameborder="0">
     </iframe>
 </div>
 
