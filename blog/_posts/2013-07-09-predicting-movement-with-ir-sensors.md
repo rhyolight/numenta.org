@@ -3,6 +3,7 @@ layout: blogpost
 title: Predicting Movement with IR Sensors
 guest: Erik Blas
 category: blog
+redirect_from: "/news/2013/07/09/predicting-movement-with-ir-sensors.html"
 ---
 
 ### My Experience at the First NuPIC Hackathon
