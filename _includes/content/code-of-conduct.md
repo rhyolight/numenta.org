@@ -13,7 +13,7 @@ Event staff will be happy to help participants contact hotel/venue security or l
 
 - Matt Taylor <matt@numenta.org>
 - Scott Purdy <scott@numenta.org>
-- Teri Fry <tfry@groksolutions.com>
-- Taylor Wirfs <twirfs@groksolutions.com>
+- Teri Fry <tfry@numenta.com>
+- Taylor Wirfs <twirfs@numenta.com>
 
 We expect participants to follow these rules at all event venues and event-related social events.
