@@ -1,4 +1,26 @@
 
+## [2015 Spring Hackathon in NYC]({{ site.baseurl }}/hack/)
+
+<div align="center">
+    <img src="{{ site.baseurl }}/images/hackathons/2015/may/cornell-logo.png"/>
+    <img src="{{ site.baseurl }}/images/hackathons/2015/may/cornell-building.png"/>
+    
+    <br/><br/>
+    <h3>The 5th <strong>NuPIC Hackathon</strong> will be held at:</h3>
+
+    <p><strong><a href="https://www.google.com/maps/place/Cornell+Tech/@40.740914,-74.002181,19z/data=!3m1!4b1!4m2!3m1!1s0x0000000000000000:0xa9377b1a9772ce08">Cornell Tech</a></strong><br/>
+111 8th Avenue #302<br/>
+New York, NY 10011<br/>
+United States</p>
+
+    <p>
+        <strong>Saturday, May 30 10AM - Sunday, May 31 8PM</strong>
+    </p>
+
+    <h2><a href="http://www.meetup.com/numenta/events/220422020/">RSVP NOW!</a></h2>
+    <p>To attend this event, you <strong>MUST</strong> RSVP through the Meetup page above.</p>
+</div>
+
 # Recurring Events
 
 ## NuPIC Sprint Planning
