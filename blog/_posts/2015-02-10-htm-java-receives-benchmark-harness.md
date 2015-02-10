@@ -57,4 +57,4 @@ In addition, there is a text file located [here](https://github.com/numenta/htm.
 > David Ray <br/>
 > Lead Programmer, [HTM.java](https://github.com/numenta/htm.java)
 
-[Comments on Reddit]()
+[Comments on Reddit](http://www.reddit.com/r/MachineLearning/comments/2vghup/htmjava_receives_benchmark_harness/)
