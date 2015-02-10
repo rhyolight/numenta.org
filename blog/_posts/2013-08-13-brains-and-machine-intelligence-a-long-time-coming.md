@@ -2,6 +2,7 @@
 layout: blogpost
 title: Brains and Machine Intelligence, A Long Time Coming
 category: blog
+redirect_from: "/news/2013/08/13/brains-and-machine-intelligence-a-long-time-coming.html"
 ---
 
 Recently one of our U.S. agencies, the IARPA (Intelligence Advanced Research Projects Activity), put out an RFI (request for information) stating they are interested in machine learning algorithms that are based on neuroanatomy.  Although this RFI is only a few weeks old, I feel like I have been waiting for it for thirty years.
