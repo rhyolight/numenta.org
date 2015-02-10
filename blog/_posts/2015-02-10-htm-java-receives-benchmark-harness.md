@@ -8,7 +8,7 @@ They say in order to lead, one must have someplace to go. It's also true that in
 
 Unlike C, which is a statically compiled language, Java is very dynamic and undergoes very aggressive optimization and runtime profiling while it compiles down to native code on the fly! As such, there are many pitfalls one can come across when benchmarking Java code; which is why [JMH](http://openjdk.java.net/projects/code-tools/jmh/) was chosen for HTM.java's benchmark tool. JMH was developed as part of the OpenJDK project (the incubator Oracle draws from to create their "official" JDK), and while it doesn't make benchmarks infallible, it will help surmount some of the hardest issues benchmarking Java can present (such as accounting for optimizations: see [Loop Unrolling](http://en.wikipedia.org/wiki/Loop_unrolling), [Dead Code Elimination](http://en.wikipedia.org/wiki/Dead_code), and [Escape Analysis](http://en.wikipedia.org/wiki/Escape_analysis))
 
-For more detailed information about benchmarking Java please watch: [the talk by Aleksey Snipilev](http://vimeo.com/78900556), it's a crucial and informative watch.
+For more detailed information about benchmarking Java please watch: [the talk by Aleksey Shipilev](http://vimeo.com/78900556), it's a crucial and informative watch.
 
 
 ### Uhm... Back to [HTM.java](https://github.com/numenta/htm.java), right?
@@ -36,11 +36,11 @@ These can also be run on the command line using:
 * `gradle check` - Will build the sources and then run the benchmark at the end of the build run.
 * `gradle -Pskipbench check` - Will **skip** the benchmark run at the end of the build (for those times when you simply want a quick check of the build).
 
-Human readable results can be found in: "\<git source dir\>/build/reports/jmh/human.txt"**
+Human readable results can be found in: "\<git source dir\>/build/reports/jmh/human.txt".
 
 The jar file created by the "gradle check" command can be found at: "\<source dir\>/build/libs/htm.java-0.40-jmh.jar". The following command can be executed (from inside the "\<source dir\>/build/libs" directory) to simply run the benchmarks **after** "gradle check" has been run **at least once**. 
 
-* java -jar htm.java-0.40-jmh.jar
+    java -jar htm.java-0.40-jmh.jar
 
 The "0.40" part of the file name may change when new versions of HTM.java are released. 
 
