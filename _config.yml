@@ -16,3 +16,7 @@ safe: true
 lsi: false
 highlighter: pygments
 source: .
+
+gems:
+  - jekyll-redirect-from
+

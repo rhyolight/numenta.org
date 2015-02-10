@@ -2,6 +2,7 @@
 layout: blogpost
 title: Hackathon Outcome
 category: blog
+redirect_from: "/news/2013/06/25/hackathon-outcome.html"
 ---
 
 The first NuPIC Hackathon occurred over the past weekend, ending with eight demo applications from ten different participants. Even though there were some struggles getting NuPIC building and running on different platforms (we anticipated that), I consider this event a success based on the number of demonstrations ready within 24 hours.
