@@ -106,13 +106,6 @@ description: This is the one-stop location where details about all Numenta open
     - slug: numenta/nupic.nlp-examples
       type: app
 
-    # Misc repositories
-    - slug: numenta/pycept
-      type: misc
-      travis: true
-      coverage: true
-      deploy: "https://pypi.python.org/pypi/pycept/"
-
     # Ports of HTM to other environments
     - slug: numenta/htm.java
       type: port
