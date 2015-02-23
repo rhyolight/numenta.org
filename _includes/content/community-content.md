@@ -6,6 +6,18 @@ The following resources have been provided by community members of the NuPIC ope
 
 * * *
 
+## [Hierarchal Temporal Memory - Persian]({{ site.baseurl }}/resources/community-content/Hierarchical%20Temporal%20Memory%20-%20Persian.pdf)
+
+From a student in Artificial Intelligence with a Neural Network course in fall semester of 2014. 
+
+> Masoud Abasian <br/>
+> MSc student in Artificial Intelligence <br/>
+> Computer Eng. & Information Tech. Department <br/>
+> Amirkabir University of Technology <br/>
+> Tehran Polytechnic
+
+* * *
+
 ## [Toward a Universal Cortical Algorithm](https://drive.google.com/file/d/0B0RWGGOoommKM0llNUF3V2JJYTg/view?usp=sharing)
 
 Toward a Universal Cortical Algorithm: Examining Hierarchical Temporal Memory in Light of Frontal Cortical Function
