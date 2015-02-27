@@ -20,7 +20,7 @@ var searchData=
   ['printinput',['printInput',['../classnupic_1_1research_1_1_t_p_1_1_t_p.html#a0c3905cac4140e74a9104f73c5d4e3e8',1,'nupic::research::TP::TP']]],
   ['printoutput',['printOutput',['../classnupic_1_1research_1_1_t_p_1_1_t_p.html#a709d4435bcd6740dc6ec3e7f00db22e7',1,'nupic::research::TP::TP']]],
   ['printparameters',['printParameters',['../classnupic_1_1research_1_1_t_p_1_1_t_p.html#a04a4e1a34899612f53f6cb3dd5d1b1cb',1,'nupic.research.TP.TP.printParameters()'],['../classnupic_1_1research_1_1spatial__pooler_1_1_spatial_pooler.html#a04a4e1a34899612f53f6cb3dd5d1b1cb',1,'nupic.research.spatial_pooler.SpatialPooler.printParameters()']]],
-  ['printsegment',['printSegment',['../classnupic_1_1research_1_1_t_p10_x2_1_1_t_p10_x2.html#ad339cd476f9b57ce5ad9d464b89acc13',1,'nupic.research.TP10X2.TP10X2.printSegment()'],['../classnupic_1_1research_1_1_t_p_trivial_1_1_t_p_trivial.html#ad339cd476f9b57ce5ad9d464b89acc13',1,'nupic.research.TPTrivial.TPTrivial.printSegment()']]],
+  ['printsegment',['printSegment',['../classnupic_1_1research_1_1_t_p10_x2_1_1_t_p10_x2.html#ad339cd476f9b57ce5ad9d464b89acc13',1,'nupic::research::TP10X2::TP10X2']]],
   ['printsegmentupdates',['printSegmentUpdates',['../classnupic_1_1research_1_1_t_p_1_1_t_p.html#a4418ff760433bae0ad78958ccf4f03b2',1,'nupic::research::TP::TP']]],
   ['printstate',['printState',['../classnupic_1_1research_1_1_t_p_1_1_t_p.html#a8a350a9416a820ed41d18eb248c2b76b',1,'nupic::research::TP::TP']]],
   ['printstates',['printStates',['../classnupic_1_1research_1_1_t_p_1_1_t_p.html#a396042a9562bcba5e59dbee7d7174cfe',1,'nupic::research::TP::TP']]],

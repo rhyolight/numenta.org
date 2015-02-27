@@ -1,7 +1,7 @@
 var searchData=
 [
   ['infactivestate',['infActiveState',['../classnupic_1_1research_1_1_t_p_1_1_t_p.html#af6621330596e52b65e319a57c62e19ab',1,'nupic::research::TP::TP']]],
-  ['infer',['infer',['../classnupic_1_1research_1_1_t_p_trivial_1_1_t_p_trivial.html#a36fb3e21db91c1a611c726a605593392',1,'nupic.research.TPTrivial.TPTrivial.infer()'],['../classnupic_1_1research_1_1_t_p_1_1_t_p.html#a36fb3e21db91c1a611c726a605593392',1,'nupic.research.TP.TP.infer()']]],
+  ['infer',['infer',['../classnupic_1_1research_1_1_t_p_1_1_t_p.html#a36fb3e21db91c1a611c726a605593392',1,'nupic::research::TP::TP']]],
   ['inferbacktrack',['inferBacktrack',['../classnupic_1_1research_1_1_t_p_1_1_t_p.html#a9e9501253b8b964d3a01133e44b83a1f',1,'nupic::research::TP::TP']]],
   ['inferphase1',['inferPhase1',['../classnupic_1_1research_1_1_t_p_1_1_t_p.html#aa951aa1063a8a48de561fd69d718df8d',1,'nupic::research::TP::TP']]],
   ['inferphase2',['inferPhase2',['../classnupic_1_1research_1_1_t_p10_x2_1_1_t_p10_x2.html#a2e01f173cb6c44e084b9599cee2a7d26',1,'nupic.research.TP10X2.TP10X2.inferPhase2()'],['../classnupic_1_1research_1_1_t_p_1_1_t_p.html#a2e01f173cb6c44e084b9599cee2a7d26',1,'nupic.research.TP.TP.inferPhase2()']]],

@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['learn',['learn',['../classnupic_1_1research_1_1_t_p_trivial_1_1_t_p_trivial.html#aeb9339921d4a63f47fd93e7d7822f0e1',1,'nupic.research.TPTrivial.TPTrivial.learn()'],['../classnupic_1_1research_1_1_t_p_1_1_t_p.html#aeb9339921d4a63f47fd93e7d7822f0e1',1,'nupic.research.TP.TP.learn()']]],
+  ['learn',['learn',['../classnupic_1_1research_1_1_t_p_1_1_t_p.html#aeb9339921d4a63f47fd93e7d7822f0e1',1,'nupic::research::TP::TP']]],
   ['learnbacktrack',['learnBacktrack',['../classnupic_1_1research_1_1_t_p_1_1_t_p.html#a467f1f63e9002efb5851f10f3fdf351b',1,'nupic::research::TP::TP']]],
   ['learnonsegments',['learnOnSegments',['../classnupic_1_1research_1_1temporal__memory_1_1_temporal_memory.html#a87917601f17ba30b22657b1ae5f3b796',1,'nupic::research::temporal_memory::TemporalMemory']]],
   ['learnphase1',['learnPhase1',['../classnupic_1_1research_1_1_t_p_1_1_t_p.html#af240c1c01980b44ff07a881d670474cd',1,'nupic::research::TP::TP']]],

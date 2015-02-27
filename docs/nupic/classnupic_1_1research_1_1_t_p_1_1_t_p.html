@@ -108,8 +108,7 @@ Inheritance diagram for TP:</div>
  <div class="center">
   <img src="classnupic_1_1research_1_1_t_p_1_1_t_p.png" usemap="#TP_map" alt=""/>
   <map id="TP_map" name="TP_map">
-<area href="classnupic_1_1research_1_1_t_p10_x2_1_1_t_p10_x2.html" title="Class implementing the temporal pooler algorithm as described in the published Cortical Learning Algo..." alt="TP10X2" shape="rect" coords="0,56,62,80"/>
-<area href="classnupic_1_1research_1_1_t_p_trivial_1_1_t_p_trivial.html" title="Class implementing a trivial temporal pooler algorithm. " alt="TPTrivial" shape="rect" coords="72,56,134,80"/>
+<area href="classnupic_1_1research_1_1_t_p10_x2_1_1_t_p10_x2.html" title="Class implementing the temporal pooler algorithm as described in the published Cortical Learning Algo..." alt="TP10X2" shape="rect" coords="0,56,57,80"/>
 </map>
  </div></div>
 <table class="memberdecls">
@@ -375,8 +374,6 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:ad5ccd0b330b6a85883127f4b65fa6c0c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnupic_1_1research_1_1_t_p_1_1_t_p.html#ad5ccd0b330b6a85883127f4b65fa6c0c">pamCounter</a></td></tr>
 <tr class="memdesc:ad5ccd0b330b6a85883127f4b65fa6c0c"><td class="mdescLeft">&#160;</td><td class="mdescRight">pamCounter gets reset to pamLength whenever we detect that the learning state is making good predictions (at least half the columns predicted).  <a href="#ad5ccd0b330b6a85883127f4b65fa6c0c">More...</a><br /></td></tr>
 <tr class="separator:ad5ccd0b330b6a85883127f4b65fa6c0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a35cb65ff00e1843c84caa9dda78916dd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnupic_1_1research_1_1_t_p_1_1_t_p.html#a35cb65ff00e1843c84caa9dda78916dd">trivialPredictor</a></td></tr>
-<tr class="separator:a35cb65ff00e1843c84caa9dda78916dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a21f21b9f2e7f76fa1547c9382d10e7ba"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a21f21b9f2e7f76fa1547c9382d10e7ba"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnupic_1_1research_1_1_t_p_1_1_t_p.html#a21f21b9f2e7f76fa1547c9382d10e7ba">collectSequenceStats</a></td></tr>
 <tr class="memdesc:a21f21b9f2e7f76fa1547c9382d10e7ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">If True, the <a class="el" href="classnupic_1_1research_1_1_t_p_1_1_t_p.html" title="Class implementing the temporal pooler algorithm as described in the published Cortical Learning Algo...">TP</a> will compute a signature for each sequence. <br /></td></tr>
@@ -539,12 +536,6 @@ Public Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>trivialPredictionMethods</em> = <code>''</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
           <td class="paramname"><em>pamLength</em> = <code>1</code>, </td>
         </tr>
         <tr>
@@ -606,7 +597,6 @@ Public Attributes</h2></td></tr>
     <tr><td class="paramname">maxSegmentsPerCell</td><td>The maximum number of segments allowed on a cell. This is used to turn on "fixed size CLA" mode. When in effect, globalDecay is not applicable and must be set to 0 and maxAge must be set to 0. When this is used (&gt; 0), maxSynapsesPerSegment must also be &gt; 0.</td></tr>
     <tr><td class="paramname">maxSynapsesPerSegment</td><td>The maximum number of synapses allowed in a segment. This is used to turn on "fixed size CLA" mode. When in effect, globalDecay is not applicable and must be set to 0 and maxAge must be set to 0. When this is used (&gt; 0), maxSegmentsPerCell must also be &gt; 0.</td></tr>
     <tr><td class="paramname">outputType</td><td>Can be one of the following: 'normal', 'activeState', 'activeState1CellPerCol'. 'normal': output the OR of the active and predicted state. 'activeState': output only the active state. 'activeState1CellPerCol': output only the active state, and at most 1 cell/column. If more than 1 cell is active in a column, the one with the highest confidence is sent up. Default is 'normal'.</td></tr>
-    <tr><td class="paramname">trivialPredictionMethods</td><td>List (as string) of trivial predictions to compute alongside the full <a class="el" href="classnupic_1_1research_1_1_t_p_1_1_t_p.html" title="Class implementing the temporal pooler algorithm as described in the published Cortical Learning Algo...">TP</a>. See TrivialPredictor.py for a list of allowed methods.</td></tr>
     <tr><td class="paramname">doPooling</td><td>If True, pooling is enabled. False is the default.</td></tr>
     <tr><td class="paramname">burnIn</td><td>Used for evaluating the prediction score. Default is 2.</td></tr>
     <tr><td class="paramname">collectStats</td><td>If True, collect training / inference stats. Default is False. </td></tr>
@@ -2789,7 +2779,7 @@ Z (t-4)               2/3  = 0.667   (seq 4)/(seq 4,5)
         </tr>
       </table>
 </div><div class="memdoc">
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000042">Todo:</a></b></dt><dd>document </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000040">Todo:</a></b></dt><dd>document </dd></dl>
 
 </div>
 </div>
@@ -2815,7 +2805,7 @@ Z (t-4)               2/3  = 0.667   (seq 4)/(seq 4,5)
         </tr>
       </table>
 </div><div class="memdoc">
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000043">Todo:</a></b></dt><dd>document </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000041">Todo:</a></b></dt><dd>document </dd></dl>
 
 </div>
 </div>
@@ -2867,7 +2857,7 @@ Z (t-4)               2/3  = 0.667   (seq 4)/(seq 4,5)
         </tr>
       </table>
 </div><div class="memdoc">
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000045">Todo:</a></b></dt><dd>document </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000043">Todo:</a></b></dt><dd>document </dd></dl>
 
 </div>
 </div>
@@ -2880,7 +2870,7 @@ Z (t-4)               2/3  = 0.667   (seq 4)/(seq 4,5)
         </tr>
       </table>
 </div><div class="memdoc">
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000047">Todo:</a></b></dt><dd>document </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000045">Todo:</a></b></dt><dd>document </dd></dl>
 
 </div>
 </div>
@@ -2933,7 +2923,7 @@ Z (t-4)               2/3  = 0.667   (seq 4)/(seq 4,5)
         </tr>
       </table>
 </div><div class="memdoc">
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000044">Todo:</a></b></dt><dd>document </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000042">Todo:</a></b></dt><dd>document </dd></dl>
 
 </div>
 </div>
@@ -2959,7 +2949,7 @@ Z (t-4)               2/3  = 0.667   (seq 4)/(seq 4,5)
         </tr>
       </table>
 </div><div class="memdoc">
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000046">Todo:</a></b></dt><dd>document </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000044">Todo:</a></b></dt><dd>document </dd></dl>
 
 </div>
 </div>
@@ -3215,20 +3205,6 @@ Z (t-4)               2/3  = 0.667   (seq 4)/(seq 4,5)
 
 </div>
 </div>
-<a class="anchor" id="a35cb65ff00e1843c84caa9dda78916dd"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">trivialPredictor</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000040">Todo:</a></b></dt><dd>document </dd></dl>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000041">Todo:</a></b></dt><dd>document </dd></dl>
-
-</div>
-</div>
 <a class="anchor" id="a97b1cc04ec204ba7f1507498beb1d460"></a>
 <div class="memitem">
 <div class="memproto">
@@ -3261,7 +3237,7 @@ Z (t-4)               2/3  = 0.667   (seq 4)/(seq 4,5)
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Feb 27 2015 18:37:52 for NuPIC by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Feb 27 2015 23:19:39 for NuPIC by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.7
 </small></address>

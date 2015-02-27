@@ -6,8 +6,6 @@ var searchData=
   ['tp',['TP',['../classnupic_1_1research_1_1_t_p_1_1_t_p.html',1,'nupic::research::TP']]],
   ['tp_2epy',['TP.py',['../_t_p_8py.html',1,'']]],
   ['tp10x2',['TP10X2',['../classnupic_1_1research_1_1_t_p10_x2_1_1_t_p10_x2.html',1,'nupic::research::TP10X2']]],
-  ['tptrivial',['TPTrivial',['../classnupic_1_1research_1_1_t_p_trivial_1_1_t_p_trivial.html',1,'nupic::research::TPTrivial']]],
-  ['trimsegments',['trimSegments',['../classnupic_1_1research_1_1_t_p10_x2_1_1_t_p10_x2.html#a6c45cce5611f4c5e48a20b856bdaedcf',1,'nupic.research.TP10X2.TP10X2.trimSegments()'],['../classnupic_1_1research_1_1_t_p_trivial_1_1_t_p_trivial.html#a6c45cce5611f4c5e48a20b856bdaedcf',1,'nupic.research.TPTrivial.TPTrivial.trimSegments()'],['../classnupic_1_1research_1_1_t_p_1_1_t_p.html#a6c45cce5611f4c5e48a20b856bdaedcf',1,'nupic.research.TP.TP.trimSegments()']]],
-  ['trimsegmentsincell',['trimSegmentsInCell',['../classnupic_1_1research_1_1_t_p_1_1_t_p.html#ad2fe1ce43827288e91312de2edd7529b',1,'nupic::research::TP::TP']]],
-  ['trivialpredictor',['trivialPredictor',['../classnupic_1_1research_1_1_t_p_1_1_t_p.html#a35cb65ff00e1843c84caa9dda78916dd',1,'nupic::research::TP::TP']]]
+  ['trimsegments',['trimSegments',['../classnupic_1_1research_1_1_t_p10_x2_1_1_t_p10_x2.html#a6c45cce5611f4c5e48a20b856bdaedcf',1,'nupic.research.TP10X2.TP10X2.trimSegments()'],['../classnupic_1_1research_1_1_t_p_1_1_t_p.html#a6c45cce5611f4c5e48a20b856bdaedcf',1,'nupic.research.TP.TP.trimSegments()']]],
+  ['trimsegmentsincell',['trimSegmentsInCell',['../classnupic_1_1research_1_1_t_p_1_1_t_p.html#ad2fe1ce43827288e91312de2edd7529b',1,'nupic::research::TP::TP']]]
 ];
