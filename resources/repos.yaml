@@ -19,7 +19,7 @@ description: This is the one-stop location where details about all Numenta open
       travis: true
       appveyor: 
        - badge: https://ci.appveyor.com/api/projects/status/q9bc043vrhgd88sw?svg=true
-       - url: https://ci.appveyor.com/project/numenta-ci/nupic-core/branch/master
+         url: https://ci.appveyor.com/project/numenta-ci/nupic-core/branch/master
       coverage: true
 
     - slug: numenta/nupic-linux64
