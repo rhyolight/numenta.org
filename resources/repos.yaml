@@ -17,7 +17,7 @@ description: This is the one-stop location where details about all Numenta open
     - slug: numenta/nupic.core
       type: primary
       travis: true
-      appveyor: true
+      appveyor: https://ci.appveyor.com/api/projects/status/q9bc043vrhgd88sw?svg=true
       coverage: true
 
     - slug: numenta/nupic-linux64
