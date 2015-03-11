@@ -1,4 +1,12 @@
 
+## [What the Brain Says About Machine Intelligence](http://www.meetup.com/numenta/events/220895892/)
+
+This event features **Jeff Hawkins** speaking at **Cornell Tech** in **New York City** on **March 17 from 7-9PM**. See [our meetup page](http://www.meetup.com/numenta/events/220895892/) for details and to RSVP.
+
+## [Bay Area NuPIC Meetup](http://www.meetup.com/numenta/events/220690176/)
+
+This community-organized Meetup will be at **Carnegie Mellon in Silicon Valley** on **March 25 from 6-9PM**. It's a great chance to meet with the NuPIC community and catch up with what's been going on with NuPIC development and projects. See [our meetup page](http://www.meetup.com/numenta/events/220690176/) for details and to RSVP.
+
 ## [2015 Spring Hackathon in NYC]({{ site.baseurl }}/hack/)
 
 <div align="center">
