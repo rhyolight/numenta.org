@@ -32,17 +32,14 @@ $ gem install bundler
 $ bundle install
 ```
 
-Make sure to run `bundle update` occassionally to keep everything modern.
 
 ### Local
 
-Build and serve site:
-```
-$ bundle exec jekyll serve --baseurl=
-```
-
-When the build is finished, visit `http://localhost:4000` in your web browser
-to view your local development version of the site.
+* Build and serve site:
+  ```
+  $ bundle exec jekyll serve --baseurl=
+  ```
+*  When the build is finished, visit `http://localhost:4000` in browser.
 
 ### Staging
 
@@ -54,3 +51,7 @@ TBD
   [numenta.org repository](https://github.com/numenta/numenta.org).
 * After a few minutes of building, your changes will be live.
 * Changes, Pull Requests, and Issues are welcome and appreciated!
+
+### Misc
+
+* Make sure to run `bundle update` occassionally to keep ruby gems modern.
