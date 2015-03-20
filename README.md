@@ -1,4 +1,4 @@
-# NuPIC Website http://numenta.org
+# NuPIC http://numenta.org
 
 [![Build Status](https://travis-ci.org/numenta/numenta.org.png?branch=gh-pages)](https://travis-ci.org/numenta/numenta.org)
 
@@ -15,7 +15,7 @@ and built with [Jekyll](http://jekyllrb.com/).
 
 ### Prerequisites
 
-* [Numenta.org source code](http://en.wikipedia.org/wiki/ECMAScript)
+* [Source code](https://github.com/numenta/numenta.org)
 * [Git](http://git-scm.com/) and [GitHub](http://github.com)
 * [Ruby](https://www.ruby-lang.org/) and [Gems](https://rubygems.org/)
 * [Bundler](http://bundler.io/) gem
