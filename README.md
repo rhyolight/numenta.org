@@ -18,9 +18,9 @@ and built with [Jekyll](http://jekyllrb.com/).
 * [Source code](https://github.com/numenta/numenta.org)
 * [Git](http://git-scm.com/) and [GitHub](http://github.com)
 * [Ruby](https://www.ruby-lang.org/) and [Gems](https://rubygems.org/)
-* [Bundler](http://bundler.io/) gem
-* [Jekyll](http://jekyllrb.com/) static site generator
-* [GitHub Pages Ruby Gem](https://github.com/github/pages-gem)
+* [Bundler](http://bundler.io/) ruby gem
+* [Jekyll](http://jekyllrb.com/) static site generator ruby gem
+* [github-pages](https://github.com/github/pages-gem) ruby gem
 
 Example Mac OS X setup:
 ```
