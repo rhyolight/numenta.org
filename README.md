@@ -3,21 +3,30 @@
 [![Build Status](https://travis-ci.org/numenta/numenta.org.png?branch=gh-pages)](https://travis-ci.org/numenta/numenta.org)
 
 This is the open source code for the NuPIC Website hosted at
-[http://numenta.org](http://numenta.org). It is built using
-[HTML5](http://en.wikipedia.org/wiki/HTML5),
-[CSS3](http://en.wikipedia.org/wiki/Cascading_Style_Sheets), and modern
-[ECMAScript](http://en.wikipedia.org/wiki/ECMAScript) (Javascript).
-It is hosted using [Github Pages](https://pages.github.com),
-and built with [Jekyll](http://jekyllrb.com/).
+[http://numenta.org](http://numenta.org).
 
 
 # Development
 
-### Prerequisites
 
-* [Source code](https://github.com/numenta/numenta.org)
-* [Git](http://git-scm.com/) and [GitHub](http://github.com)
-* [Ruby](https://www.ruby-lang.org/) and [RubyGems](https://rubygems.org/)
+## Technology
+
+* Browser/Client
+  * [HTML5](http://en.wikipedia.org/wiki/HTML5) = Semantic structure and content
+  * [CSS3](http://en.wikipedia.org/wiki/Cascading_Style_Sheets) = Visual styling
+    * [SASS](http://sass-lang.com/) CSS Pre-processor language
+  * [ECMAScript 5+](http://en.wikipedia.org/wiki/ECMAScript) (Javascript) =
+    Functionality and Interaction
+* Server
+  * Hosting: [Github Pages](https://pages.github.com)
+  * Static site generation: [Jekyll](http://jekyllrb.com/)
+
+
+## Prerequisites
+
+* [Source code](https://github.com/numenta/numenta.org) via GitHub
+* [Git](http://git-scm.com/) and [GitHub](http://github.com) source control
+* [Ruby](https://www.ruby-lang.org/) lang and [RubyGems](https://rubygems.org/)
   * [bundler](http://bundler.io/) ruby gem
   * [jekyll](http://jekyllrb.com/) static site generator ruby gem
   * [github-pages](https://github.com/github/pages-gem) ruby gem
@@ -32,11 +41,13 @@ bundle install
 ```
 
 
+## Build
+
 ### Local
 
 Build and serve site:
 ```
-bundle exec jekyll serve --baseurl=
+bundle exec jekyll serve
 ```
 
 When the build is finished, visit `http://localhost:4000` in browser.
@@ -54,6 +65,26 @@ TBD
   [numenta.org repository](https://github.com/numenta/numenta.org).
 * After a few minutes of building, your changes will be live in production.
 
-### Misc
+
+## Best Practices
+
+### All Files
+
+* 2 space indentation
+
+### HTML
+
+*
+
+### CSS / SCSS
+
+*
+
+### Javascript
+
+*
+
+
+## Maintenance
 
 * Make sure to run `bundle update` occassionally to keep ruby gems modern.

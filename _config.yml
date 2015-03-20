@@ -1,22 +1,59 @@
-title: NuPIC
-tagline: Numenta&nbsp;Platform&nbsp;for Intelligent&nbsp;Computing
+# Numenta.org Jekyll Config
+# http://jekyllrb.com/docs/configuration/
 
-baseurl: http://numenta.org
+### about
 
-future: false
+description:  Numenta Platform for Intelligent Computing
+#github:      # gh-pages add
+name:         NuPIC
+tagline:      Numenta Platform for Intelligent Computing
+title:        NuPIC
 
-markdown: Kramdown
+### paths
 
-name: NuPIC
-description: Numenta Platform for Intelligent Computing
+data_source:  ./_data
+destination:  ./_site
+#include_dir: ./_includes # jekyll lock
+layouts:      ./_layouts
+plugins:      ./_plugins
+sass_dir:     ./_sass
+source:       . # gh-pages lock
 
-exclude: [vendor]
+### settings
 
-safe: true
-lsi: false
-highlighter: pygments
-source: .
+encoding:     utf-8
+exclude:      []
+future:       false
+gems:         [ 'jekyll-redirect-from' ]
+highlighter:  pygments
+lsi:          false # gh-pages lock
+markdown:     kramdown
+safe:         true # gh-pages lock
+timezone:     America/Los_Angeles
 
-gems:
-  - jekyll-redirect-from
+### plugins
+
+kramdown:
+  input: GFM # github-flavored markdown
+
+### defaults
+
+# defaults:
+#   -
+#     scope:
+#       path: '' # all files
+#       type: 'posts'
+#     values:
+#       layout: 'default'
+#   -
+#     scope:
+#       path: 'projects'
+#       type: 'pages'
+#     values:
+#       layout: 'project'
+#       author: 'Vito'
+
+### collections http://jekyllrb.com/docs/collections/
+
+# collections:
 
