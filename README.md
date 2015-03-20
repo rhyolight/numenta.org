@@ -48,8 +48,8 @@ TBD
 ### Production
 
 * Changes, Pull Requests, and Issues are welcome and appreciated!
-  * Make sure to become a [NuPIC Contributor](http://numenta.org/licenses/cl/)
-    first.
+  * Please make sure to
+    [sign the Contributor licenese](http://numenta.org/licenses/cl/) first.
 * Merge your PRs of final changes to the `gh-pages` branch of the
   [numenta.org repository](https://github.com/numenta/numenta.org).
 * After a few minutes of building, your changes will be live in production.
