@@ -1,15 +1,55 @@
-Numenta.org [![Build Status](https://travis-ci.org/numenta/numenta.org.png?branch=gh-pages)](https://travis-ci.org/numenta/numenta.org)
-===========
+# NuPIC Website http://numenta.org
 
-This is the source of http://www.numenta.org. It is written using Github Pages.
+[![Build Status](https://travis-ci.org/numenta/numenta.org.png?branch=gh-pages)](https://travis-ci.org/numenta/numenta.org)
 
-Please don't pay much attention to hidden content. Everything is a work in progress except what is publicly displayed on the http://numenta.org landing page.
+This is the open source code for the NuPIC Website hosted at
+[http://numenta.org](http://numenta.org). It is built using
+[HTML5](http://en.wikipedia.org/wiki/HTML5),
+[CSS3](http://en.wikipedia.org/wiki/Cascading_Style_Sheets), and modern
+[ECMAScript](http://en.wikipedia.org/wiki/ECMAScript) (Javascript).
+It is hosted using [Github Pages](https://pages.github.com),
+and built with [Jekyll](http://jekyllrb.com/).
 
-Local setup
------------
 
-Consider install `rbenv`, then:
+# Development
 
-    gem install bundler
-    bundle install
-    jekyll serve -w --baseurl=
+### Prerequisites
+
+* [Numenta.org source code](http://en.wikipedia.org/wiki/ECMAScript)
+* [Git](http://git-scm.com/) and [GitHub](http://github.com)
+* [Ruby](https://www.ruby-lang.org/) and [Gems](https://rubygems.org/)
+* [Bundler](http://bundler.io/) gem
+* [Jekyll](http://jekyllrb.com/) static site generator
+* [GitHub Pages Ruby Gem](https://github.com/github/pages-gem)
+
+Example Mac OS X setup:
+```
+$ brew install git
+$ git clone git@github.com:numenta/numenta.org.git
+$ cd numenta.org
+$ gem install bundler
+$ bundle install
+```
+
+Make sure to run `bundle update` occassionally to keep everything modern.
+
+### Local
+
+Build and serve site:
+```
+$ bundle exec jekyll serve --baseurl=
+```
+
+When the build is finished, visit `http://localhost:4000` in your web browser
+to view your local development version of the site.
+
+### Staging
+
+TBD
+
+### Production
+
+* Merge your PR of final changes to the `gh-pages` branch of the
+  [numenta.org repository](https://github.com/numenta/numenta.org).
+* After a few minutes of building, your changes will be live.
+* Changes, Pull Requests, and Issues are welcome and appreciated!
