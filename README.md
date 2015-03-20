@@ -25,25 +25,26 @@ and built with [Jekyll](http://jekyllrb.com/).
 
 Example Mac OS X setup:
 ```
-$ brew install git
-$ git clone git@github.com:numenta/numenta.org.git
-$ cd numenta.org
-$ gem install bundler
-$ bundle install
+brew install git
+git clone git@github.com:numenta/numenta.org.git
+cd numenta.org
+gem install bundler
+bundle install
 ```
 
 
 ### Local
 
-* Build and serve site:
-  ```
-  $ bundle exec jekyll serve --baseurl=
-  ```
-*  When the build is finished, visit `http://localhost:4000` in browser.
+Build and serve site:
+```
+bundle exec jekyll serve --baseurl=
+```
+
+When the build is finished, visit `http://localhost:4000` in browser.
 
 ### Staging
 
-TBD
+* TBD
 
 ### Production
 
