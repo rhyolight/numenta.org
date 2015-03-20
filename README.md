@@ -17,11 +17,10 @@ and built with [Jekyll](http://jekyllrb.com/).
 
 * [Source code](https://github.com/numenta/numenta.org)
 * [Git](http://git-scm.com/) and [GitHub](http://github.com)
-* [Ruby](https://www.ruby-lang.org/)
-  * [RubyGems](https://rubygems.org/)
-    * [bundler](http://bundler.io/) ruby gem
-    * [jekyll](http://jekyllrb.com/) static site generator ruby gem
-    * [github-pages](https://github.com/github/pages-gem) ruby gem
+* [Ruby](https://www.ruby-lang.org/) and [RubyGems](https://rubygems.org/)
+  * [bundler](http://bundler.io/) ruby gem
+  * [jekyll](http://jekyllrb.com/) static site generator ruby gem
+  * [github-pages](https://github.com/github/pages-gem) ruby gem
 
 Example Mac OS X setup:
 ```
@@ -44,7 +43,7 @@ When the build is finished, visit `http://localhost:4000` in browser.
 
 ### Staging
 
-* TBD
+TBD
 
 ### Production
 
