@@ -1,5 +1,7 @@
-_site
-.idea/
+.ackrc
 .DS_Store
 Gemfile.lock
-.ackrc
+
+.idea/
+_site/
+node_modules/

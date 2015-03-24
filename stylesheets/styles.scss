@@ -25,8 +25,20 @@ h1, h2, h3 {
   line-height:1.1;
 }
 
+/**
+ * Header Level 1
+ *
+ * Standard header for leading main paragraphs.
+ *
+ * :hover - Highlights when hovering
+ *
+ * Style guide: components.h1
+ */
 h1 {
   font-size:28px;
+}
+h1:hover {
+  color: orange;
 }
 
 h2 {
