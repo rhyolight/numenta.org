@@ -1,9 +1,4 @@
----
-# sassy styles
----
-
 @import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
-@import 'typography';
 
 body {
   padding:50px;
@@ -25,23 +20,8 @@ h1, h2, h3 {
   line-height:1.1;
 }
 
-/**
- * Header Level 1
- *
- * Standard header for leading main paragraphs.
- *
- * Markup:
- * <h1>Welcome</h1>
- *
- * :hover - Highlights when hovering
- *
- * Styleguide: 1.0
- */
 h1 {
   font-size:28px;
-}
-h1:hover {
-  color: orange;
 }
 
 h2 {

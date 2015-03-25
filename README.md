@@ -1,9 +1,10 @@
-# NuPIC http://numenta.org
-
-[![Build Status](https://travis-ci.org/numenta/numenta.org.png?branch=gh-pages)](https://travis-ci.org/numenta/numenta.org)
+# NuPIC Website
+## http://numenta.org
 
 This is the open source code for the NuPIC Website hosted at
 [http://numenta.org](http://numenta.org).
+
+[![Build Status](https://travis-ci.org/numenta/numenta.org.png?branch=gh-pages)](https://travis-ci.org/numenta/numenta.org)
 
 
 # Development
@@ -87,8 +88,7 @@ TBD
 
 ### CSS / SCSS
 
-* All CSS changes should sync with our Living Style Guide, and match up to
-  graphic design specs.
+* Adhere and sync with the [Living Styleguide](http://numenta.org/styleguide/)
 * CSS files should be crunched for production
 
 ### Javascript

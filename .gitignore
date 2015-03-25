@@ -1,6 +1,7 @@
 .ackrc
 .DS_Store
 Gemfile.lock
+npm-debug.log
 
 .idea/
 _site/

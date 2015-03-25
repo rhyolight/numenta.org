@@ -1,0 +1,6 @@
+{
+  "css":          [ "/stylesheets/global.css" ],
+  "destination":  "..",
+  "source":       "../../stylesheets",
+  "template":     "templates/nupic-custom/template"
+}
