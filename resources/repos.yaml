@@ -63,6 +63,7 @@ description: This is the one-stop location where details about all Numenta open
     # Support projects
     - slug: numenta/NAB
       type: support
+      travis: true
 
     - slug: numenta/numenta.org
       type: support

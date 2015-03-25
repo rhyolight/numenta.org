@@ -98,7 +98,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 
-<p>An encoder takes a value and encodes it with a partial sparse representation of bits.  
+<p>An encoder converts a value to a sparse distributed representation.  
  <a href="classnupic_1_1encoders_1_1base_1_1_encoder.html#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for Encoder:</div>
@@ -201,17 +201,18 @@ def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
 <tr class="separator:a9fafcd2f8af6c765d3a4ea3759393406"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>An encoder takes a value and encodes it with a partial sparse representation of bits. </p>
-<p>The <a class="el" href="classnupic_1_1encoders_1_1base_1_1_encoder.html" title="An encoder takes a value and encodes it with a partial sparse representation of bits. ">Encoder</a> superclass implements:</p><ul>
+<div class="textblock"><p>An encoder converts a value to a sparse distributed representation. </p>
+<p>This is the base class for encoders that are compatible with the OPF. The OPF requires that values can be represented as a scalar value for use in places like the CLA Classifier. The <a class="el" href="classnupic_1_1encoders_1_1base_1_1_encoder.html" title="An encoder converts a value to a sparse distributed representation. ">Encoder</a> superclass implements:</p>
+<ul>
 <li><a class="el" href="classnupic_1_1encoders_1_1base_1_1_encoder.html#a079d592aa5360c10d39d8e7b98b9b0de" title="Convenience wrapper for encodeIntoArray. ">encode()</a> - returns a numpy array encoding the input; syntactic sugar on top of encodeIntoArray. If pprint, prints the encoding to the terminal</li>
-<li><a class="el" href="classnupic_1_1encoders_1_1base_1_1_encoder.html#a8aae9449a811745c57bb9a87ebe7215b" title="Pretty-print a header that labels the sub-fields of the encoded output. ">pprintHeader()</a> &ndash; prints a header describing the encoding to the terminal</li>
-<li><a class="el" href="classnupic_1_1encoders_1_1base_1_1_encoder.html#abb788ad94cb6bab07093b1490cecb895" title="Pretty-print the encoded output using ascii art. ">pprint()</a> &ndash; prints an encoding to the terminal</li>
+<li><a class="el" href="classnupic_1_1encoders_1_1base_1_1_encoder.html#a8aae9449a811745c57bb9a87ebe7215b" title="Pretty-print a header that labels the sub-fields of the encoded output. ">pprintHeader()</a> - prints a header describing the encoding to the terminal</li>
+<li><a class="el" href="classnupic_1_1encoders_1_1base_1_1_encoder.html#abb788ad94cb6bab07093b1490cecb895" title="Pretty-print the encoded output using ascii art. ">pprint()</a> - prints an encoding to the terminal</li>
 </ul>
 <p>Methods/properties that must be implemented by subclasses:</p><ul>
-<li><a class="el" href="classnupic_1_1encoders_1_1base_1_1_encoder.html#a01c1f94ffd2fe55c8d52935e7a66f068" title="Returns a sequence of field types corresponding to the elements in the decoded output field array...">getDecoderOutputFieldTypes()</a> &ndash; must be implemented by leaf encoders; returns [<code>nupic.data.fieldmeta.FieldMetaType.XXXXX</code>] (e.g., [nupic.data.fieldmetaFieldMetaType.float])</li>
-<li><a class="el" href="classnupic_1_1encoders_1_1base_1_1_encoder.html#adc3815f30266aa8dca6e568755c30002" title="Should return the output width, in bits. ">getWidth()</a> &ndash; returns the output width, in bits</li>
-<li><a class="el" href="classnupic_1_1encoders_1_1base_1_1_encoder.html#afa42f8270b57813993a952c9f9809888" title="Encodes inputData and puts the encoded value into the numpy output array, which is a 1-D array of len...">encodeIntoArray()</a> &ndash; encodes input and puts the encoded value into the numpy output array, which is a 1-D array of length returned by <a class="el" href="classnupic_1_1encoders_1_1base_1_1_encoder.html#adc3815f30266aa8dca6e568755c30002" title="Should return the output width, in bits. ">getWidth()</a></li>
-<li><a class="el" href="classnupic_1_1encoders_1_1base_1_1_encoder.html#aeddb818fc1af9fb1e56a22c5d22e2ee1" title="This returns a list of tuples, each containing (name, offset). ">getDescription()</a> &ndash; returns a list of (name, offset) pairs describing the encoded output </li>
+<li><a class="el" href="classnupic_1_1encoders_1_1base_1_1_encoder.html#a01c1f94ffd2fe55c8d52935e7a66f068" title="Returns a sequence of field types corresponding to the elements in the decoded output field array...">getDecoderOutputFieldTypes()</a> - must be implemented by leaf encoders returns [<code>nupic.data.fieldmeta.FieldMetaType.XXXXX</code>] (e.g., [nupic.data.fieldmetaFieldMetaType.float])</li>
+<li><a class="el" href="classnupic_1_1encoders_1_1base_1_1_encoder.html#adc3815f30266aa8dca6e568755c30002" title="Should return the output width, in bits. ">getWidth()</a> - returns the output width, in bits</li>
+<li><a class="el" href="classnupic_1_1encoders_1_1base_1_1_encoder.html#afa42f8270b57813993a952c9f9809888" title="Encodes inputData and puts the encoded value into the numpy output array, which is a 1-D array of len...">encodeIntoArray()</a> - encodes input and puts the encoded value into the numpy output array, which is a 1-D array of length returned by <a class="el" href="classnupic_1_1encoders_1_1base_1_1_encoder.html#adc3815f30266aa8dca6e568755c30002" title="Should return the output width, in bits. ">getWidth()</a></li>
+<li><a class="el" href="classnupic_1_1encoders_1_1base_1_1_encoder.html#aeddb818fc1af9fb1e56a22c5d22e2ee1" title="This returns a list of tuples, each containing (name, offset). ">getDescription()</a> - returns a list of (name, offset) pairs describing the encoded output </li>
 </ul>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a class="anchor" id="ad40edb9ac8181ea77b137de39af90c3d"></a>
@@ -429,7 +430,6 @@ def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
 </div><div class="memdoc">
 
 <p>Encodes inputData and puts the encoded value into the numpy output array, which is a 1-D array of length returned by <a class="el" href="classnupic_1_1encoders_1_1base_1_1_encoder.html#adc3815f30266aa8dca6e568755c30002" title="Should return the output width, in bits. ">getWidth()</a>. </p>
-<p><b>Must be overridden by subclasses.</b></p>
 <p>Note: The numpy output array is reused, so clear it before updating it.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -839,7 +839,6 @@ def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
 </div><div class="memdoc">
 
 <p>Should return the output width, in bits. </p>
-<p><b>Must be overridden by subclasses.</b></p>
 <dl class="section return"><dt>Returns</dt><dd>output width in bits </dd></dl>
 
 </div>
@@ -1106,7 +1105,7 @@ def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Mar 19 2015 21:02:06 for NuPIC by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Mar 20 2015 20:26:50 for NuPIC by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.7
 </small></address>
