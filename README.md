@@ -1,5 +1,6 @@
 # NuPIC Website
-## http://numenta.org
+
+### http://numenta.org
 
 This is the open source code for the NuPIC Website hosted at
 [http://numenta.org](http://numenta.org).
@@ -7,10 +8,10 @@ This is the open source code for the NuPIC Website hosted at
 [![Build Status](https://travis-ci.org/numenta/numenta.org.png?branch=gh-pages)](https://travis-ci.org/numenta/numenta.org)
 
 
-# Development
+## Development
 
 
-## Prerequisites
+### Prerequisites
 
 * [Source code](https://github.com/numenta/numenta.org) via GitHub
 * [Git](http://git-scm.com/) and [GitHub](http://github.com) source control
@@ -32,7 +33,7 @@ npm install
 ```
 
 
-## Technology
+### Technology
 
 * Browser/Client
   * [HTML5](http://en.wikipedia.org/wiki/HTML5) = Semantic structure and content
@@ -47,9 +48,9 @@ npm install
   * Tooling: Node.js [npm](https://www.npmjs.com/) packages
 
 
-## Build
+### Build
 
-### Local
+#### Local
 
 Build and serve site:
 ```
@@ -58,11 +59,11 @@ npm run dev
 
 When the build is finished, visit `http://localhost:4000` in browser.
 
-### Staging
+#### Staging
 
 TBD
 
-### Production
+#### Production
 
 * Changes, Pull Requests, and Issues are welcome and appreciated!
   * Please make sure to
@@ -72,32 +73,32 @@ TBD
 * After a few minutes of building, your changes will be live in production.
 
 
-## Best Practices
+### Best Practices
 
-### All Files
+#### All Files
 
 * 2 space indentation
 * Be as Standards-compliant as possible
 * Support older browsers (< IE9) as well as possible
 * Support a wide array of users with accessibility needs
 
-### HTML
+#### HTML
 
 * HTML files should be validated
 * HTML files should be crunched for production
 
-### CSS / SCSS
+#### CSS / SCSS
 
 * Adhere and sync with the [Living Styleguide](http://numenta.org/styleguide/)
 * CSS files should be crunched for production
 
-### Javascript
+#### Javascript
 
 *
 * JS files should be crunched for production
 
 
-## Maintenance
+### Maintenance
 
 * Image files should be crunched for production (TODO auto script)
 * Make sure to run `bundle update` occassionally to keep ruby gems modern.
