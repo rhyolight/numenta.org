@@ -1,6 +1,6 @@
 {
-  "css":          [ "/stylesheets/global.css" ],
+  "css":          [ "/assets/css/base.css" ],
   "destination":  "..",
-  "source":       "../../stylesheets",
+  "source":       "../../assets/css",
   "template":     "templates/nupic-custom/template"
 }
