@@ -11,15 +11,16 @@ for the [NuPIC](/) Website at http://numenta.org.
 
 #### Styleguide
 
-This guide is defined in, and generated from, the actual living
-[CSS and SASS code](https://github.com/numenta/numenta.org/tree/gh-pages/stylesheets) 
+Please use the navigation menu on the left to explore our styleguide. This 
+guide is defined in, and generated from, the actual living
+[CSS and SASS code](https://github.com/numenta/numenta.org/tree/gh-pages/assets/css) 
 of the website. It will be automatically updated with each build. Please
 see the [node-kss specification](https://github.com/kss-node/kss/blob/spec/SPEC.md) 
 on how to use this.
 
 #### Links
 
-* [NuPIC Website Stylesheets](https://github.com/numenta/numenta.org/tree/gh-pages/stylesheets) (CSS/SASS)
+* [NuPIC Website CSS Code](https://github.com/numenta/numenta.org/tree/gh-pages/assets/css) (CSS/SASS)
 * TODO Link to CSS Best Practices
 * [Numenta.org Wiki](https://github.com/numenta/numenta.org/wiki)
 
