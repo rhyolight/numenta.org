@@ -3,14 +3,9 @@ layout: base
 title: NuPIC | Numenta Platform for Intelligent Computing
 ---
 
-<section>
-  {% capture content %}
-  {% include index/hero.html %}
-  {% include index/start.html %}
-  {% include index/docs.html %}
-  {% include index/theory.html %}
-  {% include index/community.html %}
-  {% include index/latest.html %}
-  {% endcapture %}
-  {{ content | markdownify }}
-</section>
+{% include index/hero.html %}
+{% include index/start.html %}
+{% include index/docs.html %}
+{% include index/theory.html %}
+{% include index/community.html %}
+{% include index/latest.html %}

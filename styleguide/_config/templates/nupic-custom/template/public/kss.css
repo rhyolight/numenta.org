@@ -629,6 +629,8 @@ pre .regexp {
   padding: 8px 0 0;
   border-top: 2px solid #e3e3e3;
   font-size: 13px;
+  /* numenta custom: */
+  background-color: #fff;
 }
 #kss-node .kss-footer h1,
 #kss-node .kss-footer h2,
