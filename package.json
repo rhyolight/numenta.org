@@ -32,7 +32,12 @@
     "url": "https://github.com/numenta/numenta.org/issues"
   },
   "homepage": "http://numenta.org",
-  "devDependencies": {
-    "kss": "2.0.2"
+  "devDependencies": {},
+  "dependencies": {
+    "bootstrap-sass": "^3.3.4",
+    "font-awesome": "4.3.0",
+    "jquery": "^2.1.3",
+    "kss": "2.0.2",
+    "open-sands": "1.0.3"
   }
 }

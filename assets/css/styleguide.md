@@ -7,28 +7,30 @@ for the [NuPIC](/) Website at http://numenta.org.
 
 > **http://numenta.org/styleguide/**
 
+<br/>
+
+#### Styleguide
+
 This guide is defined in, and generated from, the actual living
 [CSS and SASS code](https://github.com/numenta/numenta.org/tree/gh-pages/stylesheets) 
 of the website. It will be automatically updated with each build. Please
 see the [node-kss specification](https://github.com/kss-node/kss/blob/spec/SPEC.md) 
 on how to use this.
 
-<br/>
-
-![Numenta Logo](http://numenta.com/assets/img/logo/numenta.png)
-
-<br/>
-
 #### Links
 
 * [NuPIC Website Stylesheets](https://github.com/numenta/numenta.org/tree/gh-pages/stylesheets) (CSS/SASS)
-* [Numenta.org Website Sourcecode](https://github.com/numenta/numenta.org)
+* TODO Link to CSS Best Practices
 * [Numenta.org Wiki](https://github.com/numenta/numenta.org/wiki)
 
 #### About
 
 NuPIC is the 
-**[Numenta](http://numenta.com) Platform for Intelligent Computing**.
+[Numenta](http://numenta.com) Platform for Intelligent Computing.
 
 We are an open [Platform and Community](/) pushing towards a New Era of 
 Machine Intelligence.
+
+<br/>
+
+![Numenta Logo](http://numenta.com/assets/img/logo/numenta.png)

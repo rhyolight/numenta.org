@@ -22,7 +22,6 @@ source:       . # gh-pages lock
 ### settings
 
 encoding:     utf-8
-exclude:      []
 future:       false
 gems:         [ 'jekyll-redirect-from' ]
 highlighter:  pygments
@@ -30,6 +29,24 @@ lsi:          false # gh-pages lock
 markdown:     kramdown
 safe:         true # gh-pages lock
 timezone:     America/Los_Angeles
+
+### inclusions/exclusions
+
+#include:
+exclude:
+  - _config.yml
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - npm-debug.log
+  - package.json
+  - README.md
+  - _data/
+  - _includes/
+  - _layouts/
+  - _sass/
+  - _site/
+  - node_modules/kss/
 
 ### plugins
 
