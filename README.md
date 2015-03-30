@@ -8,12 +8,6 @@ This is the open source code for the NuPIC Website hosted at
 [![Build Status](https://travis-ci.org/numenta/numenta.org.png?branch=gh-pages)](https://travis-ci.org/numenta/numenta.org)
 
 
-## Design
-
-* Font: [Open Sans](http://www.google.com/fonts/specimen/Open+Sans)
-* Icons: [Font Awesome](http://fortawesome.github.io/Font-Awesome/)
-
-
 ## Technology
 
 ### Client / Browser
@@ -81,6 +75,11 @@ When the build is finished, visit local URL in browser:
 * Changes, Pull Requests, and Issues are welcome and appreciated
   * First, please make sure to sign the 
     [Contributor licenese](http://numenta.org/licenses/cl/)
+
+
+## Design
+
+* [Living Styleguide](http://numenta.org/styleguide/)
 
 
 ## Best Practices

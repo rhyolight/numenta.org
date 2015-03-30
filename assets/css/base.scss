@@ -1,15 +1,17 @@
 ---
-# yaml frontmatter required
+# yaml header required
 ---
 
 /**
- * Base global visual styles for Numenta.org
+ * Base global CSS/SASS visual stylesheets for Numenta.org
  *
  * This document uses the kss-node Living CSS/SASS Styleguide specification:
  *  https://github.com/kss-node/kss/blob/spec/SPEC.md
  *
  * @requires npm: bootstrap fontawesome kss opensans
  */
+
+@import 'variables';
 
 @import 'bootstrap';
 @import 'fontawesome';
@@ -19,7 +21,11 @@
 /**
  * Typography
  *
- * Description goes here TODO.
+ * Typography is the art and technique of arranging type to make written
+ *  language readable and beautiful. The arrangement of type involves selecting
+ *  typefaces, point size, line length, line-spacing (leading), letter-spacing
+ *  (tracking), the space within letters pairs (kerning), colors, and other
+ *  visual effects to enhance the type.
  *
  * Styleguide: 1.0
  */
@@ -27,22 +33,41 @@
 /**
  * Font
  *
- * Description goes here TODO.
+ * We are using the [Open Sans](https://www.google.com/fonts/specimen/Open+Sans)
+ *  webfont with a sans-serif fallback. We use a larger default font size and an
+ *  increased line height, all to provide an easy, simple, modern reading
+ *  experience, which fits the Numenta brands.
  *
  * Markup:
- *  <span>Normal text</span>
+ *  <strong>Strong Bolded text in Open Sans Semibold.</strong>
+ *  <div>Normal text in the Open Sans Light web font.</div>
+ *  <em>Emphasized Italicized text in Open Sans Light.</em>
+ *  <p>
+ *    Lorem ipsum dolor sit amet, repellendus vitae tellus, id varius, tellus
+ *    molestie volutpat, torquent et sollicitudin facilisis, arcu dolor eget
+ *    scelerisque blandit metus leo. Integer et vestibulum wisi dui auctor
+ *    varius, placerat morbi mus at scelerisque, imperdiet sodales ut.
+ *    Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus.
+ *    Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero,
+ *    sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel,
+ *    luctus pulvinar, hendrerit id, lorem.
+ *  </p>
  *
  * Styleguide: 1.1
  */
 body {
+  color: $color-dark;
   font-family: 'Open Sans', 'sans-serif';
   font-size: 16px;
+  line-height: 1.66;
 }
 
 /**
  * Headings
  *
- * Description goes here TODO.
+ * Heading elements implement six levels of document headings, `h1` is the most
+ *  important and `h6` is the least. A heading element briefly describes the
+ *  topic of the section it introduces.
  *
  * Markup:
  *  <h1>Heading Level 1</h1>
@@ -55,57 +80,101 @@ body {
  * Styleguide: 1.2
  */
 h1 {
-  color: #888;
+  color: $color-gray;
   font-size: 200%;
+  font-weight: bold;
 }
 h2 {
-  color: #888;
-  font-size: 175%;
+  color: $color-gray;
+  font-size: 166%;
+  font-weight: bold;
 }
 h3 {
-  color: #888;
+  color: $color-gray;
   font-size: 133%;
   text-transform: uppercase;
+  font-weight: bold;
 }
 h4 {
-  font-size: 120%;
+  color: $color-gray-dark;
+  font-size: 110%;
+  font-weight: bold;
 }
 h5 {
-  font-size: 110%;
+  color: $color-dark;
+  font-size: 90%;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 h6 {
-  font-size: 105%;
+  color: $color-black;
+  font-size: 75%;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 /**
  * Links
  *
- * Description goes here TODO.
+ * Hyperlinks are references to data that the reader can directly follow either
+ *  by clicking or by hovering. A hyperlink points to a whole document or to a
+ *  specific element within a document.
+ *
+ * :hover   - Change while mouse is over top
+ * :active  - Change during click
+ * :visited - Change for link that was previously clicked
  *
  * Markup:
- *  <a>Link to nowhere</a>
+ *  <a href="#" class="{{modifier_class}}">Link to Somewhere</a>
  *
  * Styleguide: 1.3
  */
-a {
-  color: #06C;
+a, a:link {
+  color: $color-bluer;
+  cursor: pointer;
+  text-decoration: underline;
+
+  &:hover {
+    color: $color-blue;
+  }
+
+  &:active {
+    border-bottom: 1px $color-blue dotted;
+    color: $color-blue;
+  }
+
+  &:visited {
+    color: $color-purple;
+  }
 }
+
+/**
+ * Icons
+ *
+ * Icons are used to help provide visual context and support to written text. We
+ *  use the [FontAwesome](http://fortawesome.github.io/Font-Awesome/examples/)
+ *  font icon set. Make sure to see the
+ *  [list of all available icons](http://fortawesome.github.io/Font-Awesome/icons/)
+ *  or use the
+ *  [icon cheatsheet](http://fortawesome.github.io/Font-Awesome/cheatsheet/).
+ *
+ * Markup:
+ *  <i class="fa fa-home"></i> Home
+ *  <br/>
+ *  <i class="fa fa-user"></i> User
+ *
+ * Styleguide: 1.4
+ */
 
 
 /**
  * Layout
  *
- * Description goes here TODO.
+ * The Layout is the general structure of the site - header, body, footer, and
+ *  important structures in-between. The layout is themed according to a
+ *  graphic design.
  *
  * Styleguide: 2.0
- */
-
-/**
- * Sections
- *
- * Description goes here TODO.
- *
- * Styleguide: 2.1
  */
 body {
   background-color: #222;
@@ -114,12 +183,14 @@ body {
 /**
  * Header
  *
- * Description goes here TODO.
+ * The header of the website contains branding info, navigational links, and
+ *  gives the user a "Home" to always return to on the site. The header will
+ *  be styled in a way to promote the Numenta/NuPIC branding.
  *
  * Markup:
  *  <header>This is a Header</header>
  *
- * Styleguide: 2.1.1
+ * Styleguide: 2.1
  */
 header {
   background-color: #105C7B;
@@ -129,14 +200,15 @@ header {
 /**
  * Main Content
  *
- * Description goes here TODO.
+ * This is the main content of the webpage, sandwiched between Header and
+ *  Footer, wrapping a main article and other asides and secondary sections.
  *
  * Markup:
  *  <main>
  *    <section>This is a main content section</section>
  *  </main>
  *
- * Styleguide: 2.1.2
+ * Styleguide: 2.2
  */
 main > section {
   @include gradient-vertical(#fff, #eee, 0%, 100%);
@@ -151,12 +223,14 @@ main > section {
 /**
  * Footer
  *
- * Description goes here TODO.
+ * The footer restates everything in the Header, but in a simple and condensed
+ *  manner. It is mostly for navigation after the user is finished reading
+ *  the document. It also contains legalese and copyright information.
  *
  * Markup:
  *  <footer>This is a Footer</footer>
  *
- * Styleguide: 2.1.3
+ * Styleguide: 2.3
  */
 footer {
   background-color: #222;
