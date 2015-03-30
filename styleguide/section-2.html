@@ -23,13 +23,14 @@
           <nav class="kss-nav">
             <ul class="kss-menu" data-kss-ref="2">
               <li class="kss-menu-item"><a href="./"><span class="kss-ref">0</span><span class="kss-name">Overview</span></a></li>
-              <li class="kss-menu-item"><a href="section-1.html"><span class="kss-ref">1</span><span class="kss-name">Typography</span></a></li>
-              <li class="kss-menu-item"><a href="section-2.html"><span class="kss-ref">2</span><span class="kss-name">Layout</span></a></li>
+              <li class="kss-menu-item"><a href="section-1.html"><span class="kss-ref">1</span><span class="kss-name">Layout</span></a></li>
+              <li class="kss-menu-item"><a href="section-2.html"><span class="kss-ref">2</span><span class="kss-name">Typography</span></a></li>
             </ul>
             <ul class="kss-menu-child">
-              <li class="kss-menu-item"><a href="#section-2.1"><span class="kss-ref">2.1</span><span class="kss-name">Header</span></a></li>
-              <li class="kss-menu-item"><a href="#section-2.2"><span class="kss-ref">2.2</span><span class="kss-name">Main Content</span></a></li>
-              <li class="kss-menu-item"><a href="#section-2.3"><span class="kss-ref">2.3</span><span class="kss-name">Footer</span></a></li>
+              <li class="kss-menu-item"><a href="#section-2.1"><span class="kss-ref">2.1</span><span class="kss-name">Font</span></a></li>
+              <li class="kss-menu-item"><a href="#section-2.2"><span class="kss-ref">2.2</span><span class="kss-name">Headings</span></a></li>
+              <li class="kss-menu-item"><a href="#section-2.3"><span class="kss-ref">2.3</span><span class="kss-name">Links</span></a></li>
+              <li class="kss-menu-item"><a href="#section-2.4"><span class="kss-ref">2.4</span><span class="kss-name">Icons</span></a></li>
             </ul>
           </nav>
         </div>
@@ -37,65 +38,164 @@
       <div class="kss-content">
         <article class="kss-article">
           <section id="section-2" class="kss-section kss-depth-1">
-            <h1 class="kss-title"><span class="kss-ref">2</span> Layout</h1>
+            <h1 class="kss-title"><span class="kss-ref">2</span> Typography</h1>
+            <div class="kss-description">
+              <p>Typography is the art and technique of arranging type to make written
+ language readable and beautiful. The arrangement of type involves selecting
+ typefaces, point size, line length, line-spacing (leading), letter-spacing
+ (tracking), the space within letters pairs (kerning), colors, and other
+ visual effects to enhance the type.</p>
+
+            </div>
           </section>
           <section id="section-2.1" class="kss-section kss-depth-2">
-            <h1 class="kss-title"><span class="kss-ref">2.1</span> Header</h1>
+            <h1 class="kss-title"><span class="kss-ref">2.1</span> Font</h1>
             <div class="kss-description">
-              <p>The header of the website contains branding info, navigational links, and
- gives the user a &quot;Home&quot; to always return to on the site. The header will
- be styled in a way to promote the Numenta/NuPIC branding.</p>
+              <p>We are using the <a href="https://www.google.com/fonts/specimen/Open+Sans">Open Sans</a>
+ webfont with a sans-serif fallback. We use a larger default font size and an
+ increased line height, all to provide an easy, simple, modern reading
+ experience, which fits the Numenta brands.</p>
 
             </div>
             <div class="kss-modifier-block">
               <div class="kss-modifier kss-modifier-original">
                 <div class="kss-modifier-example">
-                   <header>This is a Header</header>
+                   <strong>Strong Bolded text in Open Sans Semibold.</strong>
+ <div>Normal text in the Open Sans Light web font.</div>
+ <em>Emphasized Italicized text in Open Sans Light.</em>
+ <p>
+   Lorem ipsum dolor sit amet, repellendus vitae tellus, id varius, tellus
+   molestie volutpat, torquent et sollicitudin facilisis, arcu dolor eget
+   scelerisque blandit metus leo. Integer et vestibulum wisi dui auctor
+   varius, placerat morbi mus at scelerisque, imperdiet sodales ut.
+   Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus.
+   Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero,
+   sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel,
+   luctus pulvinar, hendrerit id, lorem.
+ </p>
                 </div>
               </div>
               <div class="kss-markup">
-                <pre><code data-language="html"> &lt;header&gt;This is a Header&lt;/header&gt;</code></pre>
+                <pre><code data-language="html"> &lt;strong&gt;Strong Bolded text in Open Sans Semibold.&lt;/strong&gt;
+ &lt;div&gt;Normal text in the Open Sans Light web font.&lt;/div&gt;
+ &lt;em&gt;Emphasized Italicized text in Open Sans Light.&lt;/em&gt;
+ &lt;p&gt;
+   Lorem ipsum dolor sit amet, repellendus vitae tellus, id varius, tellus
+   molestie volutpat, torquent et sollicitudin facilisis, arcu dolor eget
+   scelerisque blandit metus leo. Integer et vestibulum wisi dui auctor
+   varius, placerat morbi mus at scelerisque, imperdiet sodales ut.
+   Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus.
+   Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero,
+   sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel,
+   luctus pulvinar, hendrerit id, lorem.
+ &lt;/p&gt;</code></pre>
               </div>
             </div>
           </section>
           <section id="section-2.2" class="kss-section kss-depth-2">
-            <h1 class="kss-title"><span class="kss-ref">2.2</span> Main Content</h1>
+            <h1 class="kss-title"><span class="kss-ref">2.2</span> Headings</h1>
             <div class="kss-description">
-              <p>This is the main content of the webpage, sandwiched between Header and
- Footer, wrapping a main article and other asides and secondary sections.</p>
+              <p>Heading elements implement six levels of document headings, <code>h1</code> is the most
+ important and <code>h6</code> is the least. A heading element briefly describes the
+ topic of the section it introduces.</p>
 
             </div>
             <div class="kss-modifier-block">
               <div class="kss-modifier kss-modifier-original">
                 <div class="kss-modifier-example">
-                   <main>
-   <section>This is a main content section</section>
- </main>
+                   <h1>Heading Level 1</h1>
+ <h2>Heading Level 2</h2>
+ <h3>Heading Level 3</h3>
+ <h4>Heading Level 4</h4>
+ <h5>Heading Level 5</h5>
+ <h6>Heading Level 6</h6>
                 </div>
               </div>
               <div class="kss-markup">
-                <pre><code data-language="html"> &lt;main&gt;
-   &lt;section&gt;This is a main content section&lt;/section&gt;
- &lt;/main&gt;</code></pre>
+                <pre><code data-language="html"> &lt;h1&gt;Heading Level 1&lt;/h1&gt;
+ &lt;h2&gt;Heading Level 2&lt;/h2&gt;
+ &lt;h3&gt;Heading Level 3&lt;/h3&gt;
+ &lt;h4&gt;Heading Level 4&lt;/h4&gt;
+ &lt;h5&gt;Heading Level 5&lt;/h5&gt;
+ &lt;h6&gt;Heading Level 6&lt;/h6&gt;</code></pre>
               </div>
             </div>
           </section>
           <section id="section-2.3" class="kss-section kss-depth-2">
-            <h1 class="kss-title"><span class="kss-ref">2.3</span> Footer</h1>
+            <h1 class="kss-title"><span class="kss-ref">2.3</span> Links</h1>
             <div class="kss-description">
-              <p>The footer restates everything in the Header, but in a simple and condensed
- manner. It is mostly for navigation after the user is finished reading
- the document. It also contains legalese and copyright information.</p>
+              <p>Hyperlinks are references to data that the reader can directly follow either
+ by clicking or by hovering. A hyperlink points to a whole document or to a
+ specific element within a document.</p>
 
             </div>
             <div class="kss-modifier-block">
               <div class="kss-modifier kss-modifier-original">
                 <div class="kss-modifier-example">
-                   <footer>This is a Footer</footer>
+                   <a href="#" class="">Link to Somewhere</a>
+                </div>
+              </div>
+              <div class="kss-modifier">
+                <div class="kss-modifier-head">
+                  <div class="kss-modifier-name">:hover</div>
+                  <div class="kss-modifier-description">
+                    Change while mouse is over top
+                  </div>
+                </div>
+                <div class="kss-modifier-example">
+                   <a href="#" class="pseudo-class-hover">Link to Somewhere</a>
+                </div>
+              </div>
+              <div class="kss-modifier">
+                <div class="kss-modifier-head">
+                  <div class="kss-modifier-name">:active</div>
+                  <div class="kss-modifier-description">
+                    Change during click
+                  </div>
+                </div>
+                <div class="kss-modifier-example">
+                   <a href="#" class="pseudo-class-active">Link to Somewhere</a>
+                </div>
+              </div>
+              <div class="kss-modifier">
+                <div class="kss-modifier-head">
+                  <div class="kss-modifier-name">:visited</div>
+                  <div class="kss-modifier-description">
+                    Change for link that was previously clicked
+                  </div>
+                </div>
+                <div class="kss-modifier-example">
+                   <a href="#" class="pseudo-class-visited">Link to Somewhere</a>
                 </div>
               </div>
               <div class="kss-markup">
-                <pre><code data-language="html"> &lt;footer&gt;This is a Footer&lt;/footer&gt;</code></pre>
+                <pre><code data-language="html"> &lt;a href=&quot;#&quot; class=&quot;&quot;&gt;Link to Somewhere&lt;/a&gt;</code></pre>
+              </div>
+            </div>
+          </section>
+          <section id="section-2.4" class="kss-section kss-depth-2">
+            <h1 class="kss-title"><span class="kss-ref">2.4</span> Icons</h1>
+            <div class="kss-description">
+              <p>Icons are used to help provide visual context and support to written text. We
+ use the <a href="http://fortawesome.github.io/Font-Awesome/examples/">FontAwesome</a>
+ font icon set. Make sure to see the
+ <a href="http://fortawesome.github.io/Font-Awesome/icons/">list of all available icons</a>
+ or use the
+ <a href="http://fortawesome.github.io/Font-Awesome/cheatsheet/">icon cheatsheet</a>.</p>
+
+            </div>
+            <div class="kss-modifier-block">
+              <div class="kss-modifier kss-modifier-original">
+                <div class="kss-modifier-example">
+                   <i class="fa fa-home"></i> Home
+ <br/>
+ <i class="fa fa-user"></i> User
+                </div>
+              </div>
+              <div class="kss-markup">
+                <pre><code data-language="html"> &lt;i class=&quot;fa fa-home&quot;&gt;&lt;/i&gt; Home
+ &lt;br/&gt;
+ &lt;i class=&quot;fa fa-user&quot;&gt;&lt;/i&gt; User</code></pre>
               </div>
             </div>
           </section>

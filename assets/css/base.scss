@@ -19,6 +19,84 @@
 
 
 /**
+ * Layout
+ *
+ * The general layout and structure of this website: header, body and main
+ *  content, and footer. Each section/module will have it's own style elsewhere.
+ *
+ * Styleguide: 1.0
+ */
+
+/**
+ * Header
+ *
+ * The header of the website contains branding info, navigational links, and
+ *  gives the user a "Home" to always return to on the site. The header will
+ *  be styled in a way to promote the Numenta/NuPIC branding.
+ *
+ * Markup:
+ *  <header>This is a Header</header>
+ *
+ * Styleguide: 1.1
+ */
+header {
+  background-color: $color-blue-dark;
+  color: $color-white;
+}
+
+/**
+ * Main Content
+ *
+ * This is the main content of the webpage, sandwiched between Header and
+ *  Footer, wrapping a main article and other asides and secondary sections.
+ *
+ * Markup:
+ *  <main>
+ *    <section>This is a main content section</section>
+ *    <div class="arrow-down"></div>
+ *  </main>
+ *
+ * Styleguide: 1.2
+ */
+main {
+  > section {
+    @include gradient-vertical($color-white, $color-brite, 0%, 100%);
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+  }
+
+  > .arrow-down {
+    border-left: 66px solid transparent;
+    border-right: 66px solid transparent;
+    border-top: 45px solid $color-brite;
+    height: 0;
+    margin: 0 auto -45px auto;
+    position: relative;
+    width: 0;
+  }
+}
+
+/**
+ * Footer
+ *
+ * The footer restates everything in the Header, but in a simple and condensed
+ *  manner. It is mostly for navigation after the user is finished reading
+ *  the document. It also contains legalese and copyright information.
+ *
+ * Markup:
+ *  <footer>This is a Footer</footer>
+ *
+ * Styleguide: 1.3
+ */
+footer {
+  background-color: $color-dark;
+  color: $color-gray-lite;
+  margin-bottom: 5rem;
+  margin-top: 5rem;
+}
+
+
+/**
  * Typography
  *
  * Typography is the art and technique of arranging type to make written
@@ -27,7 +105,7 @@
  *  (tracking), the space within letters pairs (kerning), colors, and other
  *  visual effects to enhance the type.
  *
- * Styleguide: 1.0
+ * Styleguide: 2.0
  */
 
 /**
@@ -53,14 +131,8 @@
  *    luctus pulvinar, hendrerit id, lorem.
  *  </p>
  *
- * Styleguide: 1.1
+ * Styleguide: 2.1
  */
-body {
-  color: $color-dark;
-  font-family: 'Open Sans', 'sans-serif';
-  font-size: 16px;
-  line-height: 1.66;
-}
 
 /**
  * Headings
@@ -77,27 +149,27 @@ body {
  *  <h5>Heading Level 5</h5>
  *  <h6>Heading Level 6</h6>
  *
- * Styleguide: 1.2
+ * Styleguide: 2.2
  */
 h1 {
   color: $color-gray;
-  font-size: 200%;
+  font-size: 250%;
   font-weight: bold;
 }
 h2 {
   color: $color-gray;
-  font-size: 166%;
+  font-size: 200%;
   font-weight: bold;
 }
 h3 {
   color: $color-gray;
-  font-size: 133%;
+  font-size: 150%;
   text-transform: uppercase;
   font-weight: bold;
 }
 h4 {
   color: $color-gray-dark;
-  font-size: 110%;
+  font-size: 115%;
   font-weight: bold;
 }
 h5 {
@@ -108,7 +180,7 @@ h5 {
 }
 h6 {
   color: $color-black;
-  font-size: 75%;
+  font-size: 80%;
   text-transform: uppercase;
   font-weight: bold;
 }
@@ -127,20 +199,19 @@ h6 {
  * Markup:
  *  <a href="#" class="{{modifier_class}}">Link to Somewhere</a>
  *
- * Styleguide: 1.3
+ * Styleguide: 2.3
  */
 a, a:link {
-  color: $color-bluer;
   cursor: pointer;
-  text-decoration: underline;
+  text-decoration: none;
 
   &:hover {
-    color: $color-blue;
+    text-decoration: underline;
   }
 
   &:active {
     border-bottom: 1px $color-blue dotted;
-    color: $color-blue;
+    text-decoration: underline;
   }
 
   &:visited {
@@ -163,76 +234,6 @@ a, a:link {
  *  <br/>
  *  <i class="fa fa-user"></i> User
  *
- * Styleguide: 1.4
+ * Styleguide: 2.4
  */
 
-
-/**
- * Layout
- *
- * The Layout is the general structure of the site - header, body, footer, and
- *  important structures in-between. The layout is themed according to a
- *  graphic design.
- *
- * Styleguide: 2.0
- */
-body {
-  background-color: #222;
-}
-
-/**
- * Header
- *
- * The header of the website contains branding info, navigational links, and
- *  gives the user a "Home" to always return to on the site. The header will
- *  be styled in a way to promote the Numenta/NuPIC branding.
- *
- * Markup:
- *  <header>This is a Header</header>
- *
- * Styleguide: 2.1
- */
-header {
-  background-color: #105C7B;
-  color: #fff;
-}
-
-/**
- * Main Content
- *
- * This is the main content of the webpage, sandwiched between Header and
- *  Footer, wrapping a main article and other asides and secondary sections.
- *
- * Markup:
- *  <main>
- *    <section>This is a main content section</section>
- *  </main>
- *
- * Styleguide: 2.2
- */
-main > section {
-  @include gradient-vertical(#fff, #eee, 0%, 100%);
-  padding-bottom: 5rem;
-  padding-top: 5rem;
-
-  > .content {
-    @extend .container;
-  }
-}
-
-/**
- * Footer
- *
- * The footer restates everything in the Header, but in a simple and condensed
- *  manner. It is mostly for navigation after the user is finished reading
- *  the document. It also contains legalese and copyright information.
- *
- * Markup:
- *  <footer>This is a Footer</footer>
- *
- * Styleguide: 2.3
- */
-footer {
-  background-color: #222;
-  color: #ccc;
-}

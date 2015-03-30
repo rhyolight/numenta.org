@@ -7,16 +7,30 @@
  * Colors
  */
 
-$color-blue:    #29aae2;
-$color-bluer:   #09C;
-$color-purple:  #838;
+$color-blue:      #29aae2;
+$color-blue-dark: #105C7B;
+$color-blue-orig: #09C;
+$color-purple:    #838;
 
 // grayscale: white to black
 $color-white:     #fff;
 $color-brite:     #f6f6f6;
 $color-lite:      #eee;
-$color-gray-lite: #bbb;
+$color-gray-lite: #ddd;
 $color-gray:      #888;
 $color-gray-dark: #555;
 $color-dark:      #222;
 $color-black:     #000;
+
+
+/**
+ * Bootstrap variable overrides
+ */
+$brand-primary:           $color-blue;
+$body-bg:                 $color-dark;
+$font-family-sans-serif:  'Open Sans', sans-serif;
+$font-size-base:          16px;
+$line-height-base:        1.66;
+$link-color:              $color-blue-orig;
+$link-hover-color:        $color-blue;
+$text-color:              $color-dark;
