@@ -42,6 +42,26 @@
 header {
   background-color: $color-blue-dark;
   color: $color-white;
+
+  .navbar-brand {
+    background-image: url('/assets/img/base/logo/numenta-mark-lite.svg');
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: 6rem;
+    font-size: $font-size-base;
+    padding-left: 7.5rem;
+    padding-top: 3.5rem;
+
+    > strong {
+      display: block;
+      font-size: 200%;
+    }
+
+    > span {
+      color: $color-gray-lite;
+      font-size: 80%;
+    }
+  }
 }
 
 /**
