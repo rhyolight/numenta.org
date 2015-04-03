@@ -114,20 +114,72 @@ footer {
   > section {
     padding-bottom: 5rem;
     padding-top: 5rem;
+
+    ul {
+      @extend .list-unstyled;
+    }
   }
 
   > .social {
     background-color: $color-blue-dark;
-    color: $color-white;
+
+    ul {
+      @extend .list-inline;
+      text-align: center;
+
+      > li {
+        padding-left: 2rem;
+        padding-right: 2rem;
+
+        > a:link {
+          color: $color-lite;
+          font-size: 85%;
+
+          > i {
+            @extend .fa;
+            @extend .fa-4x;
+            display: block;
+            margin-bottom: 0.2rem;
+          }
+
+          &:hover {
+            color: $color-white;
+            text-decoration: none;
+          }
+        }
+      }
+    }
   }
 
   > .nav {
-    background-color: $color-gray;
+    background-color: $color-gray-dark;
+
+    aside > img {
+      height: 3rem;
+    }
   }
 
   > .legal {
     background-color: $color-dark;
+    color: $color-gray-dark;
     font-size: 85%;
+
+    a:link {
+      background-image: url('/assets/img/base/logo/numenta-mark-lite.svg');
+      background-position: left center;
+      background-repeat: no-repeat;
+      background-size: 3rem;
+      color: $color-white;
+      padding-left: 4rem;
+    }
+
+    strong {
+      /*display: block;*/
+    }
+
+    p {
+      color: $color-gray;
+    }
   }
 }
 
