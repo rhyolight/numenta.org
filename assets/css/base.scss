@@ -109,10 +109,26 @@ main {
  * Styleguide: 1.3
  */
 footer {
-  background-color: $color-dark;
   color: $color-gray-lite;
-  margin-bottom: 5rem;
-  margin-top: 5rem;
+
+  > section {
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+  }
+
+  > .social {
+    background-color: $color-blue-dark;
+    color: $color-white;
+  }
+
+  > .nav {
+    background-color: $color-gray;
+  }
+
+  > .legal {
+    background-color: $color-dark;
+    font-size: 85%;
+  }
 }
 
 
