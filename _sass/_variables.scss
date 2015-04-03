@@ -1,18 +1,19 @@
 /**
- * Custom SASS Variables for site
+ * Custom SASS Variables and Bootstrap Variable Overrides for the site
  */
 
 
 /**
- * Colors
+ * Custom Variables
  */
 
+// Colors
+
 $color-blue:      #29aae2;
-$color-blue-dark: #105C7B;
-$color-blue-orig: #09C;
+$color-blue-dark: #105c7b;
+$color-blue-orig: #09c;
 $color-purple:    #838;
 
-// grayscale: white to black
 $color-white:     #fff;
 $color-brite:     #f6f6f6;
 $color-lite:      #eee;
@@ -24,13 +25,41 @@ $color-black:     #000;
 
 
 /**
- * Bootstrap variable overrides
+ * Bootstrap variable overrides http://getbootstrap.com/customize/
  */
-$brand-primary:           $color-blue;
-$body-bg:                 $color-dark;
+
+// Colors
+
+$brand-primary: $color-blue;
+
+$gray-base:     $color-black;
+$gray-darker:   $color-dark;
+$gray-dark:     $color-gray-dark;
+$gray:          $color-gray;
+$gray-light:    $color-gray-lite;
+$gray-lighter:  $color-lite;
+
+// Scaffolding
+
+$body-bg:           $color-dark;
+$link-color:        $color-blue-orig;
+$link-hover-color:  $color-blue;
+$text-color:        $color-dark;
+
+// Typography
+
 $font-family-sans-serif:  'Open Sans', sans-serif;
 $font-size-base:          16px;
 $line-height-base:        1.66;
-$link-color:              $color-blue-orig;
-$link-hover-color:        $color-blue;
-$text-color:              $color-dark;
+$headings-line-height:    1.33;
+
+// Navbar
+
+$navbar-border-radius:      0;
+$navbar-default-border:     0;
+$navbar-default-bg:         $color-blue-dark;
+$navbar-default-color:      $color-white;
+$navbar-default-link-color: $color-white;
+$navbar-height:             110px;
+$navbar-margin-bottom:      0;
+$navbar-padding-horizontal: 0;
