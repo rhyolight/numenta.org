@@ -1,0 +1,205 @@
+/**
+ * Layout
+ *
+ * The general layout and structure of this website: header, body and main
+ *  content, and footer. Each section/module will have it's own style elsewhere.
+ *
+ * Styleguide: 1.0
+ */
+body.numenta {
+  padding-top: $navbar-height; /* bootstrap navbar fixed header */
+  position: relative; /* bootstrap scrollspy */
+
+  .anchor {   /* fixed header requires anchor link adjustments */
+    display: block;
+    height: $navbar-height;
+    margin-top: 0 - $navbar-height;
+    visibility: hidden;
+    z-index: -9999;
+  }
+}
+
+
+/**
+ * Header
+ *
+ * The header of the website contains branding info, navigational links, and
+ *  gives the user a "Home" to always return to on the site. The header will
+ *  be styled in a way to promote the Numenta/NuPIC branding. We will use a
+ *  fixed-position header, always at top of client window.
+ *
+ * Markup:
+ *  <header>This is a Header</header>
+ *
+ * Styleguide: 1.1
+ */
+header {
+  background-color: $color-blue-dark;
+  color: $color-white;
+
+  > nav {
+    @include box-shadow(0 0 5px 0 $color-dark);
+
+    .navbar-brand {
+      background-image: url('/assets/img/base/logo/numenta-mark-lite.svg');
+      background-position: left center;
+      background-repeat: no-repeat;
+      background-size: 5.8rem;
+      font-size: $font-size-base;
+      padding-left: 7rem;
+      padding-top: 3.5rem;
+
+      &:hover {
+        color: $color-white;
+        text-decoration: none;
+      }
+
+      > strong {
+        display: block;
+        font-size: 200%;
+      }
+
+      > span {
+        color: $color-gray-lite;
+        font-size: 85%;
+      }
+    } // .navbar-brand
+
+    .navbar-nav {
+      > li {
+        &.active {
+          font-weight: $font-weight-bold;
+        }
+
+        > a {
+          font-size: 82.5%;
+          text-transform: uppercase;
+
+          > i {
+            padding-right: 0.33rem;
+          }
+        }
+      }
+    } // .navbar-nav
+  } // nav
+} // header
+
+/**
+ * Main Content
+ *
+ * This is the main content of the webpage, sandwiched between Header and
+ *  Footer, wrapping a main article and other asides and secondary sections.
+ *
+ * Markup:
+ *  <main>
+ *    <section>This is a main content section</section>
+ *    <div class="arrow-down"></div>
+ *  </main>
+ *
+ * Styleguide: 1.2
+ */
+main {
+  > section {
+    @include gradient-vertical($color-white, $color-lite, 0%, 100%);
+    padding-bottom: 7rem;
+    padding-top: 4rem;
+  }
+
+  > .arrow-down {   /* subtle down arrow between sections */
+    border-left: 66px solid transparent;
+    border-right: 66px solid transparent;
+    border-top: 45px solid $color-lite;
+    height: 0;
+    margin: 0 auto -45px auto;
+    position: relative;
+    width: 0;
+  }
+}
+
+/**
+ * Footer
+ *
+ * The footer restates everything in the Header, but in a simple and condensed
+ *  manner. It is mostly for navigation after the user is finished reading
+ *  the document. It also contains legalese and copyright information.
+ *
+ * Markup:
+ *  <footer>This is a Footer</footer>
+ *
+ * Styleguide: 1.3
+ */
+footer {
+  background-color: $color-dark;
+  color: $color-gray-lite;
+
+  > section {
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+
+    ul {
+      @extend .list-unstyled;
+    }
+  }
+
+  > .social {
+    background-color: $color-blue-dark;
+
+    ul {
+      @extend .list-inline;
+      text-align: center;
+
+      > li {
+        padding-left: 2rem;
+        padding-right: 2rem;
+
+        > a:link {
+          color: $color-lite;
+          font-size: 85%;
+
+          > i {
+            @extend .fa;
+            @extend .fa-4x;
+            display: block;
+            margin-bottom: 0.2rem;
+          }
+
+          &:hover {
+            color: $color-white;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+
+  > .nav {
+    background-color: $color-gray-dark;
+
+    aside > img {
+      height: 3rem;
+    }
+  }
+
+  > .legal {
+    background-color: $color-dark;
+    color: $color-gray-dark;
+    font-size: 85%;
+
+    a:link {
+      background-image: url('/assets/img/base/logo/numenta-mark-lite.svg');
+      background-position: left center;
+      background-repeat: no-repeat;
+      background-size: 3rem;
+      color: $color-white;
+      padding-left: 4rem;
+    }
+
+    strong {
+      /*display: block;*/
+    }
+
+    p {
+      color: $color-gray;
+    }
+  }
+}

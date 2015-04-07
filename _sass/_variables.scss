@@ -23,9 +23,15 @@ $color-gray-dark: #555;
 $color-dark:      #222;
 $color-black:     #000;
 
+// Fonts
+
+$font-weight-normal:  300;
+$font-weight-bold:    600;
+
 
 /**
- * Bootstrap variable overrides http://getbootstrap.com/customize/
+ * Bootstrap variable overrides:
+ *  http://getbootstrap.com/customize/
  */
 
 // Colors
@@ -53,13 +59,27 @@ $font-size-base:          16px;
 $line-height-base:        1.66;
 $headings-line-height:    1.33;
 
+// Media Query Breakpoints (bootstrap defaults)
+
+$screen-xs: 480px;
+$screen-sm: 768px;
+$screen-md: 992px;
+$screen-lg: 1200px;
+
+// Grid
+
+$grid-float-breakpoint: $screen-md;
+
 // Navbar
 
-$navbar-border-radius:      0;
-$navbar-default-border:     0;
-$navbar-default-bg:         $color-blue-dark;
-$navbar-default-color:      $color-white;
+$navbar-border-radius: 0;
+$navbar-default-border: 0;
+$navbar-default-bg: $color-blue-dark;
+$navbar-default-color: $color-white;
 $navbar-default-link-color: $color-white;
-$navbar-height:             110px;
-$navbar-margin-bottom:      0;
+$navbar-default-link-hover-color: $color-lite;
+$navbar-default-link-active-bg: transparent;
+$navbar-default-link-active-color: $color-white;
+$navbar-height: 110px;
+$navbar-margin-bottom: 1px;
 $navbar-padding-horizontal: 0;

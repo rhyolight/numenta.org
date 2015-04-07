@@ -1,0 +1,148 @@
+/**
+ * Typography
+ *
+ * Typography is the art and technique of arranging type to make written
+ *  language readable and beautiful. The arrangement of type involves selecting
+ *  typefaces, point size, line length, line-spacing (leading), letter-spacing
+ *  (tracking), the space within letters pairs (kerning), colors, and other
+ *  visual effects to enhance the type.
+ *
+ * Styleguide: 2.0
+ */
+
+
+/**
+ * Font
+ *
+ * We are using the [Open Sans](https://www.google.com/fonts/specimen/Open+Sans)
+ *  webfont with a sans-serif fallback. We use a larger default font size and an
+ *  increased line height, all to provide an easy, simple, modern reading
+ *  experience, which fits the Numenta brands.
+ *
+ * Markup:
+ *  <strong>Strong Bolded text in Open Sans Semibold</strong>
+ *  <div>Normal text in the Open Sans Light web font</div>
+ *  <em>Emphasized Italicized text in Open Sans Light</em>
+ *  <p>
+ *    Lorem ipsum dolor sit amet, repellendus vitae tellus, id varius, tellus
+ *    molestie volutpat, torquent et sollicitudin facilisis, arcu dolor eget
+ *    scelerisque blandit metus leo. Integer et vestibulum wisi dui auctor
+ *    varius, placerat morbi mus at scelerisque, imperdiet sodales ut.
+ *    Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus.
+ *    Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero,
+ *    sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel,
+ *    luctus pulvinar, hendrerit id, lorem.
+ *  </p>
+ *
+ * Styleguide: 2.1
+ */
+body {
+  font-weight: $font-weight-normal;
+
+  b, strong {
+    font-weight: $font-weight-bold;
+  }
+}
+
+/**
+ * Headings
+ *
+ * Heading elements implement six levels of document headings, `h1` is the most
+ *  important and `h6` is the least. A heading element briefly describes the
+ *  topic of the section it introduces.
+ *
+ * Markup:
+ *  <h1>Heading Level 1</h1>
+ *  <h2>Heading Level 2</h2>
+ *  <h3>Heading Level 3</h3>
+ *  <h4>Heading Level 4</h4>
+ *  <h5>Heading Level 5</h5>
+ *  <h6>Heading Level 6</h6>
+ *
+ * Styleguide: 2.2
+ */
+h1 {
+  color: $color-gray;
+  font-size: 250%;
+  font-weight: $font-weight-bold;
+}
+h2 {
+  color: $color-gray;
+  font-size: 200%;
+  font-weight: $font-weight-bold;
+}
+h3 {
+  color: $color-gray;
+  font-size: 150%;
+  text-transform: uppercase;
+  font-weight: $font-weight-bold;
+}
+h4 {
+  color: $color-gray-dark;
+  font-size: 115%;
+  font-weight: $font-weight-bold;
+}
+h5 {
+  color: $color-dark;
+  font-size: 90%;
+  text-transform: uppercase;
+  font-weight: $font-weight-bold;
+}
+h6 {
+  color: $color-black;
+  font-size: 80%;
+  text-transform: uppercase;
+  font-weight: $font-weight-bold;
+}
+
+/**
+ * Links
+ *
+ * Hyperlinks are references to data that the reader can directly follow either
+ *  by clicking or by hovering. A hyperlink points to a whole document or to a
+ *  specific element within a document.
+ *
+ * :hover   - Change while mouse is over top
+ * :active  - Change during click
+ *
+ * Markup:
+ *  <a href="#" class="{{modifier_class}}">Link to Somewhere</a>
+ *
+ * Styleguide: 2.3
+ */
+a, a:link {
+  cursor: pointer;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+
+  &:active {
+    border-bottom: 1px $color-blue dotted;
+    text-decoration: underline;
+  }
+
+  &:visited {
+    color: $color-blue-orig;
+  }
+}
+
+/**
+ * Icons
+ *
+ * Icons are used to help provide visual context and support to written text. We
+ *  use the [FontAwesome](http://fortawesome.github.io/Font-Awesome/examples/)
+ *  font icon set. Make sure to see the
+ *  [list of all available icons](http://fortawesome.github.io/Font-Awesome/icons/)
+ *  or use the
+ *  [icon cheatsheet](http://fortawesome.github.io/Font-Awesome/cheatsheet/).
+ *
+ * Markup:
+ *  <i class="fa fa-home"></i> Home
+ *  <br/>
+ *  <i class="fa fa-user"></i> User
+ *
+ * Styleguide: 2.4
+ */
+

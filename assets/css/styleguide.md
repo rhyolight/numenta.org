@@ -2,7 +2,7 @@
 
 ## Numenta.org Living Styleguide
 
-This is a [Living Styleguide](http://www.webdesignerdepot.com/2014/09/how-to-make-your-code-easily-maintainable-with-living-style-guides/) 
+This is a [Living Styleguide](http://www.webdesignerdepot.com/2014/09/how-to-make-your-code-easily-maintainable-with-living-style-guides/)
 for the [NuPIC](/) Website at http://numenta.org.
 
 > **http://numenta.org/styleguide/**
@@ -11,11 +11,11 @@ for the [NuPIC](/) Website at http://numenta.org.
 
 #### Styleguide
 
-Please use the navigation menu on the left to explore our styleguide. This 
+Please use the navigation menu on the left to explore our styleguide. This
 guide is defined in, and generated from, the actual living
-[CSS and SASS code](https://github.com/numenta/numenta.org/tree/gh-pages/assets/css) 
+[CSS and SASS code](https://github.com/numenta/numenta.org/tree/gh-pages/assets/css)
 of the website. It will be automatically updated with each build. Please
-see the [node-kss specification](https://github.com/kss-node/kss/blob/spec/SPEC.md) 
+see the [node-kss specification](https://github.com/kss-node/kss/blob/spec/SPEC.md)
 on how to use this.
 
 #### Mockups
@@ -35,5 +35,5 @@ on how to use this.
 
 ![Numenta Logo](http://numenta.com/assets/img/logo/numenta.png)
 
-NuPIC is the [Numenta](http://numenta.com) Platform for Intelligent Computing. 
+NuPIC is the [Numenta](http://numenta.com) Platform for Intelligent Computing.
 

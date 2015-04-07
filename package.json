@@ -2,12 +2,10 @@
   "name": "numenta.org",
   "version": "0.0.1",
   "description": "Numenta.org NuPIC Website",
-  "main": "",
-  "directories": {},
   "scripts": {
-    "dev": "npm install && npm run kss && npm run jekyll",
-    "jekyll": "bundle exec jekyll serve",
-    "kss": "kss-node --config styleguide/_config/config.json"
+    "dev": "npm install && npm run guide && npm run build",
+    "build": "bundle exec jekyll serve",
+    "guide": "kss-node --config styleguide/_config/config.json"
   },
   "repository": {
     "type": "git",
@@ -27,12 +25,12 @@
     "HTM"
   ],
   "author": "Numenta",
-  "license": "",
   "bugs": {
     "url": "https://github.com/numenta/numenta.org/issues"
   },
   "homepage": "http://numenta.org",
-  "devDependencies": {},
+  "devDependencies": {
+  },
   "dependencies": {
     "bootstrap-sass": "3.3.4",
     "font-awesome": "4.3.0",

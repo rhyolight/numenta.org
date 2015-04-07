@@ -25,19 +25,14 @@
           Breakthrough science for Anomaly Detection and IT Analytics on Amazon
           Web Services (AWS). <a href="#">Download Grok</a> now for free.
         </p>
-        <a href="#">View More NuPIC Applications</a> &gt;
+        <a href="#">View More NuPIC Applications <i class="fa fa-angle-right"></i></a>
       </aside>
 
       <!-- footer nav links -->
       <nav>
         <ul>
           <li><a href="#"><i class="fa fa-home"></i> Home</a></li>
-          <li><a href="#"><i class="fa fa-sign-in"></i> Start</a></li>
-          <li><a href="#"><i class="fa fa-file-text-o"></i> Docs</a></li>
-          <li><a href="#"><i class="fa fa-lightbulb-o"></i> Theory</a></li>
-          <li><a href="#"><i class="fa fa-users"></i> Community</a></li>
-          <li><a href="#"><i class="fa fa-flag"></i> Latest</a></li>
-
+          {% include base/navlinks.html %}
           <li><a href="#">Help</a></li>
           <li><a href="#">FAQ</a></li>
           <li><a href="#">Privacy</a></li>
@@ -51,10 +46,7 @@
   <section class="legal">
     <div class="container">
 
-      <a href="#">
-        <strong>NuPIC</strong>
-        Numenta Platform for Intelligent Computing
-      </a>
+      {% include base/brand.html %}
       <p>
         Open Source Platform and Community for Machine Intelligence.
         <br />
