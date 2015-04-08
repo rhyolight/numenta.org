@@ -15,15 +15,15 @@
     <link rel="stylesheet" type="text/css" href="/assets/css/base.css?v=TBD" />
   </head>
   <body class="numenta" data-spy="scroll" data-target=".scrollspy-nav">
-    {% include header.new.html %}
+    {% include header.html %}
     <main>
       {{ content }}
     </main>
-    {% include footer.new.html %}
+    {% include footer.html %}
     <script src="/node_modules/jquery/dist/jquery.min.js?v=TBD"></script>
     <script src="/node_modules/bootstrap-sass/assets/javascripts/bootstrap.min.js?v=TBD"></script>
     <script src="/assets/js/base.js?v=TBD"></script>
-    {% include footer.analytics.html %}
+    {% include base/analytics.html %}
     <!-- http://numenta.org v{{ TBD }} Copyright © {{ TBD }} -->
   </body>
 </html>

@@ -1,19 +1,32 @@
 <header>
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
 
-    <div align="center">
-        <a href="{{ site.baseurl }}/">
-            <img src="{{ site.baseurl }}/images/numenta-icon512.png" width="256px"/>
-            <h1>{{ site.title }}</h1>
-        </a>
-        <p class="tagline">{{ site.tagline }}</p>
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nupic-navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <i class="fa fa-bars"></i>
+        </button>
+        {% include base/brand.html %}
+      </div>
 
-        <iframe src="http://ghbtns.com/github-btn.html?user=numenta&amp;repo=nupic&amp;type=watch&amp;count=true&amp;size=large"
-  allowtransparency="true" frameborder="0" scrolling="0" width="150" height="30">
-        </iframe>
+      <div class="collapse navbar-collapse scrollspy-nav" id="nupic-navbar-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          {% include base/navlinks.html hide="Home" %}
+          <li class="dropdown">
+            <a href="{{ site.data.url.index }}" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">More <i class="fa fa-caret-down"></i></a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="{{ site.data.url.help }}">Help</a></li>
+              <li><a href="{{ site.data.url.faq }}">FAQ</a></li>
+              <li class="divider"></li>
+              <li><a href="{{ site.data.url.download }}">Download</a></li>
+              <li class="divider"></li>
+              <li><a href="{{ site.data.url.search }}">Search</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
 
     </div>
-
-    {% include nav.html %}
-
-
+  </nav>
 </header>
