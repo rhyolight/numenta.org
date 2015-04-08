@@ -1,12 +1,10 @@
 ---
-layout: default
+layout: simple
 title: NuPIC Community Content
 ---
 
-<section>
-  {% capture content %}
-  {% include content/community-content.md %}
-  {% endcapture %}
-  {{ content | markdownify }}
-</section>
+{% capture content %}
+{% include content/community-content.md %}
+{% endcapture %}
+{{ content | markdownify }}
 

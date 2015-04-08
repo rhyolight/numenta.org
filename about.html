@@ -1,11 +1,9 @@
 ---
-layout: default
+layout: simple
 title: About Numenta
 ---
 
-<section>
-  {% capture content %}
-  {% include content/about.md %}
-  {% endcapture %}
-  {{ content | markdownify }}
-</section>
+{% capture content %}
+{% include content/about.md %}
+{% endcapture %}
+{{ content | markdownify }}

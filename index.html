@@ -1,11 +1,21 @@
 ---
-layout: default
-title: Numenta | NuPIC
+layout: base
+title: NuPIC | Numenta Platform for Intelligent Computing
 ---
 
+{% include index/hero.html %}
+{% include index/start.html %}
+{% include index/docs.html %}
+{% include index/theory.html %}
+{% include index/community.html %}
+{% include index/latest.html %}
+
+<!-- old index -->
 <section>
-  {% capture content %}
-  {% include content/landing.md %}
-  {% endcapture %}
-  {{ content | markdownify }}
+  <div class="container">
+    {% capture content %}
+    {% include content/landing.md %}
+    {% endcapture %}
+    {{ content | markdownify }}
+  </div>
 </section>

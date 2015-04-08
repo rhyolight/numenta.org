@@ -1,11 +1,9 @@
 ---
-layout: default
+layout: simple
 title: HTM White Paper | NuPIC
 ---
 
-<section>
-  {% capture content %}
-  {% include content/htm-white-paper.md %}
-  {% endcapture %}
-  {{ content | markdownify }}
-</section>
+{% capture content %}
+{% include content/htm-white-paper.md %}
+{% endcapture %}
+{{ content | markdownify }}

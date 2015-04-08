@@ -1,15 +1,10 @@
-<li>
-  <a href="{{ site.data.urls.start }}"><i class="fa fa-sign-in"></i> Start</a>
-</li>
-<li>
-  <a href="{{ site.data.urls.docs }}"><i class="fa fa-file-text-o"></i> Docs</a>
-</li>
-<li>
-  <a href="{{ site.data.urls.theory }}"><i class="fa fa-lightbulb-o"></i> Theory</a>
-</li>
-<li>
-  <a href="{{ site.data.urls.community }}"><i class="fa fa-users"></i> Community</a>
-</li>
-<li>
-  <a href="{{ site.data.urls.latest }}"><i class="fa fa-flag"></i> Latest</a>
-</li>
+{% for nav in site.data.nav %}
+  {% if nav.name != include.hide %}
+    <li>
+      <a href="{% unless page.url == '/index.html' %}{{ site.data.url.index }}{% endunless %}{{ nav.link }}">
+        <i class="fa fa-fw {{ nav.icon }}"></i>
+        {{ nav.name }}
+      </a>
+    </li>
+  {% endif %}
+{% endfor %}

@@ -12,16 +12,16 @@
 
       <div class="collapse navbar-collapse scrollspy-nav" id="nupic-navbar-collapse">
         <ul class="nav navbar-nav navbar-right">
-          {% include base/navlinks.html %}
+          {% include base/navlinks.html hide="Home" %}
           <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">More <i class="fa fa-caret-down"></i></a>
+            <a href="{{ site.data.url.index }}" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">More <i class="fa fa-caret-down"></i></a>
             <ul class="dropdown-menu" role="menu">
-              <li><a href="#">Help</a></li>
-              <li><a href="#">FAQ</a></li>
+              <li><a href="{{ site.data.url.help }}">Help</a></li>
+              <li><a href="{{ site.data.url.faq }}">FAQ</a></li>
               <li class="divider"></li>
-              <li><a href="#">Download</a></li>
+              <li><a href="{{ site.data.url.download }}">Download</a></li>
               <li class="divider"></li>
-              <li><a href="#">Search</a></li>
+              <li><a href="{{ site.data.url.search }}">Search</a></li>
             </ul>
           </li>
         </ul>

@@ -1,13 +1,11 @@
 ---
-layout: default
+layout: simple
 title: NuPIC Details
 ---
 
-<section>
-  {% capture content %}
-  {% include content/nupic.md %}
-  {% endcapture %}
-  {{ content | markdownify }}
-</section>
+{% capture content %}
+{% include content/nupic.md %}
+{% endcapture %}
+{{ content | markdownify }}
 
 <script src="{{ site.baseurl }}/javascripts/jump-menu.js"></script>

@@ -1,0 +1,20 @@
+# links also in: nav.yml
+
+index: /
+
+start:      /#start
+docs:       /#docs
+theory:     /#theory
+community:  /#community
+latest:     /#latest
+
+help:     /help
+faq:      /faq
+download: /download
+search:   /search
+privacy:  /privacy
+terms:    /terms
+sitemap:  /sitemap
+
+grok:     http://numenta.com/grok/
+moreapps: http://numenta.com/#applications
