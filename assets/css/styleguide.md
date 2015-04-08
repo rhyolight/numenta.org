@@ -18,6 +18,10 @@ of the website. It will be automatically updated with each build. Please
 see the [node-kss specification](https://github.com/kss-node/kss/blob/spec/SPEC.md)
 on how to use this.
 
+#### TODO
+
+* Talk about Bootstrap, etc. (more TODO listed in README)
+
 #### Mockups
 
 * [Mobile](/assets/img/meta/design/mocks/2015-03-10-480px-home.png)

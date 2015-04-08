@@ -4,15 +4,15 @@
   <!-- footer social links -->
   <section class="social">
     <div class="container">
-      <ul>
+      <ul class="list-inline">
         {% for social in site.data.social %}
           <li>
             <a href="{{ social.link }}">
-              <span class="fa-stack fa-lg">
+              <div class="fa-stack fa-2x">
                 <i class="fa fa-stack-2x fa-circle"></i>
                 <i class="fa fa-stack-1x {{ social.icon }}"></i>
-              </span>
-              {{ social.name }}
+              </div>
+              <span>{{ social.name }}</span>
             </a>
           </li>
         {% endfor %}
@@ -23,31 +23,38 @@
   <!-- grok promote AND nav links -->
   <section class="nav">
     <div class="container">
+      <div class="row">
 
-      <!-- grok/product promote -->
-      <aside>
-        <img src="/assets/img/base/logo/grok-logo-lite.svg" alt="Grok Logo" />
-        <p>
-          <a href="{{ site.data.url.grok }}">Grok</a> is the first Numenta app
-          built with NuPIC. Breakthrough science for Anomaly Detection and
-          IT Analytics on Amazon Web Services (AWS).
-          <a href="{{ site.data.url.grok }}#get">Download Grok</a> now for free.
-        </p>
-        <a href="{{ site.data.url.moreapps }}">View More NuPIC Applications <i class="fa fa-angle-right"></i></a>
-      </aside>
+        <!-- grok/product promote -->
+        <aside class="col-sm-6 col-sm-push-6">
+          <img src="/assets/img/base/logo/grok-logo-lite.svg" alt="Grok Logo" />
+          <p>
+            <a href="{{ site.data.url.grok }}">Grok</a> is the first Numenta app
+            built with NuPIC. Breakthrough science for Anomaly Detection and
+            IT Analytics on Amazon Web Services (AWS).
+            <a href="{{ site.data.url.grok }}#get">Download Grok</a> now for free.
+          </p>
+          <a href="{{ site.data.url.moreapps }}">View More NuPIC Applications <i class="fa fa-angle-right"></i></a>
+        </aside>
 
-      <!-- footer nav links -->
-      <nav>
-        <ul>
-          {% include base/navlinks.html %}
-          <li><a href="{{ site.data.url.help }}">Help</a></li>
-          <li><a href="{{ site.data.url.faq }}">FAQ</a></li>
-          <li><a href="{{ site.data.url.privacy }}">Privacy</a></li>
-          <li><a href="{{ site.data.url.terms }}">Terms</a></li>
-          <li><a href="{{ site.data.url.sitemap }}">Sitemap</a></li>
-        </ul>
-      </nav>
+        <!-- footer nav links -->
+        <nav class="col-sm-6 col-sm-pull-6">
+          <h6>Site Navigation</h6>
+          <div class="row">
+            <ul class="list-unstyled col-xs-6 col-sm-6 col-md-5">
+              {% include base/navlinks.html %}
+            </ul>
+            <ul class="list-unstyled col-xs-6 col-sm-6 col-md-7">
+              <li><a href="{{ site.data.url.help }}">Help</a></li>
+              <li><a href="{{ site.data.url.faq }}">FAQ</a></li>
+              <li><a href="{{ site.data.url.privacy }}">Privacy</a></li>
+              <li><a href="{{ site.data.url.terms }}">Terms</a></li>
+              <li><a href="{{ site.data.url.sitemap }}">Sitemap</a></li>
+            </ul>
+          </div>
+        </nav>
 
+      </div>
     </div>
   </section>
 
