@@ -61,7 +61,7 @@ header {
       }
 
       > span {
-        color: $color-gray-lite;
+        color: $color-lite;
         font-size: 85%;
 
         @media (min-width: $screen-md) and (max-width: $screen-lg) {
@@ -91,6 +91,17 @@ header {
       padding: 9px 13px;
       @include navbar-vertical-align(50px);
     }
+
+    .dropdown-menu {
+      padding-bottom: 1rem;
+      padding-top: 1rem;
+
+      a, a:link {
+        font-size: 85%;
+        font-weight: $font-weight-normal;
+        text-transform: uppercase;
+      }
+    } // .dropdown-menu
   } // nav
 } // header
 
@@ -110,7 +121,7 @@ header {
  */
 main {
   > section {
-    @include gradient-vertical($color-white, $color-lite, 0%, 100%);
+    @include gradient-vertical($color-white, $color-lite, 66%, 100%);
     padding-bottom: 7rem;
     padding-top: 3.5rem;
 
@@ -167,7 +178,7 @@ footer {
         padding-left: 2rem;
         padding-right: 2rem;
 
-        > a:link {
+        > a, > a:link {
           color: $color-lite;
           font-size: 85%;
 
@@ -198,7 +209,7 @@ footer {
     color: $color-gray-dark;
     font-size: 85%;
 
-    a:link {
+    a, a:link {
       background-image: url('/assets/img/base/logo/numenta-mark-lite.svg');
       background-position: left center;
       background-repeat: no-repeat;
