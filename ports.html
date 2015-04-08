@@ -1,12 +1,9 @@
 ---
-layout: default
+layout: simple
 title: NuPIC Ports
 ---
 
-<section>
-  {% capture content %}
-  {% include content/ports.md %}
-  {% endcapture %}
-  {{ content | markdownify }}
-</section>
-
+{% capture content %}
+{% include content/ports.md %}
+{% endcapture %}
+{{ content | markdownify }}

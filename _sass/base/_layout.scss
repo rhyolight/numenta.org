@@ -48,6 +48,7 @@ header {
       font-size: $font-size-base;
       padding-left: 7rem;
       padding-top: 3.5rem;
+      position: absolute;
 
       &:hover {
         color: $color-white;
@@ -62,6 +63,10 @@ header {
       > span {
         color: $color-gray-lite;
         font-size: 85%;
+
+        @media (min-width: $screen-md) and (max-width: $screen-lg) {
+          font-size: 80%;
+        }
       }
     } // .navbar-brand
 
@@ -81,6 +86,11 @@ header {
         }
       }
     } // .navbar-nav
+
+    .navbar-toggle {
+      padding: 9px 13px;
+      @include navbar-vertical-align(50px);
+    }
   } // nav
 } // header
 
@@ -102,7 +112,12 @@ main {
   > section {
     @include gradient-vertical($color-white, $color-lite, 0%, 100%);
     padding-bottom: 7rem;
-    padding-top: 4rem;
+    padding-top: 3.5rem;
+
+    @media (max-width: $screen-sm) {
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+    }
   }
 
   > .arrow-down {   /* subtle down arrow between sections */
@@ -157,8 +172,6 @@ footer {
           font-size: 85%;
 
           > i {
-            @extend .fa;
-            @extend .fa-4x;
             display: block;
             margin-bottom: 0.2rem;
           }

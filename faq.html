@@ -1,11 +1,9 @@
 ---
-layout: default
+layout: simple
 title: NuPIC FAQ
 ---
 
-<section>
-  {% capture content %}
-  {% include content/faq.md %}
-  {% endcapture %}
-  {{ content | markdownify }}
-</section>
+{% capture content %}
+{% include content/faq.md %}
+{% endcapture %}
+{{ content | markdownify }}

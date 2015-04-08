@@ -15,9 +15,7 @@ This is the open source code for the NuPIC Website hosted at
 * [HTML5](http://en.wikipedia.org/wiki/HTML5) semantic structure and content
 * [CSS3](http://en.wikipedia.org/wiki/Cascading_Style_Sheets) visual styling
   * [Bootstrap 3](http://getbootstrap.com/) responsive frontend framework
-    * Using SASS `@extend` with Bootstrap in order to 
-      [keep HTML semantic](http://www.sitepoint.com/sass-semantically-extend-bootstrap/)
-* [ECMAScript 5+](http://en.wikipedia.org/wiki/ECMAScript) 
+* [ECMAScript 5+](http://en.wikipedia.org/wiki/ECMAScript)
   (Javascript) functionality and interaction
   * [jQuery 2](http://getbootstrap.com/) responsive frontend framework
 
@@ -27,12 +25,12 @@ This is the open source code for the NuPIC Website hosted at
   * [GitHub](http://github.com) source git hosting
     * [GitHub Pages](https://pages.github.com/) web hosting
     * Source Repo: https://github.com/numenta/numenta.org
-* [Ruby](https://www.ruby-lang.org/) lang 
+* [Ruby](https://www.ruby-lang.org/) lang
   * [RubyGems](https://rubygems.org/) packages
     * [bundler](http://bundler.io/) packager
     * [jekyll](http://jekyllrb.com/) static site generator
     * [github-pages](https://github.com/github/pages-gem) local devel
-* [Node.js](https://nodejs.org/) lang 
+* [Node.js](https://nodejs.org/) lang
   * [npm](https://www.npmjs.com/) packages
     * [KSS](https://github.com/kss-node/kss-node) Living Styleguide generator
     * [SASS](http://sass-lang.com/) CSS pre-processor language
@@ -69,11 +67,11 @@ When the build is finished, visit local URL in browser:
 
 ### Production
 
-* Changes to the `gh-pages` branch of the 
+* Changes to the `gh-pages` branch of the
   [numenta.org repo](https://github.com/numenta/numenta.org) are automatically
   built and pushed to production by [GitHub Pages](https://pages.github.com/)
 * Changes, Pull Requests, and Issues are welcome and appreciated
-  * First, please make sure to sign the 
+  * First, please make sure to sign the
     [Contributor licenese](http://numenta.org/licenses/cl/)
 
 
