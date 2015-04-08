@@ -121,7 +121,7 @@ header {
  */
 main {
   > section {
-    @include gradient-vertical($color-white, $color-lite, 66%, 100%);
+    @include gradient-vertical($color-white, $color-lite, 75%, 100%);
     padding-bottom: 7rem;
     padding-top: 3.5rem;
 
@@ -158,56 +158,117 @@ footer {
   background-color: $color-dark;
   color: $color-gray-lite;
 
-  > section {
-    padding-bottom: 5rem;
-    padding-top: 5rem;
-
-    ul {
-      @extend .list-unstyled;
-    }
-  }
-
+  /**
+   * Social Media sharing icons
+   */
   > .social {
     background-color: $color-blue-dark;
+    padding-bottom: 2rem;
+    padding-top: 4rem;
 
     ul {
-      @extend .list-inline;
       text-align: center;
 
       > li {
         padding-left: 2rem;
         padding-right: 2rem;
 
-        > a, > a:link {
-          color: $color-lite;
+        @media (max-width: $screen-lg) {
+          padding-left: 1.5rem;
+          padding-right: 1.5rem;
+        }
+        @media (max-width: $screen-md) {
+          padding-left: 1rem;
+          padding-right: 1rem;
+        }
+        @media (max-width: $screen-sm) {
+          font-size: 90%;
+          padding-left: 0.5rem;
+          padding-right: 0.5rem;
+        }
+
+        a, a:link {
+          &:hover {
+            text-decoration: none;
+          }
+        }
+
+        .fa-stack-1x {
+          color: $color-white;
+        }
+
+        span {
+          display: block;
+          clear: both;
           font-size: 85%;
 
-          > i {
-            display: block;
-            margin-bottom: 0.2rem;
-          }
-
           &:hover {
-            color: $color-white;
-            text-decoration: none;
+            text-decoration: underline;
           }
         }
       }
     }
   }
 
+  /**
+   * Footer Nav and Grok Promo
+   */
   > .nav {
-    background-color: $color-gray-dark;
+    background-color: darken($color-gray-dark, 4%);
+    padding-bottom: 5rem;
+    padding-top: 5rem;
 
-    aside > img {
-      height: 3rem;
+    @media (max-width: $screen-sm) {
+      padding-bottom: 0;
+      padding-top: 0;
+    }
+
+    /**
+     * Grok promo
+     */
+    aside {
+      background-color: $color-gray-dark;
+      padding: 4rem;
+
+      img {
+        height: 3rem;
+        margin-bottom: 2rem;
+      }
+
+      p {
+        font-size: 95%;
+        margin-bottom: 2.5rem;
+      }
+    }
+
+    /**
+     * Footer Navigation links
+     */
+    nav {
+      @media (max-width: $screen-sm) {
+        padding: 4rem;
+      }
+
+      h6 {
+        color: $color-gray-lite;
+        margin-bottom: 2rem;
+      }
+
+      li {
+        margin-bottom: 1rem;
+      }
     }
   }
 
+  /**
+   * Footer Legal notices at bottom
+   */
   > .legal {
     background-color: $color-dark;
     color: $color-gray-dark;
     font-size: 85%;
+    padding-bottom: 3rem;
+    padding-top: 5rem;
 
     a, a:link {
       background-image: url('/assets/img/base/logo/numenta-mark-lite.svg');
