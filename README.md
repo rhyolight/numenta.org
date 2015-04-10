@@ -10,9 +10,9 @@ This is the open source code for the NuPIC Website hosted at
 ## TODO
 
 * Nav > More links fill out
-* Serving from `/node_modules/` not gonna work in production
 * More detailed documentation on how css works (base.css, base.scss, _sass, etc)
   * Same for html/js
+* Testing
 * .com and .org auto monitor and warn, logs, etc.
 
 ## Technology

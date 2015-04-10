@@ -40,6 +40,11 @@ header {
   > nav {
     @include box-shadow(0 0 5px 0 $color-dark);
 
+    @media (max-width: $screen-sm) {
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+
     .navbar-brand {
       background-image: url('/assets/img/base/logo/numenta-mark-lite.svg');
       background-position: left center;
@@ -125,6 +130,15 @@ main {
     padding-bottom: 7rem;
     padding-top: 3.5rem;
 
+    /* pull hero sections back up a bit */
+    &:first-child {
+      padding-top: 2rem;
+
+      h1 {
+        padding-top: 0;
+      }
+    }
+
     @media (max-width: $screen-sm) {
       padding-left: 1.5rem;
       padding-right: 1.5rem;
@@ -183,8 +197,8 @@ footer {
         }
         @media (max-width: $screen-sm) {
           font-size: 90%;
-          padding-left: 0.5rem;
-          padding-right: 0.5rem;
+          padding-left: 0.25rem;
+          padding-right: 0.25rem;
         }
 
         a, a:link {
@@ -237,6 +251,7 @@ footer {
 
       p {
         font-size: 95%;
+        line-height: 1.44;
         margin-bottom: 2.5rem;
       }
     }
@@ -255,6 +270,7 @@ footer {
       }
 
       li {
+        font-size: 95%;
         margin-bottom: 1rem;
       }
     }
@@ -266,25 +282,38 @@ footer {
   > .legal {
     background-color: $color-dark;
     color: $color-gray-dark;
-    font-size: 85%;
-    padding-bottom: 3rem;
-    padding-top: 5rem;
+    font-size: 77.5%;
+    padding-bottom: 4rem;
+    padding-top: 3rem;
 
-    a, a:link {
-      background-image: url('/assets/img/base/logo/numenta-mark-lite.svg');
-      background-position: left center;
-      background-repeat: no-repeat;
-      background-size: 3rem;
-      color: $color-white;
-      padding-left: 4rem;
+    @media (max-width: $screen-sm) {
+      padding-left: 1.5rem;
     }
 
-    strong {
-      /*display: block;*/
+    .navbar-brand {
+      background-image: url('/assets/img/base/logo/numenta-mark-lite.svg');
+      background-position: left 52%;
+      background-repeat: no-repeat;
+      background-size: 3.1rem;
+      color: $color-white;
+      font-size: 102.5%;
+      height: auto;
+      line-height: 1.25;
+      margin-bottom: 1.25rem;
+      padding: 0 0 0 4rem;
+
+      strong {
+        display: block;
+        font-size: 105%;
+      }
     }
 
     p {
+      clear: both;
       color: $color-gray;
+      display: block;
+      font-size: 100%;
+      line-height: 1.44;
     }
   }
 }
