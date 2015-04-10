@@ -120,6 +120,7 @@ a, a:link {
 
   &:active {
     border-bottom: 1px $color-blue dotted;
+    color: $color-blue;
     text-decoration: underline;
   }
 

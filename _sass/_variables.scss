@@ -50,7 +50,7 @@ $gray-lighter:  $color-lite;
 
 $body-bg:           $color-dark;
 $link-color:        $color-blue-orig;
-$link-hover-color:  $color-blue;
+$link-hover-color:  lighten($color-blue, $color-shift);
 $text-color:        $color-dark;
 
 // Typography
