@@ -28,10 +28,10 @@ $font-weight-normal:  300;
 $font-weight-bold:    600;
 
 
-/**************************************
- * Bootstrap variable overrides:
+/**
+ * Twitter Bootstrap 3 variable overrides:
  *  http://getbootstrap.com/customize/
- **************************************/
+ */
 
 // Colors
 
@@ -91,3 +91,18 @@ $navbar-default-toggle-hover-bg: $color-blue;
 $navbar-height: 110px;
 $navbar-margin-bottom: 0;
 $navbar-padding-horizontal: 0;
+
+
+/**
+ * Open Sans webfont (npm open-sands) sass variable overrides
+ */
+
+$open-sans-path: "/node_modules/open-sands/fonts";
+
+
+/**
+ * Font Awesome icon webfont (via npm) sass variable overrides
+ */
+
+$fa-font-path:      "/node_modules/font-awesome/fonts";
+$fa-font-size-base: $font-size-base;
