@@ -22,6 +22,8 @@ $color-gray-dark: #555;
 $color-dark:      #222;
 $color-black:     #000;
 
+$color-shift: 4%;
+
 // Fonts
 
 $font-weight-normal:  300;
@@ -84,9 +86,9 @@ $navbar-default-bg: $color-blue-dark;
 $navbar-default-color: $color-white;
 $navbar-default-link-color: $color-white;
 $navbar-default-link-hover-color: $color-white;
-$navbar-default-link-active-bg: darken($color-blue-dark, 2%);
+$navbar-default-link-active-bg: darken($color-blue-dark, $color-shift);
 $navbar-default-link-active-color: $color-white;
-$navbar-default-link-hover-bg: darken($color-blue-dark, 2%);
+$navbar-default-link-hover-bg: darken($color-blue-dark, $color-shift);
 $navbar-default-toggle-hover-bg: $color-blue;
 $navbar-height: 110px;
 $navbar-margin-bottom: 0;
