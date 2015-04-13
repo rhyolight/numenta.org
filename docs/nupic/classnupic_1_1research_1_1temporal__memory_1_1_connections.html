@@ -125,9 +125,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a58dfef3f2ba0d807bc2eedbfe6128ba0"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnupic_1_1research_1_1temporal__memory_1_1_connections.html#a58dfef3f2ba0d807bc2eedbfe6128ba0">createSegment</a></td></tr>
 <tr class="memdesc:a58dfef3f2ba0d807bc2eedbfe6128ba0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a new segment on a cell.  <a href="#a58dfef3f2ba0d807bc2eedbfe6128ba0">More...</a><br /></td></tr>
 <tr class="separator:a58dfef3f2ba0d807bc2eedbfe6128ba0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a612330f0b5d3b9f0219ae80799c2caa3"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnupic_1_1research_1_1temporal__memory_1_1_connections.html#a612330f0b5d3b9f0219ae80799c2caa3">destroySegment</a></td></tr>
+<tr class="memdesc:a612330f0b5d3b9f0219ae80799c2caa3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a segment.  <a href="#a612330f0b5d3b9f0219ae80799c2caa3">More...</a><br /></td></tr>
+<tr class="separator:a612330f0b5d3b9f0219ae80799c2caa3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7216f7ba994c1a9b43368c01faf27a12"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnupic_1_1research_1_1temporal__memory_1_1_connections.html#a7216f7ba994c1a9b43368c01faf27a12">createSynapse</a></td></tr>
 <tr class="memdesc:a7216f7ba994c1a9b43368c01faf27a12"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new synapse on a segment.  <a href="#a7216f7ba994c1a9b43368c01faf27a12">More...</a><br /></td></tr>
 <tr class="separator:a7216f7ba994c1a9b43368c01faf27a12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2cdeeef95d63f6784540bdefb7eb64f4"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnupic_1_1research_1_1temporal__memory_1_1_connections.html#a2cdeeef95d63f6784540bdefb7eb64f4">destroySynapse</a></td></tr>
+<tr class="memdesc:a2cdeeef95d63f6784540bdefb7eb64f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a synapse.  <a href="#a2cdeeef95d63f6784540bdefb7eb64f4">More...</a><br /></td></tr>
+<tr class="separator:a2cdeeef95d63f6784540bdefb7eb64f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1a803b512de0ce6289fb996711eadea0"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnupic_1_1research_1_1temporal__memory_1_1_connections.html#a1a803b512de0ce6289fb996711eadea0">updateSynapsePermanence</a></td></tr>
 <tr class="memdesc:a1a803b512de0ce6289fb996711eadea0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the permanence for a synapse.  <a href="#a1a803b512de0ce6289fb996711eadea0">More...</a><br /></td></tr>
 <tr class="separator:a1a803b512de0ce6289fb996711eadea0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -330,6 +336,74 @@ def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
 
 </div>
 </div>
+<a class="anchor" id="a612330f0b5d3b9f0219ae80799c2caa3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def destroySegment </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>segment</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a segment. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">segment</td><td>(int) Segment index </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a2cdeeef95d63f6784540bdefb7eb64f4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def destroySynapse </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>synapse</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a synapse. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">synapse</td><td>(int) Synapse index </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a class="anchor" id="ad6a71342b8e889dbd116fdd66fe42f74"></a>
 <div class="memitem">
 <div class="memproto">
@@ -482,7 +556,7 @@ def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Apr 10 2015 04:42:03 for NuPIC by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Sun Apr 12 2015 07:20:44 for NuPIC by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.7
 </small></address>
