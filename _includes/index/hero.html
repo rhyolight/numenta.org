@@ -2,15 +2,34 @@
   <div class="container">
 
     <h1>Welcome</h1>
-    <strong>Currently under heavy development!</strong>
+    <p>
+      <strong>NuPIC</strong> is an open source Platform and Community for
+      Machine Intelligence. NuPIC learns patterns in both space and time,
+      predicts future values, and detects anomalies found in streams of data.
+      Our technology, <strong>Hierarchical Temporal Memory</strong>, is based on
+      the neurobiological principles of the human brain.
+    </p>
+    <img src="" alt="" />
+
+    <h2>Features</h2>
+    <ul class="features">
+      {% for feature in site.data.features %}
+        <li>
+          <i class="fa fa-4x {{ feature.icon }}"></i>
+          {{ feature.name }}
+        </li>
+      {% endfor %}
+    </ul>
 
     <!-- old index -->
+    <!--
     <div>
       {% capture content %}
       {% include content/landing.md %}
       {% endcapture %}
       {{ content | markdownify }}
     </div>
+    -->
 
   </div>
 </section>
