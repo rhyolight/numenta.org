@@ -114,7 +114,12 @@ a, a:link {
   cursor: pointer;
   text-decoration: none;
 
+  &:visited {
+    color: $color-blue-orig;
+  }
+
   &:hover {
+    color: $color-blue;
     text-decoration: underline;
   }
 
@@ -122,10 +127,6 @@ a, a:link {
     border-bottom: 1px $color-blue dotted;
     color: $color-blue;
     text-decoration: underline;
-  }
-
-  &:visited {
-    color: $color-blue-orig;
   }
 }
 
