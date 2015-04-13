@@ -1,0 +1,59 @@
+/**
+ * Homepage
+ */
+
+@import 'base/variables';
+
+
+/**
+ * Section: Hero
+ */
+.hero {
+  // logo
+  img {
+    height: 123px;
+    margin: 2rem 0 4rem 0;
+    width:  135px;
+
+    @media (min-width: $screen-md) {
+      position: relative;
+      top: -3rem;
+    }
+  }
+
+  h2 {
+    margin-top:   0;
+    padding-top:  0;
+  }
+}
+
+/**
+ * Section: Start
+ */
+.hero {
+}
+
+/**
+ * Section: Docs
+ */
+.docs {
+}
+
+/**
+ * Section: Theory
+ */
+.theory {
+}
+
+/**
+ * Section: Community
+ */
+.community {
+}
+
+/**
+ * Section: Latest
+ */
+.latest {
+}
+

@@ -1,16 +1,27 @@
-<section>
+<section class="hero">
   <div class="container">
 
     <h1>Welcome</h1>
-    <strong>Currently under heavy development!</strong>
 
-    <!-- old index -->
-    <div>
-      {% capture content %}
-      {% include content/landing.md %}
-      {% endcapture %}
-      {{ content | markdownify }}
+    <div class="row">
+      <div class="col-md-8">
+        {% capture welcome %}{% include content/welcome.md %}{% endcapture %}
+        {{ welcome | markdownify }}
+      </div>
+      <div class="col-md-4 text-center">
+        <img src="/assets/img/base/logo/numenta-mark-dark.svg" alt="Numenta Logo" />
+      </div>
     </div>
+
+    <h2>Features</h2>
+    <ul class="list-inline list-unstyled">
+      {% for feature in site.data.features %}
+        <li>
+          <i class="fa fa-4x {{ feature.icon }}"></i>
+          {{ feature.name }}
+        </li>
+      {% endfor %}
+    </ul>
 
   </div>
 </section>
