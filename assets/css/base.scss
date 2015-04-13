@@ -11,9 +11,9 @@
  * @requires npm: bootstrap fontawesome kss opensans
  */
 
-@import 'variables';
+@import 'base/variables';
 
-@import 'bootstrap';
+@import 'base/bootstrap';
 @import 'font/fontawesome';
 @import 'font/opensans';
 

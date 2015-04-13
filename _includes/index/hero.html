@@ -1,12 +1,17 @@
-<section>
+<section class="hero">
   <div class="container">
 
     <h1>Welcome</h1>
 
-    {% capture welcome %}{% include content/welcome.md %}{% endcapture %}
-    {{ welcome | markdownify }}
-
-    <img src="" alt="" />
+    <div class="row">
+      <div class="col-md-8">
+        {% capture welcome %}{% include content/welcome.md %}{% endcapture %}
+        {{ welcome | markdownify }}
+      </div>
+      <div class="col-md-4 text-center">
+        <img src="/assets/img/base/logo/numenta-mark-dark.svg" alt="Numenta Logo" />
+      </div>
+    </div>
 
     <h2>Features</h2>
     <ul class="list-inline list-unstyled">

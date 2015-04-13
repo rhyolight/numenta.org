@@ -8,22 +8,26 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0" />
     <meta name="google-site-verification" content="OfJ5zPSx53VfF9A0uweP4yhNQsUuXCZ7ZAkdLVIEks0" />
     <title>{{ page.title }}</title>
-    <!-- <link rel="shortcut icon" href="TBD" /> -->
-    <!-- <link rel="canonical" href="TBD" /> -->
-    <!-- <link rel="alternate" type="application/rss+xml" title="NuPIC Blog Feed" href="TBD" /> -->
-    <!-- <link rel="alternate" type="application/rss+xml" title="NuPIC News Feed" href="TBD" /> -->
-    <link rel="stylesheet" type="text/css" href="/assets/css/base.css?v=TBD" />
+    <link rel="shortcut icon" href="TBD" />
+    <link rel="canonical" href="TBD" />
+    <link rel="alternate" type="application/rss+xml" title="NuPIC Blog Feed" href="TBD" />
+    <link rel="alternate" type="application/rss+xml" title="NuPIC News Feed" href="TBD" />
+    <link rel="stylesheet" type="text/css" href="/assets/css/base.css?v={{ site.github.build_revision }}" />
+    {% for sheet in page.styles %}
+      <link rel="stylesheet" type="text/css" href="{{ sheet }}?v={{ site.github.build_revision }}" />
+    {% endfor %}
   </head>
   <body class="numenta" data-spy="scroll" data-target=".scrollspy-nav">
     {% include header.html %}
-    <main>
-      {{ content }}
-    </main>
+    <main>{{ content }}</main>
     {% include footer.html %}
-    <script src="/node_modules/jquery/dist/jquery.min.js?v=TBD"></script>
-    <script src="/node_modules/bootstrap-sass/assets/javascripts/bootstrap.min.js?v=TBD"></script>
-    <script src="/assets/js/base.js?v=TBD"></script>
+    <script src="/node_modules/jquery/dist/jquery.min.js?v={{ site.github.build_revision }}"></script>
+    <script src="/node_modules/bootstrap-sass/assets/javascripts/bootstrap.min.js?v={{ site.github.build_revision }}"></script>
+    <script src="/assets/js/base.js?v={{ site.github.build_revision }}"></script>
+    {% for script in page.scripts %}
+      <script src="{{ script }}?v={{ site.github.build_revision }}"></script>
+    {% endfor %}
     {% include base/analytics.html %}
-    <!-- http://numenta.org v{{ TBD }} Copyright © {{ TBD }} -->
+    <!-- http://numenta.org {{ site.copyright }} v={{ site.github.build_revision }} -->
   </body>
 </html>

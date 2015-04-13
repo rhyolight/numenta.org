@@ -4,10 +4,11 @@
 ### about
 
 description:  Numenta Platform for Intelligent Computing
-#github:      # gh-pages add
 name:         NuPIC
 tagline:      Numenta Platform for Intelligent Computing
 title:        NuPIC
+copyright:    Copyright © 2015 Numenta
+company:      Numenta
 
 ### paths
 
@@ -53,24 +54,10 @@ exclude:
 kramdown:
   input: GFM # github-flavored markdown
 
-### defaults
+### yaml defaults
 
 # defaults:
-#   -
-#     scope:
-#       path: '' # all files
-#       type: 'posts'
-#     values:
-#       layout: 'default'
-#   -
-#     scope:
-#       path: 'projects'
-#       type: 'pages'
-#     values:
-#       layout: 'project'
-#       author: 'Vito'
 
 ### collections http://jekyllrb.com/docs/collections/
 
 # collections:
-
