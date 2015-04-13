@@ -137,7 +137,7 @@ footer {
       background-image: url('/assets/img/base/logo/numenta-mark-lite.svg');
       background-position: left 52%;
       background-repeat: no-repeat;
-      background-size: 29px;
+      background-size: 29px 27px;
       color: $color-white;
       font-size: 102.5%;
       height: auto;
@@ -158,9 +158,6 @@ footer {
       font-size: 100%;
       line-height: 1.44;
       max-width: 38rem;
-
-      @media (max-width: $screen-sm) {
-      }
     }
   } // .legal
 

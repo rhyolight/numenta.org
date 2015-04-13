@@ -30,7 +30,7 @@ header {
       background-image: url('/assets/img/base/logo/numenta-mark-lite.svg');
       background-position: left center;
       background-repeat: no-repeat;
-      background-size: 58px;
+      background-size: 58px 53px;
       font-size: $font-size-base;
       padding-left: 7rem;
       padding-top: 3.5rem;
@@ -38,7 +38,7 @@ header {
 
       @media (max-width: $screen-sm) {
         background-position: left 40px;
-        background-size: 40px;
+        background-size: 40px 37px;
         padding-left: 5rem;
       }
 
