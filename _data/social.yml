@@ -1,24 +1,24 @@
 -
-  icon: fa-facebook
+  icon: fa-social-1
   link: https://www.facebook.com/pages/Numenta/321559142118
   name: Facebook
 -
-  icon: fa-twitter
+  icon: fa-social-2
   link: http://twitter.com/numenta
   name: Twitter
 -
-  icon: fa-google-plus
+  icon: fa-social-3
   link: http://plus.google.com/+NumentaOrg
   name: Google+
 -
-  icon: fa-map-marker
+  icon: fa-social-4
   link: http://www.meetup.com/Numenta-Platform-for-Intelligent-Computing-Events/
   name: Meetup
 -
-  icon: fa-stack-overflow
+  icon: fa-social-5
   link: http://stackoverflow.com/tags/nupic/info
   name: StackOverflow
 -
-  icon: fa-youtube
+  icon: fa-social-6
   link: http://www.youtube.com/channel/UC8-ttzWLgXZOGuhUyrPlUuA
   name: YouTube
