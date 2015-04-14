@@ -12,13 +12,16 @@ description: This is the one-stop location where details about all Numenta open
     - slug: numenta/nupic
       type: primary
       travis: true
+      appveyor: 
+         badge: https://ci.appveyor.com/api/projects/status/pfmrvtvkggm1bo2i/branch/master?svg=true
+         url: https://ci.appveyor.com/project/numenta-ci/nupic/branch/master
       coverage: true
 
     - slug: numenta/nupic.core
       type: primary
       travis: true
       appveyor: 
-         badge: https://ci.appveyor.com/api/projects/status/q9bc043vrhgd88sw?svg=true
+         badge: https://ci.appveyor.com/api/projects/status/q9bc043vrhgd88sw/branch/master?svg=true
          url: https://ci.appveyor.com/project/numenta-ci/nupic-core/branch/master
       coverage: true
 
