@@ -58,7 +58,7 @@ $text-color:        $color-dark;
 $font-family-sans-serif:  'Open Sans', sans-serif;
 $font-size-base:          16px;
 $line-height-base:        1.66;
-$headings-line-height:    1.33;
+$headings-line-height:    $line-height-base;
 
 // Dropdown
 
