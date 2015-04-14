@@ -41,11 +41,36 @@
               {% include base/navlinks.html %}
             </ul>
             <ul class="list-unstyled col-xs-6 col-sm-6 col-md-7">
-              <li><a href="{{ site.data.url.help }}">Help</a></li>
-              <li><a href="{{ site.data.url.faq }}">FAQ</a></li>
-              <li><a href="{{ site.data.url.privacy }}">Privacy</a></li>
-              <li><a href="{{ site.data.url.terms }}">Terms</a></li>
-              <li><a href="{{ site.data.url.sitemap }}">Sitemap</a></li>
+              <li>
+                <a href="{{ site.data.url.download }}">
+                  <i class="fa fa-fw fa-download"></i>
+                  Download
+                </a>
+              </li>
+              <li>
+                <a href="{{ site.data.url.search }}">
+                  <i class="fa fa-fw fa-search"></i>
+                  Search
+                </a>
+              </li>
+              <li>
+                <a href="{{ site.data.url.help }}">
+                  <i class="fa fa-fw fa-life-ring"></i>
+                  Help
+                </a>
+              </li>
+              <li>
+                <a href="{{ site.data.url.faq }}">
+                  <i class="fa fa-fw fa-question-circle"></i>
+                  FAQ
+                </a>
+              </li>
+              <li>
+                <a href="{{ site.data.url.sitemap }}">
+                  <i class="fa fa-fw fa-sitemap"></i>
+                  Sitemap
+                </a>
+              </li>
             </ul>
           </div>
         </nav>
@@ -60,7 +85,11 @@
       {% include base/brand.html %}
       {% capture blurb %}{% include content/blurb.md %}{% endcapture %}
       {{ blurb | markdownify }}
-      <span>{{ site.copyright }}</span>
+      <span>
+        {{ site.copyright }} |
+        <a href="{{ site.data.url.privacy }}">Privacy</a> |
+        <a href="{{ site.data.url.terms }}">Terms</a>
+      </span>
     </div>
   </section>
 
