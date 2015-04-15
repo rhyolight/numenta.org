@@ -62,7 +62,7 @@ body {
  * Styleguide: 2.2
  */
 h1 {
-  color: $color-gray;
+  color: lighten($color-blue-dark, $color-shift);
   font-size: 225%;
   font-weight: $font-weight-bold;
 }
@@ -83,13 +83,13 @@ h4 {
   font-weight: $font-weight-bold;
 }
 h5 {
-  color: $color-dark;
+  color: lighten($color-blue-dark, $color-shift);
   font-size: 90%;
   text-transform: uppercase;
   font-weight: $font-weight-bold;
 }
 h6 {
-  color: $color-black;
+  color: $color-dark;
   font-size: 80%;
   text-transform: uppercase;
   font-weight: $font-weight-bold;
