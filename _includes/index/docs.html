@@ -4,45 +4,31 @@
   <div class="container">
 
     <h2>Docs</h2>
-    <p>
-      Learn how to use NuPIC by visiting our <a href="">documentation</a>.
-      From <a href="textspan42">beginner instructions</a> to advanced expert
-      <a href="">API reference</a>, we hope to help you build intelligent
-      applications.
-    </p>
 
-    <h5>Beginner</h5>
-    <ul>
-      <li>
-        <a href="">Get Started</a> - Prepare, install, and run
-      </li>
-      <li>
-        <a href="">Build</span> from Source - Download, build, run, and test
-      </li>
-      <li>
-        <a href="">Examples</a> and <a href="">Tutorials</a>
-      </li>
-      <li>
-        <a href="">Help</a> and <a href="">FAQ</a>
-      </li>
-    </ul>
+    <div class="row">
+      <div class="col-sm-8">
+        {% capture markup %}{% include content/docs.intro.md %}{% endcapture %}
+        {{ markup | markdownify }}
+      </div>
+      <div class="col-sm-4 text-center icon">
+        <i class="fa fa-4x fa-file-text-o"></i>
+      </div>
+    </div>
 
-    <h5>Advanced</h5>
-    <ul>
-      <li>
-        <a href="">Guides and Manuals</a>
-      </li>
-      <li>
-        <a href="">API Reference</a>
-      </li>
-      <li>
-        NuPIC <a href="">Wiki</a>
-      </li>
-      <li>
-        Learn about <a href="">Hierarchical Temporal Memory</a>, the
-        <a ref="">theory</a> behind NuPIC
-      </li>
-    </ul>
+    <div class="row">
+      <div class="col-sm-6">
+
+        {% capture markup %}{% include content/docs.beginner.md %}{% endcapture %}
+        {{ markup | markdownify }}
+
+      </div>
+      <div class="col-sm-6">
+
+        {% capture markup %}{% include content/docs.advanced.md %}{% endcapture %}
+        {{ markup | markdownify }}
+
+      </div>
+    </div>
 
   </div>
 </section>

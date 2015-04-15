@@ -4,10 +4,16 @@
   <div class="container">
 
     <h2>Latest</h2>
-    <p>
-      {% capture latest %}{% include content/latest.md %}{% endcapture %}
-      {{ latest | markdownify }}
-    </p>
+
+    <div class="row">
+      <div class="col-sm-8">
+        {% capture latest %}{% include content/latest.intro.md %}{% endcapture %}
+        {{ latest | markdownify }}
+      </div>
+      <div class="col-sm-4 text-center icon">
+        <i class="fa fa-4x fa-flag"></i>
+      </div>
+    </div>
 
     <div class="areas">
 
@@ -30,8 +36,8 @@
               <date>Mon Feb 20 2015</date> <em>by</em> Matthew Taylor
             </div>
             <p>
-              Lorem ipsum dolor sit amet, eos discere accumsan efficiendi an, an pri
-              graece alterum persecuti. Iisque dissentiet eu sed...
+              Lorem ipsum dolor sit amet, eos discere accumsan efficiendi an, an
+              pri graece alterum persecuti. Iisque dissentiet eu sed...
             </p>
             <div>
               <a href="">Read Full Article <i class="fa fa-angle-right"></i></a>
@@ -57,8 +63,8 @@
               <date>Mon Feb 20 2015</date> <em>by</em> Matthew Taylor
             </div>
             <p>
-              Lorem ipsum dolor sit amet, eos discere accumsan efficiendi an, an pri
-              graece alterum persecuti. Iisque dissentiet eu sed...
+              Lorem ipsum dolor sit amet, eos discere accumsan efficiendi an, an
+              pri graece alterum persecuti. Iisque dissentiet eu sed...
             </p>
             <div>
               <a href="">Read Full Article <i class="fa fa-angle-right"></i></a>
@@ -86,8 +92,8 @@
               <date>Mon Feb 20 2015</date> <em>by</em> Matthew Taylor
             </div>
             <p>
-              Lorem ipsum dolor sit amet, eos discere accumsan efficiendi an, an pri
-              graece alterum persecuti. Iisque dissentiet eu sed...
+              Lorem ipsum dolor sit amet, eos discere accumsan efficiendi an, an
+              pri graece alterum persecuti. Iisque dissentiet eu sed...
             </p>
             <div>
               <a href="">Read Full Article <i class="fa fa-angle-right"></i></a>
@@ -113,8 +119,8 @@
               <date>Mon Feb 20 2015</date> <em>by</em> Matthew Taylor
             </div>
             <p>
-              Lorem ipsum dolor sit amet, eos discere accumsan efficiendi an, an pri
-              graece alterum persecuti. Iisque dissentiet eu sed...
+              Lorem ipsum dolor sit amet, eos discere accumsan efficiendi an, an
+              pri graece alterum persecuti. Iisque dissentiet eu sed...
             </p>
             <div>
               <a href="">Read Full Article <i class="fa fa-angle-right"></i></a>

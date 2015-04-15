@@ -1,6 +1,7 @@
 ### Most of the URLs.
 ### Few more in other data .yml files.
 
+
 # internal
 
 index:      /
@@ -19,11 +20,14 @@ news:   /news/
 events: /events.html
 press:  /press
 
+htm: /htm.html
+
 help:    /help
 faq:     /faq.html
 privacy: /privacy
 terms:   /terms
 sitemap: /sitemap
+
 
 # external
 

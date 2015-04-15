@@ -4,58 +4,67 @@
   <div class="container">
 
     <h2>Start</h2>
-    <p>
-      Get started with NuPIC. Here we'll help you download, install, and run it
-      for the first time.
-    </p>
 
-    <h5>Download</h5>
-    <div>
-      <button>
-        <strong>* Download NuPIC</strong>
-        Version 0.2.1 | Mac OS X
-      </button>
-      <div>
-        More platforms and versions in <a href="">Downloads</a>
+    <div class="row">
+      <div class="col-sm-8">
+        {% capture markup %}{% include content/start.intro.md %}{% endcapture %}
+        {{ markup | markdownify }}
       </div>
-      <div>
-        <div>Github Fork</div>
-        <div>Github Star</div>
+      <div class="col-sm-4 text-center icon">
+        <i class="fa fa-4x fa-sign-in"></i>
       </div>
-      <div>
-        See the <a href="">documentation</a> below for help
-        <a href="">building NuPIC from source</a>. Other language
-        <a href="">ports</a> available.
-      </div>
-    </div>
+    </div><!-- .row -->
 
-    <h5>Quickstart</h5>
-    <div>
-      <code>
-        $ pip install nupic
-        $ python
-        &gt;&gt;&gt; from nupic import engine, algorithms
-        &gt;&gt;&gt; # success!
-      </code>
-      <div>
-        Next, <a href="">learn the basics</a>,
-        <a href="">explore the documentation</a>, or try running some
-        <a href="">examples</a>.
-      </div>
-    </div>
+    <div class="row">
+      <div class="col-md-6 col-lg-4">
 
-    <h5>Dependencies</h5>
-    <ul>
-      <li>
-        <a href="">C++</a> and <a href="">Python 2.7</a> with dev headers
-      </li>
-      <li>
-        <a href="">pip</a> package manager
-      </li>
-      <li>
-        <a href="">wheel</a> package format
-      </li>
-    </ul>
+        <h5>Download</h5>
+        <div>
+          <button>
+            <strong>* Download NuPIC</strong>
+            Version 0.2.1 | Mac OS X
+          </button>
+          <div>
+            More platforms and versions in <a href="">Downloads</a>
+          </div>
+          <div>
+            <div>Github Fork</div>
+            <div>Github Star</div>
+          </div>
+          <div>
+            See the <a href="">documentation</a> below for help
+            <a href="">building NuPIC from source</a>. Other language
+            <a href="">ports</a> available.
+          </div>
+        </div>
+
+      </div>
+      <div class="col-md-6 col-lg-4">
+
+        <h5>Quickstart</h5>
+        <div>
+          <code>
+            $ pip install nupic
+            $ python
+            &gt;&gt;&gt; from nupic import engine, algorithms
+            &gt;&gt;&gt; # success!
+          </code>
+          <div>
+            Next, <a href="">learn the basics</a>,
+            <a href="">explore the documentation</a>, or try running some
+            <a href="">examples</a>.
+          </div>
+        </div>
+
+      </div>
+      <div class="col-md-6 col-lg-4">
+
+        <h5>Dependencies</h5>
+        {% capture markup %}{% include content/dependencies.md %}{% endcapture %}
+        {{ markup | markdownify }}
+
+      </div>
+    </div><!-- .row -->
 
   </div>
 </section>
