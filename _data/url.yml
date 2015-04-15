@@ -1,20 +1,33 @@
-# links also in: nav.yml
+### Most of the URLs.
+### Few more in other data .yml files.
 
-index: /
+# internal
 
+index:      /
 start:      /#start
 docs:       /#docs
 theory:     /#theory
 community:  /#community
 latest:     /#latest
 
-help:     /help
-faq:      /faq
 download: /download
-search:   /search
-privacy:  /privacy
-terms:    /terms
-sitemap:  /sitemap
+ports:    /ports.html
+search:   /search.html
+
+blog:   /blog/
+news:   /news/
+events: /events.html
+press:  /press
+
+help:    /help
+faq:     /faq.html
+privacy: /privacy
+terms:   /terms
+sitemap: /sitemap
+
+# external
 
 grok:     http://numenta.com/grok/
 moreapps: http://numenta.com/#applications
+
+wiki: https://github.com/numenta/nupic/wiki

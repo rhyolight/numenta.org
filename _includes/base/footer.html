@@ -7,7 +7,7 @@
       <ul class="list-inline">
         {% for social in site.data.social %}
           <li>
-            <a href="{{ social.link }}">
+            <a href="{{ social.link }}" title="{{ social.name }}">
               <div class="fa-stack fa-2x">
                 <i class="fa fa-stack-2x fa-circle"></i>
                 <i class="fa fa-stack-1x {{ social.icon }}"></i>

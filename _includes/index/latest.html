@@ -5,77 +5,126 @@
 
     <h2>Latest</h2>
     <p>
-      Stay up-to-date with the latest on the NuPIC project and community. Read
-      our <a href="">blog</a>, browse recent <a href="">news</a>, learn about
-      our <a href="">events</a>, and see what the <a href="">media</a> is
-      saying.
+      {% capture latest %}{% include content/latest.md %}{% endcapture %}
+      {{ latest | markdownify }}
     </p>
 
-    <div>
+    <div class="areas">
 
-      <div>
-        <h3><a href="">Blog</a></h3>
-        <span>Social</span>
-        <img src="" alt="" />
-        <a href="">NuPIC Community Planning Update Feb 2015</a>
-        <span>
-          <date>Mon Feb 20 2015</date> <em>by</em> Matthew Taylor
-        </span>
-        <p>
-          Lorem ipsum dolor sit amet, eos discere accumsan efficiendi an, an pri
-          graece alterum persecuti. Iisque dissentiet eu sed...
-        </p>
-        <div>
-          <a href="">Read Full Article</a> ▸
+      <div class="row">
+        <div class="col-sm-6">
+
+          <!-- blog -->
+          <div class="area">
+            <div class="row">
+              <div class="col-xs-6">
+                <h3><a href="{{ site.data.url.blog }}">Blog</a></h3>
+              </div>
+              <div class="col-xs-6 text-right">
+                {% include base/share.html link="SHARE_LINK_HERE" %}
+              </div>
+            </div>
+            <img src="" alt="" />
+            <a href="">NuPIC Community Planning Update Feb 2015</a>
+            <div>
+              <date>Mon Feb 20 2015</date> <em>by</em> Matthew Taylor
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet, eos discere accumsan efficiendi an, an pri
+              graece alterum persecuti. Iisque dissentiet eu sed...
+            </p>
+            <div>
+              <a href="">Read Full Article <i class="fa fa-angle-right"></i></a>
+            </div>
+          </div><!-- .area -->
+
+        </div>
+        <div class="col-sm-6">
+
+          <!-- news -->
+          <div class="area">
+            <div class="row">
+              <div class="col-xs-6">
+                <h3><a href="{{ site.data.url.news }}">News</a></h3>
+              </div>
+              <div class="col-xs-6 text-right">
+                {% include base/share.html link="SHARE_LINK_HERE" %}
+              </div>
+            </div>
+            <img src="" alt="" />
+            <a href="">NuPIC 0.2 Released Today</a>
+            <div>
+              <date>Mon Feb 20 2015</date> <em>by</em> Matthew Taylor
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet, eos discere accumsan efficiendi an, an pri
+              graece alterum persecuti. Iisque dissentiet eu sed...
+            </p>
+            <div>
+              <a href="">Read Full Article <i class="fa fa-angle-right"></i></a>
+            </div>
+          </div><!-- .area -->
+
         </div>
       </div>
+      <div class="row">
+        <div class="col-sm-6">
 
-      <div>
-        <h3><a href="">News</a></h3>
-        <span>Social</span>
-        <img src="" alt="" />
-        <a href="">NuPIC 0.2 Released Today</a>
-        <span>
-          <date>Mon Feb 20 2015</date> <em>by</em> Matthew Taylor
-        </span>
-        <p>
-          Lorem ipsum dolor sit amet, eos discere accumsan efficiendi an, an pri
-          graece alterum persecuti. Iisque dissentiet eu sed...
-        </p>
-        <div>
-          <a href="">Read Full Article</a> ▸
+          <!-- events -->
+          <div class="area">
+            <div class="row">
+              <div class="col-xs-6">
+                <h3><a href="{{ site.data.url.events }}">Events</a></h3>
+              </div>
+              <div class="col-xs-6 text-right">
+                {% include base/share.html link="SHARE_LINK_HERE" %}
+              </div>
+            </div>
+            <img src="" alt="" />
+            <a href="">NuPIC Spring 2015 Hackathon NYC</a>
+            <div>
+              <date>Mon Feb 20 2015</date> <em>by</em> Matthew Taylor
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet, eos discere accumsan efficiendi an, an pri
+              graece alterum persecuti. Iisque dissentiet eu sed...
+            </p>
+            <div>
+              <a href="">Read Full Article <i class="fa fa-angle-right"></i></a>
+            </div>
+          </div><!-- .area -->
+
         </div>
-      </div>
+        <div class="col-sm-6">
 
-      <div>
-        <h3><a href="">Events</a></h3>
-        <span>Social</span>
-        <img src="" alt="" />
-        <a href="">NuPIC Spring 2015 Hackathon NYC</a>
-        <span>
-          <date>Mon Feb 20 2015</date> <em>by</em> Matthew Taylor
-        </span>
-        <p>
-          Lorem ipsum dolor sit amet, eos discere accumsan efficiendi an, an pri
-          graece alterum persecuti. Iisque dissentiet eu sed...
-        </p>
-      </div>
+          <!-- media -->
+          <div class="area">
+            <div class="row">
+              <div class="col-xs-6">
+                <h3><a href="{{ site.data.url.press }}">Press</a></h3>
+              </div>
+              <div class="col-xs-6 text-right">
+                {% include base/share.html link="SHARE_LINK_HERE" %}
+              </div>
+            </div>
+            <img src="" alt="" />
+            <a href="">Machine Learning in the Open Source World</a>
+            <div>
+              <date>Mon Feb 20 2015</date> <em>by</em> Matthew Taylor
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet, eos discere accumsan efficiendi an, an pri
+              graece alterum persecuti. Iisque dissentiet eu sed...
+            </p>
+            <div>
+              <a href="">Read Full Article <i class="fa fa-angle-right"></i></a>
+            </div>
+          </div><!-- .area -->
 
-      <div>
-        <h3><a href="">Media</a></h3>
-        <span>Social</span>
-        <img src="" alt="" />
-        <a href="">Machine Learning in the Open Source World</a>
-        <span>
-          <date>Mon Feb 20 2015</date> <em>by</em> Matthew Taylor
-        </span>
-        <p>
-          Lorem ipsum dolor sit amet, eos discere accumsan efficiendi an, an pri
-          graece alterum persecuti. Iisque dissentiet eu sed...
-        </p>
-      </div>
+        </div>
+      </div><!-- .row -->
 
-    </div>
+    </div><!-- .areas -->
 
   </div>
 </section>

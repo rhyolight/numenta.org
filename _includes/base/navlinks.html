@@ -1,7 +1,7 @@
 {% for nav in site.data.nav %}
   {% if nav.name != include.hide %}
     <li>
-      <a href="{% unless page.url == '/index.html' %}{{ site.data.url.index }}{% endunless %}{{ nav.link }}">
+      <a href="{% unless page.url == '/index.html' %}{{ site.data.url.index }}{% endunless %}{{ nav.link }}" title="{{ nav.name }}">
         <i class="fa fa-fw {{ nav.icon }}"></i>
         {{ nav.name }}
       </a>
