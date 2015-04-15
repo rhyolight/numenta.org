@@ -1,0 +1,9 @@
+<ul class="share list-inline list-unstyled">
+  {% for entity in site.data.share %}
+    <li>
+      <a href="{{ entity.link }}{{ include.link }}" title="Share on {{ entity.name }}">
+        <i class="fa fa-fw {{ entity.icon }}"></i>
+      </a>
+    </li>
+  {% endfor %}
+</ul>

@@ -18,9 +18,9 @@
     {% endfor %}
   </head>
   <body class="numenta" data-spy="scroll" data-target=".scrollspy-nav">
-    {% include header.html %}
+    {% include base/header.html %}
     <main>{{ content }}</main>
-    {% include footer.html %}
+    {% include base/footer.html %}
     <script src="/node_modules/jquery/dist/jquery.min.js?v={{ site.github.build_revision }}"></script>
     <script src="/node_modules/bootstrap-sass/assets/javascripts/bootstrap.min.js?v={{ site.github.build_revision }}"></script>
     <script src="/assets/js/base.js?v={{ site.github.build_revision }}"></script>
