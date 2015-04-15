@@ -4,56 +4,31 @@
   <div class="container">
 
     <h2>Theory</h2>
-    <p>
-      NuPIC is an <a href="">Hierarchical Temporal Memory (HTM)</a>, a set of
-      algorithms which model the functionality of the <a href="">neocortex</a>
-      in the <a href="">human brain</a>. Learn more about
-      <a href="">HTM Theory</a>, the key unlocking Intelligent Applications and
-      Machines.
-    </p>
 
-    <h5>Neuroscience and Computing</h5>
-    <ul>
-      <li>
-        <a href="">Brain Basics</a> - A quick evolutionary history
-      </li>
-      <li>
-        All about the <a href="">Neocortex</a> and the <a href="">Neuron</a>
-      </li>
-      <li>
-        <a href="">Hierarchical Temporal Memory (HTM)</a>
-      </li>
-      <li>
-        <a href="">Sparse Distributed Representations (SDRs)</a> - the brain's
-        data structure
-      </li>
-      <li>
-        <a href="">Numenta Learning Center</a> video talks
-      </li>
-    </ul>
+    <div class="row">
+      <div class="col-sm-8">
+        {% capture markup %}{% include content/theory.intro.md %}{% endcapture %}
+        {{ markup | markdownify }}
+      </div>
+      <div class="col-sm-4 text-center icon">
+        <i class="fa fa-4x fa-lightbulb-o"></i>
+      </div>
+    </div>
 
-    <h5>Learn More</h5>
-    <ul>
-      <li>
-        [PDF Icon] <a href="">HTM Whitepaper</a>
-      </li>
-      <li>
-        <a href="">Theory Mailing List</a> and
-        <a href="">Community</a> discussion
-      </li>
-      <li>
-        NuPIC <a href="">Wiki</a>
-      </li>
-      <li>
-        <a href="">Project Roadmap</a>
-      </li>
-      <li>
-        <a href="">Licenses</a>
-      </li>
-      <li>
-        <a href="">Help</a> and <a href="">FAQ</a>
-      </li>
-    </ul>
+    <div class="row">
+      <div class="col-sm-6">
+
+        {% capture markup %}{% include content/theory.neuro.md %}{% endcapture %}
+        {{ markup | markdownify }}
+
+      </div>
+      <div class="col-sm-6">
+
+        {% capture markup %}{% include content/theory.learn.md %}{% endcapture %}
+        {{ markup | markdownify }}
+
+      </div>
+    </div>
 
   </div>
 </section>

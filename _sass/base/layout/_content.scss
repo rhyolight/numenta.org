@@ -31,6 +31,20 @@ main {
       padding-left: 1rem;
       padding-right: 1rem;
     }
+
+    .icon {
+      color: $color-blue;
+      font-size: 133%;
+
+      @media (min-width: $screen-md) {
+        margin-left: -1.66rem;
+        margin-top: -1.75rem;
+      }
+      @media (max-width: $screen-sm) {
+        margin-bottom: 2.5rem;
+        margin-top: 3rem;
+      }
+    }
   } // section
 
   /* subtle down arrows between sections */

@@ -1,0 +1,1 @@
+Learn how to use NuPIC by visiting our [documentation]({{ site.data.url.docs }}). From [beginner instructions]() to advanced expert [API reference](), we hope to help you build intelligent applications.

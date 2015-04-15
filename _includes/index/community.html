@@ -4,63 +4,37 @@
   <div class="container">
 
     <h2>Community</h2>
-    <p>
-      NuPIC is an open and talented <span id="textspan80">Community</span> pushing together towards a new era of Machine Intelligence. Everyone is welcome to pitch in and <span id="textspan81">contribute</span>&#x21;
-    </p>
 
-    <h5>About</h5>
-    <ul>
-      <li>
-        NuPIC Community <a href="">Mission</a>
-      </li>
-      <li>
-        Meet the <a href="">Team</a>
-      </li>
-      <li>
-        <a href="">Committers</a> and <a href="">Contributors</a> Lists
-      </li>
-      <li>
-        NuPIC <a href="">Wiki</a>
-      </li>
-    </ul>
+    <div class="row">
+      <div class="col-sm-8">
+        {% capture markup %}{% include content/community.intro.md %}{% endcapture %}
+        {{ markup | markdownify }}
+      </div>
+      <div class="col-sm-4 text-center icon">
+        <i class="fa fa-4x fa-users"></i>
+      </div>
+    </div>
 
-    <h5>Contribute</h5>
-    <ul>
-      <li>
-        How to <a href="">Get Involved</a>
-      </li>
-      <li>
-        <a href="">NuPIC Repositories</a> and <a href="">Issue Trackers</a>
-      </li>
-      <li>
-        <a href="">Project Roadmap</a>
-      </li>
-      <li>
-        <a href="">Community Content</a> from our team
-      </li>
-      <li>
-        <a href="">Licenses</a>
-      </li>
-      <li>
-        <a href="">Codes of Conduct</a>
-      </li>
-    </ul>
+    <div class="row">
+      <div class="col-sm-6 col-lg-4">
 
-    <h5>Contact</h5>
-    <ul>
-      <li>
-        <a href="">Mailing Lists</a>
-      </li>
-      <li>
-        Chat: <a href="">Gitter</a> and <a href="">IRC</a>
-      </li>
-      <li>
-        <a href="">Social Networks</a>
-      </li>
-      <li>
-        <a href="">Help</a> and <a href="">FAQ</a>
-      </li>
-    </ul>
+        {% capture markup %}{% include content/community.about.md %}{% endcapture %}
+        {{ markup | markdownify }}
+
+      </div>
+      <div class="col-sm-6 col-lg-4">
+
+        {% capture markup %}{% include content/community.contrib.md %}{% endcapture %}
+        {{ markup | markdownify }}
+
+      </div>
+      <div class="col-sm-6 col-lg-4">
+
+        {% capture markup %}{% include content/community.contact.md %}{% endcapture %}
+        {{ markup | markdownify }}
+
+      </div>
+    </div><!-- row -->
 
   </div>
 </section>
