@@ -28,9 +28,12 @@
             </ul>
             <ul class="kss-menu-child">
               <li class="kss-menu-item"><a href="#section-2.1"><span class="kss-ref">2.1</span><span class="kss-name">Font</span></a></li>
-              <li class="kss-menu-item"><a href="#section-2.2"><span class="kss-ref">2.2</span><span class="kss-name">Headings</span></a></li>
-              <li class="kss-menu-item"><a href="#section-2.3"><span class="kss-ref">2.3</span><span class="kss-name">Links</span></a></li>
-              <li class="kss-menu-item"><a href="#section-2.4"><span class="kss-ref">2.4</span><span class="kss-name">Icons</span></a></li>
+              <li class="kss-menu-item"><a href="#section-2.2"><span class="kss-ref">2.2</span><span class="kss-name">Links</span></a></li>
+              <li class="kss-menu-item"><a href="#section-2.3"><span class="kss-ref">2.3</span><span class="kss-name">Icons</span></a></li>
+              <li class="kss-menu-item"><a href="#section-2.4"><span class="kss-ref">2.4</span><span class="kss-name">Headings</span></a></li>
+              <li class="kss-menu-item"><a href="#section-2.5"><span class="kss-ref">2.5</span><span class="kss-name">Lists</span></a></li>
+              <li class="kss-menu-item"><a href="#section-2.5.1"><span class="kss-ref">2.5.1</span><span class="kss-name">Ordered List</span></a></li>
+              <li class="kss-menu-item"><a href="#section-2.5.2"><span class="kss-ref">2.5.2</span><span class="kss-name">Unordered List</span></a></li>
             </ul>
           </nav>
         </div>
@@ -45,6 +48,8 @@
  typefaces, point size, line length, line-spacing (leading), letter-spacing
  (tracking), the space within letters pairs (kerning), colors, and other
  visual effects to enhance the type.</p>
+<p>Beginning with the &quot;Headings&quot; section below, this document will roughly
+ follow the Bootstrap Typography section: <a href="http://getbootstrap.com/css/#type">http://getbootstrap.com/css/#type</a></p>
 
             </div>
           </section>
@@ -93,40 +98,12 @@
             </div>
           </section>
           <section id="section-2.2" class="kss-section kss-depth-2">
-            <h1 class="kss-title"><span class="kss-ref">2.2</span> Headings</h1>
-            <div class="kss-description">
-              <p>Heading elements implement six levels of document headings, <code>h1</code> is the most
- important and <code>h6</code> is the least. A heading element briefly describes the
- topic of the section it introduces.</p>
-
-            </div>
-            <div class="kss-modifier-block">
-              <div class="kss-modifier kss-modifier-original">
-                <div class="kss-modifier-example">
-                   <h1>Heading Level 1</h1>
- <h2>Heading Level 2</h2>
- <h3>Heading Level 3</h3>
- <h4>Heading Level 4</h4>
- <h5>Heading Level 5</h5>
- <h6>Heading Level 6</h6>
-                </div>
-              </div>
-              <div class="kss-markup">
-                <pre><code data-language="html"> &lt;h1&gt;Heading Level 1&lt;/h1&gt;
- &lt;h2&gt;Heading Level 2&lt;/h2&gt;
- &lt;h3&gt;Heading Level 3&lt;/h3&gt;
- &lt;h4&gt;Heading Level 4&lt;/h4&gt;
- &lt;h5&gt;Heading Level 5&lt;/h5&gt;
- &lt;h6&gt;Heading Level 6&lt;/h6&gt;</code></pre>
-              </div>
-            </div>
-          </section>
-          <section id="section-2.3" class="kss-section kss-depth-2">
-            <h1 class="kss-title"><span class="kss-ref">2.3</span> Links</h1>
+            <h1 class="kss-title"><span class="kss-ref">2.2</span> Links</h1>
             <div class="kss-description">
               <p>Hyperlinks are references to data that the reader can directly follow either
  by clicking or by hovering. A hyperlink points to a whole document or to a
- specific element within a document.</p>
+ specific element within a document. We maintain link colors which are near
+ the browser defaults to ensure a global user experience.</p>
 
             </div>
             <div class="kss-modifier-block">
@@ -162,8 +139,8 @@
               </div>
             </div>
           </section>
-          <section id="section-2.4" class="kss-section kss-depth-2">
-            <h1 class="kss-title"><span class="kss-ref">2.4</span> Icons</h1>
+          <section id="section-2.3" class="kss-section kss-depth-2">
+            <h1 class="kss-title"><span class="kss-ref">2.3</span> Icons</h1>
             <div class="kss-description">
               <p>Icons are used to help provide visual context and support to written text. We
  use the <a href="http://fortawesome.github.io/Font-Awesome/examples/">FontAwesome</a>
@@ -185,6 +162,97 @@
                 <pre><code data-language="html"> &lt;i class=&quot;fa fa-home&quot;&gt;&lt;/i&gt; Home
  &lt;br/&gt;
  &lt;i class=&quot;fa fa-user&quot;&gt;&lt;/i&gt; User</code></pre>
+              </div>
+            </div>
+          </section>
+          <section id="section-2.4" class="kss-section kss-depth-2">
+            <h1 class="kss-title"><span class="kss-ref">2.4</span> Headings</h1>
+            <div class="kss-description">
+              <p>Heading elements implement six levels of document headings, <code>h1</code> is the most
+ important and <code>h6</code> is the least. A heading element briefly describes the
+ topic of the section it introduces.</p>
+
+            </div>
+            <div class="kss-modifier-block">
+              <div class="kss-modifier kss-modifier-original">
+                <div class="kss-modifier-example">
+                   <h1>Heading Level 1 - Page Title Heading</h1>
+ <h2>Heading Level 2 - Page Section Headings</h2>
+ <h3>Heading Level 3 - Page Subsection Headings</h3>
+ <h4>Heading Level 4 - Article Section Headings</h4>
+ <h5>Heading Level 5 - List Headings</h5>
+ <h6>Heading Level 6 - Footer Nav Headings</h6>
+                </div>
+              </div>
+              <div class="kss-markup">
+                <pre><code data-language="html"> &lt;h1&gt;Heading Level 1 - Page Title Heading&lt;/h1&gt;
+ &lt;h2&gt;Heading Level 2 - Page Section Headings&lt;/h2&gt;
+ &lt;h3&gt;Heading Level 3 - Page Subsection Headings&lt;/h3&gt;
+ &lt;h4&gt;Heading Level 4 - Article Section Headings&lt;/h4&gt;
+ &lt;h5&gt;Heading Level 5 - List Headings&lt;/h5&gt;
+ &lt;h6&gt;Heading Level 6 - Footer Nav Headings&lt;/h6&gt;</code></pre>
+              </div>
+            </div>
+          </section>
+          <section id="section-2.5" class="kss-section kss-depth-2">
+            <h1 class="kss-title"><span class="kss-ref">2.5</span> Lists</h1>
+            <div class="kss-description">
+              <p>Itemized Lists that exist in the page content sections, with Headings
+ to match.</p>
+
+            </div>
+          </section>
+          <section id="section-2.5.1" class="kss-section kss-depth-3">
+            <h1 class="kss-title"><span class="kss-ref">2.5.1</span> Ordered List</h1>
+            <div class="kss-description">
+              <p>Itemized list ordered by a prefix.</p>
+
+            </div>
+            <div class="kss-modifier-block">
+              <div class="kss-modifier kss-modifier-original">
+                <div class="kss-modifier-example">
+                   <h5>Ordered List</h5>
+ <ol>
+   <li>One</li>
+   <li>Two</li>
+   <li>Three</li>
+ </ol>
+                </div>
+              </div>
+              <div class="kss-markup">
+                <pre><code data-language="html"> &lt;h5&gt;Ordered List&lt;/h5&gt;
+ &lt;ol&gt;
+   &lt;li&gt;One&lt;/li&gt;
+   &lt;li&gt;Two&lt;/li&gt;
+   &lt;li&gt;Three&lt;/li&gt;
+ &lt;/ol&gt;</code></pre>
+              </div>
+            </div>
+          </section>
+          <section id="section-2.5.2" class="kss-section kss-depth-3">
+            <h1 class="kss-title"><span class="kss-ref">2.5.2</span> Unordered List</h1>
+            <div class="kss-description">
+              <p>Itemized list not ordered in a specific manner.</p>
+
+            </div>
+            <div class="kss-modifier-block">
+              <div class="kss-modifier kss-modifier-original">
+                <div class="kss-modifier-example">
+                   <h5>Unordered List</h5>
+ <ul>
+   <li>One</li>
+   <li>Two</li>
+   <li>Three</li>
+ </ul>
+                </div>
+              </div>
+              <div class="kss-markup">
+                <pre><code data-language="html"> &lt;h5&gt;Unordered List&lt;/h5&gt;
+ &lt;ul&gt;
+   &lt;li&gt;One&lt;/li&gt;
+   &lt;li&gt;Two&lt;/li&gt;
+   &lt;li&gt;Three&lt;/li&gt;
+ &lt;/ul&gt;</code></pre>
               </div>
             </div>
           </section>

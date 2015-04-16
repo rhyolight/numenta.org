@@ -7,8 +7,6 @@ for the [NuPIC](/) Website at http://numenta.org.
 
 > **http://numenta.org/styleguide/**
 
-<br/>
-
 #### Styleguide
 
 Please use the navigation menu on the left to explore our styleguide. This
@@ -24,10 +22,10 @@ on how to use this.
 
 #### Mockups
 
-* [Mobile](/assets/img/meta/design/mocks/2015-03-10-480px-home.png)
-* [Tablet](/assets/img/meta/design/mocks/2015-03-10-768px-home.png)
-* [Laptop](/assets/img/meta/design/mocks/2015-03-11-992px-home.png)
-* [Desktop](/assets/img/meta/design/mocks/2015-03-12-1200px-home.png)
+[Mobile](/assets/img/meta/design/mocks/2015-03-10-480px-home.png) |
+[Tablet](/assets/img/meta/design/mocks/2015-03-10-768px-home.png) |
+[Laptop](/assets/img/meta/design/mocks/2015-03-11-992px-home.png) |
+[Desktop](/assets/img/meta/design/mocks/2015-03-12-1200px-home.png)
 
 #### Links
 

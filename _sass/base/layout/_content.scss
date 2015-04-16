@@ -1,8 +1,10 @@
 /**
- * Main Content
+ * Content
  *
  * This is the main content of the webpage, sandwiched between Header and
- *  Footer, wrapping a main article and other asides and secondary sections.
+ *  Footer, wrapping a `main` article which contains `section`s. Each `section`
+ *  has a white or lighter background color to ensure a global default-like
+ *  user experience.
  *
  * Markup:
  *  <main>
@@ -43,6 +45,16 @@ main {
       @media (max-width: $screen-sm) {
         margin-bottom: 2.5rem;
         margin-top: 3rem;
+      }
+    }
+
+    .row {
+      > div { // .col-*
+        margin-bottom: 1.5rem;
+
+        @media (max-width: $screen-sm) {
+          margin-bottom: 3.5rem;
+        }
       }
     }
   } // section

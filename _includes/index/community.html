@@ -18,13 +18,14 @@
     <div class="row">
       <div class="col-sm-6 col-lg-4">
 
-        {% capture markup %}{% include content/community.about.md %}{% endcapture %}
+        {% capture markup %}{% include content/community.contrib.md %}{% endcapture %}
         {{ markup | markdownify }}
+
 
       </div>
       <div class="col-sm-6 col-lg-4">
 
-        {% capture markup %}{% include content/community.contrib.md %}{% endcapture %}
+        {% capture markup %}{% include content/community.about.md %}{% endcapture %}
         {{ markup | markdownify }}
 
       </div>
