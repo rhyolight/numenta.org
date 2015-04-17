@@ -164,42 +164,54 @@ h6 {
  *
  * Styleguide: 2.5
  */
+main section {
+  /**
+   * Ordered List
+   *
+   * Itemized list ordered by a prefix.
+   *
+   * Markup:
+   *  <h5>Ordered List</h5>
+   *  <ol>
+   *    <li>One</li>
+   *    <li>Two</li>
+   *    <li>Three</li>
+   *  </ol>
+   *
+   * Styleguide: 2.5.1
+   */
+  ol {
+    > li {}
+  }
 
-/**
- * Ordered List
- *
- * Itemized list ordered by a prefix.
- *
- * Markup:
- *  <h5>Ordered List</h5>
- *  <ol>
- *    <li>One</li>
- *    <li>Two</li>
- *    <li>Three</li>
- *  </ol>
- *
- * Styleguide: 2.5.1
- */
-ol {
-  > li {}
+  /**
+   * Unordered List
+   *
+   * Itemized list not ordered in a specific manner. Uses FontAwesome list icon.
+   *
+   * Markup:
+   *  <h5>Unordered List</h5>
+   *  <ul>
+   *    <li>One</li>
+   *    <li>Two</li>
+   *    <li>Three</li>
+   *  </ul>
+   *
+   * Styleguide: 2.5.2
+   */
+  ul {
+    @extend .fa-ul;
+
+    &.list-inline, &.list-unstyled {
+      > li > i {
+       position: static;
+      }
+    }
+
+    > li > i {
+      @extend .fa;
+      @extend .fa-li;
+      @extend .fa-caret-right;
+    }
+  }
 }
-
-/**
- * Unordered List
- *
- * Itemized list not ordered in a specific manner.
- *
- * Markup:
- *  <h5>Unordered List</h5>
- *  <ul>
- *    <li>One</li>
- *    <li>Two</li>
- *    <li>Three</li>
- *  </ul>
- *
- * Styleguide: 2.5.2
- */
-ul {
-  > li {}
-}
-
