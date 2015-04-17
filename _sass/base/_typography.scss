@@ -7,6 +7,9 @@
  *  (tracking), the space within letters pairs (kerning), colors, and other
  *  visual effects to enhance the type.
  *
+ * Beginning with the "Headings" section below, this document will roughly
+ *  follow the Bootstrap Typography section: http://getbootstrap.com/css/#type
+ *
  * Styleguide: 2.0
  */
 
@@ -44,6 +47,63 @@ body {
   }
 }
 
+
+/**
+ * Links
+ *
+ * Hyperlinks are references to data that the reader can directly follow either
+ *  by clicking or by hovering. A hyperlink points to a whole document or to a
+ *  specific element within a document. We maintain link colors which are near
+ *  the browser defaults to ensure a global user experience.
+ *
+ * :hover   - Change while mouse is over top
+ * :active  - Change during click
+ *
+ * Markup:
+ *  <a href="#" class="{{modifier_class}}">Link to Somewhere</a>
+ *
+ * Styleguide: 2.2
+ */
+a, a:link {
+  cursor: pointer;
+  text-decoration: none;
+
+  &:visited {
+    color: $color-blue-orig;
+  }
+
+  &:hover {
+    color: $color-blue;
+    text-decoration: underline;
+  }
+
+  &:active {
+    border-bottom: 1px $color-blue dotted;
+    color: $color-blue;
+    text-decoration: underline;
+  }
+}
+
+
+/**
+ * Icons
+ *
+ * Icons are used to help provide visual context and support to written text. We
+ *  use the [FontAwesome](http://fortawesome.github.io/Font-Awesome/examples/)
+ *  font icon set. Make sure to see the
+ *  [list of all available icons](http://fortawesome.github.io/Font-Awesome/icons/)
+ *  or use the
+ *  [icon cheatsheet](http://fortawesome.github.io/Font-Awesome/cheatsheet/).
+ *
+ * Markup:
+ *  <i class="fa fa-home"></i> Home
+ *  <br/>
+ *  <i class="fa fa-user"></i> User
+ *
+ * Styleguide: 2.3
+ */
+
+
 /**
  * Headings
  *
@@ -52,14 +112,14 @@ body {
  *  topic of the section it introduces.
  *
  * Markup:
- *  <h1>Heading Level 1</h1>
- *  <h2>Heading Level 2</h2>
- *  <h3>Heading Level 3</h3>
- *  <h4>Heading Level 4</h4>
- *  <h5>Heading Level 5</h5>
- *  <h6>Heading Level 6</h6>
+ *  <h1>Heading Level 1 - Page Title Heading</h1>
+ *  <h2>Heading Level 2 - Page Section Headings</h2>
+ *  <h3>Heading Level 3 - Page Subsection Headings</h3>
+ *  <h4>Heading Level 4 - Article Section Headings</h4>
+ *  <h5>Heading Level 5 - List Headings</h5>
+ *  <h6>Heading Level 6 - Footer Nav Headings</h6>
  *
- * Styleguide: 2.2
+ * Styleguide: 2.4
  */
 h1 {
   color: lighten($color-blue-dark, $color-shift);
@@ -95,56 +155,63 @@ h6 {
   font-weight: $font-weight-bold;
 }
 
+
 /**
- * Links
+ * Lists
  *
- * Hyperlinks are references to data that the reader can directly follow either
- *  by clicking or by hovering. A hyperlink points to a whole document or to a
- *  specific element within a document.
+ * Itemized Lists that exist in the page content sections, with Headings
+ *  to match.
  *
- * :hover   - Change while mouse is over top
- * :active  - Change during click
- *
- * Markup:
- *  <a href="#" class="{{modifier_class}}">Link to Somewhere</a>
- *
- * Styleguide: 2.3
+ * Styleguide: 2.5
  */
-a, a:link {
-  cursor: pointer;
-  text-decoration: none;
-
-  &:visited {
-    color: $color-blue-orig;
+main section {
+  /**
+   * Ordered List
+   *
+   * Itemized list ordered by a prefix.
+   *
+   * Markup:
+   *  <h5>Ordered List</h5>
+   *  <ol>
+   *    <li>One</li>
+   *    <li>Two</li>
+   *    <li>Three</li>
+   *  </ol>
+   *
+   * Styleguide: 2.5.1
+   */
+  ol {
+    > li {}
   }
 
-  &:hover {
-    color: $color-blue;
-    text-decoration: underline;
-  }
+  /**
+   * Unordered List
+   *
+   * Itemized list not ordered in a specific manner. Uses FontAwesome list icon.
+   *
+   * Markup:
+   *  <h5>Unordered List</h5>
+   *  <ul>
+   *    <li>One</li>
+   *    <li>Two</li>
+   *    <li>Three</li>
+   *  </ul>
+   *
+   * Styleguide: 2.5.2
+   */
+  ul {
+    @extend .fa-ul;
 
-  &:active {
-    border-bottom: 1px $color-blue dotted;
-    color: $color-blue;
-    text-decoration: underline;
+    &.list-inline, &.list-unstyled {
+      > li > i {
+       position: static;
+      }
+    }
+
+    > li > i {
+      @extend .fa;
+      @extend .fa-li;
+      @extend .fa-caret-right;
+    }
   }
 }
-
-/**
- * Icons
- *
- * Icons are used to help provide visual context and support to written text. We
- *  use the [FontAwesome](http://fortawesome.github.io/Font-Awesome/examples/)
- *  font icon set. Make sure to see the
- *  [list of all available icons](http://fortawesome.github.io/Font-Awesome/icons/)
- *  or use the
- *  [icon cheatsheet](http://fortawesome.github.io/Font-Awesome/cheatsheet/).
- *
- * Markup:
- *  <i class="fa fa-home"></i> Home
- *  <br/>
- *  <i class="fa fa-user"></i> User
- *
- * Styleguide: 2.4
- */
-

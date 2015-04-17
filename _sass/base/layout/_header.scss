@@ -36,7 +36,7 @@ header {
       padding-top: 3.5rem;
       position: absolute;
 
-      @media (max-width: $screen-sm) {
+      @media (max-width: $screen-xs) {
         background-position: left 39px;
         background-size: 40px 37px;
         padding-left: 5rem;
@@ -51,7 +51,7 @@ header {
         display: block;
         font-size: 200%;
 
-        @media (max-width: $screen-sm) {
+        @media (max-width: $screen-xs) {
           font-size: 170%;
         }
       }
@@ -63,7 +63,7 @@ header {
         @media (min-width: $screen-md) and (max-width: $screen-lg) {
           font-size: 80%;
         }
-        @media (max-width: $screen-sm) {
+        @media (max-width: $screen-xs) {
           font-size: 70%;
           position: relative;
           top: -5px;

@@ -1,6 +1,6 @@
 ##### About
 
-* NuPIC Community [Mission]()
-* Meet the [Team]()
-* [Committers ]() and [Contributors ]() Lists
-* NuPIC [Wiki]()
+* <i/> NuPIC Community [Mission]()
+* <i/> Meet the [Team]()
+* <i/> [Committers ]() and [Contributors ]() Lists
+* <i/> NuPIC [Wiki]()

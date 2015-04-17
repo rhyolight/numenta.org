@@ -1,6 +1,6 @@
 ##### Beginner
 
-* [Get Started]() - Prepare, install, and run
-* [Build]() from Source - Download, build, run, and test
-* [Examples]() and [Tutorials]()
-* [Help]() and [FAQ]()
+* <i/> [Get Started]() - Prepare, install, and run
+* <i/> [Build]() from Source - Download, build, run, and test
+* <i/> [Examples]() and [Tutorials]()
+* <i/> [Help]() and [FAQ]()
