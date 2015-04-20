@@ -16,10 +16,11 @@
     </div><!-- .row -->
 
     <div class="row">
-      <div class="col-sm-6 col-lg-4">
+      <div class="col-sm-6 col-lg-4 download">
 
         <h5>Download</h5>
         <div class="text-center">
+
           <button type="button" class="btn-primary">
             <strong>
               <i class="fa fa-download"></i>
@@ -30,42 +31,47 @@
               <span>Mac OS X</span>
             </div>
           </button>
-          <div>
-            More platforms and versions in <a href="">Downloads</a>
+
+          <div class="notes">
+            <div>
+              More platforms and versions in <a href="">Downloads</a>.
+            </div>
+            <div class="github">
+              {% include base/ghbtn.html type='star' %}
+              {% include base/ghbtn.html type='fork' %}
+            </div>
+            <div class="more">
+              See the <a href="{{ site.data.url.docs }}">documentation</a> below
+              for help <a href="">building NuPIC from source</a>. Other language
+              <a href="{{ site.data.url.ports }}">ports</a> available.
+            </div>
           </div>
-          <div>
-            <div>Github Fork</div>
-            <div>Github Star</div>
-          </div>
-          <div>
-            See the <a href="{{ site.data.url.docs }}">documentation</a> below
-            for help <a href="">building NuPIC from source</a>. Other language
-            <a href="{{ site.data.url.ports }}">ports</a> available.
-          </div>
+
         </div>
 
       </div>
-      <div class="col-sm-6 col-lg-4">
+      <div class="col-sm-6 col-lg-4 quickstart">
 
         <h5>Quickstart</h5>
         <div>
-{% highlight py %}
+          {% highlight py %}
 $ pip install nupic
 $ python
 >>> import nupic, sys
 >>> print 'nupic' in sys.modules
 True
 >>> # Success!
-{% endhighlight %}
-          <div>
+          {% endhighlight %}
+
+          <div class="notes text-center">
             Next, <a href="{{ site.data.url.docs }}">learn the basics</a>,
-            <a href="{{ site.data.url.docs }}">explore the documentation</a>, or try running some
-            <a href="">examples</a>.
+            <a href="{{ site.data.url.docs }}">explore the documentation</a>,
+            or try running some <a href="">examples</a>.
           </div>
         </div>
 
       </div>
-      <div class="col-sm-6 col-lg-4">
+      <div class="col-sm-6 col-lg-4 dependencies">
 
         <h5>Dependencies</h5>
         {% capture markup %}{% include content/dependencies.md %}{% endcapture %}

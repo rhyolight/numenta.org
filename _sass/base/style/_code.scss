@@ -16,10 +16,15 @@
 /**
  * Block
  *
- * A block of syntax-highlighted code wrapped with `<pre>` tags.
+ * A block of syntax-highlighted code wrapped with `<pre>` tags. If inside
+ *  a Liquid template, you can use the Pygments syntax highlighting style
+ *  `{% highlight lang %}`.
  *
  * Markup:
- *  <pre>Big block of code.</pre>
+ *  <pre>
+ *    var name = 'Vito';
+ *    if(name.length > 10) return;
+ *  </pre>
  *
  * Styleguide: 3.1
  */

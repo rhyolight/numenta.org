@@ -8,6 +8,8 @@
  * Our default button styles inherit from the Bootstrap `.btn` and
  *  `.btn-default` classes, but overriding with other Bootstrap Button classes
  *  inline in the markup is encouraged: http://getbootstrap.com/css/#buttons.
+ *  We add a slight shadows/outlines to our Buttons to visually separate them
+ *  for the user as clickable entities.
  *
  * Markup:
  *  <button type="button">Default</button>
@@ -23,4 +25,5 @@
 button {
   @extend .btn;
   @extend .btn-default;
+  @include box-shadow(0 2px 3px 0 $color-gray-dark);
 }

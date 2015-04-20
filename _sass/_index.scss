@@ -59,23 +59,65 @@
  * Section: Start
  */
 .start {
-  button {
-    padding: 1.5rem 4rem;
+  /**
+   * Start > Download subsection
+   */
+  .download {
+    // main download nupic button
+    button {
+      margin-bottom: 1rem;
+      padding: 1.25rem 4.75rem;
 
-    strong {
-      font-size: 150%;
-    }
-
-    div {
-      color: $color-gray-lite;
-      margin-top: -0.333rem;
-
-      span {
-        color: $color-white;
-        font-size: 95%;
-        padding: 0 0.5rem;
+      strong {
+        font-size: 150%;
       }
+
+      div {
+        color: $color-gray-lite;
+        margin-top: -0.333rem;
+
+        span {
+          color: $color-white;
+          font-size: 90%;
+          padding: 0 0.5rem;
+        }
+      }
+    } // button
+
+    .notes {
+      font-size: 90%;
+
+      > div {
+        margin-bottom: 1rem;
+      }
+
+      .github {
+        left: 1.2rem;
+        margin-top: 1.5rem;
+        position: relative;
+      }
+
+      .more {
+        width: 82%;
+        margin-left: 9%;
+      }
+    } // .notes
+  }
+
+  /**
+   * Start > Quickstart subsection
+   */
+  .quickstart {
+    .notes {
+      font-size: 90%;
     }
+  }
+
+  /**
+   * Start > Dependencies subsection
+   */
+  .dependencies {
+
   }
 }
 
@@ -127,6 +169,10 @@
           padding-left: 0;
           padding-right: 0;
         }
+      }
+
+      > a {
+        display: block;
       }
     }
   }
