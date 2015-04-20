@@ -211,9 +211,9 @@ main section {
     > li > i {
       @extend .fa;
       @extend .fa-li;
-      @extend .fa-caret-right;
+      @extend .fa-angle-right;
 
-      color: $color-gray;
+      color: lighten($color-gray, $color-shift);
       top: 0.5rem;
     }
   }

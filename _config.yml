@@ -52,11 +52,10 @@ exclude:
 ### plugins
 
 kramdown:
-  input: GFM # github-flavored markdown
+  input: GFM  # github-flavor
 
 syntax-highlighting:
   enabled: true
-  css: syntax.css
 
 ### yaml defaults
 

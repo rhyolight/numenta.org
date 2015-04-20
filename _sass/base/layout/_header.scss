@@ -78,8 +78,9 @@ header {
      * Mobile Header navigation menu via "hamburger" icon
      */
     .navbar-toggle {
-      padding: 9px 13px;
       @include navbar-vertical-align(50px);
+      color: $color-white;
+      padding: 9px 13px;
     }
 
     /**
