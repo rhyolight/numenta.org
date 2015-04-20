@@ -1,7 +1,14 @@
 /**
- * Back-to-top functionality
+ * Global javascript, loads on every page
  */
-$('#back-to-top').on('click', function(event) {
-  event.preventDefault();
-  $('html, body').animate({ scrollTop: '0px' });
+$(document).ready(function() {
+
+  /**
+   * Back-to-top functionality
+   */
+  $('#back-to-top').on('click', function(event) {
+    event.preventDefault();
+    $('html, body').animate({ scrollTop: '0px' });
+  });
+
 });
