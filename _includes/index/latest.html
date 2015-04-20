@@ -21,28 +21,35 @@
         <div class="col-sm-6">
 
           <!-- blog -->
-          <div class="area">
-            <div class="row">
-              <div class="col-xs-6">
-                <h3><a href="{{ site.data.url.blog }}">Blog</a></h3>
+          {% for post in site.categories.blog limit:1 %}
+            <div class="area">
+              <div class="row">
+                <div class="col-xs-6">
+                  <h3><a href="{{ site.data.url.blog }}">Blog</a></h3>
+                </div>
+                <div class="col-xs-6 text-right">
+                  {% include base/share.html link=post.url %}
+                </div>
               </div>
-              <div class="col-xs-6 text-right">
-                {% include base/share.html link="SHARE_LINK_HERE" %}
+              <img src="" alt="Image for {{ post.title }}" />
+              <a href="{{ post.url }}">{{ post.title }}</a>
+              <div>
+                <date>{{ post.date | date_to_string }}</date>
+                <em>by</em>
+                Matthew Taylor
               </div>
-            </div>
-            <img src="" alt="" />
-            <a href="">NuPIC Community Planning Update Feb 2015</a>
-            <div>
-              <date>Mon Feb 20 2015</date> <em>by</em> Matthew Taylor
-            </div>
-            <p>
-              Lorem ipsum dolor sit amet, eos discere accumsan efficiendi an, an
-              pri graece alterum persecuti. Iisque dissentiet eu sed...
-            </p>
-            <div>
-              <a href="">Read Full Article <i class="fa fa-angle-right"></i></a>
-            </div>
-          </div><!-- .area -->
+              <p>
+                Lorem ipsum dolor sit amet, eos discere accumsan efficiendi an,
+                an pri graece alterum persecuti. Iisque dissentiet eu sed...
+              </p>
+              <div>
+                <a href="{{ post.url }}">
+                  Read Full Article
+                  <i class="fa fa-angle-right"></i>
+                </a>
+              </div>
+            </div><!-- .area -->
+          {% endfor %}
 
         </div>
         <div class="col-sm-6">

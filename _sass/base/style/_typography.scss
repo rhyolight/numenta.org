@@ -31,9 +31,7 @@
  *    molestie volutpat, torquent et sollicitudin facilisis, arcu dolor eget
  *    scelerisque blandit metus leo. Integer et vestibulum wisi dui auctor
  *    varius, placerat morbi mus at scelerisque, imperdiet sodales ut.
- *    Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus.
  *    Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero,
- *    sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel,
  *    luctus pulvinar, hendrerit id, lorem.
  *  </p>
  *
@@ -107,17 +105,17 @@ a, a:link {
 /**
  * Headings
  *
- * Heading elements implement six levels of document headings, `h1` is the most
- *  important and `h6` is the least. A heading element briefly describes the
- *  topic of the section it introduces.
+ * Heading elements implement six levels of document headings, `<h1>` is the
+ *  most important and `<h6>` is the least. A heading element briefly describes
+ *  the topic of the section it introduces.
  *
  * Markup:
- *  <h1>Heading Level 1 - Page Title Heading</h1>
- *  <h2>Heading Level 2 - Page Section Headings</h2>
- *  <h3>Heading Level 3 - Page Subsection Headings</h3>
- *  <h4>Heading Level 4 - Article Section Headings</h4>
- *  <h5>Heading Level 5 - List Headings</h5>
- *  <h6>Heading Level 6 - Footer Nav Headings</h6>
+ *  <h1>Level 1 Page Title Heading</h1>
+ *  <h2>Level 2 Page Section Headings</h2>
+ *  <h3>Level 3 Page Subsection Headings</h3>
+ *  <h4>Level 4 Article Section Headings</h4>
+ *  <h5>Level 5 List Headings</h5>
+ *  <h6>Level 6 Footer Nav Headings</h6>
  *
  * Styleguide: 2.4
  */
@@ -187,14 +185,16 @@ main section {
   /**
    * Unordered List
    *
-   * Itemized list not ordered in a specific manner. Uses FontAwesome list icon.
+   * Itemized list not ordered in a specific manner. Uses FontAwesome list icon,
+   *  by extending SASS classes here (not inline in markup, usually).
+   *  http://fortawesome.github.io/Font-Awesome/examples/#list
    *
    * Markup:
    *  <h5>Unordered List</h5>
    *  <ul>
-   *    <li>One</li>
-   *    <li>Two</li>
-   *    <li>Three</li>
+   *    <li><i></i> Jump</li>
+   *    <li><i></i> Run</li>
+   *    <li><i class="fa-question-circle"></i> Custom</li>
    *  </ul>
    *
    * Styleguide: 2.5.2
@@ -211,7 +211,10 @@ main section {
     > li > i {
       @extend .fa;
       @extend .fa-li;
-      @extend .fa-caret-right;
+      @extend .fa-angle-right;
+
+      color: lighten($color-gray, $color-shift);
+      top: 0.5rem;
     }
   }
 }

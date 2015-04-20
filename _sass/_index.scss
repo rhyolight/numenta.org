@@ -10,32 +10,31 @@
  * Section: Hero
  */
 .hero {
-  padding-bottom: 6rem;
+  padding-bottom: 4rem;
 
   // logo
   img {
     height: 100px;
     width:  110px;
+  }
 
-    @media (max-width: $screen-md) {
-      margin-top: 1.5rem;
-      margin-bottom: 2rem;
-    }
+  h2 {
+    margin-top: 0.5rem;
   }
 
   ul {
-    line-height: 1.43;
+    line-height: 1.5;
     margin-top: 2rem;
     text-align: center;
     width: 100%;
 
     li {
+      margin-bottom: 4rem;
       text-align: center;
       vertical-align: top;
       width: 15%;
 
       @media (max-width: $screen-md) {
-        margin-bottom: 4rem;
         width: 32%;
       }
       @media (max-width: $screen-sm) {
@@ -43,11 +42,12 @@
       }
 
       i {
-        color: $color-blue;
+        color: lighten($color-blue-dark, $color-shift);
         margin-bottom: 1.5rem;
       }
 
       span {
+        color: $color-gray-dark;
         display: block;
         font-size: 95%;
       }
@@ -58,7 +58,67 @@
 /**
  * Section: Start
  */
-.hero {
+.start {
+  /**
+   * Start > Download subsection
+   */
+  .download {
+    // main download nupic button
+    button {
+      margin-bottom: 1rem;
+      padding: 1.25rem 4.75rem;
+
+      strong {
+        font-size: 150%;
+      }
+
+      div {
+        color: $color-gray-lite;
+        margin-top: -0.333rem;
+
+        span {
+          color: $color-white;
+          font-size: 90%;
+          padding: 0 0.5rem;
+        }
+      }
+    } // button
+
+    .notes {
+      font-size: 90%;
+
+      > div {
+        margin-bottom: 1rem;
+      }
+
+      .github {
+        left: 1.2rem;
+        margin-top: 1.5rem;
+        position: relative;
+      }
+
+      .more {
+        width: 82%;
+        margin-left: 9%;
+      }
+    } // .notes
+  }
+
+  /**
+   * Start > Quickstart subsection
+   */
+  .quickstart {
+    .notes {
+      font-size: 90%;
+    }
+  }
+
+  /**
+   * Start > Dependencies subsection
+   */
+  .dependencies {
+
+  }
 }
 
 /**
@@ -109,6 +169,10 @@
           padding-left: 0;
           padding-right: 0;
         }
+      }
+
+      > a {
+        display: block;
       }
     }
   }

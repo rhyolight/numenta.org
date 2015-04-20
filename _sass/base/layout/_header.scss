@@ -6,6 +6,9 @@
  *  be styled in a way to promote the Numenta/NuPIC branding. We will use a
  *  fixed-position header, always at top of client window.
  *
+ * Our header is instance of the Bootstrap NavBar component:
+ *  http://getbootstrap.com/components/#navbar
+ *
  * Markup:
  *  <header>This is a bare Header</header>
  *
@@ -75,8 +78,9 @@ header {
      * Mobile Header navigation menu via "hamburger" icon
      */
     .navbar-toggle {
-      padding: 9px 13px;
       @include navbar-vertical-align(50px);
+      color: $color-white;
+      padding: 9px 13px;
     }
 
     /**
