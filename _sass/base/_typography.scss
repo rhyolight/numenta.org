@@ -187,15 +187,19 @@ main section {
   /**
    * Unordered List
    *
-   * Itemized list not ordered in a specific manner. Uses FontAwesome list icon.
+   * Itemized list not ordered in a specific manner. Uses FontAwesome list icon,
+   *  by extending SASS classes here (not inline in markup, usually).
+   *  http://fortawesome.github.io/Font-Awesome/examples/#list
    *
    * Markup:
+   *  <section>
    *  <h5>Unordered List</h5>
    *  <ul>
-   *    <li>One</li>
-   *    <li>Two</li>
-   *    <li>Three</li>
+   *    <li><i></i> One</li>
+   *    <li><i></i> Two</li>
+   *    <li><i></i> Three</li>
    *  </ul>
+   *  </section>
    *
    * Styleguide: 2.5.2
    */
@@ -212,6 +216,9 @@ main section {
       @extend .fa;
       @extend .fa-li;
       @extend .fa-caret-right;
+
+      color: $color-gray;
+      top: 0.5rem;
     }
   }
 }

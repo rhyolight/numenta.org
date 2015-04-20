@@ -7,6 +7,8 @@ for the [NuPIC](/) Website at http://numenta.org.
 
 > **http://numenta.org/styleguide/**
 
+<br/>
+
 #### Styleguide
 
 Please use the navigation menu on the left to explore our styleguide. This
