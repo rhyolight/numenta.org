@@ -1,8 +1,8 @@
 ##### Contribute
 
-* <i/> How to [Get Involved]()
-* <i/> [NuPIC Repositories ]() and [Issue Trackers]()
-* <i/> [Project Roadmap]()
-* <i/> [Community Content ]() from our team
-* <i/> [Licenses]()
-* <i/> [Codes of Conduct]()
+* <i></i> How to [Get Involved]()
+* <i></i> [NuPIC Repositories ]() and [Issue Trackers]()
+* <i></i> [Project Roadmap]()
+* <i></i> [Community Content ]() from our team
+* <i></i> [Licenses]()
+* <i></i> [Codes of Conduct]()

@@ -20,9 +20,15 @@
 
         <h5>Download</h5>
         <div>
-          <button>
-            <strong>* Download NuPIC</strong>
-            Version 0.2.1 | Mac OS X
+          <button type="button" class="btn-primary">
+            <strong>
+              <i class="fa fa-download"></i>
+              Download NuPIC
+            </strong>
+            <div>
+              <span>Version 0.2.1</span> |
+              <span>Mac OS X</span>
+            </div>
           </button>
           <div>
             More platforms and versions in <a href="">Downloads</a>
@@ -32,9 +38,9 @@
             <div>Github Star</div>
           </div>
           <div>
-            See the <a href="">documentation</a> below for help
-            <a href="">building NuPIC from source</a>. Other language
-            <a href="">ports</a> available.
+            See the <a href="{{ site.data.url.docs }}">documentation</a> below
+            for help <a href="">building NuPIC from source</a>. Other language
+            <a href="{{ site.data.url.ports }}">ports</a> available.
           </div>
         </div>
 
@@ -43,15 +49,17 @@
 
         <h5>Quickstart</h5>
         <div>
-          <code>
-            $ pip install nupic
-            $ python
-            &gt;&gt;&gt; from nupic import engine, algorithms
-            &gt;&gt;&gt; # success!
-          </code>
+{% highlight py %}
+$ pip install nupic
+$ python
+>>> import nupic, sys
+>>> print 'nupic' in sys.modules
+True
+>>> # Success!
+{% endhighlight %}
           <div>
-            Next, <a href="">learn the basics</a>,
-            <a href="">explore the documentation</a>, or try running some
+            Next, <a href="{{ site.data.url.docs }}">learn the basics</a>,
+            <a href="{{ site.data.url.docs }}">explore the documentation</a>, or try running some
             <a href="">examples</a>.
           </div>
         </div>

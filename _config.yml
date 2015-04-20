@@ -54,6 +54,10 @@ exclude:
 kramdown:
   input: GFM # github-flavored markdown
 
+syntax-highlighting:
+  enabled: true
+  css: syntax.css
+
 ### yaml defaults
 
 # defaults:

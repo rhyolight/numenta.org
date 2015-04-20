@@ -14,13 +14,17 @@
 @import 'base/variables';
 
 @import 'base/bootstrap';
-@import 'font/fontawesome';
-@import 'font/opensans';
+@import 'base/webfont/fontawesome';
+@import 'base/webfont/opensans';
 
 
-/*********************
- * LIVING STYLEGUIDE *
- *********************/
+/**
+ * Living Styleguide
+ *
+ * Generally follows the order of Bootstrap CSS: http://getbootstrap.com/css/.
+ */
 
 @import 'base/layout';
-@import 'base/typography';
+@import 'base/style/typography';
+@import 'base/style/code';
+@import 'base/style/buttons';

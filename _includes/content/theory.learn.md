@@ -1,8 +1,8 @@
 ##### Learn More
 
 * <i class="fa-file-pdf-o"></i> [HTM Whitepaper]()
-* <i/> [Theory Mailing List]() and [Community]() discussion
-* <i/> NuPIC [Wiki]({{ site.data.url.wiki }})
-* <i/> [Project Roadmap]()
-* <i/> [Licenses]()
-* <i/> [Help]({{ site.data.url.help }}) and [FAQ]({{ site.data.url.faq }})
+* <i></i> [Theory Mailing List]() and [Community]() discussion
+* <i></i> NuPIC [Wiki]({{ site.data.url.wiki }})
+* <i></i> [Project Roadmap]()
+* <i></i> [Licenses]()
+* <i></i> [Help]({{ site.data.url.help }}) and [FAQ]({{ site.data.url.faq }})

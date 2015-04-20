@@ -2,13 +2,20 @@
  * Content
  *
  * This is the main content of the webpage, sandwiched between Header and
- *  Footer, wrapping a `main` article which contains `section`s. Each `section`
- *  has a white or lighter background color to ensure a global default-like
- *  user experience.
+ *  Footer, wrapping a `<main>` article which contains `<section>`s.
+ *  Each `<section>` has a white or lighter background color to ensure a global
+ *  default-like user experience. The bottom of each `<section>` has a small
+ *  color-gradient transition with a CSS-down arrow to keep the eye moving
+ *  down the page to the next section.
+ *
+ * Responsive content and markup is made functional by Bootstrap:
+ *  http://getbootstrap.com/
  *
  * Markup:
  *  <main>
- *    <section>This is a bare main content section</section>
+ *    <section>
+ *      This is a bare main content section
+ *    </section>
  *    <div class="arrow-down"></div>
  *  </main>
  *
@@ -35,7 +42,7 @@ main {
     }
 
     .icon {
-      color: $color-blue;
+      color: lighten($color-blue-dark, $color-shift);
       font-size: 133%;
 
       @media (min-width: $screen-md) {
