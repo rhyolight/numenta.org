@@ -58,7 +58,25 @@
 /**
  * Section: Start
  */
-.hero {
+.start {
+  button {
+    padding: 1.5rem 4rem;
+
+    strong {
+      font-size: 150%;
+    }
+
+    div {
+      color: $color-gray-lite;
+      margin-top: -0.333rem;
+
+      span {
+        color: $color-white;
+        font-size: 95%;
+        padding: 0 0.5rem;
+      }
+    }
+  }
 }
 
 /**
