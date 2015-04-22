@@ -7,8 +7,7 @@
 
     <div class="row">
       <div class="col-sm-8">
-        {% capture markup %}{% include content/start.intro.md %}{% endcapture %}
-        {{ markup | markdownify }}
+        {% include base/markdown.html file='start.intro.md' %}
       </div>
       <div class="col-sm-4 text-center icon">
         <i class="fa fa-4x fa-sign-in"></i>
@@ -21,29 +20,28 @@
         <h5>Download</h5>
         <div class="text-center">
 
-          <button type="button" class="btn-primary">
-            <strong>
-              <i class="fa fa-download"></i>
-              Download NuPIC
-            </strong>
-            <div>
-              <span id="v">All Versions</span> |
-              <span id="os">All Operating Systems</span>
-            </div>
-          </button>
+          <form action="{{ site.data.url.downloads }}">
+            <button type="submit" class="btn-primary">
+              <strong>
+                <i class="fa fa-download"></i> Download NuPIC
+              </strong>
+              <div>
+                <span id="ver">All Versions</span> |
+                <span id="os">All Operating Systems</span>
+              </div>
+            </button>
+          </form>
 
           <div class="notes">
             <div>
-              More platforms and versions in <a href="">Downloads</a>.
+              {% include base/markdown.html file='start.download.more.md' %}
             </div>
             <div class="github">
               {% include base/ghbtn.html type='star' %}
               {% include base/ghbtn.html type='fork' %}
             </div>
             <div class="more">
-              See the <a href="{{ site.data.url.docs }}">documentation</a> below
-              for help <a href="">building NuPIC from source</a>. Other language
-              <a href="{{ site.data.url.ports }}">ports</a> available.
+              {% include base/markdown.html file='start.download.next.md' %}
             </div>
           </div>
 
@@ -64,9 +62,7 @@ True
           {% endhighlight %}
 
           <div class="notes text-center">
-            Next, <a href="{{ site.data.url.docs }}">learn the basics</a>,
-            <a href="{{ site.data.url.docs }}">explore the documentation</a>,
-            or try running some <a href="">examples</a>.
+            {% include base/markdown.html file='start.quickstart.next.md' %}
           </div>
         </div>
 
@@ -74,8 +70,7 @@ True
       <div class="col-sm-6 col-lg-4 dependencies">
 
         <h5>Dependencies</h5>
-        {% capture markup %}{% include content/dependencies.md %}{% endcapture %}
-        {{ markup | markdownify }}
+        {% include base/markdown.html file='dependencies.md' %}
 
       </div>
     </div><!-- .row -->

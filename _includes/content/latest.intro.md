@@ -1,1 +1,1 @@
-Stay up-to-date with the latest on the NuPIC project and community. Read our [blog]({{ site.data.url.blog }}), browse recent [news]({{ site.data.url.news }}), learn about our [events]({{ site.data.url.events }}), and see what the [press]({{ site.data.url.press }}) is saying.
+Stay up-to-date with the latest on the NuPIC project and community. Read our [blog]({{ site.data.url.blog }}), browse recent [news]({{ site.data.url.news }}), learn about our [events]({{ site.data.url.events }}), and see what the [media]({{ site.data.url.media }}) is saying.

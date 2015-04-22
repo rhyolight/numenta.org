@@ -1,7 +1,7 @@
 ---
-layout: blogpost
-title: Python 2.7 Support
 category: news
+layout: item
+title: Python 2.7 Support
 ---
 
 ### Finally!

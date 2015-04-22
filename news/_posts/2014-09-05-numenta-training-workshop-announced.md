@@ -1,7 +1,7 @@
 ---
-layout: blogpost
-title: Numenta Training Workshop Announced
 category: news
+layout: item
+title: Numenta Training Workshop Announced
 ---
 
 Numenta is offering a half-day technical workshop to provide training for developers or potential customers/partners interested in our technology. Workshop sessions will review Numenta theory, technology, and applications – and provide an overview for how to get started on your own projects using Numenta technology. The majority of content will be technical in nature and is intended for a developer/technical audience. Training curriculum will be followed by a networking reception.

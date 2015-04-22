@@ -1,7 +1,11 @@
+<!--
+  Social sharing icon links for individual post items.
+  @param {String} link - Social Sharing URL, usually: social site + post url.
+-->
 <ul class="share list-inline list-unstyled">
   {% for entity in site.data.share %}
     <li>
-      <a href="{{ entity.link }}{{ include.link }}" title="Share on {{ entity.name }}">
+      <a href="{{ entity.link }}{{ site.url }}{{ include.link }}" title="Share on {{ entity.name }}">
         <i class="fa fa-fw {{ entity.icon }}"></i>
       </a>
     </li>

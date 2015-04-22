@@ -1,10 +1,10 @@
 ---
-layout: blogpost
-title: HTM.java Receives Benchmark Harness
 category: blog
+layout: item
+title: HTM.java Receives Benchmark Harness
 ---
 
-They say in order to lead, one must have someplace to go. It's also true that in order to arrive, one must have departed from someplace (duh! :-P). In software optimization, knowing where it is one came from, (and establishing baselines), is a very large part of the battle; and the same things that make [Java™](http://www.oracle.com/technetwork/java/javase/overview/java8-2100321.html) such an attractive and ubiquitous platform, also make it one of the hardest environments to benchmark. 
+They say in order to lead, one must have someplace to go. It's also true that in order to arrive, one must have departed from someplace (duh! :-P). In software optimization, knowing where it is one came from, (and establishing baselines), is a very large part of the battle; and the same things that make [Java™](http://www.oracle.com/technetwork/java/javase/overview/java8-2100321.html) such an attractive and ubiquitous platform, also make it one of the hardest environments to benchmark.
 
 Unlike C, which is a statically compiled language, Java is very dynamic and undergoes very aggressive optimization and runtime profiling while it compiles down to native code on the fly! As such, there are many pitfalls one can come across when benchmarking Java code; which is why [JMH](http://openjdk.java.net/projects/code-tools/jmh/) was chosen for HTM.java's benchmark tool. JMH was developed as part of the OpenJDK project (the incubator Oracle draws from to create their "official" JDK), and while it doesn't make benchmarks infallible, it will help surmount some of the hardest issues benchmarking Java can present (such as accounting for optimizations: see [Loop Unrolling](http://en.wikipedia.org/wiki/Loop_unrolling), [Dead Code Elimination](http://en.wikipedia.org/wiki/Dead_code), and [Escape Analysis](http://en.wikipedia.org/wiki/Escape_analysis))
 
@@ -13,7 +13,7 @@ For more detailed information about benchmarking Java please watch: [the talk by
 
 ### Uhm... Back to [HTM.java](https://github.com/numenta/htm.java), right?
 
-Right! :) 
+Right! :)
 
 HTM.java's new benchmarking package is not the end of the road - it is just the beginning. It is a place to "depart" (using the previously established vernacular). The package can be found in the ["src/jmh/java"](https://github.com/numenta/htm.java/tree/master/src/jmh) directory, and is comprised of 4 classes to start off with:
 
@@ -27,7 +27,7 @@ HTM.java's new benchmarking package is not the end of the road - it is just the 
 
 ### Gradle Build Integration
 
-The [build.gradle](https://github.com/numenta/htm.java/blob/master/build.gradle) file, is configured to run the above benchmarks (they only take one minute) during Travis CI, continuous integration builds. 
+The [build.gradle](https://github.com/numenta/htm.java/blob/master/build.gradle) file, is configured to run the above benchmarks (they only take one minute) during Travis CI, continuous integration builds.
 
 > Fun Fact: The SpatialPooler benchmark is run 1000 times for the "warm up" and 1000 times for the "timing run"; likewise the TemporalPooler is run 45,000 times for each) A lot can happen in one minute!
 
@@ -38,11 +38,11 @@ These can also be run on the command line using:
 
 Human readable results can be found in: "\<git source dir\>/build/reports/jmh/human.txt".
 
-The jar file created by the "gradle check" command can be found at: "\<source dir\>/build/libs/htm.java-0.40-jmh.jar". The following command can be executed (from inside the "\<source dir\>/build/libs" directory) to simply run the benchmarks **after** "gradle check" has been run **at least once**. 
+The jar file created by the "gradle check" command can be found at: "\<source dir\>/build/libs/htm.java-0.40-jmh.jar". The following command can be executed (from inside the "\<source dir\>/build/libs" directory) to simply run the benchmarks **after** "gradle check" has been run **at least once**.
 
     java -jar htm.java-0.40-jmh.jar
 
-The "0.40" part of the file name may change when new versions of HTM.java are released. 
+The "0.40" part of the file name may change when new versions of HTM.java are released.
 
 ### You can contribute too!
 

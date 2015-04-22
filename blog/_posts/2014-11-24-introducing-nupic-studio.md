@@ -1,12 +1,12 @@
 ---
-layout: blogpost
-title: Introducing NuPIC Studio
 category: blog
+layout: item
+title: Introducing NuPIC Studio
 ---
 
 Hello NuPICers!
 
-I am introducing a nice tool for the NuPIC community. [NuPIC Studio](https://github.com/nupic-community/nupic.studio) is a powerful all-in-one tool that allows users create an HTM network from scratch, train it, collect statistics, and share it among the members of the community. 
+I am introducing a nice tool for the NuPIC community. [NuPIC Studio](https://github.com/nupic-community/nupic.studio) is a powerful all-in-one tool that allows users create an HTM network from scratch, train it, collect statistics, and share it among the members of the community.
 
 ![NuStudio Screenshot]({{ site.baseurl }}/images/blog/nustudio-screenshot.png)
 

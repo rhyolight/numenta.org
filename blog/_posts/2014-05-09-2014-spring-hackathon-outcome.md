@@ -1,7 +1,7 @@
 ---
-layout: blogpost
-title: 2014 Spring Hackathon Outcome
 category: blog
+layout: item
+title: 2014 Spring Hackathon Outcome
 ---
 
 We had a *great* hackathon event this past weekend. This was our third hackathon, and it resulted in the most hackers, the most hacks, and the most productive environment yet. Even if you could not attend, I hope the videos and photographs below help you to understand NuPIC better by example.
@@ -24,7 +24,7 @@ Big thanks to [Pinger](http://pinger.com), who graciously donated their space to
     <p>The Pinger offices, from across 2nd street in downtown San Jose.</p>
 </div>
 
-The hackathon brought in attendees from all over the world. We started at 10AM on Saturday with a kickoff presentation, helped people get NuPIC installed, then held several [informational sessions](#sessions) throughout the day. Breakfast, lunch, and dinner were served. 
+The hackathon brought in attendees from all over the world. We started at 10AM on Saturday with a kickoff presentation, helped people get NuPIC installed, then held several [informational sessions](#sessions) throughout the day. Breakfast, lunch, and dinner were served.
 
 <div class="image">
     <a href="https://www.flickr.com/photos/nupic/14128558362" title="NuPIC Spring 2014 Hackathon by Numenta Platform for Intelligent Computing, on Flickr"><img src="https://farm6.staticflickr.com/5073/14128558362_b81db5b28b_z.jpg" width="640" height="425" alt="NuPIC Spring 2014 Hackathon"></a>
@@ -38,7 +38,7 @@ The hackathon brought in attendees from all over the world. We started at 10AM o
 
 ## Testimonials
 
-Everyone seemed to have a great time, and most people stuck around through the event (sans some sleep time!) to see the demos at the end. 
+Everyone seemed to have a great time, and most people stuck around through the event (sans some sleep time!) to see the demos at the end.
 
 <div class="image">
     <a href="https://www.flickr.com/photos/nupic/14143875203" title="NuPIC Spring 2014 Hackathon by Numenta Platform for Intelligent Computing, on Flickr"><img src="https://farm3.staticflickr.com/2919/14143875203_71d00014e9_z.jpg" width="640" height="425" alt="NuPIC Spring 2014 Hackathon"></a>
