@@ -3,8 +3,5 @@ layout: default
 title: NuPIC Community Content
 ---
 
-{% capture content %}
-{% include content/community-content.md %}
-{% endcapture %}
-{{ content | markdownify }}
+{% include base/markdown.html file='community-content.md' %}
 

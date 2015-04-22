@@ -27,10 +27,13 @@
 
         <!-- grok/product promote -->
         <aside class="col-sm-6 col-sm-push-6">
-          <img src="/assets/img/base/logo/grok-logo-dark.svg" alt="Grok Logo" />
-          {% capture promo %}{% include content/promo.md %}{% endcapture %}
-          {{ promo | markdownify }}
-          <a href="{{ site.data.url.moreapps }}">View More NuPIC Applications <i class="fa fa-angle-right"></i></a>
+          <a href="{{ site.data.url.grok }}">
+            <img src="/assets/img/base/logo/grok-logo-dark.svg" alt="Grok Logo" />
+          </a>
+          {% include base/markdown.html file='promo.md' %}
+          <a href="{{ site.data.url.moreapps }}">
+            View More NuPIC Applications <i class="fa fa-angle-right"></i>
+          </a>
         </aside>
 
         <!-- footer nav links -->
@@ -43,34 +46,32 @@
             <ul class="list-unstyled col-xs-6 col-sm-6 col-md-7">
               <li>
                 <a href="{{ site.data.url.download }}">
-                  <i class="fa fa-fw fa-download"></i>
-                  Download
+                  <i class="fa fa-fw fa-download"></i> Download
                 </a>
               </li>
               <li>
                 <a href="{{ site.data.url.search }}">
-                  <i class="fa fa-fw fa-search"></i>
-                  Search
+                  <i class="fa fa-fw fa-search"></i> Search
                 </a>
               </li>
               <li>
                 <a href="{{ site.data.url.help }}">
-                  <i class="fa fa-fw fa-life-ring"></i>
-                  Help
+                  <i class="fa fa-fw fa-life-ring"></i> Help
                 </a>
               </li>
               <li>
                 <a href="{{ site.data.url.faq }}">
-                  <i class="fa fa-fw fa-question-circle"></i>
-                  FAQ
+                  <i class="fa fa-fw fa-question-circle"></i> FAQ
                 </a>
               </li>
+              <!--
               <li>
                 <a href="{{ site.data.url.sitemap }}">
                   <i class="fa fa-fw fa-sitemap"></i>
                   Sitemap
                 </a>
               </li>
+              -->
             </ul>
           </div>
         </nav>
@@ -83,8 +84,7 @@
   <section class="legal">
     <div class="container">
       {% include base/brand.html %}
-      {% capture blurb %}{% include content/blurb.md %}{% endcapture %}
-      {{ blurb | markdownify }}
+      {% include base/markdown.html file='blurb.md' %}
       <span>
         {{ site.copyright }} |
         <a href="{{ site.data.url.privacy }}">Privacy</a> |

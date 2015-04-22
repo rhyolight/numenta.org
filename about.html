@@ -3,7 +3,4 @@ layout: default
 title: About Numenta
 ---
 
-{% capture content %}
-{% include content/about.md %}
-{% endcapture %}
-{{ content | markdownify }}
+{% include base/markdown.html file='about.md' %}

@@ -8,10 +8,7 @@ title: Upcoming Events
 
 <br/><br/>
 
-{% capture content %}
-{% include content/events.md %}
-{% endcapture %}
-{{ content | markdownify }}
+{% include base/markdown.html file='events.md' %}
 
 <script src="{{ site.baseurl }}/javascripts/jump-menu.js" type="text/javascript"></script>
 <script src="{{ site.baseurl }}/javascripts/add-anchors.js" type="text/javascript"></script>
