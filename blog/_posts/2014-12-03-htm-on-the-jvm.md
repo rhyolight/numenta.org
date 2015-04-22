@@ -1,7 +1,7 @@
 ---
-layout: blogpost
-title: HTM in Java!
 category: blog
+layout: listitem
+title: HTM in Java!
 ---
 
 <div style="float:left;margin-right: 20px;"><img src="{{ site.baseurl }}/images/blog/java-duke.png"/></div>
@@ -10,7 +10,7 @@ category: blog
 
 Thanks to a _**lot**_ of effort by [David Ray](https://github.com/cogmission), the [NuPIC hacker community](http://numenta.org/community.html), and Numenta's own development staff, a fully usable version of NuPIC (minus swarming and OPF functionality ➟ _coming soon!_) is now available in **Java**.
 
-This port is 100% functionally equivalent to [NuPIC's Network API](https://github.com/numenta/nupic/wiki/NuPIC-Architecture). 
+This port is 100% functionally equivalent to [NuPIC's Network API](https://github.com/numenta/nupic/wiki/NuPIC-Architecture).
 
 [See the **complete javadocs** here!](http://numenta.org/docs/htm.java/)
 
@@ -22,7 +22,7 @@ The community is fully committed to adding all the support tools and infrastruct
 
 ~~~ java
 /**
- * 
+ *
  * @param inputDimensions         The size of the input.  {m, n} will give a size of m x n
  * @param columnDimensions        The size of the 2 dimensional array of columns
  */
@@ -36,7 +36,7 @@ HelloSP(int[] inputDimensions, int[] columnDimensions) {
         columnNumber *= x;
     }
     activeArray = new int[columnNumber];
-    
+
     parameters = Parameters.getSpatialDefaultParameters();
     parameters.setParameterByKey(KEY.INPUT_DIMENSIONS, inputDimensions);
     parameters.setParameterByKey(KEY.COLUMN_DIMENSIONS, columnDimensions);
@@ -58,18 +58,18 @@ And here is the usage:
 ~~~ java
 public static void main(String args[]) {
     HelloSP example = new HelloSP(new int[]{32, 32}, new int[]{64, 64});
-    
+
     // Lesson 1
     System.out.println("\n \nFollowing columns represent the SDR");
     System.out.println("Different set of columns each time since we randomize the input");
     System.out.println("Lesson - different input vectors give different SDRs\n\n");
-    
+
     //Trying random vectors
     for (int i = 0; i < 3; i++) {
         example.createInput();
         example.run();
     }
-    
+
     //Lesson 2
     System.out.println("\n\nIdentical SDRs because we give identical inputs");
     System.out.println("Lesson - identical inputs give identical SDRs\n\n");
@@ -83,7 +83,7 @@ public static void main(String args[]) {
     for (int i = 0; i < 2; i++) {
       example.run();
     }
-    
+
     // Lesson 3
     System.out.println("\n\nNow we are changing the input vector slightly.");
     System.out.println("We change a small percentage of 1s to 0s and 0s to 1s.");

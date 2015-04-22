@@ -1,7 +1,6 @@
 ### Most of the URLs.
 ### Few more in other data .yml files.
 
-
 # internal
 
 index:      /
@@ -11,16 +10,15 @@ theory:     /#theory
 community:  /#community
 latest:     /#latest
 
-download: /download
+htm:      /htm.html
+nupic:    /nupic.html
 ports:    /ports.html
 search:   /search.html
 
 blog:   /blog/
+events: /events/
+media:  /media/
 news:   /news/
-events: /events.html
-press:  /press
-
-htm: /htm.html
 
 help:    /help
 faq:     /faq.html
@@ -28,12 +26,12 @@ privacy: /privacy
 terms:   /terms
 sitemap: /sitemap
 
-
 # external
 
 grok:     http://numenta.com/grok/
 moreapps: http://numenta.com/#applications
 
-wiki: https://github.com/numenta/nupic/wiki
-
-ghbtns: https://ghbtns.com/github-btn.html
+download:   https://github.com/numenta/nupic/releases/tag/0.2.1
+downloads:  https://github.com/numenta/nupic/releases
+ghbtns:     https://ghbtns.com/github-btn.html
+wiki:       https://github.com/numenta/nupic/wiki

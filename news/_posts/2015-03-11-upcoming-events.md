@@ -1,7 +1,7 @@
 ---
-layout: blogpost
-title: Upcoming Events
 category: news
+layout: listitem
+title: Upcoming Events
 ---
 
 There are 3 upcoming events this Spring. You can find out more about them on our [events page]({{ site.baseurl }}/events.html), but here is a short summary:

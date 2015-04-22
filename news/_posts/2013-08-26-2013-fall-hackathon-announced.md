@@ -1,7 +1,7 @@
 ---
-layout: blogpost
-title: 2013 Fall Hackathon Announced
 category: news
+layout: listitem
+title: 2013 Fall Hackathon Announced
 ---
 
 ### Ready to Hack?

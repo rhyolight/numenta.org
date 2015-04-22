@@ -1,7 +1,7 @@
 ---
-layout: blogpost
-title: Geospatial Tracking With NuPIC
 category: blog
+layout: listitem
+title: Geospatial Tracking With NuPIC
 ---
 
 We have developed and open-sourced a project called the [NuPIC Geospatial Tracking Application](https://github.com/numenta/nupic.geospatial), which demonstrates how NuPIC can be used to provide anomaly indications for geospatial data. Specifically, it can accept GPS track information in [GPX](http://www.topografix.com/gpx.asp) format and output indications of anomalous activity for each point along the tracks. This could be useful for a number of interesting applications:
@@ -34,7 +34,7 @@ At the heart of this new capability is the `GeospatialCoordinateEncoder`, which 
 
 [![Geospatial Coordinate Encoder](http://img.youtube.com/vi/KxxHo-FtKRo/hqdefault.jpg)](http://www.youtube.com/watch?v=KxxHo-FtKRo)
 
-We hope this demonstration of NuPIC's geospatial tracking capabilities inspires others to create more interesting implementations in the fields listed above. The [NuPIC Geospatial Tracking Application](https://github.com/numenta/nupic.geospatial) is really just a showcase, and a simple implementation to demonstrate NuPIC's efficacy in this field. 
+We hope this demonstration of NuPIC's geospatial tracking capabilities inspires others to create more interesting implementations in the fields listed above. The [NuPIC Geospatial Tracking Application](https://github.com/numenta/nupic.geospatial) is really just a showcase, and a simple implementation to demonstrate NuPIC's efficacy in this field.
 
 > Matt Taylor <br/>
 > Open Source Community Flag-Bearer <br/>

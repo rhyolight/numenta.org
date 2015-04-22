@@ -9,6 +9,7 @@ tagline:      Numenta Platform for Intelligent Computing
 title:        NuPIC
 copyright:    Copyright © 2015 Numenta
 company:      Numenta
+url:          http://numenta.org
 
 ### paths
 
@@ -56,11 +57,3 @@ kramdown:
 
 syntax-highlighting:
   enabled: true
-
-### yaml defaults
-
-# defaults:
-
-### collections http://jekyllrb.com/docs/collections/
-
-# collections:

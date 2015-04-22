@@ -1,0 +1,30 @@
+<!--
+  Homepage.Latest section list item: Blog, News, Events, etc.
+  @param {String} link - Clicking on title will take you to this link target.
+  @param {String} [post] - Post item to display, usually expected to be in the
+    context wrapped around this, but can be passed in manually.
+  @param {String} title - Title of section link i.e "Blog" or "News".
+-->
+<div class="row">
+  <div class="col-xs-6">
+    <h3><a href="{{ include.link }}">{{ include.title }}</a></h3>
+  </div>
+  <div class="col-xs-6 text-right">
+    {% include base/share.html link=post.url %}
+  </div>
+</div>
+<img src="" alt="Image for {{ post.title }}" />
+<a href="{{ post.url }}">{{ post.title }}</a>
+<div>
+  <date>{{ post.date | date_to_string }}</date>
+  <em>by</em>
+  {{ post.author }}
+</div>
+<p>
+  {{ post.excerpt | strip_html | truncatewords: 50 }}
+</p>
+<div>
+  <a href="{{ post.url }}">
+    Read Full Article <i class="fa fa-angle-right"></i>
+  </a>
+</div>

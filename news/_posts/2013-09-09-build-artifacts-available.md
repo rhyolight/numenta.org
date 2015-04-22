@@ -1,7 +1,7 @@
 ---
-layout: blogpost
-title: Build Artifacts
 category: news
+layout: listitem
+title: Build Artifacts
 ---
 
 Our Travis-CI build is now publishing build artifacts to Amazon S3. You can access them by SHA by using the following URL format:

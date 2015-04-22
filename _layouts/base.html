@@ -1,3 +1,4 @@
+{% assign ver = site.github.build_revision or 'DEV' %}
 <!doctype html>
 <html lang="en">
   <head>
@@ -12,23 +13,33 @@
     <link rel="canonical" href="TBD" />
     <link rel="alternate" type="application/rss+xml" title="NuPIC Blog Feed" href="TBD" />
     <link rel="alternate" type="application/rss+xml" title="NuPIC News Feed" href="TBD" />
-    <link rel="stylesheet" type="text/css" href="/assets/css/base.css?v={{ site.github.build_revision }}" />
+    <link rel="stylesheet" type="text/css" href="/assets/css/base.css?v={{ ver }}" />
     {% for sheet in page.styles %}
-      <link rel="stylesheet" type="text/css" href="{{ sheet }}?v={{ site.github.build_revision }}" />
+      <link rel="stylesheet" type="text/css" href="{{ sheet }}?v={{ ver }}" />
     {% endfor %}
   </head>
   <body class="numenta" data-spy="scroll" data-target=".scrollspy-nav">
     {% include base/header.html %}
     <main>{{ content }}</main>
     {% include base/footer.html %}
-    <script src="/node_modules/jquery/dist/jquery.min.js?v={{ site.github.build_revision }}"></script>
-    <script src="/node_modules/bootstrap-sass/assets/javascripts/bootstrap.min.js?v={{ site.github.build_revision }}"></script>
-    <script src="/node_modules/platform/platform.min.js?v={{ site.github.build_revision }}"></script>
-    <script src="/assets/js/base.js?v={{ site.github.build_revision }}"></script>
+    <script src="/node_modules/jquery/dist/jquery.min.js?v={{ ver }}"></script>
+    <script src="/node_modules/bootstrap-sass/assets/javascripts/bootstrap.min.js?v={{ ver }}"></script>
+    <script src="/node_modules/platform/platform.min.js?v={{ ver }}"></script>
+    <script src="/assets/js/base.js?v={{ ver }}"></script>
     {% for script in page.scripts %}
-      <script src="{{ script }}?v={{ site.github.build_revision }}"></script>
+      <script src="{{ script }}?v={{ ver }}"></script>
     {% endfor %}
+    <script>
+      (function () {
+        'use strict';
+        window.Numenta = {
+          url: {
+            download: '{{ site.data.url.download }}'
+          }
+        };
+      })();
+    </script>
     {% include base/analytics.html %}
-    <!-- http://numenta.org {{ site.copyright }} v={{ site.github.build_revision }} -->
+    <!-- http://numenta.org {{ site.copyright }} v={{ ver }} -->
   </body>
 </html>

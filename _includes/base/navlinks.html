@@ -1,3 +1,7 @@
+<!--
+  Main site navigation links, on header and footer.
+  @param {String} hide - Text of nav link name to NOT display, i.e. "Home"
+-->
 {% for nav in site.data.nav %}
   {% if nav.name != include.hide %}
     <li>
