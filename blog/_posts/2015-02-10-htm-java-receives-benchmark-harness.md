@@ -1,6 +1,6 @@
 ---
 category: blog
-layout: listitem
+layout: item
 title: HTM.java Receives Benchmark Harness
 ---
 

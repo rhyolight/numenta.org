@@ -1,6 +1,6 @@
 ---
 category: blog
-layout: listitem
+layout: item
 redirect_from: "/news/2013/08/13/brains-and-machine-intelligence-a-long-time-coming.html"
 title: Brains and Machine Intelligence, A Long Time Coming
 ---

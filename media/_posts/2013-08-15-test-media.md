@@ -1,6 +1,6 @@
 ---
 category: media
-layout: listitem
+layout: item
 title: Test Media
 ---
 

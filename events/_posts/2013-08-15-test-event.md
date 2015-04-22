@@ -1,6 +1,6 @@
 ---
 category: event
-layout: listitem
+layout: item
 title: Test Event
 ---
 

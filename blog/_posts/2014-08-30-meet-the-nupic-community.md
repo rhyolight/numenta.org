@@ -1,6 +1,6 @@
 ---
-layout: listitem
 category: blog
+layout: item
 title: Meet the NuPIC Community
 ---
 

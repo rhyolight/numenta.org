@@ -1,6 +1,6 @@
 ---
 category: blog
-layout: listitem
+layout: item
 redirect_from: "/news/2013/06/10/hackathon-june-2013.html"
 title: First NuPIC Hackathon
 ---

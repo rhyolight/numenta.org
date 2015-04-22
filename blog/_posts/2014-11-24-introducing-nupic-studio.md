@@ -1,6 +1,6 @@
 ---
 category: blog
-layout: listitem
+layout: item
 title: Introducing NuPIC Studio
 ---
 

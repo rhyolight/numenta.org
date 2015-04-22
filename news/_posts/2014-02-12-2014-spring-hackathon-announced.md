@@ -1,6 +1,6 @@
 ---
 category: news
-layout: listitem
+layout: item
 title: 2014 Spring Hackathon Announced
 ---
 

@@ -1,6 +1,6 @@
 ---
 category: news
-layout: listitem
+layout: item
 title: Numenta Training Workshop Announced
 ---
 

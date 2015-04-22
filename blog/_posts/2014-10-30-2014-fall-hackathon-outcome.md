@@ -1,6 +1,6 @@
 ---
 category: blog
-layout: listitem
+layout: item
 title: 2014 Fall Hackathon Outcome
 ---
 

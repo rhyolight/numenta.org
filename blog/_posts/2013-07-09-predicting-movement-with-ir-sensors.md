@@ -1,7 +1,7 @@
 ---
 category: blog
 guest: Erik Blas
-layout: listitem
+layout: item
 redirect_from: "/news/2013/07/09/predicting-movement-with-ir-sensors.html"
 title: Predicting Movement with IR Sensors
 ---

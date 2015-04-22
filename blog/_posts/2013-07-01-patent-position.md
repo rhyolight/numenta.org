@@ -1,6 +1,6 @@
 ---
 category: blog
-layout: listitem
+layout: item
 redirect_from: "/news/2013/07/01/patent-position.html"
 title: Patent Position
 ---

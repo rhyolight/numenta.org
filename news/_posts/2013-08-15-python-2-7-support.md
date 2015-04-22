@@ -1,6 +1,6 @@
 ---
 category: news
-layout: listitem
+layout: item
 title: Python 2.7 Support
 ---
 

@@ -1,6 +1,6 @@
 ---
 category: blog
-layout: listitem
+layout: item
 title: Numenta Contributor License V1.1
 ---
 
