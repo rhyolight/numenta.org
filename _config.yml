@@ -40,6 +40,7 @@ exclude:
   - CNAME
   - Gemfile
   - Gemfile.lock
+  - gulpfile.js
   - npm-debug.log
   - package.json
   - README.md
@@ -48,6 +49,11 @@ exclude:
   - _layouts/
   - _sass/
   - _site/
+  - node_modules/.bin/
+  - node_modules/check-pages/
+  - node_modules/gulp/
+  - node_modules/gulp-cli/
+  - node_modules/gulp-webserver/
   - node_modules/kss/
 
 ### plugins

@@ -14,6 +14,9 @@ This is the open source code for the NuPIC Website hosted at
   * Same for html/js
 * Testing
 * .com and .org auto monitor and warn, logs, etc.
+* tests
+  * npm run check
+  * npm run linkcheck
 
 ## Technology
 

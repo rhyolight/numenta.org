@@ -3,7 +3,4 @@ layout: default
 title: HTM White Paper | NuPIC
 ---
 
-{% capture content %}
-{% include content/htm-white-paper.md %}
-{% endcapture %}
-{{ content | markdownify }}
+{% include base/markdown.html file='htm-white-paper.md' %}

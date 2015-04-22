@@ -5,8 +5,7 @@
 
     <div class="row">
       <div class="col-sm-8">
-        {% capture welcome %}{% include content/welcome.md %}{% endcapture %}
-        {{ welcome | markdownify }}
+        {% include base/markdown.html file='welcome.md' %}
       </div>
       <div class="col-sm-4 text-center">
         <img src="/assets/img/base/logo/numenta-mark-dark.svg" alt="Numenta Logo" />

@@ -3,7 +3,4 @@ layout: default
 title: NuPIC Code of Conduct for Events
 ---
 
-{% capture code %}
-{% include content/code-of-conduct.md %}
-{% endcapture %}
-{{ code | markdownify }}
+{% include base/markdown.html file='code-of-conduct.md' %}

@@ -3,7 +3,4 @@ layout: default
 title: NuPIC FAQ
 ---
 
-{% capture content %}
-{% include content/faq.md %}
-{% endcapture %}
-{{ content | markdownify }}
+{% include base/markdown.html file='faq.md' %}

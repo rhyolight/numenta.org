@@ -1,6 +1,7 @@
 ### Most of the URLs.
 ### Few more in other data .yml files.
 
+
 # internal
 
 index:      /
@@ -10,26 +11,31 @@ theory:     /#theory
 community:  /#community
 latest:     /#latest
 
+blog:     /blog/
+code:     /code.html
+events:   /events/
+faq:      /faq.html
+help:     /help.TODO
 htm:      /htm.html
+lists:    /lists/
+media:    /media/
+news:     /news/
 nupic:    /nupic.html
 ports:    /ports.html
+licenses: /licenses/
 search:   /search.html
+# sitemap: /sitemap.TODO
 
-blog:   /blog/
-events: /events/
-media:  /media/
-news:   /news/
-
-help:    /help
-faq:     /faq.html
-privacy: /privacy
-terms:   /terms
-sitemap: /sitemap
 
 # external
 
+learning: http://numenta.com/learn/
 grok:     http://numenta.com/grok/
 moreapps: http://numenta.com/#applications
+paperhtm: http://numenta.com/learn/hierarchical-temporal-memory-white-paper.html
+privacy:  http://numenta.com/legal/privacy.html
+roadmap:  http://status.numenta.org/roadmap
+terms:    http://numenta.com/legal/terms.html
 
 download:   https://github.com/numenta/nupic/releases/tag/0.2.1
 downloads:  https://github.com/numenta/nupic/releases
