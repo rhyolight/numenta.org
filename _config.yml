@@ -23,14 +23,23 @@ source:       . # gh-pages lock
 
 ### settings
 
-encoding:     utf-8
-future:       false
+encoding:     'utf-8'
+future:       true # events
 gems:         [ 'jekyll-redirect-from' ]
 highlighter:  pygments
 lsi:          false # gh-pages lock
 markdown:     kramdown
 safe:         true # gh-pages lock
 timezone:     America/Los_Angeles
+
+### plugins
+
+kramdown:
+  hard_wrap: false
+  input: GFM # github-flavor
+
+syntax-highlighting:
+  enabled: true
 
 ### inclusions/exclusions
 
@@ -55,11 +64,3 @@ exclude:
   - node_modules/gulp-cli/
   - node_modules/gulp-webserver/
   - node_modules/kss/
-
-### plugins
-
-kramdown:
-  input: GFM  # github-flavor
-
-syntax-highlighting:
-  enabled: true

@@ -1,4 +1,5 @@
 ---
+author: Matthew Taylor
 category: blog
 layout: item
 title: Numenta Contributor License V1.1

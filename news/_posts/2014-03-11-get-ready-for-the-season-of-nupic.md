@@ -1,4 +1,5 @@
 ---
+author: Matthew Taylor
 category: news
 layout: item
 title: Get Ready for the Season of NuPIC

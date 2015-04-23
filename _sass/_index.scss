@@ -159,6 +159,10 @@
       margin: 0 1rem 4rem;
       padding: 2.5rem 3rem 3rem;
 
+      > .row > div {
+        margin-bottom: 0.666rem;
+      }
+
       h3 {
         margin: 0;
         padding: 0;
@@ -173,6 +177,16 @@
 
       > a {
         display: block;
+      }
+
+      .title {
+        font-size: 112%;
+      }
+
+      .meta {
+        color: $color-gray;
+        font-size: 90%;
+        margin-bottom: 0.75rem;
       }
     }
   }

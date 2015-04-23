@@ -1,18 +1,22 @@
-{% assign ver = site.github.build_revision or 'DEV' %}
 <!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
+    <title>{{ page.title }}</title>
+    {% assign ver = site.github.build_revision %}
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="description" content="TBD" />
-    <meta name="keywords" content="nupic numenta open platform community machine intelligence htm hierarchical temporal memory" />
+    <!-- <meta name="description" content="TBD" /> -->
+    <!-- <meta name="keywords" content="TBD nupic numenta open platform community machine intelligence htm hierarchical temporal memory" /> -->
     <meta name="viewport" content="width=device-width,initial-scale=1.0" />
     <meta name="google-site-verification" content="OfJ5zPSx53VfF9A0uweP4yhNQsUuXCZ7ZAkdLVIEks0" />
-    <title>{{ page.title }}</title>
-    <link rel="shortcut icon" href="TBD" />
-    <link rel="canonical" href="TBD" />
-    <link rel="alternate" type="application/rss+xml" title="NuPIC Blog Feed" href="TBD" />
-    <link rel="alternate" type="application/rss+xml" title="NuPIC News Feed" href="TBD" />
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="/assets/img/base/icon/tileicon.png?v={{ ver }}" />
+    <link rel="apple-touch-icon-precomposed" href="/assets/img/base/icon/apple-touch-icon-precomposed.png?v={{ ver }}" />
+    <link rel="icon" type="image/png" href="/assets/img/base/icon/favicon.png?v={{ ver }}" />
+    <link rel="shortcut icon" href="/assets/img/base/icon/favicon.ico?v={{ ver }}" />
+    <!-- <link rel="canonical" href="TBD" /> -->
+    <!-- <link rel="alternate" type="application/rss+xml" title="NuPIC Blog Feed" href="TBD" /> -->
+    <!-- <link rel="alternate" type="application/rss+xml" title="NuPIC News Feed" href="TBD" /> -->
     <link rel="stylesheet" type="text/css" href="/assets/css/base.css?v={{ ver }}" />
     {% for sheet in page.styles %}
       <link rel="stylesheet" type="text/css" href="{{ sheet }}?v={{ ver }}" />

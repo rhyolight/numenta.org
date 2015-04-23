@@ -1,4 +1,5 @@
 ---
+author: Matthew Taylor
 category: blog
 layout: item
 title: 2014 Spring Hackathon Outcome

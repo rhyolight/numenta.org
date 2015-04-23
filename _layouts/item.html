@@ -2,7 +2,17 @@
 layout: default
 ---
 <article>
-  <h3 class="date">{{ page.date | date_to_string }}</h3>
-  <h2><a href="{{site.baseurl}}{{ page.url }}">{{ page.title }}</a></h2>
-  {{ content }}
+  <h5>
+    <date>{{ page.date | date_to_string }}</date> |
+    {{ page.category }}
+  </h5>
+  <h1>{{ page.title }}</h1>
+  <div class="meta">
+    <em>by</em> {{ page.author }}
+  </div>
+  <p>{{ content }}</p>
+  <a href="{{ site.data.url[page.category] }}">
+    <i class="fa fa-fw fa-angle-left"></i>
+    Back to {{ page.category | capitalize }}
+  </a>
 </article>

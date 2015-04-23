@@ -1,4 +1,5 @@
 ---
+author: Matthew Taylor
 category: news
 layout: item
 title: Sensory-motor Integration in HTM Theory, by Jeff Hawkins

@@ -1,4 +1,5 @@
 ---
+author: Matthew Taylor
 category: news
 layout: item
 title: Python 2.7 Support
