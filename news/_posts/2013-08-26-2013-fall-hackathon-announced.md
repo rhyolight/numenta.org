@@ -1,4 +1,5 @@
 ---
+author: Matthew Taylor
 category: news
 layout: item
 title: 2013 Fall Hackathon Announced

@@ -1,4 +1,5 @@
 ---
+author: Donna Dubinsky
 category: blog
 layout: item
 title: NuPIC Commercial Licenses

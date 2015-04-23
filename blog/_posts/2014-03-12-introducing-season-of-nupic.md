@@ -1,4 +1,5 @@
 ---
+author: Matthew Taylor
 category: blog
 layout: item
 title: Introducing Season of NuPIC

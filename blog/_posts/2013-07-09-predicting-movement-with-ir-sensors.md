@@ -1,6 +1,6 @@
 ---
+author: Erik Blas
 category: blog
-guest: Erik Blas
 layout: item
 redirect_from: "/news/2013/07/09/predicting-movement-with-ir-sensors.html"
 title: Predicting Movement with IR Sensors
@@ -8,7 +8,7 @@ title: Predicting Movement with IR Sensors
 
 ### My Experience at the First NuPIC Hackathon
 
-##### a guest blog post by **[{{ page.guest }}](https://github.com/ravaa)**
+##### a guest blog post by **[{{ page.author }}](https://github.com/ravaa)**
 
 On April 24, 2013 Numenta hosted their first hackathon, a private event commemorating the recent release of NuPIC (Numenta Platform for Intelligent Computing) to the OSS world.
 

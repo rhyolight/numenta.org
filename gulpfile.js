@@ -20,7 +20,7 @@ gulp.task('checkpages', [ 'serve' ], function (callback) {
       onlySameDomain: true,
       queryHashes: true,
       noRedirects: true,
-      noLocalLinks: true,
+      noLocalLinks: false,
       noEmptyFragments: true,
       linksToIgnore: [],
       checkXhtml: false,

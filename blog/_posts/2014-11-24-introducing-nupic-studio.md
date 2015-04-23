@@ -1,4 +1,5 @@
 ---
+author: David Ragazzi
 category: blog
 layout: item
 title: Introducing NuPIC Studio

@@ -1,4 +1,5 @@
 ---
+author: Jeff Hawkins
 category: blog
 layout: item
 redirect_from: "/news/2013/08/13/brains-and-machine-intelligence-a-long-time-coming.html"

@@ -8,9 +8,6 @@
  *  color-gradient transition with a CSS-down arrow to keep the eye moving
  *  down the page to the next section.
  *
- * Responsive content and markup is made functional by Bootstrap:
- *  http://getbootstrap.com/
- *
  * Markup:
  *  <main>
  *    <section>
@@ -39,6 +36,10 @@ main {
     @media (max-width: $screen-sm) {
       padding-left: 1rem;
       padding-right: 1rem;
+    }
+
+    hr {
+      border-top: 1px solid $color-gray-lite;
     }
 
     .icon {

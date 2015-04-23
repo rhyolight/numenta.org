@@ -1,4 +1,5 @@
 ---
+author: David Ray
 category: blog
 layout: item
 title: HTM.java Receives Benchmark Harness

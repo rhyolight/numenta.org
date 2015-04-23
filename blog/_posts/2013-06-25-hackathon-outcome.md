@@ -1,4 +1,5 @@
 ---
+author: Matthew Taylor
 category: blog
 layout: item
 redirect_from: "/news/2013/06/25/hackathon-outcome.html"
