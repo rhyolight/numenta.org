@@ -7,16 +7,6 @@ This is the open source code for the NuPIC Website hosted at
 
 [![Build Status](https://travis-ci.org/numenta/numenta.org.png?branch=gh-pages)](https://travis-ci.org/numenta/numenta.org)
 
-## TODO
-
-* Nav > More links fill out
-* More detailed documentation on how css works (base.css, base.scss, _sass, etc)
-  * Same for html/js
-* Testing
-* .com and .org auto monitor and warn, logs, etc.
-* tests
-  * npm run check
-  * npm run linkcheck
 
 ## Technology
 
@@ -85,17 +75,21 @@ When the build is finished, visit local URL in browser:
     [Contributor licenese](http://numenta.org/licenses/cl/)
 
 
-## Design
-
-* [Living Styleguide](http://numenta.org/styleguide/)
-
-
 ## Best Practices
 
-* Adhere and sync with the [Living Styleguide](http://numenta.org/styleguide/)
-* Mobile First for all design and development
-* Be as Standards-compliant as possible
+### Design
+
+* [Living Styleguide](http://numenta.org/styleguide/)
+* Mobile First for all design
+* Standards-compliant as possible
 * Support a wide array of users with accessibility needs
-* NO spaces in File or Directory Names, use dash "-" instead
+
+### Development
+
+* Mobile First for all development
+* Standards-compliant as possible
+* Support a wide array of users with accessibility needs
+* Keep attention on security
 * 2-space node-style text file indentation
+* NO spaces in File or Directory Names, use dash "-" instead
 * Keep local dev Ruby gems updated: `bundle update`
