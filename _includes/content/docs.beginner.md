@@ -1,6 +1,8 @@
 ##### Beginner
 
-* <i></i> [Get Started]() - Prepare, install, and run
-* <i></i> [Build]() from Source - Download, build, run, and test
-* <i></i> [Examples]() and [Tutorials]()
-* <i class="fa-question"></i> [Help]({{ site.data.url.help }}) and [FAQ]({{ site.data.url.faq }})
+* <i></i> [All About NuPIC]({{ site.data.url.nupic }})
+* <i></i> [Build from source]({{ site.data.url.build }}) - Download, build, run, and test
+* <i></i> [Learning NuPIC]({{ site.data.url.learn }})
+* <i></i> [Tutorials]({{ site.data.url.tutorials }})
+* <i class="fa-play-circle-o"></i> [NuPIC Development Tutorial]({{ site.data.url.devtutor }}) - 
+  Video guide
