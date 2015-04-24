@@ -13,10 +13,7 @@ Summer 2015 site overhaul current TODO list.
 
 * unit Testing
 * make linkcheck work against prod or staging too
-* Redirects:
-  * /events.html &gt; /events/
-  * /media.html &gt; /media/
-  * /importance.html &gt; /
+* Get binary pkgs into Github Downloads page via API w/Matt
 * More detailed documentation on how css works (base.css, base.scss, _sass, etc)
   * Same for html/js
 
