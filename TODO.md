@@ -16,6 +16,7 @@ Summer 2015 site overhaul current TODO list.
 * Get binary pkgs into Github Downloads page via API w/Matt
 * More detailed documentation on how css works (base.css, base.scss, _sass, etc)
   * Same for html/js
+* Webmaster canoncial in Google site settings
 
 ### Later
 
@@ -25,6 +26,5 @@ Summer 2015 site overhaul current TODO list.
 * Audit old site files, make new site source pristine, finish migration.
 * new team bios section
 * entity images
-* redesign Blogs,News, Events,Media list and detail pages.
 * mobile header menu icon needs "MENU" text below it
 * .com and .org auto monitor and warn, logs, etc.
