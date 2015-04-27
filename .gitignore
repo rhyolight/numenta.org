@@ -3,10 +3,10 @@
 Gemfile.lock
 npm-debug.log
 
-styleguide/*.html
-
 .idea/
 _site/
+
+styleguide/*.html
 styleguide/public/
 
 node_modules/.bin/
