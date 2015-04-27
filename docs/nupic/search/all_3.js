@@ -2,7 +2,6 @@ var searchData=
 [
   ['categoryencoder',['CategoryEncoder',['../classnupic_1_1encoders_1_1category_1_1_category_encoder.html',1,'nupic::encoders::category']]],
   ['cellconfidence',['cellConfidence',['../classnupic_1_1research_1_1_t_p_1_1_t_p.html#a35612d7cc6005f9ec28222158b1b517b',1,'nupic::research::TP::TP']]],
-  ['cellforsegment',['cellForSegment',['../classnupic_1_1research_1_1temporal__memory_1_1_connections.html#a1bd2cac45503cb57a44db97a8d99b82b',1,'nupic::research::temporal_memory::Connections']]],
   ['cells',['cells',['../classnupic_1_1research_1_1_t_p_1_1_t_p.html#a3c69c6a1fc6af18d0e9a0773de196df5',1,'nupic::research::TP::TP']]],
   ['cellsforcolumn',['cellsForColumn',['../classnupic_1_1research_1_1temporal__memory_1_1_temporal_memory.html#a07288c595d31bf050cef39d09d69dc83',1,'nupic::research::temporal_memory::TemporalMemory']]],
   ['cellspercolumn',['cellsPerColumn',['../classnupic_1_1research_1_1_t_p_1_1_t_p.html#ab7cc70f9f73fce65efdc47fc987681c0',1,'nupic::research::TP::TP']]],
@@ -21,11 +20,8 @@ var searchData=
   ['computeoutput',['computeOutput',['../classnupic_1_1research_1_1_t_p_1_1_t_p.html#ae30dfd26e3bf1ca1af7cef7687b9aea8',1,'nupic::research::TP::TP']]],
   ['computepredictivecells',['computePredictiveCells',['../classnupic_1_1research_1_1temporal__memory_1_1_temporal_memory.html#a8ad8c8e40e3d5960796a43a7ba0bd82c',1,'nupic::research::temporal_memory::TemporalMemory']]],
   ['connectedperm',['connectedPerm',['../classnupic_1_1research_1_1_t_p_1_1_t_p.html#a6e7d166246c82719443803b7fe8950bf',1,'nupic::research::TP::TP']]],
-  ['connections',['Connections',['../classnupic_1_1research_1_1temporal__memory_1_1_connections.html',1,'nupic::research::temporal_memory']]],
   ['coordinateencoder',['CoordinateEncoder',['../classnupic_1_1encoders_1_1coordinate_1_1_coordinate_encoder.html',1,'nupic::encoders::coordinate']]],
   ['coordinateforposition',['coordinateForPosition',['../classnupic_1_1encoders_1_1geospatial__coordinate_1_1_geospatial_coordinate_encoder.html#a16572bb4b8bdd4b11a0dfe19b21ed8a5',1,'nupic::encoders::geospatial_coordinate::GeospatialCoordinateEncoder']]],
   ['create',['create',['../classnupic_1_1frameworks_1_1opf_1_1modelfactory_1_1_model_factory.html#a5b7ef0221e471e99fa7f0a87a28ba1ea',1,'nupic::frameworks::opf::modelfactory::ModelFactory']]],
-  ['createsegment',['createSegment',['../classnupic_1_1research_1_1temporal__memory_1_1_connections.html#a58dfef3f2ba0d807bc2eedbfe6128ba0',1,'nupic::research::temporal_memory::Connections']]],
-  ['createsynapse',['createSynapse',['../classnupic_1_1research_1_1temporal__memory_1_1_connections.html#a7216f7ba994c1a9b43368c01faf27a12',1,'nupic::research::temporal_memory::Connections']]],
   ['currentoutput',['currentOutput',['../classnupic_1_1research_1_1_t_p_1_1_t_p.html#acac5aeb5541248288bdb589a576cf522',1,'nupic::research::TP::TP']]]
 ];

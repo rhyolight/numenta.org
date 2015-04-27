@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['cellforsegment',['cellForSegment',['../classnupic_1_1research_1_1temporal__memory_1_1_connections.html#a1bd2cac45503cb57a44db97a8d99b82b',1,'nupic::research::temporal_memory::Connections']]],
   ['cellsforcolumn',['cellsForColumn',['../classnupic_1_1research_1_1temporal__memory_1_1_temporal_memory.html#a07288c595d31bf050cef39d09d69dc83',1,'nupic::research::temporal_memory::TemporalMemory']]],
   ['checkprediction2',['checkPrediction2',['../classnupic_1_1research_1_1_t_p_1_1_t_p.html#ade172bde667f2d186b1d0b415652ebb6',1,'nupic::research::TP::TP']]],
   ['choosecellstolearnfrom',['chooseCellsToLearnFrom',['../classnupic_1_1research_1_1_t_p_1_1_t_p.html#a2707e91e7bdd3cf0ed78428fabeb1ca0',1,'nupic::research::TP::TP']]],
@@ -13,7 +12,5 @@ var searchData=
   ['computeoutput',['computeOutput',['../classnupic_1_1research_1_1_t_p_1_1_t_p.html#ae30dfd26e3bf1ca1af7cef7687b9aea8',1,'nupic::research::TP::TP']]],
   ['computepredictivecells',['computePredictiveCells',['../classnupic_1_1research_1_1temporal__memory_1_1_temporal_memory.html#a8ad8c8e40e3d5960796a43a7ba0bd82c',1,'nupic::research::temporal_memory::TemporalMemory']]],
   ['coordinateforposition',['coordinateForPosition',['../classnupic_1_1encoders_1_1geospatial__coordinate_1_1_geospatial_coordinate_encoder.html#a16572bb4b8bdd4b11a0dfe19b21ed8a5',1,'nupic::encoders::geospatial_coordinate::GeospatialCoordinateEncoder']]],
-  ['create',['create',['../classnupic_1_1frameworks_1_1opf_1_1modelfactory_1_1_model_factory.html#a5b7ef0221e471e99fa7f0a87a28ba1ea',1,'nupic::frameworks::opf::modelfactory::ModelFactory']]],
-  ['createsegment',['createSegment',['../classnupic_1_1research_1_1temporal__memory_1_1_connections.html#a58dfef3f2ba0d807bc2eedbfe6128ba0',1,'nupic::research::temporal_memory::Connections']]],
-  ['createsynapse',['createSynapse',['../classnupic_1_1research_1_1temporal__memory_1_1_connections.html#a7216f7ba994c1a9b43368c01faf27a12',1,'nupic::research::temporal_memory::Connections']]]
+  ['create',['create',['../classnupic_1_1frameworks_1_1opf_1_1modelfactory_1_1_model_factory.html#a5b7ef0221e471e99fa7f0a87a28ba1ea',1,'nupic::frameworks::opf::modelfactory::ModelFactory']]]
 ];

@@ -3,6 +3,5 @@ var searchData=
   ['updateinferencestate',['updateInferenceState',['../classnupic_1_1research_1_1_t_p_1_1_t_p.html#a9f3bd7b67ffaa31f6f1a412f23ce7700',1,'nupic::research::TP::TP']]],
   ['updatelearningstate',['updateLearningState',['../classnupic_1_1research_1_1_t_p_1_1_t_p.html#a1d6c46a018b575633138faf1bc7932e8',1,'nupic::research::TP::TP']]],
   ['updatesegmentdutycycles',['updateSegmentDutyCycles',['../classnupic_1_1research_1_1_t_p_1_1_t_p.html#abe3ce3f2fe56edfe860415a04d1fcbac',1,'nupic::research::TP::TP']]],
-  ['updatesynapsepermanence',['updateSynapsePermanence',['../classnupic_1_1research_1_1temporal__memory_1_1_connections.html#a1a803b512de0ce6289fb996711eadea0',1,'nupic::research::temporal_memory::Connections']]],
   ['updatesynapses',['updateSynapses',['../classnupic_1_1research_1_1_t_p_1_1_segment.html#ab5fb81a2e3dd7a6b897436c85600d220',1,'nupic::research::TP::Segment']]]
 ];
