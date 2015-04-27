@@ -3,7 +3,7 @@
 
 ### about
 
-baseurl:    http://numenta.org
+baseurl:    /numenta.org  # http://numenta.org
 
 title:      NuPIC
 tagline:    Numenta Platform for Intelligent Computing
