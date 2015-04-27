@@ -16,11 +16,11 @@
           {% include base/navlinks.html hide='Home' %}
 
           <li class="dropdown">
-            <a href="{{ site.data.url.index }}" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">More <i class="fa fa-caret-down"></i></a>
+            <a href="{{ site.baseurl }}{{ site.data.url.index }}" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">More <i class="fa fa-caret-down"></i></a>
             <ul class="dropdown-menu" role="menu">
 
               <li>
-                <a href="{{ site.data.url.downloads }}">
+                <a href="{{ site.data.url.ext.downloads }}">
                   <i class="fa fa-fw fa-download"></i> Download
                 </a>
               </li>
@@ -28,7 +28,7 @@
               <li class="divider"></li>
 
               <li>
-                <a href="{{ site.data.url.search }}">
+                <a href="{{ site.baseurl }}{{ site.data.url.search }}">
                   <i class="fa fa-fw fa-search"></i> Search
                 </a>
               </li>
@@ -36,22 +36,22 @@
               <li class="divider"></li>
 
               <li>
-                <a href="{{ site.data.url.blog }}">
+                <a href="{{ site.baseurl }}{{ site.data.url.blog }}">
                   <i class="fa fa-fw"></i> Blog
                 </a>
               </li>
               <li>
-                <a href="{{ site.data.url.news }}">
+                <a href="{{ site.baseurl }}{{ site.data.url.news }}">
                   <i class="fa fa-fw"></i> News
                 </a>
               </li>
               <li>
-                <a href="{{ site.data.url.events }}">
+                <a href="{{ site.baseurl }}{{ site.data.url.events }}">
                   <i class="fa fa-fw"></i> Events
                 </a>
               </li>
               <li>
-                <a href="{{ site.data.url.media }}">
+                <a href="{{ site.baseurl }}{{ site.data.url.media }}">
                   <i class="fa fa-fw"></i> Media
                 </a>
               </li>
@@ -59,12 +59,12 @@
               <li class="divider"></li>
 
               <li>
-                <a href="{{ site.data.url.faq }}">
+                <a href="{{ site.baseurl }}{{ site.data.url.faq }}">
                   <i class="fa fa-fw fa-question-circle"></i> FAQ
                 </a>
               </li>
               <li>
-                <a href="{{ site.data.url.help }}">
+                <a href="{{ site.data.url.ext.help }}">
                   <i class="fa fa-fw fa-life-ring"></i> Help
                 </a>
               </li>

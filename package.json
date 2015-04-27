@@ -7,7 +7,7 @@
     "check": "gulp check",
     "dev": "npm install && npm run guide && npm run serve",
     "guide": "kss-node --config styleguide/_config/config.json",
-    "serve": "bundle exec jekyll serve",
+    "serve": "bundle exec jekyll serve --baseurl ''",
     "test": "npm run check"
   },
   "repository": {

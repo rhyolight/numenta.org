@@ -8,10 +8,15 @@ Summer 2015 site overhaul current TODO list.
 * Search page got fugly with my changes
 * /committers/ borked
 * /contributors/ broken
+* Redirects:
+** /blog.xml >> /blog/index.xml
+** /feed.xml >> /news/index.xml
+* Community Content and Ports could be _data
 
 ### Important
 
 * unit Testing
+* Sitemaps
 * make linkcheck work against prod or staging too
 * Get binary pkgs into Github Downloads page via API w/Matt
 * More detailed documentation on how css works (base.css, base.scss, _sass, etc)
@@ -28,3 +33,4 @@ Summer 2015 site overhaul current TODO list.
 * entity images
 * mobile header menu icon needs "MENU" text below it
 * .com and .org auto monitor and warn, logs, etc.
+* Structured data in markup

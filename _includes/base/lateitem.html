@@ -8,19 +8,19 @@
 
 <div class="row">
   <div class="col-xs-6">
-    <h3><a href="{{ include.link }}">{{ include.title }}</a></h3>
+    <h3><a href="{{ site.baseurl }}{{ include.link }}">{{ include.title }}</a></h3>
   </div>
   <div class="col-xs-6 text-right">
     {% include base/share.html link=post.url %}
   </div>
 </div>
 <!-- <img src="" alt="Image for {{ post.title }}" /> -->
-<a class="title" href="{{ post.url }}">{{ post.title }}</a>
+<a class="title" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
 <div class="meta">
   <date>{{ post.date | date_to_string }}</date>
   <em>by</em> {{ post.author }}
 </div>
 <p>{{ post.excerpt | strip_html | truncatewords: 40 }}</p>
-<a href="{{ post.url }}">
+<a href="{{ site.baseurl }}{{ post.url }}">
   Read Full Article <i class="fa fa-fw fa-angle-right"></i>
 </a>

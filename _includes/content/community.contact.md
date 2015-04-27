@@ -1,6 +1,8 @@
 ##### Contact
 
-* <i></i> [Mailing Lists]({{ site.data.url.lists }})
-* <i></i> [Live Chat]({{ site.data.url.chat }}) on Gitter and IRC
-* <i></i> [Social Networks]({{ site.data.url.social }})
-* <i class="fa-question"></i> [Help]({{ site.data.url.help }}) and [FAQ]({{ site.data.url.faq }})
+* <i></i> [Mailing Lists]({{ site.baseurl }}{{ site.data.url.lists }})
+* <i></i> [Live Chat]({{ site.baseurl }}{{ site.data.url.chat }}) on Gitter
+  and IRC
+* <i></i> [Social Networks]({{ site.baseurl }}{{ site.data.url.social }})
+* <i class="fa-question"></i> [FAQ]({{ site.baseurl }}{{ site.data.url.faq }})
+  and [Help]({{ site.data.url.ext.help }})
