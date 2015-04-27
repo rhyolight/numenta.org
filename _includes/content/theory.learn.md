@@ -1,8 +1,11 @@
 ##### Learn More
 
-* <i class="fa-file-pdf-o"></i> [HTM Whitepaper]({{ site.data.url.paperhtm }})
-* <i></i> [Theory Mailing List]({{ site.data.url.lists }}) and [Community]({{ site.data.url.community }}) discussion
-* <i></i> NuPIC [Wiki]({{ site.data.url.wiki }})
-* <i></i> [Project Roadmap]({{ site.data.url.roadmap }}) and [Future Plans]({{ site.data.url.future }})
-* <i></i> [Licenses]({{ site.data.url.licenses }})
-* <i class="fa-question"></i> [Help]({{ site.data.url.help }}) and [FAQ]({{ site.data.url.faq }})
+* <i class="fa-file-pdf-o"></i> [HTM Whitepaper]({{ site.data.url.ext.paperhtm }})
+* <i></i> [Theory Mailing List]({{ site.baseurl }}{{ site.data.url.lists }}) and
+  [Community]({{ site.baseurl }}{{ site.data.url.community }}) discussion
+* <i></i> NuPIC [Wiki]({{ site.data.url.ext.wiki }})
+* <i></i> [Project Roadmap]({{ site.data.url.ext.roadmap }}) and
+  [Future Plans]({{ site.data.url.ext.future }})
+* <i></i> [Licenses]({{ site.baseurl }}{{ site.data.url.licenses }})
+* <i class="fa-question"></i> [FAQ]({{ site.baseurl }}{{ site.data.url.faq }})
+  and [Help]({{ site.data.url.ext.help }})

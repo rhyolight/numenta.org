@@ -3,13 +3,13 @@
 
 ### about
 
-description:  Numenta Platform for Intelligent Computing
-name:         NuPIC
-tagline:      Numenta Platform for Intelligent Computing
-title:        NuPIC
-copyright:    Copyright © 2015 Numenta
-company:      Numenta
-url:          http://numenta.org
+baseurl:    http://numenta.org
+
+title:      NuPIC
+tagline:    Numenta Platform for Intelligent Computing
+
+company:    Numenta
+copyright:  Copyright © 2015 Numenta
 
 ### paths
 
