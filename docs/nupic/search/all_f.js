@@ -9,7 +9,6 @@ var searchData=
   ['seed',['seed',['../classnupic_1_1research_1_1_t_p_1_1_t_p.html#ab31f6ed1e7e88c7cca70910409c6bbee',1,'nupic::research::TP::TP']]],
   ['segid',['segID',['../classnupic_1_1research_1_1_t_p_1_1_t_p.html#a637cce30bd78360c76cfcab38ce4e94d',1,'nupic::research::TP::TP']]],
   ['segment',['Segment',['../classnupic_1_1research_1_1_t_p_1_1_segment.html',1,'nupic::research::TP']]],
-  ['segmentsforcell',['segmentsForCell',['../classnupic_1_1research_1_1temporal__memory_1_1_connections.html#ad6a71342b8e889dbd116fdd66fe42f74',1,'nupic::research::temporal_memory::Connections']]],
   ['segmentupdate',['SegmentUpdate',['../classnupic_1_1research_1_1_t_p_1_1_t_p_1_1_segment_update.html',1,'nupic::research::TP::TP']]],
   ['segmentupdates',['segmentUpdates',['../classnupic_1_1research_1_1_t_p_1_1_t_p.html#a6ab1e636c02cbb449d709ccbbbcb4277',1,'nupic::research::TP::TP']]],
   ['segupdatevalidduration',['segUpdateValidDuration',['../classnupic_1_1research_1_1_t_p_1_1_t_p.html#a001c511d4dcaf944615d26deae86ae94',1,'nupic::research::TP::TP']]],
@@ -48,7 +47,5 @@ var searchData=
   ['sparsepassthroughencoder',['SparsePassThroughEncoder',['../classnupic_1_1encoders_1_1sparse__pass__through__encoder_1_1_sparse_pass_through_encoder.html',1,'nupic::encoders::sparse_pass_through_encoder']]],
   ['spatialpooler',['SpatialPooler',['../classnupic_1_1research_1_1spatial__pooler_1_1_spatial_pooler.html',1,'nupic::research::spatial_pooler']]],
   ['stripunlearnedcolumns',['stripUnlearnedColumns',['../classnupic_1_1research_1_1spatial__pooler_1_1_spatial_pooler.html#a548b6fbcb10399d80b6bf17048674388',1,'nupic::research::spatial_pooler::SpatialPooler']]],
-  ['swarming',['swarming',['../namespaceswarming.html',1,'']]],
-  ['synapsesforpresynapticcell',['synapsesForPresynapticCell',['../classnupic_1_1research_1_1temporal__memory_1_1_connections.html#ae769e1a9744756c3aebe7d015fcddfd0',1,'nupic::research::temporal_memory::Connections']]],
-  ['synapsesforsegment',['synapsesForSegment',['../classnupic_1_1research_1_1temporal__memory_1_1_connections.html#a3715275b547a85303c3eadaebb2bb292',1,'nupic::research::temporal_memory::Connections']]]
+  ['swarming',['swarming',['../namespaceswarming.html',1,'']]]
 ];
