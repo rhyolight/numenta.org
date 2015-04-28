@@ -1,6 +1,3 @@
----
----
-
 /**
  * Footer
  *
@@ -139,7 +136,7 @@ footer {
     }
 
     .navbar-brand {
-      background-image: url('{{ site.baseurl }}/assets/img/base/logo/numenta-mark-lite.svg');
+      background-image: url('#{$baseurl}/assets/img/base/logo/numenta-mark-lite.svg');
       background-position: left 52%;
       background-repeat: no-repeat;
       background-size: 29px 27px;

@@ -1,5 +1,4 @@
 ---
-# yaml header required
 ---
 
 /**
@@ -10,6 +9,8 @@
  *
  * @requires npm: bootstrap fontawesome kss opensans
  */
+
+$baseurl: "{{ site.baseurl }}";
 
 @import 'base/variables';
 

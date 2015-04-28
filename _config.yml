@@ -3,7 +3,9 @@
 
 ### about
 
-baseurl:    /numenta.org  # http://numenta.org
+#baseurl: http://numenta.org   # production
+baseurl: /numenta.org          # staging
+#baseurl:                      # development
 
 title:      NuPIC
 tagline:    Numenta Platform for Intelligent Computing
@@ -43,7 +45,12 @@ syntax-highlighting:
 
 ### inclusions/exclusions
 
-#include:
+include:
+  - node_modules/bootstrap-sass
+  - node_modules/font-awesome
+  - node_modules/jquery
+  - node_modules/open-sands
+  - node_modules/platform
 exclude:
   - _config.yml
   - CNAME
@@ -58,9 +65,4 @@ exclude:
   - _layouts/
   - _sass/
   - _site/
-  - node_modules/.bin/
-  - node_modules/check-pages/
-  - node_modules/gulp/
-  - node_modules/gulp-cli/
-  - node_modules/gulp-webserver/
-  - node_modules/kss/
+  - node_modules/
