@@ -1,5 +1,7 @@
+#
 # Numenta.org Jekyll Config
 # http://jekyllrb.com/docs/configuration/
+#
 
 ### about
 
@@ -59,7 +61,4 @@ exclude:
   - "_layouts"
   - "_sass"
   - "_site"
-  - "node_modules/gulp"
-  - "node_modules/gulp-cli"
-  - "node_modules/gulp-webserver"
-  - "node_modules/kss"
+  - "node_modules"

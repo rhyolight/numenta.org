@@ -3,9 +3,11 @@
   "version": "0.0.1",
   "description": "Numenta.org NuPIC Website",
   "scripts": {
-    "build": "bundle exec jekyll build",
+    "build": "npm install && npm run guide && gulp webpack && npm run generate",
     "check": "gulp check",
-    "dev": "npm install && npm run guide && npm run serve",
+    "clean": "rm -Rf node_modules/* _site/*",
+    "dev": "npm install && npm run guide && gulp webpack && npm run serve",
+    "generate": "bundle exec jekyll build",
     "guide": "kss-node --config styleguide/_config/config.json",
     "serve": "bundle exec jekyll serve --baseurl ''",
     "test": "npm run check"
@@ -36,7 +38,6 @@
     "bootstrap-sass": "3.3.4",
     "font-awesome": "4.3.0",
     "jquery": "2.1.3",
-    "kss": "2.0.2",
     "open-sands": "1.0.3",
     "platform": "1.3.0"
   },
@@ -44,6 +45,8 @@
     "check-pages": "0.8.0",
     "gulp": "3.8.11",
     "gulp-cli": "0.2.0",
-    "gulp-webserver": "0.9.0"
+    "gulp-webpack": "1.4.0",
+    "gulp-webserver": "0.9.0",
+    "kss": "2.0.2"
   }
 }
