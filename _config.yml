@@ -1,9 +1,13 @@
+#
 # Numenta.org Jekyll Config
 # http://jekyllrb.com/docs/configuration/
+#
 
 ### about
 
-baseurl:    /numenta.org  # http://numenta.org
+#baseurl: http://numenta.org   # production
+baseurl: /numenta.org          # staging
+#baseurl:                      # development
 
 title:      NuPIC
 tagline:    Numenta Platform for Intelligent Computing
@@ -43,24 +47,18 @@ syntax-highlighting:
 
 ### inclusions/exclusions
 
-#include:
 exclude:
-  - _config.yml
-  - CNAME
-  - Gemfile
-  - Gemfile.lock
-  - gulpfile.js
-  - npm-debug.log
-  - package.json
-  - README.md
-  - _data/
-  - _includes/
-  - _layouts/
-  - _sass/
-  - _site/
-  - node_modules/.bin/
-  - node_modules/check-pages/
-  - node_modules/gulp/
-  - node_modules/gulp-cli/
-  - node_modules/gulp-webserver/
-  - node_modules/kss/
+  - "_config.yml"
+  - "CNAME"
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "gulpfile.js"
+  - "npm-debug.log"
+  - "package.json"
+  - "README.md"
+  - "_data"
+  - "_includes"
+  - "_layouts"
+  - "_sass"
+  - "_site"
+  - "node_modules"

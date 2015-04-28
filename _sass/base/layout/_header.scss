@@ -1,6 +1,3 @@
----
----
-
 /**
  * Header
  *
@@ -33,7 +30,7 @@ header {
      * Header Brand/Logo and Home nav
      */
     .navbar-brand {
-      background-image: url('{{ site.baseurl }}/assets/img/base/logo/numenta-mark-lite.svg');
+      background-image: url('#{$baseurl}/assets/img/base/logo/numenta-mark-lite.svg');
       background-position: left center;
       background-repeat: no-repeat;
       background-size: 58px 53px;
