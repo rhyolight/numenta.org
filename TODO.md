@@ -14,7 +14,6 @@ Summer 2015 site overhaul current TODO list.
 * Community Content and Ports could be _data
 * Document: node_modules/ and _config.yml excludes. lazy node_mods loading.
 * Document: README.md Staging - username.github.io/numenta.org, `baseurl` cfg
-* Doc: webpack, base.js >> bundle.js. before jekyll build if any js changed.
 
 ### Important
 
