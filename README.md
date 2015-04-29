@@ -1,6 +1,6 @@
 # NuPIC Website Source
 
-### http://numenta.org
+#### http://numenta.org
 
 This is the open source code for the NuPIC Website hosted at
 [http://numenta.org](http://numenta.org)
@@ -17,7 +17,7 @@ This is the open source code for the NuPIC Website hosted at
   * [Bootstrap 3](http://getbootstrap.com/) responsive frontend framework
 * [ECMAScript 5+](http://en.wikipedia.org/wiki/ECMAScript)
   (Javascript) functionality and interaction
-  * [jQuery 2](http://getbootstrap.com/) responsive frontend framework
+  * [Bootstrap](http://getbootstrap.com/) responsive frontend framework
 
 ### Server
 
