@@ -1,6 +1,6 @@
 ##### Advanced
 
-* <i class="fa-list-alt"></i> API References: [nupic]({{ site.data.url.ext.refapi }}) |
+* <i></i> API References: [nupic]({{ site.data.url.ext.refapi }}) |
   [nupic.core]({{ site.data.url.ext.refcore }}) |
   [htm.java]({{ site.data.url.ext.refjava }})
 * <i></i> [Using NuPIC]({{ site.data.url.ext.using }})
