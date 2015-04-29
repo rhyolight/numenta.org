@@ -99,12 +99,12 @@ $navbar-padding-horizontal: 0;
  * Open Sans webfont (npm open-sands) sass variable overrides
  */
 
-$open-sans-path: "/node_modules/open-sands/fonts";
+$open-sans-path: "#{$baseurl}/node_modules/open-sands/fonts";
 
 
 /**
  * Font Awesome icon webfont (via npm) sass variable overrides
  */
 
-$fa-font-path:      "/node_modules/font-awesome/fonts";
+$fa-font-path:      "#{$baseurl}/node_modules/font-awesome/fonts";
 $fa-font-size-base: $font-size-base;
