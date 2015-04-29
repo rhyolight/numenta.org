@@ -3,5 +3,8 @@
 .idea/
 _site/
 Gemfile.lock
-node_modules/
 npm-debug.log
+node_modules/check-pages/
+node_modules/gulp/
+node_modules/gulp-webserver/
+node_modules/kss/

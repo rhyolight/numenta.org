@@ -3,10 +3,10 @@
   "version": "0.0.1",
   "description": "Numenta.org NuPIC Website",
   "scripts": {
-    "build": "npm install && npm run guide && gulp webpack && npm run generate",
+    "build": "npm install && npm run guide && npm run generate",
     "check": "gulp check",
-    "clean": "rm -Rf _site/* assets/js/bundle/* node_modules/*",
-    "dev": "npm install && npm run guide && gulp webpack && npm run serve",
+    "clean": "rm -Rf _site/*",
+    "dev": "npm install && npm run guide && npm run serve",
     "generate": "bundle exec jekyll build",
     "guide": "kss-node --config styleguide/_config/config.json",
     "serve": "bundle exec jekyll serve --baseurl ''",
@@ -44,8 +44,6 @@
   "devDependencies": {
     "check-pages": "0.8.0",
     "gulp": "3.8.11",
-    "gulp-cli": "0.2.0",
-    "gulp-webpack": "1.4.0",
     "gulp-webserver": "0.9.0",
     "kss": "2.0.2"
   }

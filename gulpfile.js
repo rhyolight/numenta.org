@@ -1,7 +1,6 @@
 var checkpages = require('check-pages');
 var gulp = require('gulp');
 var webserver = require('gulp-webserver');
-var webpack = require('gulp-webpack');
 
 var port = process.env.TEST_PORT || 8008;
 
@@ -30,20 +29,6 @@ gulp.task('checkpages', [ 'serve' ], function (callback) {
     };
 
   checkpages(console, options, callback);
-});
-
-gulp.task('webpack', function () {
-  return gulp.
-    src('assets/js/base.js').
-    pipe(webpack({
-      module: {
-        loaders: []
-      },
-      output: {
-        filename: 'index.js'
-      }
-    })).
-    pipe(gulp.dest('assets/js/bundle/'));
 });
 
 
