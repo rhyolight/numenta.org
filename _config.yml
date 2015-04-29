@@ -1,5 +1,5 @@
 #
-# Numenta.org Jekyll Config
+# Numenta.org GitHub Pages Jekyll Config
 # http://jekyllrb.com/docs/configuration/
 #
 
@@ -19,11 +19,11 @@ copyright:  Copyright © 2015 Numenta
 
 data_source:  ./_data
 destination:  ./_site
-#include_dir: ./_includes # jekyll lock
+#include_dir: ./_includes # gh-pages
 layouts:      ./_layouts
 plugins:      ./_plugins
 sass_dir:     ./_sass
-source:       . # gh-pages lock
+source:       . # gh-pages
 
 ### settings
 
@@ -31,9 +31,9 @@ encoding:     'utf-8'
 future:       true # events
 gems:         [ 'jekyll-redirect-from' ]
 highlighter:  pygments
-lsi:          false # gh-pages lock
+lsi:          false # gh-pages
 markdown:     kramdown
-safe:         true # gh-pages lock
+safe:         true # gh-pages
 timezone:     America/Los_Angeles
 
 ### plugins
@@ -62,3 +62,4 @@ exclude:
   - "_sass"
   - "_site"
   - "node_modules"
+  - "vendor" # gh-pages
