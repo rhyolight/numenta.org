@@ -61,6 +61,7 @@ exclude:
 - "_layouts"
 - "_sass"
 - "_site"
+- "node_modules/.bin"
 - "node_modules/check-pages"
 - "node_modules/gulp"
 - "node_modules/gulp-webserver"
