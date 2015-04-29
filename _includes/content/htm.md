@@ -13,7 +13,8 @@ In humans, these capabilities are largely performed by the neocortex. Hierarchal
 Temporal Memory (HTM) is a technology modeled on how the neocortex performs
 these functions. It offers the groundwork for building machines that approach or
 exceed human level performance for many cognitive tasks. HTM is implemented
-within the [NuPIC]({{ site.data.url.index }}) open source project.
+within the [NuPIC]({{ site.data.url.index }}) open source project. NuPIC can run
+anywhere, including on embedded systems and distributed sensors.
 
 ## Online Learning
 

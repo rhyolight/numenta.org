@@ -117,6 +117,8 @@ header {
         a, a:link {
           font-size: 85%;
           font-weight: $font-weight-normal;
+          padding-bottom: 5px;
+          padding-top: 5px;
           text-transform: uppercase;
         }
       } // .dropdown-menu
