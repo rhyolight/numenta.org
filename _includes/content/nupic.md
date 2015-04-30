@@ -9,12 +9,6 @@ NuPIC is a Python / C++ open source project that implements [HTM]({{ site.baseur
 </div>
 <br/>
 
-## Getting Started
-
-The best way to get started is to visit the [NuPIC Wiki](https://github.com/numenta/nupic/wiki).
-
-There are a few things to be aware of before diving into NuPIC. The NuPIC source code is used by Numenta as a part of a commercial product development. Because of this, it is no longer a “pure” implementation of the algorithms. We have made optimizations, added tweaks, and taken some short cuts to improve performance. For those interested in studying and characterizing a purer form of the [HTM](htm.html) you may want to back out some of these changes or at least be aware of them. If your interest is using NuPIC in a product, then you may be happy with the code as-is or you may want to make additional changes. Another thing to consider is that HTM is based on principles that most people are not familiar with, including [sparse distributed representations](htm.html#sparse-distributed-representations), [online learning](htm.html#online-learning), and distributed memory. There is a steeper than normal learning curve.
-
 ## Requirements
 
 We're working on providing virtual machines ready to run NuPIC so Windows developers can work on NuPIC within [Virtual Box](https://www.virtualbox.org). Currently, the build requirements are:
