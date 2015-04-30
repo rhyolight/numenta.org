@@ -22,26 +22,25 @@ events: /events/
 media:  /media/
 news:   /news/
 
-# more
+# other
 
-htm:      /htm.html
+# kill
+htm:    /htm.html
+nupic:  /nupic.html
+
+code:     /code.html
 committs: /committers/
 contribs: /contributors/
-chat:     /community.html#livechat
-code:     /code.html
-communal: /community-content.html
 faq:      /faq.html
 hack:     /hack/
-involve:  /community.html#involve
 licenses: /licenses/
 lists:    /lists/
-nupic:    /nupic.html
 ports:    /ports.html
+report:   /bug-report.html
 search:   /search.html
-# sitemap: /sitemapTODO
-team:     /community.html
+sitemap:  /sitemapTODO
 
-# rss feeds
+# feeds
 
 rss:
   blog:    /blog/index.xml
@@ -59,6 +58,7 @@ ext:
   help:     mailto:help@numenta.org
   learning: http://numenta.com/learn/
   grok:     http://numenta.com/grok/
+  issues:   http://status.numenta.org/issues
   moreapps: http://numenta.com/#applications
   privacy:  http://numenta.com/legal/privacy.html
   refapi:   http://numenta.org/docs/nupic/
@@ -70,16 +70,18 @@ ext:
   # github
 
   build:      https://github.com/numenta/nupic/wiki/Installing-and-Building-NuPIC
+  communal:   https://github.com/numenta/nupic/wiki/Community-Content
   contrib:    https://github.com/numenta/nupic/wiki/Contributing-to-NuPIC
   download:   https://github.com/numenta/nupic/releases/tag/0.2.1
   downloads:  https://github.com/numenta/nupic/releases
   future:     https://github.com/numenta/nupic/wiki/Future-Plans
   ghbtns:     https://ghbtns.com/github-btn.html
-  issues:     https://github.com/numenta/nupic/wiki/Issue-Trackers
   learn:      https://github.com/numenta/nupic/wiki/Learning-NuPIC
+  livechat:   https://github.com/numenta/nupic/wiki/NuPIC-Community#live-chat
   readme:     https://github.com/numenta/nupic/blob/master/README.md
   repo:       https://github.com/numenta/nupic/
   repos:      https://github.com/numenta/nupic/wiki/NuPIC-Repositories
+  source:     https://github.com/numenta/numenta.org
   theories:   https://github.com/numenta/nupic/wiki/CLA-and-HTM-Theory
   tutorials:  https://github.com/numenta/nupic/wiki/Using-NuPIC#tutorials
   using:      https://github.com/numenta/nupic/wiki/Using-NuPIC

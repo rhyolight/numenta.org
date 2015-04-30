@@ -103,7 +103,10 @@ And lastly, you gotta read this wonderful interaction between a high school stud
 
 * * *
 
-**I love this stuff!** NuPIC bringing people together from all walks of life FOR SCIENCE!!!! Big thanks to the [NuPIC community]({{ site.baseurl }}/community.html) for being such good people.
+**I love this stuff!** NuPIC bringing people together from all walks of life
+FOR SCIENCE!!!! Big thanks to the
+[NuPIC community]({{ site.baseurl }}{{ site.data.url.community }}) for being
+such good people.
 
 > Matt Taylor <br/>
 > Open Source Community Flag-Bearer <br/>

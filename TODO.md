@@ -18,7 +18,9 @@ and Project Wiki.
 ** /blog/archive.html >> /blog/
 ** /feed.xml >> /news/index.xml
 ** /news/archive.html >> /news/
-** /about.html >> /
+** /about.html >> http://numenta.com
+** /community-content.html >> https://github.com/numenta/nupic/wiki/Community-Content
+** /community.html >> https://github.com/numenta/nupic/wiki/NuPIC-Community
 * Document: node_modules/ and _config.yml excludes. lazy node_mods loading.
 * Document: README.md Staging - username.github.io/numenta.org, `baseurl` cfg
 
