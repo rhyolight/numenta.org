@@ -26,6 +26,6 @@ We believe HTM is an essential component of biological intelligence and will lik
 
 ## Where to go from here...
 
-Are you interested in learning more about the brain-inspired [Hierarchal Temporal Memory](htm.html) Numenta has developed over the past several years? Or maybe you just want to check out our open source software, [NuPIC](nupic.html). You might even want to better understand [what Numenta is all about](about.html). Are you ready to interact with our [community]({{ site.baseurl }}/community.html)? Then join our [mailing list]({{ site.baseurl }}/lists) and ask us some questions!
+Are you interested in learning more about the brain-inspired [Hierarchal Temporal Memory](htm.html) Numenta has developed over the past several years? Or maybe you just want to check out our open source software, [NuPIC](nupic.html). You might even want to better understand [what Numenta is all about](http://numenta.com). Are you ready to interact with our [community]({{ site.baseurl }}/community.html)? Then join our [mailing list]({{ site.baseurl }}/lists) and ask us some questions!
 
 Can't find an answer to your question? Check our [Frequently Asked Questions](faq.html) or just email <help@numenta.org> for assistance.

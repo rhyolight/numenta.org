@@ -1,0 +1,15 @@
+-
+  name: htm.java
+  lang: Java
+  link: https://github.com/numenta/htm.java
+  desc: This is a direct port of the NuPIC Python API implemented in Java, led by [David Ray](https://github.com/cogmission). This codebase is a controlled and guided by Numenta, but is entirely implemented by the NuPIC community.
+-
+  name: comportex
+  lang: Clojure
+  link: https://github.com/nupic-community/comportex
+  desc: HTM implementation (not based directly on the NuPIC codebase) in Clojure, by [Felix Andrews](https://github.com/floybix).
+-
+  name: clortex
+  lang: Clojure
+  link: https://github.com/nupic-community/clortex
+  desc: HTM implementation (not based directly on the NuPIC codebase) in Clojure, by [Fergal Byrne](https://github.com/fergalbyrne).
