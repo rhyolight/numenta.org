@@ -78,6 +78,8 @@ ext:
   ghbtns:     https://ghbtns.com/github-btn.html
   issues:     https://github.com/numenta/nupic/wiki/Issue-Trackers
   learn:      https://github.com/numenta/nupic/wiki/Learning-NuPIC
+  readme:     https://github.com/numenta/nupic/blob/master/README.md
+  repo:       https://github.com/numenta/nupic/
   repos:      https://github.com/numenta/nupic/wiki/NuPIC-Repositories
   theories:   https://github.com/numenta/nupic/wiki/CLA-and-HTM-Theory
   tutorials:  https://github.com/numenta/nupic/wiki/Using-NuPIC#tutorials
