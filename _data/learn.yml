@@ -40,5 +40,10 @@ advanced:
     desc: Algorithm Basics
   -
     icon: fa-edit
+    link: https://github.com/numenta/nupic/wiki/CLA-and-HTM-Theory
+    name: HTM Theory
+    desc: Wiki Section
+  -
+    icon: fa-edit
     link: https://github.com/numenta/nupic/wiki
     name: NuPIC Wiki

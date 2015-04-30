@@ -70,6 +70,7 @@ ext:
   # github
 
   build:      https://github.com/numenta/nupic/wiki/Installing-and-Building-NuPIC
+  contrib:    https://github.com/numenta/nupic/wiki/Contributing-to-NuPIC
   download:   https://github.com/numenta/nupic/releases/tag/0.2.1
   downloads:  https://github.com/numenta/nupic/releases
   future:     https://github.com/numenta/nupic/wiki/Future-Plans
@@ -83,7 +84,4 @@ ext:
   tutorials:  https://github.com/numenta/nupic/wiki/Using-NuPIC#tutorials
   using:      https://github.com/numenta/nupic/wiki/Using-NuPIC
   wiki:       https://github.com/numenta/nupic/wiki
-
-  # youtube
-
-  devtutor: https://www.youtube.com/watch?v=Yc3PKaT1knU
+  wikicomm:   https://github.com/numenta/nupic/wiki/NuPIC-Community
