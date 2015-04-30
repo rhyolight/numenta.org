@@ -15,7 +15,7 @@ Our community comes up with an [idea list](https://github.com/numenta/nupic/wiki
 
 Once the idea list is ready, student registration is opened up so interested parties can submit their proposals. They may be based on the ideas in the official idea list, or students may come up with their own ideas for proposals.
 
-After the student registration is over, the SoN team reviews the applications and assigns approved proposals to mentors within the NuPIC community. Approved proposals and students are announced, and a "community bonding" period begins before any code is written. During this period, we welcome new students into the [NuPIC community]({{ site.baseurl }}/community.html) and encourage them to introduce themselves and talk about their proposals on our mailing list and IRC.
+After the student registration is over, the SoN team reviews the applications and assigns approved proposals to mentors within the NuPIC community. Approved proposals and students are announced, and a "community bonding" period begins before any code is written. During this period, we welcome new students into the [NuPIC community]({{ site.baseurl }}{{ site.data.url.community }}) and encourage them to introduce themselves and talk about their proposals on our mailing list and IRC.
 
 The coding period is roughly three months, which includes a mid-term report submitted by the student-mentor team to the SoN Staff. This is a way for us to gauge student progress and provide additional resources if necessary.
 

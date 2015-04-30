@@ -9,7 +9,7 @@ title: HTM in Java!
 
 **[Introducing the feature-complete htm.java project!](https://github.com/numenta/htm.java)**
 
-Thanks to a _**lot**_ of effort by [David Ray](https://github.com/cogmission), the [NuPIC hacker community](http://numenta.org/community.html), and Numenta's own development staff, a fully usable version of NuPIC (minus swarming and OPF functionality ➟ _coming soon!_) is now available in **Java**.
+Thanks to a _**lot**_ of effort by [David Ray](https://github.com/cogmission), the [NuPIC hacker community]({{ site.baseurl }}{{ site.data.url.community }}), and Numenta's own development staff, a fully usable version of NuPIC (minus swarming and OPF functionality ➟ _coming soon!_) is now available in **Java**.
 
 This port is 100% functionally equivalent to [NuPIC's Network API](https://github.com/numenta/nupic/wiki/NuPIC-Architecture).
 

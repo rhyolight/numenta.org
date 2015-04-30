@@ -13,7 +13,7 @@ Our CEO, Donna Dubinsky, wrote a blog post about our [Patent Position](http://nu
 
 Contributor License
 ----------
-Are you interested in [getting involved]({{ site.baseurl }}/community.html) in this project? You'll first have to sign the [Contributor License]({{ site.baseurl }}/licenses/cl/).
+Are you interested in [getting involved]({{ site.baseurl }}{{ site.data.url.community }}) in this project? You'll first have to sign the [Contributor License]({{ site.baseurl }}{{ site.data.url.licenses }}).
 
 Translations
 ----------
