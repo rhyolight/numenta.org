@@ -25,7 +25,6 @@ news:   /news/
 # more
 
 htm:      /htm.html
-sdr:      /htm.html#sdr
 committs: /committers/
 contribs: /contributors/
 chat:     /community.html#livechat
@@ -61,7 +60,6 @@ ext:
   learning: http://numenta.com/learn/
   grok:     http://numenta.com/grok/
   moreapps: http://numenta.com/#applications
-  paperhtm: http://numenta.com/learn/hierarchical-temporal-memory-white-paper.html
   privacy:  http://numenta.com/legal/privacy.html
   refapi:   http://numenta.org/docs/nupic/
   refcore:  http://numenta.org/docs/nupic.core/
