@@ -15,7 +15,9 @@ and Project Wiki.
 * /contributors/ broken
 * Redirects:
 ** /blog.xml >> /blog/index.xml
+** /blog/archive.html >> /blog/
 ** /feed.xml >> /news/index.xml
+** /news/archive.html >> /news/
 ** /about.html >> /
 * Document: node_modules/ and _config.yml excludes. lazy node_mods loading.
 * Document: README.md Staging - username.github.io/numenta.org, `baseurl` cfg
