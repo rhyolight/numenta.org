@@ -21,6 +21,7 @@ and Project Wiki.
 ** /about.html >> http://numenta.com
 ** /community-content.html >> https://github.com/numenta/nupic/wiki/Community-Content
 ** /community.html >> https://github.com/numenta/nupic/wiki/NuPIC-Community
+** /ports.html >> https://github.com/numenta/nupic/wiki/HTM-Ports
 * Document: node_modules/ and _config.yml excludes. lazy node_mods loading.
 * Document: README.md Staging - username.github.io/numenta.org, `baseurl` cfg
 
