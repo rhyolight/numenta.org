@@ -5,6 +5,14 @@ and Project Wiki.
 
 ### Blockers
 
+* List Item Images
+* Migrate redundant content (and redirect):
+** /nupic.html
+** /htm.html
+** /code.html >> wiki
+** README.md
+** Wiki home and sectionsa
+*** Ditch "CLA" from HTM Wikis
 * Putting in content changes as per @rhyolight, prepping staging site
 * unit Testing
 * Sitemaps
