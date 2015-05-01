@@ -24,7 +24,7 @@ news:   /news/
 
 # other
 
-# kill
+# migrate
 htm:    /htm.html
 nupic:  /nupic.html
 
@@ -52,6 +52,11 @@ rss:
 
 ext:
 
+  # mutable + versioned
+
+  download: https://github.com/numenta/nupic/releases/tag/0.2.1
+  package:  https://s3-us-west-2.amazonaws.com/artifacts.numenta.org/numenta/nupic/releases/nupic-0.2.1-cp27-none-linux_x86_64.whl
+
   # numenta
 
   help:     mailto:help@numenta.org
@@ -71,7 +76,6 @@ ext:
   build:      https://github.com/numenta/nupic/wiki/Installing-and-Building-NuPIC
   communal:   https://github.com/numenta/nupic/wiki/Community-Content
   contrib:    https://github.com/numenta/nupic/wiki/Contributing-to-NuPIC
-  download:   https://github.com/numenta/nupic/releases/tag/0.2.1
   downloads:  https://github.com/numenta/nupic/releases
   future:     https://github.com/numenta/nupic/wiki/Future-Plans
   ghbtns:     https://ghbtns.com/github-btn.html
