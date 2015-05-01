@@ -4,9 +4,6 @@
 
 'use strict';
 
-if(! 'Numenta' in window) window.Numenta = {};
-
-
 (function () {
   $(document).ready(function () {
 
