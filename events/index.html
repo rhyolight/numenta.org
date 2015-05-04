@@ -5,13 +5,22 @@ title: Events
 
 <h1>{{ page.title }}</h1>
 
-<h3>Calendar</h3>
-<iframe src="http://www.google.com/calendar/embed?src=numenta.org_3sh59v9sabutnpb8f87icnk774%40group.calendar.google.com&ctz=America/Los_Angeles" style="border: 0" width="700" height="600" frameborder="0" scrolling="no"></iframe>
+<div class="row">
+  <div class="col-lg-8">
 
-<h3>Recurring</h3>
-{% include base/markdown.html file='events.recur.md' %}
+    <h2>Calendar</h2>
+    <iframe src="http://www.google.com/calendar/embed?src=numenta.org_3sh59v9sabutnpb8f87icnk774%40group.calendar.google.com&ctz=America/Los_Angeles" style="border: 0" width="700" height="600" frameborder="0" scrolling="no"></iframe>
 
-<h3>Upcoming</h3>
+  </div>
+  <div class="col-lg-4">
+
+    <h2>Recurring</h2>
+    {% include base/markdown.html file='events.recur.md' %}
+
+  </div>
+</div>
+
+<h2>Upcoming</h2>
 <hr/>
 {% for post in site.categories.events %}
   <div>
