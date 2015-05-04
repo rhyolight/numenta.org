@@ -56,6 +56,7 @@ exclude:
 - "npm-debug.log"
 - "package.json"
 - "README.md"
+- "TODO.md"
 - "_data"
 - "_includes"
 - "_layouts"

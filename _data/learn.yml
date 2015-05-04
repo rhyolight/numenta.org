@@ -10,7 +10,7 @@ overview:
     link: http://numenta.com/learn/getting-started-with-numenta-technology.html
     name: Getting Started with Numenta Technology
   -
-    link: https://github.com/numenta/nupic/wiki/CLA-and-HTM-Theory
+    link: https://github.com/numenta/nupic/wiki/Hierarchical-Temporal-Memory-Theory
     name: HTM Theory
     desc: Wiki Section
   -
