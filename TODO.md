@@ -10,9 +10,7 @@ and Project Wiki.
 ** /nupic.html
 ** /htm.html
 ** README.md
-** Wiki home and sectionsa
-*** Ditch "CLA" from HTM Wikis
-* Putting in content changes as per @rhyolight, prepping staging site
+** Wiki home and sections
 * unit Testing
 * Sitemaps
 * make linkcheck work against prod or staging too
