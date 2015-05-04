@@ -1,11 +1,11 @@
 -
+  icon: fa-play-circle-o
+  link: http://www.youtube.com/embed/5r1vZ1ymrQE
+  name: Intro to NuPIC
+  desc: OSCON 2013 Talk
+-
   link: https://github.com/numenta/nupic/wiki/Installing-and-Building-NuPIC
   name: Installing and Building
--
-  icon: fa-play-circle-o
-  link: https://www.youtube.com/watch?v=Yc3PKaT1knU
-  name: NuPIC Development Tutorial
-  desc: Video guide
 -
   link: https://github.com/numenta/nupic/wiki/Using-NuPIC
   name: Using NuPIC
@@ -13,9 +13,7 @@
   link: https://github.com/numenta/nupic/wiki/Learning-NuPIC
   name: Learning NuPIC
 -
-  link: https://github.com/numenta/nupic/wiki/Contributing-to-NuPIC
-  name: Contributing to NuPIC
--
-  link: https://github.com/numenta/nupic/wiki/CLA-and-HTM-Theory
-  name: HTM Theory
-  desc: Hierarchical Temporal Memory
+  icon: fa-play-circle-o
+  link: https://www.youtube.com/watch?v=Yc3PKaT1knU
+  name: NuPIC Development Tutorial
+  desc: Video guide

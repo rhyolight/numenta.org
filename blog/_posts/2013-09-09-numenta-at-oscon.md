@@ -46,7 +46,7 @@ Soon after Jeff's talk, [Carin Meier](https://twitter.com/carinmeier) presented 
 </div>
 <br/>
 
-Scott and I also presented [a technical session](http://www.oscon.com/oscon2013/public/schedule/detail/30342) about [NuPIC]({{ site.baseurl }}/nupic.html). OSCON staff have not made the video available yet, but it is supposed to be available sometime in November.
+Scott and I also presented [a technical session](http://www.oscon.com/oscon2013/public/schedule/detail/30342) about [NuPIC]({{ site.baseurl }}{{ site.data.url.index }}). OSCON staff have not made the video available yet, but it is supposed to be available sometime in November.
 
 #### <a href="http://www.youtube.com/watch?v=5r1vZ1ymrQE" rel="prettyPhoto" title="NuPIC at OSCON 2013">Watch the Introduction to NuPIC video here.</a>
 

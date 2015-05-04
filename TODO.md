@@ -9,7 +9,6 @@ and Project Wiki.
 * Migrate redundant content (and redirect):
 ** /nupic.html
 ** /htm.html
-** /code.html >> wiki
 ** README.md
 ** Wiki home and sectionsa
 *** Ditch "CLA" from HTM Wikis
@@ -30,11 +29,16 @@ and Project Wiki.
 ** /community-content.html >> https://github.com/numenta/nupic/wiki/Community-Content
 ** /community.html >> https://github.com/numenta/nupic/wiki/NuPIC-Community
 ** /ports.html >> https://github.com/numenta/nupic/wiki/HTM-Ports
+** /htm-white-paper.html >> http://numenta.com/learn/hierarchical-temporal-memory-white-paper.html
+** /events.html >> /events/
+** /nupic.html >> /
+** /htm.html >> /#theory
 * Document: node_modules/ and _config.yml excludes. lazy node_mods loading.
 * Document: README.md Staging - username.github.io/numenta.org, `baseurl` cfg
 
 ### Important
 
+* entity images
 * Init Project wiki
 * Update and migrate redesign project wiki page
 * Get binary pkgs into Github Downloads page via API w/Matt
@@ -44,12 +48,8 @@ and Project Wiki.
 
 ### Later
 
-* Convert /nupic.html, /htm.html, and /community.html to own sections
-  filling with content.
-* Content restructuring.
 * Audit old site files, make new site source pristine, finish migration.
-* new team bios section
-* entity images
+* new team bios section?
 * mobile header menu icon needs "MENU" text below it
 * .com and .org auto monitor and warn, logs, etc.
 * Structured data in markup

@@ -1,4 +1,6 @@
-# Numenta Event Anti-Harassment Policy
+# NuPIC Code of Conduct
+
+### Numenta Event Anti-Harassment Policy
 
 Numenta is dedicated to providing a harassment-free event experience for
 everyone, regardless of gender, gender identity and expression, sexual
