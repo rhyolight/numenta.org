@@ -80,6 +80,11 @@ description: This is the one-stop location where details about all Numenta open
     - slug: numenta/hypersearch
       type: support
 
+    - slug: numenta/cortipy
+      type: support
+      travis: true
+      coverage: true
+
     # NuPIC applications
     - slug: numenta/nupic.geospatial
       type: app
