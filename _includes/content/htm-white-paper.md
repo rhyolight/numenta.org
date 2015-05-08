@@ -1,6 +1,6 @@
 <h2>HTM White Paper</h2>
 
-Hierarchal Temporal Memory is fully detailed in the following white paper. The document is available in several languages, thanks to the generosity of the translators listed below (The accuracy of these translations has not been verified).
+Hierarchical Temporal Memory is fully detailed in the following white paper. The document is available in several languages, thanks to the generosity of the translators listed below (The accuracy of these translations has not been verified).
 <br />
 <br />
 [<img src="{{ site.baseurl }}/images/pdficon_small.png" /> Download the white paper](http://numenta.com/assets/pdf/whitepapers/hierarchical-temporal-memory-cortical-learning-algorithm-0.2.1-en.pdf)
