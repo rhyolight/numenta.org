@@ -6,7 +6,7 @@ The following resources have been provided by community members of the NuPIC ope
 
 * * *
 
-## [Hierarchal Temporal Memory - Persian]({{ site.baseurl }}/resources/community-content/Hierarchical%20Temporal%20Memory%20-%20Persian.pdf)
+## [Hierarchical Temporal Memory - Persian]({{ site.baseurl }}/resources/community-content/Hierarchical%20Temporal%20Memory%20-%20Persian.pdf)
 
 From a student in Artificial Intelligence with a Neural Network course in fall semester of 2014. 
 
