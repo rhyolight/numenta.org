@@ -30,6 +30,7 @@ and Project Wiki.
   * /htm.html >> /#theory
 * Document: node_modules/ and _config.yml excludes. lazy node_mods loading.
 * Document: README.md Staging - username.github.io/numenta.org, `baseurl` cfg
+* Add jquery.universal-analytics for advanced auto google analytics link tracking
 
 ### Important
 
