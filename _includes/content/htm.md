@@ -1,11 +1,11 @@
 
-# Hierarchal Temporal Memory (HTM)
+# Hierarchical Temporal Memory (HTM)
 
 > For a detailed explanation of [Hierarchical Temporal Memory](http://en.wikipedia.org/wiki/Hierarchical_temporal_memory), read the [HTM White Paper](htm-white-paper.html).
 
 There are many things humans find easy to do that computers are currently unable to do. Tasks such as visual pattern recognition, understanding spoken language, recognizing and manipulating objects by touch, and navigating in a complex world are easy for humans. Yet despite decades of research, we have few viable algorithms for achieving human-like performance on a computer.
 
-In humans, these capabilities are largely performed by the neocortex. Hierarchal Temporal Memory (HTM) is a technology modeled on how the neocortex performs these functions. It offers the groundwork for building machines that approach or exceed human level performance for many cognitive tasks. HTM is implemented within the [NuPIC]({{ site.baseurl }}/nupic.html) open source project.
+In humans, these capabilities are largely performed by the neocortex. Hierarchical Temporal Memory (HTM) is a technology modeled on how the neocortex performs these functions. It offers the groundwork for building machines that approach or exceed human level performance for many cognitive tasks. HTM is implemented within the [NuPIC]({{ site.baseurl }}/nupic.html) open source project.
 
 ## Online Learning
 
