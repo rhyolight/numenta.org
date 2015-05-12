@@ -1,16 +1,14 @@
-var checkpages = require('check-pages');
-var gulp = require('gulp');
-var webserver = require('gulp-webserver');
+var checkpages =  require('check-pages');
+var gulp =        require('gulp');
+var spawn =       require('child_process').spawn;
+var webserver =   require('gulp-webserver');
 
 var port = process.env.TEST_PORT || 8008;
 
 
-gulp.task('serve', function (callback) {
-  gulp.src('_site/').pipe(webserver({ port: port }));
-  callback();
-});
+// Individual Tasks
 
-gulp.task('checkpages', [ 'serve' ], function (callback) {
+gulp.task('checkpages', function (done) {
     var options = {
       pageUrls:         [ 'http://localhost:' + port ],
       checkLinks:       true,
@@ -28,10 +26,32 @@ gulp.task('checkpages', [ 'serve' ], function (callback) {
       summary:          false
     };
 
-  checkpages(console, options, callback);
+  checkpages(console, options, done);
+});
+
+gulp.task('mocha-casperjs', function () {
+  var child = spawn('mocha-casperjs');
+
+  child.stdout.on('data', function (data) {
+    process.stdout.write(data);
+  });
+
+  child.on('close', function (code) {
+    var success = code === 0; // Will be 1 in the event of failure
+    if(! success) throw new Error('Mocha-Casper: failed!');
+    console.log('Mocha-Casper: success!');
+  });
+});
+
+gulp.task('serve', function () {
+  gulp.src('_site/').pipe(webserver({ port: port }));
 });
 
 
+// Task Compositions
+
 gulp.task('default', [], function () {});
 
-gulp.task('check', [ 'serve', 'checkpages' ]);
+gulp.task('linkcheck', [ 'serve', 'checkpages' ]);
+
+gulp.task('webtest', [ 'serve', 'mocha-casperjs' ]);
