@@ -29,9 +29,9 @@ describe('Homepage', function () {
       });
     });
 
-  });
+  }); // meta
 
-  describe('Main Page Sections', function () {
+  describe('Page Content Sections', function () {
 
     describe('Hero Section', function () {
 
@@ -462,6 +462,6 @@ describe('Homepage', function () {
 
     }); // latest
 
-  });
+  }); // content
 
-});
+}); // index

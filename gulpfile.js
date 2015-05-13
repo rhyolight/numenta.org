@@ -12,8 +12,11 @@ var spawn =       require('child_process').spawn;
 
 // internals
 
+var host = process.env.TEST_HOST || 'http://localhost';
 var port = process.env.TEST_PORT || 8008;
-var WebServer = null; // TODO: make not global
+var path = process.env.TEST_PATH || '';
+
+var WebServer = null; // TODO: not global
 
 
 // Individual Tasks
@@ -22,10 +25,30 @@ var WebServer = null; // TODO: make not global
  * Gulp task to check web page links
  */
 gulp.task('checkpages', function (callback) {
-  var options, done, stream;
+  var urls, options, done, stream;
+
+  urls = [
+    '/',
+    '/bug-report.html',
+    '/code.html',
+    '/faq.html',
+    '/search.html',
+    '/blog/',
+    '/committers/',
+    '/contributors/',
+    '/events/',
+    '/licenses/',
+    '/licenses/cl/',
+    '/lists/',
+    '/media/',
+    '/news/',
+    '/styleguide/'
+  ].map(function(url) {
+    return host + ':' + port + path + url;
+  });
 
   options = {
-    pageUrls:         [ 'http://localhost:' + port ],
+    pageUrls:         urls,
     checkLinks:       true,
     onlySameDomain:   true,
     queryHashes:      true,
@@ -38,7 +61,7 @@ gulp.task('checkpages', function (callback) {
     checkCompression: false, // true for prod ?
     maxResponseTime:  200,
     userAgent:        'custom-user-agent/1.2.3',
-    summary:          false
+    summary:          true
   };
 
   done = function (error) {
