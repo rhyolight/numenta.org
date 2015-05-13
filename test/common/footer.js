@@ -10,7 +10,7 @@ module.exports = function() {
 
     describe('Footer Social area', function() {
 
-      var selector = "footer > .social .social";
+      var selector = "footer > section.social";
 
       it('should exist', function() {
         casper.then(function() {
@@ -26,27 +26,9 @@ module.exports = function() {
 
     });
 
-    describe('Footer Subscribe area', function() {
+    describe('Footer Nav area', function() {
 
-      var selector = "footer > .social .subscribe";
-
-      it('should exist', function() {
-        casper.then(function() {
-          selector.should.be.inDOM;
-        });
-      });
-
-      it('should be visible', function() {
-        casper.then(function() {
-          selector.should.be.visible;
-        });
-      });
-
-    });
-
-    describe('Footer Links area', function() {
-
-      var selector = "footer > .footer > nav > ul";
+      var selector = "footer > section.nav";
 
       it('should exist', function() {
         casper.then(function() {
@@ -62,11 +44,10 @@ module.exports = function() {
 
     });
 
-    describe('Footer Copyright area', function() {
+    describe('Footer Legal area', function() {
 
-      var selector =  "footer > .footer > .copyright > ul",
-          copyright = selector + " > li:nth-child(1)",
-          year =      new Date().getFullYear();
+      var selector = "footer > section.legal",
+          year = new Date().getFullYear();
 
       it('should exist', function() {
         casper.then(function() {
@@ -80,15 +61,15 @@ module.exports = function() {
         });
       });
 
-      it('should have correct text', function() {
+      it('should have correct copyright text', function() {
         casper.then(function() {
-          copyright.should.have.text(/Copyright.*Numenta/);
+          selector.should.have.text(/Copyright.*Numenta/);
         });
       });
 
-      it('should have correct year', function() {
+      it('should have correct copyright year', function() {
         casper.then(function() {
-          copyright.should.have.text(new RegExp(year));
+          selector.should.have.text(new RegExp(year));
         });
       });
 

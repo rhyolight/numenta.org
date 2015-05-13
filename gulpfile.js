@@ -26,7 +26,10 @@ gulp.task('checkpages', function (done) {
       summary:          false
     };
 
-  checkpages(console, options, done);
+  checkpages(console, options, function () {
+    console.log('TODO: Webserver should probably close now by itself...');
+    done();
+  });
 });
 
 gulp.task('mocha-casperjs', function () {
@@ -40,6 +43,7 @@ gulp.task('mocha-casperjs', function () {
     var success = code === 0; // Will be 1 in the event of failure
     if(! success) throw new Error('Mocha-Casper: failed!');
     console.log('Mocha-Casper: success!');
+    console.log('TODO: Webserver should probably close now by itself...');
   });
 });
 
