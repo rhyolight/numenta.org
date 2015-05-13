@@ -1,484 +1,466 @@
 var commonTests = require('./common/'),
     util =        require('./lib/util');
 
-describe('Homepage', function() {
+describe('Homepage', function () {
 
-  before(function() {
+  before(function () {
     casper.start(util.getUrl('/'));
   });
 
   commonTests();
 
-  it('should have correct page title', function() {
-    casper.then(function() {
-      "NuPIC | Numenta Platform for Intelligent Computing".should.matchTitle;
+  describe('Page Meta', function () {
+
+    it('should load page styles', function () {
+      casper.then(function () {
+        "index.css".should.be.loaded;
+      });
     });
+
+    it('should have correct page title', function () {
+      casper.then(function () {
+        "NuPIC | Numenta Platform for Intelligent Computing".should.matchTitle;
+      });
+    });
+
+    it('should load page scripts', function () {
+      casper.then(function () {
+        "index.js".should.be.loaded;
+      });
+    });
+
   });
 
+  describe('Main Page Sections', function () {
 
-  describe('Page-specific Main Content area', function() {
+    describe('Hero Section', function () {
 
-    var selector = "main > div.index";
+      var selector = "main > section.hero";
 
-    it('should exist', function() {
-      casper.then(function() {
-        selector.should.be.inDOM;
+      it('should exist', function () {
+        casper.then(function () {
+          selector.should.be.inDOM;
+        });
       });
-    });
 
-    it('should be visible', function() {
-      casper.then(function() {
-        selector.should.be.visible;
+      it('should be visible', function () {
+        casper.then(function () {
+          selector.should.be.visible;
+        });
       });
-    });
 
-    describe('Main Page Sections', function() {
+      describe('h1 Title', function () {
 
-      describe('Hero Section', function() {
+        var selector = "main > section.hero h1";
 
-        var selector = "main > div.index > section.hero";
-
-        it('should exist', function() {
-          casper.then(function() {
+        it('should exist', function () {
+          casper.then(function () {
             selector.should.be.inDOM;
           });
         });
 
-        it('should be visible', function() {
-          casper.then(function() {
+        it('should be visible', function () {
+          casper.then(function () {
             selector.should.be.visible;
           });
         });
 
-        describe('h1 Title', function() {
-
-          var selector = "main > div.index > section.hero h1";
-
-          it('should exist', function() {
-            casper.then(function() {
-              selector.should.be.inDOM;
-            });
+        it('should contain valid text', function () {
+          casper.then(function () {
+            selector.should.have.text(/Welcome/);
           });
+        });
 
-          it('should be visible', function() {
-            casper.then(function() {
-              selector.should.be.visible;
-            });
-          });
+      }); // h1
 
-          it('should contain valid text', function() {
-            casper.then(function() {
-              selector.should.have.text(/Leading.*New Era.*Machine Intelligence/);
-            });
-          });
+      describe('Paragraph Text', function () {
 
-        }); // h1
+        var selector = "main > section.hero p";
 
-        describe('Paragraph Text', function() {
-
-          var selector = "main > div.index > section.hero p";
-
-          it('should exist', function() {
-            casper.then(function() {
-              selector.should.be.inDOM;
-            });
-          });
-
-          it('should be visible', function() {
-            casper.then(function() {
-              selector.should.be.visible;
-            });
-          });
-
-          it('should contain valid text', function() {
-            casper.then(function() {
-              selector.should.have.text(/Numenta has developed a cohesive theory/);
-            });
-          });
-
-        }); // p
-
-        describe('Videos', function() {
-
-          var selector = "main > div.index > section.hero a.youtube";
-
-          it('should exist', function() {
-            casper.then(function() {
-              selector.should.be.inDOM;
-            });
-          });
-
-          it('should be visible', function() {
-            casper.then(function() {
-              selector.should.be.visible;
-            });
-          });
-
-        }); // videos
-
-      }); // hero
-
-      describe('Machine Intelligence Section', function() {
-
-        var selector = "main > div.index > section.intelligence";
-
-        it('should exist', function() {
-          casper.then(function() {
+        it('should exist', function () {
+          casper.then(function () {
             selector.should.be.inDOM;
           });
         });
 
-        it('should be visible', function() {
-          casper.then(function() {
+        it('should be visible', function () {
+          casper.then(function () {
             selector.should.be.visible;
           });
         });
 
-        describe('Heading', function() {
-
-          var selector = "main > div.index > section.intelligence h3";
-
-          it('should exist', function() {
-            casper.then(function() {
-              selector.should.be.inDOM;
-            });
+        it('should contain valid text', function () {
+          casper.then(function () {
+            selector.should.have.text(/is an open source Platform and Community/);
           });
+        });
 
-          it('should be visible', function() {
-            casper.then(function() {
-              selector.should.be.visible;
-            });
-          });
+      }); // p
 
-          it('should contain valid text', function() {
-            casper.then(function() {
-              selector.should.have.text(/Machine Intelligence/);
-            });
-          });
+      describe('Features', function () {
 
-        }); // heading
+        var selector = "main > section.hero ul.features";
 
-        describe('Content', function() {
-
-          var selector = "main > div.index > section.intelligence p";
-
-          it('should exist', function() {
-            casper.then(function() {
-              selector.should.be.inDOM;
-            });
-          });
-
-          it('should be visible', function() {
-            casper.then(function() {
-              selector.should.be.visible;
-            });
-          });
-
-          it('should contain valid text', function() {
-            casper.then(function() {
-              selector.should.have.text(/intelligent machines/);
-            });
-          });
-
-        }); // content
-
-      }); // machine intel
-
-      describe('Technology Section', function() {
-
-        var selector = "main > div.index > section.technology";
-
-        it('should exist', function() {
-          casper.then(function() {
+        it('should exist', function () {
+          casper.then(function () {
             selector.should.be.inDOM;
           });
         });
 
-        it('should be visible', function() {
-          casper.then(function() {
+        it('should be visible', function () {
+          casper.then(function () {
             selector.should.be.visible;
           });
         });
 
-        describe('Heading', function() {
+      }); // features
 
-          var selector = "main > div.index > section.technology h2";
+    }); // hero
 
-          it('should exist', function() {
-            casper.then(function() {
-              selector.should.be.inDOM;
-            });
-          });
+    describe('Start Section', function () {
 
-          it('should be visible', function() {
-            casper.then(function() {
-              selector.should.be.visible;
-            });
-          });
+      var selector = "main > section.start";
 
-          it('should contain valid text', function() {
-            casper.then(function() {
-              selector.should.have.text(/Technology/);
-            });
-          });
+      it('should exist', function () {
+        casper.then(function () {
+          selector.should.be.inDOM;
+        });
+      });
 
-        }); // heading
+      it('should be visible', function () {
+        casper.then(function () {
+          selector.should.be.visible;
+        });
+      });
 
-        describe('Content', function() {
+      describe('Heading', function () {
 
-          var selector = "main > div.index > section.technology p";
+        var selector = "main > section.start h2";
 
-          it('should exist', function() {
-            casper.then(function() {
-              selector.should.be.inDOM;
-            });
-          });
-
-          it('should be visible', function() {
-            casper.then(function() {
-              selector.should.be.visible;
-            });
-          });
-
-          it('should contain valid text', function() {
-            casper.then(function() {
-              selector.should.have.text(/learning algorithms/);
-            });
-          });
-
-          describe('Video', function() {
-
-            var selector = "main > div.index > section.technology a.youtube";
-
-            it('should exist', function() {
-              casper.then(function() {
-                selector.should.be.inDOM;
-              });
-            });
-
-            it('should be visible', function() {
-              casper.then(function() {
-                selector.should.be.visible;
-              });
-            });
-
-          }); // video
-
-        }); // content
-
-      }); // tech
-
-      describe('Applications Section', function() {
-
-        var selector = "main > div.index > section.applications";
-
-        it('should exist', function() {
-          casper.then(function() {
+        it('should exist', function () {
+          casper.then(function () {
             selector.should.be.inDOM;
           });
         });
 
-        it('should be visible', function() {
-          casper.then(function() {
+        it('should be visible', function () {
+          casper.then(function () {
             selector.should.be.visible;
           });
         });
 
-        describe('Heading', function() {
-
-          var selector = "main > div.index > section.applications h2";
-
-          it('should exist', function() {
-            casper.then(function() {
-              selector.should.be.inDOM;
-            });
+        it('should contain valid text', function () {
+          casper.then(function () {
+            selector.should.have.text(/Start/);
           });
+        });
 
-          it('should be visible', function() {
-            casper.then(function() {
-              selector.should.be.visible;
-            });
-          });
+      }); // heading
 
-          it('should contain valid text', function() {
-            casper.then(function() {
-              selector.should.have.text(/Applications/);
-            });
-          });
+      describe('Content', function () {
 
-          describe('Video', function() {
+        var selector = "main > section.start p";
 
-            var selector = "main > div.index > section.applications a.youtube";
-
-            it('should exist', function() {
-              casper.then(function() {
-                selector.should.be.inDOM;
-              });
-            });
-
-            it('should be visible', function() {
-              casper.then(function() {
-                selector.should.be.visible;
-              });
-            });
-
-          }); // video
-
-        }); // heading
-
-        describe('Content', function() {
-
-          var selector = "main > div.index > section.applications .container .row div";
-
-          it('should exist', function() {
-            casper.then(function() {
-              selector.should.be.inDOM;
-            });
-          });
-
-          it('should be visible', function() {
-            casper.then(function() {
-              selector.should.be.visible;
-            });
-          });
-
-          it('should contain valid text', function() {
-            casper.then(function() {
-              selector.should.have.text(/variety of applications/);
-            });
-          });
-
-        }); // content
-
-      }); // apps
-
-      describe('Get Started Section', function() {
-
-        var selector = "main > div.index > section.start";
-
-        it('should exist', function() {
-          casper.then(function() {
+        it('should exist', function () {
+          casper.then(function () {
             selector.should.be.inDOM;
           });
         });
 
-        it('should be visible', function() {
-          casper.then(function() {
+        it('should be visible', function () {
+          casper.then(function () {
             selector.should.be.visible;
           });
         });
 
-        describe('Heading', function() {
-
-          var selector = "main > div.index > section.start h2";
-
-          it('should exist', function() {
-            casper.then(function() {
-              selector.should.be.inDOM;
-            });
+        it('should contain valid text', function () {
+          casper.then(function () {
+            selector.should.have.text(/Get started with NuPIC/);
           });
+        });
 
-          it('should be visible', function() {
-            casper.then(function() {
-              selector.should.be.visible;
-            });
-          });
+      }); // content
 
-          it('should contain valid text', function() {
-            casper.then(function() {
-              selector.should.have.text(/Get Started/);
-            });
-          });
+    }); // start
 
-        }); // heading
+    describe('Docs Section', function () {
 
-        describe('Content', function() {
+      var selector = "main > section.docs";
 
-          var selector = "main > div.index > section.start p";
+      it('should exist', function () {
+        casper.then(function () {
+          selector.should.be.inDOM;
+        });
+      });
 
-          it('should exist', function() {
-            casper.then(function() {
-              selector.should.be.inDOM;
-            });
-          });
+      it('should be visible', function () {
+        casper.then(function () {
+          selector.should.be.visible;
+        });
+      });
 
-          it('should be visible', function() {
-            casper.then(function() {
-              selector.should.be.visible;
-            });
-          });
+      describe('Heading', function () {
 
-          it('should contain valid text', function() {
-            casper.then(function() {
-              selector.should.have.text(/how to get started/);
-            });
-          });
+        var selector = "main > section.docs h2";
 
-        }); // content
-
-      }); // get started
-
-      describe('Latest Section', function() {
-
-        var selector = "main > div.index > section.latest";
-
-        it('should exist', function() {
-          casper.then(function() {
+        it('should exist', function () {
+          casper.then(function () {
             selector.should.be.inDOM;
           });
         });
 
-        it('should be visible', function() {
-          casper.then(function() {
+        it('should be visible', function () {
+          casper.then(function () {
             selector.should.be.visible;
           });
         });
 
-        describe('Heading', function() {
-
-          var selector = "main > div.index > section.latest h3";
-
-          it('should exist', function() {
-            casper.then(function() {
-              selector.should.be.inDOM;
-            });
+        it('should contain valid text', function () {
+          casper.then(function () {
+            selector.should.have.text(/Docs/);
           });
+        });
 
-          it('should be visible', function() {
-            casper.then(function() {
-              selector.should.be.visible;
-            });
+      }); // heading
+
+      describe('Content', function () {
+
+        var selector = "main > section.docs p";
+
+        it('should exist', function () {
+          casper.then(function () {
+            selector.should.be.inDOM;
           });
+        });
 
-          it('should contain valid text', function() {
-            casper.then(function() {
+        it('should be visible', function () {
+          casper.then(function () {
+            selector.should.be.visible;
+          });
+        });
+
+        it('should contain valid text', function () {
+          casper.then(function () {
+            selector.should.have.text(/Learn how to use NuPIC/);
+          });
+        });
+
+      }); // content
+
+    }); // docs
+
+    describe('Theory Section', function () {
+
+      var selector = "main > section.theory";
+
+      it('should exist', function () {
+        casper.then(function () {
+          selector.should.be.inDOM;
+        });
+      });
+
+      it('should be visible', function () {
+        casper.then(function () {
+          selector.should.be.visible;
+        });
+      });
+
+      describe('Heading', function () {
+
+        var selector = "main > section.theory h2";
+
+        it('should exist', function () {
+          casper.then(function () {
+            selector.should.be.inDOM;
+          });
+        });
+
+        it('should be visible', function () {
+          casper.then(function () {
+            selector.should.be.visible;
+          });
+        });
+
+        it('should contain valid text', function () {
+          casper.then(function () {
+            selector.should.have.text(/Theory/);
+          });
+        });
+
+      }); // heading
+
+      describe('Content', function () {
+
+        var selector = "main > section.theory p";
+
+        it('should exist', function () {
+          casper.then(function () {
+            selector.should.be.inDOM;
+          });
+        });
+
+        it('should be visible', function () {
+          casper.then(function () {
+            selector.should.be.visible;
+          });
+        });
+
+        it('should contain valid text', function () {
+          casper.then(function () {
+            selector.should.have.text(/a set of algorithms/);
+          });
+        });
+
+      }); // content
+
+    }); // theory
+
+    describe('Community Section', function () {
+
+      var selector = "main > section.community";
+
+      it('should exist', function () {
+        casper.then(function () {
+          selector.should.be.inDOM;
+        });
+      });
+
+      it('should be visible', function () {
+        casper.then(function () {
+          selector.should.be.visible;
+        });
+      });
+
+      describe('Heading', function () {
+
+        var selector = "main > section.community h2";
+
+        it('should exist', function () {
+          casper.then(function () {
+            selector.should.be.inDOM;
+          });
+        });
+
+        it('should be visible', function () {
+          casper.then(function () {
+            selector.should.be.visible;
+          });
+        });
+
+        it('should contain valid text', function () {
+          casper.then(function () {
+            selector.should.have.text(/Community/);
+          });
+        });
+
+      }); // heading
+
+      describe('Content', function () {
+
+        var selector = "main > section.community p";
+
+        it('should exist', function () {
+          casper.then(function () {
+            selector.should.be.inDOM;
+          });
+        });
+
+        it('should be visible', function () {
+          casper.then(function () {
+            selector.should.be.visible;
+          });
+        });
+
+        it('should contain valid text', function () {
+          casper.then(function () {
+            selector.should.have.text(/working together towards/);
+          });
+        });
+
+      }); // content
+
+    }); // community
+
+    describe('Latest Section', function () {
+
+      var selector = "main > section.latest";
+
+      it('should exist', function () {
+        casper.then(function () {
+          selector.should.be.inDOM;
+        });
+      });
+
+      it('should be visible', function () {
+        casper.then(function () {
+          selector.should.be.visible;
+        });
+      });
+
+      describe('Heading', function () {
+
+        var selector = "main > section.latest h2";
+
+        it('should exist', function () {
+          casper.then(function () {
+            selector.should.be.inDOM;
+          });
+        });
+
+        it('should be visible', function () {
+          casper.then(function () {
+            selector.should.be.visible;
+          });
+        });
+
+        it('should contain valid text', function () {
+          casper.then(function () {
+            selector.should.have.text(/Latest/);
+          });
+        });
+
+      }); // heading
+
+      describe('Content', function () {
+
+        var selector = "main > section.latest p";
+
+        it('should exist', function () {
+          casper.then(function () {
+            selector.should.be.inDOM;
+          });
+        });
+
+        it('should be visible', function () {
+          casper.then(function () {
+            selector.should.be.visible;
+          });
+        });
+
+        it('should contain valid text', function () {
+          casper.then(function () {
+            selector.should.have.text(/with the latest on/);
+          });
+        });
+
+        describe('Sections', function () {
+
+          var selector = "main > section.latest h3";
+
+          it('should exist', function () {
+            casper.then(function () {
               selector.should.have.text(/Blog/);
+              selector.should.have.text(/Events/);
+              selector.should.have.text(/News/);
+              selector.should.have.text(/Media/);
             });
           });
 
-        }); // heading
+        });
 
-        describe('Content', function() {
+      }); // content
 
-          var selector = "main > div.index > section.latest p";
-
-          it('should exist', function() {
-            casper.then(function() {
-              selector.should.be.inDOM;
-            });
-          });
-
-          it('should be visible', function() {
-            casper.then(function() {
-              selector.should.be.visible;
-            });
-          });
-
-        }); // content
-
-      }); // latest
-
-    });
+    }); // latest
 
   });
 

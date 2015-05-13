@@ -24,9 +24,9 @@ module.exports = function() {
         });
       });
 
-      describe('Header NAV Logo', function() {
+      describe('Header NAV Brand', function() {
 
-        var selector = "header > nav a.navbar-brand > img";
+        var selector = "header > nav a.navbar-brand";
 
         it('should exist', function() {
           casper.then(function() {
@@ -40,7 +40,7 @@ module.exports = function() {
           });
         });
 
-      }); // header nav logo
+      }); // header nav brand
 
       describe('Header NAV Menu', function() {
 
@@ -54,7 +54,7 @@ module.exports = function() {
 
         describe('Header NAV Menu Items', function() {
 
-          describe('Machine Intelligence', function() {
+          describe('Start', function() {
 
             var selector = "header > nav ul.nav > li:nth-child(1) > a";
 
@@ -72,13 +72,13 @@ module.exports = function() {
 
             it('should contain correct text', function() {
               casper.then(function() {
-                selector.should.have.text('Machine Intelligence');
+                selector.should.have.text(/Start/);
               });
             });
 
-          }); // machine intel
+          }); // start
 
-          describe('Technology', function() {
+          describe('Docs', function() {
 
             var selector = "header > nav ul.nav > li:nth-child(2) > a";
 
@@ -96,13 +96,13 @@ module.exports = function() {
 
             it('should contain correct text', function() {
               casper.then(function() {
-                selector.should.have.text('Technology');
+                selector.should.have.text(/Docs/);
               });
             });
 
-          }); // technology
+          }); // docs
 
-          describe('Applications', function() {
+          describe('Theory', function() {
 
             var selector = "header > nav ul.nav > li:nth-child(3) > a";
 
@@ -120,13 +120,13 @@ module.exports = function() {
 
             it('should contain correct text', function() {
               casper.then(function() {
-                selector.should.have.text('Applications');
+                selector.should.have.text(/Theory/);
               });
             });
 
-          }); // applications
+          }); // theory
 
-          describe('Get Started', function() {
+          describe('Community', function() {
 
             var selector = "header > nav ul.nav > li:nth-child(4) > a";
 
@@ -144,11 +144,59 @@ module.exports = function() {
 
             it('should contain correct text', function() {
               casper.then(function() {
-                selector.should.have.text('Get Started');
+                selector.should.have.text(/Community/);
               });
             });
 
-          }); // technology
+          }); // community
+
+          describe('Latest', function() {
+
+            var selector = "header > nav ul.nav > li:nth-child(5) > a";
+
+            it('should exist', function() {
+              casper.then(function() {
+                selector.should.be.inDOM;
+              });
+            });
+
+            it('should be a link', function() {
+              casper.then(function() {
+                selector.should.have.attribute('href');
+              });
+            });
+
+            it('should contain correct text', function() {
+              casper.then(function() {
+                selector.should.have.text(/Latest/);
+              });
+            });
+
+          }); // latest
+
+          describe('More', function() {
+
+            var selector = "header > nav ul.nav > li:nth-child(6) > a";
+
+            it('should exist', function() {
+              casper.then(function() {
+                selector.should.be.inDOM;
+              });
+            });
+
+            it('should be a link', function() {
+              casper.then(function() {
+                selector.should.have.attribute('href');
+              });
+            });
+
+            it('should contain correct text', function() {
+              casper.then(function() {
+                selector.should.have.text(/More/);
+              });
+            });
+
+          }); // more
 
         }); // header nav menu items
 
