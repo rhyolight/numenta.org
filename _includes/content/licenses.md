@@ -1,5 +1,4 @@
-License
--------
+# License
 
 * NuPIC is licensed as dual commercial and [GPL version 3](http://www.gnu.org/licenses/gpl.html)
 * Commercial licenses are also available from [Numenta](mailto:help@numenta.org).
@@ -13,7 +12,7 @@ Our CEO, Donna Dubinsky, wrote a blog post about our [Patent Position](http://nu
 
 Contributor License
 ----------
-Are you interested in [getting involved]({{ site.baseurl }}{{ site.data.url.community }}) in this project? You'll first have to sign the [Contributor License]({{ site.baseurl }}{{ site.data.url.licenses }}).
+Are you interested in [getting involved]({{ site.baseurl }}{{ site.data.url.community }}) in this project? You'll first have to sign the [Contributor License]({{ site.baseurl }}{{ site.data.url.licenses }}cl/).
 
 Translations
 ----------

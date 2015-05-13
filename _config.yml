@@ -73,4 +73,5 @@ exclude:
 - "node_modules/mocha"
 - "node_modules/mocha-casperjs"
 - "node_modules/phantomjs"
+- "test"
 - "vendor"
