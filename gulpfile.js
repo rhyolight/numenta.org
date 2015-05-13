@@ -1,54 +1,93 @@
+/**
+ * Numenta.org gulpfile.js build tooling
+ */
+
+
+// externals
+
 var checkpages =  require('check-pages');
 var gulp =        require('gulp');
+var gwebserver =  require('gulp-webserver');
 var spawn =       require('child_process').spawn;
-var webserver =   require('gulp-webserver');
+
+// internals
 
 var port = process.env.TEST_PORT || 8008;
+var WebServer = null; // TODO: make not global
 
 
 // Individual Tasks
 
-gulp.task('checkpages', function (done) {
-    var options = {
-      pageUrls:         [ 'http://localhost:' + port ],
-      checkLinks:       true,
-      onlySameDomain:   true,
-      queryHashes:      true,
-      noRedirects:      true,
-      noLocalLinks:     false,
-      noEmptyFragments: true,
-      linksToIgnore:    [],
-      checkXhtml:       false,
-      checkCaching:     true,
-      checkCompression: false, // true for prod?
-      maxResponseTime:  200,
-      userAgent:        'custom-user-agent/1.2.3',
-      summary:          false
-    };
+/**
+ * Gulp task to check web page links
+ */
+gulp.task('checkpages', function (callback) {
+  var options, done, stream;
 
-  checkpages(console, options, function () {
-    console.log('TODO: Webserver should probably close now by itself...');
-    done();
-  });
+  options = {
+    pageUrls:         [ 'http://localhost:' + port ],
+    checkLinks:       true,
+    onlySameDomain:   true,
+    queryHashes:      true,
+    noRedirects:      true,
+    noLocalLinks:     false, // true for prod ?
+    noEmptyFragments: true,
+    linksToIgnore:    [],
+    checkXhtml:       false,
+    checkCaching:     true,
+    checkCompression: false, // true for prod ?
+    maxResponseTime:  200,
+    userAgent:        'custom-user-agent/1.2.3',
+    summary:          false
+  };
+
+  done = function (error) {
+    WebServer.emit('kill');
+    callback(error);
+  };
+
+  stream = checkpages(console, options, done);
+
+  return stream;
 });
 
-gulp.task('mocha-casperjs', function () {
-  var child = spawn('mocha-casperjs');
+/**
+ * Gulp task to run mocha-casperjs web test suite
+ */
+gulp.task('mocha-casperjs', function (callback) {
+  var stream = spawn('mocha-casperjs');
+  console.log('Mocha-Casper: started. Output will follow soon...');
 
-  child.stdout.on('data', function (data) {
+  stream.stdout.on('data', function (data) {
     process.stdout.write(data);
   });
 
-  child.on('close', function (code) {
+  stream.on('close', function (code) {
     var success = code === 0; // Will be 1 in the event of failure
-    if(! success) throw new Error('Mocha-Casper: failed!');
+
+    WebServer.emit('kill');
+
+    if(! success) {
+      // fail
+      callback(new Error('Mocha-Casper: failed!'));
+      return;
+    }
+
+    // success
     console.log('Mocha-Casper: success!');
-    console.log('TODO: Webserver should probably close now by itself...');
+    callback();
   });
+
+  return stream;
 });
 
+/**
+ * Gulp task to serve site from the _site/ build dir
+ */
 gulp.task('serve', function () {
-  gulp.src('_site/').pipe(webserver({ port: port }));
+  var stream = gulp.src('_site/').pipe(gwebserver({ port: port }));
+  WebServer = stream;
+  return stream;
 });
 
 

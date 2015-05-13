@@ -11,7 +11,7 @@
     "guide": "kss-node --config styleguide/_config/config.json",
     "serve": "bundle exec jekyll serve --baseurl ''",
     "test": "npm run webtest && npm run linkcheck",
-    "webtest": "gulp webtest"
+    "webtest": "PHANTOMJS_EXECUTABLE=`npm bin`/phantomjs gulp webtest"
   },
   "repository": {
     "type": "git",
@@ -49,7 +49,7 @@
     "check-pages": "0.8.0",
     "gulp": "3.8.11",
     "gulp-webserver": "0.9.1",
-    "kss": "2.0.2",
+    "kss": "2.1.0",
     "mocha": "2.2.4",
     "mocha-casperjs": "0.5.3",
     "phantomjs": "1.9.16"
