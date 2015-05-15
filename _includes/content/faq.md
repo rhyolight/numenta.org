@@ -1,5 +1,4 @@
-Frequently Asked Questions
-===========================
+# Frequently Asked Questions
 
 * [Is there a specific application for NuPIC?](#is-there-a-specific-application-for-nupic)
 * [What's the difference between your contributor license and Apache's?](#whats-the-difference-between-your-contributor-license-and-apaches)
