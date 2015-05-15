@@ -8,7 +8,10 @@
 var checkpages =  require('check-pages');
 var gulp =        require('gulp');
 var gwebserver =  require('gulp-webserver');
+var package =     require('./package.json');
+var sitemap =     require('gulp-sitemap');
 var spawn =       require('child_process').spawn;
+var tap =         require('gulp-tap');
 
 // internals
 
@@ -29,19 +32,20 @@ gulp.task('checkpages', function (callback) {
 
   urls = [
     '/',
+    '/blog/',
     '/bug-report.html',
     '/code.html',
-    '/faq.html',
-    '/search.html',
-    '/blog/',
     '/committers/',
     '/contributors/',
+    '/docs/',
     '/events/',
+    '/faq.html',
     '/licenses/',
     '/licenses/cl/',
     '/lists/',
     '/media/',
     '/news/',
+    '/search.html',
     '/styleguide/'
   ].map(function(url) {
     return host + ':' + port + path + url;
@@ -110,6 +114,30 @@ gulp.task('mocha-casperjs', function (callback) {
 gulp.task('serve', function () {
   var stream = gulp.src('_site/').pipe(gwebserver({ port: port }));
   WebServer = stream;
+  return stream;
+});
+
+/**
+ * Gulp task to generate sitemap.xml
+ */
+gulp.task('sitemap', function () {
+  var stream = gulp.
+    src([
+      '**/*.html',
+      '!{_data,_includes,_layouts,_sass,_site,assets,images,javascripts,lib,node_modules,resources,stats,styleguide/_config,stylesheets,test,tools}/**',
+      '**/_posts/*.md',
+      ''
+    ]).
+    pipe(tap(function (file) {
+      if (file.path.match(/.*\/_posts\/.*\.md$/)) {
+        file.path = file.path.replace(/_posts\/(\d{4})-(\d{2})-(\d{2})-/, "$1\/$2\/$3\/");
+        file.path = file.path.replace(/\.md$/, '.html');
+        return file;
+      }
+    })).
+    pipe(sitemap({ siteUrl: package.homepage })).
+    pipe(gulp.dest('./'));
+
   return stream;
 });
 

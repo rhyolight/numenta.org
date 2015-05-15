@@ -68,6 +68,8 @@ exclude:
 - "node_modules/chai"
 - "node_modules/check-pages"
 - "node_modules/gulp"
+- "node_modules/gulp-sitemap"
+- "node_modules/gulp-tap"
 - "node_modules/gulp-webserver"
 - "node_modules/kss"
 - "node_modules/mocha"
