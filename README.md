@@ -1,4 +1,4 @@
-# NuPIC Website Source
+# NuPIC Website Sourcecode
 
 #### http://numenta.org
 

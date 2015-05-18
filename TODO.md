@@ -17,7 +17,6 @@ and Project Wiki.
 * make linkcheck work against prod or staging too
 * Redirects:
   * /blog.xml >> /blog/index.xml
-  * /blog/archive.html >> /blog/
   * /feed.xml >> /news/index.xml
   * /news/archive.html >> /news/
   * /about.html >> http://numenta.com
@@ -34,6 +33,7 @@ and Project Wiki.
 
 ### Important
 
+* Custom 404 page
 * entity images
 * Init Project wiki
 * Update and migrate redesign project wiki page
