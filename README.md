@@ -52,14 +52,11 @@ npm install
 
 ### Development
 
-Build and serve site:
-```
-npm run dev
-```
-
-When the build is finished, visit local URL in browser:
-
-> `http://localhost:4000`
+* Build and serve site: `npm run dev`
+* When the build is finished, visit local URL in browser:
+  `http://localhost:4000`
+* Run webtests and linkchecker against built site (in `_site/` dir):
+  `npm run test`
 
 ### Staging
 
