@@ -79,7 +79,7 @@ Build:
 
 Test against Staging:
 ```
-$ TEST_HOST=http://username.github.io TEST_PORT=80 TEST_PATH=/numenta.org npm run test
+TEST_HOST=http://username.github.io TEST_PORT=80 TEST_PATH=/numenta.org npm run test
 ```
 
 ### Production
@@ -97,7 +97,7 @@ Build:
 
 Test against Production:
 ```
-$ TEST_HOST=http://numenta.org TEST_PORT=80 TEST_PATH=  npm run test
+TEST_HOST=http://numenta.org TEST_PORT=80 TEST_PATH=  npm run test
 ```
 
 
