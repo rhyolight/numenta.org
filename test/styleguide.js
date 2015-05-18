@@ -24,9 +24,9 @@ describe('Styleguide', function () {
 
     it('should load page scripts', function () {
       casper.then(function () {
-        "html > body > script[src*='jquery-1.9.1.min.js']".should.be.inDOM;
-        "html > body > script[src*='kss.js']".should.be.inDOM;
-        "html > body > script[src*='main.js']".should.be.inDOM;
+        "html > body script[src*='jquery-1.9.1.min.js']".should.be.inDOM;
+        "html > body script[src*='kss.js']".should.be.inDOM;
+        "html > body script[src*='main.js']".should.be.inDOM;
       });
     });
 

@@ -62,8 +62,10 @@ Visit local development site:
 
 Run webtests and linkchecks against local environment:
 ```
-# the next two lines are equivalent! the last line is explicit about defaults
+# use defaults
 npm run test
+
+# customize test target if needed (defaults listed)
 TEST_HOST=http://localhost TEST_PORT=8008 TEST_PATH=  npm run test
 ```
 
