@@ -1,5 +1,5 @@
 # NuPIC API Documentation
 
-* [nupic](nupic/)
-* [nupic.core](nupic.core/)
-* [htm.java](htm.java/)
+* <i></i> [nupic](nupic/)
+* <i></i> [nupic.core](nupic.core/)
+* <i></i> [htm.java](htm.java/)

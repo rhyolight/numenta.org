@@ -37,10 +37,12 @@ faq:      /faq.html
 hack:     /hack/
 licenses: /licenses/
 lists:    /lists/
+refapi:   /docs/nupic/
+refcore:  /docs/nupic.core/
+refjava:  /docs/htm.java/
 report:   /bug-report.html
 search:   /search.html
-sitemap:  /sitemapTODO
-
+sitemap:  /sitemap.html
 
 
 ### External
@@ -61,9 +63,6 @@ ext:
   issues:   http://status.numenta.org/issues
   moreapps: http://numenta.com/#applications
   privacy:  http://numenta.com/legal/privacy.html
-  refapi:   http://numenta.org/docs/nupic/
-  refcore:  http://numenta.org/docs/nupic.core/
-  refjava:  http://numenta.org/docs/htm.java/
   roadmap:  http://status.numenta.org/roadmap
   terms:    http://numenta.com/legal/terms.html
 

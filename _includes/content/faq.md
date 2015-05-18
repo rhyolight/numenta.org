@@ -1,11 +1,11 @@
 # Frequently Asked Questions
 
-* [Is there a specific application for NuPIC?](#is-there-a-specific-application-for-nupic)
-* [What's the difference between your contributor license and Apache's?](#whats-the-difference-between-your-contributor-license-and-apaches)
-* [What's the difference between this and your old offering?](#whats-the-difference-between-this-and-your-old-offering)
-* [Can I add an external library to NuPIC?](#can-i-add-an-external-library-to-nupic)
-* [Does NuPIC implement hierarchy?](#does-nupic-implement-hierarchy)
-* [What is the difference between HTM and CLA?](#what-is-the-difference-between-htm-and-cla)
+* <i></i> [Is there a specific application for NuPIC?](#is-there-a-specific-application-for-nupic)
+* <i></i> [What's the difference between your contributor license and Apache's?](#whats-the-difference-between-your-contributor-license-and-apaches)
+* <i></i> [What's the difference between this and your old offering?](#whats-the-difference-between-this-and-your-old-offering)
+* <i></i> [Can I add an external library to NuPIC?](#can-i-add-an-external-library-to-nupic)
+* <i></i> [Does NuPIC implement hierarchy?](#does-nupic-implement-hierarchy)
+* <i></i> [What is the difference between HTM and CLA?](#what-is-the-difference-between-htm-and-cla)
 
 ## Is there a specific application for NuPIC?
 
