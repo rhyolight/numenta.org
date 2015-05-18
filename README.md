@@ -55,7 +55,7 @@ npm install
 * Build and serve site: `npm run dev`
 * When the build is finished, visit local URL in browser:
   `http://localhost:4000`
-* Run webtests and linkchecker against built site (in `_site/` dir):
+* Run webtests and linkchecker against built site (`_site/` dir) on port 8008:
   `npm run test`
 
 ### Staging
