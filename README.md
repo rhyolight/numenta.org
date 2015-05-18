@@ -111,7 +111,7 @@ When the build is finished, visit local URL in browser:
   * Use `&amp;` instead of `&` within links.
 * Markdown:
   * Main content text is stored as markdown here: `_includes/content/`
-  * Quick snippet to load a Markdown text block (`_includes/content/text.md`):
-    `{% include base/markdown.html file='text.md' %}`
+    * Quick snippet to load a Markdown text block:
+      `{% include base/markdown.html file='text.md' %}`
   * Be careful with links, use `&amp;` instead of `&`. Local Jekyll may run
     fine, but GitHub Pages may die without warning.
