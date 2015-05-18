@@ -13,7 +13,7 @@ describe('Homepage', function () {
 
     it('should load page styles', function () {
       casper.then(function () {
-        "index.css".should.be.loaded;
+        "html > head > link[href*='index.css']".should.be.inDOM;
       });
     });
 
@@ -25,7 +25,7 @@ describe('Homepage', function () {
 
     it('should load page scripts', function () {
       casper.then(function () {
-        "index.js".should.be.loaded;
+        "html > body > script[src*='index.js']".should.be.inDOM;
       });
     });
 

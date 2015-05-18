@@ -52,21 +52,37 @@ npm install
 
 ### Development
 
-* Build and serve site: `npm run dev`
-* When the build is finished, visit local URL in browser:
-  `http://localhost:4000`
-* Run webtests and linkchecker against built site (`_site/` dir) on port 8008:
-  `npm run test`
+Build and serve local dev site:
+```
+npm run dev
+```
+
+Visit local development site:
+> http://localhost:4000
+
+Run webtests and linkchecks against local environment:
+```
+# the next two lines are equivalent! the last line is explicit about defaults
+npm run test
+TEST_HOST=http://localhost TEST_PORT=8008 TEST_PATH=  npm run test
+```
 
 ### Staging
 
-* In `_config.yml` set `baseurl` to be `/numenta.org`
+Build:
+* Modify `_config.yml` and set `baseurl` to be `/numenta.org`
 * Push changes to your own github `username/gh-pages` branch
 * Your own staging site will build and be available:
-  * `http://username.github.io/numenta.org/`
+> `http://username.github.io/numenta.org/`
+
+Test against Staging:
+```
+$ TEST_HOST=http://username.github.io TEST_PORT=80 TEST_PATH=/numenta.org npm run test
+```
 
 ### Production
 
+Build:
 * In `_config.yml` set `baseurl` to be `http://numenta.org`
 * Changes to the `gh-pages` branch of the
   [numenta.org repo](https://github.com/numenta/numenta.org) are automatically
@@ -76,6 +92,11 @@ npm install
     [Contributor licenese](http://numenta.org/licenses/cl/)
   * [Create a Pull Request](https://help.github.com/articles/using-pull-requests)
     against `numenta/numenta.org:gh-pages` branch
+
+Test against Production:
+```
+$ TEST_HOST=http://numenta.org TEST_PORT=80 TEST_PATH=  npm run test
+```
 
 
 ## Best Practices

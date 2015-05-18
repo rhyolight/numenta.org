@@ -1,15 +1,21 @@
-var opts = casper.cli.options || {},
-    host = opts.host || 'localhost',
-    port = opts.port || 8008;
+var opts = casper.cli.options || {};
+var host = opts.TEST_HOST || 'http://localhost';
+var port = opts.TEST_PORT || 8008;
+var path = opts.TEST_PATH || '';
 
 module.exports = {
-  getUrl: function(path) {
+
+  getUrl: function(target) {
+    if(! host.match(/http:\/\//)) {
+      host = 'http://' + host;
+    }
     return [
-      'http://',
       host,
       ':',
       port,
-      path
+      path,
+      target
     ].join('');
   }
+
 };

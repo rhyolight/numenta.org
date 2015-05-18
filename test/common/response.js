@@ -48,7 +48,7 @@ module.exports = function () {
 
               it('should load Base', function () {
                 casper.then(function () {
-                  "base.css".should.be.loaded;
+                  "html > head > link[href*='base.css']".should.be.inDOM;
                 });
               });
 
@@ -78,25 +78,25 @@ module.exports = function () {
 
               it('should load jQuery', function () {
                 casper.then(function () {
-                  "jquery.min.js".should.be.loaded;
+                  "html > body > script[src*='jquery.min.js']".should.be.inDOM;
                 });
               });
 
               it('should load Bootstrap', function () {
                 casper.then(function () {
-                  "bootstrap.min.js".should.be.loaded;
+                  "html > body > script[src*='bootstrap.min.js']".should.be.inDOM;
                 });
               });
 
               it('should load Platform', function () {
                 casper.then(function () {
-                  "platform.js".should.be.loaded;
+                  "html > body > script[src*='platform.js']".should.be.inDOM;
                 });
               });
 
               it('should load Base', function () {
                 casper.then(function () {
-                  "base.js".should.be.loaded;
+                  "html > body > script[src*='base.js']".should.be.inDOM;
                 });
               });
 

@@ -69,7 +69,11 @@ gulp.task('checkpages', function (callback) {
   };
 
   done = function (error) {
-    WebServer.emit('kill');
+    if(WebServer) {
+      WebServer.emit('kill');
+      WebServer = null;
+    }
+    console.error(error);
     callback(error);
   };
 
@@ -82,7 +86,13 @@ gulp.task('checkpages', function (callback) {
  * Gulp task to run mocha-casperjs web test suite
  */
 gulp.task('mocha-casperjs', function (callback) {
-  var stream = spawn('mocha-casperjs');
+  var stream = spawn('mocha-casperjs', [
+    '--bail',
+    '--TEST_HOST=' + host,
+    '--TEST_PORT=' + port,
+    '--TEST_PATH=' + path
+  ]);
+
   console.log('Mocha-Casper: started. Output will follow soon...');
 
   stream.stdout.on('data', function (data) {
@@ -92,7 +102,10 @@ gulp.task('mocha-casperjs', function (callback) {
   stream.on('close', function (code) {
     var success = code === 0; // Will be 1 in the event of failure
 
-    WebServer.emit('kill');
+    if(WebServer) {
+      WebServer.emit('kill');
+      WebServer = null;
+    }
 
     if(! success) {
       // fail
@@ -105,6 +118,8 @@ gulp.task('mocha-casperjs', function (callback) {
     callback();
   });
 
+  stream.on('error', console.error);
+
   return stream;
 });
 
@@ -112,8 +127,18 @@ gulp.task('mocha-casperjs', function (callback) {
  * Gulp task to serve site from the _site/ build dir
  */
 gulp.task('serve', function () {
-  var stream = gulp.src('_site/').pipe(gwebserver({ port: port }));
+  if(! host.match('localhost')) {
+    console.log("TEST_HOST is external (%s), NOT serving local build.", host);
+    return true;
+  }
+
+  var stream = gulp
+    .src('_site/')
+    .pipe(gwebserver({ port: port }))
+    .on('error', console.error);
+
   WebServer = stream;
+
   return stream;
 });
 
@@ -121,22 +146,23 @@ gulp.task('serve', function () {
  * Gulp task to generate sitemap.xml
  */
 gulp.task('sitemap', function () {
-  var stream = gulp.
-    src([
+  var stream = gulp
+    .src([
       '**/*.html',
       '!{_data,_includes,_layouts,_sass,_site,assets,images,javascripts,lib,node_modules,resources,stats,styleguide/_config,stylesheets,test,tools}/**',
       '**/_posts/*.md',
       ''
-    ]).
-    pipe(tap(function (file) {
+    ])
+    .pipe(tap(function (file) {
       if (file.path.match(/.*\/_posts\/.*\.md$/)) {
         file.path = file.path.replace(/_posts\/(\d{4})-(\d{2})-(\d{2})-/, "$1\/$2\/$3\/");
         file.path = file.path.replace(/\.md$/, '.html');
         return file;
       }
-    })).
-    pipe(sitemap({ siteUrl: package.homepage })).
-    pipe(gulp.dest('./'));
+    }))
+    .pipe(sitemap({ siteUrl: package.homepage }))
+    .pipe(gulp.dest('./'))
+    .on('error', console.error);
 
   return stream;
 });

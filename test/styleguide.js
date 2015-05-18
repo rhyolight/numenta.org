@@ -11,8 +11,8 @@ describe('Styleguide', function () {
 
     it('should load page styles', function () {
       casper.then(function () {
-        "base.css".should.be.loaded;
-        "kss.css".should.be.loaded;
+        "html > head > link[href*='base.css']".should.be.inDOM;
+        "html > head > link[href*='kss.css']".should.be.inDOM;
       });
     });
 
@@ -24,9 +24,9 @@ describe('Styleguide', function () {
 
     it('should load page scripts', function () {
       casper.then(function () {
-        "jquery-1.9.1.min.js".should.be.loaded;
-        "kss.js".should.be.loaded;
-        "main.js".should.be.loaded;
+        "html > body > script[src*='jquery-1.9.1.min.js']".should.be.inDOM;
+        "html > body > script[src*='kss.js']".should.be.inDOM;
+        "html > body > script[src*='main.js']".should.be.inDOM;
       });
     });
 
