@@ -94,7 +94,8 @@ When the build is finished, visit local URL in browser:
 
 * Keep Standards-compliant as possible
 * Support a wide array of users with accessibility needs
-* 2-space node-style text file indentation
+* [Node Style](https://github.com/felixge/node-style-guide): 2 space text file
+  indentation, 80-width text files, etc.
 * Clean simple file and directory names, no spaces (please use dash "-" instead)
   with lowercase and alphanumeric characters.
 * Keep local dev Ruby gems updated: `bundle update`
@@ -103,7 +104,7 @@ When the build is finished, visit local URL in browser:
     are stored in source control, and copied to `_site/node_modules` on build,
     where the browser can get to them.
   * `node_modules` not meant for the frontend (devDependencies, etc) should
-    be ignored by `.gitignore` and `_config.yml`.
+    be ignored in `.gitignore` and `_config.yml`.
 * Links:
   * DO NOT forget to include the `{{ site.baseurl }}` template variable on
     internal links. If you forget to use it, you will break staging sites.
