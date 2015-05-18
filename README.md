@@ -1,7 +1,5 @@
 # NuPIC Website Sourcecode
 
-#### http://numenta.org
-
 This is the open source code for the NuPIC Website hosted at
 [http://numenta.org](http://numenta.org)
 
@@ -79,6 +77,8 @@ When the build is finished, visit local URL in browser:
 * Changes, Pull Requests, and Issues are welcome and appreciated
   * First, please make sure to sign the
     [Contributor licenese](http://numenta.org/licenses/cl/)
+  * [Create a Pull Request](https://help.github.com/articles/using-pull-requests)
+    against `numenta/numenta.org:gh-pages` branch
 
 
 ## Best Practices
@@ -104,5 +104,13 @@ When the build is finished, visit local URL in browser:
     where the browser can get to them.
   * `node_modules` not meant for the frontend (devDependencies, etc) should
     be ignored by `.gitignore` and `_config.yml`.
-* Links: DO NOT forget to include the `{{ site.baseurl }}` template variable
-  on internal links. If you forget to use it, you will break staging sites.
+* Links:
+  * DO NOT forget to include the `{{ site.baseurl }}` template variable on
+    internal links. If you forget to use it, you will break staging sites.
+  * Use `&amp;` instead of `&` within links.
+* Markdown:
+  * Main content text is stored as markdown here: `_includes/content/`
+  * Quick snippet to load a Markdown text block (`_includes/content/text.md`):
+    `{% include base/markdown.html file='text.md' %}`
+  * Be careful with links, use `&amp;` instead of `&`. Local Jekyll may run
+    fine, but GitHub Pages may die without warning.
