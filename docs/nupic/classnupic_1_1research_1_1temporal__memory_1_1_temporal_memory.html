@@ -159,6 +159,18 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aecf475a387f7c535be57b18163778ee6"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnupic_1_1research_1_1temporal__memory_1_1_temporal_memory.html#aecf475a387f7c535be57b18163778ee6">mapCellsToColumns</a></td></tr>
 <tr class="memdesc:aecf475a387f7c535be57b18163778ee6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maps cells to the columns they belong to.  <a href="#aecf475a387f7c535be57b18163778ee6">More...</a><br /></td></tr>
 <tr class="separator:aecf475a387f7c535be57b18163778ee6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c7fc40f1124fcf3f5ee7116cd62f413"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnupic_1_1research_1_1temporal__memory_1_1_temporal_memory.html#a8c7fc40f1124fcf3f5ee7116cd62f413">write</a></td></tr>
+<tr class="memdesc:a8c7fc40f1124fcf3f5ee7116cd62f413"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes serialized data to proto object.  <a href="#a8c7fc40f1124fcf3f5ee7116cd62f413">More...</a><br /></td></tr>
+<tr class="separator:a8c7fc40f1124fcf3f5ee7116cd62f413"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afcea8c9091d60bee0f6fb79abb6e1cca"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnupic_1_1research_1_1temporal__memory_1_1_temporal_memory.html#afcea8c9091d60bee0f6fb79abb6e1cca">read</a></td></tr>
+<tr class="memdesc:afcea8c9091d60bee0f6fb79abb6e1cca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads deserialized data from proto object.  <a href="#afcea8c9091d60bee0f6fb79abb6e1cca">More...</a><br /></td></tr>
+<tr class="separator:afcea8c9091d60bee0f6fb79abb6e1cca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a449f8fd74d358c0ad641b6c6d6917ba0"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnupic_1_1research_1_1temporal__memory_1_1_temporal_memory.html#a449f8fd74d358c0ad641b6c6d6917ba0">__eq__</a></td></tr>
+<tr class="memdesc:a449f8fd74d358c0ad641b6c6d6917ba0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Equality operator for <a class="el" href="classnupic_1_1research_1_1temporal__memory_1_1_temporal_memory.html" title="Class implementing the Temporal Memory algorithm. ">TemporalMemory</a> instances.  <a href="#a449f8fd74d358c0ad641b6c6d6917ba0">More...</a><br /></td></tr>
+<tr class="separator:a449f8fd74d358c0ad641b6c6d6917ba0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad69df72a6bf0be3525fe45cd2f77f343"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnupic_1_1research_1_1temporal__memory_1_1_temporal_memory.html#ad69df72a6bf0be3525fe45cd2f77f343">__ne__</a></td></tr>
+<tr class="memdesc:ad69df72a6bf0be3525fe45cd2f77f343"><td class="mdescLeft">&#160;</td><td class="mdescRight">Non-equality operator for <a class="el" href="classnupic_1_1research_1_1temporal__memory_1_1_temporal_memory.html" title="Class implementing the Temporal Memory algorithm. ">TemporalMemory</a> instances.  <a href="#ad69df72a6bf0be3525fe45cd2f77f343">More...</a><br /></td></tr>
+<tr class="separator:ad69df72a6bf0be3525fe45cd2f77f343"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -265,6 +277,76 @@ Static Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a449f8fd74d358c0ad641b6c6d6917ba0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def __eq__ </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>other</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Equality operator for <a class="el" href="classnupic_1_1research_1_1temporal__memory_1_1_temporal_memory.html" title="Class implementing the Temporal Memory algorithm. ">TemporalMemory</a> instances. </p>
+<p>Checks if two instances are functionally identical (might have different internal state).</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">other</td><td>(<a class="el" href="classnupic_1_1research_1_1temporal__memory_1_1_temporal_memory.html" title="Class implementing the Temporal Memory algorithm. ">TemporalMemory</a>) <a class="el" href="classnupic_1_1research_1_1temporal__memory_1_1_temporal_memory.html" title="Class implementing the Temporal Memory algorithm. ">TemporalMemory</a> instance to compare to </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ad69df72a6bf0be3525fe45cd2f77f343"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def __ne__ </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>other</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Non-equality operator for <a class="el" href="classnupic_1_1research_1_1temporal__memory_1_1_temporal_memory.html" title="Class implementing the Temporal Memory algorithm. ">TemporalMemory</a> instances. </p>
+<p>Checks if two instances are not functionally identical (might have different internal state).</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">other</td><td>(<a class="el" href="classnupic_1_1research_1_1temporal__memory_1_1_temporal_memory.html" title="Class implementing the Temporal Memory algorithm. ">TemporalMemory</a>) <a class="el" href="classnupic_1_1research_1_1temporal__memory_1_1_temporal_memory.html" title="Class implementing the Temporal Memory algorithm. ">TemporalMemory</a> instance to compare to </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a class="anchor" id="a6e65e98c6f1b073bc62021b289a306e2"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1102,6 +1184,41 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="afcea8c9091d60bee0f6fb79abb6e1cca"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def read </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>cls</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>proto</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reads deserialized data from proto object. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">proto</td><td>(DynamicStructBuilder) Proto object</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>(<a class="el" href="classnupic_1_1research_1_1temporal__memory_1_1_temporal_memory.html" title="Class implementing the Temporal Memory algorithm. ">TemporalMemory</a>) <a class="el" href="classnupic_1_1research_1_1temporal__memory_1_1_temporal_memory.html" title="Class implementing the Temporal Memory algorithm. ">TemporalMemory</a> instance </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="a13463c21005956b949860ac0eda9b3e3"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1121,13 +1238,47 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a8c7fc40f1124fcf3f5ee7116cd62f413"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def write </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>proto</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Writes serialized data to proto object. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">proto</td><td>(DynamicStructBuilder) Proto object </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li>nupic/research/temporal_memory.py</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon May 18 2015 20:35:30 for NuPIC by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon May 18 2015 20:41:59 for NuPIC by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.7
 </small></address>

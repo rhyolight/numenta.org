@@ -1,6 +1,7 @@
 var searchData=
 [
   ['radiusforspeed',['radiusForSpeed',['../classnupic_1_1encoders_1_1geospatial__coordinate_1_1_geospatial_coordinate_encoder.html#a2720196257824232f841d9f775df3a56',1,'nupic::encoders::geospatial_coordinate::GeospatialCoordinateEncoder']]],
+  ['read',['read',['../classnupic_1_1research_1_1temporal__memory_1_1_temporal_memory.html#afcea8c9091d60bee0f6fb79abb6e1cca',1,'nupic::research::temporal_memory::TemporalMemory']]],
   ['removesegmentupdate',['removeSegmentUpdate',['../classnupic_1_1research_1_1_t_p_1_1_t_p.html#a647ca40adc3716c715d6083db3574746',1,'nupic::research::TP::TP']]],
   ['reset',['reset',['../classnupic_1_1research_1_1_t_p10_x2_1_1_t_p10_x2.html#a13463c21005956b949860ac0eda9b3e3',1,'nupic.research.TP10X2.TP10X2.reset()'],['../classnupic_1_1research_1_1_t_p_1_1_t_p.html#a13463c21005956b949860ac0eda9b3e3',1,'nupic.research.TP.TP.reset()'],['../classnupic_1_1research_1_1temporal__memory_1_1_temporal_memory.html#a13463c21005956b949860ac0eda9b3e3',1,'nupic.research.temporal_memory.TemporalMemory.reset()']]],
   ['resetsequencestates',['resetSequenceStates',['../classnupic_1_1frameworks_1_1opf_1_1model_1_1_model.html#a7ecda56dff89a402d9e21730bd5f7226',1,'nupic::frameworks::opf::model::Model']]],
