@@ -8,16 +8,15 @@ This is the open source code for the NuPIC Website hosted at
 [![Build Status](https://travis-ci.org/numenta/numenta.org.png?branch=gh-pages)](https://travis-ci.org/numenta/numenta.org)
 
 
-## Technology
+## Stack
 
-### Client / Browser
+### Client
 
-* [HTML5](http://en.wikipedia.org/wiki/HTML5) semantic structure and content
-* [CSS3](http://en.wikipedia.org/wiki/Cascading_Style_Sheets) visual styling
-  * [Bootstrap 3](http://getbootstrap.com/) responsive frontend framework
-* [ECMAScript 5+](http://en.wikipedia.org/wiki/ECMAScript)
-  (Javascript) functionality and interaction
-  * [Bootstrap](http://getbootstrap.com/) responsive frontend framework
+* [HTML5](http://en.wikipedia.org/wiki/HTML5),
+  [CSS3](http://en.wikipedia.org/wiki/Cascading_Style_Sheets),
+  [JS](http://en.wikipedia.org/wiki/ECMAScript)
+* [jQuery](http://jquery.com/)
+* [Bootstrap](http://getbootstrap.com/) responsive frontend framework
 
 ### Server
 
@@ -32,8 +31,11 @@ This is the open source code for the NuPIC Website hosted at
     * [github-pages](https://github.com/github/pages-gem) local devel
 * [Node.js](https://nodejs.org/) lang
   * [npm](https://www.npmjs.com/) packages
+    * [Gulp](https://github.com/gulpjs/gulp) streaming build tooling
     * [KSS](https://github.com/kss-node/kss-node) Living Styleguide generator
     * [SASS](http://sass-lang.com/) CSS pre-processor language
+    * Web Testing: [Mocha](http://mochajs.org/), [Casper + Phantom](http://casperjs.org/),
+      [Chai + Should](http://chaijs.com/guide/styles/#should)
 
 
 ## Build
@@ -63,10 +65,14 @@ When the build is finished, visit local URL in browser:
 
 ### Staging
 
-  TBD
+* In `_config.yml` set `baseurl` to be `/numenta.org`
+* Push changes to your own github `username/gh-pages` branch
+* Your own staging site will build and be available:
+  * `http://username.github.io/numenta.org/`
 
 ### Production
 
+* In `_config.yml` set `baseurl` to be `http://numenta.org`
 * Changes to the `gh-pages` branch of the
   [numenta.org repo](https://github.com/numenta/numenta.org) are automatically
   built and pushed to production by [GitHub Pages](https://pages.github.com/)
@@ -86,10 +92,17 @@ When the build is finished, visit local URL in browser:
 
 ### Development
 
-* Mobile First for all development
-* Standards-compliant as possible
+* Keep Standards-compliant as possible
 * Support a wide array of users with accessibility needs
-* Keep attention on security
 * 2-space node-style text file indentation
-* NO spaces in File or Directory Names, use dash "-" instead
+* Clean simple file and directory names, no spaces (please use dash "-" instead)
+  with lowercase and alphanumeric characters.
 * Keep local dev Ruby gems updated: `bundle update`
+* Modules:
+  * `node_modules` meant for inclusion by the browser (jquery, bootstrap, etc)
+    are stored in source control, and copied to `_site/node_modules` on build,
+    where the browser can get to them.
+  * `node_modules` not meant for the frontend (devDependencies, etc) should
+    be ignored by `.gitignore` and `_config.yml`.
+* Links: DO NOT forget to include the `{{ site.baseurl }}` template variable
+  on internal links. If you forget to use it, you will break staging sites.
