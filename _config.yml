@@ -5,12 +5,10 @@
 
 ### about
 
-#baseurl: http://numenta.org   # production
-baseurl: /numenta.org          # staging
-#baseurl:                      # development
+baseurl: http://numenta.org   # production
 
-title:      NuPIC
-tagline:    Numenta Platform for Intelligent Computing
+title:    NuPIC
+tagline:  Numenta Platform for Intelligent Computing
 
 company:    Numenta
 copyright:  Copyright © 2015 Numenta
