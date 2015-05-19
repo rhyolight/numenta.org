@@ -1,10 +1,10 @@
 var commonTests = require('./common/'),
     util =        require('./lib/util');
 
-describe('Search', function () {
+describe('Sitemap', function () {
 
   before(function () {
-    casper.start(util.getUrl('/search/'));
+    casper.start(util.getUrl('/sitemap/'));
   });
 
   commonTests();
@@ -13,7 +13,7 @@ describe('Search', function () {
 
     it('should have correct page title', function () {
       casper.then(function () {
-        "NuPIC Search".should.matchTitle;
+        "NuPIC Sitemap (numenta.org)".should.matchTitle;
       });
     });
 
@@ -39,36 +39,12 @@ describe('Search', function () {
 
       it('should contain valid text', function () {
         casper.then(function () {
-          selector.should.have.text(/Search NuPIC/);
+          selector.should.have.text('NuPIC Sitemap (numenta.org)');
         });
       });
 
     }); // h1
 
-    describe('Paragraph Text', function () {
-
-      var selector = "main section p";
-
-      it('should exist', function () {
-        casper.then(function () {
-          selector.should.be.inDOM;
-        });
-      });
-
-      it('should be visible', function () {
-        casper.then(function () {
-          selector.should.be.visible;
-        });
-      });
-
-      it('should contain valid text', function () {
-        casper.then(function () {
-          selector.should.have.text(/custom search index/);
-        });
-      });
-
-    }); // p
-
   }); // content
 
-}); // search
+}); // code of conduct

@@ -4,7 +4,7 @@ var commonTests = require('./common/'),
 describe('Code of Conduct', function () {
 
   before(function () {
-    casper.start(util.getUrl('/code.html'));
+    casper.start(util.getUrl('/licenses/code/'));
   });
 
   commonTests();

@@ -4,7 +4,7 @@ var commonTests = require('./common/'),
 describe('Bug Report', function () {
 
   before(function () {
-    casper.start(util.getUrl('/bug-report.html'));
+    casper.start(util.getUrl('/report/'));
   });
 
   commonTests();

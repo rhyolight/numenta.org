@@ -30,19 +30,19 @@ rss:
 
 # other
 
-code:     /code.html
+code:     /licenses/code/
 committs: /committers/
 contribs: /contributors/
-faq:      /faq.html
+faq:      /faq/
 hack:     /hack/
 licenses: /licenses/
 lists:    /lists/
 refapi:   /docs/nupic/
 refcore:  /docs/nupic.core/
 refjava:  /docs/htm.java/
-report:   /bug-report.html
-search:   /search.html
-sitemap:  /sitemap.html
+report:   /report/
+search:   /search/
+sitemap:  /sitemap/
 
 
 ### External
