@@ -4,8 +4,10 @@
   "description": "Numenta.org NuPIC Website",
   "scripts": {
     "linkcheck": "gulp linkcheck",
+    "build": "npm run support && npm run generate",
     "clean": "rm -Rf _site/*",
     "dev": "npm install && npm run support && npm run serve",
+    "generate": "bundle exec jekyll build",
     "guide": "kss-node --config styleguide/_config/config.json",
     "serve": "bundle exec jekyll serve --baseurl ''",
     "sitemap": "gulp sitemap",
