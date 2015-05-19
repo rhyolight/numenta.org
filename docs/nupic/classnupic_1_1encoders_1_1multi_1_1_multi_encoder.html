@@ -112,6 +112,9 @@ Inheritance diagram for MultiEncoder:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:adc3815f30266aa8dca6e568755c30002"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnupic_1_1encoders_1_1multi_1_1_multi_encoder.html#adc3815f30266aa8dca6e568755c30002">getWidth</a></td></tr>
+<tr class="memdesc:adc3815f30266aa8dca6e568755c30002"><td class="mdescLeft">&#160;</td><td class="mdescRight">Represents the sum of the widths of each fields encoding.  <a href="#adc3815f30266aa8dca6e568755c30002">More...</a><br /></td></tr>
+<tr class="separator:adc3815f30266aa8dca6e568755c30002"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8e20128ed5a19d0deb31dd183744f3bf"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnupic_1_1encoders_1_1multi_1_1_multi_encoder.html#a8e20128ed5a19d0deb31dd183744f3bf">addMultipleEncoders</a></td></tr>
 <tr class="memdesc:a8e20128ed5a19d0deb31dd183744f3bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">fieldEncodings &ndash; a dict of dicts, mapping field names to the field params dict.  <a href="#a8e20128ed5a19d0deb31dd183744f3bf">More...</a><br /></td></tr>
 <tr class="separator:a8e20128ed5a19d0deb31dd183744f3bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -225,7 +228,26 @@ def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
 
 <p>fieldEncodings &ndash; a dict of dicts, mapping field names to the field params dict. </p>
 <p>Each field params dict has the following keys 1) data fieldname that matches the key ('fieldname') 2) an encoder type ('type') 3) and the encoder params (all other keys)</p>
-<p>For example, fieldEncodings={ 'dateTime': dict(fieldname='dateTime', type='DateEncoder', timeOfDay=(5,5)), 'attendeeCount': dict(fieldname='attendeeCount', type='ScalarEncoder', name='attendeeCount', minval=0, maxval=250, clipInput=True, w=5, resolution=10), 'consumption': dict(fieldname='consumption',type='ScalarEncoder', name='consumption', minval=0,maxval=110, clipInput=True, w=5, resolution=5), } </p>
+<p>For example, fieldEncodings={ 'dateTime': dict(fieldname='dateTime', type='DateEncoder', timeOfDay=(5,5)), 'attendeeCount': dict(fieldname='attendeeCount', type='ScalarEncoder', name='attendeeCount', minval=0, maxval=250, clipInput=True, w=5, resolution=10), 'consumption': dict(fieldname='consumption',type='ScalarEncoder', name='consumption', minval=0,maxval=110, clipInput=True, w=5, resolution=5), }</p>
+<p>would yield a vector with a part encoded by the DateEncoder, and to parts seperately taken care of by the ScalarEncoder with the specified parameters. The three seperate encodings are then merged together to the final vector, in such a way that they are always at the same location within the vector. </p>
+
+</div>
+</div>
+<a class="anchor" id="adc3815f30266aa8dca6e568755c30002"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def getWidth </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Represents the sum of the widths of each fields encoding. </p>
 
 </div>
 </div>
@@ -235,7 +257,7 @@ def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon May 18 2015 20:41:59 for NuPIC by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue May 19 2015 21:51:18 for NuPIC by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.7
 </small></address>
