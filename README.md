@@ -6,14 +6,25 @@ This is the open source code for the NuPIC Website hosted at
 [![Build Status](https://travis-ci.org/numenta/numenta.org.png?branch=gh-pages)](https://travis-ci.org/numenta/numenta.org)
 
 
-## Stack
+## Tech Stack
 
 ### Client
 
-* [HTML5](http://en.wikipedia.org/wiki/HTML5),
-  [CSS3](http://en.wikipedia.org/wiki/Cascading_Style_Sheets),
-  [JS](http://en.wikipedia.org/wiki/ECMAScript)
-* [jQuery](http://jquery.com/)
+* Web Platform:
+  * [HTML5](http://en.wikipedia.org/wiki/HTML5) markup semantic page structure
+    * HTML pages are found in `./**/*.html`
+      * These pages are wrapped in layout templates found in `./_layouts/`
+      * These pages pull in partial include templates from `./_includes/`
+        * Pages and Includes will load and render Markdown `.md` text content
+          from the `./_includes/content/` directory
+    * Final output is generated and served from the './_site/' directory
+  * [CSS3](http://en.wikipedia.org/wiki/Cascading_Style_Sheets) styling with
+    [SASS](http://sass-lang.com/) preprocessing
+    * Pages load CSS from the `./assets/css/` directory.
+      * These files originate as `.scss` SASS files
+        * The SASS files include template partials from the `./_sass/` directory
+  * [JS](http://en.wikipedia.org/wiki/ECMAScript) functionality
+* [jQuery](http://jquery.com/) dom helper lib
 * [Bootstrap](http://getbootstrap.com/) responsive frontend framework
 
 ### Server
@@ -32,7 +43,8 @@ This is the open source code for the NuPIC Website hosted at
     * [Gulp](https://github.com/gulpjs/gulp) streaming build tooling
     * [KSS](https://github.com/kss-node/kss-node) Living Styleguide generator
     * [SASS](http://sass-lang.com/) CSS pre-processor language
-    * Web Testing: [Mocha](http://mochajs.org/), [Casper + Phantom](http://casperjs.org/),
+    * Web Testing: [Mocha](http://mochajs.org/),
+      [Casper + Phantom](http://casperjs.org/),
       [Chai + Should](http://chaijs.com/guide/styles/#should)
 
 
@@ -58,6 +70,7 @@ npm run dev
 ```
 
 Visit local development site:
+
 > http://localhost:4000
 
 Run webtests and linkchecks against local environment:
@@ -75,6 +88,7 @@ Build:
 * Modify `_config.yml` and set `baseurl` to be `/numenta.org`
 * Push changes to your own github `username/gh-pages` branch
 * Your own staging site will build and be available:
+
 > `http://username.github.io/numenta.org/`
 
 Test against Staging:
@@ -94,6 +108,9 @@ Build:
     [Contributor licenese](http://numenta.org/licenses/cl/)
   * [Create a Pull Request](https://help.github.com/articles/using-pull-requests)
     against `numenta/numenta.org:gh-pages` branch
+* Production build is available at the main URL:
+
+> `http://numenta.org`
 
 Test against Production:
 ```
