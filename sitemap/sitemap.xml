@@ -1,32 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>http://numenta.org/bug-report.html</loc>
-        <lastmod>2015-05-19T15:30:14.000Z</lastmod>
-    </url>
-    <url>
-        <loc>http://numenta.org/code.html</loc>
-        <lastmod>2015-05-19T15:30:14.000Z</lastmod>
-    </url>
-    <url>
-        <loc>http://numenta.org/faq.html</loc>
-        <lastmod>2015-05-19T15:30:14.000Z</lastmod>
-    </url>
-    <url>
         <loc>http://numenta.org/googlee9f2358c00414081.html</loc>
         <lastmod>2015-04-08T02:21:23.000Z</lastmod>
     </url>
     <url>
         <loc>http://numenta.org/</loc>
         <lastmod>2015-05-19T14:08:35.000Z</lastmod>
-    </url>
-    <url>
-        <loc>http://numenta.org/search.html</loc>
-        <lastmod>2015-05-19T15:30:14.000Z</lastmod>
-    </url>
-    <url>
-        <loc>http://numenta.org/sitemap.html</loc>
-        <lastmod>2015-05-19T15:30:14.000Z</lastmod>
     </url>
     <url>
         <loc>http://numenta.org/blog/</loc>
@@ -49,6 +29,10 @@
         <lastmod>2015-05-19T14:08:35.000Z</lastmod>
     </url>
     <url>
+        <loc>http://numenta.org/faq/</loc>
+        <lastmod>2015-05-19T19:40:36.000Z</lastmod>
+    </url>
+    <url>
         <loc>http://numenta.org/hack/</loc>
         <lastmod>2015-04-08T02:21:23.000Z</lastmod>
     </url>
@@ -69,32 +53,44 @@
         <lastmod>2015-05-19T14:08:35.000Z</lastmod>
     </url>
     <url>
+        <loc>http://numenta.org/report/</loc>
+        <lastmod>2015-05-19T19:40:36.000Z</lastmod>
+    </url>
+    <url>
+        <loc>http://numenta.org/search/</loc>
+        <lastmod>2015-05-19T19:40:36.000Z</lastmod>
+    </url>
+    <url>
+        <loc>http://numenta.org/sitemap/</loc>
+        <lastmod>2015-05-19T19:40:36.000Z</lastmod>
+    </url>
+    <url>
         <loc>http://numenta.org/son/</loc>
         <lastmod>2015-05-19T14:08:37.000Z</lastmod>
     </url>
     <url>
         <loc>http://numenta.org/styleguide/</loc>
-        <lastmod>2015-05-19T19:36:19.000Z</lastmod>
+        <lastmod>2015-05-19T19:42:05.000Z</lastmod>
     </url>
     <url>
         <loc>http://numenta.org/styleguide/section-1.html</loc>
-        <lastmod>2015-05-19T19:36:19.000Z</lastmod>
+        <lastmod>2015-05-19T19:42:05.000Z</lastmod>
     </url>
     <url>
         <loc>http://numenta.org/styleguide/section-2.html</loc>
-        <lastmod>2015-05-19T19:36:19.000Z</lastmod>
+        <lastmod>2015-05-19T19:42:05.000Z</lastmod>
     </url>
     <url>
         <loc>http://numenta.org/styleguide/section-3.html</loc>
-        <lastmod>2015-05-19T19:36:19.000Z</lastmod>
+        <lastmod>2015-05-19T19:42:05.000Z</lastmod>
     </url>
     <url>
         <loc>http://numenta.org/styleguide/section-4.html</loc>
-        <lastmod>2015-05-19T19:36:19.000Z</lastmod>
+        <lastmod>2015-05-19T19:42:05.000Z</lastmod>
     </url>
     <url>
         <loc>http://numenta.org/styleguide/section-5.html</loc>
-        <lastmod>2015-05-19T19:36:19.000Z</lastmod>
+        <lastmod>2015-05-19T19:42:05.000Z</lastmod>
     </url>
     <url>
         <loc>http://numenta.org/docs/htm.java/allclasses-frame.html</loc>
@@ -1369,6 +1365,10 @@
         <lastmod>2015-05-19T14:08:35.000Z</lastmod>
     </url>
     <url>
+        <loc>http://numenta.org/licenses/code/</loc>
+        <lastmod>2015-05-19T19:40:36.000Z</lastmod>
+    </url>
+    <url>
         <loc>http://numenta.org/son/2014/</loc>
         <lastmod>2015-05-19T14:08:37.000Z</lastmod>
     </url>
@@ -2513,12 +2513,12 @@
         <lastmod>2014-11-15T02:32:38.000Z</lastmod>
     </url>
     <url>
-        <loc>http://numenta.org/events/hackathon/2013/jun/messages.html</loc>
-        <lastmod>2015-04-08T02:21:23.000Z</lastmod>
-    </url>
-    <url>
         <loc>http://numenta.org/events/hackathon/2013/nov/</loc>
         <lastmod>2014-11-15T02:32:38.000Z</lastmod>
+    </url>
+    <url>
+        <loc>http://numenta.org/events/hackathon/2013/jun/messages.html</loc>
+        <lastmod>2015-04-08T02:21:23.000Z</lastmod>
     </url>
     <url>
         <loc>http://numenta.org/events/hackathon/2014/may/</loc>
@@ -2526,11 +2526,11 @@
     </url>
     <url>
         <loc>http://numenta.org/events/hackathon/2014/oct/</loc>
-        <lastmod>2015-05-19T15:30:14.000Z</lastmod>
+        <lastmod>2015-05-19T19:40:36.000Z</lastmod>
     </url>
     <url>
         <loc>http://numenta.org/events/hackathon/2015/may/</loc>
-        <lastmod>2015-05-19T15:30:14.000Z</lastmod>
+        <lastmod>2015-05-19T19:40:36.000Z</lastmod>
     </url>
     <url>
         <loc>http://numenta.org/docs/htm.java/org/numenta/nupic/Connections.html</loc>
@@ -2581,16 +2581,16 @@
         <lastmod>2015-04-08T02:21:20.000Z</lastmod>
     </url>
     <url>
-        <loc>http://numenta.org/events/hackathon/2013/jun/slides/</loc>
-        <lastmod>2015-04-08T02:21:23.000Z</lastmod>
-    </url>
-    <url>
         <loc>http://numenta.org/events/hackathon/2013/nov/hack/</loc>
         <lastmod>2015-05-19T14:08:35.000Z</lastmod>
     </url>
     <url>
+        <loc>http://numenta.org/events/hackathon/2013/jun/slides/</loc>
+        <lastmod>2015-04-08T02:21:23.000Z</lastmod>
+    </url>
+    <url>
         <loc>http://numenta.org/events/hackathon/2014/may/hack/</loc>
-        <lastmod>2015-05-19T15:30:14.000Z</lastmod>
+        <lastmod>2015-05-19T19:40:36.000Z</lastmod>
     </url>
     <url>
         <loc>http://numenta.org/events/hackathon/2014/oct/ann/</loc>

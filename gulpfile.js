@@ -33,19 +33,20 @@ gulp.task('checkpages', function (callback) {
   urls = [
     '/',
     '/blog/',
-    '/bug-report.html',
-    '/code.html',
     '/committers/',
     '/contributors/',
     '/docs/',
     '/events/',
-    '/faq.html',
+    '/faq/',
     '/licenses/',
     '/licenses/cl/',
+    '/licenses/code/',
     '/lists/',
     '/media/',
     '/news/',
-    '/search.html',
+    '/report/',
+    '/search/',
+    '/sitemap/',
     '/styleguide/'
   ].map(function(url) {
     return host + ':' + port + path + url;
@@ -73,8 +74,13 @@ gulp.task('checkpages', function (callback) {
       WebServer.emit('kill');
       WebServer = null;
     }
-    console.error(error);
-    callback(error);
+
+    if(error) {
+      console.error(error);
+      callback(error);
+      return;
+    }
+    callback();
   };
 
   stream = checkpages(console, options, done);
@@ -161,7 +167,7 @@ gulp.task('sitemap', function () {
       }
     }))
     .pipe(sitemap({ siteUrl: package.homepage }))
-    .pipe(gulp.dest('./'))
+    .pipe(gulp.dest('./sitemap/'))
     .on('error', console.error);
 
   return stream;
