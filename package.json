@@ -7,7 +7,7 @@
     "build": "npm run support && npm run generate",
     "clean": "rm -Rf _site/*",
     "dev": "npm install && npm run support && npm run serve",
-    "generate": "bundle exec jekyll build",
+    "generate": "bundle exec jekyll build --baseurl ''",
     "guide": "kss-node --config styleguide/_config/config.json",
     "serve": "bundle exec jekyll serve --baseurl ''",
     "sitemap": "gulp sitemap",
