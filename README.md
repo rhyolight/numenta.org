@@ -17,7 +17,7 @@ This is the open source code for the NuPIC Website hosted at
       * These pages pull in partial include templates from `./_includes/`
         * Pages and Includes will load and render Markdown `.md` text content
           from the `./_includes/content/` directory
-    * Final output is generated and served from the './_site/' directory
+    * Final output is generated and served from the `./_site/` directory
   * [CSS3](http://en.wikipedia.org/wiki/Cascading_Style_Sheets) styling with
     [SASS](http://sass-lang.com/) preprocessing
     * Pages load CSS from the `./assets/css/` directory.
