@@ -1,38 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-<<<<<<< HEAD:sitemap/sitemap.xml
-=======
-        <loc>http://numenta.org/bug-report.html</loc>
-        <lastmod>2015-05-19T15:30:14.000Z</lastmod>
-    </url>
-    <url>
-        <loc>http://numenta.org/code.html</loc>
-        <lastmod>2015-05-19T15:30:14.000Z</lastmod>
-    </url>
-    <url>
-        <loc>http://numenta.org/faq.html</loc>
-        <lastmod>2015-05-19T15:30:14.000Z</lastmod>
-    </url>
-    <url>
->>>>>>> gh-pages-brev-redux:sitemap.xml
         <loc>http://numenta.org/googlee9f2358c00414081.html</loc>
         <lastmod>2015-04-08T02:21:23.000Z</lastmod>
     </url>
     <url>
         <loc>http://numenta.org/</loc>
         <lastmod>2015-05-19T14:08:35.000Z</lastmod>
-<<<<<<< HEAD:sitemap/sitemap.xml
-=======
-    </url>
-    <url>
-        <loc>http://numenta.org/search.html</loc>
-        <lastmod>2015-05-19T15:30:14.000Z</lastmod>
-    </url>
-    <url>
-        <loc>http://numenta.org/sitemap.html</loc>
-        <lastmod>2015-05-19T15:30:14.000Z</lastmod>
->>>>>>> gh-pages-brev-redux:sitemap.xml
     </url>
     <url>
         <loc>http://numenta.org/blog/</loc>
@@ -53,13 +27,10 @@
     <url>
         <loc>http://numenta.org/events/</loc>
         <lastmod>2015-05-19T14:08:35.000Z</lastmod>
-<<<<<<< HEAD:sitemap/sitemap.xml
     </url>
     <url>
         <loc>http://numenta.org/faq/</loc>
-        <lastmod>2015-05-19T15:06:30.000Z</lastmod>
-=======
->>>>>>> gh-pages-brev-redux:sitemap.xml
+        <lastmod>2015-05-19T19:40:36.000Z</lastmod>
     </url>
     <url>
         <loc>http://numenta.org/hack/</loc>
@@ -80,21 +51,18 @@
     <url>
         <loc>http://numenta.org/news/</loc>
         <lastmod>2015-05-19T14:08:35.000Z</lastmod>
-<<<<<<< HEAD:sitemap/sitemap.xml
     </url>
     <url>
         <loc>http://numenta.org/report/</loc>
-        <lastmod>2015-05-19T14:18:39.000Z</lastmod>
+        <lastmod>2015-05-19T19:40:36.000Z</lastmod>
     </url>
     <url>
         <loc>http://numenta.org/search/</loc>
-        <lastmod>2015-05-19T14:55:59.000Z</lastmod>
+        <lastmod>2015-05-19T19:40:36.000Z</lastmod>
     </url>
     <url>
         <loc>http://numenta.org/sitemap/</loc>
-        <lastmod>2015-05-19T14:53:39.000Z</lastmod>
-=======
->>>>>>> gh-pages-brev-redux:sitemap.xml
+        <lastmod>2015-05-19T19:40:36.000Z</lastmod>
     </url>
     <url>
         <loc>http://numenta.org/son/</loc>
@@ -102,51 +70,27 @@
     </url>
     <url>
         <loc>http://numenta.org/styleguide/</loc>
-<<<<<<< HEAD:sitemap/sitemap.xml
-        <lastmod>2015-05-19T15:07:09.000Z</lastmod>
+        <lastmod>2015-05-19T19:42:05.000Z</lastmod>
     </url>
     <url>
         <loc>http://numenta.org/styleguide/section-1.html</loc>
-        <lastmod>2015-05-19T15:07:09.000Z</lastmod>
+        <lastmod>2015-05-19T19:42:05.000Z</lastmod>
     </url>
     <url>
         <loc>http://numenta.org/styleguide/section-2.html</loc>
-        <lastmod>2015-05-19T15:07:09.000Z</lastmod>
+        <lastmod>2015-05-19T19:42:05.000Z</lastmod>
     </url>
     <url>
         <loc>http://numenta.org/styleguide/section-3.html</loc>
-        <lastmod>2015-05-19T15:07:09.000Z</lastmod>
+        <lastmod>2015-05-19T19:42:05.000Z</lastmod>
     </url>
     <url>
         <loc>http://numenta.org/styleguide/section-4.html</loc>
-        <lastmod>2015-05-19T15:07:09.000Z</lastmod>
+        <lastmod>2015-05-19T19:42:05.000Z</lastmod>
     </url>
     <url>
         <loc>http://numenta.org/styleguide/section-5.html</loc>
-        <lastmod>2015-05-19T15:07:09.000Z</lastmod>
-=======
-        <lastmod>2015-05-19T19:36:19.000Z</lastmod>
-    </url>
-    <url>
-        <loc>http://numenta.org/styleguide/section-1.html</loc>
-        <lastmod>2015-05-19T19:36:19.000Z</lastmod>
-    </url>
-    <url>
-        <loc>http://numenta.org/styleguide/section-2.html</loc>
-        <lastmod>2015-05-19T19:36:19.000Z</lastmod>
-    </url>
-    <url>
-        <loc>http://numenta.org/styleguide/section-3.html</loc>
-        <lastmod>2015-05-19T19:36:19.000Z</lastmod>
-    </url>
-    <url>
-        <loc>http://numenta.org/styleguide/section-4.html</loc>
-        <lastmod>2015-05-19T19:36:19.000Z</lastmod>
-    </url>
-    <url>
-        <loc>http://numenta.org/styleguide/section-5.html</loc>
-        <lastmod>2015-05-19T19:36:19.000Z</lastmod>
->>>>>>> gh-pages-brev-redux:sitemap.xml
+        <lastmod>2015-05-19T19:42:05.000Z</lastmod>
     </url>
     <url>
         <loc>http://numenta.org/docs/htm.java/allclasses-frame.html</loc>
@@ -1419,13 +1363,10 @@
     <url>
         <loc>http://numenta.org/licenses/cl/</loc>
         <lastmod>2015-05-19T14:08:35.000Z</lastmod>
-<<<<<<< HEAD:sitemap/sitemap.xml
     </url>
     <url>
         <loc>http://numenta.org/licenses/code/</loc>
-        <lastmod>2015-05-19T14:46:52.000Z</lastmod>
-=======
->>>>>>> gh-pages-brev-redux:sitemap.xml
+        <lastmod>2015-05-19T19:40:36.000Z</lastmod>
     </url>
     <url>
         <loc>http://numenta.org/son/2014/</loc>
@@ -2572,12 +2513,12 @@
         <lastmod>2014-11-15T02:32:38.000Z</lastmod>
     </url>
     <url>
-        <loc>http://numenta.org/events/hackathon/2013/jun/messages.html</loc>
-        <lastmod>2015-04-08T02:21:23.000Z</lastmod>
-    </url>
-    <url>
         <loc>http://numenta.org/events/hackathon/2013/nov/</loc>
         <lastmod>2014-11-15T02:32:38.000Z</lastmod>
+    </url>
+    <url>
+        <loc>http://numenta.org/events/hackathon/2013/jun/messages.html</loc>
+        <lastmod>2015-04-08T02:21:23.000Z</lastmod>
     </url>
     <url>
         <loc>http://numenta.org/events/hackathon/2014/may/</loc>
@@ -2585,19 +2526,11 @@
     </url>
     <url>
         <loc>http://numenta.org/events/hackathon/2014/oct/</loc>
-<<<<<<< HEAD:sitemap/sitemap.xml
-        <lastmod>2015-05-19T14:25:57.000Z</lastmod>
+        <lastmod>2015-05-19T19:40:36.000Z</lastmod>
     </url>
     <url>
         <loc>http://numenta.org/events/hackathon/2015/may/</loc>
-        <lastmod>2015-05-19T14:26:18.000Z</lastmod>
-=======
-        <lastmod>2015-05-19T15:30:14.000Z</lastmod>
-    </url>
-    <url>
-        <loc>http://numenta.org/events/hackathon/2015/may/</loc>
-        <lastmod>2015-05-19T15:30:14.000Z</lastmod>
->>>>>>> gh-pages-brev-redux:sitemap.xml
+        <lastmod>2015-05-19T19:40:36.000Z</lastmod>
     </url>
     <url>
         <loc>http://numenta.org/docs/htm.java/org/numenta/nupic/Connections.html</loc>
@@ -2648,20 +2581,16 @@
         <lastmod>2015-04-08T02:21:20.000Z</lastmod>
     </url>
     <url>
-        <loc>http://numenta.org/events/hackathon/2013/jun/slides/</loc>
-        <lastmod>2015-04-08T02:21:23.000Z</lastmod>
-    </url>
-    <url>
         <loc>http://numenta.org/events/hackathon/2013/nov/hack/</loc>
         <lastmod>2015-05-19T14:08:35.000Z</lastmod>
     </url>
     <url>
+        <loc>http://numenta.org/events/hackathon/2013/jun/slides/</loc>
+        <lastmod>2015-04-08T02:21:23.000Z</lastmod>
+    </url>
+    <url>
         <loc>http://numenta.org/events/hackathon/2014/may/hack/</loc>
-<<<<<<< HEAD:sitemap/sitemap.xml
-        <lastmod>2015-05-19T14:25:32.000Z</lastmod>
-=======
-        <lastmod>2015-05-19T15:30:14.000Z</lastmod>
->>>>>>> gh-pages-brev-redux:sitemap.xml
+        <lastmod>2015-05-19T19:40:36.000Z</lastmod>
     </url>
     <url>
         <loc>http://numenta.org/events/hackathon/2014/oct/ann/</loc>
@@ -2866,45 +2795,6 @@
     <url>
         <loc>http://numenta.org/docs/htm.java/org/numenta/nupic/examples/package-use.html</loc>
         <lastmod>2015-04-08T02:21:20.000Z</lastmod>
-<<<<<<< HEAD:sitemap/sitemap.xml
-    </url>
-    <url>
-        <loc>http://numenta.org/docs/htm.java/org/numenta/nupic/integration/AbstractTemporalMemoryTest.html</loc>
-        <lastmod>2015-04-08T02:21:20.000Z</lastmod>
-    </url>
-    <url>
-        <loc>http://numenta.org/docs/htm.java/org/numenta/nupic/integration/BasicTemporalMemoryTest.html</loc>
-        <lastmod>2015-04-08T02:21:20.000Z</lastmod>
-    </url>
-    <url>
-        <loc>http://numenta.org/docs/htm.java/org/numenta/nupic/integration/ExtensiveTemporalMemoryTest.html</loc>
-        <lastmod>2015-04-08T02:21:20.000Z</lastmod>
-    </url>
-    <url>
-        <loc>http://numenta.org/docs/htm.java/org/numenta/nupic/integration/TemporalMemoryTestMachine.DetailedResults.html</loc>
-        <lastmod>2015-04-08T02:21:20.000Z</lastmod>
-    </url>
-    <url>
-        <loc>http://numenta.org/docs/htm.java/org/numenta/nupic/integration/TemporalMemoryTestMachine.html</loc>
-        <lastmod>2015-04-08T02:21:20.000Z</lastmod>
-    </url>
-    <url>
-        <loc>http://numenta.org/docs/htm.java/org/numenta/nupic/integration/package-frame.html</loc>
-        <lastmod>2015-04-08T02:21:20.000Z</lastmod>
-    </url>
-    <url>
-        <loc>http://numenta.org/docs/htm.java/org/numenta/nupic/integration/package-summary.html</loc>
-        <lastmod>2015-04-08T02:21:20.000Z</lastmod>
-    </url>
-    <url>
-        <loc>http://numenta.org/docs/htm.java/org/numenta/nupic/integration/package-tree.html</loc>
-        <lastmod>2015-04-08T02:21:20.000Z</lastmod>
-    </url>
-    <url>
-        <loc>http://numenta.org/docs/htm.java/org/numenta/nupic/integration/package-use.html</loc>
-        <lastmod>2015-04-08T02:21:20.000Z</lastmod>
-=======
->>>>>>> gh-pages-brev-redux:sitemap.xml
     </url>
     <url>
         <loc>http://numenta.org/docs/htm.java/org/numenta/nupic/encoders/AdaptiveScalarEncoder.Builder.html</loc>
@@ -3109,8 +2999,6 @@
     <url>
         <loc>http://numenta.org/docs/htm.java/org/numenta/nupic/encoders/package-use.html</loc>
         <lastmod>2015-04-08T02:21:20.000Z</lastmod>
-<<<<<<< HEAD:sitemap/sitemap.xml
-=======
     </url>
     <url>
         <loc>http://numenta.org/docs/htm.java/org/numenta/nupic/integration/AbstractTemporalMemoryTest.html</loc>
@@ -3147,7 +3035,6 @@
     <url>
         <loc>http://numenta.org/docs/htm.java/org/numenta/nupic/integration/package-use.html</loc>
         <lastmod>2015-04-08T02:21:20.000Z</lastmod>
->>>>>>> gh-pages-brev-redux:sitemap.xml
     </url>
     <url>
         <loc>http://numenta.org/docs/htm.java/org/numenta/nupic/model/Cell.html</loc>
@@ -3540,29 +3427,6 @@
     <url>
         <loc>http://numenta.org/docs/htm.java/org/numenta/nupic/examples/qt/package-use.html</loc>
         <lastmod>2015-04-08T02:21:20.000Z</lastmod>
-<<<<<<< HEAD:sitemap/sitemap.xml
-    </url>
-    <url>
-        <loc>http://numenta.org/docs/htm.java/org/numenta/nupic/integration/class-use/AbstractTemporalMemoryTest.html</loc>
-        <lastmod>2015-04-08T02:21:20.000Z</lastmod>
-    </url>
-    <url>
-        <loc>http://numenta.org/docs/htm.java/org/numenta/nupic/integration/class-use/BasicTemporalMemoryTest.html</loc>
-        <lastmod>2015-04-08T02:21:20.000Z</lastmod>
-    </url>
-    <url>
-        <loc>http://numenta.org/docs/htm.java/org/numenta/nupic/integration/class-use/ExtensiveTemporalMemoryTest.html</loc>
-        <lastmod>2015-04-08T02:21:20.000Z</lastmod>
-    </url>
-    <url>
-        <loc>http://numenta.org/docs/htm.java/org/numenta/nupic/integration/class-use/TemporalMemoryTestMachine.DetailedResults.html</loc>
-        <lastmod>2015-04-08T02:21:20.000Z</lastmod>
-    </url>
-    <url>
-        <loc>http://numenta.org/docs/htm.java/org/numenta/nupic/integration/class-use/TemporalMemoryTestMachine.html</loc>
-        <lastmod>2015-04-08T02:21:20.000Z</lastmod>
-=======
->>>>>>> gh-pages-brev-redux:sitemap.xml
     </url>
     <url>
         <loc>http://numenta.org/docs/htm.java/org/numenta/nupic/encoders/class-use/AdaptiveScalarEncoder.Builder.html</loc>
@@ -3751,8 +3615,6 @@
     <url>
         <loc>http://numenta.org/docs/htm.java/org/numenta/nupic/encoders/class-use/SparsePassThroughEncoderTest.html</loc>
         <lastmod>2015-04-08T02:21:19.000Z</lastmod>
-<<<<<<< HEAD:sitemap/sitemap.xml
-=======
     </url>
     <url>
         <loc>http://numenta.org/docs/htm.java/org/numenta/nupic/integration/class-use/AbstractTemporalMemoryTest.html</loc>
@@ -3773,7 +3635,6 @@
     <url>
         <loc>http://numenta.org/docs/htm.java/org/numenta/nupic/integration/class-use/TemporalMemoryTestMachine.html</loc>
         <lastmod>2015-04-08T02:21:20.000Z</lastmod>
->>>>>>> gh-pages-brev-redux:sitemap.xml
     </url>
     <url>
         <loc>http://numenta.org/docs/htm.java/org/numenta/nupic/model/class-use/Cell.html</loc>
