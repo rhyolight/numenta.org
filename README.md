@@ -144,11 +144,12 @@ TEST_HOST=http://numenta.org TEST_PORT=80 TEST_PATH=  npm run test
     be ignored in `.gitignore` and `_config.yml`.
 * Links:
   * DO NOT forget to include the `{{ site.baseurl }}` template variable on
-    internal links. If you forget to use it, you will break staging sites.
+    internal links.
+    * If you forget to use it, you will break staging sites.
   * Use `&amp;` instead of `&` within links.
 * Markdown:
   * Main content text is stored as markdown here: `_includes/content/`
     * Quick snippet to load a Markdown text block:
-      `{% include base/markdown.html file='text.md' %}`
-  * Be careful with links, use `&amp;` instead of `&`. Local Jekyll may run
-    fine, but GitHub Pages may die without warning.
+      * `{% include base/markdown.html file='text.md' %}`
+  * Be careful with links, use `&amp;` instead of `&`.
+    * (Local Jekyll may run fine, but GitHub Pages may die without warning.)
