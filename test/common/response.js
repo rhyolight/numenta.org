@@ -94,6 +94,12 @@ module.exports = function () {
                 });
               });
 
+              it('should load jQuery.universal-analytics', function () {
+                casper.then(function () {
+                  "html > body > script[src*='jquery.universal-analytics.min.js']".should.be.inDOM;
+                });
+              });
+
               it('should load Base', function () {
                 casper.then(function () {
                   "html > body > script[src*='base.js']".should.be.inDOM;
