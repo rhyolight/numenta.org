@@ -93,7 +93,7 @@
       {% include base/brand.html %}
       {% include base/markdown.html file='blurb.md' %}
       <span>
-        {{ site.copyright }} |
+        {{ site.copyright }} {{ site.time | date: '%Y' }} {{ site.company }} |
         <a href="{{ site.data.url.ext.privacy }}">Privacy</a> |
         <a href="{{ site.data.url.ext.terms }}">Terms</a>
       </span>

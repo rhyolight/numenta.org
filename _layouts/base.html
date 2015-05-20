@@ -29,7 +29,7 @@
     {% endfor %}
   </head>
   <body class="numenta" data-spy="scroll" data-target=".scrollspy-nav">
-    <!-- content | {{ site.baseurl }} {{ site.copyright }} v={{ ver }} -->
+    <!-- content | {{ site.baseurl }} {{ site.copyright }} {{ site.time | date_to_xmlschema }} {{ site.company }} v={{ ver }} -->
     {% include base/header.html %}
     <main>{{ content }}</main>
     {% include base/footer.html %}
