@@ -7,13 +7,10 @@
     "clean": "rm -Rf _site/*",
     "dev": "npm install && npm run support && npm run serve",
     "generate": "bundle exec jekyll build --config _config.yml,_config.dev.yml",
-    "generate-staging": "bundle exec jekyll build --config _config.yml,_config.stg.yml",
-    "generate-production": "bundle exec jekyll build",
     "guide": "kss-node --config styleguide/_config/config.json",
     "linkcheck": "gulp linkcheck",
     "serve": "bundle exec jekyll serve --config _config.yml,_config.dev.yml",
     "sitemap": "gulp sitemap",
-    "stage": "npm install && npm run support && npm run generate-staging",
     "support": "npm run guide && npm run sitemap",
     "test": "npm run webtest && npm run linkcheck",
     "webtest": "PHANTOMJS_EXECUTABLE=`npm bin`/phantomjs gulp webtest"
