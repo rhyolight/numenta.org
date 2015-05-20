@@ -58,13 +58,13 @@ gulp.task('checkpages', function (callback) {
     onlySameDomain:   true,
     queryHashes:      true,
     noRedirects:      true,
-    noLocalLinks:     false, // true for prod ?
+    noLocalLinks:     false,
     noEmptyFragments: true,
     linksToIgnore:    [],
     checkXhtml:       false,
     checkCaching:     false,
-    checkCompression: false, // true for prod ?
-    maxResponseTime:  200,
+    checkCompression: false,
+    maxResponseTime:  500,
     userAgent:        'custom-user-agent/1.2.3',
     summary:          true
   };
