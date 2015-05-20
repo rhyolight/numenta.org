@@ -60,11 +60,11 @@ gulp.task('checkpages', function (callback) {
     noRedirects:      true,
     noLocalLinks:     false,
     noEmptyFragments: true,
-    linksToIgnore:    [],
+    linksToIgnore:    [ host + ':' + port + '/assets/css/base.css' ],
     checkXhtml:       false,
     checkCaching:     false,
     checkCompression: false,
-    maxResponseTime:  500,
+    maxResponseTime:  2000,
     userAgent:        'custom-user-agent/1.2.3',
     summary:          true
   };

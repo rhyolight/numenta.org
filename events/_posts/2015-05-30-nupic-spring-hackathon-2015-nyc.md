@@ -5,7 +5,7 @@ layout: item
 title: NuPIC Spring Hackathon 2015 NYC
 ---
 
-### [2015 Spring Hackathon in NYC]({{ site.data.url.hack }})
+### [2015 Spring Hackathon in NYC]({{ site.baseurl }}{{ site.data.url.hack }})
 
 ![Cornell Logo](/images/hackathons/2015/may/cornell-logo.png)
 
@@ -24,4 +24,3 @@ United States
 ### [RSVP NOW!](http://www.meetup.com/numenta/events/220422020/)
 
 To attend this event, you **MUST** RSVP through the Meetup page above.
-
