@@ -3,7 +3,7 @@
 ## Numenta.org Living Styleguide
 
 This is a [Living Styleguide](http://www.webdesignerdepot.com/2014/09/how-to-make-your-code-easily-maintainable-with-living-style-guides/)
-for the [NuPIC](/) Website at http://numenta.org.
+for the NuPIC Website at http://numenta.org.
 
 > **http://numenta.org/styleguide/**
 
@@ -20,15 +20,6 @@ on how to use this.
 
 In general, this Styleguide will share structure and ordering with the
 Bootstrap CSS page: http://getbootstrap.com/css/
-
-#### TODO
-
-* Talk about:
-  * Bootstrap, etc. (more TODO listed in README)
-  * KSS
-  * SASS
-  * Best Practices
-  * etc.
 
 #### Links
 
