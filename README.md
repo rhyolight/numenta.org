@@ -87,6 +87,8 @@ TEST_HOST=http://localhost TEST_PORT=8008 TEST_PATH=  npm run test
 Build:
 * Modify `_config.yml` and set `baseurl` to be `/numenta.org`
 * Push changes to your own github `username/gh-pages` branch
+* *Note:* Living Styleguide doesn't work fully on Staging yet, it doesn't know
+  about the gh-pages Jekyll `baseurl` setting.
 * Your own staging site will build and be available:
 
 > `http://username.github.io/numenta.org/`

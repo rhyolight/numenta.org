@@ -62,7 +62,7 @@ gulp.task('checkpages', function (callback) {
     noEmptyFragments: true,
     linksToIgnore:    [],
     checkXhtml:       false,
-    checkCaching:     true,
+    checkCaching:     false,
     checkCompression: false, // true for prod ?
     maxResponseTime:  200,
     userAgent:        'custom-user-agent/1.2.3',
