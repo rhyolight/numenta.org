@@ -1,6 +1,6 @@
 (function() {
 
-    var committersUrl = "http://issues.numenta.org:8081/committers";
+    var committersUrl = "http://tooling.numenta.org/committers";
     var tmpl = Handlebars.compile($("#committers-tmpl").html());
 
     function displayCommitters(committers) {

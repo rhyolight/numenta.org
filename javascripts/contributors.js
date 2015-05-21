@@ -1,6 +1,6 @@
 (function() {
     var csvUrl = '../resources/contributors.csv';
-    var contribsUrl = 'http://issues.numenta.org:8081/contribStats';
+    var contribsUrl = 'http://tooling.numenta.org/contribStats';
     var headings = ['Name', 'Github', 'Committer', 'Reviewer', 'Commits'];
     var tmpl = Handlebars.compile($("#contributor-table").html());
 

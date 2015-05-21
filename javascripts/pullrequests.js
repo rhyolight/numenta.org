@@ -1,7 +1,7 @@
 (function() {
     var OVERDUE_GAP = 7 * 24 * 60 * 60 * 1000;
     var now = new Date().getTime();
-    var dataUrl = 'http://issues.numenta.org:8081/prStatus.json?repo=numenta/nupic&callback=?';
+    var dataUrl = 'http://tooling.numenta.org/prStatus.json?repo=numenta/nupic&callback=?';
     var prTemplate = Handlebars.compile($("#pr-template").html());
     var emptyPrTemplate = Handlebars.compile($("#empty-pr-template").html());
     var $pr = $('#pullrequests');

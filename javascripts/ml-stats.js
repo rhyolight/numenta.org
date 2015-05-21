@@ -1,5 +1,5 @@
 (function() {
-    var dataUrl = 'http://issues.numenta.org:8081/maillist.json?callback=?',
+    var dataUrl = 'http://tooling.numenta.org/maillist.json?callback=?',
         $statsDiv = $('#stats');
     
     function convertMailingListDataToDygraphFormat(data) {
