@@ -7,11 +7,12 @@
 <h5>
   <date>{{ post.date | date_to_string }}</date>
 </h5>
-<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+<strong><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></strong>
 <div class="meta">
   <em>by</em> {{ post.author }}
 </div>
 <p>{{ post.excerpt | strip_html | truncatewords: 40 }}</p>
+{% include base/share.html link=post.url feed=post.category %}
 <a href="{{ site.baseurl }}{{ post.url }}">
   Read Full Article <i class="fa fa-fw fa-angle-right"></i>
 </a>

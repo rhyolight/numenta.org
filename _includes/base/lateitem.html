@@ -11,11 +11,13 @@
     <h3><a href="{{ site.baseurl }}{{ include.link }}">{{ include.title }}</a></h3>
   </div>
   <div class="col-xs-6 text-right">
-    {% include base/share.html link=post.url %}
+    {% include base/share.html link=post.url feed=include.title %}
   </div>
 </div>
 <!-- <img src="" alt="Image for {{ post.title }}" /> -->
-<a class="title" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+<strong>
+  <a class="title" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+</strong>
 <div class="meta">
   <date>{{ post.date | date_to_string }}</date>
   <em>by</em> {{ post.author }}

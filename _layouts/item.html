@@ -11,6 +11,7 @@ layout: default
     <em>by</em> {{ page.author }}
   </div>
   <p>{{ content }}</p>
+  {% include base/share.html link=page.url feed=page.category %}
   <a href="{{site.baseurl}}{{ site.data.url[page.category] }}">
     <i class="fa fa-fw fa-angle-left"></i>
     Back to {{ page.category | capitalize }}
