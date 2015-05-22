@@ -2,19 +2,20 @@
 layout: default
 redirect_from: "/news/archive.html"
 styles:
-  - "/assets/css/post.css"
+  - "/assets/css/list.css"
+  - "/assets/css/item.css"
 title: News
 ---
 
 <h1>{{ page.title }}</h1>
-<hr/>
 
-{% for post in site.categories.news %}
-  <div>
-    {% include base/item.html %}
-  </div>
-  <hr/>
-{% endfor %}
+<ul class="list-unstyled articles">
+  {% for post in site.categories.news %}
+    <li>
+      {% include base/listitem.html %}
+    </li>
+  {% endfor %}
+</ul>
 
 <a href="{{ site.baseurl }}{{ site.data.url.index }}">
   <i class="fa fa-fw fa-angle-left"></i> Back to Home
