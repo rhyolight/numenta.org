@@ -18,7 +18,8 @@
  *
  * A block of syntax-highlighted code wrapped with `<pre>` tags. If inside
  *  a Liquid template, you can use the Pygments syntax highlighting style
- *  `{% highlight lang %}`.
+ *  `{% highlight lang %}`. Learn more:
+ *  http://jekyllrb.com/docs/templates/#code-snippet-highlighting
  *
  * Markup:
  *  <pre>
@@ -29,7 +30,7 @@
  * Styleguide: 3.1
  */
 pre {
-  font-size: 90%;
+  font-size: 95%;
 }
 
 /**
@@ -42,6 +43,9 @@ pre {
  *
  * Styleguide: 3.2
  */
+code {
+  white-space: pre !important;
+}
 
 /**
  * User Input
@@ -53,6 +57,7 @@ pre {
  *
  * Styleguide: 3.3
  */
+kbd {}
 
 /**
  * Variables
@@ -64,6 +69,7 @@ pre {
  *
  * Styleguide: 3.4
  */
+var {}
 
 /**
  * Output
@@ -75,3 +81,4 @@ pre {
  *
  * Styleguide: 3.5
  */
+samp {}

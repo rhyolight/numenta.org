@@ -48,8 +48,10 @@ Page.prototype.AugmentDownloadButton = function () {
 Page.prototype.AugmentQuickstartConsole = function () {
   var $console =  $('#console');
   var key = this.family.replace(/\s/g, '').toLowerCase();
-  var $element = $console.find('.' + key);
+  var $element;
 
+  if(key === 'ubuntu') key = 'linux';
+  $element = $console.find('.' + key);
   $console.children().addClass('hidden');
   $element.removeClass('hidden');
 }; // AugmentQuickstartConsole
