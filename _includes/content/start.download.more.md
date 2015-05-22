@@ -1,1 +1,1 @@
-More platforms and versions in [Downloads]({{ site.data.url.ext.downloads }}).
+Get older versions in [Downloads]({{ site.data.url.ext.downloads }}).
