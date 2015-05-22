@@ -92,12 +92,14 @@
     <div class="container">
       {% include base/brand.html %}
       {% include base/markdown.html file='blurb.md' %}
-      <span>
-        {{ site.copyright }} {{ site.time | date: '%Y' }} {{ site.company }} |
+      <div>
         <a href="{{ site.data.url.ext.source }}"><i class="fa fa-github"></i> Source</a> |
         <a href="{{ site.data.url.ext.privacy }}">Privacy</a> |
         <a href="{{ site.data.url.ext.terms }}">Terms</a>
-      </span>
+      </div>
+      <div>
+        {{ site.copyright }} {{ site.time | date: '%Y' }} {{ site.company }}
+      </div>
     </div>
   </section>
 

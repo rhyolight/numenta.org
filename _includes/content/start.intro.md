@@ -1,5 +1,6 @@
-Get started with NuPIC. Here we'll help you download, install, and run it for
-the first time.
+<p class="lead">
+  Download, install, and run NuPIC for the first time.
+</p>
 
 Please consider that NuPIC is based on principles of which most people are not
 familiar, including Hierarchical Temporal Memory (HTM), Sparse Distributed
