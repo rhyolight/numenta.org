@@ -43,6 +43,5 @@ advanced:
     name: HTM Learning Algorithms Tutorial
     desc: Algorithm Basics
   -
-    icon: fa-edit
-    link: https://github.com/numenta/nupic/wiki
-    name: NuPIC Wiki
+    link: http://lists.numenta.org/mailman/listinfo/nupic-theory_lists.numenta.org
+    name: NuPIC Theory Mailing List
