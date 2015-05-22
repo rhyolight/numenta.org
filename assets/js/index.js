@@ -39,7 +39,7 @@ Page.prototype.AugmentDownloadButton = function () {
   $ver.text('Version ' + version);
 
   // show users operating system name
-  $os.text(this.family);
+  // $os.text(this.family); // github issues #185 #197
 }; // AugmentDownloadButton
 
 /**
