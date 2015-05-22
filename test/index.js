@@ -91,7 +91,7 @@ describe('Homepage', function () {
 
         it('should contain valid text', function () {
           casper.then(function () {
-            selector.should.have.text(/is an open source Platform and Community/);
+            selector.should.have.text(/both space and time/);
           });
         });
 
@@ -175,7 +175,7 @@ describe('Homepage', function () {
 
         it('should contain valid text', function () {
           casper.then(function () {
-            selector.should.have.text(/Get started with NuPIC/);
+            selector.should.have.text(/learning curve/);
           });
         });
 
@@ -241,7 +241,7 @@ describe('Homepage', function () {
 
         it('should contain valid text', function () {
           casper.then(function () {
-            selector.should.have.text(/Learn how to use NuPIC/);
+            selector.should.have.text(/how to use/);
           });
         });
 
@@ -373,7 +373,7 @@ describe('Homepage', function () {
 
         it('should contain valid text', function () {
           casper.then(function () {
-            selector.should.have.text(/working together towards/);
+            selector.should.have.text(/a new era/);
           });
         });
 
@@ -439,7 +439,7 @@ describe('Homepage', function () {
 
         it('should contain valid text', function () {
           casper.then(function () {
-            selector.should.have.text(/with the latest on/);
+            selector.should.have.text(/with the latest/);
           });
         });
 
