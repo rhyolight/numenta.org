@@ -11,4 +11,5 @@ title: Jeff Hawkins with Leo Laporte on Triangulation 146 Twit.TV
 
 ### Apr 7, 2014
 
-Leo Laporte talks to Jeff about Numenta, Grok, NuPIC, and the future of machine intelligence.
+Leo Laporte talks to Jeff about Numenta, Grok, NuPIC, and the future of
+machine intelligence.
