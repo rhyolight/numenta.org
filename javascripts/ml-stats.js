@@ -66,8 +66,8 @@
 
     $.getJSON(dataUrl, function(data) {
         var mlStats = {};
-        data.mailingLists.forEach(function(ml) {
-            mlStats[ml.name] = convertMailingListDataToDygraphFormat(ml);
+        _.each(data.mailingLists, function(list, name) {
+            mlStats[name] = convertMailingListDataToDygraphFormat(list); 
         });
         mlStats = normalizeGraphDataTimeframes(mlStats);
         $statsDiv.html('');
