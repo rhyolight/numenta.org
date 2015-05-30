@@ -35,6 +35,10 @@ We'll be discussing MIDI encoding for input into NuPIC with a prominent musician
 
 Details about the latest NuPIC developments and features.
 
+### OpenBCI
+
+Conor will talk about ways to get [OpenBCI](http://www.openbci.com/) data using their development kits. There will be a limited amount of these kits available for hackers.
+
 * * *
 
 ## Sunday May 31
