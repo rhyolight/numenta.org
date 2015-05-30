@@ -19,6 +19,10 @@
 | ` 2:00 -  2:30 PM` | **[State of NuPIC](#state-of-nupic)** (Matt Taylor)                        |
 | ` 3:00 -  3:30 PM` | **[OpenBCI](#openbci)** (Conor Russomanno)                                 |
 
+### Kickoff
+
+Contains protocol for hackathon and important links. See [complete slide deck here]({{ site.baseurl }}/events/hackathon/2015/may/slides/Kickoff/).
+
 ### Hack Samples
 
 Chetan will talk about streaming location information from the [Unity](https://unity3d.com/) game engine into NuPIC. Austin will demonstrate an integration with [Project Tango](https://www.google.com/atap/project-tango/).
