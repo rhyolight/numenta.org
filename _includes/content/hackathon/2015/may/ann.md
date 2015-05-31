@@ -1,9 +1,12 @@
+Demo Order
+------------
 
-### Register your hack!
-
-In order to take part in the demos, you must [register your project on ChallengePost](http://nupic2015spring.challengepost.com/).
-
-See all hackathon info at [numenta.org/hack]({{site.baseurl}}/hack/).
-
-- See Chetan's Unity API code at <http://github.com/chetan51/anomalous-driving> and <http://github.com/chetan51/unity-api>.
--  See Austin's Project Tango code at <http://github.com/oxtopus/tango-examples-unity>.
+1. Market Patterns (Daniel McDonald, Saj Ajora)
+1. Traffikwerks (Shawn Lauzon, Tayc93)
+1. Breaking News Detection (Pablo Gonzalvez)
+1. Blink detection (George Bit-Yunan)
+1. Essay Generator (Nathaniel Schultz, Jose Jimenez)
+1. SF Crimes (Matt Taylor)
+1. Comportex Notebook (Marcus Lewis)
+1. Seeing inside HTM algorithms (Felix Andrews)
+1. NuPIC plays poker (Sergey Alexashenko)
