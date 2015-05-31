@@ -11,5 +11,6 @@ Demo Order
 1. Comportex Notebook (Marcus Lewis)
 1. Ankur Saxena (Ankur Saxena)
 1. Seeing Inside HTMs (Felix Andrews)
+1. Vector Transmissions of Disease with Nupic (Jean Winget)
 1. Traffikwerks (Shawn Lauzon, Tayc93)
 1. NuPIC plays poker (Sergey Alexashenko)
