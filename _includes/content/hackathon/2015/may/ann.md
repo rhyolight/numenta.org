@@ -7,6 +7,7 @@ Demo Order
 1. Market Patterns (Daniel McDonald, Saj Ajora)
 1. Essay Generator (Nathaniel Schultz, Jose Jimenez)
 1. Duck-Duck-Moose (Frank Carey)
+1. NuFaucet (John Yeh)
 1. Comportex Notebook (Marcus Lewis)
 1. Ankur Saxena (Ankur Saxena)
 1. Seeing Inside HTMs (Felix Andrews)
