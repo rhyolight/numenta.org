@@ -7,6 +7,12 @@
 (function () {
   $(document).ready(function () {
 
+    // Activate any/all Bootstrap Popovers on page
+    $('[data-toggle="popover"]').popover({
+      placement:  'auto',
+      trigger:    'hover focus'
+    });
+
     // "Back-to-top" widget functionality
     $('#back-to-top').on('click', function (event) {
       event.preventDefault();

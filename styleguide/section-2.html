@@ -31,15 +31,20 @@
               <li class="kss-menu-item"><a href="section-1.html"><span class="kss-ref">1</span><span class="kss-name">Layout</span></a></li>
               <li class="kss-menu-item"><a href="section-2.html"><span class="kss-ref">2</span><span class="kss-name">Typography</span></a></li>
               <li class="kss-menu-item"><a href="section-3.html"><span class="kss-ref">3</span><span class="kss-name">Code</span></a></li>
-              <li class="kss-menu-item"><a href="section-4.html"><span class="kss-ref">4</span><span class="kss-name">Buttons</span></a></li>
-              <li class="kss-menu-item"><a href="section-5.html"><span class="kss-ref">5</span><span class="kss-name">Icons</span></a></li>
-              <li class="kss-menu-item"><a href="section-6.html"><span class="kss-ref">6</span><span class="kss-name">Alerts</span></a></li>
+              <li class="kss-menu-item"><a href="section-4.html"><span class="kss-ref">4</span><span class="kss-name">Tables</span></a></li>
+              <li class="kss-menu-item"><a href="section-5.html"><span class="kss-ref">5</span><span class="kss-name">Buttons</span></a></li>
+              <li class="kss-menu-item"><a href="section-6.html"><span class="kss-ref">6</span><span class="kss-name">Icons</span></a></li>
+              <li class="kss-menu-item"><a href="section-7.html"><span class="kss-ref">7</span><span class="kss-name">Popovers</span></a></li>
+              <li class="kss-menu-item"><a href="section-8.html"><span class="kss-ref">8</span><span class="kss-name">Alerts</span></a></li>
+              <li class="kss-menu-item"><a href="section-9.html"><span class="kss-ref">9</span><span class="kss-name">Media</span></a></li>
+              <li class="kss-menu-item"><a href="section-10.html"><span class="kss-ref">10</span><span class="kss-name">Wells</span></a></li>
             </ul>
             <ul class="kss-menu-child">
               <li class="kss-menu-item"><a href="#section-2.1"><span class="kss-ref">2.1</span><span class="kss-name">Headings</span></a></li>
               <li class="kss-menu-item"><a href="#section-2.2"><span class="kss-ref">2.2</span><span class="kss-name">Body copy</span></a></li>
               <li class="kss-menu-item"><a href="#section-2.2.1"><span class="kss-ref">2.2.1</span><span class="kss-name">Links</span></a></li>
               <li class="kss-menu-item"><a href="#section-2.3"><span class="kss-ref">2.3</span><span class="kss-name">Lists</span></a></li>
+              <li class="kss-menu-item"><a href="#section-2.4"><span class="kss-ref">2.4</span><span class="kss-name">Definitions</span></a></li>
             </ul>
           </nav>
         </div>
@@ -267,6 +272,69 @@
               </div>
             </div>
           </section>
+          <section id="section-2.4" class="kss-section kss-depth-2">
+            <h1 class="kss-title"><span class="kss-ref">2.4</span> Definitions</h1>
+            <div class="kss-description">
+              <p>A list of terms with their associated descriptions and definitions.</p>
+
+            </div>
+            <div class="kss-modifier-block">
+              <div class="kss-modifier kss-modifier-original">
+                <div class="kss-modifier-example">
+
+                    <!-- numenta custom start -->
+                    <section>
+                    <!-- numenta custom end -->
+
+                       <h5>Definition List</h5>
+ <dl>
+   <dt>Name</dt>
+     <dd>King Kong</dd>
+   <dt>Year</dt>
+     <dd>Twenty Fifteen</dd>
+   <dt>Location</dt>
+     <dd>Redwood City, CA, United States</dd>
+ </dl>
+ <br/>
+ <h5>Horizontal Definition List</h5>
+ <dl class="dl-horizontal">
+   <dt>Name</dt>
+     <dd>King Kong</dd>
+   <dt>Year</dt>
+     <dd>Twenty Fifteen</dd>
+   <dt>Location</dt>
+     <dd>Redwood City, CA, United States</dd>
+ </dl>
+
+                    <!-- numenta custom start -->
+                    </section>
+                    <!-- numenta custom end -->
+
+                </div>
+              </div>
+              <div class="kss-markup">
+                <pre><code data-language="html"> &lt;h5&gt;Definition List&lt;/h5&gt;
+ &lt;dl&gt;
+   &lt;dt&gt;Name&lt;/dt&gt;
+     &lt;dd&gt;King Kong&lt;/dd&gt;
+   &lt;dt&gt;Year&lt;/dt&gt;
+     &lt;dd&gt;Twenty Fifteen&lt;/dd&gt;
+   &lt;dt&gt;Location&lt;/dt&gt;
+     &lt;dd&gt;Redwood City, CA, United States&lt;/dd&gt;
+ &lt;/dl&gt;
+ &lt;br/&gt;
+ &lt;h5&gt;Horizontal Definition List&lt;/h5&gt;
+ &lt;dl class=&quot;dl-horizontal&quot;&gt;
+   &lt;dt&gt;Name&lt;/dt&gt;
+     &lt;dd&gt;King Kong&lt;/dd&gt;
+   &lt;dt&gt;Year&lt;/dt&gt;
+     &lt;dd&gt;Twenty Fifteen&lt;/dd&gt;
+   &lt;dt&gt;Location&lt;/dt&gt;
+     &lt;dd&gt;Redwood City, CA, United States&lt;/dd&gt;
+ &lt;/dl&gt;</code></pre>
+              </div>
+            </div>
+          </section>
         </article>
         <footer class="kss-footer">
           <div>Created using <a href="https://github.com/hughsk/kss-node">kss-node</a> and <a href="https://github.com/htanjo/kss-node-template">kss-node-template</a>.</div>
@@ -275,6 +343,7 @@
     </div>
     <script src="public/kss.js"></script>
     <script src="public/jquery-1.9.1.min.js"></script>
+    <script src="public/bootstrap.min.js"></script>
     <!--[if gt IE 8]><!-->
     <script src="public/rainbow.min.js"></script>
     <!--<![endif]-->

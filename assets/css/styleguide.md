@@ -19,7 +19,10 @@ see the [node-kss specification](https://github.com/kss-node/kss/blob/spec/SPEC.
 on how to use this.
 
 In general, this Styleguide will share structure and ordering with the
-Bootstrap CSS page: http://getbootstrap.com/css/
+Bootstrap website:
+1. http://getbootstrap.com/css/
+1. http://getbootstrap.com/components/
+1. http://getbootstrap.com/javascript/
 
 #### Links
 
