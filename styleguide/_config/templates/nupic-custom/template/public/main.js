@@ -88,5 +88,8 @@
         $('code.css').attr('data-language', 'css');
         $('code.less, code.scss').attr('data-language', 'generic');
 
+        // Activate any/all Bootstrap Popovers on page
+        $('[data-toggle="popover"]').popover();
+
     });
 }(jQuery));

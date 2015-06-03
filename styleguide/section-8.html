@@ -26,7 +26,7 @@
             <h1 class="kss-doc-title"><a href="./">Numenta.org Styleguide</a></h1>
           </header>
           <nav class="kss-nav">
-            <ul class="kss-menu" data-kss-ref="5">
+            <ul class="kss-menu" data-kss-ref="8">
               <li class="kss-menu-item"><a href="./"><span class="kss-ref">0</span><span class="kss-name">Overview</span></a></li>
               <li class="kss-menu-item"><a href="section-1.html"><span class="kss-ref">1</span><span class="kss-name">Layout</span></a></li>
               <li class="kss-menu-item"><a href="section-2.html"><span class="kss-ref">2</span><span class="kss-name">Typography</span></a></li>
@@ -46,16 +46,12 @@
       </div>
       <div class="kss-content">
         <article class="kss-article">
-          <section id="section-5" class="kss-section kss-depth-1">
-            <h1 class="kss-title"><span class="kss-ref">5</span> Buttons</h1>
+          <section id="section-8" class="kss-section kss-depth-1">
+            <h1 class="kss-title"><span class="kss-ref">8</span> Alerts</h1>
             <div class="kss-description">
-              <p>The HTML <code>&lt;button&gt;</code> tag, used for creating button controls. Although this
- tag is often used in conjunction with the <code>&lt;form&gt;</code> element, it can also be
- used as a standalone control. We add slight shadows/outlines to our Buttons
- to visually separate them for the user as clickable entities.</p>
-<p>Our default button styles inherit from the Bootstrap <code>.btn</code> and
- <code>.btn-default</code> classes, and are ready for other Bootstrap Button classes in
- the markup: <a href="http://getbootstrap.com/css/#buttons">http://getbootstrap.com/css/#buttons</a>.</p>
+              <p>Provide contextual feedback messages for typical user actions with the
+ handful of available and flexible alert messages.</p>
+<p>See also: <a href="http://getbootstrap.com/components/#alerts">http://getbootstrap.com/components/#alerts</a></p>
 
             </div>
             <div class="kss-modifier-block">
@@ -66,13 +62,10 @@
                     <section>
                     <!-- numenta custom end -->
 
-                       <button type="button">Default</button>
- <button type="button" class="btn-primary">Primary</button>
- <button type="button" class="btn-success">Success</button>
- <button type="button" class="btn-info">Info</button>
- <button type="button" class="btn-warning">Warning</button>
- <button type="button" class="btn-danger">Danger</button>
- <button type="button" class="btn-link">Link</button>
+                       <div class="alert alert-success" role="alert">Success</div>
+ <div class="alert alert-info" role="alert">Info</div>
+ <div class="alert alert-warning" role="alert">Warning</div>
+ <div class="alert alert-danger" role="alert">Danger</div>
 
                     <!-- numenta custom start -->
                     </section>
@@ -81,13 +74,10 @@
                 </div>
               </div>
               <div class="kss-markup">
-                <pre><code data-language="html"> &lt;button type=&quot;button&quot;&gt;Default&lt;/button&gt;
- &lt;button type=&quot;button&quot; class=&quot;btn-primary&quot;&gt;Primary&lt;/button&gt;
- &lt;button type=&quot;button&quot; class=&quot;btn-success&quot;&gt;Success&lt;/button&gt;
- &lt;button type=&quot;button&quot; class=&quot;btn-info&quot;&gt;Info&lt;/button&gt;
- &lt;button type=&quot;button&quot; class=&quot;btn-warning&quot;&gt;Warning&lt;/button&gt;
- &lt;button type=&quot;button&quot; class=&quot;btn-danger&quot;&gt;Danger&lt;/button&gt;
- &lt;button type=&quot;button&quot; class=&quot;btn-link&quot;&gt;Link&lt;/button&gt;</code></pre>
+                <pre><code data-language="html"> &lt;div class=&quot;alert alert-success&quot; role=&quot;alert&quot;&gt;Success&lt;/div&gt;
+ &lt;div class=&quot;alert alert-info&quot; role=&quot;alert&quot;&gt;Info&lt;/div&gt;
+ &lt;div class=&quot;alert alert-warning&quot; role=&quot;alert&quot;&gt;Warning&lt;/div&gt;
+ &lt;div class=&quot;alert alert-danger&quot; role=&quot;alert&quot;&gt;Danger&lt;/div&gt;</code></pre>
               </div>
             </div>
           </section>

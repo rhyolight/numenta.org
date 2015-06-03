@@ -17,7 +17,10 @@
       {% for feature in site.data.features %}
         <li>
           <i class="fa fa-4x {{ feature.icon }}"></i>
-          <span>{{ feature.name }}</span>
+          <a href="{{ feature.link }}" data-toggle="popover" title="{{ feature.name }}" data-content="{{ feature.desc }}" role="button">
+            {{ feature.name }}
+            <i class="fa fa-fw fa-caret-down"></i>
+          </a>
         </li>
       {% endfor %}
     </ul>

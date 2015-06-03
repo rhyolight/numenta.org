@@ -31,9 +31,13 @@
               <li class="kss-menu-item"><a href="section-1.html"><span class="kss-ref">1</span><span class="kss-name">Layout</span></a></li>
               <li class="kss-menu-item"><a href="section-2.html"><span class="kss-ref">2</span><span class="kss-name">Typography</span></a></li>
               <li class="kss-menu-item"><a href="section-3.html"><span class="kss-ref">3</span><span class="kss-name">Code</span></a></li>
-              <li class="kss-menu-item"><a href="section-4.html"><span class="kss-ref">4</span><span class="kss-name">Buttons</span></a></li>
-              <li class="kss-menu-item"><a href="section-5.html"><span class="kss-ref">5</span><span class="kss-name">Icons</span></a></li>
-              <li class="kss-menu-item"><a href="section-6.html"><span class="kss-ref">6</span><span class="kss-name">Alerts</span></a></li>
+              <li class="kss-menu-item"><a href="section-4.html"><span class="kss-ref">4</span><span class="kss-name">Tables</span></a></li>
+              <li class="kss-menu-item"><a href="section-5.html"><span class="kss-ref">5</span><span class="kss-name">Buttons</span></a></li>
+              <li class="kss-menu-item"><a href="section-6.html"><span class="kss-ref">6</span><span class="kss-name">Icons</span></a></li>
+              <li class="kss-menu-item"><a href="section-7.html"><span class="kss-ref">7</span><span class="kss-name">Popovers</span></a></li>
+              <li class="kss-menu-item"><a href="section-8.html"><span class="kss-ref">8</span><span class="kss-name">Alerts</span></a></li>
+              <li class="kss-menu-item"><a href="section-9.html"><span class="kss-ref">9</span><span class="kss-name">Media</span></a></li>
+              <li class="kss-menu-item"><a href="section-10.html"><span class="kss-ref">10</span><span class="kss-name">Wells</span></a></li>
             </ul>
             <ul class="kss-menu-child">
             </ul>
@@ -43,15 +47,11 @@
       <div class="kss-content">
         <article class="kss-article">
           <section id="section-4" class="kss-section kss-depth-1">
-            <h1 class="kss-title"><span class="kss-ref">4</span> Buttons</h1>
+            <h1 class="kss-title"><span class="kss-ref">4</span> Tables</h1>
             <div class="kss-description">
-              <p>The HTML <code>&lt;button&gt;</code> tag, used for creating button controls. Although this
- tag is often used in conjunction with the <code>&lt;form&gt;</code> element, it can also be
- used as a standalone control. We add slight shadows/outlines to our Buttons
- to visually separate them for the user as clickable entities.</p>
-<p>Our default button styles inherit from the Bootstrap <code>.btn</code> and
- <code>.btn-default</code> classes, and are ready for other Bootstrap Button classes in
- the markup: <a href="http://getbootstrap.com/css/#buttons">http://getbootstrap.com/css/#buttons</a>.</p>
+              <p>The HTML Table Element <code>&lt;table&gt;</code> represents semantic tabular data in
+ two dimensions or more.</p>
+<p>See more: <a href="http://getbootstrap.com/css/#tables">http://getbootstrap.com/css/#tables</a></p>
 
             </div>
             <div class="kss-modifier-block">
@@ -62,13 +62,32 @@
                     <section>
                     <!-- numenta custom end -->
 
-                       <button type="button">Default</button>
- <button type="button" class="btn-primary">Primary</button>
- <button type="button" class="btn-success">Success</button>
- <button type="button" class="btn-info">Info</button>
- <button type="button" class="btn-warning">Warning</button>
- <button type="button" class="btn-danger">Danger</button>
- <button type="button" class="btn-link">Link</button>
+                       <table class="table table-hover table-striped">
+   <thead>
+     <tr>
+       <th>#</th>
+       <th>First Name</th>
+       <th>Last Name</th>
+     </tr>
+   </thead>
+   <tbody>
+     <tr>
+       <td>1</td>
+       <td>Jane</td>
+       <td>Doe</td>
+     </tr>
+     <tr>
+       <td>2</td>
+       <td>John</td>
+       <td>Wayne</td>
+     </tr>
+     <tr>
+       <td>3</td>
+       <td>Roam</td>
+       <td>Earthly</td>
+     </tr>
+   </tbody>
+ </table>
 
                     <!-- numenta custom start -->
                     </section>
@@ -77,13 +96,32 @@
                 </div>
               </div>
               <div class="kss-markup">
-                <pre><code data-language="html"> &lt;button type=&quot;button&quot;&gt;Default&lt;/button&gt;
- &lt;button type=&quot;button&quot; class=&quot;btn-primary&quot;&gt;Primary&lt;/button&gt;
- &lt;button type=&quot;button&quot; class=&quot;btn-success&quot;&gt;Success&lt;/button&gt;
- &lt;button type=&quot;button&quot; class=&quot;btn-info&quot;&gt;Info&lt;/button&gt;
- &lt;button type=&quot;button&quot; class=&quot;btn-warning&quot;&gt;Warning&lt;/button&gt;
- &lt;button type=&quot;button&quot; class=&quot;btn-danger&quot;&gt;Danger&lt;/button&gt;
- &lt;button type=&quot;button&quot; class=&quot;btn-link&quot;&gt;Link&lt;/button&gt;</code></pre>
+                <pre><code data-language="html"> &lt;table class=&quot;table table-hover table-striped&quot;&gt;
+   &lt;thead&gt;
+     &lt;tr&gt;
+       &lt;th&gt;#&lt;/th&gt;
+       &lt;th&gt;First Name&lt;/th&gt;
+       &lt;th&gt;Last Name&lt;/th&gt;
+     &lt;/tr&gt;
+   &lt;/thead&gt;
+   &lt;tbody&gt;
+     &lt;tr&gt;
+       &lt;td&gt;1&lt;/td&gt;
+       &lt;td&gt;Jane&lt;/td&gt;
+       &lt;td&gt;Doe&lt;/td&gt;
+     &lt;/tr&gt;
+     &lt;tr&gt;
+       &lt;td&gt;2&lt;/td&gt;
+       &lt;td&gt;John&lt;/td&gt;
+       &lt;td&gt;Wayne&lt;/td&gt;
+     &lt;/tr&gt;
+     &lt;tr&gt;
+       &lt;td&gt;3&lt;/td&gt;
+       &lt;td&gt;Roam&lt;/td&gt;
+       &lt;td&gt;Earthly&lt;/td&gt;
+     &lt;/tr&gt;
+   &lt;/tbody&gt;
+ &lt;/table&gt;</code></pre>
               </div>
             </div>
           </section>
@@ -95,6 +133,7 @@
     </div>
     <script src="public/kss.js"></script>
     <script src="public/jquery-1.9.1.min.js"></script>
+    <script src="public/bootstrap.min.js"></script>
     <!--[if gt IE 8]><!-->
     <script src="public/rainbow.min.js"></script>
     <!--<![endif]-->
