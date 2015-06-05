@@ -84,7 +84,7 @@ footer {
      * Grok promo
      */
     aside {
-      background-color: $color-lite;
+      @include gradient-vertical($color-white, $color-lite, 75%, 100%);
       font-size: 90%;
       font-weight: $font-weight-normal;
       padding: 3.5rem;
