@@ -122,31 +122,6 @@ TEST_HOST=http://numenta.org TEST_PORT=80 TEST_PATH=  npm run test
 
 ## Best Practices
 
-### Design
-
-* [Living Styleguide](http://numenta.org/styleguide/)
-* Clean, Simple, Modern, Intelligent style
-* Mobile First
-* Standards-compliant as possible
-* Support a wide array of users with accessibility needs
-
-### Development
-
-* Keep Standards-compliant as possible
-  * Main pages should pass as 100% fully valid HTML 5 (automate?)
-* Support a wide array of users with accessibility needs
-* [Node Style](https://github.com/felixge/node-style-guide): 2 space text file
-  indentation, 80-width text files, etc.
-* Clean simple file and directory names, no spaces (please use dash "-" instead)
-  with lowercase and alphanumeric characters.
-* Keep local dev Ruby gems updated: `bundle update`
-* Modules:
-  * `node_modules` meant for inclusion by the browser (jquery, bootstrap, etc)
-    are stored in source control, and copied to `_site/node_modules` on build,
-    where the browser can get to them.
-  * `node_modules` not meant for the frontend (devDependencies, etc) should
-    be ignored in `.gitignore` and `_config.yml`.
-
 ### Content
 
 * Markdown Text Content:
@@ -161,3 +136,29 @@ TEST_HOST=http://numenta.org TEST_PORT=80 TEST_PATH=  npm run test
     * If you forget to use it, you will break staging sites.
   * Use `&amp;` instead of `&` within links.
     * (Local Jekyll may run fine, but GitHub Pages may die without warning.)
+
+### Design
+
+* [Living Styleguide](http://numenta.org/styleguide/)
+* Clean, Simple, Modern, Intelligent style
+* Mobile First
+* Standards-compliant as possible
+* Support a wide array of users with accessibility needs
+
+### Development
+
+* Keep Standards-compliant as possible
+  * Main pages should pass as 100% fully valid HTML 5 (automate?)
+  * [Browser and device support](http://getbootstrap.com/getting-started/#support)
+* Support a wide array of users with accessibility needs
+* [Node Style](https://github.com/felixge/node-style-guide): 2 space text file
+  indentation, 80-width text files, etc.
+* Clean simple file and directory names, no spaces (please use dash "-" instead)
+  with lowercase and alphanumeric characters.
+* Keep local dev Ruby gems updated: `bundle update`
+* Modules:
+  * `node_modules` meant for inclusion by the browser (jquery, bootstrap, etc)
+    are stored in source control, and copied to `_site/node_modules` on build,
+    where the browser can get to them.
+  * `node_modules` not meant for the frontend (devDependencies, etc) should
+    be ignored in `.gitignore` and `_config.yml`.

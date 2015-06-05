@@ -34,10 +34,10 @@
               <li class="kss-menu-item"><a href="section-4.html"><span class="kss-ref">4</span><span class="kss-name">Tables</span></a></li>
               <li class="kss-menu-item"><a href="section-5.html"><span class="kss-ref">5</span><span class="kss-name">Buttons</span></a></li>
               <li class="kss-menu-item"><a href="section-6.html"><span class="kss-ref">6</span><span class="kss-name">Icons</span></a></li>
-              <li class="kss-menu-item"><a href="section-7.html"><span class="kss-ref">7</span><span class="kss-name">Popovers</span></a></li>
-              <li class="kss-menu-item"><a href="section-8.html"><span class="kss-ref">8</span><span class="kss-name">Alerts</span></a></li>
-              <li class="kss-menu-item"><a href="section-9.html"><span class="kss-ref">9</span><span class="kss-name">Media</span></a></li>
-              <li class="kss-menu-item"><a href="section-10.html"><span class="kss-ref">10</span><span class="kss-name">Wells</span></a></li>
+              <li class="kss-menu-item"><a href="section-7.html"><span class="kss-ref">7</span><span class="kss-name">Alerts</span></a></li>
+              <li class="kss-menu-item"><a href="section-8.html"><span class="kss-ref">8</span><span class="kss-name">Media</span></a></li>
+              <li class="kss-menu-item"><a href="section-9.html"><span class="kss-ref">9</span><span class="kss-name">Wells</span></a></li>
+              <li class="kss-menu-item"><a href="section-10.html"><span class="kss-ref">10</span><span class="kss-name">Popovers</span></a></li>
             </ul>
             <ul class="kss-menu-child">
             </ul>
@@ -47,11 +47,12 @@
       <div class="kss-content">
         <article class="kss-article">
           <section id="section-8" class="kss-section kss-depth-1">
-            <h1 class="kss-title"><span class="kss-ref">8</span> Alerts</h1>
+            <h1 class="kss-title"><span class="kss-ref">8</span> Media</h1>
             <div class="kss-description">
-              <p>Provide contextual feedback messages for typical user actions with the
- handful of available and flexible alert messages.</p>
-<p>See also: <a href="http://getbootstrap.com/components/#alerts">http://getbootstrap.com/components/#alerts</a></p>
+              <p>Media object for abstract object styles for building various types of
+ components (like blog comments, Tweets, etc) that feature a left- or
+ right-aligned image alongside textual content.</p>
+<p>See also: <a href="http://getbootstrap.com/components/#media">http://getbootstrap.com/components/#media</a></p>
 
             </div>
             <div class="kss-modifier-block">
@@ -62,10 +63,17 @@
                     <section>
                     <!-- numenta custom end -->
 
-                       <div class="alert alert-success" role="alert">Success</div>
- <div class="alert alert-info" role="alert">Info</div>
- <div class="alert alert-warning" role="alert">Warning</div>
- <div class="alert alert-danger" role="alert">Danger</div>
+                       <div class="media">
+   <div class="media-left">
+     <a href="#">
+       <img class="media-object" alt="Logo" src="http://numenta.com/assets/img/logo/numenta.png" width="150">
+     </a>
+   </div>
+   <div class="media-body">
+     <h4 class="media-heading">Media heading</h4>
+     <p>Media description goes here and can go on for a while if you want.</p>
+   </div>
+ </div>
 
                     <!-- numenta custom start -->
                     </section>
@@ -74,10 +82,17 @@
                 </div>
               </div>
               <div class="kss-markup">
-                <pre><code data-language="html"> &lt;div class=&quot;alert alert-success&quot; role=&quot;alert&quot;&gt;Success&lt;/div&gt;
- &lt;div class=&quot;alert alert-info&quot; role=&quot;alert&quot;&gt;Info&lt;/div&gt;
- &lt;div class=&quot;alert alert-warning&quot; role=&quot;alert&quot;&gt;Warning&lt;/div&gt;
- &lt;div class=&quot;alert alert-danger&quot; role=&quot;alert&quot;&gt;Danger&lt;/div&gt;</code></pre>
+                <pre><code data-language="html"> &lt;div class=&quot;media&quot;&gt;
+   &lt;div class=&quot;media-left&quot;&gt;
+     &lt;a href=&quot;#&quot;&gt;
+       &lt;img class=&quot;media-object&quot; alt=&quot;Logo&quot; src=&quot;http://numenta.com/assets/img/logo/numenta.png&quot; width=&quot;150&quot;&gt;
+     &lt;/a&gt;
+   &lt;/div&gt;
+   &lt;div class=&quot;media-body&quot;&gt;
+     &lt;h4 class=&quot;media-heading&quot;&gt;Media heading&lt;/h4&gt;
+     &lt;p&gt;Media description goes here and can go on for a while if you want.&lt;/p&gt;
+   &lt;/div&gt;
+ &lt;/div&gt;</code></pre>
               </div>
             </div>
           </section>
