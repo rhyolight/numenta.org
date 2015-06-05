@@ -5,6 +5,7 @@
 'use strict';
 
 (function () {
+
   var csvUrl =      '../resources/contributors.csv';
   var contribsUrl = 'http://tooling.numenta.org/contribStats';
   var headings =    [ 'Name', 'Github', 'Committer', 'Reviewer', 'Commits' ];
@@ -58,6 +59,15 @@
       sortList: [[3,0],[2,0],[0,0]]
     });
 
+    // _.findIndex() clone
+    var findIndex = function(arr, cond) {
+      var i, x;
+      for (i in arr) {
+        x = arr[i];
+        if (cond(x)) return parseInt(i);
+      }
+    };
+
     // Get the commit stats for incremental commit data injection into
     // table.
     function whenDone() {
@@ -65,9 +75,9 @@
 
       if (contribData.length == repoSlugs.length) {
         // Merge contribData into one list of sums.
-        _.each(contribData, function(repoConfigData) {
-          _.each(repoConfigData, function(contributor) {
-            var existing = _.findIndex(allContributors, function(loopContrib) {
+        contribData.forEach(function(repoConfigData) {
+          repoConfigData.forEach(function(contributor) {
+            var existing = findIndex(allContributors, function(loopContrib) {
               return contributor.login == loopContrib.login;
             });
             if (existing > -1) {
@@ -79,36 +89,33 @@
           });
         });
 
+        // init for sorting
+        $commitTable.find('tr td.commits').html('0');
+
         // Inject commit stats for each record for committer
         allContributors.forEach(function(contributor) {
           $commitTable.find('#' + contributor.login + ' td.commits')
-            .removeClass('small-loader')
             .html(contributor.commits);
         });
-
-        // Remove loader icon and replace empty commits with zero for
-        // proper sorting
-        $commitTable.find('tr td.small-loader')
-          .removeClass('small-loader')
-          .html('0');
 
         // Trigger update on tablesorter for re-sort
         $commitTable.trigger('update');
       }
-
-      // Make a call for each repo we want to get contributor counts for.
-      _.each(repoSlugs, function(repoSlug) {
-        $.ajax({
-          url:      contribsUrl,
-          dataType: 'jsonp',
-          data:     { repo: repoSlug },
-          jsonp:    'callback',
-          success:  function(data) {
-            contribData.push(data[repoSlug]);
-            whenDone();
-          }
-        });
-      });
     }
+
+    // Make a call for each repo we want to get contributor counts for.
+    repoSlugs.forEach(function(repoSlug) {
+      $.ajax({
+        url:      contribsUrl,
+        dataType: 'jsonp',
+        data:     { repo: repoSlug },
+        jsonp:    'callback',
+        success:  function(data) {
+          contribData.push(data[repoSlug]);
+          whenDone();
+        }
+      });
+    });
   });
+
 })();

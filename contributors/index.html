@@ -13,7 +13,7 @@ title: NuPIC Contributors
 <section>
   <h1>{{ page.title }} <small id="contrib-count"></small></h1>
   <div id="contributors">
-    loading...
+    <i class="fa fa-fw fa-spin fa-cog"></i> Loading...
   </div>
 </section>
 
@@ -34,7 +34,7 @@ title: NuPIC Contributors
             <td onclick="document.location='https://github.com/{{Github}}'" style="color:#39c; cursor: pointer;">{{Github}}</td>
             <td>{{Committer}}</td>
             <td>{{Reviewer}}</td>
-            <td class="commits small-loader">{{Commits}}</td>
+            <td class="commits">{{Commits}}</td>
           </tr>
         {{/each}}
       </tbody>
