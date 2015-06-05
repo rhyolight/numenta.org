@@ -124,8 +124,8 @@ TEST_HOST=http://numenta.org TEST_PORT=80 TEST_PATH=  npm run test
 
 ### Design
 
-* Clean, Simple, Modern, Intelligent
 * [Living Styleguide](http://numenta.org/styleguide/)
+* Clean, Simple, Modern, Intelligent style
 * Mobile First
 * Standards-compliant as possible
 * Support a wide array of users with accessibility needs
@@ -133,6 +133,7 @@ TEST_HOST=http://numenta.org TEST_PORT=80 TEST_PATH=  npm run test
 ### Development
 
 * Keep Standards-compliant as possible
+  * Main pages should pass as 100% fully valid HTML 5 (automate?)
 * Support a wide array of users with accessibility needs
 * [Node Style](https://github.com/felixge/node-style-guide): 2 space text file
   indentation, 80-width text files, etc.

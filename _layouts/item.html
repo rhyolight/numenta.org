@@ -7,8 +7,9 @@ styles:
 ---
 <article>
   <h5>
-    <date>{{ page.date | date_to_string }}</date> |
-    {{ page.category }}
+    <time datetime="{{ page.date | date_to_xmlschema }}">
+      {{ page.date | date_to_string }}
+    </time> | {{ page.category }}
   </h5>
   <h1>{{ page.title }}</h1>
   <div class="meta">
