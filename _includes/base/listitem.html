@@ -7,7 +7,9 @@
 
 <article>
   <h5>
-    <date>{{ post.date | date_to_string }}</date>
+    <time datetime="{{ post.date | date_to_xmlschema }}">
+      {{ post.date | date_to_string }}
+    </time>
   </h5>
   <strong><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></strong>
   <div class="meta">

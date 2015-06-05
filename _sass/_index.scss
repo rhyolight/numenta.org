@@ -69,11 +69,12 @@
         font-size: 150%;
       }
 
-      div {
+      > span {
         color: $color-gray-lite;
+        display: block;
         margin-top: -0.5rem;
 
-        span {
+        > span {
           color: $color-white;
           font-size: 90%;
           padding: 0 0.5rem;
