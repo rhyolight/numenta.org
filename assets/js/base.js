@@ -13,16 +13,36 @@
       trigger:    'hover focus'
     });
 
-    // "Back-to-top" widget functionality
+    // activate all advanced Google Analytics tracking
+    jQuery(function($) {
+      $.universalAnalytics();
+    });
+
+
+    /**
+     * "Back-to-top" widget functionality
+     */
+
+    // back-to-top click handler
     $('#back-to-top').on('click', function (event) {
       event.preventDefault();
       $('html, body').animate({ scrollTop: '0px' });
     });
 
-    // activate all advanced Google Analytics tracking
-    jQuery(function($) {
-      $.universalAnalytics();
+    // back-to-top hide at top
+    var $window = $(window);
+    $window.on('scroll', function (event) {
+      var $el = $('#back-to-top');
+      var top = $(document).scrollTop();
+
+      if((top < 100) && $el.is(':visible')) {
+        $el.fadeOut();
+      }
+      else if((top >= 100) && $el.is(':hidden')) {
+        $el.fadeIn();
+      }
     });
+    $window.scroll(); // trigger
 
   });
 })();
