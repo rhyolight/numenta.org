@@ -124,8 +124,9 @@ TEST_HOST=http://numenta.org TEST_PORT=80 TEST_PATH=  npm run test
 
 ### Design
 
+* Clean, Simple, Modern, Intelligent
 * [Living Styleguide](http://numenta.org/styleguide/)
-* Mobile First for all design
+* Mobile First
 * Standards-compliant as possible
 * Support a wide array of users with accessibility needs
 
@@ -144,14 +145,18 @@ TEST_HOST=http://numenta.org TEST_PORT=80 TEST_PATH=  npm run test
     where the browser can get to them.
   * `node_modules` not meant for the frontend (devDependencies, etc) should
     be ignored in `.gitignore` and `_config.yml`.
+
+### Content
+
+* Markdown Text Content:
+  * Main content text is stored as markdown here: `_includes/content/`
+    * Quick snippet to load a Markdown text block:
+      * `{% include base/markdown.html file='text.md' %}`
 * Links:
+  * Social Sharing link URLs do not have full hostnames when in Development or
+    Staging, but they will be full in Production.
   * DO NOT forget to include the `{{ site.baseurl }}` template variable on
     internal links.
     * If you forget to use it, you will break staging sites.
   * Use `&amp;` instead of `&` within links.
-* Markdown:
-  * Main content text is stored as markdown here: `_includes/content/`
-    * Quick snippet to load a Markdown text block:
-      * `{% include base/markdown.html file='text.md' %}`
-  * Be careful with links, use `&amp;` instead of `&`.
     * (Local Jekyll may run fine, but GitHub Pages may die without warning.)
