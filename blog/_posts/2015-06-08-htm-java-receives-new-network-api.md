@@ -124,4 +124,4 @@ Happy Hacking!
 
 **Next:** [Quick Start Guide](https://github.com/numenta/htm.java/wiki/NAPI-Quick-Start-Guide)
 
-[Comments on Reddit]()
+[Comments on Reddit](http://www.reddit.com/r/MachineLearning/comments/392kao/htmjava_receives_new_network_api/)
