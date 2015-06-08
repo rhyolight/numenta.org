@@ -9,5 +9,18 @@ main > section ul.articles { // item list
   > li { // item
     border-bottom: 1px solid $color-gray-lite;
     padding: 3rem 0;
+
+    .image img {
+      @media (max-width: $screen-lg) {
+        margin-top: 2rem;
+      }
+      @media (max-width: $screen-md) {
+        margin-top: 5rem;
+      }
+      @media (max-width: $screen-sm) {
+        margin: 0 auto;
+        max-width: 66%;
+      }
+    }
   }
 }

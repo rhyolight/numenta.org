@@ -1,6 +1,7 @@
 ---
 author: Matthew Taylor
 category: blog
+image: /assets/img/blog/2014-08-30/image.png
 layout: item
 title: Meet the NuPIC Community
 ---
@@ -17,6 +18,8 @@ entitled "We're back in business, introduce yourself!".
 - <i></i> [nupic-discuss](http://lists.numenta.org/pipermail/nupic_lists.numenta.org/2014-August/thread.html#9308)
 - <i></i> [nupic-theory](http://lists.numenta.org/pipermail/nupic-theory_lists.numenta.org/2014-August/thread.html#1170)
 - <i></i> [nupic-hackers](http://lists.numenta.org/pipermail/nupic-hackers_lists.numenta.org/2014-August/thread.html#2519)
+
+![{{ page.title }} Image]({{ site.baseurl }}{{ page.image }})
 
 Here are some interesting excerpts:
 

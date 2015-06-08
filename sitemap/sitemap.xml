@@ -10,7 +10,7 @@
     </url>
     <url>
         <loc>http://numenta.org/blog/</loc>
-        <lastmod>2015-06-05T16:23:14.000Z</lastmod>
+        <lastmod>2015-06-08T18:39:50.000Z</lastmod>
     </url>
     <url>
         <loc>http://numenta.org/committers/</loc>
@@ -26,7 +26,7 @@
     </url>
     <url>
         <loc>http://numenta.org/events/</loc>
-        <lastmod>2015-06-05T17:23:59.000Z</lastmod>
+        <lastmod>2015-06-08T18:40:03.000Z</lastmod>
     </url>
     <url>
         <loc>http://numenta.org/faq/</loc>
@@ -46,11 +46,11 @@
     </url>
     <url>
         <loc>http://numenta.org/media/</loc>
-        <lastmod>2015-06-05T16:23:14.000Z</lastmod>
+        <lastmod>2015-06-08T18:40:17.000Z</lastmod>
     </url>
     <url>
         <loc>http://numenta.org/news/</loc>
-        <lastmod>2015-06-05T16:23:14.000Z</lastmod>
+        <lastmod>2015-06-08T18:40:26.000Z</lastmod>
     </url>
     <url>
         <loc>http://numenta.org/report/</loc>
@@ -61,56 +61,56 @@
         <lastmod>2015-06-05T16:23:14.000Z</lastmod>
     </url>
     <url>
-        <loc>http://numenta.org/son/</loc>
-        <lastmod>2015-06-05T16:23:14.000Z</lastmod>
-    </url>
-    <url>
         <loc>http://numenta.org/sitemap/</loc>
         <lastmod>2015-06-05T16:23:14.000Z</lastmod>
     </url>
     <url>
+        <loc>http://numenta.org/son/</loc>
+        <lastmod>2015-06-05T16:23:14.000Z</lastmod>
+    </url>
+    <url>
         <loc>http://numenta.org/styleguide/</loc>
-        <lastmod>2015-06-05T19:55:48.000Z</lastmod>
+        <lastmod>2015-06-08T20:45:49.000Z</lastmod>
     </url>
     <url>
         <loc>http://numenta.org/styleguide/section-1.html</loc>
-        <lastmod>2015-06-05T19:55:48.000Z</lastmod>
+        <lastmod>2015-06-08T20:45:49.000Z</lastmod>
     </url>
     <url>
         <loc>http://numenta.org/styleguide/section-10.html</loc>
-        <lastmod>2015-06-05T19:55:48.000Z</lastmod>
+        <lastmod>2015-06-08T20:45:49.000Z</lastmod>
     </url>
     <url>
         <loc>http://numenta.org/styleguide/section-2.html</loc>
-        <lastmod>2015-06-05T19:55:48.000Z</lastmod>
+        <lastmod>2015-06-08T20:45:49.000Z</lastmod>
     </url>
     <url>
         <loc>http://numenta.org/styleguide/section-3.html</loc>
-        <lastmod>2015-06-05T19:55:48.000Z</lastmod>
+        <lastmod>2015-06-08T20:45:49.000Z</lastmod>
     </url>
     <url>
         <loc>http://numenta.org/styleguide/section-4.html</loc>
-        <lastmod>2015-06-05T19:55:48.000Z</lastmod>
+        <lastmod>2015-06-08T20:45:49.000Z</lastmod>
     </url>
     <url>
         <loc>http://numenta.org/styleguide/section-5.html</loc>
-        <lastmod>2015-06-05T19:55:48.000Z</lastmod>
+        <lastmod>2015-06-08T20:45:49.000Z</lastmod>
     </url>
     <url>
         <loc>http://numenta.org/styleguide/section-6.html</loc>
-        <lastmod>2015-06-05T19:55:48.000Z</lastmod>
+        <lastmod>2015-06-08T20:45:49.000Z</lastmod>
     </url>
     <url>
         <loc>http://numenta.org/styleguide/section-7.html</loc>
-        <lastmod>2015-06-05T19:55:48.000Z</lastmod>
+        <lastmod>2015-06-08T20:45:49.000Z</lastmod>
     </url>
     <url>
         <loc>http://numenta.org/styleguide/section-8.html</loc>
-        <lastmod>2015-06-05T19:55:48.000Z</lastmod>
+        <lastmod>2015-06-08T20:45:49.000Z</lastmod>
     </url>
     <url>
         <loc>http://numenta.org/styleguide/section-9.html</loc>
-        <lastmod>2015-06-05T19:55:48.000Z</lastmod>
+        <lastmod>2015-06-08T20:45:49.000Z</lastmod>
     </url>
     <url>
         <loc>http://numenta.org/docs/htm.java/allclasses-frame.html</loc>
@@ -2637,6 +2637,38 @@
         <lastmod>2015-06-03T19:55:32.000Z</lastmod>
     </url>
     <url>
+        <loc>http://numenta.org/docs/htm.java/org/numenta/nupic/benchmarks/AbstractAlgorithmBenchmark.html</loc>
+        <lastmod>2015-04-10T17:58:56.000Z</lastmod>
+    </url>
+    <url>
+        <loc>http://numenta.org/docs/htm.java/org/numenta/nupic/benchmarks/SpatialPoolerGlobalInhibitionBenchmark.html</loc>
+        <lastmod>2015-04-10T17:58:56.000Z</lastmod>
+    </url>
+    <url>
+        <loc>http://numenta.org/docs/htm.java/org/numenta/nupic/benchmarks/SpatialPoolerLocalInhibitionBenchmark.html</loc>
+        <lastmod>2015-04-10T17:58:56.000Z</lastmod>
+    </url>
+    <url>
+        <loc>http://numenta.org/docs/htm.java/org/numenta/nupic/benchmarks/TemporalMemoryBenchmark.html</loc>
+        <lastmod>2015-04-10T17:58:56.000Z</lastmod>
+    </url>
+    <url>
+        <loc>http://numenta.org/docs/htm.java/org/numenta/nupic/benchmarks/package-frame.html</loc>
+        <lastmod>2015-04-10T17:58:56.000Z</lastmod>
+    </url>
+    <url>
+        <loc>http://numenta.org/docs/htm.java/org/numenta/nupic/benchmarks/package-summary.html</loc>
+        <lastmod>2015-04-10T17:58:56.000Z</lastmod>
+    </url>
+    <url>
+        <loc>http://numenta.org/docs/htm.java/org/numenta/nupic/benchmarks/package-tree.html</loc>
+        <lastmod>2015-04-10T17:58:56.000Z</lastmod>
+    </url>
+    <url>
+        <loc>http://numenta.org/docs/htm.java/org/numenta/nupic/benchmarks/package-use.html</loc>
+        <lastmod>2015-04-10T17:58:56.000Z</lastmod>
+    </url>
+    <url>
         <loc>http://numenta.org/docs/htm.java/org/numenta/nupic/algorithms/Anomaly.AveragedAnomalyRecordList.html</loc>
         <lastmod>2015-04-10T17:58:56.000Z</lastmod>
     </url>
@@ -2737,38 +2769,6 @@
         <lastmod>2015-04-10T17:58:56.000Z</lastmod>
     </url>
     <url>
-        <loc>http://numenta.org/docs/htm.java/org/numenta/nupic/benchmarks/AbstractAlgorithmBenchmark.html</loc>
-        <lastmod>2015-04-10T17:58:56.000Z</lastmod>
-    </url>
-    <url>
-        <loc>http://numenta.org/docs/htm.java/org/numenta/nupic/benchmarks/SpatialPoolerGlobalInhibitionBenchmark.html</loc>
-        <lastmod>2015-04-10T17:58:56.000Z</lastmod>
-    </url>
-    <url>
-        <loc>http://numenta.org/docs/htm.java/org/numenta/nupic/benchmarks/SpatialPoolerLocalInhibitionBenchmark.html</loc>
-        <lastmod>2015-04-10T17:58:56.000Z</lastmod>
-    </url>
-    <url>
-        <loc>http://numenta.org/docs/htm.java/org/numenta/nupic/benchmarks/TemporalMemoryBenchmark.html</loc>
-        <lastmod>2015-04-10T17:58:56.000Z</lastmod>
-    </url>
-    <url>
-        <loc>http://numenta.org/docs/htm.java/org/numenta/nupic/benchmarks/package-frame.html</loc>
-        <lastmod>2015-04-10T17:58:56.000Z</lastmod>
-    </url>
-    <url>
-        <loc>http://numenta.org/docs/htm.java/org/numenta/nupic/benchmarks/package-summary.html</loc>
-        <lastmod>2015-04-10T17:58:56.000Z</lastmod>
-    </url>
-    <url>
-        <loc>http://numenta.org/docs/htm.java/org/numenta/nupic/benchmarks/package-tree.html</loc>
-        <lastmod>2015-04-10T17:58:56.000Z</lastmod>
-    </url>
-    <url>
-        <loc>http://numenta.org/docs/htm.java/org/numenta/nupic/benchmarks/package-use.html</loc>
-        <lastmod>2015-04-10T17:58:56.000Z</lastmod>
-    </url>
-    <url>
         <loc>http://numenta.org/docs/htm.java/org/numenta/nupic/class-use/Connections.html</loc>
         <lastmod>2015-04-10T17:58:56.000Z</lastmod>
     </url>
@@ -2814,42 +2814,6 @@
     </url>
     <url>
         <loc>http://numenta.org/docs/htm.java/org/numenta/nupic/examples/package-use.html</loc>
-        <lastmod>2015-04-10T17:58:56.000Z</lastmod>
-    </url>
-    <url>
-        <loc>http://numenta.org/docs/htm.java/org/numenta/nupic/integration/AbstractTemporalMemoryTest.html</loc>
-        <lastmod>2015-04-10T17:58:56.000Z</lastmod>
-    </url>
-    <url>
-        <loc>http://numenta.org/docs/htm.java/org/numenta/nupic/integration/BasicTemporalMemoryTest.html</loc>
-        <lastmod>2015-04-10T17:58:56.000Z</lastmod>
-    </url>
-    <url>
-        <loc>http://numenta.org/docs/htm.java/org/numenta/nupic/integration/ExtensiveTemporalMemoryTest.html</loc>
-        <lastmod>2015-04-10T17:58:56.000Z</lastmod>
-    </url>
-    <url>
-        <loc>http://numenta.org/docs/htm.java/org/numenta/nupic/integration/TemporalMemoryTestMachine.DetailedResults.html</loc>
-        <lastmod>2015-04-10T17:58:56.000Z</lastmod>
-    </url>
-    <url>
-        <loc>http://numenta.org/docs/htm.java/org/numenta/nupic/integration/TemporalMemoryTestMachine.html</loc>
-        <lastmod>2015-04-10T17:58:56.000Z</lastmod>
-    </url>
-    <url>
-        <loc>http://numenta.org/docs/htm.java/org/numenta/nupic/integration/package-frame.html</loc>
-        <lastmod>2015-04-10T17:58:56.000Z</lastmod>
-    </url>
-    <url>
-        <loc>http://numenta.org/docs/htm.java/org/numenta/nupic/integration/package-summary.html</loc>
-        <lastmod>2015-04-10T17:58:56.000Z</lastmod>
-    </url>
-    <url>
-        <loc>http://numenta.org/docs/htm.java/org/numenta/nupic/integration/package-tree.html</loc>
-        <lastmod>2015-04-10T17:58:56.000Z</lastmod>
-    </url>
-    <url>
-        <loc>http://numenta.org/docs/htm.java/org/numenta/nupic/integration/package-use.html</loc>
         <lastmod>2015-04-10T17:58:56.000Z</lastmod>
     </url>
     <url>
@@ -3054,6 +3018,42 @@
     </url>
     <url>
         <loc>http://numenta.org/docs/htm.java/org/numenta/nupic/encoders/package-use.html</loc>
+        <lastmod>2015-04-10T17:58:56.000Z</lastmod>
+    </url>
+    <url>
+        <loc>http://numenta.org/docs/htm.java/org/numenta/nupic/integration/AbstractTemporalMemoryTest.html</loc>
+        <lastmod>2015-04-10T17:58:56.000Z</lastmod>
+    </url>
+    <url>
+        <loc>http://numenta.org/docs/htm.java/org/numenta/nupic/integration/BasicTemporalMemoryTest.html</loc>
+        <lastmod>2015-04-10T17:58:56.000Z</lastmod>
+    </url>
+    <url>
+        <loc>http://numenta.org/docs/htm.java/org/numenta/nupic/integration/ExtensiveTemporalMemoryTest.html</loc>
+        <lastmod>2015-04-10T17:58:56.000Z</lastmod>
+    </url>
+    <url>
+        <loc>http://numenta.org/docs/htm.java/org/numenta/nupic/integration/TemporalMemoryTestMachine.DetailedResults.html</loc>
+        <lastmod>2015-04-10T17:58:56.000Z</lastmod>
+    </url>
+    <url>
+        <loc>http://numenta.org/docs/htm.java/org/numenta/nupic/integration/TemporalMemoryTestMachine.html</loc>
+        <lastmod>2015-04-10T17:58:56.000Z</lastmod>
+    </url>
+    <url>
+        <loc>http://numenta.org/docs/htm.java/org/numenta/nupic/integration/package-frame.html</loc>
+        <lastmod>2015-04-10T17:58:56.000Z</lastmod>
+    </url>
+    <url>
+        <loc>http://numenta.org/docs/htm.java/org/numenta/nupic/integration/package-summary.html</loc>
+        <lastmod>2015-04-10T17:58:56.000Z</lastmod>
+    </url>
+    <url>
+        <loc>http://numenta.org/docs/htm.java/org/numenta/nupic/integration/package-tree.html</loc>
+        <lastmod>2015-04-10T17:58:56.000Z</lastmod>
+    </url>
+    <url>
+        <loc>http://numenta.org/docs/htm.java/org/numenta/nupic/integration/package-use.html</loc>
         <lastmod>2015-04-10T17:58:56.000Z</lastmod>
     </url>
     <url>
@@ -3301,6 +3301,22 @@
         <lastmod>2015-06-03T19:55:32.000Z</lastmod>
     </url>
     <url>
+        <loc>http://numenta.org/docs/htm.java/org/numenta/nupic/benchmarks/class-use/AbstractAlgorithmBenchmark.html</loc>
+        <lastmod>2015-04-10T17:58:56.000Z</lastmod>
+    </url>
+    <url>
+        <loc>http://numenta.org/docs/htm.java/org/numenta/nupic/benchmarks/class-use/SpatialPoolerGlobalInhibitionBenchmark.html</loc>
+        <lastmod>2015-04-10T17:58:56.000Z</lastmod>
+    </url>
+    <url>
+        <loc>http://numenta.org/docs/htm.java/org/numenta/nupic/benchmarks/class-use/SpatialPoolerLocalInhibitionBenchmark.html</loc>
+        <lastmod>2015-04-10T17:58:56.000Z</lastmod>
+    </url>
+    <url>
+        <loc>http://numenta.org/docs/htm.java/org/numenta/nupic/benchmarks/class-use/TemporalMemoryBenchmark.html</loc>
+        <lastmod>2015-04-10T17:58:56.000Z</lastmod>
+    </url>
+    <url>
         <loc>http://numenta.org/docs/htm.java/org/numenta/nupic/algorithms/class-use/Anomaly.AveragedAnomalyRecordList.html</loc>
         <lastmod>2015-04-10T17:58:56.000Z</lastmod>
     </url>
@@ -3385,22 +3401,6 @@
         <lastmod>2015-04-10T17:58:56.000Z</lastmod>
     </url>
     <url>
-        <loc>http://numenta.org/docs/htm.java/org/numenta/nupic/benchmarks/class-use/AbstractAlgorithmBenchmark.html</loc>
-        <lastmod>2015-04-10T17:58:56.000Z</lastmod>
-    </url>
-    <url>
-        <loc>http://numenta.org/docs/htm.java/org/numenta/nupic/benchmarks/class-use/SpatialPoolerGlobalInhibitionBenchmark.html</loc>
-        <lastmod>2015-04-10T17:58:56.000Z</lastmod>
-    </url>
-    <url>
-        <loc>http://numenta.org/docs/htm.java/org/numenta/nupic/benchmarks/class-use/SpatialPoolerLocalInhibitionBenchmark.html</loc>
-        <lastmod>2015-04-10T17:58:56.000Z</lastmod>
-    </url>
-    <url>
-        <loc>http://numenta.org/docs/htm.java/org/numenta/nupic/benchmarks/class-use/TemporalMemoryBenchmark.html</loc>
-        <lastmod>2015-04-10T17:58:56.000Z</lastmod>
-    </url>
-    <url>
         <loc>http://numenta.org/docs/htm.java/org/numenta/nupic/examples/qt/QuickTest.Layer.html</loc>
         <lastmod>2015-04-10T17:58:56.000Z</lastmod>
     </url>
@@ -3450,26 +3450,6 @@
     </url>
     <url>
         <loc>http://numenta.org/docs/htm.java/org/numenta/nupic/examples/sp/package-use.html</loc>
-        <lastmod>2015-04-10T17:58:56.000Z</lastmod>
-    </url>
-    <url>
-        <loc>http://numenta.org/docs/htm.java/org/numenta/nupic/integration/class-use/AbstractTemporalMemoryTest.html</loc>
-        <lastmod>2015-04-10T17:58:56.000Z</lastmod>
-    </url>
-    <url>
-        <loc>http://numenta.org/docs/htm.java/org/numenta/nupic/integration/class-use/BasicTemporalMemoryTest.html</loc>
-        <lastmod>2015-04-10T17:58:56.000Z</lastmod>
-    </url>
-    <url>
-        <loc>http://numenta.org/docs/htm.java/org/numenta/nupic/integration/class-use/ExtensiveTemporalMemoryTest.html</loc>
-        <lastmod>2015-04-10T17:58:56.000Z</lastmod>
-    </url>
-    <url>
-        <loc>http://numenta.org/docs/htm.java/org/numenta/nupic/integration/class-use/TemporalMemoryTestMachine.DetailedResults.html</loc>
-        <lastmod>2015-04-10T17:58:56.000Z</lastmod>
-    </url>
-    <url>
-        <loc>http://numenta.org/docs/htm.java/org/numenta/nupic/integration/class-use/TemporalMemoryTestMachine.html</loc>
         <lastmod>2015-04-10T17:58:56.000Z</lastmod>
     </url>
     <url>
@@ -3658,6 +3638,26 @@
     </url>
     <url>
         <loc>http://numenta.org/docs/htm.java/org/numenta/nupic/encoders/class-use/SparsePassThroughEncoderTest.html</loc>
+        <lastmod>2015-04-10T17:58:56.000Z</lastmod>
+    </url>
+    <url>
+        <loc>http://numenta.org/docs/htm.java/org/numenta/nupic/integration/class-use/AbstractTemporalMemoryTest.html</loc>
+        <lastmod>2015-04-10T17:58:56.000Z</lastmod>
+    </url>
+    <url>
+        <loc>http://numenta.org/docs/htm.java/org/numenta/nupic/integration/class-use/BasicTemporalMemoryTest.html</loc>
+        <lastmod>2015-04-10T17:58:56.000Z</lastmod>
+    </url>
+    <url>
+        <loc>http://numenta.org/docs/htm.java/org/numenta/nupic/integration/class-use/ExtensiveTemporalMemoryTest.html</loc>
+        <lastmod>2015-04-10T17:58:56.000Z</lastmod>
+    </url>
+    <url>
+        <loc>http://numenta.org/docs/htm.java/org/numenta/nupic/integration/class-use/TemporalMemoryTestMachine.DetailedResults.html</loc>
+        <lastmod>2015-04-10T17:58:56.000Z</lastmod>
+    </url>
+    <url>
+        <loc>http://numenta.org/docs/htm.java/org/numenta/nupic/integration/class-use/TemporalMemoryTestMachine.html</loc>
         <lastmod>2015-04-10T17:58:56.000Z</lastmod>
     </url>
     <url>
@@ -3858,79 +3858,79 @@
     </url>
     <url>
         <loc>http://numenta.org/blog/2013/06/03/introducing-nupic.html</loc>
-        <lastmod>2015-06-05T16:23:14.000Z</lastmod>
+        <lastmod>2015-06-08T20:40:17.000Z</lastmod>
     </url>
     <url>
         <loc>http://numenta.org/blog/2013/06/10/hackathon-june-2013.html</loc>
-        <lastmod>2015-06-05T16:23:14.000Z</lastmod>
+        <lastmod>2015-06-08T20:40:13.000Z</lastmod>
     </url>
     <url>
         <loc>http://numenta.org/blog/2013/06/25/hackathon-outcome.html</loc>
-        <lastmod>2015-06-05T16:23:14.000Z</lastmod>
+        <lastmod>2015-06-08T20:40:11.000Z</lastmod>
     </url>
     <url>
         <loc>http://numenta.org/blog/2013/07/01/patent-position.html</loc>
-        <lastmod>2015-06-05T16:23:14.000Z</lastmod>
+        <lastmod>2015-06-08T20:40:08.000Z</lastmod>
     </url>
     <url>
         <loc>http://numenta.org/blog/2013/07/09/predicting-movement-with-ir-sensors.html</loc>
-        <lastmod>2015-06-05T16:23:14.000Z</lastmod>
+        <lastmod>2015-06-08T20:40:03.000Z</lastmod>
     </url>
     <url>
         <loc>http://numenta.org/blog/2013/08/13/brains-and-machine-intelligence-a-long-time-coming.html</loc>
-        <lastmod>2015-06-05T16:23:14.000Z</lastmod>
+        <lastmod>2015-06-08T20:39:58.000Z</lastmod>
     </url>
     <url>
         <loc>http://numenta.org/blog/2013/09/03/numenta-contributor-license-v1-1.html</loc>
-        <lastmod>2015-06-05T16:23:14.000Z</lastmod>
+        <lastmod>2015-06-08T20:42:00.000Z</lastmod>
     </url>
     <url>
         <loc>http://numenta.org/blog/2013/09/09/numenta-at-oscon.html</loc>
-        <lastmod>2015-06-05T16:23:14.000Z</lastmod>
+        <lastmod>2015-06-08T20:22:01.000Z</lastmod>
     </url>
     <url>
         <loc>http://numenta.org/blog/2013/11/06/2013-fall-hackathon-outcome.html</loc>
-        <lastmod>2015-06-05T16:23:14.000Z</lastmod>
+        <lastmod>2015-06-08T20:27:50.000Z</lastmod>
     </url>
     <url>
         <loc>http://numenta.org/blog/2013/11/11/cla-quiz-office-hour.html</loc>
-        <lastmod>2015-06-05T16:23:14.000Z</lastmod>
+        <lastmod>2015-06-08T19:32:06.000Z</lastmod>
     </url>
     <url>
         <loc>http://numenta.org/blog/2013/12/16/nupic-commercial-licenses.html</loc>
-        <lastmod>2015-06-05T16:23:14.000Z</lastmod>
+        <lastmod>2015-06-08T17:44:46.000Z</lastmod>
     </url>
     <url>
         <loc>http://numenta.org/blog/2014/03/12/introducing-season-of-nupic.html</loc>
-        <lastmod>2015-06-05T16:23:14.000Z</lastmod>
+        <lastmod>2015-06-08T17:45:05.000Z</lastmod>
     </url>
     <url>
         <loc>http://numenta.org/blog/2014/05/09/2014-spring-hackathon-outcome.html</loc>
-        <lastmod>2015-06-05T16:23:14.000Z</lastmod>
+        <lastmod>2015-06-08T17:21:33.000Z</lastmod>
     </url>
     <url>
         <loc>http://numenta.org/blog/2014/08/08/geospatial-tracking-with-nupic.html</loc>
-        <lastmod>2015-06-05T16:23:14.000Z</lastmod>
+        <lastmod>2015-06-08T16:42:23.000Z</lastmod>
     </url>
     <url>
         <loc>http://numenta.org/blog/2014/08/30/meet-the-nupic-community.html</loc>
-        <lastmod>2015-06-05T16:23:14.000Z</lastmod>
+        <lastmod>2015-06-08T16:38:23.000Z</lastmod>
     </url>
     <url>
         <loc>http://numenta.org/blog/2014/10/30/2014-fall-hackathon-outcome.html</loc>
-        <lastmod>2015-06-05T16:23:14.000Z</lastmod>
+        <lastmod>2015-06-08T16:31:21.000Z</lastmod>
     </url>
     <url>
         <loc>http://numenta.org/blog/2014/11/24/introducing-nupic-studio.html</loc>
-        <lastmod>2015-06-05T16:23:14.000Z</lastmod>
+        <lastmod>2015-06-08T20:27:10.000Z</lastmod>
     </url>
     <url>
         <loc>http://numenta.org/blog/2014/12/03/htm-on-the-jvm.html</loc>
-        <lastmod>2015-06-05T16:23:14.000Z</lastmod>
+        <lastmod>2015-06-08T20:27:22.000Z</lastmod>
     </url>
     <url>
         <loc>http://numenta.org/blog/2015/02/10/htm-java-receives-benchmark-harness.html</loc>
-        <lastmod>2015-06-05T16:23:14.000Z</lastmod>
+        <lastmod>2015-06-08T15:56:06.000Z</lastmod>
     </url>
     <url>
         <loc>http://numenta.org/events/2015/03/17/what-the-brain-says-about-machine-intelligence.html</loc>

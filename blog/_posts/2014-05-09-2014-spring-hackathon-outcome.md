@@ -1,14 +1,17 @@
 ---
 author: Matthew Taylor
 category: blog
+image: /assets/img/blog/2014-05-09/image.png
 layout: item
 title: 2014 Spring Hackathon Outcome
 ---
 
-We had a *great* hackathon event this past weekend. This was our third
+We had a **great** hackathon event this past weekend. This was our third
 hackathon, and it resulted in the most hackers, the most hacks, and the most
 productive environment yet. Even if you could not attend, I hope the videos and
 photographs below help you to understand NuPIC better by example.
+
+![{{ page.title }} Image]({{ site.baseurl }}{{ page.image }})
 
 Below, you'll find the following:
 

@@ -1,6 +1,7 @@
 ---
 author: Matthew Taylor
 category: blog
+image: /assets/img/blog/2014-03-12/image.png
 layout: item
 title: Introducing Season of NuPIC
 ---
@@ -12,7 +13,7 @@ our own GSoC-like event, much like the KDE community does with their
 [Season of KDE](https://season.kde.org/).
 And [here it is]({{ site.baseurl }}/son)!
 
-[![Season of NuPIC 2014 logo]({{ site.baseurl }}/images/son/son2014-logo.png)]({{ site.baseurl }}/son)
+![{{ page.title }} Image]({{ site.baseurl }}{{ page.image }})
 
 Here's how it works.
 

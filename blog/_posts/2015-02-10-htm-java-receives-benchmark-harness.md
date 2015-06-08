@@ -1,6 +1,7 @@
 ---
 author: David Ray
 category: blog
+image: /assets/img/blog/2015-02-10/image.png
 layout: item
 title: HTM.java Receives Benchmark Harness
 ---
@@ -12,6 +13,8 @@ is a very large part of the battle; and the same things that make
 [Java™](http://www.oracle.com/technetwork/java/javase/overview/java8-2100321.html)
 such an attractive and ubiquitous platform, also make it one of the hardest
 environments to benchmark.
+
+![{{ page.title }} Image]({{ site.baseurl }}{{ page.image }})
 
 Unlike C, which is a statically compiled language, Java is very dynamic and
 undergoes very aggressive optimization and runtime profiling while it compiles

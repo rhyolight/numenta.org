@@ -1,6 +1,7 @@
 ---
 author: Matthew Taylor
 category: blog
+image: /assets/img/blog/2014-08-08/image.png
 layout: item
 title: Geospatial Tracking With NuPIC
 ---
@@ -12,6 +13,8 @@ data. Specifically, it can accept GPS track information in
 [GPX](http://www.topografix.com/gpx.asp) format and output indications of
 anomalous activity for each point along the tracks. This could be useful for a
 number of interesting applications:
+
+![{{ page.title }} Image]({{ site.baseurl }}{{ page.image }})
 
 - <i></i> Air Safety
     - <i></i> Monitor location, speed and trajectory of commercial aircraft

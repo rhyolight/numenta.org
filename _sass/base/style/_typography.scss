@@ -177,7 +177,8 @@ main section {
       }
     }
 
-    > li > i {
+    > li > i,
+    > li > p > i {
       @extend .fa;
       @extend .fa-li;
       @extend .fa-angle-right;
