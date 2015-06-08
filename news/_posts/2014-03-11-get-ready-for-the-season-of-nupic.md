@@ -2,6 +2,7 @@
 author: Matthew Taylor
 category: news
 layout: item
+org: Open Source Manager
 title: Get Ready for the Season of NuPIC
 ---
 
@@ -12,4 +13,4 @@ conform to a similar format as GSoC, where Numenta is the mentoring
 organization. Interested parties do not have to be students in order to
 participate but do have to make a reasonable time commitment. Numenta will pair
 up students with mentors for accepted projects, so it's a great way to learn
-more about NuPIC and contribute at the same time. 
+more about NuPIC and contribute at the same time.

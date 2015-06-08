@@ -2,6 +2,7 @@
 author: Matthew Taylor
 category: events
 layout: item
+org: Open Source Manager
 title: Bay Area NuPIC Meetup
 ---
 

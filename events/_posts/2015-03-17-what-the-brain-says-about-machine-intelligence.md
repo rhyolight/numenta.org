@@ -2,6 +2,7 @@
 author: Matthew Taylor
 category: events
 layout: item
+org: Open Source Manager
 title: What the Brain Says About Machine Intelligence
 ---
 

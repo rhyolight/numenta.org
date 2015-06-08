@@ -2,6 +2,7 @@
 author: Caleb Garling
 category: media
 layout: item
+org: Wired
 title: Jeff Hawkins on Firing Up the Silicon Brain
 ---
 

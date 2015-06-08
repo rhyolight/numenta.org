@@ -3,6 +3,7 @@ author: Matthew Taylor
 category: blog
 image: /assets/img/blog/2014-05-09/image.png
 layout: item
+org: Open Source Manager
 title: 2014 Spring Hackathon Outcome
 ---
 

@@ -3,6 +3,7 @@ author: Jeff Kramer
 category: media
 layout: item
 link: http://www.jeffkramer.com/2013/12/30/book-review-on-intelligence-by-jeff-hawkins/
+org: Community Contributor
 title: "Jeff Hawkins: Where Open Source and Machine Learning meet Big Data"
 ---
 

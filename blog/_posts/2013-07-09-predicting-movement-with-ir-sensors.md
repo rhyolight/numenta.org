@@ -3,6 +3,7 @@ author: Erik Blas
 category: blog
 image: /assets/img/blog/2013-07-09/image.png
 layout: item
+org: Community Contributor
 redirect_from: "/news/2013/07/09/predicting-movement-with-ir-sensors.html"
 title: Predicting Movement with IR Sensors
 ---
@@ -122,6 +123,7 @@ other essentials, and the ample and comfortable workspaces, the conversations
 over NuPIC and the work going forward blew me away the most.
 
 Special shout out to:
+
 * <i></i> [Ian](http://nupic.markmail.org/search/?q=from%3Aidanforth%40embodiedai.com),
   for lending me your parts and helping me refine my project!
 * <i></i> [Matt](http://nupic.markmail.org/search/from:matt%40numenta.org), your

@@ -2,6 +2,7 @@
 author: Matthew Taylor
 category: media
 layout: item
+org: Open Source Manager
 title: From Cortical Microcircuits to Machine Intelligence
 ---
 

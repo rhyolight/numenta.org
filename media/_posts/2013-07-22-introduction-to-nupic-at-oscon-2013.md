@@ -2,6 +2,7 @@
 author: Matthew Taylor
 category: media
 layout: item
+org: Open Source Manager
 title: Introduction to NuPIC at OSCON 2013
 ---
 

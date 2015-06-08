@@ -3,6 +3,7 @@ author: Simon Phipps
 category: media
 layout: item
 link: http://www.infoworld.com/article/2611656/open-source-software/jeff-hawkins--where-open-source-and-machine-learning-meet-big-data.html
+org: InfoWorld
 title: "Jeff Hawkins: Where Open Source and Machine Learning meet Big Data"
 ---
 

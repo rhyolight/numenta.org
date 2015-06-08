@@ -3,6 +3,7 @@ author: Donna Dubinsky
 category: blog
 image: /assets/img/blog/2013-12-16/image.png
 layout: item
+org: Co-Founder and CEO
 title: NuPIC Commercial Licenses
 ---
 

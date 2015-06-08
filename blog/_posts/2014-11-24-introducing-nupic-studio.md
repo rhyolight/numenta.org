@@ -3,6 +3,7 @@ author: David Ragazzi
 category: blog
 image: /assets/img/blog/2014-11-24/image.png
 layout: item
+org: Community Contributor
 title: Introducing NuPIC Studio
 ---
 

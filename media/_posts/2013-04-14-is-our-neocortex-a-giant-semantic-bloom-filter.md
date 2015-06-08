@@ -3,6 +3,7 @@ author: Krishna Sankar
 category: media
 layout: item
 link: https://doubleclix.wordpress.com/2013/04/14/is-our-neocortex-a-giant-semantic-bloom-filter-of-natural-intelligence-machine-learning-jeff-hawkins/
+org: Community Contributor
 title: Is Our Neocortex A Giant Semantic Bloom Filter?
 ---
 

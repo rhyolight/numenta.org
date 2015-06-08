@@ -3,6 +3,7 @@ author: Jeff Hawkins
 category: blog
 image: /assets/img/blog/2013-06-03/image.png
 layout: item
+org: Co-Founder
 redirect_from: "/news/2013/06/03/introducing-nupic.html"
 title: Introducing NuPIC
 ---

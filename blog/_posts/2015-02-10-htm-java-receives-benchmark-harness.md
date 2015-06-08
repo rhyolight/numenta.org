@@ -3,6 +3,7 @@ author: David Ray
 category: blog
 image: /assets/img/blog/2015-02-10/image.png
 layout: item
+org: Community Contributor
 title: HTM.java Receives Benchmark Harness
 ---
 

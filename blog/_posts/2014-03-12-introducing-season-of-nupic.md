@@ -3,6 +3,7 @@ author: Matthew Taylor
 category: blog
 image: /assets/img/blog/2014-03-12/image.png
 layout: item
+org: Open Source Manager
 title: Introducing Season of NuPIC
 ---
 

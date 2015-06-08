@@ -2,6 +2,7 @@
 author: Marty Lasden
 category: media
 layout: item
+org: UCTV
 title: "Up Next: Perspectives on The Future of Artificial Intelligence"
 ---
 

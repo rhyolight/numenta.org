@@ -3,6 +3,7 @@ author: Matthew Taylor
 category: blog
 image: /assets/img/blog/2013-09-03/image.png
 layout: item
+org: Open Source Manager
 title: Numenta Contributor License V1.1
 ---
 

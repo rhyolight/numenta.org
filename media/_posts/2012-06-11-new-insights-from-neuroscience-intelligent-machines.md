@@ -2,6 +2,7 @@
 author: Matthew Taylor
 category: media
 layout: item
+org: Open Source Manager
 title: New Insights from Neuroscience and the Future of Intelligent Machines
 ---
 

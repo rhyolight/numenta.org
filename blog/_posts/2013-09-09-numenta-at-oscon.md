@@ -3,6 +3,7 @@ author: Matthew Taylor
 category: blog
 image: /assets/img/blog/2013-09-09/image.png
 layout: item
+org: Open Source Manager
 title: Numenta at OSCON
 ---
 

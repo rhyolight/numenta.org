@@ -3,6 +3,7 @@ author: Matthew Taylor
 category: blog
 image: /assets/img/blog/2014-08-30/image.png
 layout: item
+org: Open Source Manager
 title: Meet the NuPIC Community
 ---
 

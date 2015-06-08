@@ -2,6 +2,7 @@
 author: Matthew Taylor
 category: media
 layout: item
+org: Open Source Manager
 title: Computing Like the Brain @ Strange Loop 2012
 ---
 

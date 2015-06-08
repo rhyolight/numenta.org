@@ -3,6 +3,7 @@ author: Jeff Hawkins
 category: blog
 image: /assets/img/blog/2013-08-13/image.png
 layout: item
+org: Co-Founder
 redirect_from: "/news/2013/08/13/brains-and-machine-intelligence-a-long-time-coming.html"
 title: Brains and Machine Intelligence, A Long Time Coming
 ---

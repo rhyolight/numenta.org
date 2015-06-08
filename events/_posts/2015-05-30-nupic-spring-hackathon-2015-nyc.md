@@ -2,6 +2,7 @@
 author: Matthew Taylor
 category: events
 layout: item
+org: Open Source Manager
 title: NuPIC Spring Hackathon 2015 NYC
 ---
 

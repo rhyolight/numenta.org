@@ -3,6 +3,7 @@ author: Matthew Taylor
 category: blog
 image: /assets/img/blog/2013-06-10/image.png
 layout: item
+org: Open Source Manager
 redirect_from: "/news/2013/06/10/hackathon-june-2013.html"
 title: First NuPIC Hackathon
 ---

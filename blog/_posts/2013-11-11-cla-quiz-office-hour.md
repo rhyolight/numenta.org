@@ -3,6 +3,7 @@ author: Matthew Taylor
 category: blog
 image: /assets/img/blog/2013-11-11/image.png
 layout: item
+org: Open Source Manager
 title: CLA Quiz Office Hour
 ---
 

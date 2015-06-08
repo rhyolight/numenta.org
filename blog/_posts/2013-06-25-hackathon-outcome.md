@@ -3,6 +3,7 @@ author: Matthew Taylor
 category: blog
 image: /assets/img/blog/2013-06-25/image.png
 layout: item
+org: Open Source Manager
 redirect_from: "/news/2013/06/25/hackathon-outcome.html"
 title: Hackathon Outcome
 ---
@@ -46,11 +47,11 @@ An awful lot of interesting conversations occurred. If you jump into any of the
 following videos, you might happen upon something intriguing. Of course, you
 might also see us falling asleep in our coffees at 3am.
 
-- <i></i> [Part 2](http://www.youtube.com/watch?v=ub-qXF8AyNs)
-- <i></i> [Part 3](http://www.youtube.com/watch?v=R08sDbYAwXk)
-- <i></i> [Part 4](http://www.youtube.com/watch?v=nnOHcUmUjZw)
-- <i></i> [Part 5](http://www.youtube.com/watch?v=-0IjmwJ_sG8)
-- <i></i> [Part 6](http://www.youtube.com/watch?v=9Yu93gzIPnA)
+* <i></i> [Part 2](http://www.youtube.com/watch?v=ub-qXF8AyNs)
+* <i></i> [Part 3](http://www.youtube.com/watch?v=R08sDbYAwXk)
+* <i></i> [Part 4](http://www.youtube.com/watch?v=nnOHcUmUjZw)
+* <i></i> [Part 5](http://www.youtube.com/watch?v=-0IjmwJ_sG8)
+* <i></i> [Part 6](http://www.youtube.com/watch?v=9Yu93gzIPnA)
 
 
 ## Demonstrations
@@ -59,7 +60,7 @@ The demonstrations in their entirety are
 [here](http://www.youtube.com/watch?v=_bFmvlLmvcY#t=10m50s), but it might be
 easier for you to navigate by project. I've linked each demo individually below.
 
-<table>
+<table class="table">
     <tbody>
     <tr>
         <th id="erik">

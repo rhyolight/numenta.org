@@ -2,6 +2,7 @@
 author: Matthew Taylor
 category: media
 layout: item
+org: Open Source Manager
 title: Jeff Hawkins with Leo Laporte on Triangulation 146 Twit.TV
 ---
 

@@ -3,6 +3,7 @@ author: Matthew Taylor
 category: blog
 image: /assets/img/blog/2013-11-06/image.png
 layout: item
+org: Open Source Manager
 title: 2013 Fall Hackathon Outcome
 ---
 

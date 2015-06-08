@@ -13,7 +13,7 @@ styles:
   </h5>
   <h1>{{ page.title }}</h1>
   <div class="meta">
-    <em>by</em> {{ page.author }}
+    <em>by</em> {{ page.author }}, {{ page.org }}
   </div>
   <p>{{ content }}</p>
   {% include base/share.html link=page.url feed=page.category %}

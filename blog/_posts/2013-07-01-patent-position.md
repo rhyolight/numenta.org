@@ -3,6 +3,7 @@ author: Donna Dubinsky
 category: blog
 image: /assets/img/blog/2013-07-01/image.png
 layout: item
+org: Co-Founder and CEO
 redirect_from: "/news/2013/07/01/patent-position.html"
 title: Patent Position
 ---

@@ -2,6 +2,7 @@
 author: Matthew Taylor
 category: news
 layout: item
+org: Open Source Manager
 title: Python 2.7 Support
 ---
 

@@ -2,6 +2,7 @@
 author: Matthew Taylor
 category: media
 layout: item
+org: Open Source Manager
 title: "Intelligence and the Brain: Recent Advances in Understanding How the Brain Works"
 ---
 

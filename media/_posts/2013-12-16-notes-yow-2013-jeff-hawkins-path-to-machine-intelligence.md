@@ -3,6 +3,7 @@ author: Graham Lea
 category: media
 layout: item
 link: http://www.grahamlea.com/2013/12/computing-like-brain-machine-intelligence-jeff-hawkins-yow-2013/
+org: Community Contributor
 title: "Notes from YOW! 2013: Jeff Hawkins on Computing Like the Brain"
 ---
 
