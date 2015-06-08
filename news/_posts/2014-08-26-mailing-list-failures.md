@@ -1,6 +1,7 @@
 ---
 author: Matthew Taylor
 category: news
+image: /assets/img/news/nupic.png
 layout: item
 org: Open Source Manager
 title: NuPIC Mailing List Problems
@@ -11,3 +12,5 @@ Our mailing lists are currently operating in a limited capacity due to a new
 We are working to fix this ASAP.
 
 [Check mailing list status here](https://github.com/numenta/nupic/wiki/Mailing-List-Status).
+
+![{{ page.title }} Image]({{ site.baseurl }}{{ page.image }})

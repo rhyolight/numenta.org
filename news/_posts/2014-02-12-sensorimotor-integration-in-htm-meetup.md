@@ -1,6 +1,7 @@
 ---
 author: Matthew Taylor
 category: news
+image: /assets/img/news/nupic.png
 layout: item
 org: Open Source Manager
 title: Sensory-motor Integration in HTM Theory, by Jeff Hawkins
@@ -17,3 +18,5 @@ several of the major components giving us hope that a comprehensive theory may
 be reachable in the near future.
 
 This event will be recorded and live-streamed.
+
+![{{ page.title }} Image]({{ site.baseurl }}{{ page.image }})

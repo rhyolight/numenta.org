@@ -1,6 +1,7 @@
 ---
 author: Matthew Taylor
 category: news
+image: /assets/img/news/nupic.png
 layout: item
 org: Open Source Manager
 title: 2014 Season of NuPIC Approved Projects
@@ -15,6 +16,8 @@ of NuPIC. The selected project roster has interesting proposals like
 ["Benchmarking and Visualizing HTMs"](https://github.com/numenta/nupic/wiki/SoN-2014-Projects#benchmarking-and-visualizing-htms),
 ["Epilepsy Seizure Prediction"](https://github.com/numenta/nupic/wiki/SoN-2014-Projects#epilepsy-seizure-prediction) and
 [many more](https://github.com/numenta/nupic/wiki/SoN-2014-Projects).
+
+![{{ page.title }} Image]({{ site.baseurl }}{{ page.image }})
 
 The NuPIC community would like to congratulate all the selected participants and
 wish them luck. Also the community would like to thank all the mentors who have

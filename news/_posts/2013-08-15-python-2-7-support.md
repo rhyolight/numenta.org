@@ -1,6 +1,7 @@
 ---
 author: Matthew Taylor
 category: news
+image: /assets/img/news/nupic.png
 layout: item
 org: Open Source Manager
 title: Python 2.7 Support
@@ -14,3 +15,5 @@ supports Python 2.7 as well as Python 2.6! Many thanks to our excellent and
 proactive [community]({{ site.baseurl }}{{ site.data.url.community }}) for
 seeing this obvious need and fulfilling it. This opens up a lot of doors for
 more people to use and join our project.
+
+![{{ page.title }} Image]({{ site.baseurl }}{{ page.image }})

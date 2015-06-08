@@ -2,6 +2,11 @@
  * Post item & Post item List Pages (Blog, Media, News, Events, etc.)
  */
 main > section article {
+  > img {
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+  }
+
   // author line
   > .meta {
     color: $color-gray;

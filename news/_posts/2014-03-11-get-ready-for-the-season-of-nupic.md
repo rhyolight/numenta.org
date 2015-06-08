@@ -1,6 +1,7 @@
 ---
 author: Matthew Taylor
 category: news
+image: /assets/img/news/nupic.png
 layout: item
 org: Open Source Manager
 title: Get Ready for the Season of NuPIC
@@ -14,3 +15,5 @@ organization. Interested parties do not have to be students in order to
 participate but do have to make a reasonable time commitment. Numenta will pair
 up students with mentors for accepted projects, so it's a great way to learn
 more about NuPIC and contribute at the same time.
+
+![{{ page.title }} Image]({{ site.baseurl }}{{ page.image }})

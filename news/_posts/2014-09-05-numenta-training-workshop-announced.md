@@ -1,6 +1,7 @@
 ---
 author: Matthew Taylor
 category: news
+image: /assets/img/news/nupic.png
 layout: item
 org: Open Source Manager
 title: Numenta Training Workshop Announced
@@ -13,6 +14,8 @@ provide an overview for how to get started on your own projects using Numenta
 technology. The majority of content will be technical in nature and is intended
 for a developer/technical audience. Training curriculum will be followed by a
 networking reception.
+
+![{{ page.title }} Image]({{ site.baseurl }}{{ page.image }})
 
 **_Who should attend?_**
 Developers/technically-minded people interested in Numenta technology. A

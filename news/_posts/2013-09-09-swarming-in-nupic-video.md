@@ -1,6 +1,7 @@
 ---
 author: Matthew Taylor
 category: news
+image: /assets/img/news/nupic.png
 layout: item
 org: Open Source Manager
 title: Swarming in NuPIC
@@ -13,3 +14,5 @@ page as well as a great
 <a href="http://www.youtube.com/watch?v=xYPKjKQ4YZ0" rel="prettyPhoto" title="Swarming in NuPIC Video">video available on YouTube</a>
 about this new feature. You can also
 [download Ron's slide deck here]({{ site.baseurl }}/resources/blog/Swarming_in_NuPIC.pdf).
+
+![{{ page.title }} Image]({{ site.baseurl }}{{ page.image }})
