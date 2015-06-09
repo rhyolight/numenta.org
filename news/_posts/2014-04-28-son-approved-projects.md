@@ -1,7 +1,7 @@
 ---
 author: Matthew Taylor
 category: news
-image: /assets/img/news/nupic.png
+image: /assets/img/news/2014-04-28/image.png
 layout: item
 org: Open Source Manager
 title: 2014 Season of NuPIC Approved Projects

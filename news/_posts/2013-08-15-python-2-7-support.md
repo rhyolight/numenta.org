@@ -1,7 +1,7 @@
 ---
 author: Matthew Taylor
 category: news
-image: /assets/img/news/nupic.png
+image: /assets/img/news/2013-08-15/image.png
 layout: item
 org: Open Source Manager
 title: Python 2.7 Support

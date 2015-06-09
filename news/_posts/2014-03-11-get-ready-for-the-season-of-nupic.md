@@ -1,7 +1,7 @@
 ---
 author: Matthew Taylor
 category: news
-image: /assets/img/news/nupic.png
+image: /assets/img/news/2014-03-11/image.png
 layout: item
 org: Open Source Manager
 title: Get Ready for the Season of NuPIC

@@ -1,7 +1,7 @@
 ---
 author: Matthew Taylor
 category: news
-image: /assets/img/news/nupic.png
+image: /assets/img/news/default/image.png
 layout: item
 org: Open Source Manager
 title: Upcoming Events

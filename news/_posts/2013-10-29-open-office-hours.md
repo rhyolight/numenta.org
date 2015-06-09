@@ -1,7 +1,7 @@
 ---
 author: Matthew Taylor
 category: news
-image: /assets/img/news/nupic.png
+image: /assets/img/news/2013-10-29/image.png
 layout: item
 org: Open Source Manager
 title: Open Office Hours

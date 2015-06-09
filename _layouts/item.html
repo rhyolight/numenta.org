@@ -5,20 +5,41 @@ layout: default
 styles:
   - "/assets/css/item.css"
 ---
-<article>
-  <h5>
-    <time datetime="{{ page.date | date_to_xmlschema }}">
-      {{ page.date | date_to_string }}
-    </time> | {{ page.category }}
-  </h5>
-  <h1>{{ page.title }}</h1>
-  <div class="meta">
-    <em>by</em> {{ page.author }}, {{ page.org }}
+<div class="row">
+  <div class="col-md-8">
+
+    <article>
+      <h5>
+        <time datetime="{{ page.date | date_to_xmlschema }}">
+          {{ page.date | date_to_string }}
+        </time> | {{ page.category }}
+      </h5>
+      <h1>{{ page.title }}</h1>
+      <div class="meta">
+        <em>by</em> {{ page.author }}, {{ page.org }}
+      </div>
+      <p>{{ content }}</p>
+      {% include base/share.html link=page.url feed=page.category %}
+      <a href="{{site.baseurl}}{{ site.data.url[page.category] }}">
+        <i class="fa fa-fw fa-angle-left"></i>
+        Back to {{ page.category | capitalize }}
+      </a>
+    </article>
+
   </div>
-  <p>{{ content }}</p>
-  {% include base/share.html link=page.url feed=page.category %}
-  <a href="{{site.baseurl}}{{ site.data.url[page.category] }}">
-    <i class="fa fa-fw fa-angle-left"></i>
-    Back to {{ page.category | capitalize }}
-  </a>
-</article>
+  <div class="col-md-4 recent">
+
+    <div class="well well-lg">
+      <h6>Recent {{ page.category | capitalize }}</h6>
+      <ul>
+        {% for post in site.categories[page.category] limit:10 %}
+          <li>
+            <i></i>
+            <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+
+  </div>
+</div>
