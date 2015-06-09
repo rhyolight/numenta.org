@@ -1,6 +1,7 @@
 ---
 author: Matthew Taylor
 category: media
+image: /assets/img/media/logos/berkeley.png
 layout: item
 org: Open Source Manager
 title: "Intelligence and the Brain: Recent Advances in Understanding How the Brain Works"
@@ -22,3 +23,5 @@ Series: "UC Berkeley Graduate Council Lectures".
 ### Berkeley, 2012
 
 [![Intelligence and the Brain: Recent Advances in Understanding How the Brain Works]({{ site.baseurl }}/images/media/uctv.png)](http://www.youtube.com/watch?v=qZM9JREjnp4)
+
+![{{ page.title }} Image]({{ site.baseurl }}{{ page.image }})

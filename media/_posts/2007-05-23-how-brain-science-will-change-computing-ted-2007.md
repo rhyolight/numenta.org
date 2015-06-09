@@ -1,6 +1,7 @@
 ---
 author: Matthew Taylor
 category: media
+image: /assets/img/media/logos/ted.png
 layout: item
 org: Open Source Manager
 title: How Brain Science Will Change Computing @ TED 2007
@@ -15,3 +16,5 @@ experiences to help us predict, intelligently, what will happen next.
 ### TED, 2007
 
 [![How Brain Science Will Change Computing]({{ site.baseurl }}/images/media/ted.png)](http://www.ted.com/talks/jeff_hawkins_on_how_brain_science_will_change_computing.html)
+
+![{{ page.title }} Image]({{ site.baseurl }}{{ page.image }})
