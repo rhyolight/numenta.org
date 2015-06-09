@@ -1,7 +1,9 @@
 ---
 author: Matthew Taylor
 category: media
+image: /assets/img/media/logos/twittv.png
 layout: item
+org: Open Source Manager
 title: Jeff Hawkins with Leo Laporte on Triangulation 146 Twit.TV
 ---
 
@@ -13,3 +15,5 @@ title: Jeff Hawkins with Leo Laporte on Triangulation 146 Twit.TV
 
 Leo Laporte talks to Jeff about Numenta, Grok, NuPIC, and the future of
 machine intelligence.
+
+![{{ page.title }} Image]({{ site.baseurl }}{{ page.image }})

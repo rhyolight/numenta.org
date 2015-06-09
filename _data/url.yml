@@ -56,11 +56,12 @@ ext:
 
   # numenta
 
-  help:     mailto:help@numenta.org
-  learning: http://numenta.com/learn/
+  events:   http://numenta.com/events/
   grok:     http://numenta.com/grok/
+  help:     mailto:help@numenta.org
   htmpaper: http://numenta.com/learn/hierarchical-temporal-memory-white-paper.html
   issues:   http://status.numenta.org/issues
+  learning: http://numenta.com/learn/
   moreapps: http://numenta.com/#applications
   privacy:  http://numenta.com/legal/privacy.html
   roadmap:  http://status.numenta.org/roadmap

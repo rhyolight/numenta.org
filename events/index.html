@@ -1,9 +1,9 @@
 ---
 layout: default
 redirect_from: "/events.html"
-styles:
-  - "/assets/css/list.css"
+styles: # ordered
   - "/assets/css/item.css"
+  - "/assets/css/list.css"
 title: Events
 ---
 
@@ -24,18 +24,31 @@ title: Events
   </div>
 </div>
 
-<h2>Upcoming</h2>
+<h2>Upcoming Events</h2>
 <ul class="list-unstyled articles">
+  {% assign empty = true %}
   {% for post in site.categories.events reversed %}
     {% if post.date >= site.time %}
+      {% assign empty = false %}
       <li>
         {% include base/listitem.html %}
       </li>
     {% endif %}
   {% endfor %}
+  {% if empty %}
+    <li>
+      <div class="alert alert-warning">
+        <p class="lead">No Upcoming Events scheduled, please check back soon.</p>
+        <small>
+          You may be interested in
+          <a href="{{ site.data.url.ext.events }}">Numenta's company events</a>.
+        </small>
+      </div>
+    </li>
+  {% endif %}
 </ul>
 
-<h2>Past</h2>
+<h2>Past Events</h2>
 <ul class="list-unstyled articles">
   {% for post in site.categories.events %}
     {% if post.date < site.time %}

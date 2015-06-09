@@ -1,7 +1,9 @@
 ---
 author: Matthew Taylor
 category: media
+image: /assets/img/media/logos/berkeley.png
 layout: item
+org: Open Source Manager
 title: Modeling Data Streams Using Sparse Distributed Representations
 ---
 
@@ -27,3 +29,5 @@ make predictions from data streams.
 ### Screencast, 2012
 
 [![Modeling Data Streams Using Sparse Distributed Representations]({{ site.baseurl }}/images/media/berkeley.png)](http://www.youtube.com/watch?v=iNMbsvK8Q8Y)
+
+![{{ page.title }} Image]({{ site.baseurl }}{{ page.image }})

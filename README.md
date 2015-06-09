@@ -144,6 +144,9 @@ TEST_HOST=http://numenta.org TEST_PORT=80 TEST_PATH=  npm run test
 * Mobile First
 * Standards-compliant as possible
 * Support a wide array of users with accessibility needs
+* Retina images automatically loaded via
+  [Retina.js](https://github.com/imulus/retinajs) - for `image.png`, expects
+  a 2x resolution file named `image@2x.png`
 
 ### Development
 

@@ -1,7 +1,9 @@
 ---
 author: Matthew Taylor
 category: news
+image: /assets/img/news/default/image.png
 layout: item
+org: Open Source Manager
 title: Upcoming Events
 ---
 
@@ -14,3 +16,5 @@ summary:
 * <i></i> [Bay Area NuPIC Meetup](http://www.meetup.com/numenta/events/220690176/)
   in Silicon Valley
 * <i></i> [2015 Spring Hackathon]({{ site.baseurl }}/hack/) in New York, NY
+
+![{{ page.title }} Image]({{ site.baseurl }}{{ page.image }})

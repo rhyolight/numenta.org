@@ -1,7 +1,9 @@
 ---
 author: Matthew Taylor
 category: events
+image: /assets/img/events/2015-05-30/image.png
 layout: item
+org: Open Source Manager
 title: NuPIC Spring Hackathon 2015 NYC
 ---
 
@@ -24,3 +26,5 @@ United States
 ### [RSVP NOW!](http://www.meetup.com/numenta/events/220422020/)
 
 To attend this event, you **MUST** RSVP through the Meetup page above.
+
+![{{ page.title }} Image]({{ site.baseurl }}{{ page.image }})

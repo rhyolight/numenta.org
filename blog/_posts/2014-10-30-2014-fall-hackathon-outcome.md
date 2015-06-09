@@ -1,14 +1,11 @@
 ---
 author: Matthew Taylor
 category: blog
+image: /assets/img/blog/2014-10-30/image.png
 layout: item
+org: Open Source Manager
 title: 2014 Fall Hackathon Outcome
 ---
-
-<div class="blog image">
-    <a href="https://www.youtube.com/watch?v=r8MSfbfg5io&index=1&list=PL3yXMgtrZmDo4uTtO8Fqialyf6O1szHaT"><img src="{{ site.baseurl }}/resources/blog/2014-fall-hackathon-logo.png" width="640" alt="NuPIC Fall 2014 Hackathon Logo"></a>
-    <p>Thanks to <a href="https://twitter.com/jeffreyfohl">Jeff Fohl</a> for the excellent logo design!</p>
-</div>
 
 On October 18-19 of 2014, we held our fourth NuPIC Hackathon in San Jose at
 [Pinger, Inc](http://pinger.com). It was a 36-hour event, starting at 10AM on
@@ -20,10 +17,15 @@ natural language processing hacks. We also had a lot of interest in EEG analysis
 with NuPIC, which seems to be a hot topic within the community. And we even had
 another robotics demo!
 
+![{{ page.title }} Image]({{ site.baseurl }}{{ page.image }})
+
 I think I say this after every NuPIC hackathon we host, but this hackathon was
 the best one yet! We had well over 50 participants, 16 demos, and a ton of fun
 and community bonding. It was really nice to see some new faces at this
 hackathon. I love meeting the people of our community!
+
+> [Watch Video](https://www.youtube.com/watch?v=r8MSfbfg5io&index=1&list=PL3yXMgtrZmDo4uTtO8Fqialyf6O1szHaT)
+on YouTube.
 
 Once again, we had attendees from all over the world: Amsterdam, China, Austria,
 Ireland, not to mention from all over the United States. I was really impressed
@@ -630,4 +632,8 @@ I look forward to even more ground-breaking work at the next hackathon in Spring
 
 [Comments on Reddit](http://www.reddit.com/r/MachineLearning/comments/2ktnpt/2014_fall_nupic_hackathon_outcome/)
 
-<small>**By the way!** You can see all the videos and photos taken at every hackathon on our <a href="http://www.youtube.com/channel/UC8-ttzWLgXZOGuhUyrPlUuA">YouTube channel</a> and <a href="https://www.flickr.com/photos/nupic/">Flickr page</a>.</small>
+Thanks to [Jeff Fohl](https://twitter.com/jeffreyfohl) for the excellent logo design!
+
+<small>**By the way!** You can see all the videos and photos taken at every
+hackathon on our <a href="http://www.youtube.com/channel/UC8-ttzWLgXZOGuhUyrPlUuA">YouTube channel</a> and
+<a href="https://www.flickr.com/photos/nupic/">Flickr page</a>.</small>

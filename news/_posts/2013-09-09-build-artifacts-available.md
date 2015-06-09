@@ -1,7 +1,9 @@
 ---
 author: Matthew Taylor
 category: news
+image: /assets/img/news/2013-09-09/image.png
 layout: item
+org: Open Source Manager
 title: Build Artifacts
 ---
 
@@ -20,3 +22,5 @@ the complete SHA for the download:
 > [https://s3-us-west-2.amazonaws.com/artifacts.numenta.org/numenta/nupic/nupic-linux64-51baca950e9c7dd81d8f472723c88ca299dc4f0f.tar.gz](https://s3-us-west-2.amazonaws.com/artifacts.numenta.org/numenta/nupic/nupic-linux64-51baca950e9c7dd81d8f472723c88ca299dc4f0f.tar.gz)
 
 **WARNING**: Clicking the link above will start a 60MB download.
+
+![{{ page.title }} Image]({{ site.baseurl }}{{ page.image }})

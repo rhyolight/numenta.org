@@ -1,7 +1,9 @@
 ---
 author: Matthew Taylor
 category: media
+image: /assets/img/media/logos/isca.png
 layout: item
+org: Open Source Manager
 title: New Insights from Neuroscience and the Future of Intelligent Machines
 ---
 
@@ -15,3 +17,5 @@ impact on future computer architectures.
 ### International Symposium on Computer Architecture, 2012
 
 [![New Insights from Neuroscience and the Future of Intelligent Machines]({{ site.baseurl }}/images/media/isca.png)](http://www.youtube.com/watch?v=A8sHMcCk0lU)
+
+![{{ page.title }} Image]({{ site.baseurl }}{{ page.image }})

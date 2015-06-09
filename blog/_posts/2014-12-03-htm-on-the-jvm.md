@@ -1,14 +1,13 @@
 ---
 author: Matthew Taylor
 category: blog
+image: /assets/img/blog/2014-12-03/image.png
 layout: item
+org: Open Source Manager
 title: HTM in Java!
 ---
 
-<div style="float:right; margin-left:20px;"><img src="{{ site.baseurl }}/images/blog/java-duke.png"/></div>
-
 **[Introducing the feature-complete htm.java project!](https://github.com/numenta/htm.java)**
-
 Thanks to a _**lot**_ of effort by [David Ray](https://github.com/cogmission),
 the [NuPIC hacker community]({{ site.baseurl }}{{ site.data.url.community }}),
 and Numenta's own development staff, a fully usable version of NuPIC (minus
@@ -18,6 +17,8 @@ This port is 100% functionally equivalent to [NuPIC's Network
 API](https://github.com/numenta/nupic/wiki/NuPIC-Architecture).
 
 [See the **complete javadocs** here!](http://numenta.org/docs/htm.java/)
+
+![{{ page.title }} Image]({{ site.baseurl }}{{ page.image }})
 
 Bringing NuPIC to Java is an important milestone in NuPIC technology due to the
 size and significance of Java's user base. Because Java is the world's most used

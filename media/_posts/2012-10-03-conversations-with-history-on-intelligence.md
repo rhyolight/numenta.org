@@ -1,7 +1,9 @@
 ---
 author: Matthew Taylor
 category: media
+image: /assets/img/media/logos/berkeley.png
 layout: item
+org: Open Source Manager
 title: "Conversations with History: On Intelligence"
 ---
 
@@ -20,3 +22,5 @@ Series: "Conversations with History".
 ### Berkeley, 2012
 
 [![Conversations with History: On Intelligence]({{ site.baseurl }}/images/media/conversations.png)](http://www.youtube.com/watch?v=e5xyF84dw2o)
+
+![{{ page.title }} Image]({{ site.baseurl }}{{ page.image }})

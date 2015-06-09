@@ -1,18 +1,18 @@
 ---
 author: David Ragazzi
 category: blog
+image: /assets/img/blog/2014-11-24/image.png
 layout: item
+org: Community Contributor
 title: Introducing NuPIC Studio
 ---
 
-Hello NuPICers!
-
-I am introducing a nice tool for the NuPIC community.
+Hello NuPICers! I am introducing a nice tool for the NuPIC community.
 [NuPIC Studio](https://github.com/nupic-community/nupic.studio) is a powerful
 all-in-one tool that allows users create an HTM network from scratch, train it,
 collect statistics, and share it among the members of the community.
 
-![NuStudio Screenshot]({{ site.baseurl }}/images/blog/nustudio-screenshot.png)
+![{{ page.title }} Image]({{ site.baseurl }}{{ page.image }})
 
 It is not just a visualization tool but an HTM builder, debugger and laboratory
 for experiments. It is ideal for newbies with little intimacy with
@@ -29,13 +29,13 @@ better productivity. Among its features and advantages are:
   users that wish to test improvements like new encoders or even hierarchy,
   attention, and motor integration.
 
-![NuStudio Screenshot]({{ site.baseurl }}/images/blog/nustudio-encodings.png)
+![{{ page.title }} Image 2]({{ site.baseurl }}/assets/img/blog/2014-11-24/image2.png)
 
 * <i></i> Source code of the HTM network architecture is automatically generated
   in order for users to simply copy and paste it into their applications and so
   consume NuPIC Network API.
 
-![NuStudio Screenshot]({{ site.baseurl }}/images/blog/nustudio-architecture_code.png)
+![{{ page.title }} Image 3]({{ site.baseurl }}/assets/img/blog/2014-11-24/image3.png)
 
 * <i></i> The project is pip-installable and for desktop use.
 

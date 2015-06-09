@@ -1,7 +1,9 @@
 ---
 author: Matthew Taylor
 category: news
+image: /assets/img/news/2013-10-29/image.png
 layout: item
+org: Open Source Manager
 title: Open Office Hours
 ---
 
@@ -13,3 +15,5 @@ regularly in the future. You can be notified of these by
 for on [twitter](https://twitter.com/numenta),
 [facebook](https://www.facebook.com/pages/Numenta/321559142118), or
 [google+](https://www.google.com/+NumentaOrg).
+
+![{{ page.title }} Image]({{ site.baseurl }}{{ page.image }})

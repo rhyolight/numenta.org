@@ -1,7 +1,9 @@
 ---
 author: Matthew Taylor
 category: media
+image: /assets/img/media/logos/oscon.png
 layout: item
+org: Open Source Manager
 title: Introduction to NuPIC at OSCON 2013
 ---
 
@@ -19,3 +21,5 @@ learning.
 ### OSCON, 2013
 
 [![NuPIC at OSCON 2013]({{ site.baseurl }}/images/media/oscon.png)](http://www.youtube.com/watch?v=5r1vZ1ymrQE)
+
+![{{ page.title }} Image]({{ site.baseurl }}{{ page.image }})

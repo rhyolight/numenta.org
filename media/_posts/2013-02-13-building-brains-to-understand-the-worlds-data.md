@@ -1,7 +1,9 @@
 ---
 author: Matthew Taylor
 category: media
+image: /assets/img/media/logos/google.png
 layout: item
+org: Open Source Manager
 title: Building Brains to Understand the World's Data
 ---
 
@@ -24,3 +26,5 @@ intelligence.
 ### Google, 2013
 
 [![Building Brains to Understand the World's Data]({{ site.baseurl }}/images/media/google.png)](http://www.youtube.com/watch?v=4y43qwS8fl4)
+
+![{{ page.title }} Image]({{ site.baseurl }}{{ page.image }})

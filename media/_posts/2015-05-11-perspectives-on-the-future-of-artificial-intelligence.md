@@ -1,7 +1,9 @@
 ---
 author: Marty Lasden
 category: media
+image: /assets/img/media/logos/uctv.png
 layout: item
+org: UCTV
 title: "Up Next: Perspectives on The Future of Artificial Intelligence"
 ---
 
@@ -13,7 +15,7 @@ Link: [The Future of Artificial Intelligence - Up Next: Perspectives on the Futu
 
 Video Hosted by Marty Lasden / UCTV
 
-#### May 11 2015
+#### {{ page.date | date_to_string }}
 
 Back in the 1990s, Jeffrey Hawkins became both rich and famous when he invented
 the Palm Pilot-a device that in no small way ushered in a whole new era of
@@ -21,3 +23,5 @@ mobile computing. These days, though, he's on a far more ambitious mission. His
 goal: to build a machine that can think and reason on its own by mimicking the
 workings of the human brain. In this edition of Up Next, Hawkins opines on the
 both risks and rewards of artificial intelligence.
+
+![{{ page.title }} Image]({{ site.baseurl }}{{ page.image }})

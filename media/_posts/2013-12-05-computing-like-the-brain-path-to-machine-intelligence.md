@@ -1,7 +1,9 @@
 ---
 author: Matthew Taylor
 category: media
+image: /assets/img/media/logos/yow.png
 layout: item
+org: Open Source Manager
 title: "Computing Like the Brain: The Path to Machine Intelligence"
 ---
 
@@ -16,3 +18,5 @@ velocity sensory data streams.
 ### YOW! 2013
 
 [![Computing Like the Brain: The Path to Machine Intelligence]({{ site.baseurl }}/images/media/yow.png)](http://yow.eventer.com/yow-2013-1080/computing-like-the-brain-the-path-to-machine-intelligence-by-jeff-hawkins-1408)
+
+![{{ page.title }} Image]({{ site.baseurl }}{{ page.image }})
