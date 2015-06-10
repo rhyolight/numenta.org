@@ -30,10 +30,10 @@ Event staff will be happy to help participants contact venue security or local
 law enforcement, provide escorts, or otherwise assist those experiencing
 harassment to feel safe for the duration of the event. We value your attendance.
 
-- Matt Taylor <matt@numenta.org>
-- Scott Purdy <scott@numenta.org>
-- Teri Fry <tfry@numenta.com>
-- Taylor Wirfs <twirfs@numenta.com>
+- <i></i> Matt Taylor <matt@numenta.org>
+- <i></i> Scott Purdy <scott@numenta.org>
+- <i></i> Teri Fry <tfry@numenta.com>
+- <i></i> Taylor Wirfs <twirfs@numenta.com>
 
 We expect participants to follow these rules at all event venues and
 event-related social events.

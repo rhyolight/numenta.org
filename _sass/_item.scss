@@ -23,6 +23,13 @@ main > section {
     }
 
     // markdown translations
+
+    pre { // code snippet bocks: nowrap
+      overflow: auto;
+      word-wrap: normal;
+      white-space: pre;
+    }
+
     > p {
       img { // item article images
         @include img-responsive;

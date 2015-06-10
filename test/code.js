@@ -13,7 +13,7 @@ describe('Code of Conduct', function () {
 
     it('should have correct page title', function () {
       casper.then(function () {
-        "NuPIC Code of Conduct".should.matchTitle;
+        "Numenta Code of Conduct".should.matchTitle;
       });
     });
 
@@ -39,7 +39,7 @@ describe('Code of Conduct', function () {
 
       it('should contain valid text', function () {
         casper.then(function () {
-          selector.should.have.text(/NuPIC Code of Conduct/);
+          selector.should.have.text(/Numenta Code of Conduct/);
         });
       });
 

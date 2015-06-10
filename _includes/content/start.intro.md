@@ -1,5 +1,5 @@
 <p class="lead">
-  Download, install, and run NuPIC for the first time.
+  Download, install, and run NuPIC for the first time
 </p>
 
 Please consider that NuPIC is based on principles of which most people are not

@@ -1,30 +1,24 @@
 -
   name: Continuous Online Learning
-  desc: Sed posuere consectetur est at lobortis. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Aenean eu leo quam.
+  desc: NuPIC models continuously adjust in realtime to the rapidly changing flow of your data.
   icon: fa-refresh
-  link: "#"
 -
   name: Temporal and Spatial Patterns
-  desc: Sed posuere consectetur est at lobortis. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Aenean eu leo quam.
+  desc: Just like the human brain, NuPIC can model both patterns in space, and changing sequences across time.
   icon: fa-clock-o
-  link: "#"
 -
   name: Realtime Streaming Data
-  desc: Sed posuere consectetur est at lobortis. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Aenean eu leo quam.
+  desc: Intelligence exists actively in the present moment, not lost in deep storage somewhere in the future.
   icon: fa-forward
-  link: "#"
 -
   name: Prediction and Modeling
-  desc: Sed posuere consectetur est at lobortis. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Aenean eu leo quam.
+  desc: Learn, model, and predict multi-step time-series values, using general neocortical algorithms.
   icon: fa-line-chart
-  link: "#"
 -
-  name: Leading Anomaly Detection
-  desc: Sed posuere consectetur est at lobortis. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Aenean eu leo quam.
+  name: Breakthrough Anomaly Detection
+  desc: Find disturbances in patterend streams of data, without clumsy thresholds or unintelligent algorithms.
   icon: fa-heartbeat
-  link: "#"
 -
   name: Hierarchical Temporal Memory
-  desc: Sed posuere consectetur est at lobortis. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Aenean eu leo quam.
+  desc: A new computational architecture, ready for machines and applications that learn.
   icon: fa-sitemap
-  link: "#"
