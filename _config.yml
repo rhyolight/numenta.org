@@ -5,8 +5,8 @@
 
 ### about
 
-baseurl:  http://numenta.org  # production
-#baseurl: /numenta.org        # staging
+# baseurl:  http://numenta.org  # production
+baseurl: /numenta.org        # staging
 
 title:    NuPIC
 tagline:  Numenta Platform for Intelligent Computing
