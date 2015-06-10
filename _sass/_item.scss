@@ -3,9 +3,11 @@
  */
 main > section {
   article {
-    @media (min-width: $screen-md) {
-      border-right: 1px solid $color-lite;
-      padding-right: 5rem;
+    &.post {
+      @media (min-width: $screen-md) {
+        border-right: 1px solid $color-lite;
+        padding-right: 5rem;
+      }
     }
 
     > img {

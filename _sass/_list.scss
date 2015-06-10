@@ -10,6 +10,9 @@ main > section ul.articles { // item list
     padding: 3rem 0;
 
     .image img {
+      margin-left: auto;
+      margin-right: auto;
+
       @media (max-width: $screen-lg) {
         margin-top: 2rem;
       }
@@ -17,7 +20,13 @@ main > section ul.articles { // item list
         margin-top: 5rem;
       }
       @media (max-width: $screen-sm) {
-        margin: 0 auto;
+        margin-bottom: 0;
+        margin-top: 0;
+        max-width: 50%;
+      }
+      @media (max-width: $screen-xs) {
+        margin-bottom: 0;
+        margin-top: 0;
         max-width: 66%;
       }
     }
