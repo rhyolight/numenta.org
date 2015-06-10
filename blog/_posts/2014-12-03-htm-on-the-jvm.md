@@ -40,33 +40,33 @@ example created by a community member. Here is the constructor:
 {% highlight java %}
 /**
  *
- * @param inputDimensions         The size of the input.  {m, n} will give a size of m x n
- * @param columnDimensions        The size of the 2 dimensional array of columns
+ * @param inputDimensions   The size of the input.  {m, n} will give a size of m x n
+ * @param columnDimensions  The size of the 2 dimensional array of columns
  */
 HelloSP(int[] inputDimensions, int[] columnDimensions) {
-    inputSize = 1;
-    columnNumber = 1;
-    for (int x : inputDimensions) {
-        inputSize *= x;
-    }
-    for (int x : columnDimensions) {
-        columnNumber *= x;
-    }
-    activeArray = new int[columnNumber];
+  inputSize = 1;
+  columnNumber = 1;
+  for (int x : inputDimensions) {
+    inputSize *= x;
+  }
+  for (int x : columnDimensions) {
+    columnNumber *= x;
+  }
+  activeArray = new int[columnNumber];
 
-    parameters = Parameters.getSpatialDefaultParameters();
-    parameters.setParameterByKey(KEY.INPUT_DIMENSIONS, inputDimensions);
-    parameters.setParameterByKey(KEY.COLUMN_DIMENSIONS, columnDimensions);
-    parameters.setParameterByKey(KEY.POTENTIAL_RADIUS, inputSize);
-    parameters.setParameterByKey(KEY.GLOBAL_INHIBITIONS, true);
-    parameters.setParameterByKey(KEY.NUM_ACTIVE_COLUMNS_PER_INH_AREA, 0.02*columnNumber);
-    parameters.setParameterByKey(KEY.SYN_PERM_ACTIVE_INC, 0.01);
-    parameters.setParameterByKey(KEY.SYN_PERM_TRIM_THRESHOLD, 0.005);
+  parameters = Parameters.getSpatialDefaultParameters();
+  parameters.setParameterByKey(KEY.INPUT_DIMENSIONS, inputDimensions);
+  parameters.setParameterByKey(KEY.COLUMN_DIMENSIONS, columnDimensions);
+  parameters.setParameterByKey(KEY.POTENTIAL_RADIUS, inputSize);
+  parameters.setParameterByKey(KEY.GLOBAL_INHIBITIONS, true);
+  parameters.setParameterByKey(KEY.NUM_ACTIVE_COLUMNS_PER_INH_AREA, 0.02*columnNumber);
+  parameters.setParameterByKey(KEY.SYN_PERM_ACTIVE_INC, 0.01);
+  parameters.setParameterByKey(KEY.SYN_PERM_TRIM_THRESHOLD, 0.005);
 
-    sp = new SpatialPooler();
-    mem = new Connections();
-    parameters.apply(mem);
-    sp.init(mem);
+  sp = new SpatialPooler();
+  mem = new Connections();
+  parameters.apply(mem);
+  sp.init(mem);
 }
 {% endhighlight %}
 
@@ -75,54 +75,54 @@ And here is the usage:
 
 {% highlight java %}
 public static void main(String args[]) {
-    HelloSP example = new HelloSP(new int[]{32, 32}, new int[]{64, 64});
+  HelloSP example = new HelloSP(new int[]{32, 32}, new int[]{64, 64});
 
-    // Lesson 1
-    System.out.println("\n \nFollowing columns represent the SDR");
-    System.out.println("Different set of columns each time since we randomize the input");
-    System.out.println("Lesson - different input vectors give different SDRs\n\n");
+  // Lesson 1
+  System.out.println("\n \nFollowing columns represent the SDR");
+  System.out.println("Different set of columns each time since we randomize the input");
+  System.out.println("Lesson - different input vectors give different SDRs\n\n");
 
-    //Trying random vectors
-    for (int i = 0; i < 3; i++) {
-        example.createInput();
-        example.run();
-    }
-
-    //Lesson 2
-    System.out.println("\n\nIdentical SDRs because we give identical inputs");
-    System.out.println("Lesson - identical inputs give identical SDRs\n\n");
-
-    for (int i = 0; i < 75; i++) System.out.print("-");
-    System.out.print("Using identical input vectors");
-    for (int i = 0; i < 75; i++) System.out.print("-");
-    System.out.println();
-
-    //Trying identical vectors
-    for (int i = 0; i < 2; i++) {
-      example.run();
-    }
-
-    // Lesson 3
-    System.out.println("\n\nNow we are changing the input vector slightly.");
-    System.out.println("We change a small percentage of 1s to 0s and 0s to 1s.");
-    System.out.println("The resulting SDRs are similar, but not identical to the original SDR");
-    System.out.println("Lesson - Similar input vectors give similar SDRs\n\n");
-
-    // Adding 10% noise to the input vector
-    // Notice how the output SDR hardly changes at all
-    for (int i = 0; i < 75; i++) System.out.print("-");
-    System.out.print("After adding 10% noise to the input vector");
-    for (int i = 0; i < 75; i++) System.out.print("-");
-    example.addNoise(0.1);
+  //Trying random vectors
+  for (int i = 0; i < 3; i++) {
+    example.createInput();
     example.run();
+  }
 
-    // Adding another 20% noise to the already modified input vector
-    // The output SDR should differ considerably from that of the previous output
-    for (int i = 0; i < 75; i++) System.out.print("-");
-    System.out.print("After adding another 20% noise to the input vector");
-    for (int i = 0; i < 75; i++) System.out.print("-");
-    example.addNoise(0.2);
+  //Lesson 2
+  System.out.println("\n\nIdentical SDRs because we give identical inputs");
+  System.out.println("Lesson - identical inputs give identical SDRs\n\n");
+
+  for (int i = 0; i < 75; i++) System.out.print("-");
+  System.out.print("Using identical input vectors");
+  for (int i = 0; i < 75; i++) System.out.print("-");
+  System.out.println();
+
+  //Trying identical vectors
+  for (int i = 0; i < 2; i++) {
     example.run();
+  }
+
+  // Lesson 3
+  System.out.println("\n\nNow we are changing the input vector slightly.");
+  System.out.println("We change a small percentage of 1s to 0s and 0s to 1s.");
+  System.out.println("The resulting SDRs are similar, but not identical to the original SDR");
+  System.out.println("Lesson - Similar input vectors give similar SDRs\n\n");
+
+  // Adding 10% noise to the input vector
+  // Notice how the output SDR hardly changes at all
+  for (int i = 0; i < 75; i++) System.out.print("-");
+  System.out.print("After adding 10% noise to the input vector");
+  for (int i = 0; i < 75; i++) System.out.print("-");
+  example.addNoise(0.1);
+  example.run();
+
+  // Adding another 20% noise to the already modified input vector
+  // The output SDR should differ considerably from that of the previous output
+  for (int i = 0; i < 75; i++) System.out.print("-");
+  System.out.print("After adding another 20% noise to the input vector");
+  for (int i = 0; i < 75; i++) System.out.print("-");
+  example.addNoise(0.2);
+  example.run();
 }
 {% endhighlight %}
 
@@ -158,7 +158,8 @@ intelligence? Check out the
 and find out where we need help. Create some sample applications and get your
 feet wet with HTM on the JVM.
 
-* * *
+
+### Thanks
 
 On a personal note, I'd like to give a big thank you to David Ray. He came to us
 earlier this year with a plan for this Java port and the full intention of

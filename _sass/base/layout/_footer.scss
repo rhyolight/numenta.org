@@ -89,6 +89,10 @@ footer {
       font-weight: $font-weight-normal;
       padding: 3.5rem;
 
+      @media (min-width: $screen-sm) {
+        margin-top: 1.5rem;
+      }
+
       img {
         height: 30px;
         margin-bottom: 2rem;
