@@ -1,5 +1,5 @@
 <p class="lead">
-  NuPIC is an open source Platform and Community for Machine Intelligence.
+  Open Source Platform and Community for Machine Intelligence
 </p>
 
 **NuPIC** learns patterns in both space and time, predicts future values, and

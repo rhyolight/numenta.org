@@ -1,5 +1,5 @@
 <p class="lead">
-  Stay up-to-date with the latest on our project and community.
+  Stay up-to-date with the latest on our project and community
 </p>
 
 Read our Blog, browse recent News, learn about our Events, and see mentions of

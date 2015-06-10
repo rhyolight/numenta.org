@@ -1,7 +1,7 @@
 <section class="hero">
   <div class="container">
 
-    <h1>Welcome</h1>
+    <h1>Welcome to NuPIC</h1>
 
     <div class="row">
       <div class="col-sm-8">
@@ -17,7 +17,7 @@
       {% for feature in site.data.features %}
         <li>
           <i class="fa fa-4x {{ feature.icon }}"></i>
-          <a href="{{ feature.link }}" data-toggle="popover" title="{{ feature.name }}" data-content="{{ feature.desc }}" role="button">
+          <a data-toggle="popover" title="{{ feature.name }}" data-content="{{ feature.desc }}" role="button">
             {{ feature.name }}
             <i class="fa fa-fw fa-caret-down"></i>
           </a>
