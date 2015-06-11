@@ -3,6 +3,6 @@
 </p>
 
 **NuPIC** learns patterns in both space and time, predicts future values, and
-detects anomalies found in realtime streams of data. Our unique technology,
-**Hierarchical Temporal Memory**, is based on the neurobiological principles of
-the human brain.
+detects anomalies found in real-time streams of data. Our unique technology,
+**Hierarchical Temporal Memory (HTM)**, is based on the neurobiological
+principles of the human brain.

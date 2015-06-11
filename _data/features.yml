@@ -1,13 +1,13 @@
 -
   name: Continuous Online Learning
-  desc: NuPIC models continuously adjust in realtime to the rapidly changing flow of your data.
+  desc: NuPIC models continuously adjust in real-time to the rapidly changing flow of your data.
   icon: fa-refresh
 -
   name: Temporal and Spatial Patterns
   desc: Just like the human brain, NuPIC can model both patterns in space, and changing sequences across time.
   icon: fa-clock-o
 -
-  name: Realtime Streaming Data
+  name: Real-time Streaming Data
   desc: Intelligence exists actively in the present moment, not lost in deep storage somewhere in the future.
   icon: fa-forward
 -
