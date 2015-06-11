@@ -16,7 +16,7 @@
   icon: fa-line-chart
 -
   name: Breakthrough Anomaly Detection
-  desc: Find disturbances in patterend streams of data, without clumsy thresholds or unintelligent algorithms.
+  desc: Find disturbances in patterned streams of data, without clumsy thresholds or unintelligent algorithms.
   icon: fa-heartbeat
 -
   name: Hierarchical Temporal Memory
