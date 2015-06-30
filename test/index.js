@@ -91,7 +91,7 @@ describe('Homepage', function () {
 
         it('should contain valid text', function () {
           casper.then(function () {
-            selector.should.have.text(/both space and time/);
+            selector.should.have.text(/time-based patterns in data/);
           });
         });
 

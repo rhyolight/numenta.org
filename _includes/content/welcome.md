@@ -1,8 +1,13 @@
 <p class="lead">
-  Open Source Platform and Community for Machine Intelligence
+  Open Source Platform and Community for Machine Intelligence based on
+  <abbr title="Hierarchical Temporal Memory">HTM</abbr> Theory
 </p>
 
-**NuPIC** learns patterns in both space and time, predicts future values, and
-detects anomalies found in real-time streams of data. Our unique technology,
-**Hierarchical Temporal Memory (HTM)**, is based on the neurobiological
-principles of the human brain.
+**NuPIC** is an open source project based on a theory of neocortex called
+**Hierarchical Temporal Memory (HTM)**. Parts of HTM theory have been
+implemented, tested, and used in applications, and other parts of HTM theory are
+still being developed. Today the HTM code in NuPIC can be used to analyze
+streaming data. It learns the time-based patterns in data, predicts future
+values, and detects anomalies. NuPIC includes discussion groups on HTM theory,
+research on extending HTM, and source code for complete applications based on
+HTM. We welcome participation in all of these areas.
