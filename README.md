@@ -64,16 +64,15 @@ npm install
 
 ### Development
 
-Build and serve local dev site:
+**Build and Serve** local dev site:
 ```
 npm run dev
 ```
 
-Visit local development site:
-
+**View** local development site:
 > http://localhost:4000
 
-Run webtests and linkchecks against local environment:
+**Test** webtests and linkchecks against local environment:
 ```
 # use defaults
 npm run test
@@ -84,23 +83,24 @@ TEST_HOST=http://localhost TEST_PORT=8008 TEST_PATH=  npm run test
 
 ### Staging
 
-Build:
+**Build:**
 * Modify `_config.yml` and set `baseurl` to be `/numenta.org`
 * Push changes to your own github `username/gh-pages` branch
 * *Note:* Living Styleguide doesn't work fully on Staging yet, it doesn't know
   about the gh-pages Jekyll `baseurl` setting.
-* Your own staging site will build and be available:
 
+**View:**
+Your own staging site will build and be available:
 > `http://username.github.io/numenta.org/`
 
-Test against Staging:
+**Test** against your Staging:
 ```
 TEST_HOST=http://username.github.io TEST_PORT=80 TEST_PATH=/numenta.org npm run test
 ```
 
 ### Production
 
-Build:
+**Build:**
 * In `_config.yml` set `baseurl` to be `http://numenta.org`
 * Changes to the `gh-pages` branch of the
   [numenta.org repo](https://github.com/numenta/numenta.org) are automatically
@@ -110,11 +110,14 @@ Build:
     [Contributor licenese](http://numenta.org/licenses/cl/)
   * [Create a Pull Request](https://help.github.com/articles/using-pull-requests)
     against `numenta/numenta.org:gh-pages` branch
-* Production build is available at the main URL:
+* Continuous Integration builds on Travis-CI:
+  https://travis-ci.org/numenta/numenta.org
 
+**View:**
+Production build is available at the main URL:
 > `http://numenta.org`
 
-Test against Production:
+**Test** against Production:
 ```
 TEST_HOST=http://numenta.org TEST_PORT=80 TEST_PATH=  npm run test
 ```
