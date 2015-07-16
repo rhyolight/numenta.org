@@ -27,6 +27,21 @@
     {% for sheet in page.styles %}
       <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}{{ sheet }}?v={{ ver }}" />
     {% endfor %}
+
+    <!-- This is for Pingdom's realtime user monitoring. -->
+    <script>
+    var _prum = [['id', '55a7dbc8abe53dba666b928b'],
+                 ['mark', 'firstbyte', (new Date()).getTime()]];
+    (function() {
+        var s = document.getElementsByTagName('script')[0]
+          , p = document.createElement('script');
+        p.async = 'async';
+        p.src = '//rum-static.pingdom.net/prum.min.js';
+        s.parentNode.insertBefore(p, s);
+    })();
+    </script>
+    <!-- end Pingdom -->
+
   </head>
   <body class="numenta" data-spy="scroll" data-target=".scrollspy-nav">
     <!-- content | {{ site.baseurl }} {{ site.copyright }} {{ site.time | date_to_xmlschema }} {{ site.company }} v={{ ver }} -->
