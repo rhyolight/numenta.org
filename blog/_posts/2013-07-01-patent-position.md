@@ -30,18 +30,18 @@ When we decided to open source NuPIC, we did extensive investigation into the
 range of open source licenses available.  We settled on
 [GPLv3](http://opensource.org/licenses/GPL-3.0). Under GPLv3, all contributors
 to a project must grant to all other contributors an explicit license to any
-patents expressed in their contribution.
+patents expressed in their contribution. <a href="#agpl">*</a>
 
 We believe that to enable free use of our software (as in the “software freedom”
 sense), we must include a license to those patents that pertain to the work
 included, which is partly why we selected v3 of the GPL rather than earlier
 versions.  Therefore if you have downloaded our software and accepted the GPLv3
-license, we will not assert patents on this material against you.
+license, we will not assert patents on this material against you. <a href="#agpl">*</a>
 
 It should be noted that Numenta/Grok holds patents that do not pertain to the
 algorithms released in NuPIC.  We do not view these patents as covered under the
 GPL, and we reserve the right to use these patents in the normal course of our
-business.
+business. <a href="#agpl">*</a>
 
 We’ve asked ourselves whether we should continue to seek patent protection on
 the work that is in the open source project.  After all, it costs money and it
@@ -67,6 +67,8 @@ I welcome your feedback on our patent position.  Please send comments to
 And I welcome you to NuPIC, our new, open source community.  I know that this is
 the beginning of a long road, but I also know that it’s a road with great
 promise to change the future.
+
+<small id="agpl" class="disclaimer">* Since this original blog post, we have updated our license to the <a href="http://numenta.org/blog/2015-08-14-agpl">AGPL Version 3.0</a>.</small>
 
 > Donna Dubinsky<br/>
 > Board Chair, Grok Solutions<br/>

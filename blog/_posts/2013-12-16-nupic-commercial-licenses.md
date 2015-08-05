@@ -21,7 +21,7 @@ academics and members of the open source community, but in some cases will not
 be appropriate for a commercial application.  In the cases where a developer has
 created something that they would like to keep proprietary, we are willing to
 enter into a commercial license at that time.  The good news is that one can
-start on the GPLv3 license, then transition to a commercial license later.
+start on the GPLv3 license, then transition to a commercial license later. <a href="#agpl">*</a>
 
 ![{{ page.title }} Image]({{ site.baseurl }}{{ page.image }})
 
@@ -36,7 +36,7 @@ So, here is how our licensing impacts you if your goal is commercial deployment:
   you have other value-added products or services that you can charge for, such
   as support or integration services, or product modules that are not based on
   the open source.  **Alternatively**, you can request a commercial license
-  from us, which would allow you to create a proprietary product.
+  from us, which would allow you to create a proprietary product. <a href="#agpl">*</a>
 
 I realize you might want to know the terms of that commercial license now,
 rather than wait.  But, the truth is, we don't have such a commercial license
@@ -59,6 +59,8 @@ little risk.  Once you have something that you think is exciting, you have the
 freedom to explore multiple business models.  If at that point, the proprietary
 business model is best for your goals, you will have enough info to share with
 us so that together we can create an appropriate license.
+
+<small id="agpl" class="disclaimer">* Since this original blog post, we have updated our license to the <a href="http://numenta.org/blog/2015-08-14-agpl">AGPL Version 3.0</a>.</small>
 
 > Donna Dubinsky <br/>
 > CEO <br/>
