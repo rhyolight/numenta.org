@@ -122,6 +122,11 @@ description: This is the one-stop location where details about all Numenta open
     - slug: numenta/nupic.nlp-examples
       type: app
 
+    - slug: numenta/htm.java-examples
+      type: app
+      travis: true
+      coverage: true
+
     # Ports of HTM to other environments
     - slug: numenta/htm.java
       type: port
