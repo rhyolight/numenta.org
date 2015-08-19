@@ -24,7 +24,7 @@ It is important to emphasize that the old and new NuPIC algorithms are completel
 
 ## Can I add an external library to NuPIC?
 
-You can add external libraries to NuPIC. They must have a license that permits proprietary use of the library. External libraries licensed under GPL, for instance, will not be accepted.
+You can add external libraries to NuPIC. They must have a license that permits proprietary use of the library. External libraries licensed under AGPL, for instance, will not be accepted.
 
 ## Does NuPIC implement hierarchy?
 
