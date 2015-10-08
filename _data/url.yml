@@ -6,7 +6,6 @@
 ### Internal
 
 # main
-
 index:      /
 start:      /#start
 docs:       /#docs
@@ -16,12 +15,10 @@ latest:     /#latest
 social:     /#more
 
 # posts and feeds
-
 blog:   /blog/
 events: /events/
 media:  /media/
 news:   /news/
-
 rss:
   blog:    /blog/index.xml
   news:    /news/index.xml
@@ -29,7 +26,6 @@ rss:
   media:   /media/index.xml
 
 # other
-
 code:     /licenses/code/
 committs: /committers/
 contribs: /contributors/
@@ -49,16 +45,12 @@ sitemap:  /sitemap/
 
 ext:
 
-  # mutable + versioned
-
-  download: https://github.com/numenta/nupic/releases/tag/0.2.6
-  package:  https://s3-us-west-2.amazonaws.com/artifacts.numenta.org/numenta/nupic/releases/nupic-0.2.6-cp27-none-linux_x86_64.whl
+  # Homepage Linux Quickstart instructions - hosted nupic.bindings wheel package
+  package: https://s3-us-west-2.amazonaws.com/artifacts.numenta.org/numenta/nupic.core/releases/nupic.bindings/nupic.bindings-0.2.2-cp27-none-linux_x86_64.whl
 
   # numenta
-
   events:     http://numenta.com/events/
-  grok:       http://numenta.com/grok/
-  grokstocks: http://numenta.com/grok-for-stocks/
+  htmstocks:  http://numenta.com/htm-for-stocks/
   help:       mailto:help@numenta.org
   htmpaper:   http://numenta.com/learn/hierarchical-temporal-memory-white-paper.html
   issues:     http://status.numenta.org/issues
@@ -69,7 +61,6 @@ ext:
   terms:      http://numenta.com/legal/terms.html
 
   # lists
-
   list:
     general: http://lists.numenta.org/mailman/listinfo/nupic_lists.numenta.org
     hackers: http://lists.numenta.org/mailman/listinfo/nupic-hackers_lists.numenta.org
@@ -81,7 +72,6 @@ ext:
       theory:  http://lists.numenta.org/pipermail/nupic-theory_lists.numenta.org/
 
   # github, mostly wiki
-
   build:      https://github.com/numenta/nupic/wiki/Installing-and-Building-NuPIC
   communal:   https://github.com/numenta/nupic/wiki/Community-Content
   contrib:    https://github.com/numenta/nupic/wiki/Contributing-to-NuPIC
@@ -100,5 +90,4 @@ ext:
   wikicomm:   https://github.com/numenta/nupic/wiki/NuPIC-Community
 
   # non-numenta domains
-
   gitter: https://gitter.im/numenta/public

@@ -68,7 +68,7 @@ footer {
   } // .social
 
   /**
-   * Footer Nav and Grok Promo
+   * Footer Nav and Product Promo
    */
   > .nav {
     @include gradient-vertical($color-gray-lite, darken($color-gray-lite, $color-shift), 75%, 100%);
@@ -81,7 +81,7 @@ footer {
     }
 
     /**
-     * Grok promo
+     * Product promo
      */
     aside {
       @include gradient-vertical($color-white, $color-lite, 75%, 100%);
@@ -94,7 +94,7 @@ footer {
       }
 
       img {
-        height: 30px;
+        height: 50px;
         margin-bottom: 2rem;
       }
 
@@ -102,7 +102,7 @@ footer {
         color: $color-gray-dark;
         margin-bottom: 2.5rem;
       }
-    } // grok promo
+    } // product promo
 
     /**
      * Footer Navigation links
@@ -122,7 +122,7 @@ footer {
         margin-bottom: 1rem;
       }
     } // nav
-  } // footer .nav (and grok promo)
+  } // footer .nav (and product promo)
 
   /**
    * Footer Legal notices at bottom
