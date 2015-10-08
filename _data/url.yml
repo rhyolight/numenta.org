@@ -50,8 +50,7 @@ ext:
 
   # numenta
   events:     http://numenta.com/events/
-  grok:       http://numenta.com/grok/
-  grokstocks: http://numenta.com/grok-for-stocks/
+  htmstocks:  http://numenta.com/htm-for-stocks/
   help:       mailto:help@numenta.org
   htmpaper:   http://numenta.com/learn/hierarchical-temporal-memory-white-paper.html
   issues:     http://status.numenta.org/issues

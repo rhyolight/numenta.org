@@ -1,5 +1,5 @@
-[Grok for IT Analytics]({{ site.data.url.ext.grok }}) is the first Numenta HTM
-application built with NuPIC. Breakthrough
+[HTM for Stocks]({{ site.data.url.ext.htmstocks }}) is the most recent Numenta
+HTM application built with NuPIC. Breakthrough
 [open source]({{ site.data.url.ext.opensource }}) science for Anomaly Detection
-and IT Analytics on Amazon Web Services (AWS).
-[Download Grok for IT]({{ site.data.url.ext.grok }}#get) now for free.
+on Financial Analytics and top market stock data.
+[Download HTM for Stocks]({{ site.data.url.ext.htmstocks }}#get) now for free.
