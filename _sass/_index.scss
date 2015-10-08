@@ -9,18 +9,26 @@
 .hero {
   padding-bottom: 4rem;
 
-  // logo
-  img {
+  h1 {
+    margin: 4rem 0 1rem;
+  }
+
+  p.lead {
+    margin-bottom: 4rem;
+  }
+
+  img { // logo
+    margin: 3rem 0;
     height: 150px;
     width:  165px;
   }
 
-  h2 {
-    margin-top: 0.5rem;
+  aside { // header promo
+    color: $color-gray-dark;
+    margin-bottom: 0;
   }
 
-  // features
-  ul {
+  ul { // features
     line-height: 1.5;
     margin-top: 2rem;
     text-align: center;
