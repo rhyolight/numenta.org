@@ -1,6 +1,8 @@
 
 # NuPIC Mailing Lists
 
+> [Search the content of all our public mailing lists here]({{ baseurl }}/search/).
+
 ## [\[nupic-discuss\]](http://lists.numenta.org/mailman/listinfo/nupic_lists.numenta.org)
 
 This is our general mailing list, for discussions about NuPIC installation, usage, bug reports or any other topic that doesn't have to do with NuPIC development or theory.
