@@ -3,7 +3,7 @@
 ## Summary
 
 Our core algorithms are [AGPL Version 3](http://www.gnu.org/licenses/agpl.html),
-buy there are ways you can experiment with our technology without being
+but there are ways you can experiment with our technology without being
 constrained. We offer both a
 [commercial license option](mailto:sales@numenta.com?subject=Commercial%20License%20Inquiry)
 (more details soon) and a [trial license](trial/), which allows you to
