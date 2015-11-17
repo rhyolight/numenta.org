@@ -2,6 +2,9 @@
   "name": "numenta.org",
   "version": "0.0.1",
   "description": "Numenta.org NuPIC Website",
+  "engine": {
+    "node": "0.12.x"
+  },
   "scripts": {
     "build": "npm install && npm run support && npm run generate",
     "clean": "npm run clean:build && npm run clean:npm && npm run check",
