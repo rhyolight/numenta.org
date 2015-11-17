@@ -60,7 +60,7 @@
     "gulp-sitemap": "2.2.0",
     "gulp-tap": "0.1.3",
     "gulp-webserver": "0.9.1",
-    "kss": "2.1.0",
+    "kss": "RobLoach/kss-node.git#xdemo",
     "mocha": "2.3.3",
     "mocha-casperjs": "0.5.4",
     "phantomjs": "1.9.18"
