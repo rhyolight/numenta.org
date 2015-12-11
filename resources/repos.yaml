@@ -99,14 +99,6 @@ description: This is the one-stop location where details about all Numenta open
       type: app
       monitor: false
 
-    - slug: numenta/nupic.fluent
-      type: app
-      travis: true
-      coverage: true
-
-    - slug: numenta/nupic.fluent.server
-      type: app
-
     - slug: numenta/nupic.cerebro
       type: app
 
