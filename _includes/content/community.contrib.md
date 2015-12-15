@@ -7,3 +7,4 @@
 * <i class="fa-warning"></i> [Issue Trackers]({{ site.data.url.ext.issues }})
 * <i></i> [Community Content]({{ site.data.url.ext.communal }}) from our team
 * <i></i> [Licenses]({{ site.baseurl }}{{ site.data.url.licenses }})
+* <i></i> [Continuous Integration](http://ci.numenta.com/) using Bamboo (this is still being set up)
