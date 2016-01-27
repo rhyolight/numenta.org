@@ -1,0 +1,130 @@
+---
+layout: default
+title: NAB Competition
+styles:
+  - "/assets/css/nab.css"
+---
+
+<section id="nab-competition">
+
+    <h1>
+        The Numenta Anomaly Benchmark Competition For Real Time <br/>
+        <small><em>Part of the</em> <a target="_blank" href="http://www.wcci2016.org/programs.php?id=home">IEEE WCCI</a> (World Congress on Computational Intelligence)</small>
+    </h1>
+
+    <p>Do you have an algorithm that detects anomalies in streaming data? Or a dataset of real-world, time-series data with labeled anomalies? If so, you’re encouraged to enter the Numenta Anomaly Benchmark (NAB) Competition.</p>
+
+    <ul class="toc">
+        <li><a href="#what-is-nab">What is NAB?</a></li>
+        <li><a href="#why-is-it-important">Why is it important?</a></li>
+        <li><a href="#what-is-the-nab-competition">What is the NAB competition?</a></li>
+        <li><a href="#how-do-i-enter">How do I enter?</a>
+            <ul>
+                <li><a href="#algorithms-category">Algorithms Category</a></li>
+                <li><a href="#dataset-category">Dataset Category</a></li>
+            </ul>
+        </li>
+        <li><a href="#what-are-the-rules">What are the rules?</a></li>
+        <li><a href="#what-is-the-deadline">What is the deadline?</a></li>
+        <li><a href="#what-are-the-prizes">What are the prizes?</a></li>
+    </ul>
+
+    <h3 id="what-is-nab">What is NAB?</h3>
+
+    <p/>The Numenta Anomaly Detection Benchmark (NAB) attempts to provide a controlled and repeatable environment of open-source tools to test and measure anomaly detection algorithms on streaming data.
+
+    <p/>NAB is available at <a target="_blank" href="https://github.com/numenta/NAB">https://github.com/numenta/NAB</a>. You can learn more about NAB in this paper: <a target="_blank" href="http://arxiv.org/abs/1510.03336">http://arxiv.org/abs/1510.03336</a>.
+
+    <h3 id="why-is-it-important">Why is it important?</h3>
+
+    <p/>Much of the world’s data is streaming, time-series data, where anomalies give significant information in often-critical situations; examples abound in domains such as finance, IT, security, medical, and energy. Yet detecting anomalies in streaming data is a difficult task, requiring detectors to process data in real-time, not batches, and learn while simultaneously making predictions.
+
+    <h3 id="what-is-the-nab-competition">What is the NAB competition?</h3>
+
+    <p/>We are conducting this competition in association with the IEEE WCCI (World Congress on Computational Intelligence). The WCCI NAB competition has two categories:
+
+    <ol>
+        <li>Algorithms: what is the best algorithm for detecting anomalies in streaming data?</li>
+        <li>Datasets: what is the best data contribution to the benchmark corpus?</li>
+    </ol>
+
+    <h3 id="how-do-i-enter">How do I enter?</h3>
+
+    <p/>You may submit to either the algorithms or datasets components, or both.
+
+    <h4 id="algorithms-category">Algorithms Category</h4>
+
+    <p/>To enter the Algorithms category, you must submit your anomaly detection algorithm and the results of running it on NAB. Deliverables include:
+
+    <ul>
+        <li>Detailed description of algorithm(s), including NAB results</li>
+        <li>Code to run your algorithm and recreate the results (link to Github repository is fine)</li>
+        <li>List of contributors and contact information</li>
+    </ul>
+
+    <p/>We will evaluate your algorithm by running your code on NAB v1.0, given it meets the requirements described above. Final results will be disclosed at the conference, and then posted to the NAB repository scoreboard.
+
+    <h4 id="dataset-category">Dataset Category</h4>
+
+    <p/>To enter the Dataset category, you must submit real-world, time-series data with labeled anomalies. Deliverables include: 
+
+    <ul>
+        <li>Data file(s) in CSV format
+            <ul>
+                <li>one header row</li>
+                <li>fields for "timestamp" (time at the end of the metric collection window) and "value" (the metric as either float or integer)</li>
+            </ul>
+        </li>
+        <li>Anomaly labels &mdash; timestamps at which the anomalies start</li>
+        <li>Description of the data and anomalies</li>
+    </ul>
+    
+    <p/>We will evaluate your dataset against the following characteristics: 
+    
+    <ul>
+        <li>meeting the requirements described above</li>
+        <li>interesting types of anomalies</li>
+        <li>relevance to real applications</li>
+        <li>accuracy/quality of anomaly labels</li>
+        <li>good challenges for detection algorithms</li>
+        <li>quantity of data &mdash; the more files in your submission the better</li>
+        <li>feasibility for algorithms to detect anomalies
+            <ul>
+                <li>We can not expect noisy data without temporal patterns to be valuable in evaluating algorithms, and thus this type of data will not be useful in NAB.</li>
+            </ul>
+        </li>
+    </ul>
+
+    <h3 id="what-are-the-rules">What are the rules?</h3>
+
+    <ul>
+        <li>Entrants may make more than one submission in each category, but the algorithms/datasets must be unique (i.e. not just a tweak in the parameters).</li>
+        <li>Results from submitted algorithms must be reproducible; either the algorithm code is open source or accompanied with a sufficient documentation detailing the algorithm.</li>
+        <li>Submitted algorithms must meet the following criteria:
+            <ul>
+                <li>Any sort of look ahead is not allowed. Detections by the algorithm must be made on the fly, one record at a time. </li>
+                <li>There must be no batch, or per data file, manual parameter tuning. The algorithm must be fully automated with a single set of parameters across all data files. Any further parameter tuning required by the algorithm must be done on the fly. For example, it is not possible to look through a dataset, set a threshold, and then run through the data again. (One exception to this rule is that we allow the algorithm to know the range of data values for each data file. In the NAB detector code, the min/max value of each data file is passed in automatically when each algorithm is initialized.)</li>
+                <li>The algorithm treats each file independently. The algorithm is initialized from scratch for each stream using a single constant set of parameters.</li>
+                <li>It is not required to use NAB code to run your algorithm, but the reported scores must have been generated using the NAB scoring code. There are several ways to do this as detailed in the NAB wiki [3].</li>
+            </ul>
+        </li>
+        <li>Submitted data must meet the following criteria:
+            <ul>
+                <li>Data files must be consistent with the existing NAB format and work with the existing codebase</li>
+                <li>Univariate time-series data, from a real-world source.</li>
+                <li>Each stream must be greater than 1000 records, where each record represents an equal amount of time (e.g. 5-minute intervals), and records are in chronological order.</li>
+                <li>Any submission, regardless of eventual competition outcome, may be included in NAB. As such the data must be freely sharable; anyone will be able to view and download it from the NAB repository. Appropriate acknowledgment will be given.</li>
+                <li>The data must be accompanied by a set of anomaly labels, along with a description of the data source.</li>
+            </ul>
+        </li>
+    </ul>
+
+    <h3 id="what-is-the-deadline">What is the deadline?</h3>
+
+    <p/>Submissions are due July 1, 2016 to allow the judges ample time to validate the results. Yet we encourage early submissions and questions such that we may help ensure the submissions qualify. Please send submissions and questions to us at <a href="mailto:nab@numenta.org">nab@numenta.org</a>.
+
+    <h3 id="what-are-the-prizes">What are the prizes?</h3>
+
+    <p/>Numenta will award cash prizes of $3000 for the algorithm component, and $3000 for the dataset component. A single entrant is eligible to win both. Prizes for each category will only be awarded if there are at least three entrants in the category. For a submission in the algorithms component to be eligible for prize money, its NAB score must be greater than that of a random detector.
+
+</section>
