@@ -5,9 +5,30 @@
     ul {
         li {
             list-style: disc;
+            ul li {
+                list-style: circle;
+            }
         }
     }
     ul.toc li {
         list-style: none;
+    }
+    h1 {
+        small {
+            color: black;
+        }
+    }
+    h3 {
+        color: #555;
+    }
+    h4 {
+        color: #888;
+    }
+    h3:before, h4:before {
+        display: block; 
+        content: " "; 
+        margin-top: -110px; 
+        height: 110px; 
+        visibility: hidden; 
     }
 }
