@@ -29,7 +29,7 @@ source:       . # gh-pages
 encoding:     'utf-8'
 future:       true # events
 gems:         [ 'jekyll-redirect-from' ]
-highlighter:  pygments
+highlighter:  rouge
 lsi:          false # gh-pages
 markdown:     kramdown
 safe:         true # gh-pages
