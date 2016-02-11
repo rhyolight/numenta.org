@@ -105,7 +105,7 @@ styles:
 
     <p/> Attached with this entry are two data files of satellite data. These are station-keeping metrics for a Planet Labs “Dove”, an Earth-imagery cubesat <a href="#foot_ds1">[1]</a><a href="#foot_ds2">[2]</a> currently in orbit! The file <code>dove_array_temp.csv</code> contains 10,000 records of the satellite’s external temperature, where the metric is degrees Celsius. The file <code>dove_p.csv</code> is 6,610 records of the p-axis vector (in radians); this is one axis of a 4x1 quaternion that is used to orient the spacecraft <a href="#foot_ds3">[3]</a>. Both files have a column for timestamps in <code>m/d/yy h:mm</code> format, and one column for the metric values. The accompanying JSON file <code>dove_labels.json</code> contains anomaly labels for both of these files in the NAB format, where timestamps denote the start of each anomaly. The temperature data shows three anomalies: the first and third anomalies are fluctuations in the normal periodicity that correspond to attitude correction maneuvers as the satellite rotates in its nadir-pointing orbit <a href="#foot_ds4">[4]</a>, and the spike anomaly is where the temperature sensor has been exposed to direct sunlight. The quaternion data shows four anomalies, each representing rotational drag of the spacecraft due to the solar arrays; these are deployed like wings from the spacecraft and feel a pushing force from solar rays. Also included are plots showing the data and anomaly points.
 
-    <ul>
+    <ul class="footnotes">
         <li id="foot_ds1">[1] <a href="https://www.planet.com/" target="_blank">https://www.planet.com/</a></li>
         <li id="foot_ds2">[2] <a href="https://en.wikipedia.org/wiki/CubeSat" target="_blank">https://en.wikipedia.org/wiki/CubeSat</a></li>
         <li id="foot_ds3">[3] <a href="https://en.wikipedia.org/wiki/Quaternions_and_spatial_rotation" target="_blank">https://en.wikipedia.org/wiki/Quaternions_and_spatial_rotation</a></li>
@@ -140,7 +140,7 @@ styles:
 
     <p/>For questions and comments please contact Dr. Boltzmann at notarealperson@gmail.com.
 
-    <ul>
+    <ul class="footnotes">
         <li id="foot_ac1">[1] <a href="https://cran.r-project.org/web/packages/outliers/index.html" target="_blank">https://cran.r-project.org/web/packages/outliers/index.html</a></li>
         <li id="foot_ac2">[2] <a href="https://cran.r-project.org/web/packages/extremevalues/index.html" target="_blank">https://cran.r-project.org/web/packages/extremevalues/index.html</a></li>
     </ul>

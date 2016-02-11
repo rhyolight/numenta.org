@@ -10,7 +10,7 @@
             }
         }
     }
-    ul.toc li {
+    ul.toc li, ul.footnotes li {
         list-style: none;
     }
     h1 {
@@ -26,7 +26,7 @@
     h4 {
         color: #888;
     }
-    h3:before, h4:before {
+    h3:before, h4:before, ul.footnotes li {
         display: block; 
         content: " "; 
         margin-top: -110px; 
