@@ -33,4 +33,11 @@
         height: 110px; 
         visibility: hidden; 
     }
+    table td {
+        border: solid black 1px;
+        padding: 5px;
+    }
+    table td.empty {
+        border: none;
+    }
 }
