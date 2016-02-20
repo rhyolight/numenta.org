@@ -33,6 +33,7 @@ faq:      /faq/
 hack:     /hack/
 licenses: /licenses/
 lists:    /lists/
+nab:      /nab/
 refapi:   /docs/nupic/
 refcore:  /docs/nupic.core/
 refjava:  /docs/htm.java/

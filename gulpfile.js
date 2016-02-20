@@ -2,18 +2,14 @@
  * Numenta.org gulpfile.js build tooling
  */
 
+var checkpages = require('check-pages');
+var gulp = require('gulp');
+var gwebserver = require('gulp-webserver');
+var sitemap = require('gulp-sitemap');
+var spawn = require('child_process').spawn;
+var tap = require('gulp-tap');
 
-// externals
-
-var checkpages =  require('check-pages');
-var gulp =        require('gulp');
-var gwebserver =  require('gulp-webserver');
-var package =     require('./package.json');
-var sitemap =     require('gulp-sitemap');
-var spawn =       require('child_process').spawn;
-var tap =         require('gulp-tap');
-
-// internals
+var package = require('./package.json');
 
 var host = process.env.TEST_HOST || 'http://localhost';
 var port = process.env.TEST_PORT || 8008;

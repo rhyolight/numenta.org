@@ -72,7 +72,8 @@ npm run dev
 **View** local development site:
 > http://localhost:4000
 
-**Test** webtests and linkchecks against local environment:
+**Test** by starting up a dev webserver on default port (8008) and run webtests
+and linkchecks against local environment:
 ```
 # use defaults
 npm run test
