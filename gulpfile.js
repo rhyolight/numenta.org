@@ -39,12 +39,16 @@ gulp.task('checkpages', function (callback) {
     '/licenses/code/',
     '/lists/',
     '/media/',
+    '/nab/',
     '/news/',
     '/report/',
     '/search/',
     '/sitemap/',
     '/styleguide/'
   ].map(function(url) {
+    if(port == 80) {
+      return host + path + url;
+    }
     return host + ':' + port + path + url;
   });
 
