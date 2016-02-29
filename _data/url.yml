@@ -47,7 +47,7 @@ sitemap:  /sitemap/
 ext:
 
   # Homepage Linux Quickstart instructions - hosted nupic.bindings wheel package
-  package: https://s3-us-west-2.amazonaws.com/artifacts.numenta.org/numenta/nupic.core/releases/nupic.bindings/nupic.bindings-0.2.2-cp27-none-linux_x86_64.whl
+  package: https://s3-us-west-2.amazonaws.com/artifacts.numenta.org/numenta/nupic.core/releases/nupic.bindings/nupic.bindings-0.4.0-cp27-none-linux_x86_64.whl
 
   # numenta
   events:     http://numenta.com/events/
