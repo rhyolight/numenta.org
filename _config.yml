@@ -5,8 +5,7 @@
 
 ### about
 
-baseurl: http://numenta.org  # production
-#baseurl: /numenta.org  # staging
+baseurl: http://rhyolight.github.io/numenta.org/
 title: NuPIC
 tagline: Numenta Platform for Intelligent Computing
 company: Numenta
