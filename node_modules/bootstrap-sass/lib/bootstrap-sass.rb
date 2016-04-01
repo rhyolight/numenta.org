@@ -7,6 +7,8 @@ module Bootstrap
 
       if rails?
         register_rails_engine
+      elsif lotus?
+        register_lotus
       elsif sprockets?
         register_sprockets
       end
@@ -41,11 +43,15 @@ module Bootstrap
     end
 
     def compass?
-      defined?(::Compass)
+      defined?(::Compass::Frameworks)
     end
 
     def rails?
       defined?(::Rails)
+    end
+
+    def lotus?
+      defined?(::Lotus)
     end
 
     private
@@ -71,6 +77,10 @@ module Bootstrap
 
     def register_rails_engine
       require 'bootstrap-sass/engine'
+    end
+
+    def register_lotus
+      Lotus::Assets.sources << assets_path
     end
 
     def register_sprockets

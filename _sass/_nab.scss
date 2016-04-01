@@ -1,0 +1,43 @@
+/**
+ * NAB Competition Page
+ */
+#nab-competition {
+    ul {
+        li {
+            list-style: disc;
+            ul li {
+                list-style: circle;
+            }
+        }
+    }
+    ul.toc li, ul.footnotes li {
+        list-style: none;
+    }
+    h1 {
+        text-align: center;
+        small {
+            color: black;
+            font-style: italic;
+        }
+    }
+    h3 {
+        color: #555;
+    }
+    h4 {
+        color: #888;
+    }
+    h3:before, h4:before {
+        display: block; 
+        content: " "; 
+        margin-top: -110px; 
+        height: 110px; 
+        visibility: hidden; 
+    }
+    table td {
+        border: solid black 1px;
+        padding: 5px;
+    }
+    table td.empty {
+        border: none;
+    }
+}

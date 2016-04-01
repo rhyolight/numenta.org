@@ -1,0 +1,189 @@
+---
+layout: default
+title: NAB Competition
+styles:
+  - "/assets/css/nab.css"
+---
+
+<section id="nab-competition">
+
+    <h1>
+        The Numenta Anomaly Benchmark Competition<br/>
+        For Real-Time Anomaly Detection<br/>
+        <small>Part of the <a target="_blank" href="http://www.wcci2016.org/programs.php?id=home">IEEE WCCI</a> (World Congress on Computational Intelligence)</small>
+    </h1>
+
+    <p>Do you have an algorithm that detects anomalies in streaming data? Or a dataset of real-world, time-series data with labeled anomalies? If so, you’re encouraged to enter the Numenta Anomaly Benchmark (NAB) Competition.</p>
+
+    <ul class="toc">
+        <li><a href="#what-is-nab">What is NAB?</a></li>
+        <li><a href="#why-is-it-important">Why is it important?</a></li>
+        <li><a href="#what-is-the-nab-competition">What is the NAB competition?</a></li>
+        <li><a href="#how-do-i-enter">How do I enter?</a>
+            <ul>
+                <li><a href="#algorithms-category">Algorithms Category</a></li>
+                <li><a href="#dataset-category">Dataset Category</a></li>
+            </ul>
+        </li>
+        <li><a href="#what-are-some-example-entries">What are some example entries?</a></li>
+        <li><a href="#what-are-the-rules">What are the rules?</a></li>
+        <li><a href="#what-are-the-prizes">What are the prizes?</a></li>
+        <li><a href="#what-is-the-deadline">What is the deadline?</a></li>
+    </ul>
+
+    <h3 id="what-is-nab">What is NAB?</h3>
+
+    <p/>The Numenta Anomaly Detection Benchmark (NAB) attempts to provide a controlled and repeatable environment of open-source tools to test and measure anomaly detection algorithms on streaming data.
+
+    <p/>NAB is available at <a target="_blank" href="https://github.com/numenta/NAB">https://github.com/numenta/NAB</a>. You can learn more about NAB in this paper: <a target="_blank" href="http://arxiv.org/abs/1510.03336">http://arxiv.org/abs/1510.03336</a> or this video presentation, given by VP Research Subutai Ahmad at MLConf Nov 2015: <a href="https://www.youtube.com/watch?v=SxtsCrTHz-4" target="_blank">Evaluating Real-Time Anomaly Detection: The Numenta Benchmark</a>.
+
+    <h3 id="why-is-it-important">Why is it important?</h3>
+
+    <p/>Much of the world’s data is streaming, time-series data, where anomalies give significant information in often-critical situations; examples abound in domains such as finance, IT, security, medical, and energy. Yet detecting anomalies in streaming data is a difficult task, requiring detectors to process data in real-time, not batches, and learn while simultaneously making predictions.
+
+    <h3 id="what-is-the-nab-competition">What is the NAB competition?</h3>
+
+    <p/><a href="http://numenta.com" target="_blank">Numenta</a> is conducting this competition in association with the IEEE WCCI (World Congress on Computational Intelligence). The WCCI NAB competition has two categories:
+
+    <ol>
+        <li>Algorithms: what is the best algorithm for detecting anomalies in streaming data?</li>
+        <li>Datasets: what is the best data contribution to the benchmark corpus?</li>
+    </ol>
+
+    <h3 id="how-do-i-enter">How do I enter?</h3>
+
+    <p/>You may submit to either the algorithms or datasets components, or both. Please send all submissions to <a href="mailto:nab@numenta.org">nab@numenta.org</a>.
+
+    <h4 id="algorithms-category">Algorithms Category</h4>
+
+    <p/>To enter the Algorithms category, you must submit your anomaly detection algorithm and the results of running it on NAB. Deliverables include:
+
+    <ul>
+        <li>Detailed description of algorithm(s), including NAB results</li>
+        <li>Code to run your algorithm and recreate the results (link to Github repository is fine)</li>
+        <li>List of contributors and contact information</li>
+    </ul>
+
+    <p/>We will evaluate your algorithm by running your code on NAB v1.0, given it meets the requirements described above. Final results will be disclosed at the conference, and then posted to the NAB repository scoreboard.
+
+    <h4 id="dataset-category">Dataset Category</h4>
+
+    <p/>To enter the Dataset category, you must submit real-world, time-series data with labeled anomalies. Deliverables include: 
+
+    <ul>
+        <li>Data file(s) in CSV format
+            <ul>
+                <li>one header row</li>
+                <li>fields for "timestamp" (time at the end of the metric collection window) and "value" (the metric as either float or integer)</li>
+            </ul>
+        </li>
+        <li>Anomaly labels &mdash; timestamps at which the anomalies start</li>
+        <li>Description of the data and anomalies</li>
+    </ul>
+    
+    <p/>We will evaluate your dataset against the following characteristics: 
+    
+    <ul>
+        <li>meeting the requirements described above</li>
+        <li>interesting types of anomalies</li>
+        <li>relevance to real applications</li>
+        <li>accuracy/quality of anomaly labels</li>
+        <li>good challenges for detection algorithms</li>
+        <li>quantity of data &mdash; the more files in your submission the better</li>
+        <li>feasibility for algorithms to detect anomalies
+            <ul>
+                <li>We can not expect noisy data without temporal patterns to be valuable in evaluating algorithms, and thus this type of data will not be useful in NAB.</li>
+            </ul>
+        </li>
+    </ul>
+
+    <h3 id="what-are-some-example-entries">What are some example entries?</h3>
+
+    <p/>We’ve provided two example entries to give you an idea of what a submission in each category would look like. 
+
+    <h4>DATASET CATEGORY</h4>
+
+    <p/> Attached with this entry are two data files of satellite data. These are station-keeping metrics for a Planet Labs “Dove”, an Earth-imagery cubesat [1,2] currently in orbit! The file <code>dove_array_temp.csv</code> contains 10,000 records of the satellite’s external temperature, where the metric is degrees Celsius. The file <code>dove_p.csv</code> is 6,610 records of the p-axis vector (in radians); this is one axis of a 4x1 quaternion that is used to orient the spacecraft [3]. Both files have a column for timestamps in <code>m/d/yy h:mm</code> format, and one column for the metric values. The accompanying JSON file <code>dove_labels.json</code> contains anomaly labels for both of these files in the NAB format, where timestamps denote the start of each anomaly. The temperature data shows three anomalies: the first and third anomalies are fluctuations in the normal periodicity that correspond to attitude correction maneuvers as the satellite rotates in its nadir-pointing orbit [4], and the spike anomaly is where the temperature sensor has been exposed to direct sunlight. The quaternion data shows four anomalies, each representing rotational drag of the spacecraft due to the solar arrays; these are deployed like wings from the spacecraft and feel a pushing force from solar rays. Also included are plots showing the data and anomaly points.
+
+    <ul class="footnotes">
+        <li id="foot_ds1">[1] <a href="https://www.planet.com/" target="_blank">https://www.planet.com/</a></li>
+        <li id="foot_ds2">[2] <a href="https://en.wikipedia.org/wiki/CubeSat" target="_blank">https://en.wikipedia.org/wiki/CubeSat</a></li>
+        <li id="foot_ds3">[3] <a href="https://en.wikipedia.org/wiki/Quaternions_and_spatial_rotation" target="_blank">https://en.wikipedia.org/wiki/Quaternions_and_spatial_rotation</a></li>
+        <li id="foot_ds4">[4] <a href="https://en.wikipedia.org/wiki/Nadir" target="_blank">https://en.wikipedia.org/wiki/Nadir</a></li>
+    </ul>
+
+
+    <h4>ALGORITHMS CATEGORY</h4>
+
+    <p/>The table below shows the results of running my algorithm, “BAD”, on NAB. 
+
+    <table>
+    <thead>
+        <tr>
+            <td class="empty"></td>
+            <td>Standard profile</td>
+            <td>Reward low-FP profile</td>
+            <td>Reward low-FN profile</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>NAB score</td>
+            <td>38.3</td>
+            <td>33.3</td>
+            <td>42.0</td>
+        </tr>
+    </tbody>
+    </table>
+
+    <p>The algorithm bags together two outlier detectors, “outliers” [1] and “extremevalues” [2], which are both open-source R packages. To bag them they are run independently, each producing a probability that a given data point is anomalous, and the mean of these probabilities is the final anomaly likelihood. Running the NAB threshold optimization step, my algorithm has a detection threshold of 0.89 for all three scoring profiles. More info, along with the open-sourced code and NAB results files, can be found in the GitHub repository: gitub.com/baggedanomalydetectors. The repo includes directions on how to run the R code, which will generate CSV files with anomaly detections that you can then run through the NAB scoring system.</p>
+
+    <p/>For questions and comments please contact Dr. Boltzmann at notarealperson@gmail.com.
+
+    <ul class="footnotes">
+        <li id="foot_ac1">[1] <a href="https://cran.r-project.org/web/packages/outliers/index.html" target="_blank">https://cran.r-project.org/web/packages/outliers/index.html</a></li>
+        <li id="foot_ac2">[2] <a href="https://cran.r-project.org/web/packages/extremevalues/index.html" target="_blank">https://cran.r-project.org/web/packages/extremevalues/index.html</a></li>
+    </ul>
+
+    <h3 id="what-are-the-rules">What are the rules?</h3>
+
+    <ul>
+        <li>Entrants may make more than one submission in each category, but the algorithms/datasets must be unique (i.e. not just a tweak in the parameters).</li>
+        <li>Results from submitted algorithms must be reproducible; either the algorithm code is open source or accompanied with a sufficient documentation detailing the algorithm.</li>
+        <li>Submitted algorithms must meet the following criteria:
+            <ul>
+                <li>Any sort of look ahead is not allowed. Detections by the algorithm must be made on the fly, one record at a time. </li>
+                <li>There must be no batch, or per data file, manual parameter tuning. The algorithm must be fully automated with a single set of parameters across all data files. Any further parameter tuning required by the algorithm must be done on the fly. For example, it is not possible to look through a dataset, set a threshold, and then run through the data again. (One exception to this rule is that we allow the algorithm to know the range of data values for each data file. In the NAB detector code, the min/max value of each data file is passed in automatically when each algorithm is initialized.)</li>
+                <li>The algorithm treats each file independently. The algorithm is initialized from scratch for each stream using a single constant set of parameters.</li>
+                <li>It is not required to use NAB code to run your algorithm, but the reported scores must have been generated using the NAB scoring code. There are several ways to do this as detailed in the NAB wiki [3].</li>
+            </ul>
+        </li>
+        <li>Submitted data must meet the following criteria:
+            <ul>
+                <li>Data files must be consistent with the existing NAB format and work with the existing codebase</li>
+                <li>Univariate time-series data, from a real-world source.</li>
+                <li>Each stream must be greater than 1000 records, where each record represents an equal amount of time (e.g. 5-minute intervals), and records are in chronological order.</li>
+                <li>Any submission, regardless of eventual competition outcome, may be included in NAB. As such the data must be freely sharable; anyone will be able to view and download it from the NAB repository. Appropriate acknowledgment will be given.</li>
+                <li>The data must be accompanied by a set of anomaly labels, along with a description of the data source.</li>
+            </ul>
+        </li>
+        <li>Official contest entrants must be participants of WCCI, however non-attendees are still eligible to win prizes outside of the conference.  Numenta will judge submissions in two separate groups:
+            <ul>
+                <li>WCCI attendees will be eligible for cash prizes and winners will be announced by conference staff during the event.</li>
+                <li>Non-WCCI attendees will be eligible for cash prizes and will be announced separately by Numenta after WCCI. </li>
+            </ul>
+        </li>
+    </ul>
+
+    <h3 id="what-are-the-prizes">What are the prizes?</h3>
+
+    <p/>For entrants participating in WCCI, Numenta will award cash prizes of $2,500 for the algorithm component, and $2,500 for the dataset component. A single entrant is eligible to win both. Prizes for each category will only be awarded if there are at least three entrants in the category. For a submission in the algorithms component to be eligible for prize money, its NAB score must be greater than that of a random detector.
+
+    <p/>For entrants not participating in WCCI, Numenta will award the same amounts under the same guidelines.
+
+    <h3 id="what-is-the-deadline">What is the deadline?</h3>
+
+    <p/>Submissions are due July 1, 2016 to allow the judges ample time to validate the results. Yet we encourage early submissions and questions such that we may help ensure the submissions qualify. Please send submissions and questions to us at <a href="mailto:nab@numenta.org">nab@numenta.org</a>.
+
+
+</section>

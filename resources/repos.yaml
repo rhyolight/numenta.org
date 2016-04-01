@@ -13,7 +13,7 @@ description: This is the one-stop location where details about all Numenta open
       type: primary
       travis: true
       appveyor: 
-         badge: https://ci.appveyor.com/api/projects/status/pfmrvtvkggm1bo2i/branch/master?svg=true
+         badge: https://ci.appveyor.com/api/projects/status/4toemh0qtr21mk6b/branch/master?svg=true
          url: https://ci.appveyor.com/project/numenta-ci/nupic/branch/master
       coverage: true
 
@@ -21,7 +21,7 @@ description: This is the one-stop location where details about all Numenta open
       type: primary
       travis: true
       appveyor: 
-         badge: https://ci.appveyor.com/api/projects/status/q9bc043vrhgd88sw/branch/master?svg=true
+         badge: https://ci.appveyor.com/api/projects/status/px32pcil23vunml0/branch/master?svg=true
          url: https://ci.appveyor.com/project/numenta-ci/nupic-core/branch/master
       coverage: true
 
@@ -99,14 +99,6 @@ description: This is the one-stop location where details about all Numenta open
       type: app
       monitor: false
 
-    - slug: numenta/nupic.fluent
-      type: app
-      travis: true
-      coverage: true
-
-    - slug: numenta/nupic.fluent.server
-      type: app
-
     - slug: numenta/nupic.cerebro
       type: app
 
@@ -116,11 +108,13 @@ description: This is the one-stop location where details about all Numenta open
     - slug: numenta/nupic.cerebro2.server
       type: app
 
-    - slug: numenta/nupic.critic
-      type: app
-
     - slug: numenta/nupic.nlp-examples
       type: app
+
+    - slug: numenta/htm.java-examples
+      type: app
+      travis: true
+      coverage: true
 
     # Ports of HTM to other environments
     - slug: numenta/htm.java

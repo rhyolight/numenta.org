@@ -37,7 +37,13 @@
   // Get contributor listing for initial table load.
   $.ajax(csvUrl).done(function(csv) {
     var $commitTable;
-    var repoSlugs = [ 'numenta/nupic', 'numenta/nupic.core' ];
+    var repoSlugs = [
+      'numenta/nupic',
+      'numenta/nupic.core',
+      'numenta/htm.java',
+      'numenta/nupic.research',
+      'numenta/NAB'
+    ];
     var contribData = [];
     var contribs = csvToJson(csv).map(function(contributor) {
       contributor.Commits = '';

@@ -17,6 +17,9 @@ Finally, as you may know, we have a dual license strategy for NuPIC in that [we 
 
 I believe that these license changes will have a positive impact both for the NuPIC open source community as well as for potential commercial partners.  Other than the SaaS change, there is no other change in the open source license such that researchers, students, and individual programmers can continue their work as before.   Commercial participants can use our Trial License, and will soon be able to evaluate our new standard licenses.
 
-Links to the AGPL license and the new Trial License are below.
-
 Thank you for your continued support.
+
+Links:
+* [AGPLv3 License](http://www.gnu.org/licenses/agpl-3.0.en.html)
+* [Numenta Trial License](http://numenta.org/licenses/trial/)
+* [Numenta Commercial License](http://numenta.org/blog/2013/12/16/nupic-commercial-licenses.html)
