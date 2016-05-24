@@ -61,17 +61,6 @@ ext:
   roadmap:    http://status.numenta.org/roadmap
   terms:      http://numenta.com/legal/terms.html
 
-  # lists
-  list:
-    general: http://lists.numenta.org/mailman/listinfo/nupic_lists.numenta.org
-    hackers: http://lists.numenta.org/mailman/listinfo/nupic-hackers_lists.numenta.org
-    theory:  http://lists.numenta.org/mailman/listinfo/nupic-theory_lists.numenta.org
-
-    archive:
-      general: http://lists.numenta.org/pipermail/nupic_lists.numenta.org/
-      hackers: http://lists.numenta.org/pipermail/nupic-hackers_lists.numenta.org/
-      theory:  http://lists.numenta.org/pipermail/nupic-theory_lists.numenta.org/
-
   # github, mostly wiki
   build:      https://github.com/numenta/nupic/wiki/Installing-and-Building-NuPIC
   communal:   https://github.com/numenta/nupic/wiki/Community-Content
