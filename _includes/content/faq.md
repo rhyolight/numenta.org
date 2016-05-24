@@ -50,8 +50,7 @@ however.
 The algorithmic mechanism for creating an effective learned spatiotemporal
 hierarchy using the CLA is still very much a research topic. A good mechanism
 for temporal pooling within a hierarchical architecture is an active area of
-research for Jeff and the NuPIC community. Please search our mailing list
-archives for discussion and proposals on that topic.
+research for Jeff and the NuPIC community.
 
 ## What is the difference between HTM and CLA?
 

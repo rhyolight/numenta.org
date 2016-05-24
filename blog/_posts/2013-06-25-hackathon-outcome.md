@@ -168,9 +168,9 @@ we can improve NuPIC for all our users and contributors. Don't doubt that we'll
 be taking all your comments and critiques into consideration as we continue to
 mature our open source offering.
 
-If you are interesting in joining our next hackathon, please
-[sign up for our mailing list](http://lists.numenta.org/mailman/listinfo/nupic_lists.numenta.org),
-were I'll continue to post notifications about future events.
+If you are interesting in joining our next hackathon, please watch
+[HTM Forum](https://discourse.numenta.org/categories),
+where I'll continue to post notifications about future events.
 
 <br/>
 

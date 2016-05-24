@@ -198,7 +198,7 @@ o.subscribe(new Subscriber<Inference>() {
 
 Now that the ground work has been laid, there is a **TON** of things to do! If
 you would like to get your name in bright lights, or simply help out with
-HTM.java drop a line to the **hackers** mailing list and offer to help - all are
+HTM.java drop a line in the [HTM.Java Forum](https://discourse.numenta.org/c/htm-java) and offer to help - all are
 welcome (at any level!).
 
 For more in depth information (Work in progress), start here with the
