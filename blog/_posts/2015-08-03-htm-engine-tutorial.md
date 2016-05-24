@@ -27,5 +27,4 @@ live traffic speeds from
 and feeds them into NuPIC models simultaneously.
 
 I hope you find this screencast useful. Please let me know if you have any
-troubles getting it running by emailing at <matt@numenta.org>, or just send your
-message to the [nupic-discuss mailing list]({{baseurl}}/lists).
+troubles getting it running by emailing at <matt@numenta.org>, or just start a topic on the [HTM Forum](https://discourse.numenta.org/categories).

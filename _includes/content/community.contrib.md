@@ -1,7 +1,6 @@
 ##### Contribute
 
-* <i></i> [NuPIC Hackers]({{ site.data.url.ext.list.hackers }}) mailing list
-  ([web archive]({{ site.data.url.ext.list.archive.hackers}}))
+* <i></i> [NuPIC Developer Forum](https://discourse.numenta.org/c/nupic/developers)
 * <i></i> [Contribution Guidelines]({{ site.data.url.ext.contrib }})
 * <i></i> [Development Roadmap]({{ site.data.url.ext.roadmap }})
 * <i class="fa-warning"></i> [Issue Trackers]({{ site.data.url.ext.issues }})
