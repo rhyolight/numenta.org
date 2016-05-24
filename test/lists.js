@@ -39,35 +39,11 @@ describe('Mailing Lists', function () {
 
       it('should contain valid text', function () {
         casper.then(function () {
-          selector.should.have.text(/NuPIC Mailing Lists/);
+          selector.should.have.text(/All our mailing lists have migrated!/);
         });
       });
 
     }); // h1
-
-    describe('Paragraph Text', function () {
-
-      var selector = "main section p";
-
-      it('should exist', function () {
-        casper.then(function () {
-          selector.should.be.inDOM;
-        });
-      });
-
-      it('should be visible', function () {
-        casper.then(function () {
-          selector.should.be.visible;
-        });
-      });
-
-      it('should contain valid text', function () {
-        casper.then(function () {
-          selector.should.have.text(/any other topic/);
-        });
-      });
-
-    }); // p
 
   }); // content
 
