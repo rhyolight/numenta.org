@@ -1,6 +1,6 @@
 overview:
   -
-    link: http://numenta.com/learn/principles-of-hierarchical-temporal-memory.html
+    link: http://numenta.com/learn/htm-videos-from-jeff-hawkins.html
     name: Principles of Hierarchical Temporal Memory (HTM)
     desc: Foundations of Machine Intelligence
   -
@@ -26,7 +26,7 @@ overview:
 
 advanced:
   -
-    link: http://numenta.com/learn/what-the-brain-says-about-machine-intelligence.html
+    link: http://numenta.com/learn/htm-videos-from-jeff-hawkins.html
     name: What the Brain Says about Machine Intelligence
   -
     link: http://numenta.com/learn/science-of-anomaly-detection.html
@@ -36,7 +36,7 @@ advanced:
     name: Sparse Distributed Representations
     desc: Our Brain's Data Structure
   -
-    link: http://numenta.com/learn/properties-of-sparse-distributed-representations.html
+    link: http://arxiv.org/abs/1503.07469
     name: Properties of SDRs and their Application to HTM
   -
     link: http://numenta.com/learn/hierarchical-temporal-memory-basics-tutorial.html
